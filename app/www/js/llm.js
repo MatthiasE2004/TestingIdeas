@@ -5,6 +5,7 @@
   var CATALOG=[
     {id:'qwen3-0.6b',name:'Qwen3 0.6B',params:'0.6B',repo:'onnx-community/Qwen3-0.6B-ONNX',mb:520,note:'Small chat model; thinking is switched off.',qwen3:true}
   ];
+  var NATIVE=!!(window.Android&&window.Android.llmPost),useNative=false;
   var worker=null,cur=null,backend=null,state='idle',lastErr=null,subs=[],prog={},seq=0,calls={},lastInfo={};
   var t0dl=0,lastB=0,lastT=0,speed=0;
   function emit(extra){subs.forEach(function(f){try{f(Object.assign({state:state,model:cur,backend:backend,error:lastErr},extra||{}))}catch(e){}})}
