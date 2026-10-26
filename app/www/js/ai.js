@@ -24,9 +24,13 @@
         if(opts.model)txt+='\n\nSuggested answer:\n'+opts.model;
         return {text:txt.trim(),source:'rules',covered:cov};};
       if(!AI.available())return Promise.resolve(rules());
-      var sys='You are a concise, encouraging tutor for a university-level course. Give feedback in at most 120 words: one sentence on what is good, then up to 2 specific things missing or to improve, referring to the key points. Do not rewrite the whole answer. Plain text, no markdown.';
-      var p='Question: '+opts.question+(opts.context?'\nContext: '+opts.context:'')+'\nKey points a good answer should include:\n- '+(opts.points||[]).join('\n- ')+'\n\nStudent answer:\n'+opts.answer+'\n\nFeedback:';
-      return AI.ask({system:sys,prompt:p,maxTokens:220,temperature:0.4,onToken:opts.onToken}).then(function(t){return {text:t.trim(),source:'ai',covered:cov}}).catch(function(){return rules()});
+      // keep the prompt short: on CPU every prompt token costs time
+      var sys='You are a friendly tutor. Reply in under 70 words, plain text: one thing the student did well, then one thing missing. Compare to the key points.';
+      var pts=(opts.points||[]).slice(0,4).map(function(p){return '- '+p}).join('\n');
+      var p='Question: '+String(opts.question).slice(0,280)+'\nKey points:\n'+pts+'\nStudent answer: '+String(opts.answer).slice(0,500)+'\nFeedback:';
+      return AI.ask({system:sys,prompt:p,maxTokens:110,temperature:0.3,onToken:opts.onToken}).then(function(t){return {text:t.trim(),source:'ai',covered:cov}}).catch(function(e){var r=rules();
+        if(e&&(e.message==='timeout'||e.message==='cancelled'))r.text=(e.message==='timeout'?'The AI took too long, so here is a self-check instead.\n\n':'Cancelled. Self-check instead:\n\n')+r.text;
+        return r});
     },
     coverage:coverage
   };

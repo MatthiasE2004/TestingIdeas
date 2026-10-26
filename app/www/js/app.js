@@ -186,10 +186,16 @@
     box.appendChild(ta);
     var btn=h('button',{class:'btn primary sm',onclick:function(){
       var v=ta.value.trim();if(!v){H.toast('Write something first');return}Store.setAns(b.id,v);btn.disabled=true;out.innerHTML='';
-      var ai=h('div',{class:'ai-box',style:{marginTop:'12px'}},h('span',{class:'label'},AI.available()?'AI tutor · on-device':'Checking...'),h('span',{class:'t'},AI.available()?'Thinking...':''));out.appendChild(ai);
-      AI.feedback({question:b.prompt,answer:v,points:b.points||[],model:b.model,context:b.title,onToken:function(t){ai.querySelector('.t').textContent=t}}).then(function(r){
-        ai.querySelector('.label').textContent=r.source==='ai'?'AI tutor · on-device':'Self-check · key ideas';ai.querySelector('.t').textContent=r.text;
-        if(r.source==='ai'&&r.covered&&r.covered.length){ai.appendChild(h('div',{style:{marginTop:'10px',fontSize:'.85rem',color:'#9a9a9a'}},'Key ideas: '+r.covered.filter(function(c){return c.hit}).length+'/'+r.covered.length+' touched'))}
+      var useAI=AI.available(),t0=Date.now(),got=false,tick=null;
+      var lbl=h('span',{class:'label'},useAI?'AI tutor \u00b7 on-device':'Checking...'),txt=h('span',{class:'t'},useAI?'Thinking...':'');
+      var cancel=h('button',{class:'btn sm',style:{marginTop:'10px',background:'#2a2a2a',color:'#fff'},onclick:function(){LLM.cancel()}},'Cancel');
+      var ai=h('div',{class:'ai-box',style:{marginTop:'12px'}},lbl,txt);out.appendChild(ai);
+      if(useAI){ai.appendChild(h('br'));ai.appendChild(cancel);
+        tick=setInterval(function(){if(got)return;var s=Math.round((Date.now()-t0)/1000);txt.textContent='Thinking... '+s+' s'+(s>8?'\n(the first words can take up to a minute on CPU)':'')},1000)}
+      AI.feedback({question:b.prompt,answer:v,points:b.points||[],model:b.model,context:b.title,onToken:function(t){got=true;txt.textContent=t}}).then(function(r){
+        clearInterval(tick);cancel.remove();
+        lbl.textContent=r.source==='ai'?'AI tutor \u00b7 on-device':'Self-check \u00b7 key ideas';txt.textContent=r.text;
+        if(r.source==='ai'&&r.covered&&r.covered.length){ai.appendChild(h('div',{style:{marginTop:'10px',fontSize:'.85rem',color:'#9a9a9a'}},'Key ideas: '+r.covered.filter(function(c){return c.hit}).length+'/'+r.covered.length+' touched \u00b7 '+((Date.now()-t0)/1000).toFixed(0)+' s'))}
         btn.disabled=false;if(b.model)showModel()})}},icon('spark',16),' Get feedback');
     var modelBox=h('div'),shown=false;
     function showModel(){if(shown||!b.model)return;shown=true;modelBox.appendChild(h('div',{class:'callout note',style:{marginTop:'12px'}},h('div',{class:'label'},'Model answer'),h('div',{html:md(b.model)})))}
@@ -233,7 +239,7 @@
     card.appendChild(status);card.appendChild(diag);
     LLM.gpuInfo().then(function(g){diag.textContent='WebGPU: '+(g.webgpu?('yes'+(g.f16?' (fp16)':'')+(g.desc?' · '+g.desc:'')):'not available - CPU mode')+' · secure context: '+(self.isSecureContext?'yes':'no')+' · isolated: '+(self.crossOriginIsolated?'yes':'no')});
     var dev=h('div',{class:'row',style:{margin:'12px 0'}},h('span',{class:'tiny muted'},'Run on:'));
-    [['auto','Auto (GPU first)'],['webgpu','GPU only'],['wasm','CPU only']].forEach(function(d){dev.appendChild(h('button',{class:'chip'+(Store.settings.device===d[0]?' on':''),onclick:function(){Store.settings.device=d[0];Store.saveSettings();var p=card.parentNode;p.replaceChild(aiCard(),card)}},d[1]))});
+    [['wasm','CPU (stable)'],['webgpu','GPU (experimental)']].forEach(function(d){dev.appendChild(h('button',{class:'chip'+((Store.settings.device==='webgpu'?'webgpu':'wasm')===d[0]?' on':''),onclick:function(){Store.settings.device=d[0];Store.saveSettings();var p=card.parentNode;p.replaceChild(aiCard(),card)}},d[1]))});
     card.appendChild(dev);
     var list=h('div'),testOut=h('div'),other=h('div'),store=h('div',{class:'tiny muted',style:{marginTop:'10px'}}),inst={},live=null,lastErrByRepo={};
     function renderStatus(){var st=LLM.status();
@@ -275,6 +281,12 @@
     card.appendChild(h('div',{class:'row',style:{marginTop:'12px',flexWrap:'nowrap'}},cu,h('button',{class:'btn sm primary',onclick:function(){var v=cu.value.trim();if(!v)return;Store.settings.custom=v;Store.saveSettings();select({id:v,repo:v,name:v,custom:true,params:'?',mb:0})}},'Download')));
     var auto=h('button',{class:'sw'+(Store.settings.autoload?' on':''),onclick:function(){Store.settings.autoload=!Store.settings.autoload;Store.saveSettings();auto.classList.toggle('on')}});
     card.appendChild(h('div',{class:'row between',style:{marginTop:'14px'}},h('span',null,'Load selected model when the app starts'),auto));
+    var stOut=h('div',{style:{marginTop:'10px'}}),stBtn=h('button',{class:'btn primary sm',onclick:function(){
+      stBtn.disabled=true;stOut.innerHTML='';
+      SelfTest.run(function(steps){stOut.innerHTML='';steps.forEach(function(s){stOut.appendChild(h('div',{class:'model-row',style:{alignItems:'flex-start'}},
+        h('b',{style:{width:'110px',flex:'none',fontWeight:500}},s.name),h('div',{style:{flex:1,fontSize:'.88rem',wordBreak:'break-word'},class:s.status==='fail'?'bad':s.status==='ok'?'ok':s.status==='warn'?'':'muted'},(s.status==='run'?'... ':s.status==='ok'?'\u2713 ':s.status==='warn'?'\u26A0 ':'\u2717 ')+s.detail)))})})
+      .then(function(r){stBtn.disabled=false;stOut.appendChild(h('div',{class:'callout '+(r.ok?'tip':''),style:{marginTop:'10px'}},h('b',null,r.summary)));refresh()})}},'Run AI self-test');
+    card.appendChild(h('div',{style:{marginTop:'16px'}},h('div',{class:'label',style:{marginBottom:'6px'}},'Will the AI work on this device?'),h('p',{class:'muted tiny'},'Loads the selected model, writes a few words and a feedback sample, and checks the screen stays responsive.'),stBtn,stOut));
     var tin=h('input',{class:'input',value:'Explain in two sentences why a feasibility study matters before starting a project.'});
     card.appendChild(h('div',{style:{marginTop:'16px'}},h('div',{class:'label',style:{marginBottom:'6px'}},'Test the model'),tin,
       h('div',{class:'row',style:{marginTop:'8px'}},h('button',{class:'btn primary sm',onclick:function(){
