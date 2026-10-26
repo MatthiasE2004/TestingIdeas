@@ -41,11 +41,29 @@
       b.className='chip-ai '+cls;b.innerHTML='<i></i>'+H.esc(txt)}
     upd();var f=function(s){if(document.body.contains(b))upd(s)};LLM.on(f);return b}
 
+  /* ---------- crash guard ---------- */
+  // If the WebView renderer (or whole app) died while the model was loading/generating, fall back to CPU and say so.
+  (function crashCheck(){
+    var n=0,inf=null;try{n=window.Android&&Android.consumeRenderCrashes?Android.consumeRenderCrashes():0}catch(e){}
+    try{inf=JSON.parse(localStorage.getItem('learn.inflight'));localStorage.removeItem('learn.inflight')}catch(e){}
+    if(!n&&!inf)return;
+    var dev=(inf&&inf.dev)||'webgpu',was=Store.settings.device;
+    Store.settings.crash={stage:inf?inf.stage:'unknown',dev:dev,model:inf&&inf.model,t:Date.now(),switched:dev==='webgpu'&&was!=='wasm'};
+    if(Store.settings.crash.switched)Store.settings.device='wasm';
+    Store.settings.autoload=false;Store.saveSettings();window.__crashed=true})();
+  function crashBanner(){var c=Store.settings.crash;if(!c)return null;
+    var what=c.stage==='generate'?'while writing feedback':c.stage==='load'?'while loading the model':'unexpectedly';
+    var msg=c.dev==='webgpu'?'The AI engine crashed '+what+' on the GPU. I switched to CPU mode and turned off loading at start-up. Open Settings > Local AI and select your model again (CPU mode downloads a slightly different file the first time).'
+      :'The AI engine crashed '+what+' even on the CPU - most likely out of memory. Close other apps, or pick a smaller model (0.5B) in Settings > Local AI. Loading at start-up is off.';
+    return h('div',{class:'callout',style:{marginBottom:'14px'}},h('div',{class:'label',style:{marginBottom:'4px'}},'AI stopped unexpectedly'),h('div',null,msg),
+      h('div',{class:'row',style:{marginTop:'10px'}},h('button',{class:'btn sm primary',onclick:function(){go('#/settings')}},'Open settings'),h('button',{class:'btn sm ghost',onclick:function(){delete Store.settings.crash;Store.saveSettings();route()}},'Dismiss')))}
+
   /* ---------- home ---------- */
   function viewHome(){
     var root=h('div');
     var d=new Date(),ds=d.toLocaleDateString(undefined,{weekday:'long',day:'numeric',month:'long'});
     root.appendChild(h('div',{class:'topbar'},h('span',{class:'label'},ds),h('div',{class:'row'},aiChip(),h('button',{class:'round','aria-label':'Settings',onclick:function(){go('#/settings')},html:Dot.icon('gear')}))));
+    var cb=crashBanner();if(cb)root.appendChild(cb);
     root.appendChild(h('div',{class:'hero'},h('div',{class:'big',html:Dot.text('LEARN',{size:9,gap:1.2})}),h('p',{class:'muted',style:{marginTop:'14px'}},'Pick a course and continue where you left off.')));
     var grid=h('div',{class:'course-grid'}),cont=h('div');root.appendChild(cont);root.appendChild(grid);
     var lastTs=0,lastC=null;
@@ -203,6 +221,7 @@
     /* appearance */
     var th=h('div',{class:'row'});['auto','light','dark'].forEach(function(t){th.appendChild(h('button',{class:'chip'+(Store.settings.theme===t?' on':''),onclick:function(){Store.settings.theme=t;Store.saveSettings();applyTheme();viewSettings()}},t[0].toUpperCase()+t.slice(1)))});
     root.appendChild(h('div',{class:'card'},h('div',{class:'label'},'Appearance'),h('h3',{style:{margin:'4px 0 10px'}},'Theme'),th));
+    var cb2=crashBanner();if(cb2)root.insertBefore(cb2,root.children[1]);
     root.appendChild(aiCard());root.appendChild(syncCard());root.appendChild(dataCard());
     root.appendChild(h('div',{class:'card flat tiny muted'},h('b',null,'About. '),'Course content: The Open University, OpenLearn (CC BY-NC-SA 4.0): "Project management: the start of the project journey" and "Entrepreneurship: from ideas to reality". Reformatted for mobile learning with added practice questions and interactive tools. Not an official Open University product.'));}
 
@@ -298,7 +317,7 @@
   /* ---------- boot ---------- */
   fetchJSON('content/courses.json').then(function(i){index=i;route();
     var m=Store.settings.model;
-    if(Store.settings.autoload&&m){var ent=LLM.catalog.filter(function(c){return c.id===m})[0]||(Store.settings.custom&&Store.settings.custom===m?{id:m,repo:m,name:m,custom:true}:null);
+    if(Store.settings.autoload&&m&&!window.__crashed){var ent=LLM.catalog.filter(function(c){return c.id===m})[0]||(Store.settings.custom&&Store.settings.custom===m?{id:m,repo:m,name:m,custom:true}:null);
       if(ent&&LLM.downloaded(ent))setTimeout(function(){LLM.load(ent,{device:Store.settings.device}).catch(function(){})},1200)}
   }).catch(function(e){$app.textContent='Failed to load courses: '+e.message});
   window.__app={go:go,loadCourse:loadCourse};

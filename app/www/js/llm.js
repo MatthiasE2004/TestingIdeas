@@ -49,12 +49,12 @@
         var gi=r[1],want=opts.device||'auto';
         var devs=want==='wasm'?['wasm']:want==='webgpu'?['webgpu']:(gi.webgpu?['webgpu','wasm']:['wasm']);
         if(m.gpuOnly)devs=devs.filter(function(d){return d==='webgpu'}); if(!devs.length)throw new Error('This model needs WebGPU, which this WebView does not provide.');
-        function attempt(i){var dev=devs[i],dtype=m.fixedDtype||(dev==='webgpu'&&gi.f16?'q4f16':'q4');
+        function attempt(i){var dev=devs[i];try{localStorage.setItem('learn.inflight',JSON.stringify({stage:'load',dev:dev,model:m.id||m.repo,t:Date.now()}))}catch(e){}var dtype=m.fixedDtype||(dev==='webgpu'&&gi.f16?'q4f16':'q4');
           return tf.pipeline('text-generation',m.repo,{device:dev,dtype:dtype,progress_callback:progressCb}).then(function(p){backend=dev==='webgpu'?'GPU (WebGPU)':'CPU (WASM)';return p})
             .catch(function(e){ if(i+1<devs.length){console.warn('load on '+dev+' failed, trying next',e);return attempt(i+1)} throw e});}
         return attempt(0);
-      }).then(function(p){gen=p;state='ready';try{localStorage.setItem('learn.dl.'+m.repo,'1')}catch(e){} emit({progress:1});return m})
-        .catch(function(e){state='error';lastErr=String(e&&e.message||e);gen=null;
+      }).then(function(p){gen=p;state='ready';try{localStorage.removeItem('learn.inflight')}catch(e){}try{localStorage.setItem('learn.dl.'+m.repo,'1')}catch(e){} emit({progress:1});return m})
+        .catch(function(e){try{localStorage.removeItem('learn.inflight')}catch(x){}state='error';lastErr=String(e&&e.message||e);gen=null;
           // a failed first download leaves partial files behind: remove them so storage is not wasted
           var cleanup=hadFlag?Promise.resolve():LLM.purgeRepo(m.repo);
           return cleanup.then(function(){lastErr+=hadFlag?'':' (partial files were removed)';emit();throw e})});
@@ -87,12 +87,13 @@
         if(!gen)return Promise.reject(new Error('no-model'));
         var msgs=[]; if(o.system)msgs.push({role:'system',content:o.system});
         msgs.push({role:'user',content:o.prompt+((cur&&cur.qwen3)?' /no_think':'')});
+        try{localStorage.setItem('learn.inflight',JSON.stringify({stage:'generate',dev:/GPU/.test(backend||'')?'webgpu':'wasm',model:cur&&(cur.id||cur.repo),t:Date.now()}))}catch(e){}
         var text='',t0=Date.now(),n=0;
         var streamer=new tf.TextStreamer(gen.tokenizer,{skip_prompt:true,skip_special_tokens:true,callback_function:function(t){text+=t;n++;if(o.onToken)o.onToken(clean(text))}});
         var temp=o.temperature==null?0.5:o.temperature;
         return gen(msgs,{max_new_tokens:o.maxTokens||200,do_sample:temp>0,temperature:temp>0?temp:undefined,top_k:40,repetition_penalty:1.08,streamer:streamer}).then(function(out){
           var g=out&&out[0]&&out[0].generated_text,last=Array.isArray(g)?(g[g.length-1]||{}).content:g;
-          LLM.lastTps=n/Math.max(0.001,(Date.now()-t0)/1000); return clean(last||text)});
+          LLM.lastTps=n/Math.max(0.001,(Date.now()-t0)/1000); try{localStorage.removeItem('learn.inflight')}catch(e){} return clean(last||text)},function(e){try{localStorage.removeItem('learn.inflight')}catch(x){}throw e});
       };
       var p=queue.then(run,run); queue=p.catch(function(){}); return p;
     },

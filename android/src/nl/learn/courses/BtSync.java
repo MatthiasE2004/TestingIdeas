@@ -20,7 +20,7 @@ public class BtSync {
     static final UUID SERVICE = UUID.fromString("7d1b6a52-3c0e-4c55-9a43-6c0a1e5a7b11");
     static final int MAX = 8 * 1024 * 1024;
     final Activity act;
-    final WebView web;
+    volatile WebView web;
     volatile BluetoothServerSocket server;
     volatile BluetoothSocket socket;
     volatile boolean busy;

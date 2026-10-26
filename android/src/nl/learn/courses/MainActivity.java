@@ -42,6 +42,10 @@ public class MainActivity extends Activity {
         }
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE);
 
+        createWeb();
+    }
+
+    void createWeb() {
         web = new WebView(this);
         web.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
         web.setBackgroundColor(Color.parseColor("#ECECEC"));
@@ -61,7 +65,7 @@ public class MainActivity extends Activity {
         s.setCacheMode(WebSettings.LOAD_DEFAULT);
         WebView.setWebContentsDebuggingEnabled(true);
 
-        bt = new BtSync(this, web);
+        if (bt == null) bt = new BtSync(this, web); else bt.web = web;
         web.addJavascriptInterface(new Bridge(), "Android");
 
         web.setWebViewClient(new WebViewClient() {
@@ -72,7 +76,17 @@ public class MainActivity extends Activity {
                 return null;
             }
 
-            // API 24+ override; compiled against API 23 stubs so no @Override
+            @Override
+            public boolean onRenderProcessGone(WebView v, android.webkit.RenderProcessGoneDetail d) {
+                // The renderer died (GPU/memory fault while running the model). Keep the app alive and reload.
+                android.util.Log.e("LearnJS", "render process gone, crash=" + d.didCrash());
+                android.content.SharedPreferences sp = getSharedPreferences("learn", MODE_PRIVATE);
+                sp.edit().putInt("renderGone", sp.getInt("renderGone", 0) + 1).apply();
+                try { ((ViewGroup) v.getParent()).removeView(v); v.destroy(); } catch (Exception ignored) { }
+                runOnUiThread(new Runnable() { public void run() { createWeb(); } });
+                return true;
+            }
+
             public boolean shouldOverrideUrlLoading(WebView v, WebResourceRequest r) {
                 Uri u = r.getUrl();
                 if (HOST.equals(u.getHost())) return false;
@@ -164,6 +178,15 @@ public class MainActivity extends Activity {
         @android.webkit.JavascriptInterface
         public void openUrl(String url) {
             if (url != null && (url.startsWith("https://") || url.startsWith("http://"))) openExternal(url);
+        }
+
+        /** number of renderer crashes since the last call (then reset) */
+        @android.webkit.JavascriptInterface
+        public int consumeRenderCrashes() {
+            android.content.SharedPreferences sp = getSharedPreferences("learn", MODE_PRIVATE);
+            int n = sp.getInt("renderGone", 0);
+            if (n != 0) sp.edit().putInt("renderGone", 0).apply();
+            return n;
         }
 
         @android.webkit.JavascriptInterface
