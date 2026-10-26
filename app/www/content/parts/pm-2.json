@@ -1,0 +1,370 @@
+{
+"id":"pm2",
+"title":"Feasibility",
+"summary":"How to judge whether a proposal is worth pursuing: the feasibility study, technical and social factors, cost–benefit and financial appraisal (payback, NPV, IRR), and risk.",
+"minutes":75,
+"pages":[
+{"id":"pm2-01","title":"Is the proposal feasible?","blocks":[
+{"t":"p","text":"Undertaking a full assessment of whether a proposal is feasible is a substantial piece of work and may even become a project in its own right. A project manager may be involved early on, but sometimes is not. Either way, you need to understand how proposals are evaluated."},
+{"t":"p","text":"Assume we have one or, more likely, several project proposals. We now need to decide whether any are worth pursuing further: we need to assess their **feasibility**."},
+{"t":"callout","kind":"tip","title":"Read proposals with a critical eye","text":"You do not need to memorise every term from cost–benefit analysis and accounting. Instead ask: Have we agreed the statement of requirements? How complete is the specification? How sound is the method used to calculate profitability? How good is the assessment of technical factors? Have social, political and environmental factors been considered?"}
+]},
+{"id":"pm2-02","title":"Learning outcomes","blocks":[
+{"t":"p","text":"At the end of this section you should be able to:"},
+{"t":"ul","items":["describe the elements of a feasibility study","state the general aims of a functional specification","describe what a scenario is and generate some simple scenarios in response to a statement of a problem","assess the maturity of a technology","use tools for the development or assessment of a proposal","understand the uses and limitations of payback, rate of return and discounted cash flow methods","understand the importance of risk"]}
+]},
+{"id":"pm2-03","title":"2.1 The feasibility study","blocks":[
+{"t":"p","text":"A team should be designated to undertake a feasibility study for any proposal that appears to be worth accepting. The study should attempt to generate **scenarios** which are potentially acceptable solutions."},
+{"t":"p","text":"The resulting scenarios (different versions of what might be done) and all the objectives to be addressed are used to prepare a **functional specification**. It identifies what has to be done and what constraints apply, and ensures there is at least one satisfactory way of doing it, but it does not specify *how* the objective is achieved. That step belongs to project planning, if the proposal is accepted and authorised by management."},
+{"t":"callout","kind":"key","title":"Functional specification","text":"A refinement of a proposal’s scope, objectives and financial and time constraints, related to the business case. It addresses the questions of technical and economic feasibility."}
+]},
+{"id":"pm2-04","title":"Hard and soft factors: PESTLE and SSM","blocks":[
+{"t":"p","text":"Assessing the feasibility of a scenario requires an understanding of the political, economic, social, technological, legal and environmental (**PESTLE**) factors involved. The financial and technical aspects are the ‘hard’, quantifiable part of the problem. The other factors are ‘soft’."},
+{"t":"p","text":"The **soft systems methodology (SSM)** deals with information beyond the ‘hard’ information of quantities and facts. Checkland (1981) defined it after research into the Concorde project. It can be used early in a study to identify the interactions that need to be considered, particularly the aspects that fall outside normal operations research and ‘engineering’ concerns with function, construction and operation."}
+]},
+{"id":"pm2-05","title":"Rich pictures","blocks":[
+{"t":"p","text":"A technique used by SSM that is useful in feasibility studies is **rich picture analysis**: an analyst’s holistic (describing the situation as a whole) representation of a situation. It identifies problem areas, structures, processes and political, psychological and social factors. Financial, technical or regulatory constraints can also be captured."},
+{"t":"img","src":"img/pm_p35_8.jpg","alt":"Hand-drawn rich picture of the Humber Bridge project showing suppliers, local councils, central government, the Health and Safety Inspectorate, weather, geology, economy and inflation around a bridge","caption":"Figure 5 Rich picture of the construction of the Humber Bridge (adapted from Stewart and Fortune, 1994)"}
+]},
+{"id":"pm2-06","title":"Activity 6: your own rich picture","blocks":[
+{"t":"img","src":"img/pm_p36_9.jpg","alt":"Hand-drawn rich picture of studying a course, showing the student at the centre with tutor, course materials, internet, family, friends, office, boss, cost of courses and job prospects","caption":"Figure 6 A ‘rich picture’ of studying M865"},
+{"t":"activity","id":"pm2-a6","title":"Activity 6","prompt":"Sketch a quick rich picture of your ‘project’ to study. Include all the elements you think affect you and your project, or that your project has an effect on. Then list in words what you included.","hint":"Think of your job, boss(es), family, costs, living arrangements, social life.","model":"Your picture will be unique to you. You probably included your job, your boss(es), partner and other family members, and your costs of studying. Perhaps you pictured how studying affects your living arrangements, and what strains and stresses (or benefits) it gives to your social life.","points":["Your job and boss(es)","Partner, family and friends affected by less time","Costs of studying","Effects on living arrangements and social life","Possible benefits such as better job prospects"]}
+]},
+{"id":"pm2-07","title":"Generating acceptable scenarios","blocks":[
+{"t":"callout","kind":"key","title":"Scenario","text":"In the context of defining a project, a scenario is a brief description of a system, process or set of procedures that should meet the identified objectives."},
+{"t":"p","text":"For every objective there are a number of possible strategies. The objective of eating can be satisfied by: assembling raw food in a salad; preparing a cooked meal at home; going to a friend’s for a meal; going to a café or restaurant; or getting a meal to take away. Each is a possible scenario for satisfying a need to eat."},
+{"t":"p","text":"Developing scenarios is an activity in which brainstorming can again play a role. Many ideas can be generated, but then must be looked at critically, and modified, selected or rejected."}
+]},
+{"id":"pm2-08","title":"Activity 7: airport scenarios","blocks":[
+{"t":"activity","id":"pm2-a7","title":"Activity 7","prompt":"Make a brief list of possible scenarios to meet the need to move people and their baggage around a large site like a major airport. Brainstorm on your own if you like, or ask friends or colleagues to join in.","model":"Some possible scenarios: wide pavements, stairs, road crossings and baggage carts for people on foot; moving belts (travelators), escalators and lifts plus carts; individual electric carts for one to four people, self-driven or with a hired driver; petrol- or diesel-driven buses with baggage racks; a fixed roadbed or rail system of automatically controlled cars (monorail, small train or tram).","points":["Walking with baggage carts","Travelators, escalators and lifts","Individual electric carts","Buses with baggage racks","Automated rail or monorail system"]}
+]},
+{"id":"pm2-09","title":"Far-fetched scenarios","blocks":[
+{"t":"p","text":"Those scenarios describe current ways of transporting people at major airports. Later you may refine them, for example: should an airport charge people to use the powered carts? Brainstorming may also generate far-fetched ideas:"},
+{"t":"ul","items":["booths to teleport people and baggage by converting them into pure energy beamed at the speed of light","anti-gravity discs about 1.5 metres across on which one to three people and their baggage stand, moving under automatic control"]},
+{"t":"p","text":"A far-fetched idea can be modified to use an existing or emerging technology. Anti-gravity is a very long way from reality, but superconductors can lift a weight and linear electric motors can move it. This emerging technology is being explored for public transport, and might one day lift a disc carrying people and baggage around a site such as an airport."}
+]},
+{"id":"pm2-10","title":"SAQ 4: scenarios","blocks":[
+{"t":"activity","id":"pm2-a-saq4","title":"SAQ 4","prompt":"What is the role of a scenario and how is a scenario developed?","model":"The purpose of a scenario is to provide a general statement of an idea of what is involved in order to meet an objective. This provides a basis for subsequent assessment. Scenarios are developed from ideas, by any method for generating ideas and selecting those that are possible or reasonable.","points":["A scenario is a general statement of what is involved to meet an objective","It provides a basis for later assessment","Developed from ideas, e.g. by brainstorming","Ideas are then selected for being possible or reasonable"]}
+]},
+{"id":"pm2-11","title":"2.2 Technical feasibility: is the technology mature?","blocks":[
+{"t":"p","text":"How do we assess the technical feasibility of scenarios? We must be sure the chosen technology is sound, otherwise the probability of things going wrong is high. We can determine whether a technology is mature:"},
+{"t":"ul","items":["**Very mature:** laying pavements and building stairways. New materials still appear, such as hard-wearing rubber tiles in stations and airports, which are safer, quieter and nearly as durable.","**Relatively mature, still developing:** fixed-rail or fixed-bed cars, trains and trams. The Paris Metro moved from iron wheels on iron rails to rubber tyres on concrete ‘tracks’; Gatwick and Stansted have driverless rail vehicles.","**Emerging:** superconductors and linear motors, with a few scale-model prototypes. The maglev train linking Shanghai’s new airport to the city metro is an example."]}
+]},
+{"id":"pm2-12","title":"Expert technical assessment","blocks":[
+{"t":"p","text":"We also need to assess a variety of technical aspects of any proposal. These vary enormously and often need experienced or expert people. Examples:"},
+{"t":"ul","items":["**Building a house:** the soil affects the foundations. Clay, sandy soil, an unstable hillside and stable earth each have different requirements (a soil engineer may take samples and report).","**Marketing:** markets vary with climate, culture and economics; you cannot market air-conditioners well in a cold climate, or to people who cannot afford them.","**Software:** you may need expert advice from the hardware manufacturer before using their platform.","**A well in the developing world:** needs a hydrologist’s assessment of the depth, suitability and extent of aquifers and the water table."]},
+{"t":"callout","kind":"note","text":"Cost is by no means the only factor determining whether a project is worthwhile, though its ease of measurement may give it prominence. Several techniques exist for when cost matters less than other aspects."}
+]},
+{"id":"pm2-13","title":"Features analysis","blocks":[
+{"t":"callout","kind":"key","title":"Features analysis","text":"A method of gathering and organising information about different products which have the same purpose and comparing them in terms other than cost. Features are those elements of equipment, a system or other major constituent of the project which are regarded as important to the project’s requirements."},
+{"t":"p","text":"Example: your company plans a series of ‘how to’ books on a technical subject. Typical users mention durability, portability, keeping pages clean and being able to prop the book open at the right page."},
+{"t":"ul","items":["Durability: materials for covers and pages, and the binding","Propping open at the right page: the binding again","Portability: dimensions and weight (under an arm, in a briefcase, in a pocket?)","Clean pages: the paper used, which also affects weight"]},
+{"t":"p","text":"One feature (the paper) can bear on two others (weight and cleanliness): one sample saves weight, another keeps cleaner but weighs more."}
+]},
+{"id":"pm2-14","title":"Weighting features","blocks":[
+{"t":"p","text":"A features analysis focuses attention on the features likely to be important to something that works and satisfies needs. Important features are identified and given a **weight factor**, a value that indicates how important one feature is compared with all the others. (Cost is one inevitable feature but may not be the most important.)"},
+{"t":"p","text":"Each feature becomes a category with constituent elements. Taking robustness of a system: it keeps operating in spite of power failures; the communications channels will not fail; a hardware failure in the central computer will not stop the system. Each element is listed and given a point value so that the elements of one feature total **1.00**."}
+]},
+{"id":"pm2-15","title":"Tables 4 and 5: choosing a motor car","blocks":[
+{"t":"p","text":"Table 4 shows part of a features analysis for the passenger/luggage capacity feature, weight factor 0.25: it makes up one quarter of the overall analysis."},
+{"t":"table","head":["Element (Table 4)","Point value"],"rows":[["Front seat headroom","0.13"],["Front seat legroom","0.17"],["Back seat headroom","0.10"],["Back seat legroom","0.10"],["Total seating capacity","0.16"],["Luggage capacity in boot","0.14"],["Luggage capacity on roof-rack","0.08"],["Ability to rearrange seating","0.06"],["Glove box capacity","0.03"],["Other small item storage","0.03"],["Total","1.00"]]}
+]},
+{"id":"pm2-16","title":"Weight factors for all features","blocks":[
+{"t":"p","text":"Other features for choosing a car are shown in Table 5. Each would have its own elements and point values, totalling 1.00."},
+{"t":"table","head":["Feature (Table 5)","Weight factor"],"rows":[["Driver comfort","0.25"],["Passenger/luggage capacity","0.25"],["Safety","0.25"],["Handling","0.10"],["Reliability","0.10"],["Passenger comfort","0.05"],["Total","1.00"]]}
+]},
+{"id":"pm2-17","title":"Rating candidates and the figure of merit","blocks":[
+{"t":"p","text":"Each candidate product is then rated. Car A might have headroom for people 1.8 m (6 ft) tall while car B easily takes 1.95 m (6 ft 4 in). A car-hire firm with tall drivers prefers B for this element, so B might get the full 0.13 for front headroom and A perhaps only 0.09."},
+{"t":"p","text":"Say A’s point count for passenger/luggage capacity is 0.58 and B’s is 0.71. Multiply each by the weight factor 0.25:"},
+{"t":"ul","items":["Car A: 0.58 x 0.25 = **0.145**","Car B: 0.71 x 0.25 = **0.1775**"]},
+{"t":"p","text":"The weight-adjusted scores of all features are summed to give a **figure of merit (FOM)**, and the candidate with the highest FOM should normally be chosen."},
+{"t":"callout","kind":"key","title":"Figure of merit","text":"Assigns a numeric value to a cost or benefit based on an arbitrarily decided and often weighted scale, e.g. rating a computer on the desirability of speed, memory capacity and reliability."}
+]},
+{"id":"pm2-18","title":"Problems with features analysis","blocks":[
+{"t":"ul","items":["there may be many constituent elements for each feature","deciding upon the actual weightings to use","qualitative ranking systems (poor, average, good, excellent) are harder to analyse though easier to use when rating elements","complete consensus about weightings and rankings will rarely occur"]},
+{"t":"p","text":"So the result is to some extent arbitrary. Nevertheless a features analysis is highly valuable: it helps an organisation to identify, rate and rank the features it finds important more objectively."}
+]},
+{"id":"pm2-19","title":"SAQ 5: steps of a features analysis","blocks":[
+{"t":"activity","id":"pm2-a-saq5","title":"SAQ 5","prompt":"(a) List the main steps of a features analysis.\n(b) What is the value of doing a features analysis?","model":"(a) 1 Identify important features. 2 Identify the constituent elements of each feature. 3 List the elements. 4 Attach a point value to each (the elements of a feature sum to 1.00). 5 Assess the features using the elements and assign point values. 6 Sum the point values. 7 Multiply each feature’s sum by its weight factor. 8 Sum these over all features to get a figure of merit (FOM) for the candidate. Products are then compared using their FOMs. (b) It takes an objective view of the features identified as key, then establishes a ranking system to find the product whose features most closely meet the requirements.","points":["Identify features and their elements, with points summing to 1.00","Assess each candidate and sum the points per feature","Multiply by the weight factor and sum to get the FOM","Compare products using their FOMs","Value: a more objective ranking of the features that matter"]}
+]},
+{"id":"pm2-20","title":"Activity 8: features of luggage","blocks":[
+{"t":"activity","id":"pm2-a8","title":"Activity 8","prompt":"You are buying luggage for a new job with a great deal of long-distance international travel over two or three years, up to six weeks away at a time, in varied climates (e.g. Moscow in winter, then equatorial Africa), carrying small amounts of paperwork and perhaps samples. List what you feel will be important features to judge in comparing makes of luggage. Assign weight factors to them.","model":"Possible features: durability, empty weight, capacity, ease of carrying, security of locks, internal compartmentalisation, degree of waterproofness, ease of recognition at the airport conveyor, appearance. Your weightings will vary, but with two to three years of heavy travel durability probably gets a relatively high rating.","points":["Durability, probably weighted highest","Empty weight and capacity","Ease of carrying and security of locks","Compartments, waterproofing, appearance and recognisability","Weights should total 1.00"]}
+]},
+{"id":"pm2-21","title":"Activity 9: elements of a feature","blocks":[
+{"t":"activity","id":"pm2-a9","title":"Activity 9","prompt":"Take the feature ease of carrying (of a piece of luggage) and list some elements that you feel make up this feature.","model":"Elements: the comfort of the handle, the balance of the case, a shoulder strap (on smaller cases), wheels on larger cases, ease of using the wheels (does the case fall over when pulled along?), and a pulling strap or handle long and strong enough to let a person walk upright while pulling.","points":["Comfort of the handle","Balance of the case","Shoulder strap on smaller cases","Wheels and how easily they work","Pull handle of sufficient length and strength"]}
+]},
+{"id":"pm2-22","title":"Environmental factors","blocks":[
+{"t":"p","text":"Increasingly, environmental or ecological factors must be considered when assessing feasibility. This may be prompted by customers preferring less harmful products, by concern among shareholders or employees, or by health and safety legislation. Example 7 shows the kind of thing looked at in an **environmental impact assessment (EIA)**."},
+{"t":"callout","kind":"tip","title":"Take the broadest time span","text":"In a manufacturing project, consider not only the product and the pollution from its manufacture, but also the raw materials and energy used and the method of eventual disposal."},
+{"t":"callout","kind":"note","title":"Example 7","text":"Hydro-electric power is an alternative to coal. It takes about 400 grams of coal to produce 1 kilowatt-hour, so a hydro-electric station of 10 000 megawatts will reduce coal consumption by about 12 million tonnes a year, giving a substantial improvement in air quality from reduced emissions (such as sulphur dioxide and carbon monoxide)."}
+]},
+{"id":"pm2-23","title":"Social factors","blocks":[
+{"t":"p","text":"It is also increasingly common to assess social factors, particularly in projects in the under-developed world. They range from social factors within one group or office (e.g. introducing a new technology) to broader effects on employment, the health of workers and the public, and safety."},
+{"t":"p","text":"One of the earliest examples in software development was the **ETHICS** (effective technical and human implementation of computer systems) method (Mumford, 1983). It uses participative methods to explore organisational issues such as goals, values and sources of job satisfaction, and builds them with technical solutions into a design. EIA tools also often include social factors such as land use and employment."}
+]},
+{"id":"pm2-24","title":"Worked example: the dam and its reservoir","blocks":[
+{"t":"p","text":"Hydro-electric projects show how environmental and social effects interact:"},
+{"t":"ul","items":["A reservoir reduces flood risk downstream, but reducing water flow to prevent flooding constrains the electricity that can be generated.","A large reservoir increases emissions of gases such as methane from rotting vegetation.","Controlling water flow affects downstream erosion; silt building up upstream could reduce the dam’s effectiveness.","The volume of water affects the ecosystem: some habitats are threatened, others helped.","As the reservoir fills, people are forced to move because villages or towns are submerged, and archaeological sites may be lost."]}
+]},
+{"id":"pm2-25","title":"Other technical factors: trams","blocks":[
+{"t":"p","text":"Trams address congestion and public transport needs, with environmental benefits (less noise and air pollution than diesel buses). Two UK systems of the 1990s compare:"},
+{"t":"ul","items":["**Manchester Metrolink (1992):** used existing railway track, minimising road disruption; concentrating on popular commuter routes, it attracted nearly 20% more passengers than expected.","**Sheffield (1994):** used existing roads in areas needing redevelopment such as the Don Valley, but blocked shop access and traffic delays alienated local people; it was unclear whether enough passengers would come (about 11 million trips a year at time of writing).","Each tram can potentially remove 150 cars from the roads. Nottingham’s new system aimed to take up to 2 million car journeys off the road but was affected by a lack of specialist staff."]}
+]},
+{"id":"pm2-26","title":"A checklist of technical factors","blocks":[
+{"t":"p","text":"Technical factors other than the maturity of a technology may be:"},
+{"t":"ul","items":["the utility of the technology (e.g. fare-collection systems for the new trams)","the usability of systems (e.g. access by disabled people)","the degree of disruption during construction or installation","use of and improvement to existing infrastructure, or development of new","notions of general social utility (Sheffield’s choice of routes)","marketability (Manchester’s choice of routes)"]},
+{"t":"p","text":"Suitability depends on the situation and the organisation’s objectives. A busy existing airport wants a solution that is not too disruptive and works immediately, perhaps buses. A new airport can choose a fixed-roadbed system such as a monorail. An organisation exploring superconductors and linear motors may want to develop moving discs. Technical constraints also apply: a restaurant’s opening hours set by the local authority, or car parking and public transport."}
+]},
+{"id":"pm2-27","title":"Activity 10: recycling cans","blocks":[
+{"t":"activity","id":"pm2-a10","title":"Activity 10","prompt":"Make a very brief technological, social and environmental assessment, in terms of questions to be asked, of a plan to collect and recycle steel and tin-plate cans in a medium-sized town. (We are not looking for technical answers, just the questions.) Spend no more than three to five minutes.","model":"Technological: how mature is recycling of steel and tin-plate? Social: could people be persuaded to recycle; where to put collection points or collect from homes; effect on local employment; would people object to a plant (smells, noise, traffic); disruption during building. Environmental: energy consumed versus extracting raw materials and where it comes from; waste products and pollutants and how to handle them safely; local authority permission; whether the roads can support another industrial site.","points":["Technological: how mature is the recycling process?","Social: public willingness, collection points, employment, objections to the plant, disruption","Environmental: energy use compared with raw materials, and its source","Environmental: waste products and pollutants, handled safely","Permission from the local authority and road infrastructure"]}
+]},
+{"id":"pm2-28","title":"Check: feasibility study and technical factors","blocks":[
+{"t":"quiz","id":"pm2-q1","q":"What does a functional specification do?","options":["Sets out exactly how the objective will be achieved","Identifies what has to be done and what constraints apply, without specifying how","Lists only the financial costs of a proposal","Replaces the need for a feasibility study"],"answer":1,"explain":"It ensures at least one satisfactory way exists, but how it is done is decided in project planning if the proposal is accepted."},
+{"t":"quiz","id":"pm2-q2","q":"Which technology is described as only just emerging, with a few scale-model prototypes?","options":["Laying pavements","Fixed-rail trams","Superconductors and linear motors","Rubber floor tiles"],"answer":2,"explain":"Pavements are very mature, trams relatively mature but still developing, while superconductors and linear motors are emerging."},
+{"t":"tf","id":"pm2-q3","q":"In a features analysis, the point values of the elements of one feature should add up to 1.00.","answer":true,"explain":"Each feature’s elements total 1.00; the features themselves are weighted by weight factors that also total 1.00."}
+]},
+{"id":"pm2-29","title":"2.3 Financial feasibility","blocks":[
+{"t":"p","text":"Before resources are invested in a potential project, two sets of questions need to be considered:"},
+{"t":"ol","items":["Will the investment of resources in a particular project be worthwhile when compared with the cost associated with those resources? How worthwhile will it be?","Where there are several alternative opportunities for investing resources, which one gives the best rewards?"]},
+{"t":"p","text":"The technique that should almost certainly be used in any feasibility study is **cost–benefit analysis**."}
+]},
+{"id":"pm2-30","title":"Cost–benefit analysis","blocks":[
+{"t":"p","text":"Cost–benefit analysis means:"},
+{"t":"ul","items":["identifying, specifying and evaluating the costs of the proposal for its projected lifetime: purchase, construction, maintenance, repair, running costs such as energy, and decommissioning","identifying, specifying and evaluating the benefits over its projected lifetime"]},
+{"t":"p","text":"No matter what the size and nature of a proposal, the methods of evaluation are always the same: the specification of costs and benefits is the first stage."}
+]},
+{"id":"pm2-31","title":"What to specify for every cost and benefit","blocks":[
+{"t":"p","text":"For every item of cost and every item of benefit you need to specify:"},
+{"t":"ul","items":["its value in money terms, or its value in terms of desirability (using some numeric scale)","whether it is capital or revenue in nature","its likely timing (when it occurs)","whether it occurs once or recurs","whether recurring items stay constant or vary as time goes by (e.g. inflation)","where they vary, for what reasons and by how much"]}
+]},
+{"id":"pm2-32","title":"Value engineering and intangibles","blocks":[
+{"t":"p","text":"Many costs and benefits are common to many projects. Sometimes each phase can be assessed in isolation in a technique called **value engineering**, which optimises the conceptual, technical and operational aspects of a project’s deliverables (APM, 2006). In other words: do the incremental costs of the various features and functions add appropriate value to the end product?"},
+{"t":"callout","kind":"key","title":"Intangible costs and benefits","text":"Some costs and benefits cannot easily be translated into financial terms. Some can be rated using a figure of merit; others, such as improved employee morale, cannot be expressed numerically. Cost–benefit analysis is often applied broadly so management can judge non-monetary and non-quantifiable items as well as financial ones."}
+]},
+{"id":"pm2-33","title":"Capital costs","blocks":[
+{"t":"p","text":"You should learn the difference between capital and revenue and what financing costs, overheads, depreciation and inflation are. You need not memorise how to calculate them, but should be able to do so with standard tables and descriptions of formulas."},
+{"t":"callout","kind":"key","title":"Capital costs","text":"Incurred in the acquisition or enhancement of assets. Assets are usually tangible: land, buildings, plant, machinery, fixtures, fittings, stocks of materials and cash owned by the organisation."},
+{"t":"ul","items":["the basic purchase price of an asset","additional costs of installing and commissioning it and putting it into working order"]},
+{"t":"p","text":"Capital expenditure usually occurs at the outset, but any later costs relating to acquiring or enhancing assets are also capital and part of the total investment."}
+]},
+{"id":"pm2-34","title":"Revenue costs and overheads","blocks":[
+{"t":"callout","kind":"key","title":"Revenue costs","text":"Any cost other than for acquiring or enhancing assets. Also called running costs: incurred continuously in day-to-day operations, including projected maintenance and repair and the cost of replacing worn-out components."},
+{"t":"p","text":"**Overheads** (indirect costs) are the day-to-day running costs that apply to the organisation generally and are not attributable to any specific area. Examples: administrative costs (rent, local taxes, staff salaries, electricity, insurance, stationery), general management costs, and depreciation on offices, machinery and furniture."},
+{"t":"p","text":"If a proposal directly increases overheads (additional taxes, insurance or staff salaries), that increase is a revenue cost of the proposal and must be allowed for. Depreciation is another revenue cost."}
+]},
+{"id":"pm2-35","title":"Financing costs and sources of funds","blocks":[
+{"t":"p","text":"Every project has to be financed, and using financial resources itself costs money: **financing costs**, usually the interest paid on the outstanding balance of funds until the benefits have paid it off (like a reducing bank loan). The percentage rate of financing costs is compared against the project’s profitability, so you must know it."},
+{"t":"p","text":"In business there are three principal sources of funds:"},
+{"t":"ul","items":["finance already available in the business","finance borrowed from someone else (e.g. a bank)","additional capital invested by shareholders"]},
+{"t":"p","text":"Non-businesses may also have sources with minimal or no cost: grants from governments or foundations, subsidies, donations, and tax income (for government organisations). Grants and subsidies reduce capital costs and are best treated as reducing the cost of the project concerned (**netting off**)."}
+]},
+{"id":"pm2-36","title":"Setting the financing cost rate","blocks":[
+{"t":"ul","items":["**Funds already in the business** are earning money already, so there is a lost **opportunity cost**. The expected return should be at least equal to, and preferably much higher than, what the funds earn now (unless the returns are somewhat intangible).","**Borrowed funds:** the cost is simply the interest rate charged.","**Shareholder capital** (normally only for substantial long-term projects): the cost is the dividend rate needed to tempt subscribers."]},
+{"t":"callout","kind":"tip","title":"Prudent rule","text":"Use as the financing cost rate the highest of: (1) the interest rate charged on borrowed funds; (2) the rate that could be earned if the funds were invested to best advantage elsewhere; (3) the business’s current return on investment (ROI)."},
+{"t":"p","text":"If the evaluation shows a potential rate of return above this rate, the project is potentially viable and management should find the cheapest funds. Remember that cash flow forecasts are judgements and may turn out substantially different."}
+]},
+{"id":"pm2-37","title":"The effects of time on values","blocks":[
+{"t":"p","text":"Benefits obtained early in a project are worth more in real terms than the same benefits much later. Similarly costs incurred early have a greater impact than if deferred."},
+{"t":"p","text":"The payback period and average annual rate of return methods ignore this, because they assume every pound (euro, dollar) of cost and benefit is the same no matter when received or spent, and no matter what interest could be earned or charged. **Only the discounted cash flow methods** take the effects of time and interest rates on money values into account."}
+]},
+{"id":"pm2-38","title":"Costs and benefits that change year by year","blocks":[
+{"t":"p","text":"Recurring costs and benefits can vary year by year. If the variation can be predicted with reasonable certainty it must be accounted for."},
+{"t":"ul","items":["**Payroll:** if a proposal means fewer people are needed, the saving is a revenue benefit, and it grows each year because pay per head rises with salary structures and pay bargaining. (Rising unemployment may also raise taxes and levies, which is harder to calculate but still a factor.)","**Fuel:** an initial saving in consumption becomes worth more each year if the lower rate is maintained and the real cost of fuel keeps rising."]},
+{"t":"p","text":"Many organisations also allow for **inflation**: a blanket percentage increase applied to all values, year by year, on a compound basis. Inflation does not affect all costs equally (fuel may rise faster than general inflation) and is hard to predict more than a year ahead."}
+]},
+{"id":"pm2-39","title":"Cash flow statements: FatPac Haulage","blocks":[
+{"t":"p","text":"Once data on every cash outflow and inflow has been assembled, a **cash flow statement** can be prepared. By convention year 0 is the starting point of the project and year n represents the net flow for that year."},
+{"t":"callout","kind":"note","title":"The FatPac Haulage case","text":"Ten years ago your organisation acquired an ailing warehouse and road transport company, FatPac Haulage: insubstantial garage and depot buildings and five relatively new lorries. The business has grown rapidly. The premises are now inadequate, expensive to heat, maintain and insure (only a primitive sprinkler system), and the five lorries are uneconomic: prohibitive diesel and repair bills, breakdowns and lost operating hours. With more lorry capacity, reliability and faster service FatPac could easily win more business. The project: replace the lorries and rebuild the depot with better equipment, full insulation, an effective sprinkler system and in-company lorry maintenance."}
+]},
+{"id":"pm2-40","title":"Table 6a: inflows (£k)","blocks":[
+{"t":"p","text":"**Capital inflows (year 0):** grants 50 and profit on trade-in 5, total 55. **Revenue inflows**, years 1 to 7:"},
+{"t":"table","head":["Year","Repair, heating and fuel savings","Increased profits","Insurance savings"],"rows":[["1","60","45","5"],["2","73","55","5"],["3","86","65","5"],["4","100","75","5"],["5","113","85","5"],["6","113","85","5"],["7","113","85","5"]]},
+{"t":"p","text":"Total inflows: year 0 = 55, then 110, 133, 156, 180, 203, 203, 203."}
+]},
+{"id":"pm2-41","title":"Table 6b: outflows (£k)","blocks":[
+{"t":"p","text":"**Capital outflows (year 0):** new lorries 170, buildings 150, fixtures and fittings 50, site clearance etc. 20, machinery 20, installation costs 15. **Revenue outflows**, years 1 to 7:"},
+{"t":"table","head":["Year","Materials, garage power","Payroll costs","Increased local taxes"],"rows":[["1","7","15","3"],["2","9","16","3"],["3","10","17","3"],["4","12","17","3"],["5","13","18","3"],["6","13","19","3"],["7","13","20","3"]]},
+{"t":"p","text":"Total outflows: year 0 = 425, then 25, 28, 30, 32, 34, 35, 36."}
+]},
+{"id":"pm2-42","title":"Table 6c: net cash flow (£k)","blocks":[
+{"t":"table","head":["Year","Total inflows","Total outflows","Net cash flow"],"rows":[["0","55","425","(370)"],["1","110","25","85"],["2","133","28","105"],["3","156","30","126"],["4","180","32","148"],["5","203","34","169"],["6","203","35","168"],["7","203","36","167"]]},
+{"t":"callout","kind":"note","text":"( ) = a negative net cash flow, or cash outflow. The savings shown as revenue inflows from outside repair and maintenance, heating and fuel are found by taking the running costs of the present equipment and buildings, subtracting the running costs of the proposed ones, and taking the difference."}
+]},
+{"id":"pm2-43","title":"Choosing the correct number of years","blocks":[
+{"t":"p","text":"It is difficult to decide the right evaluation period. **Too short** (say three years for FatPac) ignores longer-term benefits. Many substantial projects are unprofitable early but, once consolidated, produce rapidly increasing benefits that justify early shortfalls. For a wind farm or a speculative R&D project a suitable period may be 20 years or more."},
+{"t":"p","text":"**Too long** means trying to justify an investment from benefits so far away they may never happen. The longer the timescale, the greater the chance of a wrong decision because:"},
+{"t":"ul","items":["there is an increasing possibility of business problems","assets in use may become less reliable and economic and need replacement","marketing factors could change significantly","risk and uncertainty upset forecasts"]}
+]},
+{"id":"pm2-44","title":"Three methods for calculating value","blocks":[
+{"t":"p","text":"We look at three methods for evaluating proposals financially:"},
+{"t":"ul","items":["the payback method","the net present value (NPV) method","the internal rate of return (IRR) method"]},
+{"t":"callout","kind":"tip","title":"Do not over-trust precision","text":"We show calculations in full so you can follow them, but this accuracy can mislead people into believing there will really be, say, £21 736.37 profit at the end of the third year. Forecasts are ‘best informed guess’ estimates, so it is more sensible to give round figures, e.g. about £22 000. In practice all three methods are done on a spreadsheet."}
+]},
+{"id":"pm2-45","title":"The payback period method","blocks":[
+{"t":"p","text":"The payback period method is simple but produces the least meaningful results. Yet it is by far the most commonly used. It asks: ‘How long will it take to repay the capital investment?’ In other words, how long before the accumulated cash flow (including capital expenditure) becomes positive?"},
+{"t":"p","text":"Example: an organisation invests £100 000 in a proposal with a positive net cash flow of £25 000 per year. It recovers the investment in:"},
+{"t":"img","src":"img/pm_p52_10.jpg","alt":"Payback formula: £100 000 divided by £25 000 equals 4 years","caption":"Payback period = £100 000 / £25 000 = 4 years"}
+]},
+{"id":"pm2-46","title":"Payback with uneven cash flows","blocks":[
+{"t":"p","text":"In reality cash flow varies by year. Suppose the pattern for the same £100 000 investment is:"},
+{"t":"table","head":["Year","Net cash flow (£)","Cumulative (£)"],"rows":[["1","45 000","45 000"],["2","35 000","80 000"],["3","20 000","100 000"],["4","20 000","120 000"],["5","15 000","135 000"]]},
+{"t":"p","text":"Now it takes only **three years** to recover the initial investment."}
+]},
+{"id":"pm2-47","title":"Three points when using payback","blocks":[
+{"t":"ol","items":["**Calculate cash flows after tax.** The method is based on recovering the investment out of net income, and only what is left after the tax authorities have taken their share is available.","**Exclude depreciation charges from revenue costs.** Depreciation on new machinery and computers is normally included in cash outflows, so it must not be recovered twice.","**Include financing costs if you can.** Until payback, an outstanding (but decreasing) balance of funds incurs financing costs, real or notional. Include them as revenue costs (cash outflows) in the statement."]}
+]},
+{"id":"pm2-48","title":"Limits of payback","blocks":[
+{"t":"p","text":"Simplicity is the main reason for payback’s popularity, but there are serious limitations:"},
+{"t":"ul","items":["it completely ignores positive cash flows after the payback point","it only looks at cash flow and ignores profitability or return on investment","it ignores the total lifetime cost of all items, e.g. a high disposal or decommissioning cost","it assumes money is of equal value whenever spent or received (partly lessened if all financing costs are included)","if a short payback is required, it reduces the chance of accepting many longer-term proposals"]},
+{"t":"p","text":"Many worthwhile longer-term proposals with a high rate of return never get accepted. Use payback, if at all, **together with** one of the rate of return methods."}
+]},
+{"id":"pm2-49","title":"SAQ 6: comparing proposals by payback","blocks":[
+{"t":"p","text":"You want to invest £20 000 and have two proposals. **A** needs £20 000 and gives a positive net cash flow of £3200 annually for the first seven years. **B** also needs £20 000, with net cash flows:"},
+{"t":"table","head":["Year","Proposal B net cash flow"],"rows":[["1","–£2000"],["2","£2675"],["3","£3200"],["4","£4550"],["5","£6550"],["6","£7000"],["7","£8000"]]},
+{"t":"activity","id":"pm2-a-saq6","title":"SAQ 6","prompt":"How do the projects compare using the payback method?","model":"A: payback = 20 000 / 3200 = 6.25 years, assuming a linear inflow. B: cumulative cash flow at year end is –20 000 (year 0), –22 000, –19 325, –16 125, –11 575, –5 025, +1 975 (year 6), +9 975 (year 7). B recovers the investment before the end of year 6 with a surplus of £1975; if the £7000 for year 6 arrives in 12 equal monthly amounts, payback is nearly the ninth month, about 5.75 years. So B pays back sooner than A, but given the accuracy of the estimates a difference of 6 months may be significant.","points":["A: 20 000 / 3200 = 6.25 years","B: cumulative cash flow turns positive during year 6 (surplus £1975 at end of year 6)","B pays back in about 5.75 years","B pays back sooner than A","A 6-month difference may not be significant given the accuracy of estimates"]}
+]},
+{"id":"pm2-50","title":"Discounted cash flow: the idea","blocks":[
+{"t":"p","text":"When a proposal extends over more than one financial period, the **time value of money** must be taken into account. **Discounted cash flow** relates future inflows and outflows over the project’s life to a common base value, so proposals with different durations and cash flow rates can be compared validly."},
+{"t":"p","text":"This reflects **opportunity cost**: the cost of not doing something else with the resources. For example, if The Open University built a new office block on its land, the opportunity cost is whatever else might have been done with the land and construction funds."}
+]},
+{"id":"pm2-51","title":"Rules for cash flow analysis","blocks":[
+{"t":"p","text":"Cash flows differ from the data in a company’s balance sheet. Hogg (1994) identified rules for a consistent view of the financial health of a proposal:"},
+{"t":"ul","items":["Use cash flows, not profit figures.","Ignore costs already incurred or committed to (**sunk costs**).","Only include costs that arise directly from the project (fixed costs which would be incurred whether or not the project goes ahead should be included).","Opportunity costs must be taken into account (developing one area of a business to the detriment of another)."]}
+]},
+{"id":"pm2-52","title":"Compounding","blocks":[
+{"t":"p","text":"Money deposited where it earns interest builds up each year. The future value (FV) of an investment is found by compounding its present value (PV) for n years at interest rate r:"},
+{"t":"callout","kind":"key","title":"Compounding","text":"FV = PV (1 + r/100)^n"},
+{"t":"p","text":"Example: £5 deposited for 3 years at 10% has a future value of £5 x (1 + 10/100)^3 = £5 x (1.10)^3 = £5 x 1.331 = **£6.66**."}
+]},
+{"id":"pm2-53","title":"Compounding applied to a project","blocks":[
+{"t":"p","text":"A company invests £100 000 in a project (new machinery, extra workforce and so on). The income from sales is used to repay the investment: cash flows should equal or exceed the interest that would have been earned in a savings account. At an internal rate of return of 10% the project’s value grows as follows (to the nearest thousand pounds):"},
+{"t":"table","head":["Year","Value (£)"],"rows":[["0","100 000"],["1","110 000"],["2","121 000"],["3","133 000"]]},
+{"t":"p","text":"In practice the internal rate of return is typically higher than a savings rate, because companies often borrow to fund the investment. If a finance house lent £100 000 at 10%, the project would just about be viable: ending it after 1 year would provide exactly the amount needed to repay the finance."}
+]},
+{"id":"pm2-54","title":"Discounting","blocks":[
+{"t":"callout","kind":"key","title":"Discounting","text":"Essentially the reverse of compounding. All future values are discounted back to today’s terms, the present value (PV), on the principle that ‘a pound today is worth more than a pound tomorrow’."},
+{"t":"p","text":"If you were promised £6.66 in three years (the future value), that equals £5 now (the present value) at 10%, because £5 invested now at 10% grows to £6.66 in 3 years. Rearranging the compounding formula gives PV = FV / (1 + r)^n, where r is the **discount rate**."}
+]},
+{"id":"pm2-55","title":"Present value shrinks with time","blocks":[
+{"t":"p","text":"The longer you wait, the smaller the present value. To get £5 at a 10% discount rate:"},
+{"t":"table","head":["Wait","Calculation","Present value"],"rows":[["1 year","£5 / 1.1","£4.55"],["2 years","£5 / (1.1 x 1.1) = £5 / 1.21","£4.13"],["3 years","£5 / (1.1 x 1.1 x 1.1) = £5 / 1.331","£3.76"]]},
+{"t":"p","text":"Present value applies to both inflows and outflows. A manufacturer expects £5000 from sales in year 3; at an IRR of 10% the present value is £5000 / 1.331 = **£3757**. A fuel bill of £5000 in year 3 gives –£5000 / 1.331 = **–£3757** (the minus sign shows an outflow)."}
+]},
+{"id":"pm2-56","title":"SAQ 7: prize money","blocks":[
+{"t":"activity","id":"pm2-a-saq7","title":"SAQ 7","prompt":"You have won a competition prize of £1000.\n(a) You invest it in a scheme guaranteeing an after-tax annual return of 3%, leaving all interest in the account for five years. What will the account contain at the end?\n(b) You instead leave it in a drawer for five years with inflation at 3% a year. What is the £1000 worth in present terms at the end?\n(c) You invested in the savings scheme but want to know what the money will be worth after five years in present-day terms (taking inflation into account).","hint":"(a) is compounding, (b) is discounting, (c) is both.","model":"(a) Compounding: year 1 £1030, year 2 £1060.90, year 3 £1092.73, year 4 £1125.51, year 5 £1159.27. (b) Discounting: £1000 / (1.03)^5 = £1000 / 1.159 = £862.61 in present-day terms. (c) Both compounding and discounting: if inflation equals the compounded return you break even, so the money is worth £1000 in present-day terms.","points":["(a) £1159.27 by compounding at 3% for five years","(b) £862.61 by dividing £1000 by 1.03^5 (about 1.159)","(c) £1000: inflation at the same rate cancels the compounded return","Compounding grows a present value; discounting brings a future value back"]}
+]},
+{"id":"pm2-57","title":"Net present value (NPV)","blocks":[
+{"t":"p","text":"Discounting can be applied to all the inflows and outflows in a project, benefits and costs alike, to determine its **net present value**: present value of benefits minus present value of costs."},
+{"t":"img","src":"img/pm_p57_11.jpg","alt":"NPV formula: NPV equals A0 plus the sum from t=1 to n of NCFt divided by (1+r) to the power t","caption":"NPV = A0 + sum from t = 1 to n of NCFt / (1 + r)^t"},
+{"t":"p","text":"Here A0 is the initial cash investment (negative), r is the discounting rate (the required rate of return) and NCFt is the net cash flow in period t. (Σ means ‘sum’: start at t = 1 and continue to n.)"},
+{"t":"callout","kind":"key","title":"Minimum criterion","text":"The minimum criterion for investing is that the NPV is greater than or equal to zero at the given discounting rate."}
+]},
+{"id":"pm2-58","title":"Worked NPV example (Table 7)","blocks":[
+{"t":"p","text":"Take the £100 000 proposal used for payback, with a 10% discount rate. Year 0 is not modified, since it is already a present-day value. Each later year is divided by (1.1)^t."},
+{"t":"table","head":["Year","Net cash flow (£)","Discount factor","Present value (£)"],"rows":[["0","(100 000)","none","(100 000)"],["1","45 000","/1.1","40 909"],["2","35 000","/1.1^2 (= 1.21)","28 926"],["3","20 000","/1.1^3 (= 1.331)","15 026"],["4","20 000","/1.1^4 (= 1.4641)","13 660"],["5","15 000","/1.1^5 (= 1.61051)","9 314"],["Total NPV","","","7 835"]]}
+]},
+{"id":"pm2-59","title":"Reading the NPV result","blocks":[
+{"t":"p","text":"After allowing for financing costs at 10% a year compounded over 5 years, this proposal more than pays for the initial investment: it is forecast to return **more than 10%**, so it is financially viable by the NPV method. A negative NPV would imply a return under 10%."},
+{"t":"p","text":"When proposals of similar size are compared, the one with the highest NPV will probably be chosen. A negative NPV means the return is less than the rate required, and unless there are overriding non-financial reasons the proposal would not go ahead."}
+]},
+{"id":"pm2-60","title":"Choosing a discount rate","blocks":[
+{"t":"p","text":"The chance of reaching the minimum criterion depends on the discount rate. Companies tend to use a rate closer to a bank loan rate than a savings rate; some choose a higher rate to avoid undesired consequences. Many use different rates depending on risk, and high-technology companies may use rates of up to 40%."},
+{"t":"callout","kind":"tip","text":"To get around the difficulty of choosing a discount rate, determine the rate of return implied by the proposal’s cash flow estimates. The result helps management decide whether that rate is adequate for their purposes. That is exactly what IRR does."}
+]},
+{"id":"pm2-61","title":"SAQ 8: NPV of proposal B","blocks":[
+{"t":"activity","id":"pm2-a-saq8","title":"SAQ 8","prompt":"By investing £20 000 cash in the stock market you could be certain of a 12% return. Calculate the NPV of proposal B in SAQ 6 using 12% as the discount rate. (Cash flows: year 0 –20 000, then –2000, 2675, 3200, 4550, 6550, 7000, 8000 in years 1 to 7.)","model":"Using discount factors at 12%: year 0 –20 000 (factor 1.0000); year 1 –2000 x 0.8929 = –1785; year 2 2675 x 0.7972 = 2132; year 3 3200 x 0.7118 = 2277; year 4 4550 x 0.6355 = 2891; year 5 6550 x 0.5674 = 3716; year 6 7000 x 0.5066 = 3546; year 7 8000 x 0.4523 = 3618. Total NPV of the proposal: –£3605.","points":["Multiply each year’s net cash flow by the 12% discount factor","Year 0 is not discounted (factor 1.0000)","Factors: 0.8929, 0.7972, 0.7118, 0.6355, 0.5674, 0.5066, 0.4523","Sum of the present values gives NPV = –£3605","Negative NPV: the return is below 12%, so the stock market is better"]},
+{"t":"table","head":["Year","Net cash flow (£)","Discount factor","PV (£)"],"rows":[["0","–20 000","1.0000","–20 000"],["1","–2 000","0.8929","–1 785"],["2","2 675","0.7972","2 132"],["3","3 200","0.7118","2 277"],["4","4 550","0.6355","2 891"],["5","6 550","0.5674","3 716"],["6","7 000","0.5066","3 546"],["7","8 000","0.4523","3 618"],["Total NPV","","","–3 605"]]}
+]},
+{"id":"pm2-62","title":"Why we need IRR","blocks":[
+{"t":"p","text":"NPV is an absolute amount, so it favours large projects: a small project may have a modest NPV compared with a much bigger one, yet need a much smaller initial investment. To rank projects of different sizes, NPV is extended to give the **internal rate of return (IRR)**."},
+{"t":"callout","kind":"key","title":"Internal rate of return","text":"The rate of return obtained from a proposal, assuming the discounted values of future cash flows pay exactly for the initial investment. In other words: the discount rate that gives an NPV of zero."},
+{"t":"ul","items":["try out different rates (typically progressively higher) until the NPV is closest to zero","or graph NPV against discount rate until you are confident where it crosses NPV = 0"]}
+]},
+{"id":"pm2-63","title":"Table 8: trying rates (years 1 to 3)","blocks":[
+{"t":"p","text":"Same £100 000 proposal, NCFs: year 1 £45 000, year 2 £35 000, year 3 £20 000, year 4 £20 000, year 5 £15 000. Present values at each rate (£):"},
+{"t":"table","head":["Rate","Year 1","Year 2","Year 3"],"rows":[["10%","40 909","28 926","15 026"],["11%","40 541","28 407","14 624"],["12%","40 179","27 902","14 236"],["13%","39 823","27 410","13 861"],["14%","39 474","26 931","13 499"]]}
+]},
+{"id":"pm2-64","title":"Table 8: trying rates (years 4 and 5, NPV)","blocks":[
+{"t":"table","head":["Rate","Year 4","Year 5","Sum of PVs"],"rows":[["10%","13 660","9 314","107 835"],["11%","13 175","8 902","105 648"],["12%","12 710","8 511","103 538"],["13%","12 266","8 141","101 502"],["14%","11 842","7 791","99 537"]]},
+{"t":"table","head":["Rate","NPV (£)"],"rows":[["10%","7 835"],["11%","5 648"],["12%","3 538"],["13%","1 502"],["14%","–463"]]},
+{"t":"p","text":"The IRR closest to an NPV of zero is **14%**. The proposal is worth implementing if management will accept a return of less than 14% a year (which they probably would if the project could be financed with a loan that has a positive NPV at 12%, say)."}
+]},
+{"id":"pm2-65","title":"Finding IRR graphically","blocks":[
+{"t":"p","text":"Figure 8 shows a graphical method, using six calculations with different discount rates. NPV reaches zero at a discount rate slightly less than 14%."},
+{"t":"img","src":"img/pm_p60_12.jpg","alt":"Line graph of NPV in pounds against discount rate from 9% to 19%, falling from about 10 000 at 9% through zero near 14% to about minus 9 000 at 19%","caption":"Figure 8 A proposal’s NPV graph for different discount rates"},
+{"t":"p","text":"The graph is a curve, not a straight line. Two points (one above and one below zero) suffice, but more data points improve accuracy. A spreadsheet can generate such a graph."}
+]},
+{"id":"pm2-66","title":"IRR is not the only method","blocks":[
+{"t":"p","text":"It is not always possible to judge the relative viability of proposals by ranking their IRRs. It is preferable to rank similar proposals by their **NPVs using the same rate of interest**, which is possible when management policy determines the discount rate."},
+{"t":"p","text":"This may not be possible for every evaluation. For example, management may not take into account the relative stability of banking interest rates and inflation, or their potential fluctuation over time."}
+]},
+{"id":"pm2-67","title":"SAQ 9: IRR of proposal B","blocks":[
+{"t":"activity","id":"pm2-a-saq9","title":"SAQ 9","prompt":"What is the IRR of proposal B (from SAQ 6) to the nearest percentage point?","hint":"You know the NPV at 12% was –£3605. Try a lower rate, such as 6%.","model":"Trial and error is needed to find the rate giving NPV = 0. We found a large negative NPV at 12%, so try 6%, which gives a positive NPV. Successive trials show at 7% the NPV is still positive (£867) and at 8% it is negative (–£137). The IRR is just under 8%.","points":["Trial and error to find the rate where NPV = 0","12% gave a large negative NPV, so go lower, e.g. 6% (positive NPV)","At 7% NPV = +£867; at 8% NPV = –£137","IRR is just under 8%"]}
+]},
+{"id":"pm2-68","title":"SAQ 10: effect of project size","blocks":[
+{"t":"activity","id":"pm2-a-saq10","title":"SAQ 10","prompt":"To see the effect of project size on IRR and NPV: (a) What is the IRR of a project twice the size of proposal B in every respect (all cash flows doubled)? (b) What is the effect on NPV of doubling the size of a project?","model":"(a) The IRR is independent of project size. (b) The NPV is doubled.","points":["IRR is independent of project size","NPV doubles when all cash flows double","So IRR compares projects of different sizes; NPV favours big ones"]}
+]},
+{"id":"pm2-69","title":"Check: financial feasibility","blocks":[
+{"t":"quiz","id":"pm2-q4","q":"Which of these is a capital cost?","options":["Monthly electricity bill for a depot","Installation and commissioning of a new machine","Salary of administrative staff","Annual insurance premium"],"answer":1,"explain":"Capital costs acquire or enhance assets, including the costs of installing and commissioning them. The others are running (revenue) costs."},
+{"t":"quiz","id":"pm2-q5","q":"Which methods of evaluation take the effects of time and interest rates on money values into account?","options":["Payback period only","Average annual rate of return only","Discounted cash flow methods (NPV and IRR)","All of the methods equally"],"answer":2,"explain":"Payback and average annual rate of return assume every pound is the same whenever received; only discounted cash flow methods allow for time and interest."},
+{"t":"tf","id":"pm2-q6","q":"The payback method takes into account cash flows received after the payback point.","answer":false,"explain":"This is one of its serious limitations: positive cash flows after payback are completely ignored."}
+]},
+{"id":"pm2-70","title":"Try it: payback, NPV and IRR","blocks":[
+{"t":"tool","tool":"fin-calc","title":"Try it: financial calculator","intro":"Enter a cash flow statement and a discount rate, then see payback, NPV and IRR. Try the £100 000 example (45 000, 35 000, 20 000, 20 000, 15 000) at 10%, and proposal B at 12%."}
+]},
+{"id":"pm2-71","title":"2.4 Risk and uncertainty","blocks":[
+{"t":"p","text":"Risk and uncertainty are pervasive. The word *risk* comes from the Italian verb *riscare*, ‘to run into danger’. Risk represents the chance of adverse consequences or loss occurring. Generally, risks can be identified and then the probability of occurring assessed."},
+{"t":"callout","kind":"key","title":"Uncertainty","text":"Doubt about the validity of qualitative or quantitative data. Also a state where too little is known about something, and the lack of knowledge is itself a danger that can only be addressed by gathering more information (Chapman and Ward, 2003)."}
+]},
+{"id":"pm2-72","title":"Example 8: storing an unknown substance","blocks":[
+{"t":"p","text":"Your company is asked to store a substance you know nothing about. What are the risks? They are hard to determine until you find out whether it is explosive, flammable, corrosive, poisonous and so on."},
+{"t":"ol","items":["**Uncertainty:** you do not know what the substance is like.","**Risk:** you find it is explosive, so there is a risk of explosion in storing it.","**Probabilistic assessment:** further investigation shows it is explosive only if heated above a certain temperature, so you can assess whether your storage temperatures are likely to stay within safe limits."]},
+{"t":"p","text":"The knowledge also lets you plan actions that reduce the risk further, for example installing air conditioning or refrigeration."}
+]},
+{"id":"pm2-73","title":"Aspects of risk and escalation","blocks":[
+{"t":"p","text":"To manage risk in a project, Edwards and Bowen (2005) identify four aspects of risk phenomena:"},
+{"t":"ul","items":["the probability that an event will occur","the nature of the event","the consequences of that event","the period of exposure to the event (and its consequences)"]},
+{"t":"p","text":"Anyone preparing a proposal must first identify areas of risk and uncertainty. At the proposal stage, perceived risks must be brought to the attention of those with authority to decide: the problem is ‘escalated’ to more senior managers, who may delegate someone to investigate further."}
+]},
+{"id":"pm2-74","title":"Categories of risk","blocks":[
+{"t":"p","text":"Crockford (1980) listed these categories of risk:"},
+{"t":"ul","items":["fire and natural disaster","accident","political and social risk (war, civil disturbance, theft and vandalism)","technical risk","marketing risk","labour risk (stoppages and strikes, turnover of personnel)","liability risks (product liability, safety)"]},
+{"t":"p","text":"Some would add environmental problems (serious, but short of natural disaster) and, under social risks, demonstrations against a project and adverse social effects such as relocating large numbers of people."}
+]},
+{"id":"pm2-75","title":"Natural and human risk","blocks":[
+{"t":"p","text":"Edwards and Bowen (2005) classify risk in two branches:"},
+{"t":"table","head":["Branch","Sub-categories"],"rows":[["Natural","biological, climate (weather), geological, extra-terrestrial"],["Human","cultural, economic, financial, health, legal, managerial, political, social, technical"]]},
+{"t":"p","text":"They acknowledge that human risks are harder to classify than natural ones because of overlaps and relationships within humanly devised systems (2005, p. 27)."}
+]},
+{"id":"pm2-76","title":"High-risk proposals","blocks":[
+{"t":"p","text":"Variation of costs should be considered a risk if novel elements predominate. Proposals involving research, development or immature technologies tend to be riskier than projects in mature areas such as civil engineering."},
+{"t":"p","text":"Yet Chicken (1994, p. 6) notes that major novel civil engineering projects, such as the Sydney Opera House, the Thames Flood Barrier and the Channel Tunnel, suffered cost variation, often by factors of 10 to 200 times the original estimates. More recently the new Edinburgh parliament building and the replacement Wembley Stadium did too. Information systems developments are also prone to this. Often the cause is a failure to implement ‘best practice’ in managing projects (RAE, 2004)."}
+]},
+{"id":"pm2-77","title":"Three dimensions of risk","blocks":[
+{"t":"ul","items":["**Size:** the larger a project, the greater the risk. More size usually means more complexity, including administration, management and communication among participants.","**Technological maturity:** the extent to which the technology and methods are new, untried, innovative or unfamiliar (novel methods, techniques, materials).","**Structural complexity:** the arrangement of the project’s component parts, and the structure of teams, management and relationships between groups."]},
+{"t":"quiz","id":"pm2-q7","q":"Which of these is NOT one of the three dimensions of risk in proposals?","options":["Size","Technological maturity","Structural complexity","Length of the project name"],"answer":3,"explain":"The three dimensions are size, technological maturity (novelty of methods) and structural complexity."}
+]},
+{"id":"pm2-78","title":"Try it: risk matrix","blocks":[
+{"t":"tool","tool":"risk-matrix","title":"Try it: risk matrix","intro":"Rate the probability and consequence of risks to a proposal, see where each falls on the matrix and decide which to escalate or investigate first."}
+]},
+{"id":"pm2-79","title":"2.5 Summary","blocks":[
+{"t":"p","text":"The feasibility study develops a scenario and a functional specification (what the new or revised system should do). It should identify whether the scenario is technically feasible, its likelihood of success in ecological, social and political terms, and whether it is financially feasible."},
+{"t":"p","text":"Financial feasibility is assessed in a cost–benefit analysis that identifies and assesses tangible and intangible costs and benefits. A cash flow statement is produced, then analysed by one or more methods ranging from the simple payback period to the internal rate of return."},
+{"t":"p","text":"Risks inherent in a proposal also affect feasibility, so identifying, assessing and managing them is important. At the feasibility stage they are brought to the attention of senior managers, who may delegate further exploration. Proposals that are large, have many novel elements, depend on immature technology or are structurally complex are very risky ventures."}
+]},
+{"id":"pm2-80","title":"What you should now be able to do","blocks":[
+{"t":"ul","items":["describe the elements of a feasibility study","state the general aims of a functional specification","sketch a rich picture to represent the ‘soft’ (social, political, ecological) elements of a proposal","describe what a scenario is and generate simple scenarios","assess the maturity of a technology in an area you know","carry out a features analysis and explain how a figure of merit is derived","frame questions for an ecological assessment","distinguish capital and revenue costs, and tangible and intangible costs and benefits","understand financing costs, internal costs and overheads (indirect costs)","describe the effect of time on values","draw up a simple cash flow statement and justify the period used","make a simple payback evaluation and know its limitations","calculate NPV and IRR from given cash flows","list categories of risk and the three dimensions of risk"]},
+{"t":"flash","cards":[{"front":"Functional specification","back":"Identifies what has to be done and the constraints, without saying how."},{"front":"Scenario","back":"A brief description of a system, process or procedures that should meet the objectives."},{"front":"Figure of merit (FOM)","back":"Sum of weight-adjusted feature scores; the highest FOM is normally chosen."},{"front":"Payback period","back":"How long until accumulated cash flow becomes positive; ignores later flows and time value."},{"front":"Net present value","back":"Present value of benefits minus present value of costs; must be at least zero."},{"front":"Internal rate of return","back":"The discount rate that gives an NPV of zero."},{"front":"Three dimensions of risk","back":"Size, technological maturity, structural complexity."}]}
+]},
+{"id":"pm2-81","title":"Chapter quiz (1/2)","blocks":[
+{"t":"quiz","id":"pm2-q8","q":"What does PESTLE stand for in assessing the feasibility of a scenario?","options":["Planning, estimating, scheduling, testing, launching, evaluating","Political, economic, social, technological, legal, environmental","People, equipment, software, tools, labour, expenses","Profit, expenditure, savings, tax, loans, equity"],"answer":1,"explain":"PESTLE factors cover the ‘soft’ as well as the hard aspects of feasibility."},
+{"t":"quiz","id":"pm2-q9","q":"A rich picture is used to:","options":["Calculate the net present value of a project","Represent holistically the situation, including political, psychological and social factors","List the costs of a project in order of size","Rank products by figure of merit"],"answer":1,"explain":"A rich picture is a holistic analyst’s representation from the soft systems methodology."},
+{"t":"quiz","id":"pm2-q10","q":"An investment of £100 000 gives a net cash flow of £25 000 a year. What is the payback period?","options":["2 years","4 years","25 years","10 years"],"answer":1,"explain":"£100 000 / £25 000 = 4 years."}
+]},
+{"id":"pm2-82","title":"Chapter quiz (2/2)","blocks":[
+{"t":"quiz","id":"pm2-q11","q":"£5000 will be received in year 3. At a 10% discount rate, its present value is closest to:","options":["£3757","£4545","£5500","£6655"],"answer":0,"explain":"£5000 / 1.331 = £3757."},
+{"t":"quiz","id":"pm2-q12","q":"Which statements are true of NPV and IRR? (select all)","options":["A project is acceptable at a given rate if its NPV is greater than or equal to zero","The IRR is the discount rate at which NPV equals zero","Doubling all cash flows doubles the IRR","IRR is independent of project size"],"answer":[0,1,3],"multi":true,"explain":"Doubling cash flows doubles NPV but leaves IRR unchanged."},
+{"t":"quiz","id":"pm2-q13","q":"What is the difference between risk and uncertainty?","options":["There is none; they are the same word","Risk is an identified chance of adverse consequences; uncertainty is doubt about data or too little knowledge, addressed by gathering information","Risk only applies to money; uncertainty only applies to people","Uncertainty can be eliminated by raising the discount rate"],"answer":1,"explain":"Example 8: an unknown substance is uncertainty; once found explosive, the explosion risk can be assessed."}
+]}
+]
+}

@@ -1,0 +1,852 @@
+{
+ "id": "ent8",
+ "title": "Session 8: Bringing it all together - just start!",
+ "summary": "Overcome self-doubt, build your network, pitch your business, define success and complete the badge quiz.",
+ "minutes": 60,
+ "pages": [
+  {
+   "id": "ent8-01",
+   "title": "Just start!",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "How many times have you talked yourself out of an idea after a chat with a friend or colleague, or in your own mind? There are many more would-be entrepreneurs than real ones. Often the only thing stopping you is your own self-doubt. For many entrepreneurs, the difference is that they don't spend a lot of time working out where to start - they just start!"
+    },
+    {
+     "t": "p",
+     "text": "In this final session, before the final quiz and your badge, you will create an action plan to give you focus and overcome the inertia of self-doubt and having too much to do."
+    }
+   ]
+  },
+  {
+   "id": "ent8-02",
+   "title": "Your action plan and outcomes",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Your action plan will:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "increase your network of contacts (and may even find you your first customer)",
+      "identify elements of your business model to prioritise and research further",
+      "help you to pitch your business idea effectively to others."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "By the end of this session you will be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "use some tools and techniques to start the next phase of your business idea",
+      "identify people to expand your network",
+      "make a pitch to prospective customers, other stakeholders or investors",
+      "set out some measures of success for you and your enterprise."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent8-03",
+   "title": "Overcoming self-doubt",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "It is perfectly normal to have doubts about starting out on your own, especially if you are giving up a steady income where someone else takes the decisions and risks. Doubts are often magnified by being on your own. Remember that many other people have done this successfully."
+    },
+    {
+     "t": "p",
+     "text": "Activity 1 is designed to give you perspective. It may even uncover challenges or opportunities you couldn't see because you were too close to your idea."
+    }
+   ]
+  },
+  {
+   "id": "ent8-04",
+   "title": "Activity 1: Overcoming barriers",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "ent8-a1",
+     "title": "Activity 1 Overcoming barriers",
+     "prompt": "Step 1: List all the problems or obstacles that are preventing you from moving forward. For each one, write down all the alternative solutions you can think of. (Table 1: Problems/obstacles | Alternative solutions | Discussion.) Step 2: Show your list to another person and explain the challenges and your solutions. Step 3: Return to your obstacles: do any now seem more like an asset or opportunity you could exploit?",
+     "hint": "Allow about 20 minutes. Use the three columns: obstacle, alternative solutions, discussion.",
+     "model": "A good answer lists specific obstacles (e.g. lack of money, no customers yet, fear of leaving a steady job), pairs each with several alternative solutions, and then reframes at least one as an opportunity. Explaining a barrier to someone else may begin to solve it, they may solve it for you, or their suggestions may spark new ideas.",
+     "points": [
+      "List the real obstacles specifically",
+      "Generate several alternative solutions per obstacle",
+      "Discussing with someone else can solve it or spark ideas",
+      "Reframe some challenges as assets or opportunities"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent8-05",
+   "title": "Isolation and networks",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Working on your own, perhaps at home, can feel isolating, especially if you are used to a larger team. One way to sustain yourself is to build a network of people and involve them in your idea as sounding boards, advisers, prospective users or customers, mentors or partners."
+    },
+    {
+     "t": "p",
+     "text": "Earlier you met co-working spaces, accelerators and incubators: one way to reduce isolation and increase your working network among others in a similar position."
+    }
+   ]
+  },
+  {
+   "id": "ent8-06",
+   "title": "Video: overcoming doubt",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Listen to our entrepreneurs discuss the ups and downs they have experienced and how they overcame feelings of doubt in their ability to succeed."
+    },
+    {
+     "t": "video",
+     "title": "Video 1 Overcoming feelings of doubt",
+     "url": null,
+     "note": "Entrepreneurs talk about the ups and downs of running a business and how they cope with doubt, e.g. Emma Prince describing how every six weeks to two months she suddenly looks at everything and questions it."
+    }
+   ]
+  },
+  {
+   "id": "ent8-07",
+   "title": "Reflection: your doubts",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "ent8-a2",
+     "title": "Reflection: your own doubts",
+     "prompt": "Having listened to our entrepreneurs, do you share any of their doubts? What strategies might you pick for yourself to help overcome the challenges that threaten to derail you?",
+     "model": "Many people share doubts about money, ability and the risk of leaving security. Useful strategies include talking the doubt through with trusted people, breaking the venture into small low-cost steps, building a network, learning from others who have made mistakes, and starting part time until you are confident.",
+     "points": [
+      "Acknowledge which doubts you share",
+      "Choose concrete strategies, not just 'be positive'",
+      "Use other people and your network",
+      "Take small steps"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent8-08",
+   "title": "Building your network",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "One of the most important things you will do to get your venture off the ground and sustain it is to bring other people along with you. If you are still passionate about your idea, this will be obvious to others. If you are less sure, you have nothing to lose by testing it on other people. Maintaining your energy and enthusiasm is an essential part of sustaining it."
+    },
+    {
+     "t": "activity",
+     "id": "ent8-a3",
+     "title": "Reflection: why get feedback?",
+     "prompt": "Take a moment to think about different ways you could benefit from getting feedback from some people you trust.",
+     "model": "Benefits of sharing your ideas include gaining more resources (people, funding, suppliers, outlets), spreading risk beyond yourself, tapping into more knowledge and creativity, accessing experience that prevents costly mistakes, and building confidence from affirmation that you are on to something.",
+     "points": [
+      "More resources: people, funding, suppliers, outlets",
+      "Spread the risk beyond yourself",
+      "More knowledge and creativity",
+      "Experience that prevents costly mistakes",
+      "Confidence from feedback during periods of doubt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent8-09",
+   "title": "Who is in your network?",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/ent_44.jpg",
+     "alt": "Connected hexagons: Me, My friends, Their friends and associates, My family, My old school/college friends, My local business community",
+     "caption": "Figure 1 Your network of people"
+    },
+    {
+     "t": "p",
+     "text": "Start by listing people in your personal, social and professional circles who:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "have money they would be prepared to put up",
+      "may be willing to take a risk",
+      "know other people who could help you",
+      "would be fun to work with",
+      "get things done",
+      "have a useful skillset such as finance, marketing, communication, administration, attention to detail or experience building an enterprise."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent8-10",
+   "title": "Enrolling others",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Next you need to approach and enrol them. This may be the hardest part, as it feels like exposing yourself to rejection. Remember you are not trying to sell these people anything, but offering them the chance to do something they may want to do for themselves. Distinguish those who are excited *for you* from those for whom your enterprise taps into a genuine desire or opportunity. If the gains are not aligned, don't take it personally."
+    },
+    {
+     "t": "p",
+     "text": "Enrolling others requires them to understand what you want to do and what you are seeking from them."
+    }
+   ]
+  },
+  {
+   "id": "ent8-11",
+   "title": "Friends and family",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "If you work with friends or relations, think through where their motivation comes from. It is unhelpful in the long run if they feel pressure to support you formally. Lending money or working for free out of obligation is not sustainable and can cause difficulties if it comes at the expense of their own need for money or time."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "title": "Acceptable risk",
+     "text": "Discuss the venture objectively in terms of what is an 'acceptable risk' or even 'acceptable loss' to them, so both parties understand their position."
+    }
+   ]
+  },
+  {
+   "id": "ent8-12",
+   "title": "The elevator pitch",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The **elevator pitch** lasts no longer than 60 seconds, or as long as it takes to explain your idea if you got into a lift with someone. It is a good discipline to explain quickly and concisely what your business is to busy people you may want to enrol."
+    },
+    {
+     "t": "p",
+     "text": "The ideal pitch quickly tells them what you do and what you are looking for from them. Your value proposition from Session 3 may already be your elevator pitch. Some tech entrepreneurs borrow from well-known brands, e.g. 'We are like a social enterprise version of Uber' for a community transport scheme - as long as everyone understands the concept of Uber."
+    }
+   ]
+  },
+  {
+   "id": "ent8-13",
+   "title": "Activity 2: Listen and learn",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Audio 1 The Bottom Line",
+     "url": null,
+     "note": "Audio extract (BBC Radio 4 'The Bottom Line', Open University). Evan Davis introduces teenage entrepreneurs Akshay Ruparelia and Henry Patterson and draws a short pitch from them."
+    },
+    {
+     "t": "activity",
+     "id": "ent8-a4",
+     "title": "Activity 2 Listen and learn",
+     "prompt": "Listen to the extract from The Bottom Line, in which Evan Davis draws a short pitch from two teenage entrepreneurs. Think about whether you could improve their pitch. Listen to the questions Evan asks, especially of Henry, to get the clarity he is looking for. How do you think they did?",
+     "hint": "Allow about 15 minutes. If the audio is unavailable, think of a short pitch you could improve.",
+     "model": "They did very well given it was a live broadcast and they were young. Akshay's first answer was much clearer (although Evan clarified the point on £99). Henry, being much younger, relied more on questions. Nervousness lessens with practice and by learning from what others say. You probably don't need to state your age in your pitch.",
+     "points": [
+      "Judge clarity: what do you do and for whom",
+      "Note how the interviewer's questions drew out detail",
+      "Live pitches by young people were still strong",
+      "Practice and learning from others improve polish"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent8-14",
+   "title": "The purpose of a pitch",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "For most situations you need more detail than the boilerplate pitch; refer back to your business model canvas and other tools. A short slide deck with images and bullet points rather than lots of words can help, but slides are overused and not always the most effective way to stand out."
+    },
+    {
+     "t": "p",
+     "text": "The purpose of the pitch is to create a positive (first) impression, to inform, engage and be memorable. If people can't remember you or what you want, they cannot engage later or refer you to anyone."
+    }
+   ]
+  },
+  {
+   "id": "ent8-15",
+   "title": "Passion, stories and practice",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "One of the best ways to engage people is to show passion and enthusiasm. Another is to use **stories** that bring the problem or need alive, then show with energy how your idea solves it. Stories are easier to relate to than technical details and, if they tap into emotion and empathy, more memorable."
+    },
+    {
+     "t": "p",
+     "text": "You may have to get over anxiety about public speaking or selling, but these are essential skills. Prospective customers, investors and mentors are buying into you as well as the idea. Prepare thoroughly, know what you want to say and how to come across, then practise."
+    }
+   ]
+  },
+  {
+   "id": "ent8-16",
+   "title": "What to cover (1): why and what",
+   "blocks": [
+    {
+     "t": "h",
+     "text": "Vision and value proposition"
+    },
+    {
+     "t": "p",
+     "text": "Your 60-second pitch describing in a nutshell the problem you solve and why it is worth solving. These one or two sentences may be the hardest to write. Imagine writing it for a Tweet."
+    },
+    {
+     "t": "h",
+     "text": "The problem"
+    },
+    {
+     "t": "p",
+     "text": "Use storytelling to bring alive the problem, challenge or gap in customers' lives. Can you think of one that illustrates the need with passion?"
+    },
+    {
+     "t": "h",
+     "text": "The opportunity"
+    },
+    {
+     "t": "p",
+     "text": "Zoom in on who the solution is aimed at: the most likely customer segment, with size, location and data showing how groups are underserved. A segment is valid only if you know who they are, what they need, that there are enough of them and that you can reach them."
+    }
+   ]
+  },
+  {
+   "id": "ent8-17",
+   "title": "What to cover (2): solution and model",
+   "blocks": [
+    {
+     "t": "h",
+     "text": "The solution"
+    },
+    {
+     "t": "p",
+     "text": "It is a narrative, so the solution does not come first. For a 'new to the world' or technical product, make sure the audience first relates to the impact on their lives (or businesses)."
+    },
+    {
+     "t": "h",
+     "text": "Business model"
+    },
+    {
+     "t": "p",
+     "text": "How will you make money, compete, and what revenue streams do you expect? A hairdresser may also sell shampoo; a tourism business may sell merchandise."
+    },
+    {
+     "t": "h",
+     "text": "Early successes"
+    },
+    {
+     "t": "p",
+     "text": "Lacking trading history, show traction in another market, positive focus-group reaction, early interest, forward orders, a competition win, early funding or press coverage."
+    }
+   ]
+  },
+  {
+   "id": "ent8-18",
+   "title": "What to cover (3): marketing and team",
+   "blocks": [
+    {
+     "t": "h",
+     "text": "Marketing"
+    },
+    {
+     "t": "p",
+     "text": "Your sales strategy: who will sell, which channels (website, social media, pop-up shops, festivals), what tactics, key messages and features to emphasise."
+    },
+    {
+     "t": "h",
+     "text": "The team"
+    },
+    {
+     "t": "p",
+     "text": "Why should your audience take a chance on you? Show achievements, skills, knowledge, experience and track record, for you and for partners. Being realistic about gaps is reassuring and may net you new supporters or partners."
+    }
+   ]
+  },
+  {
+   "id": "ent8-19",
+   "title": "What to cover (4): financials and competition",
+   "blocks": [
+    {
+     "t": "h",
+     "text": "Financials"
+    },
+    {
+     "t": "p",
+     "text": "Show graphs, trends and a summary rather than detailed spreadsheets: that you understand cash flow, control costs and know your breakeven point, so investors know when to expect a return. Be ready to discuss assumptions; experienced investors will discount overstated income."
+    },
+    {
+     "t": "h",
+     "text": "The competition"
+    },
+    {
+     "t": "p",
+     "text": "Competitors may be direct (a straight choice between alternatives) or indirect (a grocery delivery service versus a shop). Show customers have a choice and that you are a better alternative compelling them to switch. If you fill an unmet need, consider what people currently make do with."
+    }
+   ]
+  },
+  {
+   "id": "ent8-20",
+   "title": "What to cover (5): investment and demo",
+   "blocks": [
+    {
+     "t": "h",
+     "text": "Planned investment"
+    },
+    {
+     "t": "p",
+     "text": "Say what funding you need (seed or growth funding) and the planned use of funds. Investors judge whether plans are realistic and what return they can expect: through equity, dividends or other means, and how soon, including your exit strategy."
+    },
+    {
+     "t": "h",
+     "text": "Prototype or demonstration"
+    },
+    {
+     "t": "p",
+     "text": "An effective physical demonstration (prototype, mock-up, model or simulation) shows more than a thousand words. Do ensure the right environment, practise so it goes smoothly, and make sure it withstands enthusiastic testing from the audience. Don't score an own goal: check your broadband connection if you need the internet."
+    }
+   ]
+  },
+  {
+   "id": "ent8-21",
+   "title": "Try it: pitch coach",
+   "blocks": [
+    {
+     "t": "tool",
+     "tool": "pitch",
+     "title": "Try it: build and practise your pitch",
+     "intro": "Draft your 60-second pitch using the sections above and get feedback on clarity and completeness."
+    }
+   ]
+  },
+  {
+   "id": "ent8-22",
+   "title": "The secrets of success",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "There are no guarantees of success, and success can be defined many ways beyond the 'bottom line', which originally meant profit. Would you call your business a success if you were profitable but had a miserable family life? Only if you sell it for £1m? If it is a small part-time business giving your family a healthy income and local jobs? If it improves the lives of friends and neighbours?"
+    },
+    {
+     "t": "p",
+     "text": "In basic terms, a successful business is profitable and sustainable over the longer term."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Quadruple bottom line",
+     "text": "Success for yourself, your family, the firm and the community (which might also include the environment)."
+    }
+   ]
+  },
+  {
+   "id": "ent8-23",
+   "title": "Activity 3: Four bottom lines",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "ent8-a5",
+     "title": "Activity 3 Defining your four bottom lines",
+     "prompt": "Complete a table (adapted from Katz and Green, 2013) for Yourself, Your family, Enterprise and Community: for each give a goal, how you would measure success, and an achievement goal.",
+     "hint": "Allow about 15 minutes.",
+     "model": "Example: Yourself - feel in control of my own destiny, measured by my own feelings, achieved. Family - good work-life balance, feedback of partner and friends, 20 days holiday a year. Enterprise - profit and a local authority contract, income of £60,000 a year and a three-year contract, retained profit of £60,000. Community - employment for one apprentice and support for local charities, satisfied employee and 5% of turnover in donations, employment for five years minimum and 3.5% in the first year.",
+     "points": [
+      "Cover all four: yourself, family, enterprise, community",
+      "Make each goal measurable",
+      "Set a specific achievement level",
+      "Your goals may differ from the example"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent8-24",
+   "title": "Four factors critical to start-ups",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Inevitably starting a business involves risk, yet many people do it because they can, and want to do something meaningful. Focus on what you can do to mitigate the risk of failure. Research points to four factors critical to start-up success:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Seek the advice and support of your local economic development agency (see Session 2).",
+      "Join the sector or industry body for your line of business and use its advice and referrals.",
+      "Network with other entrepreneurs and small businesses for advice and referrals.",
+      "Consult a legal expert or accountant."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Each recommends that you seek and use all the help available. Those who seek expert help fare better, as do those in an incubator or accelerator programme and students of entrepreneurship courses (Charney et al., cited in Katz and Green, 2000). The more you know, the better the chances of succeeding."
+    }
+   ]
+  },
+  {
+   "id": "ent8-25",
+   "title": "Capstone: complete your canvas",
+   "blocks": [
+    {
+     "t": "tool",
+     "tool": "bmc",
+     "title": "Capstone: your full Business Model Canvas",
+     "intro": "Bring everything together: complete every block of your canvas using what you have learned across the eight sessions, so you can use it as the basis of your pitch and action plan."
+    }
+   ]
+  },
+  {
+   "id": "ent8-26",
+   "title": "Summary (1)",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Successful entrepreneurs learn to deal with uncertainty. Fortunately you can move forward and take corrective action as you go, or start part time until you are confident to go all out. In this final session you have:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "considered how to overcome fear and anxiety to take the next steps",
+      "recognised the importance of widening your network by bringing others on board",
+      "identified what makes a good pitch",
+      "set your own bottom line: what constitutes success for you."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Serial entrepreneurs are not simply impulsive. They work on the principle of 'acceptable loss': they know the bare minimum they (and those they are responsible for) could survive on, and for how long, if little came in. So they consider costs carefully, listen to advice especially from those who have made mistakes, and tell apart those committed to their idea from those who are not."
+    }
+   ]
+  },
+  {
+   "id": "ent8-27",
+   "title": "Summary (2)",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "There are no guarantees and many businesses fail. Success is relative and you define it yourself. By being in business you keep learning and drive down the cost of the next step. By keeping moving and taking corrective action you prevent 'paralysis by analysis'. Entrepreneurship correlates closely with learning: about yourself, what you know and can use (probably more than you think) and what you don't yet know."
+    },
+    {
+     "t": "p",
+     "text": "You have met concepts and theories as well as skills: analysing situations and opportunities, creating and critically assessing alternatives, and making judgements about people, situations, opportunities and threats; also marketing and communicating your business model, and structuring ideas and actions. These are valuable for your employability whatever you decide. You may have changed direction from your first idea, and that is fine. Congratulations on taking the first step towards making your enterprise a success."
+    }
+   ]
+  },
+  {
+   "id": "ent8-28",
+   "title": "Badge quiz: how it works",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "It's time for the Session 8 compulsory badge quiz. It is similar to previous quizzes, but instead of five questions there are fifteen, shown here over five pages of three."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "title": "Badge rules",
+     "text": "To earn the badge you read each session and score 50% or more in the two badge quizzes (Sessions 4 and 8). In the official quiz you can have up to three attempts at most questions (usually one for true/false), and answering correctly first time earns more marks. If you don't reach 50%, you can retry the whole quiz after 24 hours."
+    },
+    {
+     "t": "p",
+     "text": "Here you can practise with the same number of questions. Good luck!"
+    }
+   ]
+  },
+  {
+   "id": "ent8-29",
+   "title": "Badge quiz (1 of 5)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "ent8-bq1",
+     "q": "What is an elevator pitch?",
+     "options": [
+      "A pitch lasting no longer than about 60 seconds",
+      "A full 30-slide investor presentation",
+      "A written business plan",
+      "A pitch only used in lifts"
+     ],
+     "answer": 0,
+     "explain": "It lasts no longer than 60 seconds, roughly as long as explaining your idea in a lift."
+    },
+    {
+     "t": "quiz",
+     "id": "ent8-bq2",
+     "q": "Which are the three main sources of business funding?",
+     "options": [
+      "Equity financing, debt financing and reinvested profits",
+      "Grants, gifts and prizes",
+      "Overdrafts, leases and bonds",
+      "Crowdfunding, angels and IPOs"
+     ],
+     "answer": 0,
+     "explain": "Session 7 names equity financing, debt financing and reinvested profits as the three main sources."
+    },
+    {
+     "t": "quiz",
+     "id": "ent8-bq3",
+     "q": "The quadruple bottom line describes success for which four parties?",
+     "options": [
+      "Yourself, your family, the firm and the community",
+      "Customers, suppliers, staff and investors",
+      "Profit, sales, cost and cash",
+      "Local, regional, national and global markets"
+     ],
+     "answer": 0,
+     "explain": "It covers success for yourself, your family, the enterprise and the community (including the environment)."
+    }
+   ]
+  },
+  {
+   "id": "ent8-30",
+   "title": "Badge quiz (2 of 5)",
+   "blocks": [
+    {
+     "t": "tf",
+     "id": "ent8-bq4",
+     "q": "Equity is normally repaid to the owners with interest at the end of a fixed period.",
+     "answer": false,
+     "explain": "Equity is never repaid unless the business is closed down and funds allow; lenders (debt) are repaid with interest."
+    },
+    {
+     "t": "quiz",
+     "id": "ent8-bq5",
+     "q": "What is a balance sheet?",
+     "options": [
+      "A summary of assets, liabilities and equity at a particular moment in time",
+      "A record of sales over a year",
+      "A forecast of monthly cash inflows",
+      "A register of shareholders"
+     ],
+     "answer": 0,
+     "explain": "A balance sheet is a snapshot of assets, liabilities and equity at one moment."
+    },
+    {
+     "t": "quiz",
+     "id": "ent8-bq6",
+     "q": "Which is NOT one of the four factors critical to start-up success?",
+     "options": [
+      "Avoiding all outside advice",
+      "Seeking advice from your local economic development agency",
+      "Joining a sector or industry body",
+      "Consulting a legal expert or accountant"
+     ],
+     "answer": 0,
+     "explain": "All four factors recommend seeking help; avoiding advice is the opposite."
+    }
+   ]
+  },
+  {
+   "id": "ent8-31",
+   "title": "Badge quiz (3 of 5)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "ent8-bq7",
+     "q": "In Activity 1 (overcoming barriers), what might showing your list to another person achieve? (select all that apply)",
+     "options": [
+      "Explaining a barrier may start to solve it",
+      "The other person may solve it",
+      "Their suggestions may spark new ideas",
+      "It guarantees the barrier disappears"
+     ],
+     "answer": [
+      0,
+      1,
+      2
+     ],
+     "explain": "The three outcomes are: starting to solve it by explaining, the other person solving it, or sparking new ideas. Nothing guarantees a barrier disappears.",
+     "multi": true
+    },
+    {
+     "t": "quiz",
+     "id": "ent8-bq8",
+     "q": "Why should a pitch use stories?",
+     "options": [
+      "They bring the problem alive and are more memorable",
+      "They replace the need for financial information",
+      "They avoid the need to practise",
+      "They are required by investors"
+     ],
+     "answer": 0,
+     "explain": "Stories are easier to relate to than technical details and, if they tap emotion and empathy, more memorable."
+    },
+    {
+     "t": "tf",
+     "id": "ent8-bq9",
+     "q": "When working with friends and family, lending money or working for free out of obligation is a sustainable approach.",
+     "answer": false,
+     "explain": "It is not sustainable and can cause future difficulties; discuss 'acceptable risk' or 'acceptable loss' instead."
+    }
+   ]
+  },
+  {
+   "id": "ent8-32",
+   "title": "Badge quiz (4 of 5)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "ent8-bq10",
+     "q": "Which pitch section covers the funding you need and how you plan to use it?",
+     "options": [
+      "Planned investment",
+      "The opportunity",
+      "Early successes",
+      "The solution"
+     ],
+     "answer": 0,
+     "explain": "Planned investment says what funding is needed (seed or growth) and the planned use of funds."
+    },
+    {
+     "t": "quiz",
+     "id": "ent8-bq11",
+     "q": "What does 'acceptable loss' mean for serial entrepreneurs?",
+     "options": [
+      "The bare minimum they and their dependants could survive on, and for how long, if little came in",
+      "The profit they expect each year",
+      "The amount investors will lend",
+      "A tax allowance for losses"
+     ],
+     "answer": 0,
+     "explain": "They understand the minimum they could survive on and for how long, and so consider costs carefully."
+    },
+    {
+     "t": "quiz",
+     "id": "ent8-bq12",
+     "q": "Which statement about a customer segment is correct?",
+     "options": [
+      "It is valid only if you know who the customers are, their needs, that there are enough of them and that you can reach them",
+      "Everyone is a valid segment",
+      "A segment needs no research",
+      "A segment is the same as a competitor"
+     ],
+     "answer": 0,
+     "explain": "That is the four-part test given in the pitch guidance."
+    }
+   ]
+  },
+  {
+   "id": "ent8-33",
+   "title": "Badge quiz (5 of 5)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "ent8-bq13",
+     "q": "In a pitch, why is it reassuring to admit gaps in your team?",
+     "options": [
+      "It shows realism and may attract new supporters or partners",
+      "It lowers the amount you need",
+      "It removes the need for a team",
+      "It satisfies regulators"
+     ],
+     "answer": 0,
+     "explain": "Being realistic about gaps is reassuring and may net you new supporters or partners."
+    },
+    {
+     "t": "quiz",
+     "id": "ent8-bq14",
+     "q": "What should you do with a live demonstration in a pitch?",
+     "options": [
+      "Practise it, check the environment, and make sure it withstands testing",
+      "Skip rehearsal to appear natural",
+      "Rely on an untested internet connection",
+      "Avoid letting the audience try it"
+     ],
+     "answer": 0,
+     "explain": "Ensure the right environment, practise, and make sure it stands up to enthusiastic testing."
+    },
+    {
+     "t": "tf",
+     "id": "ent8-bq15",
+     "q": "'Paralysis by analysis' is avoided by keeping moving and taking corrective action as you go.",
+     "answer": true,
+     "explain": "By keeping moving and correcting course you avoid over-thinking and learn at lower cost."
+    }
+   ]
+  },
+  {
+   "id": "ent8-34",
+   "title": "Congratulations and where next",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "You have reached the end of *Entrepreneurship - from ideas to reality*. If you enjoyed it, find more free resources on OpenLearn. You may be interested in:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Understanding your sector",
+      "Making creativity and innovation happen",
+      "First steps in innovation and entrepreneurship",
+      "Understanding and managing risk",
+      "Leadership and followership",
+      "Leadership challenges in turbulent times"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "The National Careers Service can help you decide your next steps with your new skills. The Open University also offers access courses for new learners and CPD courses, with 50 years of experience supporting students."
+    }
+   ]
+  },
+  {
+   "id": "ent8-35",
+   "title": "Your badge",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Badged courses are part of The Open University's mission to promote the educational wellbeing of the community, and a way to progress from informal to formal learning. The course takes about 24 hours of study and is free, without a tutor but with feedback from interactive quizzes."
+    },
+    {
+     "t": "p",
+     "text": "Digital badges show online that you have gained a skill, and can be shared with friends, family, employers and on social media. To gain the badge: read each session and score 50% or more in the two badge quizzes (Sessions 4 and 8). You receive an email when you gain your badge, and can view and manage badges in My OpenLearn within 24 hours."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "title": "",
+     "text": "The badge itself is awarded by OpenLearn on the original course website. The quizzes in this app are for practice and are not linked to the official badge."
+    }
+   ]
+  },
+  {
+   "id": "ent8-36",
+   "title": "Reference and feedback",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The course invites you to complete a short end-of-course survey to tell the course team what you think."
+    },
+    {
+     "t": "h",
+     "text": "Reference"
+    },
+    {
+     "t": "p",
+     "text": "Blundel, R., Lockett, N. and Wang, C. (2018) *Exploring Entrepreneurship*. 2nd edn. London, Sage."
+    }
+   ]
+  },
+  {
+   "id": "ent8-37",
+   "title": "Acknowledgements and licence",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "This free course was written by Liz Moody and Ronald Macintyre. It was first published in February 2019 and updated in November 2021."
+    },
+    {
+     "t": "p",
+     "text": "Except for third party materials and otherwise stated, this content is made available under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Licence (creativecommons.org/licenses/by-nc-sa/4.0/deed.en_GB), subject to the Open University terms and conditions."
+    },
+    {
+     "t": "p",
+     "text": "Third-party materials are used under licence and are not subject to the Creative Commons Licence. Images in this session: Session 7 Figure 1: anilakkus, iStockphoto.com; Figure 2 taken from accountingformanagement.org/balance-sheet/; Figure 4: Jim Riley. Audio: The Bottom Line, a co-production between the BBC and the Open University. Course image: © The Open University."
+    },
+    {
+     "t": "p",
+     "text": "Every effort has been made to contact copyright owners. If any have been inadvertently overlooked, the publishers will be pleased to make the necessary arrangements at the first opportunity."
+    }
+   ]
+  }
+ ]
+}

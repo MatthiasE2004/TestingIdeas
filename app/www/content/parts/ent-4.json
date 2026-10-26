@@ -1,0 +1,304 @@
+{
+  "id": "ent4",
+  "title": "Session 4: Customers and markets",
+  "summary": "Identify who your customers are, understand the market you compete in and decide how you will compete, ending with the 15-question badge quiz.",
+  "minutes": 70,
+  "pages": [
+    {
+      "id": "ent4-01",
+      "title": "Who is going to buy?",
+      "blocks": [
+        {"t": "p", "text": "Who is going to buy your offering and why should they? Customers, markets and competitors together are the domain of marketing. To paraphrase Peter Drucker, any enterprise is a mix of innovation and marketing."},
+        {"t": "p", "text": "This means addressing questions that arose in your business model in Session 3: who is going to buy this? How do I communicate the benefits? How much will they pay? Marketing for an established business (maintaining market share, launching new products) is quite different from marketing for a new business."},
+        {"t": "h", "text": "By the end of this session you will be able to:"},
+        {"t": "ul", "items": [
+          "identify the customers that your business is aimed at",
+          "describe in detail the market you are competing in",
+          "define who you think you will be competing with."
+        ]}
+      ]
+    },
+    {
+      "id": "ent4-02",
+      "title": "Are they customers at all?",
+      "blocks": [
+        {"t": "p", "text": "Who are my customers? It seems simple, but the first question is: are they customers at all?"},
+        {"t": "ul", "items": [
+          "**Customers** purchase a good or service. Buying a box of avocadoes for your 'pop up' café makes you a customer, but not a consumer.",
+          "**Consumers** use a product or service. If stationery is bought centrally in a large organisation, you are a consumer but not the buying customer. If you choose it yourself, you may be both.",
+          "**Client** is often used in professional services such as accountancy, and increasingly in the public and third sector, because it suggests a mutual expectation and a stake each side has in the relationship."
+        ]},
+        {"t": "activity", "id": "ent4-a1a", "title": "Activity 1 (part 1) Customer, consumer or client", "prompt": "How do you think of your customers? Are they buyers or users? Would it be accurate to think of them as customers, consumers or clients? Or is there another way that you think of them?", "hint": "Who pays, and who actually uses the product or service?", "model": "The answer depends on your idea. A strong answer separates who buys from who uses (they may differ, e.g. a parent buys and a child uses, or an employer buys and staff use), says which of customer, consumer or client fits, and notes if a different word such as member or user better describes the relationship.", "points": ["Distinguish buyers (customers) from users (consumers)", "Say whether 'client' fits, i.e. a professional or mutual relationship", "Note where the buyer and the user are different people", "Choose the term that best reflects the relationship you want"]}
+      ]
+    },
+    {
+      "id": "ent4-03",
+      "title": "Activity 1 continued: listen to entrepreneurs",
+      "blocks": [
+        {"t": "p", "text": "In Video 1 all of our entrepreneurs refer to customers. Watch the video, paying particular attention to how they describe them."},
+        {"t": "video", "title": "Video 1 Who are your customers?", "url": null, "note": "Claudio, Alex, Emma and Nick describe their customers."},
+        {"t": "activity", "id": "ent4-a1b", "title": "Activity 1 (part 2) Your target audience", "prompt": "Having listened to Claudio, Alex, Emma and Nick, make some notes for yourself about how you might describe the target audience for your marketing communications, products and services.", "hint": "Who are they, where are they, and what do they need?", "model": "A good description names the specific group you are aiming at (not 'everyone'), where they are, what need or problem they have, and how you will reach them. It may also distinguish buyers from users, and note other people who must be persuaded such as suppliers or funders.", "points": ["Describe a specific target group rather than everyone", "Say where they are and what they need or want", "Distinguish buyers from users where they differ", "Consider how you will reach and communicate with them"]}
+      ]
+    },
+    {
+      "id": "ent4-04",
+      "title": "Beyond customer transactions",
+      "blocks": [
+        {"t": "p", "text": "Usually we are both customer and consumer: we buy food so that we can eat it. Here 'customer' means the relationship between your business and the people you want to engage through your offer. Previously, organisations developed products and you paid for them: a transactional relationship. Recently there has been a shift towards customer relationships, loyalty and engagement, with companies engaging customers as advocates for their business."},
+        {"t": "img", "src": "img/ent_23.jpg", "alt": "A personal trainer coaching a client through a barbell lift in a gym.", "caption": "Figure 1 Personal trainer and client relationship"},
+        {"t": "p", "text": "Customers are stakeholders, and may be involved in value creation: for a personal trainer, customer value includes their own effort as much as yours."}
+      ]
+    },
+    {
+      "id": "ent4-05",
+      "title": "Close to the customer",
+      "blocks": [
+        {"t": "p", "text": "Ideas often arise from being close to a product or service and the person who might use it. The source of your idea might be your experience as a disgruntled customer who spotted something others missed. That insight is something larger organisations may lack, and can be a source of competitive advantage."},
+        {"t": "h", "text": "But are you typical?"},
+        {"t": "p", "text": "Can you be sure you represent the customers you target? Are there others like you, and how many? You can only answer by engaging with potential customers. Even before you know your offer, you need to pass it by other people: family, sympathetic suppliers who might offer good credit terms, banks and other investors."},
+        {"t": "callout", "kind": "key", "title": "Internal communication or marketing", "text": "Suppliers, distributors and funders must trust your judgement, feel your experience is authentic and believe you are reliable. You need to persuade these people just as much as your customers."}
+      ]
+    },
+    {
+      "id": "ent4-06",
+      "title": "Using customer feedback",
+      "blocks": [
+        {"t": "p", "text": "Now listen to our four entrepreneurs describe how they have used feedback and input from customers to shape their businesses."},
+        {"t": "video", "title": "Video 2 Using customer feedback", "url": null, "note": "Four entrepreneurs describe how customer feedback and input shaped their businesses."},
+        {"t": "p", "text": "When watching you might have noted the different ways the entrepreneurs talked about different stakeholders, and perhaps even some tentativeness about knowing who their customers are."}
+      ]
+    },
+    {
+      "id": "ent4-07",
+      "title": "What do customers want?",
+      "blocks": [
+        {"t": "p", "text": "When starting up, widen the range of potential customers you speak to for a better sense of the market, even without a prototype. Market researchers run **focus groups**: facilitated group discussions that gather qualitative feedback and, if well moderated, help you understand issues at a deeper level."},
+        {"t": "p", "text": "Facilitators ask questions, show or demonstrate products, use images or share concepts and key messages. They record how the group responds, positively and negatively, whether views are held by all or some, and the reasons behind them."},
+        {"t": "callout", "kind": "note", "title": "Share early and often", "text": "This idea, common in the software industry, is how many companies operate. Lego is well known for involving its broad customer and fan base in developing and designing products. Could you use that approach, or at least adopt a similar ethos?"}
+      ]
+    },
+    {
+      "id": "ent4-08",
+      "title": "Activity 2: testing with a focus group",
+      "blocks": [
+        {"t": "p", "text": "Imagine you ran one focus group of people you know, with positive results. Now you arrange a second with a broader range of 'real' or potential customers, some with no obvious interest in your offer. Market researchers ask (adapted from Kotler et al., 2012):"},
+        {"t": "ul", "items": [
+          "Are the benefits clearly communicated and believable?",
+          "Does it address a need or solve a problem?",
+          "What other products or services could meet the need?",
+          "How valuable would customers perceive it to be?",
+          "Would they use or purchase it?",
+          "How often, and where would they look for it?"
+        ]},
+        {"t": "activity", "id": "ent4-a2", "title": "Activity 2 Testing and learning from feedback", "prompt": "Try three thought experiments:\n1. Think about how you would answer the questions above for your own idea and note your answers.\n2. The first focus group were people you know, or who know you. How are the people in the second group the same or different in views, experiences and feedback?\n3. Draft how you might run or structure a focus group to elicit a response to these questions. What questions might you ask? What would you probe? Are there images, products, assumptions or scenarios you would test?", "hint": "You cannot get meaningful responses from others until you have thought the questions through yourself.", "model": "Your own answers should cover benefits, the need met, alternatives, perceived value, likelihood and frequency of purchase. The second group will probably be less biased and more critical, less polite, with different experiences and less knowledge of you, so their feedback is more honest and may reveal doubts or segments you had not considered. A focus group plan has a clear structure: a welcome and ground rules, open questions on needs, a demonstration or concept shown, questions on the six points, probing of reasons, and recording of who thinks what.", "points": ["Answer the market researchers' questions for your own idea first", "Friends and family tend to be supportive; strangers are more honest and varied", "Plan open questions and what you want to probe, not just yes or no questions", "Decide what to show or test, such as images, a prototype or scenarios", "Record whether views are held by all or only some, and why"]}
+      ]
+    },
+    {
+      "id": "ent4-09",
+      "title": "Personas",
+      "blocks": [
+        {"t": "p", "text": "Working through the focus group activity starts to sense check and refine the value you create for the customer. Thinking about your 'usual suspect' touches on who your ideal customer is, and asks you to think about intended and perhaps even unintended customers."},
+        {"t": "callout", "kind": "key", "title": "Persona", "text": "A detailed description, often based on real information, of a perfect or even difficult customer. Personas are folded into the development process and inform decisions about how different groups might be treated. User Experience Development emerged in the software industry and is increasingly common across services."},
+        {"t": "p", "text": "On the next page you can build a persona for your own customer."}
+      ]
+    },
+    {
+      "id": "ent4-10",
+      "title": "Try it: build a persona",
+      "blocks": [
+        {"t": "tool", "tool": "persona", "title": "Try it: Customer persona", "intro": "Describe a typical customer for your idea in detail: who they are, what they need and where you can reach them. Revisit it as you learn more."}
+      ]
+    },
+    {
+      "id": "ent4-11",
+      "title": "Customer segments: the Loyalty Model",
+      "blocks": [
+        {"t": "p", "text": "Customers come in all forms, and different customers help you create value in different ways. This matters as you grow, especially in listening to the 'right customers'. Reinartz and Kumar (2002) suggested four customer segments, shown by profitability and by short-term or long-term relationship."},
+        {"t": "img", "src": "img/ent_25.jpg", "alt": "A two by two matrix of profitability (high or low) against short-term or long-term customers, giving Butterflies, True friends, Strangers and Barnacles, each with actions.", "caption": "Figure 2 The Loyalty Model (The Open University, 2018)"}
+      ]
+    },
+    {
+      "id": "ent4-12",
+      "title": "The four segments in detail",
+      "blocks": [
+        {"t": "table", "head": ["Segment", "Fit and profit", "What to do"], "rows": [
+          ["Butterflies (high profit, short-term)", "Good fit between offer and needs; high profit potential", "Aim for transactional satisfaction, not attitudinal loyalty. Milk the accounts only as long as they are active. Challenge: cease investing soon enough."],
+          ["True friends (high profit, long-term)", "Good fit; highest profit potential", "Communicate consistently but not too often. Build both attitudinal and behavioural loyalty. Delight them to nurture, defend and retain."],
+          ["Strangers (low profit, short-term)", "Little fit; lowest profit potential", "Make no investment in these relationships. Make profit on every transaction."],
+          ["Barnacles (low profit, long-term)", "Limited fit; low profit potential", "Measure both the size and share of wallet. If share is small, focus on up- and cross-selling. If the size of wallet is small, impose strict cost controls."]
+        ]},
+        {"t": "p", "text": "In an ideal world customers would find your offer valuable, buy it, tell their friends and buy every day regardless of cost. That is unlikely. What they tell you about the market and competition may provide the vital information that leads to a pivot (Session 3)."}
+      ]
+    },
+    {
+      "id": "ent4-13",
+      "title": "The marketing mix",
+      "blocks": [
+        {"t": "p", "text": "A standard way to think about your offering is the four, now seven, Ps that make up the **marketing mix**: product, price, place, promotion, plus people, process and physical evidence, all aimed at the target market."},
+        {"t": "img", "src": "img/ent_26.jpg", "alt": "Diagram with Product, Physical evidence, Place, Process, People, Price and Promotion each pointing to a central box labelled Target market.", "caption": "Figure 3 The seven Ps which make up the marketing mix"}
+      ]
+    },
+    {
+      "id": "ent4-14",
+      "title": "Activity 3: from Ps to Cs",
+      "blocks": [
+        {"t": "p", "text": "Given the focus on customers in this session, try replacing the four Ps with a more customer-oriented version."},
+        {"t": "activity", "id": "ent4-a3a", "title": "Activity 3 (part 1) Which P corresponds to which C?", "prompt": "Match each of the four Ps (Price, Promotion, Place, Product) to one of the four Cs: Cost, Communication, Convenience, Customer needs/wants.", "hint": "Ask what each P looks like from the customer's side.", "model": "Product matches Customer needs/wants; Price matches Cost; Place matches Convenience; Promotion matches Communication.", "points": ["Product corresponds to customer needs and wants", "Price corresponds to cost (to the customer)", "Place corresponds to convenience", "Promotion corresponds to communication"]}
+      ]
+    },
+    {
+      "id": "ent4-15",
+      "title": "Activity 3 continued: why the Cs?",
+      "blocks": [
+        {"t": "activity", "id": "ent4-a3b", "title": "Activity 3 (part 2) The point of the four Cs", "prompt": "What do you think is the point of identifying the four Cs?", "hint": "Whose perspective does each set of letters take?", "model": "The four Cs shift the viewpoint from what the business does (the Ps) to what the customer experiences. They keep you focused on customer needs, the real cost to them, how convenient it is to buy, and two-way communication rather than one-way promotion, which helps ensure the offer creates value for the customer.", "points": ["The Ps are business-centred; the Cs take the customer's viewpoint", "It keeps focus on customer needs and the total cost to the customer", "It reminds you to consider convenience and communication, not just selling", "This helps check that the offer really creates value for customers"]}
+      ]
+    },
+    {
+      "id": "ent4-16",
+      "title": "What does the market look like?",
+      "blocks": [
+        {"t": "p", "text": "Perhaps the simplest way to categorise markets is business to business (B2B) or consumer facing (B2C, business to consumer). Within these, consider (adapted from The Open University, 2012):"},
+        {"t": "ul", "items": [
+          "**Geography:** where is it located? Local or international?",
+          "**Demographics:** size of other businesses in it, stage of maturity, volume of potential business",
+          "**Behavioural characteristics:** how do businesses compete? Value of purchases, frequency (one-off or regular)",
+          "**Decision-making process:** who makes the purchase decision, what or who influences them, and what do we know about them?"
+        ]},
+        {"t": "p", "text": "These shape your understanding of the market and help you refine your offer and the segments to focus on."}
+      ]
+    },
+    {
+      "id": "ent4-17",
+      "title": "Markets shift: the mattress",
+      "blocks": [
+        {"t": "p", "text": "Shifts in geography, behaviour, competition and customers can create opportunities. Ten years ago you would probably have bought a mattress from a shop: it is expensive, infrequent and you want to try before you buy. Now some companies sell direct online, offering an extended home trial: literally the opportunity to 'sleep on it'."},
+        {"t": "img", "src": "img/ent_27.jpg", "alt": "Screenshot of the Leesa mattress website: 'A Better Place to Sleep', with four reasons to choose Leesa including easier shopping and a 100-night risk-free trial.", "caption": "Figure 4 Buying a mattress online (Leesa Sleep, 2018)"},
+        {"t": "activity", "id": "ent4-a-mattress", "title": "Reflect: the move online", "prompt": "Reflect on the trend of moving purchases online to a direct-to-consumer model, supported by social media and by the need to provide certain guarantees. Convenience is clearly an important factor. Why might that be? As a secondary thought, what opportunities have arisen for businesses providing warehousing, couriers, delivery and packaging, and social media advertising?", "hint": "Think about what customers avoid, and who else benefits.", "model": "Convenience matters because customers save time and effort (no travel, no awkward showrooms), can compare easily and, with free trials and guarantees, the risk of buying online is reduced. The shift has created opportunities for warehousing, couriers, delivery and packaging solutions and social media advertising providers, which is changing the nature of the customer relationship.", "points": ["Online direct buying saves customers time and effort", "Trials and guarantees reduce the risk of buying without trying", "Social media helps reach and persuade customers directly", "New opportunities for warehousing, couriers, packaging and social media advertising"]}
+      ]
+    },
+    {
+      "id": "ent4-18",
+      "title": "Market lifecycle",
+      "blocks": [
+        {"t": "p", "text": "Markets have a lifecycle: they grow, mature and often disappear, and each phase has a different character (adapted from Kotler et al., 2012)."},
+        {"t": "table", "head": ["Phase", "What happens"], "rows": [
+          ["Introduction", "Sales are small; often difficult to make a profit because of the costs of taking the offer to market"],
+          ["Growth", "Market grows rapidly, giving opportunities for profit; others may enter"],
+          ["Maturity", "Sales growth tails away then plateaus; profits still present but competition may be intense"],
+          ["Decline", "Sales and profits decline"]
+        ]},
+        {"t": "p", "text": "The model shows how competition and profit vary by stage, and asks questions about organisational strategy."}
+      ]
+    },
+    {
+      "id": "ent4-19",
+      "title": "Rogers' technology adoption curve",
+      "blocks": [
+        {"t": "img", "src": "img/ent_28.jpg", "alt": "Bell-shaped curve of new customers over time (innovators 2.5%, early adopters 13.5%, early majority 34%, late majority 34%, laggards 16%) with a rising S-shaped cumulative market share curve.", "caption": "Figure 5 Rogers' technology adoption curve"},
+        {"t": "p", "text": "The bell-shaped curve shows when successive customer groups enter the market; the steep rising curve shows cumulative market share, ending in saturation. Rogers (1962) focuses on the consumer rather than the product lifecycle. Early adopters are typically well educated with higher disposable income. He also described phases to move consumers along: Awareness, Persuasion, Trialling, Adoption and Consolidation."}
+      ]
+    },
+    {
+      "id": "ent4-20",
+      "title": "Activity 4: the product life cycle",
+      "blocks": [
+        {"t": "p", "text": "The lifecycle model has a product focus. It may also help to ask the same questions of the technology adoption curve."},
+        {"t": "activity", "id": "ent4-a4", "title": "Activity 4 The product life cycle", "prompt": "1. How well does the lifecycle model apply to the market you are interested in?\n2. What does your intuition tell you about what phase the market might be in?\n3. How might you test your intuition?", "hint": "Think about sales trends, number of competitors and how new the product is.", "model": "The answer depends on your market, but a good response names the phase (introduction, growth, maturity or decline), gives reasons such as the number and intensity of competitors, trend in sales, and how widely the offer is already adopted, and suggests tests such as market research, sales and industry data, trade press, talking to customers and watching competitors' behaviour.", "points": ["Say which lifecycle phase you think the market is in and why", "Use signs such as growth in sales, competitor numbers and profits", "Test your intuition with market research, data and customer conversations", "Acknowledge limits of a product-focused model; consider adoption groups too"]},
+        {"t": "p", "text": "Is the market for your offer already out there, or does your offer create an entirely new one? Unless your offer is something akin to the iPad, you will be competing in an existing market."}
+      ]
+    },
+    {
+      "id": "ent4-21",
+      "title": "How will you compete? Back to the Ps",
+      "blocks": [
+        {"t": "p", "text": "Now draw together customers and markets and consider how to position your enterprise. This is highly contextual: for a social enterprise promoting a healthy diet, competition seems not quite the right concept, though you are competing for people's attention and against longstanding behaviours."},
+        {"t": "p", "text": "Getting the right mix of the seven Ps means engaging customers and matching the mix to different stages of development. Early on you might work with customers to get the product right, provide physical evidence of quality, get the people element right and find the optimum price."},
+        {"t": "callout", "kind": "note", "title": "Example: sandwiches", "text": "If your sandwich shop is surrounded by identical eateries, with no discernible difference in food, service or environment, your price may need to be competitive. An artisan baker selling sandwiches competes less on price than on fresh bread baked on the premises with traditional recipes and locally sourced fillings."}
+      ]
+    },
+    {
+      "id": "ent4-22",
+      "title": "Activity 5: differentiate your enterprise",
+      "blocks": [
+        {"t": "activity", "id": "ent4-a5", "title": "Activity 5 Differentiating your enterprise from the rest", "prompt": "Which Ps are dominant for your enterprise? Run through the seven Ps and think how you could positively differentiate your offer from others in relation to each of them. Then think where you want to be in the short term (a year), medium term (five years) and long term (ten years), and how your focus may switch.", "hint": "Product, price, place, promotion, people, process, physical evidence.", "model": "A strong answer works through each of the seven Ps, picks the one or two that matter most for the customers (for example product quality or convenience of place), says how you would stand out on each, and shows how the emphasis could change over time, e.g. from getting the product and price right in year one to brand, people and process as you grow.", "points": ["Identify the dominant Ps for your enterprise", "Describe a way to differentiate on each P", "Set out short, medium and long term positions", "Explain how your focus may shift as the enterprise matures"]}
+      ]
+    },
+    {
+      "id": "ent4-23",
+      "title": "Returning to the competition",
+      "blocks": [
+        {"t": "p", "text": "Earlier you looked at demographic factors, the shape of the market and how people compete. The maturity of the market, the size and number of competitors and the dimensions on which they compete all shape the market."},
+        {"t": "p", "text": "Some suggest adding products or services that are compatible with or complementary to yours. For example, there is a synergy between cars and the insurance industry that has an impact in each market."},
+        {"t": "activity", "id": "ent4-a6", "title": "Activity 6 What kind of organisation do you want to develop?", "prompt": "What kind of organisation do you want to develop? Using the music analogy, what kind of band do you want to be?\n- Playing to a small but loyal audience who love your music\n- Loved by the critics with 'decent enough' sales\n- Loyal to your fans and you would never sell them out\n- Playing to 3000 plus, on TV, next stop Glastonbury\n- Like The Stones: huge and still rolling on\n- Beyonce", "hint": "There is no right answer: choose, and say what that means for how you compete.", "model": "There is no single right answer. A good response chooses one or more of the descriptions and links it to a strategy: a small loyal audience suggests a niche, close customer relationships and loyalty; mass-market stardom suggests scale, broad promotion and competing on a wide scale, and may mean not listening to early fans who liked the early stuff.", "points": ["Choose the kind of organisation you want to be and why", "Link the choice to your competitive position: niche or mass market", "Consider who you would listen to as customers", "Consider the trade-offs between loyalty and growth"]}
+      ]
+    },
+    {
+      "id": "ent4-24",
+      "title": "Badge quiz: instructions",
+      "blocks": [
+        {"t": "p", "text": "Now it's time for the Session 4 badge quiz. It has fifteen questions, shown over the next five pages with three questions each. Answer them all."},
+        {"t": "callout", "kind": "key", "title": "Badge requirement", "text": "To earn the badge you need to score 50% or more in the Session 4 badge quiz (and in the Session 8 quiz). If you are not successful the first time, you can try again."}
+      ]
+    },
+    {
+      "id": "ent4-25",
+      "title": "Badge quiz: questions 1 to 3",
+      "blocks": [
+        {"t": "quiz", "id": "ent4-bq1", "q": "You buy a box of avocadoes for your 'pop up' café. In what sense are you a customer or consumer?", "options": ["A customer and a consumer", "A customer but not a consumer", "A consumer but not a customer", "A client"], "answer": 1, "explain": "You are purchasing the good, so you are the customer. You are not the one who uses it directly (your café's diners eat it), so you are not the consumer."},
+        {"t": "quiz", "id": "ent4-bq2", "q": "An employee uses stationery that is bought centrally by the organisation. The employee is:", "options": ["The customer but not the consumer", "Both customer and consumer", "A consumer but not the buying customer", "Neither"], "answer": 2, "explain": "Consumers use a product; customers purchase it. The employee uses the stationery but did not buy it."},
+        {"t": "quiz", "id": "ent4-bq3", "q": "Why is the term 'client' increasingly used in the public and third sector?", "options": ["Because it suggests a mutual expectation and a stake each side has in the relationship", "Because clients always pay more", "Because it is a legal requirement", "Because it implies a one-off transaction"], "answer": 0, "explain": "'Client' signals mutual expectations and recognises the stake each party has in the relationship."}
+      ]
+    },
+    {
+      "id": "ent4-26",
+      "title": "Badge quiz: questions 4 to 6",
+      "blocks": [
+        {"t": "quiz", "id": "ent4-bq4", "q": "Which of these is the main aim of a focus group?", "options": ["To gather large-scale statistical data", "To gather qualitative feedback from small groups through facilitated discussion", "To sell the product to the participants", "To test only the price"], "answer": 1, "explain": "Focus groups are facilitated group discussions that gather qualitative feedback and a deeper understanding of issues, if well moderated."},
+        {"t": "tf", "id": "ent4-bq5", "q": "Because an entrepreneur is close to their own customer experience, they can safely assume they are typical of their target customers.", "answer": false, "explain": "It is right to urge caution: you can only know whether you are representative by engaging with potential customers."},
+        {"t": "quiz", "id": "ent4-bq6", "q": "Which statements about 'personas' are correct? Select all that apply.", "options": ["They are detailed descriptions of perfect or even difficult customers", "They are often based on real information", "They are used to inform decisions on how different groups might be treated", "They are legal contracts with customers"], "answer": [0, 1, 2], "multi": true, "explain": "Personas are detailed, often evidence-based descriptions of customers that feed into the development process. They are not contracts."}
+      ]
+    },
+    {
+      "id": "ent4-27",
+      "title": "Badge quiz: questions 7 to 9",
+      "blocks": [
+        {"t": "quiz", "id": "ent4-bq7", "q": "In the Reinartz and Kumar Loyalty Model, which segment has high profit potential but is short-term, so you should milk the account only while it is active?", "options": ["True friends", "Strangers", "Butterflies", "Barnacles"], "answer": 2, "explain": "Butterflies are a good fit with high profit potential but short-term; aim for transactional satisfaction and cease investing soon enough."},
+        {"t": "quiz", "id": "ent4-bq8", "q": "Which segment is long-term but low profit, where you should measure the size and share of wallet?", "options": ["Barnacles", "True friends", "Butterflies", "Strangers"], "answer": 0, "explain": "Barnacles are limited fit, low profit, long-term customers. Measure size and share of wallet, then up- or cross-sell, or control costs strictly."},
+        {"t": "quiz", "id": "ent4-bq9", "q": "Which of the customer-oriented four Cs corresponds to 'Place'?", "options": ["Cost", "Communication", "Convenience", "Customer needs/wants"], "answer": 2, "explain": "Place corresponds to Convenience; Price to Cost, Promotion to Communication and Product to Customer needs/wants."}
+      ]
+    },
+    {
+      "id": "ent4-28",
+      "title": "Badge quiz: questions 10 to 12",
+      "blocks": [
+        {"t": "quiz", "id": "ent4-bq10", "q": "Which of these is NOT one of the original seven Ps of the marketing mix as shown in the session?", "options": ["Physical evidence", "People", "Process", "Profit"], "answer": 3, "explain": "The seven Ps are product, price, place, promotion, people, process and physical evidence. Profit is not one of them."},
+        {"t": "quiz", "id": "ent4-bq11", "q": "Which characteristic is a 'decision-making process' consideration when describing a market?", "options": ["Where the market is located", "The size of other businesses in it", "Who makes the purchase decision and what or who influences them", "How frequently purchases are made"], "answer": 2, "explain": "Decision-making process asks who makes the purchase decision, what influences them and what we know about them. The others are geography, demographics and behaviour."},
+        {"t": "quiz", "id": "ent4-bq12", "q": "In the market lifecycle, which phase is characterised by small sales and difficulty making a profit because of the cost of taking the offer to market?", "options": ["Growth", "Introduction", "Maturity", "Decline"], "answer": 1, "explain": "In introduction, sales are small and profit is hard because of the costs of taking the offer to market."}
+      ]
+    },
+    {
+      "id": "ent4-29",
+      "title": "Badge quiz: questions 13 to 15",
+      "blocks": [
+        {"t": "quiz", "id": "ent4-bq13", "q": "In the maturity phase of the market lifecycle:", "options": ["Sales are rapidly growing and new competitors are arriving", "Sales growth tails away and plateaus, profits are still present but competition may be intense", "Sales and profits are falling", "There are no customers"], "answer": 1, "explain": "Maturity sees growth tail away then plateau, with profits still present but intense competition."},
+        {"t": "quiz", "id": "ent4-bq14", "q": "Rogers' technology adoption curve focuses on:", "options": ["The product lifecycle", "The consumer, showing when successive customer groups enter the market", "The marketing budget", "The legal structure of the business"], "answer": 1, "explain": "Rogers focuses on the consumer rather than the product, and on how to move consumers from awareness through persuasion, trialling and adoption to consolidation."},
+        {"t": "tf", "id": "ent4-bq15", "q": "When your artisan bakery sells sandwiches using fresh bread baked on the premises, price may be a less dominant factor than for a sandwich shop whose offer is identical to its neighbours'.", "answer": true, "explain": "Where you offer differentiated value, you need not compete mainly on price; if your offer is the same as others, price may need to be competitive."}
+      ]
+    },
+    {
+      "id": "ent4-30",
+      "title": "Summary",
+      "blocks": [
+        {"t": "p", "text": "In this session you have:"},
+        {"t": "ul", "items": [
+          "identified the customers that your business is aimed at",
+          "described in detail the market you are competing in and its characteristics",
+          "defined who you think you will be competing with."
+        ]},
+        {"t": "p", "text": "You may feel you are already close to your customer, but there is more listening to be done. Return to your idea and refine it in relation to customer needs and the competitive forces in the market."},
+        {"t": "callout", "kind": "note", "title": "Is the customer always right?", "text": "Not always. When a new product creates a new market, your intuition may be a better judge than people less invested in change. Be careful which customers you listen to: if you want to be the biggest band in the world, it might not pay to listen to the loyal fans who liked your early stuff."},
+        {"t": "p", "text": "Even so, the customer, client or consumer belongs at the centre as the most important stakeholder in your business model. Being close to them, to changes in taste, technology and markets, and to unmet needs is a key advantage of being small. Use these insights to develop the customer relationships, customer segments and value proposition parts of your canvas. The value proposition comes up next in Session 5."}
+      ]
+    }
+  ]
+}

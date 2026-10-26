@@ -1,0 +1,148 @@
+{
+"id":"pm5","title":"5 Software development","summary":"Why software projects are problematic and how waterfall, phased, prototyping and agile life cycles respond.","minutes":50,
+"pages":[
+{"id":"pm5-01","title":"From bespoke to off-the-shelf","blocks":[
+{"t":"p","text":"For many years, buying a software system meant almost all development was done from scratch: each act of development was unique or **bespoke**, like engineering in the early industrial revolution. Nowadays less software is developed this way. Applications come in boxes or downloads, known as **commercial, off-the-shelf software (COTS)**."},
+{"t":"p","text":"A **product line** is a set of related products sold by the same company. Software is also a major component of mass-produced items such as cars, televisions and mobile phones."},
+{"t":"h","text":"Learning outcomes"},
+{"t":"ul","items":["suggest why projects with software content are problematic, and how phased, prototype or agile approaches help","describe the elements of a basic software development process","describe the phased development life cycle and draw up a brief plan for one","describe the prototyping life cycle","explain why agile methods might be chosen over proprietary methods"]}
+]},
+{"id":"pm5-02","title":"5.1 Software is a different kind of product","blocks":[
+{"t":"p","text":"Software is a rather **intangible** product, realised as texts of various sorts: design documents, program code, manuals, forms, and ultimately only in the observable actions of a computer system. Such systems may be highly complex and linked to many other systems, hardware and networks."},
+{"t":"p","text":"Intangibility and complexity make software prone to error. More size and complexity means more alternative pathways, so more chance something fails in use. A component not thoroughly tested (testing every possibility may take too long, or the circumstances may be impossible to simulate) will show its error only when it is too late."}
+]},
+{"id":"pm5-03","title":"Malleability and requirements","blocks":[
+{"t":"p","text":"**Malleability**, meaning software is easy to change, encourages changing rather than replacing it, on the assumption that this is cheaper. But every change introduces the possibility of new errors."},
+{"t":"p","text":"Errors in a program’s logic can often be traced back to errors in the **requirements**. Morris (1996) compared IT with other projects and found that IT is so intimately bound to its organisational context that issues of organisational effectiveness and user involvement are more complex and prominent, putting much greater emphasis on **project definition and user involvement**."},
+{"t":"quiz","id":"pm5-q1","q":"Why does malleability make software risky?","options":["It is easy to change, which tempts changes that may introduce new errors","It cannot be changed after release","It is always more expensive to change than replace"],"answer":0,"explain":"Every change introduces the possibility of new errors, though it feels cheap."}
+]},
+{"id":"pm5-04","title":"Lifetime and context","blocks":[
+{"t":"p","text":"One factor in evaluation is the operational life of a product. A new building may be in use for more than a lifetime; a software product is rarely used beyond 10 years. So the choice of life cycle relates to the expected lifetime of the product: in broader terms, the choice of life cycle is **context-dependent**."},
+{"t":"activity","id":"pm5-a1","title":"Why are software projects problematic?","prompt":"In your own words, list at least four reasons why projects with a software content are problematic, drawing on section 5.1.","model":"Software is intangible, so it is hard to show users and measure; it is highly complex, which makes it error-prone and hard to test fully; it is malleable, so changes are made lightly but each can introduce new errors; and many errors trace back to requirements, which are hard to define and depend on user involvement.","points":["Intangible and hard to show or measure","Complex and cannot be fully tested","Malleable, and every change risks new errors","Errors often originate in requirements","Strongly tied to organisational context and users"]}
+]},
+{"id":"pm5-05","title":"5.2 A disciplined approach","blocks":[
+{"t":"p","text":"Identifying a set of software engineering activities is the key to meeting the diversity of users’ needs. Each activity has a defined process, with inputs from preceding activities and outputs (deliverables). The sequence defines the overall development process."},
+{"t":"p","text":"A disciplined approach has three key elements:"},
+{"t":"ul","items":["**methods** describe the technical activities required to develop software","**tools** allow computer support for the methods","**procedures** are the glue holding methods and tools together, including project and quality management"]},
+{"t":"p","text":"Project management and quality assurance are part of the life cycle of every software project, whichever life cycle is used."}
+]},
+{"id":"pm5-06","title":"The four core activities","blocks":[
+{"t":"p","text":"We assume the customer has assessed feasibility and decided a software system may be required. Methods normally include four activities (see Sommerville, 2004):"},
+{"t":"ol","items":["**Analysis**: identify the problem and decide what needs to be done; similar to defining a system and its boundary.","**Design**: determine how you will solve the problem.","**Implementation**: act upon the design decisions.","**Testing**: apply what you have done to determine whether you have solved the problem."]},
+{"t":"p","text":"Some methods subdivide these or rename them (programming for implementation)."}
+]},
+{"id":"pm5-07","title":"Integration, delivery and maintenance","blocks":[
+{"t":"p","text":"Breaking a problem into chunks means bringing the chunks together: **integration**, sometimes a separate activity. **Delivery** may be separate too, especially when payment is involved."},
+{"t":"p","text":"A system changes during its operational life. **Maintenance** allows it to evolve in order to:"},
+{"t":"ul","items":["correct errors","adapt the software to a changing environment","introduce enhancements required by the customer","improve the software in anticipation of future change"]},
+{"t":"p","text":"Analysis, design, implementation and testing are the backbone; project management and quality management are the glue. Maintenance itself involves all four and needs managing."}
+]},
+{"id":"pm5-08","title":"The waterfall model","blocks":[
+{"t":"p","text":"Arranging analysis, design, implementation, testing and maintenance in a single sequence gives the classic **waterfall model**. Even if each activity could be completed correctly, it has drawbacks:"},
+{"t":"ul","items":["A working version is not available until late in testing, assuming a patient customer and users unconcerned by the delay.","Errors found in the working version could be disastrous.","Real projects rarely follow a purely sequential life cycle."]},
+{"t":"quiz","id":"pm5-q2","q":"What is a key drawback of the waterfall model?","options":["No testing takes place","A working version appears only late in the project","It cannot be planned"],"answer":1,"explain":"The working system is only available late in the testing activity, delaying feedback."}
+]},
+{"id":"pm5-09","title":"Iteration","blocks":[
+{"t":"p","text":"An alternative life cycle **iterates** around one or more activities, keeping a core sequence. Iteration lets developers review outputs, and feedback allows the solution to be modified until it solves the problem correctly."},
+{"t":"callout","kind":"tip","title":"The tuning analogy","text":"Tuning a guitar: pluck a string, adjust the tension, repeat. Tune another string and the first may need retuning. Only when all strings are individually and collectively tuned is the instrument tuned."}
+]},
+{"id":"pm5-10","title":"Increments and timeboxing","blocks":[
+{"t":"p","text":"Partitioning a system into independent or semi-independent chunks called **increments**, developed sequentially or in parallel, is another way to form a life cycle. A small team might develop increments sequentially in a priority agreed with users. Where requirements cannot be split cleanly, extra activities manage dependencies and identify the interfaces between chunks."},
+{"t":"p","text":"Incremental development deals with complexity by **modularisation**, with tasks later putting the pieces back together (integration). **Timeboxing** sets a fixed period in which to achieve an objective, each box with its own deadline and budget (Stapleton, 1997). The team decides how to achieve the objective, and a deliverable may be modified to meet the deadline, with the customer’s agreement."}
+]},
+{"id":"pm5-11","title":"Life cycle versus method","blocks":[
+{"t":"p","text":"Whatever life cycle is chosen, it must reflect **what actually happens**, not a theoretical ideal. An idealised cycle is a fine starting point but must be modified; otherwise plans include activities that never happen and omit ones that do."},
+{"t":"p","text":"A **method** is an integrated set of techniques for carrying out the activities. It tells you:"},
+{"t":"ul","items":["the notation to be used and the rules for using it","the inputs and outputs (deliverables) of each activity","the process: how the activities combine to produce the result"]},
+{"t":"p","text":"The life cycle is the framework for the project plan; the method allows detailed planning of development and quality assurance. In practice methods seldom cover every activity; some cover only testing."}
+]},
+{"id":"pm5-12","title":"No single process fits all","blocks":[
+{"t":"p","text":"A good system must be fit for its purpose, and purposes vary: controlling level crossing gates, a chemical plant, an international stock market, a supermarket, a public library, a university, your personal finances, booking holidays. Users differ about what makes software useful, usable, reliable, flexible, available and affordable."},
+{"t":"p","text":"So there are different methods for different systems, and software companies often specialise (education, banking, manufacturing)."}
+]},
+{"id":"pm5-13","title":"Example 9: a formal process","blocks":[
+{"t":"callout","kind":"note","title":"Example 9","text":"UK government legislation often requires software for new administrative functions. Developers competing to supply it must conform to government-approved standards, such as **PRINCE** (PRojects IN Controlled Environments), which relates to project management and the quality of the developed software. They may also need an approved method for analysis and design."},
+{"t":"p","text":"This needs a formal process: slow and deliberate, but the result must deal with every nuance of the legislation and developers must show each aspect is incorporated. **Configuration management** controls the integrity of deliverables, ensuring they do not become corrupted or inconsistent."}
+]},
+{"id":"pm5-14","title":"Example 10: a race to market","blocks":[
+{"t":"callout","kind":"note","title":"Example 10","text":"In certain financial areas, being first to market with a new service gives the most profit. Development is almost a race: do the simplest things that could possibly work, minimise communication, use very few developers (say two) and a minimal set of agreed procedures. Less code means fewer bugs and fewer tests, but there must still be testing and some documentation."},
+{"t":"p","text":"The scope is narrow, so fewer changes are expected in the short development time."},
+{"t":"quiz","id":"pm5-q3","q":"Which example would suit a formal, well-documented process?","options":["Government legislation software (Example 9)","A quick financial service launch (Example 10)","Neither"],"answer":0,"explain":"Example 9 needs formality and evidence; Example 10 needs speed and minimal procedure."}
+]},
+{"id":"pm5-15","title":"Size, lifetime and risk","blocks":[
+{"t":"ul","items":["**Size:** teams of up to eight can communicate and respond informally; larger projects need a well-defined procedure. Large groups split into smaller teams with specialists (analysts, designers, programmers).","**Lifetime:** include expected lifetime in risk assessment. In Example 10 lifetime is short, so a slow process is inappropriate.","**Risk:** iterate on the whole life cycle to manage risk. Missing the market window makes software worthless regardless of how much is built."]},
+{"t":"p","text":"Major risks lie in the requirements: do you understand them all, and are they changing too often? Reviews help, as for each decision there is a risk it is wrong."}
+]},
+{"id":"pm5-16","title":"Trade-offs between features","blocks":[
+{"t":"p","text":"Desirable features usually exceed what a given price and timescale can deliver, so choices must be made. One approach is to estimate the **risk of not delivering each feature**: if it did not appear in the final product, what effect would that have on usability, usefulness, reliability and flexibility?"},
+{"t":"activity","id":"pm5-a2","title":"Prioritise features","prompt":"You must deliver an online library-loans system within a fixed budget and cannot build everything. Explain how you would decide which features to include or drop.","model":"Estimate the risk of not delivering each feature: ask what effect omitting it would have on usability, usefulness, reliability and flexibility. Keep the features whose absence carries the highest risk, agree priorities with users, and use timeboxes or increments so the most important features are delivered first.","points":["Estimate the risk of not delivering each feature","Consider effect on usability, usefulness, reliability and flexibility","Agree priorities with users","Deliver the most important features first, e.g. in increments"]}
+]},
+{"id":"pm5-17","title":"The phased development life cycle","blocks":[
+{"t":"p","text":"**Phased development** repeats requirements determination, evaluation of alternatives, design specification and implementation over several iterations, forming a series of closely linked mini-projects (each may be large). At the end of each, some portion is implemented and reviewed by users, and the feedback helps determine the requirements of the next."},
+{"t":"img","src":"img/pm_p90_20.jpg","alt":"Four phases side by side, each with determine requirements, evaluate alternatives, specify design, implement design, and user review; phase 4 ends with changeover","caption":"Figure 14 A phased development life cycle (Jordan and Machesky, 1990)"}
+]},
+{"id":"pm5-18","title":"Example: automating insurance claims","blocks":[
+{"t":"p","text":"A large insurer decided to automate claims handling **in phases** because:"},
+{"t":"ul","items":["earlier attempts to automate major functions had caused costly problems","few resources were available, so no concentrated single effort was possible","disruption to the claims adjustment department would be minimised","training could occur bit by bit, naturally","user feedback at each phase would inform the next"]},
+{"t":"p","text":"The phases mirrored the path of a claim through the department to adjudication and payment."}
+]},
+{"id":"pm5-19","title":"The four phases","blocks":[
+{"t":"ol","items":["**Phase 1:** an on-screen claims form filled in by an operator on the telephone; soon entered directly via headsets. The form was printed and posted for checking and signature.","**Phase 2:** minor improvements; once approved by the claimant, the form went electronically to the adjuster, who entered repairers’ quotations; arithmetic was automatic.","**Phase 3:** minor improvements; approval by the adjuster and quality control by a manager were automated; cheques printed, plus a report of rejected claims.","**Phase 4:** word processing helped prepare letters to claimants whose claims were rejected or needed more information, with standard phrases plus custom paragraphs."]}
+]},
+{"id":"pm5-20","title":"Plan a phased project","blocks":[
+{"t":"p","text":"Phased development suits projects with a high degree of technological risk or where resources are not available to do everything in one effort. Benefits: minimal disruption and several points where feedback can change the end product."},
+{"t":"activity","id":"pm5-a3","title":"Draw up a brief phased plan","prompt":"A small college wants to replace its paper-based course enrolment with an online system. Outline a plan in three phases and say what users review at the end of each.","hint":"Start with the most basic function, then build outwards, as the insurance example did.","model":"Phase 1: online enrolment form for staff to enter student details, review by registry staff. Phase 2: students enrol themselves; automatic checks for course capacity and prerequisites; review with a pilot group of students. Phase 3: payments, confirmation emails and reports for tutors; final review and changeover. Each phase repeats requirements, alternatives, design and implementation, and the feedback informs the next phase.","points":["Split the work into a small number of sequential phases","Start with the simplest, most valuable function","Each phase repeats requirements, design and implementation","End each phase with a user review","Use the feedback to set the next phase’s requirements"]}
+]},
+{"id":"pm5-21","title":"Prototyping","blocks":[
+{"t":"p","text":"**Prototyping** is a form of phased development. A model, or prototype, of the proposed system is built quickly and shown to users to obtain rapid feedback. It may or may not become part of the final system."},
+{"t":"p","text":"It reserves the right to throw away a less successful model, build on a more successful one and fine-tune a very successful one. A prototype may begin crude (ignoring function to study, say, ergonomics) and be refined, be rebuilt at each iteration, or after several iterations a ‘formal’ project may turn the approved model into a working system."},
+{"t":"callout","kind":"note","text":"Advantages are similar to phased development. The disadvantage: costs and schedules are far harder to estimate (early prototypes are experimental) and projects harder to control."}
+]},
+{"id":"pm5-22","title":"Agile processes","blocks":[
+{"t":"p","text":"Proprietary processes demand particular documents to particular standards, with heavy record keeping. Engineers dislike being distracted from developing software, and managers dislike the cost. A manager does not want to lose control, nor alienate the engineers they depend upon."},
+{"t":"p","text":"**Agile methods** emerged in response. They draw on the informal approach of small teams, in the US sometimes called ‘skunk works’: a small team outside normal company policies, with a tight schedule and an ambitious project. Agile methods make explicit what such teams do tacitly, and make it acceptable to managers and stakeholders."}
+]},
+{"id":"pm5-23","title":"The Agile Manifesto","blocks":[
+{"t":"p","text":"The Manifesto for Agile Development was drawn up in February 2001 by the Agile Alliance, using the concepts of increments, prototyping and timeboxing. For example:"},
+{"t":"quote","text":"Our highest priority is to satisfy the customer through early and continuous delivery of valuable software. Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale. Working software is the primary measure of progress.","by":"agilemanifesto.org/principles.html"},
+{"t":"p","text":"Agile methods do not prescribe what should be done when; they recognise that what an engineer does depends on the situation. Teams reflect regularly on how to be more effective and adjust."}
+]},
+{"id":"pm5-24","title":"Try it: pick the right method","blocks":[
+{"t":"tool","tool":"method-picker","title":"Try it: which development process?","intro":"Describe a project (size, risk, requirement stability, time pressure) and see whether waterfall, phased, prototyping or agile fits best, and why."}
+]},
+{"id":"pm5-25","title":"Using a life cycle model","blocks":[
+{"t":"p","text":"Real life is messy and projects run into problems. Life cycle models are still useful for planning, guiding stages and helping a manager, as long as it is remembered that the model is only a model, not an exact description. **More important than the life cycle are the milestones and deliverables agreed in the project plan.**"},
+{"t":"quiz","id":"pm5-q4","q":"According to the text, what matters more than the chosen life cycle?","options":["The milestones and deliverables agreed in the project plan","The number of developers","The programming language"],"answer":0,"explain":"The life cycle is a model; milestones and deliverables are what the plan commits to."}
+]},
+{"id":"pm5-26","title":"Software quality","blocks":[
+{"t":"p","text":"There are no widely agreed measures of the ‘goodness’ of software; quality measures are largely confined to the relative absence of faults. One study (adapted from Norris et al., 1993) looked at faults by phase:"},
+{"t":"table","head":["Phase giving rise to fault","% of total faults"],"rows":[["Requirements definition","38"],["Maintenance (operation)","32"],["Design","23"],["Installation","7"]]}
+]},
+{"id":"pm5-27","title":"Faults from requirements","blocks":[
+{"t":"p","text":"Requirements definition comes first: an analyst interviews and observes clients and users. The product is intangible, so little can be shown to them. Users may not understand software capabilities and complexities, may struggle to express requirements, and analysts are rarely experts in the client’s business."},
+{"t":"p","text":"A walk-through of a requirements document makes it hard to tell whether all requirements are covered. One solution is a **prototype**, crudely giving the function and feel of the product, so deficiencies can be found and the definition refined."}
+]},
+{"id":"pm5-28","title":"Faults from design, installation and operation","blocks":[
+{"t":"ul","items":["**Design** is plagued by change: with nothing tangible it seems anything can be changed simply, but complexity means knock-on effects are hard to see until testing. Prototyping and phased development help, though control problems and extra time can make them unsatisfactory.","**Installation** gives the fewest significant errors: relatively straightforward, though the team may not feel so.","**Operation** reveals many errors due to complexity; a fix in one area can cascade, so maintenance can be a project in its own right."]}
+]},
+{"id":"pm5-29","title":"A series of translations","blocks":[
+{"t":"p","text":"Software development involves a series of **translations**: requirements to design, design to a programming language, then to machine language. At each step something may be missed, inserted or mistranslated, and simple errors, like a full stop for a comma, can have enormous effects."},
+{"t":"p","text":"Even flawed software can be an enormous boon for daily tasks. If a word processor prints one page instead of a whole document, it is annoying but not threatening. The consequences are far more serious in software that flies aircraft, monitors airport radar, manages power stations or runs systems in motor cars."},
+{"t":"quiz","id":"pm5-q5","q":"Which phase gave rise to the largest share of faults in the study (Table 16)?","options":["Design","Requirements definition","Installation"],"answer":1,"explain":"Requirements definition accounted for 38% of faults."}
+]},
+{"id":"pm5-30","title":"5.3 Summary","blocks":[
+{"t":"p","text":"Projects with significant software content are particularly problematic. Software can be treated as a product, though less tangible than furniture. It is difficult to measure, very complex and subject to human error as outputs of one phase are translated for the next, most seriously where it is critical to human safety."},
+{"t":"p","text":"Software development is similar to engineering when it involves a defined process with clear activities, each with one or more products that can be tested against the user’s requirements."},
+{"t":"flash","cards":[{"front":"Waterfall","back":"Single sequence of analysis, design, implementation, testing and maintenance."},{"front":"Phased development","back":"A series of mini-projects, each ending in user review that informs the next."},{"front":"Prototyping","back":"Quickly build a model to get rapid user feedback; may be thrown away or refined."},{"front":"Agile","back":"Light-documentation, frequent delivery of working software, regular team reflection."},{"front":"Timeboxing","back":"A fixed period with its own deadline and budget to achieve an objective."}]}
+]},
+{"id":"pm5-31","title":"Chapter quiz 1","blocks":[
+{"t":"quiz","id":"pm5-q6","q":"Which are the four core software development activities?","options":["Analysis, design, implementation, testing","Planning, budgeting, hiring, closing","Concept, definition, execution, handover"],"answer":0,"explain":"These four are the backbone of software engineering practice."},
+{"t":"quiz","id":"pm5-q7","q":"Which is NOT a reason for maintenance?","options":["Correct errors","Adapt to a changing environment","Replace the project manager"],"answer":2,"explain":"Maintenance corrects, adapts, enhances and improves in anticipation of change."},
+{"t":"tf","id":"pm5-q8","q":"Prototypes are always thrown away once the real system is built.","answer":false,"explain":"A prototype may or may not become part of the final system."}
+]},
+{"id":"pm5-32","title":"Chapter quiz 2","blocks":[
+{"t":"quiz","id":"pm5-q9","q":"A project with high technological risk and limited resources suits which life cycle?","options":["Phased development","A single concentrated waterfall","No life cycle"],"answer":0,"explain":"Phased development suits high technological risk or limited resources, with minimal disruption and repeated feedback."},
+{"t":"quiz","id":"pm5-q10","q":"Why might agile methods be chosen over proprietary methods?","options":["They avoid heavy documentation and bureaucracy while keeping delivery frequent","They remove the need for testing","They guarantee fixed costs"],"answer":0,"explain":"Agile methods reduce record-keeping overhead and focus on frequent working software."},
+{"t":"quiz","id":"pm5-q11","q":"Which are disadvantages of prototyping? Select all that apply.","options":["Costs and schedules are hard to estimate","It is harder to control","Users never see the product"],"answer":[0,1],"multi":true,"explain":"Prototyping gives early user feedback, but is experimental and harder to estimate and control."}
+]}
+]}

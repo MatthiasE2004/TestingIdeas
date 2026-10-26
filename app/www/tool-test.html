@@ -1,0 +1,17 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tool test harness</title><link rel="stylesheet" href="css/app.css"></head><body>
+<div id="root" style="max-width:900px;margin:0 auto;padding:16px"></div>
+<script src="js/core.js"></script><script src="js/ai.js"></script>
+<script>
+/* Harness: ?tool=<id>. Loads tools/<id>.js (and any file listed in ?files=a,b), mounts it with the same ctx the real app gives. */
+var q=new URLSearchParams(location.search), id=q.get('tool'), files=(q.get('files')||id).split(',');
+var mem={};
+window.__ctx={
+  load:function(key){var v=mem[(key||'')];return v?JSON.parse(v):null},
+  save:function(obj,key){mem[(key||'')]=JSON.stringify(obj);try{localStorage.setItem('tooltest:'+id+':'+(key||''),mem[(key||'')])}catch(e){}},
+  ai:window.AI, complete:function(score){console.log('COMPLETE',score);window.__completed=score==null?true:score}, toast:H.toast
+};
+(function next(i){ if(i>=files.length){var t=Tools.get(id); if(!t){document.body.innerHTML='tool not registered: '+id;return}
+    t.mount(document.getElementById('root'),window.__ctx);return}
+  var s=document.createElement('script');s.src='tools/'+files[i]+'.js';s.onload=function(){next(i+1)};s.onerror=function(){document.body.innerHTML='cannot load '+files[i]};document.body.appendChild(s)})(0);
+</script></body></html>

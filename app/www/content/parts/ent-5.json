@@ -1,0 +1,323 @@
+{
+  "id": "ent5",
+  "title": "Defining and building the value proposition",
+  "summary": "Learn what a value proposition is, how mutual value is created across four dimensions, and how to write your own boilerplate value proposition.",
+  "minutes": 60,
+  "pages": [
+    {
+      "id": "ent5-01",
+      "title": "Why do some businesses succeed?",
+      "blocks": [
+        {"t": "p", "text": "Why do some businesses succeed when others don't? Where do they draw their advantage from? The answers lie in the concept of the **value proposition**. In this session you will consider where value is derived in a business, how to build it into a proposition for customers and how to ensure it is sustainable for your business."},
+        {"t": "p", "text": "Value is an interesting concept - like beauty, it is in the eye of the beholder. Where you think your idea adds value may differ from where potential customers look for it. In the end, value is measured by how much people are willing to pay for something."},
+        {"t": "callout", "kind": "key", "title": "By the end of this session you will be able to", "text": "Explain what a value proposition is; define and build one for your own enterprise; and demonstrate how it can differentiate your business from others for a competitive edge."}
+      ]
+    },
+    {
+      "id": "ent5-02",
+      "title": "The value proposition (VP)",
+      "blocks": [
+        {"t": "p", "text": "In Session 3 the business model canvas placed the value proposition at the centre of your business model. It answers the question: what is it you are trying to build, and for whom? It goes beyond an idea or product and expands to:"},
+        {"t": "ul", "items": [
+          "what problem(s) or need(s) you are solving or meeting for customers",
+          "how your idea will either alleviate the problem or provide a gain for customers",
+          "who the customers are whose needs or problems you are focused on."
+        ]},
+        {"t": "callout", "kind": "key", "text": "The best value propositions are clear about these points and provide a compelling reason for a big enough group of customers to choose your business, product or service over another."}
+      ]
+    },
+    {
+      "id": "ent5-03",
+      "title": "Examples: spreadsheets and social media",
+      "blocks": [
+        {"t": "p", "text": "The **spreadsheet** was originally developed for accountants to organise and manipulate a lot of complex data that would otherwise be very time-consuming and problematic to do manually. It solves the problems of complexity, manual data inputting, errors and duplication of data. A convenient technological resolution to a problem, it has now been adopted by a much wider audience."},
+        {"t": "p", "text": "As human beings we have many different kinds of need, such as the need to be entertained, to socialise and communicate with others. **Social media apps** arguably provide a solution to some of these needs."},
+        {"t": "callout", "kind": "note", "text": "Where you solve a universal need, the target audience could be very large indeed, as opposed to a very niche group of customers."}
+      ]
+    },
+    {
+      "id": "ent5-04",
+      "title": "Perceptions of value can change",
+      "blocks": [
+        {"t": "p", "text": "Arguably, the recent pandemic and lockdown, and the prevailing economic conditions, have taught us that our perceptions of value can change. The concept of the frontline or essential worker has shifted attitudes to work, and the furlough scheme has changed dynamics in many ways."},
+        {"t": "p", "text": "Shortages and delivery difficulties in supply chains create headaches for businesses and customers, but also opportunities along the chain. The shift to working from home, alternative ways of delivering services and the rise in online shopping mean major shifts in customer attitudes and behaviour - and a need for businesses to reflect on their business models and value propositions."}
+      ]
+    },
+    {
+      "id": "ent5-05",
+      "title": "Activity 1: A major event and your idea",
+      "blocks": [
+        {"t": "activity", "id": "ent5-a1", "title": "Activity 1 Reflecting on how a major event impacts on your idea",
+          "prompt": "Take a few minutes (about 10) to consider how a major event such as the Covid-19 pandemic has had an impact on your life as a consumer or customer. Have you noticed a shift in your own values, buying behaviour or priorities? How do they impact on your choice of suppliers and your own notions of value?",
+          "hint": "Think about what you buy, who you buy it from, and what has become more or less important to you.",
+          "model": "Even in a crisis, opportunities arise for some people and businesses. Lockdown brought a rise in pet ownership (3.2 million UK households added a pet, with shortages of dog and cat food), restaurants and pubs pivoted to takeaway, grocery delivery slots were scarce, and millions equipped themselves to work from home, boosting home office furnishings and internet needs. Reported: 51% of furloughed UK employees were considering a career change, and some will have decided to pursue their own business idea.",
+          "points": [
+            "A major event can shift your own values, buying behaviour and priorities",
+            "Changing priorities change which suppliers you choose and what you see as valuable",
+            "Shortages and new needs (e.g. home working, delivery, pets) create opportunities for businesses",
+            "Businesses should revisit their value proposition when customer attitudes shift"
+          ]}
+      ]
+    },
+    {
+      "id": "ent5-06",
+      "title": "How mutual value is created",
+      "blocks": [
+        {"t": "p", "text": "Not all customers are the same. Some have greater need, use or preference for your products or services. Some bring greater financial gain, some make more demands on your customer service and some are more profitable. Even before you start trading, it helps to consider the types of customer you may attract."},
+        {"t": "p", "text": "A second consideration is what support customers need to buy from you initially and afterwards. If your product is a one-off or infrequent purchase, value may come from other sources: follow-up supplies, refills, upgrades."},
+        {"t": "callout", "kind": "tip", "text": "Coffee machine and printer manufacturers have changed their business models: the hardware has become relatively cheap and the revenue comes from repeat purchases of coffee pods and cartridges."},
+        {"t": "img", "src": "img/ent_29.jpg", "alt": "Image of coffee pods.", "caption": "Figure 1 Repeat purchases, such as coffee pods, have helped businesses increase revenue."}
+      ]
+    },
+    {
+      "id": "ent5-07",
+      "title": "Reducing friction",
+      "blocks": [
+        {"t": "p", "text": "A third consideration is how far your product or idea is 'unique' or different from others in the marketplace. Not all successful businesses are unique in all regards - they find competitive advantage from another source."},
+        {"t": "p", "text": "Your business may not uniquely solve a problem customers have, but it may reduce the **friction** they currently experience in dealing with other suppliers."},
+        {"t": "callout", "kind": "key", "title": "Example", "text": "Technology and mobile phone companies have entered financial services. Phone apps have made banking, saving and payments much easier than ten years ago. The basic service (e.g. making a payment) is the same, but the user experience is very different."}
+      ]
+    },
+    {
+      "id": "ent5-08",
+      "title": "Four dimensions of value",
+      "blocks": [
+        {"t": "p", "text": "As you think about your business idea, you might increase value for customers across four dimensions: **strategic**, **economic**, **operational** and **behavioural**."},
+        {"t": "img", "src": "img/ent_30.jpg", "alt": "Diagram with Mutual Value at the centre, linked to four circles: Strategic, Economic, Behavioural and Operational.", "caption": "Figure 2 Dimensions of value (adapted from Parvatiyar and Seth, 2001)"}
+      ]
+    },
+    {
+      "id": "ent5-09",
+      "title": "Strategic and economic value",
+      "blocks": [
+        {"t": "callout", "kind": "key", "title": "Strategic value", "text": "The more aligned you are with your customers' needs and wants, and the more relevant a place you have in their lives, the more likely you are to succeed. Your values, brand, ways of working and the product itself are a good fit with your target audiences."},
+        {"t": "callout", "kind": "key", "title": "Economic value", "text": "For your business: achieving a price that exceeds the cost of providing the product or service, which requires efficiency in sourcing, providing and serving. For the customer: paying a price they think is worth paying relative to alternative solutions to their need or problem."}
+      ]
+    },
+    {
+      "id": "ent5-10",
+      "title": "Operational value",
+      "blocks": [
+        {"t": "p", "text": "Customers come into contact with your business in a variety of ways, sometimes called **customer touchpoints**. Wherever and whenever they touch your business there is an opportunity to reinforce the value of what is offered (and, with poor service, to detract from it)."},
+        {"t": "p", "text": "In today's world, where people are considered time poor, this means making it convenient and easy for customers to deal with you."},
+        {"t": "activity", "id": "ent5-a2", "title": "Reflection: easy to deal with?",
+          "prompt": "Take about 5 minutes to reflect on how many suppliers or providers you deal with as a customer. How do they perform on this dimension of being easy to deal with? What is it they do - or don't do - that makes dealing with them good or bad?",
+          "model": "You may have thought of opening hours, convenient location, or self-service so you can deal with suppliers at the time that suits you. You may also have thought about efficient processes - for example being 'remembered' as a returning customer so you don't repeat your details or request - or recognition and rewards for loyalty where the company uses your data to good effect.",
+          "points": [
+            "Convenience such as opening hours, location or self-service",
+            "Efficient processes, e.g. being remembered as a returning customer",
+            "Recognition or loyalty rewards that use customer data well",
+            "Poor or missing touchpoints make a supplier harder to deal with"
+          ]}
+      ]
+    },
+    {
+      "id": "ent5-11",
+      "title": "Operational value: the banking example",
+      "blocks": [
+        {"t": "p", "text": "There are many ways to set up your organisation to give a smoother, more effective experience that adds value and differentiates you from others."},
+        {"t": "p", "text": "The whole banking industry has been turned upside down by mobile banking, attracting many new businesses that are not banks, such as Apple (Apple Pay), Amazon and Alibaba. You can move money, pay, receive money, exchange currencies and even use cryptocurrencies at the touch of your smartphone."},
+        {"t": "p", "text": "For many people, apps and cashless payments are more secure, efficient, convenient and cheaper than visiting a distant branch to deposit or withdraw cash, pay in cheques or exchange money. Even so, for some transactions the human touch is preferable to technology."}
+      ]
+    },
+    {
+      "id": "ent5-12",
+      "title": "Behavioural value",
+      "blocks": [
+        {"t": "p", "text": "You can probably remember occasions when a member of staff left a good or bad impression, and how it made you feel - from satisfaction or delight to frustration and annoyance."},
+        {"t": "p", "text": "For most businesses there is a real benefit in encouraging customer satisfaction and even delight. Happy customers come back, and delighted customers will tell other people. The flip side: unhappy customers tend to be more vociferous in telling people about bad experiences."},
+        {"t": "callout", "kind": "tip", "text": "To retain customers and grow your business, it pays to be attentive to customer expectations and the customer experience."}
+      ]
+    },
+    {
+      "id": "ent5-13",
+      "title": "Optimising value",
+      "blocks": [
+        {"t": "p", "text": "Value is more than cost and price, and comes from more than your product or service. It is the sum total of what you provide for customers, delivered through all the elements of your business model. Your business should create value people want or need at the right price, so there is an exchange of value - customers pay you for all that you give them."},
+        {"t": "p", "text": "For a viable value proposition, refer back to Session 4 to understand:"},
+        {"t": "ul", "items": [
+          "who and where your target audience is",
+          "how they perceive the offer, and how you can shape that perception",
+          "how the offer can be positioned relative to competing products, services or suppliers, in terms of features and benefits",
+          "how to communicate this value meaningfully, emphasising what they care about most."
+        ]}
+      ]
+    },
+    {
+      "id": "ent5-14",
+      "title": "Do you know enough about your audience?",
+      "blocks": [
+        {"t": "p", "text": "Before describing your value proposition, pause: how would you describe your target audience? How much do you know about their needs or problems, and the difference your idea would make to them? Would it persuade them to change their buying or usage behaviour? Does it save enough time, or provide enough benefit, to change habits or suppliers, or to pay more?"},
+        {"t": "p", "text": "If you don't know, you may need more research among potential customers (recall the focus group activity in Session 4), or to understand where competition will come from and its value proposition."},
+        {"t": "callout", "kind": "tip", "title": "Competition can be unexpected", "text": "A competing product may be unrelated to how you classify your own. A car that runs on alternative fuels competes with petrol or diesel cars, but for some customers also with bicycles, public transport and taxis."}
+      ]
+    },
+    {
+      "id": "ent5-15",
+      "title": "Activity 2 (part 1): Feature or benefit?",
+      "blocks": [
+        {"t": "img", "src": "img/ent_31.jpg", "alt": "A pack of six red soft rollerball pens, 'Nib', fine nib 1.0 mm, RRP 1.95, with recycling and CE marks.", "caption": "Figure 3 More than a pen?"},
+        {"t": "activity", "id": "ent5-a3", "title": "Activity 2 Feature or benefit? (part 1)",
+          "prompt": "List at least four features of the product shown above - properties or aspects of its design. Then for each feature provide a customer benefit. (Hint: complete the sentence 'which means that...'.)",
+          "hint": "Look at the price, nib, ink colour, packaging and symbols on the pack.",
+          "model": "The pen is affordably priced, which means you don't have to worry about losing it as it can be replaced cheaply; it has a fine nib, so it can be used for handwriting or fine detailed work; it uses red ink, which means writing or marking stands out more than black or blue; it is packaged in recycled packaging, so it creates less damage to the environment; the quality standard ensures a minimum standard accepted throughout the European market, which gives assurance of the materials used.",
+          "points": [
+            "Affordable price, so cheap to replace if lost",
+            "Fine nib, so suits handwriting and detailed work",
+            "Red ink, so writing stands out",
+            "Recycled packaging, so less environmental damage",
+            "Quality standard (CE mark), so assurance of materials"
+          ]}
+      ]
+    },
+    {
+      "id": "ent5-16",
+      "title": "Activity 2 (part 2): Express the value",
+      "blocks": [
+        {"t": "activity", "id": "ent5-a4", "title": "Activity 2 Feature or benefit? (part 2)",
+          "prompt": "If this was your product, how might you express the value to customers of this product in no more than 100 words? (Look back at Session 3 for tips.)",
+          "hint": "Lead with the benefit to the customer, not the feature.",
+          "model": "A short, benefit-led statement works best. The source suggests something like: 'A cost-effective pen that doesn't cost the planet.' Think of your own product in this way and make notes about your value proposition. The purpose is to think as your customers do: what is important to them, and how you could persuade them that you provide enough value to pay your price, switch behaviour or supplier, or try something new.",
+          "points": [
+            "Express the value from the customer's point of view",
+            "Combine key benefits (e.g. low cost and environmental friendliness)",
+            "Keep it short, clear and memorable",
+            "Make it persuasive enough to justify paying or switching"
+          ]}
+      ]
+    },
+    {
+      "id": "ent5-17",
+      "title": "Brand or USP?",
+      "blocks": [
+        {"t": "p", "text": "How customers make their choice is vital to understand if you are to communicate the value of your business. Sometimes features or benefits are so unique they are memorable and lead to a point of difference people will pay more for. They may even be patented."},
+        {"t": "ul", "items": [
+          "The mint with the hole: unique, memorable and a trademark.",
+          "A coffee jar of a particular shape with a reusable seal: unique features that add value and encourage loyalty beyond the taste of the coffee."
+        ]},
+        {"t": "callout", "kind": "key", "title": "USP", "text": "A unique selling proposition: a feature or benefit unique enough to be memorable and to give a point of difference."}
+      ]
+    },
+    {
+      "id": "ent5-18",
+      "title": "The power of brand",
+      "blocks": [
+        {"t": "p", "text": "Think of trainers: was the decision really based only on price? Where there are multiple products in the same price range, the label or brand is often as important. A brand may confer a certain value or imply the wearer's values and style - classic, high quality, trendy and popular. Customers tend to pay more for this association."},
+        {"t": "p", "text": "Some household names have become 'genericised' - Hoover became a verb, as has Google."},
+        {"t": "callout", "kind": "note", "text": "A good brand name sticks in the minds of prospective customers, but this takes a lot of time, marketing and communications activity, and often budget. It can be very hard for a new business to establish a brand from a standing start."}
+      ]
+    },
+    {
+      "id": "ent5-19",
+      "title": "Reflection: names, brands and USPs",
+      "blocks": [
+        {"t": "activity", "id": "ent5-a5", "title": "Reflection: brand and USP",
+          "prompt": "Before defining a value proposition for your own idea (or one for a product or service you know), consider: In what ways can a product or company name suggest something about what customers will experience? Can it convey a particular image or suggest something that separates it from others? How do brands and USPs impact on price and on the customer's perception of value?",
+          "model": "A name can hint at the experience, quality or values of a product and create an image that separates it from rivals. Strong brands and USPs let customers associate the product with certain values, so they are often prepared to pay more and perceive greater value. Building a brand, however, takes time and money.",
+          "points": [
+            "A name can signal qualities, image and values",
+            "It can differentiate the product from others in the market",
+            "Strong brands and USPs support higher prices",
+            "They raise the customer's perception of value"
+          ]}
+      ]
+    },
+    {
+      "id": "ent5-20",
+      "title": "Entrepreneurs on value propositions",
+      "blocks": [
+        {"t": "p", "text": "Listen to how our entrepreneurs have thought through their value proposition and how useful it is as a concept. Take notes in a notebook as ideas occur. What did they say?"},
+        {"t": "video", "title": "Video 1 Value proposition", "url": null, "note": "Entrepreneurs (Emma Prince, Claudio Marturano, Nick Allen, Alex Bond) describe their value propositions: meeting a local need and evolving it as the company grows; bite-sized on-shift regulatory training that saves organisations tens of thousands of pounds; high-quality, detailed designs that bring happiness; and cutting a quarter of hygiene-auditing costs. They say a clear value proposition is a conversation starter, gives clarity to customers and helps you steer away from what you're not useful for."}
+      ]
+    },
+    {
+      "id": "ent5-21",
+      "title": "Defining your value proposition",
+      "blocks": [
+        {"t": "p", "text": "Describe a business or product idea you have been thinking of. It doesn't have to be real. Here is a fictitious example."},
+        {"t": "quote", "text": "To parents of young active toddlers, our new 'Peekapoo' disposable nappies contain a microchip and are made of completely disposable materials that allow you to not only save the planet but also keep track of where your precious little one is hiding using our unique tracking technology on your phone.", "by": "Example from the course"},
+        {"t": "ul", "items": [
+          "Target customer group: 'parents of young, active children'.",
+          "Brand name: 'Peekapoo'.",
+          "New concept: the microchip in the environmentally friendly nappy.",
+          "Distinct from other renewable nappies: green credentials plus tracking your baby on your phone."
+        ]}
+      ]
+    },
+    {
+      "id": "ent5-22",
+      "title": "Activity 3: Boilerplate description",
+      "blocks": [
+        {"t": "activity", "id": "ent5-a6", "title": "Activity 3 Creating a 'boilerplate' description",
+          "prompt": "With reference to the example, create a 'boilerplate' description for your business or product idea (or a fictitious one) by completing: To [target group and the need you serve] our [product, service or brand] is [the concept or product/service category] that [your organisation's or product's unique or distinctive feature].",
+          "hint": "Allow about 10 minutes. Fill each blank in turn.",
+          "model": "Example following the template: 'To parents of young active toddlers, our Peekapoo nappies are an environmentally friendly disposable nappy with a built-in microchip that lets you track your child on your phone.' A good answer names the target group and need, the brand and category, and one distinctive feature.",
+          "points": [
+            "Names the target group and the need served",
+            "States the product, service or brand and its category",
+            "Gives a unique or distinctive feature",
+            "Is clear and concise enough to test on others"
+          ]},
+        {"t": "callout", "kind": "tip", "text": "Defining, describing and communicating your value proposition may take more time than you think. Try testing a few versions on friends, family or trusted advisers until you think you have got it right."}
+      ]
+    },
+    {
+      "id": "ent5-23",
+      "title": "Try it: Value proposition canvas",
+      "blocks": [
+        {"t": "tool", "tool": "value-prop", "title": "Try it: build your value proposition", "intro": "Map the customer's jobs, pains and gains against what you offer, and see whether your value proposition really fits what they care about."}
+      ]
+    },
+    {
+      "id": "ent5-24",
+      "title": "Summary",
+      "blocks": [
+        {"t": "p", "text": "Products and businesses are the basis of a **mutual value exchange** with customers. You must persuade customers that what you have is valuable enough to pay your price, or to change their behaviour: trialling a product, changing supplier or doing something in a completely different way."},
+        {"t": "ul", "items": [
+          "learned the key concept of the value proposition",
+          "attempted to define a value proposition for your own idea, which you will refine",
+          "considered how it may differentiate you from competitors, provided customers understand the value for them."
+        ]},
+        {"t": "callout", "kind": "note", "text": "Some ways of adding value cost nothing (a positive, customer-friendly attitude); others, like special packaging or an exclusive outlet, add cost. Balance the value you provide against the price and volume you can expect so that value stays mutual."}
+      ]
+    },
+    {
+      "id": "ent5-25",
+      "title": "Session quiz (1 of 2)",
+      "blocks": [
+        {"t": "quiz", "id": "ent5-q1", "q": "Which best describes a value proposition?", "options": [
+          "A list of your products and their prices",
+          "The answer to what you are building and for whom, covering the problem or need solved and the gain provided",
+          "Your company's logo and slogan",
+          "A forecast of your first-year profit"
+        ], "answer": 1, "explain": "A value proposition goes beyond an idea or product: it covers the problem or need, how your idea alleviates it or provides a gain, and who the customers are."},
+        {"t": "quiz", "id": "ent5-q2", "q": "Coffee machine and printer makers earn much of their revenue from pods and cartridges. This illustrates:", "options": [
+          "Value created from repeat purchases and follow-up supplies",
+          "A one-off premium price for hardware",
+          "Behavioural value from staff attitude",
+          "Reducing the number of customers"
+        ], "answer": 0, "explain": "Where the product is a one-off purchase, value can come from other sources such as refills, consumables and upgrades."},
+        {"t": "quiz", "id": "ent5-q3", "q": "Which are the four dimensions of mutual value shown in Figure 2?", "options": [
+          "Strategic, economic, operational, behavioural",
+          "Price, product, place, promotion",
+          "Social, technical, economic, environmental",
+          "Valuable, rare, inimitable, organised"
+        ], "answer": 0, "explain": "The dimensions of value are strategic, economic, operational and behavioural (adapted from Parvatiyar and Seth, 2001). The other options are the marketing mix, STEEPLE letters and VIRO."}
+      ]
+    },
+    {
+      "id": "ent5-26",
+      "title": "Session quiz (2 of 2)",
+      "blocks": [
+        {"t": "quiz", "id": "ent5-q4", "q": "Making it convenient and easy for customers at every touchpoint is an example of which dimension of value?", "options": [
+          "Strategic value",
+          "Economic value",
+          "Operational value",
+          "Behavioural value"
+        ], "answer": 2, "explain": "Operational value is about customer touchpoints and being easy to deal with, especially for time-poor customers."},
+        {"t": "tf", "id": "ent5-q5", "q": "A benefit describes a property of the design of a product, while a feature describes what it means for the customer.", "answer": false, "explain": "It is the other way round: a feature is a property or aspect of the design; the benefit is what it means for the customer ('which means that...')."},
+        {"t": "tf", "id": "ent5-q6", "q": "A new business can easily build a strong brand from a standing start.", "answer": false, "explain": "A good brand takes a lot of time, marketing and communications activity, and often budget, so it is hard for a new business to establish."}
+      ]
+    }
+  ]
+}

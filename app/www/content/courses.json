@@ -1,0 +1,18 @@
+[
+ {
+  "id": "pm",
+  "title": "Project management",
+  "subtitle": "The start of the project journey",
+  "accent": "#D71921",
+  "chapters": 6,
+  "pages": 235
+ },
+ {
+  "id": "ent",
+  "title": "Entrepreneurship",
+  "subtitle": "From ideas to reality",
+  "accent": "#0B0B0B",
+  "chapters": 8,
+  "pages": 264
+ }
+]

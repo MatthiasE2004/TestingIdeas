@@ -1,0 +1,563 @@
+{
+ "id": "pm3",
+ "title": "3 Making decisions",
+ "summary": "How management chooses which feasible proposals to pursue, using weighted criteria, decision trees, ranking formulas and checklists.",
+ "minutes": 40,
+ "pages": [
+  {
+   "id": "pm3-01",
+   "title": "Choosing what to pursue",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Given a set of proposals for which the feasibility has been assessed, management must now decide which proposals to pursue. What decision makers are looking for is the **best option available**."
+    },
+    {
+     "t": "p",
+     "text": "Decisions are too often made on the basis of personal inclination and interest, for ‘political’ reasons (enhancing the power or prestige of an individual or group), or in the absence of full information about risks and outcomes. Since a bad decision is costly, this section looks at structured, scientifically based methods of decision making."
+    },
+    {
+     "t": "h",
+     "text": "Learning outcomes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "describe an appropriate model for deciding which proposal to pursue",
+      "explain why profitability must be calculated in the same way for proposals being compared",
+      "calculate expected monetary value (EMV) in a decision tree",
+      "explain how proposal-ranking formulas work",
+      "use a checklist or measured checklist",
+      "state the main limitation of these techniques",
+      "list questions a decision maker needs to ask before deciding"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm3-02",
+   "title": "3.1 A model for decision making",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The goal of decision making is to move towards a desired state of affairs through a series of rational choices from one or more alternatives. **Problems** are the gap between ‘what is’ and ‘what ought to be’. **Opportunities** relate to a potentially better situation based on current expectations."
+    },
+    {
+     "t": "p",
+     "text": "The basic framework for rational decision making has six steps (McShane and Von Glinow, 2004, p. 236):"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Identify the problem or opportunity.",
+      "Choose the best (or most appropriate) decision style.",
+      "Develop alternative solutions.",
+      "Choose the best solution.",
+      "Implement the selected alternative.",
+      "Evaluate decision outcomes."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm3-03",
+   "title": "Decision style: objective and quantitative",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "When evaluating and comparing proposals, the most appropriate decision style is to be **objective rather than subjective** and **quantitative rather than qualitative**. Just as an architect uses a standard unit (a millimetre, centimetre or metre) to measure a building, structured aids can be applied to compare proposals."
+    },
+    {
+     "t": "p",
+     "text": "Bazerman (2006, p. 4) recommends using weighted criteria to reach the optimal decision:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Identify the criteria needed for the objectives to be accomplished.",
+      "Weight the criteria according to their varying importance.",
+      "Rate each alternative on each criterion. This is often the most difficult step: ‘How well will each alternative achieve each criterion?’",
+      "Multiply ratings by weights, add up the results for each alternative and choose the highest sum of weighted ratings."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm3-04",
+   "title": "Coherence: comparing like with like",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Coherence",
+     "text": "The degree of relationship of the different parts of a proposal to each other and to the objectives and needs of the organisation."
+    },
+    {
+     "t": "p",
+     "text": "The principle of coherence is an aid to ‘comparing like with like’. If two competing proposals use different methods of calculating profitability, it is very difficult to make an informed decision about which is better."
+    },
+    {
+     "t": "quiz",
+     "id": "pm3-q1",
+     "q": "Why should profitability be calculated in the same way for competing proposals?",
+     "options": [
+      "It makes the calculations shorter",
+      "It allows like to be compared with like, so an informed choice can be made",
+      "It guarantees the cheapest proposal wins"
+     ],
+     "answer": 1,
+     "explain": "Different calculation methods make proposals incomparable, so the decision cannot be properly informed."
+    }
+   ]
+  },
+  {
+   "id": "pm3-05",
+   "title": "3.2 Decision trees",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A **decision tree** is a way of representing graphically the decision processes and their possible outcomes. Trees are particularly useful when choosing a route where there are uncertainties about the results."
+    },
+    {
+     "t": "p",
+     "text": "Example: you are developing a software product and must decide whether to **buy in** a package as part of it or **develop** one yourself. You believe good sales are more likely if you develop your own package, although this costs more."
+    },
+    {
+     "t": "img",
+     "src": "img/pm_p65_13.jpg",
+     "alt": "Decision tree: buy package (-10k) or develop package (-20k), each leading to a chance node with good or poor sales and final values 90k, 40k, 80k and 30k",
+     "caption": "Figure 9 A simple decision tree (values in thousands of pounds)"
+    }
+   ]
+  },
+  {
+   "id": "pm3-06",
+   "title": "Reading the tree",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "**Squares** are decision nodes (options); **circles** are chance nodes.",
+      "The main decision is on the left: buy (£10 000) or develop (£20 000), with the cost shown against each branch.",
+      "Each chance node shows probabilities, e.g. 40% probability of good sales of £100 000.",
+      "The final rectangle (leaf) gives the total value of that outcome, including costs on the way. The top leaf is £100 000 − £10 000 = £90 000."
+     ]
+    },
+    {
+     "t": "quiz",
+     "id": "pm3-q2",
+     "q": "In a decision tree, what do circles represent?",
+     "options": [
+      "Decisions you control",
+      "Chance nodes with probabilities of outcomes",
+      "Final costs only"
+     ],
+     "answer": 1,
+     "explain": "Squares are decision nodes, circles are chance nodes, rectangles are outcomes (leaves)."
+    }
+   ]
+  },
+  {
+   "id": "pm3-07",
+   "title": "Expected monetary value (EMV)",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/pm_p66_14.jpg",
+     "alt": "EMV equals the sum from i equals 1 to n of Pi times Vi",
+     "caption": "EMV = Σ Pi Vi"
+    },
+    {
+     "t": "p",
+     "text": "Vi is the value of outcome i; Pi its probability, expressed as a decimal between 0 and 1; n is the number of possible outcomes, and the probabilities sum to 1."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Buy:** EMV = [0.4 × (100k − 10k)] + [0.6 × (50k − 10k)] = (0.4 × 90k) + (0.6 × 40k) = **60k**",
+      "**Develop:** EMV = [0.5 × (100k − 20k)] + [0.5 × (50k − 20k)] = (0.5 × 80k) + (0.5 × 30k) = **55k**"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "The probabilities are *subjective probabilities*, perhaps arrived at through forecasting techniques; outcome values may be estimated with the financial appraisal techniques seen earlier."
+    }
+   ]
+  },
+  {
+   "id": "pm3-08",
+   "title": "SAQ 11: build a decision tree",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Construct a decision tree to choose from three possible products and calculate the EMV of each option. Costs are in £k; the value of a product is higher if high growth is obtained."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Product",
+      "Cost £k",
+      "High growth: prob., value £k",
+      "Low growth: prob., value £k"
+     ],
+     "rows": [
+      [
+       "A",
+       "18",
+       "0.6, 33",
+       "0.4, 19"
+      ],
+      [
+       "B",
+       "20",
+       "0.5, 30",
+       "0.5, 18"
+      ],
+      [
+       "C",
+       "15",
+       "0.7, 25",
+       "0.3, 15"
+      ]
+     ]
+    },
+    {
+     "t": "activity",
+     "id": "pm3-a1",
+     "title": "SAQ 11",
+     "prompt": "For each product, work out the net value of each leaf (value minus cost) and then the EMV. Which product would you choose? Write your values and conclusion.",
+     "hint": "Leaf value = outcome value − development cost. EMV = Σ probability × leaf value.",
+     "model": "Net leaf values: A = 15 and 1; B = 10 and −2; C = 10 and 0 (note a value can be negative). EMV: A = 0.6×15 + 0.4×1 = £9.4k; B = 0.5×10 + 0.5×(−2) = £4k; C = 0.7×10 + 0.3×0 = £7k. Product A has the highest EMV, so choose A.",
+     "points": [
+      "Leaf value is the outcome value minus the cost of the whole path",
+      "EMV of A is £9.4k, B is £4k and C is £7k",
+      "A values can be negative, as for B with low growth",
+      "Product A has the highest EMV and is the choice"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm3-09",
+   "title": "SAQ 11: the answer tree",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/pm_p67_15.jpg",
+     "alt": "Decision tree for products A, B and C with EMVs 9.4k, 4k and 7k",
+     "caption": "Figure S.2 Decision tree for three products"
+    },
+    {
+     "t": "p",
+     "text": "The values at each leaf are the net benefits of the whole path from decision to the end of the path. The EMVs are £9400, £4000 and £7000, so product A looks best, on these estimates."
+    }
+   ]
+  },
+  {
+   "id": "pm3-10",
+   "title": "Trees with more than one decision",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A tree can include further decision nodes. In Figure 10 the primary decision is between developing product A or B. Product A is the one from Figure 9, so there is still the subsidiary decision of whether to buy a package."
+    },
+    {
+     "t": "img",
+     "src": "img/pm_p68_16.jpg",
+     "alt": "Tree with primary choice of product A or B; product A leads to a second decision of buy or develop package",
+     "caption": "Figure 10 A tree with more than one decision node"
+    },
+    {
+     "t": "p",
+     "text": "Tackle the **subsidiary decision first**. Buying had the higher EMV (60k), so cut out the other branch and remove that node. Product A is at best £60 000, so product B (61k) is the higher-valued choice. Remember the likely accuracy of the estimates; there may be non-monetary reasons to choose A."
+    }
+   ]
+  },
+  {
+   "id": "pm3-11",
+   "title": "Why work from the right?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "In a tree with several subsidiary decisions you eliminate each node in turn until only the principal decision is left, each time taking the branch with the optimal value."
+    },
+    {
+     "t": "quiz",
+     "id": "pm3-q3",
+     "q": "In Figure 10, which option should be chosen, using EMV alone?",
+     "options": [
+      "Product A, buying the package (EMV 60k)",
+      "Product A, developing the package (EMV 55k)",
+      "Product B (EMV 61k)"
+     ],
+     "answer": 2,
+     "explain": "After resolving the subsidiary decision, product A is at best 60k, which is less than product B at 61k. The estimates are close, so accuracy matters."
+    }
+   ]
+  },
+  {
+   "id": "pm3-12",
+   "title": "Try it: decision matrix",
+   "blocks": [
+    {
+     "t": "tool",
+     "tool": "decision-matrix",
+     "title": "Try it: weighted decision matrix",
+     "intro": "Apply Bazerman’s four steps: list criteria, weight them, rate each alternative and let the weighted sums rank your options."
+    }
+   ]
+  },
+  {
+   "id": "pm3-13",
+   "title": "Ranking formulas and selection index",
+   "blocks": [
+    {
+     "t": "h",
+     "text": "Proposal ranking formulas"
+    },
+    {
+     "t": "p",
+     "text": "An unsophisticated technique, suitable only when fairly low expenditure is being considered. The viability of different proposals is compared by ranking them in order of **payback time** or **rate of return**."
+    },
+    {
+     "t": "h",
+     "text": "Proposal selection index"
+    },
+    {
+     "t": "p",
+     "text": "Proposals can be ranked using a selection index:"
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "I = PT × PC × NPV",
+     "text": "PT is a measure of each proposal’s anticipated technical success, PC a similar measure of anticipated commercial success, and NPV the anticipated net present value."
+    }
+   ]
+  },
+  {
+   "id": "pm3-14",
+   "title": "Checklists and measured checklists",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "**Checklists** assess various aspects of a number of proposals (in the source, R&D proposals) and are then used to compare options. Each aspect is rated on a key:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Score",
+      "Meaning"
+     ],
+     "rows": [
+      [
+       "1",
+       "Unacceptable"
+      ],
+      [
+       "2",
+       "Unfavourable"
+      ],
+      [
+       "3",
+       "Adequate"
+      ],
+      [
+       "4",
+       "Favourable"
+      ],
+      [
+       "5",
+       "Most favourable"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "**Measured checklists** are almost identical, but instead of a scale from ‘unacceptable’ to ‘most favourable’, the aspects are scored numerically."
+    }
+   ]
+  },
+  {
+   "id": "pm3-15",
+   "title": "Limitations of the techniques",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "All these techniques require estimates of the **cash flows** over the economic life of a project and of the **probabilities** of outcomes. They assume it is practicable to supply the information shown in Figure 11. That may patently not be the case when a proposal has not even reached the drawing board, and gathering it is usually costly."
+    },
+    {
+     "t": "p",
+     "text": "Sometimes the only alternative is to accept the risks of hunches and incomplete information, and to keep some rejected options open until the front-runner is evaluated more fully. Another approach is **sensitivity analysis**: try different values for the main parameters and see how they affect the final decision."
+    }
+   ]
+  },
+  {
+   "id": "pm3-16",
+   "title": "Information needed for a capital project",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/pm_p70_17.jpg",
+     "alt": "Flow diagram of economic and financial factors feeding the economic appraisal of an investment project",
+     "caption": "Figure 11 The information needs of a prospective capital project (de la Mare, 1982)"
+    },
+    {
+     "t": "quiz",
+     "id": "pm3-q4",
+     "q": "What is sensitivity analysis?",
+     "options": [
+      "Asking stakeholders how they feel about a proposal",
+      "Trying out different values for key parameters to see how they affect the decision",
+      "Removing all risky options from the tree"
+     ],
+     "answer": 1,
+     "explain": "It shows how sensitive the result is to variations in the data, supporting more informed decisions."
+    }
+   ]
+  },
+  {
+   "id": "pm3-17",
+   "title": "3.3 The decision maker’s questions",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The creation of a project from organisational plans through proposals to decisions is often protracted. Certain questions need to be asked, phrased in everyday, jargon-free language. The decision maker is the person or people responsible for authorising a proposal."
+    },
+    {
+     "t": "img",
+     "src": "img/pm_p71_18.jpg",
+     "alt": "Cycle of questions: where are you now, where would you like to get to, how could you get there, how will you know when you have arrived, will it be as nice as you thought, then OK go ahead",
+     "caption": "Figure 12 Decision maker’s questions"
+    }
+   ]
+  },
+  {
+   "id": "pm3-18",
+   "title": "From existing to desired state",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A project is the means whereby an existing state of affairs is transformed into a desired one. Before it begins, both states must be specified; the difference defines what needs to be done. Even if both are the same, the organisation may need to act to stop the desired state deteriorating."
+    },
+    {
+     "t": "p",
+     "text": "A gap alone is not sufficient stimulus: the organisation pays attention to those problems and opportunities that its **value system** suggests are important."
+    },
+    {
+     "t": "activity",
+     "id": "pm3-a2",
+     "title": "Reflect",
+     "prompt": "Think of a decision you made recently (at work, study or at home). Using the questions in Figure 12, describe where you were, where you wanted to get to, and how you would know you had arrived.",
+     "model": "A good answer names the current state and the desired state clearly, lists at least two ways to get there, states a measurable sign of arrival, and considers whether the result would be as good as expected.",
+     "points": [
+      "State the current situation (where are you now)",
+      "State the desired situation (where would you like to get to)",
+      "Identify alternative routes (how could you get there)",
+      "Define a test of arrival (how will you know)",
+      "Consider whether the outcome will be as good as thought"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm3-19",
+   "title": "Summary",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "Base decisions on solid evidence; avoid political expediency and personal inclination.",
+      "A proposal must show internal consistency: no part grossly out of scale with the others.",
+      "Decision trees, proposal-ranking formulas (low expenditure), selection indexes, checklists and measured checklists can all help.",
+      "All need cash-flow estimates for the project’s economic life, which may not be feasible at decision time.",
+      "Sometimes a decision must be based on incomplete information; then keep other options open."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm3-20",
+   "title": "Chapter quiz 1",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "pm3-q5",
+     "q": "Which is NOT one of the six steps of rational decision making?",
+     "options": [
+      "Develop alternative solutions",
+      "Evaluate decision outcomes",
+      "Choose the option favoured by the most senior person"
+     ],
+     "answer": 2,
+     "explain": "The steps are: identify the problem, choose decision style, develop alternatives, choose best, implement, evaluate."
+    },
+    {
+     "t": "quiz",
+     "id": "pm3-q6",
+     "q": "Using weighted criteria, which alternative is chosen?",
+     "options": [
+      "The one with the highest sum of rating × weight",
+      "The one with the highest single rating",
+      "The one with the lowest cost"
+     ],
+     "answer": 0,
+     "explain": "Ratings are multiplied by criterion weights and summed; the highest sum wins."
+    },
+    {
+     "t": "tf",
+     "id": "pm3-q7",
+     "q": "Decision nodes in a decision tree are drawn as circles.",
+     "answer": false,
+     "explain": "Decision nodes are squares; chance nodes are circles."
+    }
+   ]
+  },
+  {
+   "id": "pm3-21",
+   "title": "Chapter quiz 2",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "pm3-q8",
+     "q": "A decision has two outcomes: £80k with probability 0.25 and £20k with probability 0.75. What is the EMV?",
+     "options": [
+      "£35k",
+      "£50k",
+      "£100k"
+     ],
+     "answer": 0,
+     "explain": "EMV = 0.25 × 80 + 0.75 × 20 = 20 + 15 = £35k."
+    },
+    {
+     "t": "quiz",
+     "id": "pm3-q9",
+     "q": "What is the main limitation of these decision techniques?",
+     "options": [
+      "They cannot handle numbers",
+      "They require estimates of cash flows and probabilities that may not be available",
+      "They only work for software projects"
+     ],
+     "answer": 1,
+     "explain": "They need estimates over the economic life of the project, which can be costly or impossible early on."
+    },
+    {
+     "t": "quiz",
+     "id": "pm3-q10",
+     "q": "Which are suitable approaches when information is incomplete? Select all that apply.",
+     "options": [
+      "Keep rejected options open",
+      "Use sensitivity analysis",
+      "Ignore uncertainty"
+     ],
+     "answer": [
+      0,
+      1
+     ],
+     "multi": true,
+     "explain": "Keeping options open and testing parameter values help; ignoring uncertainty does not."
+    }
+   ]
+  }
+ ]
+}

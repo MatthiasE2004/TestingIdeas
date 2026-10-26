@@ -1,0 +1,130 @@
+{
+"id":"pm4","title":"4 Projects: the life cycle, the project manager and success","summary":"Project life cycles, how success is judged, why projects need managing and what a project manager actually does.","minutes":45,
+"pages":[
+{"id":"pm4-01","title":"A project’s birthday and the life ahead","blocks":[
+{"t":"p","text":"Once a feasibility study has been undertaken, presented to management and a programme of change or one or more projects authorised, we can identify the project’s ‘birthday’ and think about the life that lies ahead."},
+{"t":"h","text":"Learning outcomes"},
+{"t":"ul","items":["describe the basic and extended life cycles used to manage projects","describe the product life cycle and the variation in processes for different products","list the criteria and factors used to promote project success","list the main activities and tasks of a project manager"]}
+]},
+{"id":"pm4-02","title":"4.1 Projects have a life cycle","blocks":[
+{"t":"quote","text":"a unique venture with a beginning and an end","by":"Buchanan and Boddy (1992, p. 8)"},
+{"t":"p","text":"The bit in the middle is where most of the work is done. A project has a **life cycle**, by analogy with living things that are born, grow, live and end. The **birthday** is the formal approval of a project, often a contract between client and supplier. A fuller analogy includes **conception** and the gestation period before birth."},
+{"t":"p","text":"Different animals have different life cycles and, like projects, every living thing is unique in some sense."}
+]},
+{"id":"pm4-03","title":"Where does the project start?","blocks":[
+{"t":"p","text":"There is much discussion about whether there is one ‘true’ life cycle model or many. Some writers include the feasibility study in the life cycle; others begin only once the proposal is accepted, or when the accountants define cost codes and a budget."},
+{"t":"p","text":"We use the point of **conception**, even though that gestation period can be cloudy. The practical starting point is often the birthday, since management normally approve after the feasibility study. You can think of the feasibility study as a mini-project in its own right."},
+{"t":"callout","kind":"note","text":"Real life is always more chaotic than the models we apply to it. Models help us recognise different ways of moving from beginning to end, and the broad phases where activities change type."}
+]},
+{"id":"pm4-04","title":"Activities, deliverables, phases","blocks":[
+{"t":"p","text":"Each activity uses a known procedure at a given level of formality, starting with inputs from preceding activities. On completion there may be outputs known as **deliverables** (because they are needed for other activities). The order in which activities are carried out is called a **life cycle**."},
+{"t":"flash","cards":[{"front":"Life cycle","back":"The order in which activities are carried out; the overall process for a given project."},{"front":"Phase","back":"A set of interrelated activities needed to achieve a particular outcome or deliverable."},{"front":"Deliverable","back":"An output of an activity, needed for other activities."},{"front":"Project management methodology","back":"A highly detailed life cycle description with numerous forms, models and checklists."}]}
+]},
+{"id":"pm4-05","title":"Four or five phases","blocks":[
+{"t":"p","text":"There is no single life cycle for all projects, although certain types associate with a particular one. Descriptions may be very general (suggesting what to do) or very detailed (prescribing what must be done). Many writers use four phases. Turner (1999) used the life cycle of a plant:"},
+{"t":"table","head":["Stage","Name of phase"],"rows":[["Germination","Proposal and initiation"],["Growth","Design and appraisal"],["Maturity","Execution and control"],["Death","Finalisation and closeout"]]},
+{"t":"p","text":"Weiss and Wysocki (1994) use five: define, plan, organise, execute and close."}
+]},
+{"id":"pm4-06","title":"Concurrency and fast tracking","blocks":[
+{"t":"p","text":"The change from one phase to the next is not necessarily abrupt. When there is significant overlap in time between activities in different phases (for example planning continues while organising is under way and execution has begun), these activities exhibit **concurrency**."},
+{"t":"p","text":"Since change is inevitable, activities such as estimating, recruiting or assigning work may have to be done again. Overlapping phases is also called **fast tracking** (PMI, 2004): it lets the project finish in less time than a strict sequence."},
+{"t":"quiz","id":"pm4-q1","q":"What is fast tracking?","options":["Skipping the feasibility study","Overlapping phases so the project finishes in less time than a strict sequence","Hiring more staff"],"answer":1,"explain":"Fast tracking is the overlapping of phases (concurrency)."}
+]},
+{"id":"pm4-07","title":"The basic and extended life cycles","blocks":[
+{"t":"img","src":"img/pm_p75_19.jpg","alt":"Staircase of phases: concept, definition, implementation, handover and closeout (basic life cycle), then operations and termination (extended life cycle); business case and project plan marked as deliverables","caption":"Figure 13 The basic and extended project life cycles"},
+{"t":"p","text":"The basic life cycle fits many projects. The extended life cycle (also the product life cycle) adds **operations** and **termination**. The business case is the first formal deliverable to be given a gate review."}
+]},
+{"id":"pm4-08","title":"Basic life cycle: concept and definition","blocks":[
+{"t":"p","text":"The generic phases of the basic life cycle (APM, 2006):"},
+{"t":"table","head":["Phase","What happens"],"rows":[["Concept","The need, problem or opportunity is established. Proposals are prepared and tested for feasibility. Sufficient plans are made for a ‘go/no-go’ decision, often a business case owned by the sponsor. The decision ends the stage."],["Definition","Plans and costs from the previous phase are refined into a plan the project manager can use. During iterative evaluation and optimisation of the preferred solution, scope, time, cost and quality objectives can be affected as requirements are elaborated."]]}
+]},
+{"id":"pm4-09","title":"Basic life cycle: implementation and handover","blocks":[
+{"t":"table","head":["Phase","What happens"],"rows":[["Implementation (execution)","The project management plan is put into action; design of deliverables is finalised so each can be built. Key activities: communication with stakeholders, monitoring costs, controlling quality, identifying and managing changes. The busiest phase of almost every project."],["Handover and closeout","Final deliverables are handed to the sponsor. Once formally accepted, responsibility and ownership shift from the project team to the sponsor or users. The project can then be reviewed so lessons may be learnt."]]}
+]},
+{"id":"pm4-10","title":"The extended life cycle","blocks":[
+{"t":"p","text":"The extended life cycle (also known as a product life cycle) involves supporting and maintaining the deliverables so the project’s intended benefits are realised. It adds two phases (APM, 2006):"},
+{"t":"table","head":["Phase","What happens"],"rows":[["Operations","The period during which the completed deliverable is used and maintained in service for its intended purpose."],["Termination","The disposal of the project deliverables at the end of their life."]]},
+{"t":"p","text":"Projects related to special events, such as an annual conference or a sporting event, make use of the extended life cycle."}
+]},
+{"id":"pm4-11","title":"Try it: sort the life cycle","blocks":[
+{"t":"tool","tool":"lifecycle-sort","title":"Try it: put the phases in order","intro":"Sort project phases and activities into the basic and extended life cycles and see where each fits."}
+]},
+{"id":"pm4-12","title":"Deliverables have life cycles too","blocks":[
+{"t":"p","text":"Each deliverable, whether handed to the client or produced in an intermediate activity, has a life cycle. Deliverables tend to follow a **product life cycle**, broader than the basic project life cycle (Dawson, 2000):"},
+{"t":"table","head":["Stage","Description"],"rows":[["Analysis","The initial investigative work: idea, feasibility, definition and planning."],["Synthesis","The work done to develop (and test) the product."],["Operation","The implementation, use and maintenance of the product."],["Retirement","The final withdrawal and replacement of the product."]]}
+]},
+{"id":"pm4-13","title":"Overlap and variation","blocks":[
+{"t":"p","text":"The four stages are not mutually exclusive. For example, a manufacturer who installs a new production line in phases will see operation and retirement overlap: reduced operation of the current line and pilot operation of the new one."},
+{"t":"p","text":"There is also huge variation because of the variety of deliverables. A new university building and software to support online learning may have similar life cycles in outline, but their actual processes have very little in common. Section 5 discusses different approaches in software development, which can be used to compare processes in other industries."},
+{"t":"quiz","id":"pm4-q2","q":"Which sequence is the product life cycle of a deliverable (Dawson)?","options":["Concept, definition, implementation, handover","Analysis, synthesis, operation, retirement","Germination, growth, maturity, death"],"answer":1,"explain":"The first option is the basic project life cycle; the last is Turner’s plant analogy."}
+]},
+{"id":"pm4-14","title":"Reviews and gate reviews","blocks":[
+{"t":"p","text":"**Reviews** assess or survey something. They give a chance to reflect on what you have just done. They test whether the objectives in the project plan were achieved and assess whether the benefits in the business case were realised. A single focal point improves their effectiveness and efficiency."},
+{"t":"callout","kind":"key","title":"Gate review","text":"A formal point in a life cycle where a decision is made whether to continue with the next phase of the project (APM, 2006)."}
+]},
+{"id":"pm4-15","title":"Kolb’s learning cycle","blocks":[
+{"t":"p","text":"Reflecting on experience is an important step in learning, as in Kolb’s learning cycle (1984):"},
+{"t":"ol","items":["concrete experiences, followed by","observation and reflection, leading to","formation of abstract concepts and generalisations, leading to","testing the implications of concepts for future action, which lead to new concrete experiences."]},
+{"t":"p","text":"Many small, incremental improvements can turn into major ones over time: one thing done differently each day could lead to 365 improvements a year. Learning becomes erratic when goals are not clear."}
+]},
+{"id":"pm4-16","title":"Taking stock of the business case","blocks":[
+{"t":"p","text":"Reviewing the business case is a potential turning point. Different behaviour patterns and work experiences lead individuals to make different assumptions about what they see. Internal relationships between stakeholders can lead to misinterpretation of the document, causing confusion and frustration. Taking stock early is a chance to assess what might happen in the whole project."},
+{"t":"activity","id":"pm4-a1","title":"Apply the learning cycle","prompt":"Take a piece of work you recently completed (an assignment, a task at work). Walk through Kolb’s four steps: what happened, what you observed, what you concluded and what you will try next time.","model":"A good answer describes a concrete experience, reflects on what went well or badly, draws a general lesson, and sets out one specific change to try next time, which begins the next cycle.","points":["Describe the concrete experience","Reflect on and observe what happened","Form a general lesson or concept","Plan something specific to test next time"]}
+]},
+{"id":"pm4-17","title":"Project classification","blocks":[
+{"t":"p","text":"When making a case for a project, part of the work is choosing the life cycle. Organisations that have used projects for some time often have a life cycle for the kinds of project approved. The simplest classification is by **industry** (construction, mechanical engineering, software, banking, health care)."},
+{"t":"p","text":"Projects can also be classified by **outcome**: a product or a service, or often both. For example, a UK NHS project let GPs make hospital appointments in real time (service); a new software application (product) was developed to achieve it."}
+]},
+{"id":"pm4-18","title":"Means and ends: four classes","blocks":[
+{"t":"p","text":"Combining *means* and *ends* (the **how?** and **what?** questions) gives four classes of project, according to how much is known about what you are trying to achieve and how. Obeng (2003) uses a metaphor for each, which helps stakeholders engage:"},
+{"t":"table","head":["Type","Description","Example"],"rows":[["Painting by numbers","Sure what and how; linear and sequential.","Housing construction by an established firm"],["Going on a quest","Sure what, unsure how; concurrent, converging on deadlines.","Outcome based on prototypes (R&D)"],["Making a movie","Sure how, unsure what; checkpoints where clarification is sought.","Developing new products for the market"],["Walking (or lost) in the fog","Unsure of both; proceed with care, one step at a time.","Doing something new for the first time, e.g. a quality improvement programme"]]}
+]},
+{"id":"pm4-19","title":"Which class is it?","blocks":[
+{"t":"quiz","id":"pm4-q3","q":"A team knows how to do the work but is unsure what the market wants. Which Obeng class is it?","options":["Painting by numbers","Going on a quest","Making a movie"],"answer":2,"explain":"Sure of how, not sure of what: ‘making a movie’, with checkpoints for clarification."},
+{"t":"quiz","id":"pm4-q4","q":"A first-ever process improvement programme where nobody is sure what or how is…","options":["Going on a quest","Walking (or lost) in the fog","Painting by numbers"],"answer":1,"explain":"Unsure of both what and how: proceed with care, one step at a time."}
+]},
+{"id":"pm4-20","title":"4.2 Success criteria and critical success factors","blocks":[
+{"t":"p","text":"There has been a substantial amount of research into evaluating projects, partly because the media report project failures. Researchers have established factors that together indicate a high likelihood of success. It is complicated because **different stakeholders evaluate the same project differently**, and evaluations change over time (Fortune and White, 2006)."},
+{"t":"ul","items":["**Success criteria** relate to the *what?* question; a mixture of qualitative and quantitative measures.","**Critical success factors** relate to the *how?* question; found in the project and its environment (a change in any factor is readily linked to project risk)."]},
+{"t":"p","text":"Criteria can be identified in the case made for a project; once started, the manager must also consider factors that influence it."}
+]},
+{"id":"pm4-21","title":"What counts as success?","blocks":[
+{"t":"p","text":"In the broadest sense, success is the satisfaction of all stakeholders. In practice criteria are narrowed to be quantifiable: whether **time, cost and quality** constraints have been met. Criteria differ with size, complexity and uniqueness, so there is no single checklist. Turner (1999) and Wateridge (1998) cover a range from quantifiable to broad:"},
+{"t":"ul","items":["the facility is produced to specification, within budget and on time","the facility/project achieves its business purpose","the project team is happy during the project and with the outcome","users are happy during the project and with its outcome","the project is profitable for the contractors","the project satisfies the needs of stakeholders"]}
+]},
+{"id":"pm4-22","title":"Critical success factors","blocks":[
+{"t":"p","text":"Fortune and White (2006) reviewed research into critical success factors and related them to project attributes from a systems viewpoint (abridged):"},
+{"t":"table","head":["Attribute","Critical success factors"],"rows":[["Goals and objectives","Clear realistic objectives; strong business case"],["Performance monitoring","Effective monitoring/control; planned close-down/review; acceptance of possible failure"],["Decision makers","Senior management support; competent project manager; detailed, current plan; realistic schedule; good leadership; right choice of methods/tools"],["Transformations","Skilled, suitably qualified, sufficient staff"],["Communication","Good communication/feedback"],["Environment","Political stability; environmental influences; learning from past experience; organisational culture/structure"],["Boundaries","Project size/complexity/people involved/duration"],["Resources","Adequate budget; well-allocated resources; training; proven technology; good suppliers/contractors"],["Continuity","Risks addressed, assessed and managed"],["General","User/client/sponsor involvement; appreciation of different viewpoints; effective change management"]]}
+]},
+{"id":"pm4-23","title":"Using success factors","blocks":[
+{"t":"p","text":"Each factor affects projects in different ways. A business case might contain a **prioritised list of critical success factors** reflecting the context. For each, there may be a qualitative or quantitative measure to monitor. Any variation beyond a threshold can be read as placing the project at risk."},
+{"t":"quiz","id":"pm4-q5","q":"Success criteria relate to the ___ question; critical success factors to the ___ question.","options":["what? ... how?","how? ... what?","who? ... when?"],"answer":0,"explain":"Criteria are about what is to be achieved; critical success factors are about how it is achieved."}
+]},
+{"id":"pm4-24","title":"4.3 Why manage projects?","blocks":[
+{"t":"ul","items":["**Specify** what is to be done. This is iterative: pilots, feasibility studies and changes all modify the specification.","**Scope** proposals early for effort, time, cost and effects; plan dependencies between tasks and between resources and tasks.","**Agree a contract** on what, by when and at what cost; informal between departments or formal and legal between organisations.","**Coordinate effort and communication** among all players: organise the team, liaise with clients, senior management and users.","**Control** the move from plan to reality, correcting the course in a controlled way as changes arise."]},
+{"t":"callout","kind":"key","text":"A disciplined approach is very important in achieving a project’s goals and objectives."}
+]},
+{"id":"pm4-25","title":"4.4 What does a project manager do?","blocks":[
+{"t":"p","text":"Project management is quite different from line (‘system’) management. Projects are designed to change something, so the manager must cope with the risk inherent in change. People may come from other areas, or be contractors, subcontractors or employees of consortium firms."},
+{"t":"flash","cards":[{"front":"Estimating and planning","back":"Collect information on what needs doing and how it is organised, cost and duration, and interdependencies of tasks, skills and resources. Results: a project plan and budget."},{"front":"Assembling a team","back":"The manager often has little say in who works on the project. The skill lies in making a group a team: motivating, managing conflict and ensuring good communication."},{"front":"Stakeholder management","back":"The manager manages relationships with stakeholders (the team is a subset), using communication to negotiate with and influence them."}]}
+]},
+{"id":"pm4-26","title":"More duties of the project manager","blocks":[
+{"t":"flash","cards":[{"front":"Reporting and liaising","back":"The spokesperson for the project: liaises with senior management, clients, regulators and all contributors."},{"front":"Putting tools in place","back":"Tools for managing, controlling, estimating and reporting; for software, from hardware and operating systems to compilers, test harnesses and CASE tools."},{"front":"Managing and coordinating work","back":"Manage the work done and coordinate team members and organisational bodies to achieve objectives."},{"front":"Managing change","back":"Few projects end as planned. Without formal change control the project can deteriorate into chaos; a change control board of stakeholders may approve or reject changes."}]}
+]},
+{"id":"pm4-27","title":"Try it: be the project manager","blocks":[
+{"t":"tool","tool":"pm-sim","title":"Try it: project manager simulator","intro":"Run a project with stakeholders who have different needs. Combine planning, team, communication and change control to bring it in successfully."}
+]},
+{"id":"pm4-28","title":"Summary","blocks":[
+{"t":"ul","items":["Projects rarely proceed smoothly through well-ordered phases, but life cycle models have value. Projects follow a basic or extended life cycle.","All projects involve at least some risk; setbacks may need extra time, cost or rework.","Phases are not always clear-cut: design overlaps development, development overlaps implementation.","Check which success factors are present: the more, the greater the likelihood of success.","The project manager’s tasks: estimating and planning, assembling a team, putting tools in place, managing and coordinating work, managing change, reporting and liaising."]}
+]},
+{"id":"pm4-29","title":"Chapter quiz 1","blocks":[
+{"t":"quiz","id":"pm4-q6","q":"Which phases are added by the extended life cycle?","options":["Concept and definition","Operations and termination","Implementation and handover"],"answer":1,"explain":"The extended (product) life cycle adds operations and termination."},
+{"t":"quiz","id":"pm4-q7","q":"What is a gate review?","options":["A formal decision point on whether to continue to the next phase","A review done only at the end of the project","A meeting with stakeholders about risk"],"answer":0,"explain":"It is a formal point in a life cycle where a go/continue decision is made."},
+{"t":"tf","id":"pm4-q8","q":"The project manager usually has complete free choice of who works on the project.","answer":false,"explain":"Often the manager has little say; the pool is limited by skills and priorities."}
+]},
+{"id":"pm4-30","title":"Chapter quiz 2","blocks":[
+{"t":"quiz","id":"pm4-q9","q":"In practice, project success criteria are narrowed down to which constraints?","options":["Time, cost and quality","People, place and profit","Scope, risk and politics"],"answer":0,"explain":"Success is assessed as whether time, cost and quality constraints have been met."},
+{"t":"quiz","id":"pm4-q10","q":"Which tasks are responsibilities of the project manager? Select all that apply.","options":["Managing change","Reporting and liaising","Setting the organisation’s strategy"],"answer":[0,1],"multi":true,"explain":"Change management and reporting are core PM tasks; corporate strategy is not listed."},
+{"t":"tf","id":"pm4-q11","q":"A change control board is a group of stakeholders who approve or reject changes.","answer":true,"explain":"In more formal settings, that responsibility is given to such a board."}
+]}
+]}

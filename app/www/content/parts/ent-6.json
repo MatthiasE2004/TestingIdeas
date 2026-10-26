@@ -1,0 +1,511 @@
+{
+  "id": "ent6",
+  "title": "Aligning resources to opportunities",
+  "summary": "Scan the external environment, understand your transformation processes, and align resources and capabilities to build and sustain a competitive advantage.",
+  "minutes": 90,
+  "pages": [
+    {
+      "id": "ent6-01",
+      "title": "Playing to your strengths",
+      "blocks": [
+        {"t": "p", "text": "How do you ensure that you are playing to your strengths? How can you be sure you are maximising your chances of success? The answers often come down to how well you analyse opportunities, how objective you are about your context and, of course, good judgement and good luck."},
+        {"t": "p", "text": "Having examined your value proposition, you now consider how to align the resources you have and develop the capabilities of your enterprise. The session looks at the fit between the external environment and the internal environment - that which you are creating - with the internal environment as the main focus."},
+        {"t": "callout", "kind": "key", "title": "By the end of this session you will be able to", "text": "Apply an environmental analysis to spot opportunities or threats; recognise the kinds of transformation process in your enterprise; recognise the resources and capabilities you have or might develop; and appreciate their alignment and potential as a source of innovation and sustained competitive advantage."}
+      ]
+    },
+    {
+      "id": "ent6-02",
+      "title": "An environmental scan",
+      "blocks": [
+        {"t": "img", "src": "img/ent_33.jpg", "alt": "A burning meteor travelling towards Earth.", "caption": "Figure 1 Are there challenges heading your way?"},
+        {"t": "p", "text": "When starting an enterprise, first scan the external environment for forthcoming threats or opportunities that could affect the timing of your launch or whether to enter a market. Consider the nature of competition and whether one market is more attractive than others."}
+      ]
+    },
+    {
+      "id": "ent6-03",
+      "title": "STEEPLE",
+      "blocks": [
+        {"t": "p", "text": "One well-known acronym for environmental scans is **STEEPLE**: Social, Technical, Economic, Environmental, Political, Legal, Ethical."},
+        {"t": "img", "src": "img/ent_34.jpg", "alt": "Building blocks spelling STEEPLE: Social, Technical, Economic, Environmental, Political, Legal, Ethical.", "caption": "Figure 2 STEEPLE"}
+      ]
+    },
+    {
+      "id": "ent6-04",
+      "title": "Using STEEPLE",
+      "blocks": [
+        {"t": "p", "text": "Consider the factors that are most dominant for your circumstances - those with the greatest potential to provide opportunities or threats."},
+        {"t": "ul", "items": [
+          "**Social:** an ageing society or a low birth rate. Thinking back to Session 3, what implications would this have for SAGA, who target the older population, in the short and longer term? And for a baby food manufacturer?",
+          "**Political:** policy changes, nationalisation, large infrastructure projects.",
+          "**Legal:** regulation.",
+          "**Economic:** trends in employment, or a change in taxation.",
+          "Environmental, technological and ethical factors are more self-explanatory."
+        ]},
+        {"t": "callout", "kind": "tip", "text": "The main thing is to understand the rate of change and the extent of impact on your sector and market."}
+      ]
+    },
+    {
+      "id": "ent6-05",
+      "title": "Porter's Five Forces",
+      "blocks": [
+        {"t": "p", "text": "'Porter's Five Forces' (Porter, 2008) is often used to assess the rivalry in a given market as a clue to how you need to position yourself."},
+        {"t": "img", "src": "img/ent_35.jpg", "alt": "Competition (rivalry amongst firms) at the centre, surrounded by threat of new entrants, bargaining power of suppliers, bargaining power of buyers, threat from substitutes, and complements.", "caption": "Figure 3 Porter's Five Forces and complements (adapted from Porter, 2008)"}
+      ]
+    },
+    {
+      "id": "ent6-06",
+      "title": "Five Forces: a coffee shop",
+      "blocks": [
+        {"t": "p", "text": "As a new entrant you might use the forces to assess an existing market. For a coffee shop, the cost of entry might be low (depending on location), but you would think carefully about suppliers, particularly discounts and credit."},
+        {"t": "p", "text": "You would probably be most concerned about **substitutes** and **buyer power**: coffee chains are well established and others have branched into lifestyle - working space or healthy alternatives such as chai-based drinks and juice bars."},
+        {"t": "callout", "kind": "note", "title": "Complements", "text": "Coffee and books seem a staple on the high street now; more than one independent has evolved into a cafe, internet cafe or bookshop with cafe over the last 20 years."}
+      ]
+    },
+    {
+      "id": "ent6-07",
+      "title": "Activity 1: How useful is the theory?",
+      "blocks": [
+        {"t": "p", "text": "Enterprises need to reflect the outside world and how it is changing. If you have not used STEEPLE, Porter's Five Forces or similar scanning tools, try them now."},
+        {"t": "activity", "id": "ent6-a1", "title": "Activity 1 How useful is the theory in practice? (part 1)",
+          "prompt": "Thinking of your own business idea or enterprise, make some notes using either or both of the scanning tools (STEEPLE, Porter's Five Forces) or another one you know. Allow about 20 minutes.",
+          "hint": "Pick the two or three STEEPLE factors or forces with the greatest potential impact on your sector.",
+          "model": "A good answer picks the most dominant factors for your circumstances, for example social (ageing population), economic (taxation changes) or legal (regulation), and for Five Forces identifies the most threatening forces, such as substitutes, buyer power or new entrants, plus any complements.",
+          "points": [
+            "Identifies the most dominant external factors for the sector",
+            "Distinguishes opportunities from threats",
+            "Considers rate of change and impact on the market",
+            "Considers competition, substitutes and complements"
+          ]}
+      ]
+    },
+    {
+      "id": "ent6-08",
+      "title": "Activity 1 (part 2): Evaluating the tools",
+      "blocks": [
+        {"t": "activity", "id": "ent6-a2", "title": "Activity 1 How useful is the theory in practice? (part 2)",
+          "prompt": "Having tried to use either STEEPLE or Porter's Five Forces, how useful did you find them?",
+          "model": "Focusing on the rapidly changing external environment alone can leave you wondering how to respond - nobody tells you what to do. One criticism is that if you worry about what others are doing, who is worrying about what you are doing? Another is that the analysis is a snapshot in time: how often will you repeat it? And who decides which issues matter most? You do. Despite this, if you never consider external factors, like the meteor in Figure 1 you may not see the trouble heading your way.",
+          "points": [
+            "The tools do not tell you what to do - you must decide the response",
+            "They are only a snapshot in time, so must be repeated",
+            "You decide which issues are more or less important",
+            "Ignoring external factors altogether risks missing threats"
+          ]}
+      ]
+    },
+    {
+      "id": "ent6-09",
+      "title": "Looking inside: resources and capabilities",
+      "blocks": [
+        {"t": "p", "text": "Being concerned about how you create value and the unique way you compete leads to greater diversity, because every individual or group has a different set of resources and capabilities. This session focuses on that approach."},
+        {"t": "p", "text": "Before looking at it in detail, you need a clearer view of what happens inside an enterprise: what kinds of **transformation process** occur."}
+      ]
+    },
+    {
+      "id": "ent6-10",
+      "title": "The transformation model",
+      "blocks": [
+        {"t": "p", "text": "In Session 3 business was introduced as a value delivery system with inputs and outputs. As enterprises attend ever more closely to customers, don't forget the bit between the big idea and someone using it - transformation, production or operations."},
+        {"t": "img", "src": "img/ent_36.jpg", "alt": "Inputs arrow, transformation process box, outputs arrow, with a feedback loop from outputs back to inputs.", "caption": "Figure 4 Transformation of inputs to outputs"}
+      ]
+    },
+    {
+      "id": "ent6-11",
+      "title": "Inputs and the transformation process",
+      "blocks": [
+        {"t": "p", "text": "In this simplified model, inputs fall into three main types:"},
+        {"t": "ul", "items": [
+          "**materials** - physical things you turn from one state into another",
+          "**information** - part of the process or transformed through it",
+          "**people** - who through engagement are transformed in some way."
+        ]},
+        {"t": "p", "text": "Transformation is not just turning raw material into something else: an accountant turns receipts and invoices into financial statements; a personal trainer makes you fitter. The middle stage involves configuring **facilities** (land, premises, machines, equipment) and **people** (staff or contractors directly involved). Organising inputs and aligning resources into capabilities gives an output."}
+      ]
+    },
+    {
+      "id": "ent6-12",
+      "title": "Types of transformation process",
+      "blocks": [
+        {"t": "p", "text": "When something physical is made, it is easy to see what is transformed. For services based on people or information it is less clear. Transformation processes can include:"},
+        {"t": "table", "head": ["Change in...", "Example"], "rows": [
+          ["physical characteristics of materials or customers", "fruit into jam"],
+          ["location of materials, information or customers", "taxi, distribution services"],
+          ["ownership of materials or information", "retailing"],
+          ["storage or accommodation", "warehousing services"],
+          ["purpose or form of information", "online timetable"],
+          ["physiological or psychological state of customers", "beautician, hairdresser, hospital, doctor"]
+        ]}
+      ]
+    },
+    {
+      "id": "ent6-13",
+      "title": "Overlapping transformations",
+      "blocks": [
+        {"t": "p", "text": "Organisations often transform a series of inputs. In a class on making a chair, it is not simply the wood that is transformed - tacit information about making a chair becomes explicit and you acquire skills and perhaps a feeling of well-being. Transformation can be categorised as:"},
+        {"t": "ul", "items": [
+          "**manufacture** - the physical creation of products",
+          "**transportation** - movement of materials or customers",
+          "**supply** - change of ownership",
+          "**service** - the way customers are treated, or storage of materials."
+        ]}
+      ]
+    },
+    {
+      "id": "ent6-14",
+      "title": "Example: Social Bite",
+      "blocks": [
+        {"t": "p", "text": "The overall transformation typically involves a series of smaller transformations with different inputs. The social enterprise **Social Bite** operates sandwich shops and deliveries to address homelessness. It involves:"},
+        {"t": "ul", "items": [
+          "the transformation of raw materials through food preparation",
+          "customer service that goes beyond basic needs, as customers know their purchases help the homeless",
+          "the supply of sandwiches to different locations",
+          "supporting the transformation of its employees through employment and training of the homeless."
+        ]}
+      ]
+    },
+    {
+      "id": "ent6-15",
+      "title": "Activity 2: What transformation is involved?",
+      "blocks": [
+        {"t": "activity", "id": "ent6-a3", "title": "Activity 2 What transformation is involved?",
+          "prompt": "Select a business idea from our entrepreneurs or use your own enterprise. Sketch out the kinds of transformation processes involved, using three columns: Input, Transformation process, Output (aim for several rows). Allow about 5 minutes.",
+          "hint": "Remember inputs can be materials, information or people.",
+          "model": "Look back at how you described the processes and reflect on the business model and value proposition. Can you identify where in the transformation process the value is built, and who makes that happen? Perhaps you can see ways to add value for customers, make things more efficient and reduce costs - which may point to where you can innovate.",
+          "points": [
+            "Lists inputs (materials, information, people) and outputs",
+            "Describes what transforms them (change of form, location, ownership, state)",
+            "Identifies where value is built and by whom",
+            "Spots ways to add value or reduce cost, pointing to innovation"
+          ]}
+      ]
+    },
+    {
+      "id": "ent6-16",
+      "title": "From resources to capabilities",
+      "blocks": [
+        {"t": "p", "text": "So far there has been deliberate language about resources and developing capabilities by aligning them. These are specific to you or your organisation, which makes them hard for others to imitate - perhaps because they are tacit, or because only you have access to them, such as a component, recipe or location. Resources can be:"},
+        {"t": "ul", "items": [
+          "**tangible** - physical, like a workshop or a machine",
+          "**intangible** - 'know how', your reputation, work culture",
+          "**human** - the people you work with and their skills."
+        ]},
+        {"t": "callout", "kind": "note", "text": "Critical questions: how you use the resources you have, how you acquire those you need, and how you configure them to make your enterprise different - creating strategic value (Session 5)."}
+      ]
+    },
+    {
+      "id": "ent6-17",
+      "title": "Revisit your canvas: key resources and partners",
+      "blocks": [
+        {"t": "tool", "tool": "bmc", "title": "Try it: key resources and key partners", "intro": "Return to your business model canvas and review the Key Resources and Key Partners boxes. Tag each resource as tangible, intangible or human, and note what you might get partners to do instead."}
+      ]
+    },
+    {
+      "id": "ent6-18",
+      "title": "Human resources",
+      "blocks": [
+        {"t": "p", "text": "Enterprises need the right people, and that assessment of the right person for the right job includes the entrepreneur. In your own enterprise the separation between intangible and human resources may seem artificial, as it may only be you and what you know."},
+        {"t": "p", "text": "Perhaps you can do it all: think of ideas, make them happen, attract funding, keep things running and advocate for the company. But as an enterprise grows you will need to work with others. One way to find the right people is to think about the **jobs that need to be done**."}
+      ]
+    },
+    {
+      "id": "ent6-19",
+      "title": "Job needs analysis (1): role and purpose",
+      "blocks": [
+        {"t": "p", "text": "In Activity 3 you will think in terms of a job, or series of jobs. You won't consider the attributes of an entrepreneur here (see Further reading for links). Imagine advertising your own job using the job needs analysis below. Start with:"},
+        {"t": "h", "text": "Job role"},
+        {"t": "ul", "items": [
+          "What tasks are required to produce the product or service?",
+          "What tasks are required to sell it?",
+          "What tasks are required to support production and sales staff?",
+          "Which of these tasks need to be done in-house?"
+        ]},
+        {"t": "h", "text": "Purpose of job"},
+        {"t": "ul", "items": [
+          "How does it contribute to successful production of the product?",
+          "How does it contribute to successful sale of the product?",
+          "How does it contribute to achieving the aims of the firm?"
+        ]}
+      ]
+    },
+    {
+      "id": "ent6-20",
+      "title": "Job needs analysis (2): functions",
+      "blocks": [
+        {"t": "h", "text": "Essential functions"},
+        {"t": "ul", "items": [
+          "What key tasks actually form the job? Are they all essential?",
+          "How are the key tasks related to each other? Is there a sequence?",
+          "What physical activities need to be performed?",
+          "Can the activities be shared among a number of people?",
+          "How much time is spent on each task?",
+          "Are the tasks equally important to completing the job?",
+          "What happens if a task is not completed?"
+        ]}
+      ]
+    },
+    {
+      "id": "ent6-21",
+      "title": "Job needs analysis (3): qualifications and context",
+      "blocks": [
+        {"t": "h", "text": "Job qualifications"},
+        {"t": "ul", "items": [
+          "Are formal qualifications required?",
+          "Is specialist knowledge required?",
+          "What are the skills required?",
+          "What training is required?",
+          "What previous experience is required?"
+        ]},
+        {"t": "h", "text": "Job context"},
+        {"t": "ul", "items": [
+          "Where are the essential tasks done?",
+          "How is the work organised?",
+          "What are the physical and social conditions?",
+          "How is the job supervised?"
+        ]},
+        {"t": "p", "text": "*(Source: The Open University, 2018)*"}
+      ]
+    },
+    {
+      "id": "ent6-22",
+      "title": "Activity 3: Job analysis",
+      "blocks": [
+        {"t": "activity", "id": "ent6-a4", "title": "Activity 3 Job analysis",
+          "prompt": "Imagine you had to advertise your own job, based on the job needs analysis. What would you put in the essential criteria and what in the desirable ones? What specific capabilities are needed, and how do these create value for customers? Allow about 15 minutes.",
+          "hint": "Work through role, purpose, essential functions, qualifications and context.",
+          "model": "The source gives no model answer. A good response separates must-have criteria (the key tasks, skills and knowledge without which the job cannot be done) from desirable ones (nice-to-have experience or qualifications), and links each capability to the value it creates for customers, such as quality, speed, or service.",
+          "points": [
+            "Separates essential from desirable criteria",
+            "Draws on tasks for production, sales and support",
+            "Names specific skills, knowledge or experience required",
+            "Links capabilities to value created for customers"
+          ]},
+        {"t": "callout", "kind": "tip", "text": "If this was useful, apply the same process to another role. If family or friends do a job, it could help start a conversation about how well they perform it."}
+      ]
+    },
+    {
+      "id": "ent6-23",
+      "title": "Teams, tensions and culture",
+      "blocks": [
+        {"t": "p", "text": "As your business develops you may need to look outside for specialist skills or experience. Anticipate tensions in a team due to disagreements about expectations, performance and capabilities. If you resolve to discuss them openly and honestly, you can become a stronger team."},
+        {"t": "p", "text": "Using the job needs analysis questions and discussing them together is a more objective way of talking things through. Allied to this is **culture**: perhaps the fit between person and role matters less than how well they fit the culture you create, deliberately or by example."},
+        {"t": "callout", "kind": "note", "text": "Recognising how the resources you have (or can readily access) relate to an opportunity, and deploying them effectively, is an important part of success. Physical resources may seem easier to acquire and align than human ones - but they have their own challenges."}
+      ]
+    },
+    {
+      "id": "ent6-24",
+      "title": "Tangible resources and 'know how'",
+      "blocks": [
+        {"t": "img", "src": "img/ent_37.jpg", "alt": "A man in a workshop carving wood to make a chair.", "caption": "Figure 5 Resources are interrelated"},
+        {"t": "p", "text": "Resources are interrelated. Think of the chair-making class: human resources, machines, location, reputation, quality of materials and 'know how' all link together. The link between 'know how' and tangible resources can be difficult to untangle."}
+      ]
+    },
+    {
+      "id": "ent6-25",
+      "title": "Disruptive innovation",
+      "blocks": [
+        {"t": "p", "text": "In a knowledge economy it is easy to forget that realigning tangible resources can be a source of innovation and competitive advantage. Tech companies can disrupt whole markets using technology to meet unmet demand, often at a lower price point or by dispensing with superfluous service (Christensen et al., 2015)."},
+        {"t": "callout", "kind": "key", "title": "Disruptive innovation", "text": "A smaller company with fewer resources successfully challenges an established large player by offering alternatives, often at lower cost and with broader customer appeal. This often draws new customers into the market. Think of reducing 'friction' and increasing convenience, as in the mobile banking example in Session 5."}
+      ]
+    },
+    {
+      "id": "ent6-26",
+      "title": "Demand-led and supply-side disruption",
+      "blocks": [
+        {"t": "p", "text": "Gans (2016) differentiates two forms of disruption."},
+        {"t": "ul", "items": [
+          "**Demand-led:** new features or functionality go on to change what customers look for in a product (e.g. cheaper or more efficient).",
+          "**Supply-side:** a radically different approach or new technology changes how things are done. Example: Apple entering the smartphone market, letting people go beyond text messaging and email, which BlackBerry had done well until then. Apple effectively provided a handheld computer."
+        ]},
+        {"t": "p", "text": "Over time products and services develop set ways of doing things and improve incrementally. Your specialist capabilities or access to particular resources may be a source of competitive advantage."}
+      ]
+    },
+    {
+      "id": "ent6-27",
+      "title": "How disruptive will you be?",
+      "blocks": [
+        {"t": "p", "text": "A lot is written about how incumbents can compete with new entrants engaged in disruptive innovation, but the idea applies to new enterprises too. Entrepreneurs often have a new way of looking at things, and in Sessions 1 and 4 it was suggested that being close to your customers is a key advantage - you might be 'a customer' who sees a way to improve things."},
+        {"t": "p", "text": "Another source of innovation is new ways of delivering value, putting products or services together differently and disrupting existing routines. How disruptive will you be? Will you change the way others operate? What in your business model might they seek to imitate?"}
+      ]
+    },
+    {
+      "id": "ent6-28",
+      "title": "Mapping your capabilities",
+      "blocks": [
+        {"t": "p", "text": "Tangible resources are easier to name; intangible ones are harder. Sometimes tangible and intangible resources complement each other and produce more than the sum of their parts; sometimes they combine badly (any long-suffering sports fan will recognise this)."},
+        {"t": "p", "text": "Grant (2010) suggests that to put resources together successfully you think through four things, explained here using a restaurant."}
+      ]
+    },
+    {
+      "id": "ent6-29",
+      "title": "Grant's four elements (restaurant)",
+      "blocks": [
+        {"t": "table", "head": ["Element", "Restaurant example"], "rows": [
+          ["Processes: the sequence of actions that enable transformation", "Deciding a recipe and quantities, sourcing food, preparing, cooking, presenting, serving, taking payment"],
+          ["Organisational structure: how well it is co-ordinated", "Is food prep in the restaurant kitchen? Is buying central? Does one kitchen prepare for several restaurants?"],
+          ["Motivation: whether people can be effective", "Are waiting staff trained, do they know the menu and recommend drinks, is there a reward system such as tips?"],
+          ["Alignment: fit with customer wants and needs", "Good location with high footfall, ability to recruit staff, local and sustainable sourcing meeting demand and quality"]
+        ]}
+      ]
+    },
+    {
+      "id": "ent6-30",
+      "title": "Activity 4: Mapping resources and capability",
+      "blocks": [
+        {"t": "p", "text": "Mapping is not simple and may take time, but is worth doing. Examining a corporate giant like Walmart, which looks like a grocer that went global, you find one reason it out-competed others on price and stock was being very good at logistics - the right product in the right place at the right time."},
+        {"t": "activity", "id": "ent6-a5", "title": "Activity 4 Mapping resources and capability",
+          "prompt": "Map out your resources and think through the capabilities of your organisation (or one you know). (1) Organisational capabilities overall; (2) Process, Organisational structure, Motivation, Organisational alignment; (3) Resources: Tangible, Intangible, Human. Allow about 40 minutes.",
+          "hint": "There is no feedback in the source for this activity - use the restaurant example as a guide.",
+          "model": "The source gives no model answer. A good map names tangible (premises, equipment), intangible (know how, reputation, culture) and human resources, then describes how processes, structure, motivation and alignment combine them into capabilities that fit customers' needs, as Walmart's logistics did.",
+          "points": [
+            "Lists tangible, intangible and human resources",
+            "Describes processes and organisational structure",
+            "Considers motivation of people",
+            "Shows alignment of resources with customer needs",
+            "Names the overall capability that makes the organisation different"
+          ]}
+      ]
+    },
+    {
+      "id": "ent6-31",
+      "title": "Sustainability and VIRO",
+      "blocks": [
+        {"t": "p", "text": "How will you sustain any competitive advantage you create? You have mainly looked internally so far, at the resources you have and need, aligning them and what makes them distinctive. To sustain advantage, first keep an eye on both internal and external environments, as advantage can erode over time."},
+        {"t": "callout", "kind": "key", "title": "VIRO", "text": "Are the capabilities and resources you can access: Valuable (to the enterprise)? Inimitable (difficult to imitate)? Rare (hard to acquire)? Organisational (organised so you can take advantage of and exploit them)?"}
+      ]
+    },
+    {
+      "id": "ent6-32",
+      "title": "Activity 5: Maintaining competitive advantage",
+      "blocks": [
+        {"t": "activity", "id": "ent6-a6", "title": "Activity 5 Maintaining competitive advantage",
+          "prompt": "Pick one resource or capability you believe is a point of differentiation for your enterprise (or one you know). Put it into the framework, answering Y or N for: Valuable, Rare, Inimitable, Exploited by the organisation. Then say what the implication is. Allow about 20 minutes.",
+          "model": "The standard answers: N on Valuable means disadvantage; Y then N on Rare means parity; Y, Y, N on Inimitable means temporary advantage; Y, Y, Y, N on Exploited means advantage insufficiently used; Y on all four means sustained advantage. It is the process - the discussions that lead to filling in the blanks - that helps most.",
+          "points": [
+            "Answers Y or N for valuable, rare, inimitable and exploited",
+            "Reads the implication correctly (disadvantage, parity, temporary, insufficiently used or sustained advantage)",
+            "Gives reasons for each answer",
+            "Notes what to do if the resource is not fully exploited"
+          ]}
+      ]
+    },
+    {
+      "id": "ent6-33",
+      "title": "VIRO: standard answers",
+      "blocks": [
+        {"t": "table", "head": ["Valuable", "Rare", "Inimitable", "Exploited"], "rows": [
+          ["N", "-", "-", "Disadvantage"],
+          ["Y", "N", "-", "Parity"],
+          ["Y", "Y", "N", "Temporary advantage"],
+          ["Y", "Y", "Y, Exploited N", "Advantage insufficiently used"],
+          ["Y", "Y", "Y, Exploited Y", "Sustained advantage"]
+        ]},
+        {"t": "p", "text": "Like any of these tools, it is the discussion that leads to filling in the blanks that helps most."}
+      ]
+    },
+    {
+      "id": "ent6-34",
+      "title": "Key success factors",
+      "blocks": [
+        {"t": "p", "text": "The skill in developing an enterprise is ensuring resources and capabilities match the **key success factors** in a given area. Grant (2010) suggests addressing them by asking about customers and competition."},
+        {"t": "ul", "items": [
+          "Customers: Who are they? What do they want?",
+          "Competition: Who are the competition? What are the main dimensions of competition? What drives it and what is the intensity?"
+        ]},
+        {"t": "p", "text": "These questions ask how you position yourself against customers and competitors to ensure survival - how your internal organisation is aligned with the external environment, which should be considered together. You must also learn to find your own sources of information about the external environment."}
+      ]
+    },
+    {
+      "id": "ent6-35",
+      "title": "Activity 6: Your key success factors",
+      "blocks": [
+        {"t": "activity", "id": "ent6-a7", "title": "Activity 6 Your key success factors",
+          "prompt": "Map out your key success factors. Build on your ideas about what customers want as part of an analysis of demand, assess how organisations survive and prosper in your part of the market through external scans of market and competition, then map the factors onto your resources and capabilities. Allow about 15 minutes.",
+          "hint": "If you are creating a completely new market, consider current alternatives, or a vacuum of competition.",
+          "model": "The source gives no model answer. Note that some enterprises find this easier than others. If you are creating a new market, it may be harder to discern competition; think about what alternatives exist now and consider that there may be an absence of competition, or that your venture may not be looking to compete.",
+          "points": [
+            "States who customers are and what they want",
+            "Identifies competitors and the dimensions of competition",
+            "Lists the key success factors in your market",
+            "Maps each factor onto specific resources and capabilities",
+            "Notes gaps where resources or capabilities must be acquired"
+          ]}
+      ]
+    },
+    {
+      "id": "ent6-36",
+      "title": "Summary",
+      "blocks": [
+        {"t": "p", "text": "This session focused on the alignment of resources and capabilities. The way you align them is what makes you different - perhaps 'the difference that makes a difference'."},
+        {"t": "ul", "items": [
+          "considered the external environment and how it impacts your enterprise over time",
+          "recognised your internal capabilities and resources and how to align them for competitive advantage",
+          "recognised that sustaining advantage means staying aware of both internal and external environments",
+          "identified your key success factors."
+        ]},
+        {"t": "callout", "kind": "note", "text": "Think through your partners, what you are good at and what you might get others to do, and reflect on the key resources and capabilities you have and those you need to acquire. One key resource is finance - the next session explores it."}
+      ]
+    },
+    {
+      "id": "ent6-37",
+      "title": "Session quiz (1 of 3)",
+      "blocks": [
+        {"t": "quiz", "id": "ent6-q1", "q": "What do the letters in the acronym STEEPLE stand for?", "options": [
+          "Social, Technical, Economic, Environmental, Political, Legal, Ethical",
+          "Strategy, Trade, Equity, Entry, Price, Logistics, Exports",
+          "Sales, Targets, Earnings, Expenses, Profit, Loans, Equity",
+          "Suppliers, Timing, Exchange, Economy, Pricing, Laws, Ethics"
+        ], "answer": 0, "explain": "STEEPLE is an environmental scanning tool covering the Social, Technical, Economic, Environmental, Political, Legal and Ethical factors."},
+        {"t": "quiz", "id": "ent6-q2", "q": "Which are forces in Porter's Five Forces model as shown in Figure 3? Select all that apply.", "multi": true, "options": [
+          "Threat of new entrants",
+          "Bargaining power of buyers",
+          "Threat from substitutes",
+          "Organisational motivation"
+        ], "answer": [0, 1, 2], "explain": "The forces include rivalry, new entrants, supplier and buyer power and substitutes (with complements). Motivation is part of Grant's resource alignment, not Porter's forces."},
+        {"t": "tf", "id": "ent6-q3", "q": "An accountant turning receipts and invoices into financial statements is an example of transformation.", "answer": true, "explain": "Transformation is not just materials: information (and people) can be transformed too."}
+      ]
+    },
+    {
+      "id": "ent6-38",
+      "title": "Session quiz (2 of 3)",
+      "blocks": [
+        {"t": "quiz", "id": "ent6-q4", "q": "Know how, reputation and work culture are examples of which type of resource?", "options": [
+          "Tangible",
+          "Intangible",
+          "Human",
+          "Financial"
+        ], "answer": 1, "explain": "Intangible resources include know how, reputation and culture; tangible are physical, human are the people and their skills."},
+        {"t": "quiz", "id": "ent6-q5", "q": "Apple entering the smartphone market with a handheld computer is an example of:", "options": [
+          "Demand-led disruption",
+          "Supply-side disruption",
+          "Incremental improvement",
+          "A genericised brand"
+        ], "answer": 1, "explain": "A radically different approach or new technology that changes how things are done is supply-side disruption (Gans, 2016)."},
+        {"t": "quiz", "id": "ent6-q6", "q": "According to Grant (2010), which is NOT one of the four things to think through when putting resources together?", "options": [
+          "Processes",
+          "Organisational structure",
+          "Motivation",
+          "Brand logo"
+        ], "answer": 3, "explain": "Grant's four are processes, organisational structure, motivation and alignment."}
+      ]
+    },
+    {
+      "id": "ent6-39",
+      "title": "Session quiz (3 of 3)",
+      "blocks": [
+        {"t": "quiz", "id": "ent6-q7", "q": "A resource is valuable and rare but easy for competitors to imitate. According to VIRO, the implication is:", "options": [
+          "Disadvantage",
+          "Parity",
+          "Temporary advantage",
+          "Sustained advantage"
+        ], "answer": 2, "explain": "Y, Y, N on valuable, rare, inimitable gives temporary advantage."},
+        {"t": "quiz", "id": "ent6-q8", "q": "A resource is valuable, rare and inimitable, but the organisation does not exploit it. The implication is:", "options": [
+          "Advantage insufficiently used",
+          "Sustained advantage",
+          "Parity",
+          "Disadvantage"
+        ], "answer": 0, "explain": "Only when the organisation is also organised to exploit the resource do you get sustained advantage."},
+        {"t": "tf", "id": "ent6-q9", "q": "Key success factors are addressed by asking questions about customers and about competition.", "answer": true, "explain": "Grant (2010) suggests asking who customers are and what they want, and who the competition is, the dimensions and the intensity of competition."}
+      ]
+    }
+  ]
+}

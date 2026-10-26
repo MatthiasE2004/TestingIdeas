@@ -1,0 +1,1044 @@
+{
+ "id": "ent1",
+ "title": "Session 1: Where do good ideas come from?",
+ "summary": "Where ideas come from, how to generate and evaluate them, and how ideas evolve through learning from failure.",
+ "minutes": 60,
+ "pages": [
+  {
+   "id": "ent1-01",
+   "title": "Where do good ideas come from?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Every great business starts with a good idea that provides the impetus for you to make your enterprise happen. The question is where do these ideas come from?"
+    },
+    {
+     "t": "p",
+     "text": "They come from thinking: from you thinking of something that other people really want or need. Perhaps the question should be more explicit: where do *good* ideas come from, how do you know they are good, and how do you know it is a good idea *for me*? It is the power of your idea that will ultimately attract interest from stakeholders, customers and end users."
+    },
+    {
+     "t": "h",
+     "text": "By the end of this session you will be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "understand the different ways that ideas arise and how to evaluate and develop them",
+      "reflect on your own experiences and the examples and approaches provided to generate ideas",
+      "recognise that ideas evolve and can lead to more ideas about different parts of a business"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent1-02",
+   "title": "Are you an entrepreneur?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "You may well have a good idea, but does that make you an entrepreneur? The term is troublesome to define: does it describe a type of person, or a way of doing business? Is it something you are born with or something you can develop? Entrepreneurship and enterprise are closely related. These two definitions underpin the course."
+    },
+    {
+     "t": "quote",
+     "text": "Entrepreneurs are those persons (business owners) who seek to generate value, through the creation or expansion of economic activity, by identifying and exploiting new products, processes or markets.",
+     "by": "Blundel et al., 2018, p. 3"
+    },
+    {
+     "t": "quote",
+     "text": "Entrepreneurs are defined by their actions (not the size of organization they work for). They create and/or exploit change for profit, by innovating, accepting risk and moving resources to areas of higher return.",
+     "by": "Blundel et al., 2018, p. 4"
+    }
+   ]
+  },
+  {
+   "id": "ent1-03",
+   "title": "Enterprise and intrapreneurs",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "**Enterprise** is an alternative term for a business or firm, as in 'small and medium sized enterprise' (SME). It includes **social enterprises**: trading organisations that serve a primary social purpose and can take a variety of legal forms.",
+     "title": "Key terms"
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "An **intrapreneur** is a salaried employee in a larger company; the profits and risks of their work go to their employer."
+    },
+    {
+     "t": "p",
+     "text": "In these definitions you will hopefully recognise yourself, or the possibility that you can become an entrepreneur if you have an idea and you know how to exploit it."
+    },
+    {
+     "t": "flash",
+     "cards": [
+      {
+       "front": "Entrepreneur",
+       "back": "A person who seeks to generate value by creating or expanding economic activity, identifying and exploiting new products, processes or markets."
+      },
+      {
+       "front": "Enterprise",
+       "back": "An alternative term for a business or firm, e.g. an SME. Includes social enterprises."
+      },
+      {
+       "front": "Social enterprise",
+       "back": "A trading organisation that serves a primary social purpose."
+      },
+      {
+       "front": "Intrapreneur",
+       "back": "A salaried employee in a larger company; profits and risks go to the employer."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent1-04",
+   "title": "Meet four entrepreneurs",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Throughout the course you will learn through the experiences of real entrepreneurs who are developing and growing their own ventures. They will describe some of the key decisions they made, and why."
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Claudio Marturano, Nubis Aviation Training",
+      "Emma Prince, Evolve Intervention",
+      "Nick Allen, Flo and Vie",
+      "Alex Bond, CEO of Fresh Check"
+     ]
+    },
+    {
+     "t": "img",
+     "src": "img/ent_3.jpg",
+     "alt": "Still from the video introducing the four entrepreneurs",
+     "caption": "Video 1"
+    },
+    {
+     "t": "video",
+     "title": "Video 1: Who are you and what is your enterprise?",
+     "url": null,
+     "note": "Each of the four entrepreneurs introduces themselves. Claudio Marturano founded Nubis Aviation, a training organisation for aviation maintenance personnel, after 14 years in the industry. Emma Prince directs Evolve Intervention, an early intervention service in Essex supporting children and young people through group work, one-to-one support and work with schools and families. Nick Allen runs Flo and Vie, producing his wife's designs first on cards and now on luxury silk scarves. Alex Bond co-founded Fresh Check with colleagues from Imperial College London to help food producers test their hygiene."
+    }
+   ]
+  },
+  {
+   "id": "ent1-05",
+   "title": "What's the big idea?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "There are many potential sources of ideas. Some fairly common examples include:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "spotting an opportunity (e.g. a gap in the market)",
+      "experiencing a problem and looking for a solution for it (e.g. an invention)",
+      "being able to do something that others can't (e.g. using a talent)",
+      "being prepared to do something others don't want to or can't do (e.g. cleaning)",
+      "having something that others might need or want (e.g. investing in plant or machinery for hire)"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "You may have a sense of where our entrepreneurs came up with their ideas from their short biographies. Next, they confirm it in their own words."
+    }
+   ]
+  },
+  {
+   "id": "ent1-06",
+   "title": "Activity 1: Inspiration for a business",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Video 2: Where did the idea come from?",
+     "url": null,
+     "note": "The four entrepreneurs explain where their ideas came from. Alex Bond: colleagues won an award for a business detecting fungi in potatoes, so he and fellow PhD students in chemical biology wanted to do something similar that would make a difference. Nick Allen: his interior-designer wife's designs went onto cards, were taken to markets, and a suggestion box prompted many people to say 'put them on silk scarves'. Emma Prince: years working with children in Essex schools showed many going without effective intervention because of tight budgets. Claudio Marturano: as chief engineer of an airline responsible for training 200+ maintenance staff, he could not find a training provider that met his needs."
+    },
+    {
+     "t": "activity",
+     "id": "ent1-a1",
+     "title": "Activity 1: Inspiration for a business",
+     "prompt": "Watch the video on the four entrepreneurs talking about their ideas and make notes on your initial impressions of each of them. Think about how they represent their idea(s). Did they try something that worked and just run with it, or was it something they could already do? Perhaps they saw an opportunity to apply something in a new area. Or maybe they started developing knowledge and skills that they could later turn into a business.",
+     "hint": "For each person, note the source: experience, skill, a frustration, feedback or an opportunity.",
+     "model": "You may share experiences with the entrepreneurs: a background, talent or area of expertise applied to a problem, or involvement in a family business that revealed an opportunity. Your idea may develop an area you already work in, or apply it somewhere new. There is no one path that is sure to result in an idea or an entrepreneur.",
+     "points": [
+      "Ideas often come from personal or professional experience of a problem",
+      "Existing expertise or skills can be applied to a need others have",
+      "Feedback from customers can steer an idea in a new direction",
+      "There is no single path to an idea or to becoming an entrepreneur"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent1-07",
+   "title": "Patterns in ideas",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Having listened to others and taken time to reflect on your own ideas, you might have started to see patterns emerging."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "The idea may solve a problem, perhaps one encountered in your personal or professional life.",
+      "It might be something the entrepreneurs are well placed to solve because they have the necessary expertise.",
+      "They may have fresh insight on how to improve something, or access to expertise from elsewhere."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Some ideas go beyond problem solving. By seeing a possibility that others do not, opportunities can come around in the most surprising ways. Your idea may arise from something you are passionate about, such as a cause, issue or interest you simply must share, or a particular capability that others seek."
+    }
+   ]
+  },
+  {
+   "id": "ent1-08",
+   "title": "Invention, innovation and enterprise",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Writers on enterprise tend to differentiate between innovation and enterprise. Not everyone who comes up with an innovative new idea, like an inventor, is an entrepreneur."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "The entrepreneur is the person who turns an innovative idea into commercial ends or, in the case of a social entrepreneur, solves a particular social problem. Sometimes the inventor and entrepreneur are one and the same person, but not always."
+    },
+    {
+     "t": "p",
+     "text": "James Dyson is a classic example of someone who had an idea and was also able to create it in reality. But having an idea and successfully building a product or company on the back of it does not always happen. When talking about where ideas come from, we are talking about innovation, and next you will explore the sources of innovation."
+    },
+    {
+     "t": "quiz",
+     "id": "ent1-q1",
+     "q": "Which description best fits an entrepreneur rather than only an inventor?",
+     "options": [
+      "Someone who comes up with a new invention",
+      "Someone who turns an innovative idea into commercial ends or solves a social problem",
+      "Someone who works for a large company",
+      "Someone who registers a patent"
+     ],
+     "answer": 1,
+     "explain": "The entrepreneur turns an innovative idea into commercial ends (or, for a social entrepreneur, solves a social problem). The inventor and entrepreneur may or may not be the same person."
+    }
+   ]
+  },
+  {
+   "id": "ent1-09",
+   "title": "Drucker's sources of innovation",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Peter Drucker, a well-known management consultant, educator and writer on business and entrepreneurship, suggested that innovation may originate in three ways: **internally**, **externally**, or the **'bright idea'**."
+    },
+    {
+     "t": "img",
+     "src": "img/ent_5.jpg",
+     "alt": "Diagram of sources of innovation: internal, external and the bright idea, each with examples",
+     "caption": "Figure 1 Origins of innovation"
+    },
+    {
+     "t": "p",
+     "text": "Internal examples: an unexpected happening, an incongruous happening, a need for improvement in a process, changes in the industry, its structure or the market. External examples: changes in population demographics, changes in society (perception, mood or meaning), new types of knowledge."
+    }
+   ]
+  },
+  {
+   "id": "ent1-10",
+   "title": "Finding ideas or ideas finding you",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "When looking at Drucker's sources, you might think of your idea as solving a persistent problem, or perhaps as taking a good idea from somewhere and applying it in a different context. Technology continues to present opportunities to do things differently, to do them better, or even to do things that were not possible before."
+    },
+    {
+     "t": "tf",
+     "id": "ent1-q2",
+     "q": "Drucker suggested innovation can originate internally, externally, or as a 'bright idea'.",
+     "answer": true,
+     "explain": "These are the three sources of innovation in Figure 1."
+    },
+    {
+     "t": "quiz",
+     "id": "ent1-q3",
+     "q": "'Changes in population demographics' is which kind of source of innovation?",
+     "options": [
+      "Internal",
+      "External",
+      "Bright idea"
+     ],
+     "answer": 1,
+     "explain": "Demographic change is an external source; an unexpected or incongruous happening is internal."
+    }
+   ]
+  },
+  {
+   "id": "ent1-11",
+   "title": "Activity 2: Where are the opportunities to innovate?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The following list is taken from another Open University course where people cited the sources of their innovation (The Open University, 2011). Use it, and add to it from your own experience, to fill in Drucker's table."
+    },
+    {
+     "t": "ol",
+     "items": [
+      "past and present work and experience",
+      "hobbies and leisure interests",
+      "qualifications and studies",
+      "new markets/uses for existing products",
+      "solving a persistent problem",
+      "research and development (R&D)",
+      "patents, licences and research institutes",
+      "invention",
+      "opportunities from new technologies",
+      "opportunities from economic/market changes",
+      "changes in consumer behaviour"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "...continued on the next page."
+    }
+   ]
+  },
+  {
+   "id": "ent1-12",
+   "title": "Activity 2: the rest of the list",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "complaints and irritations expressed by potential customers (12)",
+      "changes in rules and regulations (13)",
+      "imitating an idea from a different locality (14)",
+      "imitating an idea from a different industry (15)",
+      "improving an existing product (16)",
+      "films, TV and radio (17)",
+      "books, magazines and the press (18)",
+      "trade shows, exhibitions and conferences (19)",
+      "business and social networks (20)",
+      "family and friends (21)"
+     ]
+    },
+    {
+     "t": "activity",
+     "id": "ent1-a2",
+     "title": "Activity 2: Where are the opportunities to innovate?",
+     "prompt": "Group the sources of innovation (the 21 listed, plus any of your own) in relation to whether they are internal, external or the elusive 'bright idea'. Use Drucker's Table 1: internal (an unexpected happening; an incongruous happening; a need for improvement in a process; changes in the industry, its structure or the market), external (changes in population demographics; changes in society, perception, mood or meaning; new types of knowledge) and bright idea.",
+     "model": "Take internal sources and 'incongruities' as an example: they arise when you apply your experience and knowledge to things that don't feel quite right, often in a sector you know well or feel passionate about. Personal or professional life events can be important sources. Solving a persistent problem, imitating an idea from elsewhere or introducing new technology are other routes, and 'insider knowledge' lets you see possibilities others miss. The 'bright idea' and the external environment are not mutually exclusive, and several of our entrepreneurs' ideas arose from frustration that leads people to seek change.",
+     "points": [
+      "Internal sources include your own work, studies, hobbies, frustrations and incongruities you notice",
+      "External sources include demographics, society's mood, regulations, technology and market change",
+      "A 'bright idea' is not mutually exclusive with the other two",
+      "Insider knowledge and spotting change quickly give an advantage"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent1-13",
+   "title": "Refining your own idea",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The aim of this course is to give you a deeper understanding of your own motivation, to zoom in on the source of your own idea. Ideas rarely emerge fully formed and are subject to almost constant refinement. Being able to spot where you can make important improvements is the key."
+    },
+    {
+     "t": "p",
+     "text": "Sometimes you may be too close to your own ideas, and this is when looking at what others do can provide insights into your own situation."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Ideas from nowhere are exceedingly rare. Most come from experiences, positive and negative, and they may not register unless you are alert to them. The extent to which you care about them provides the impetus to act."
+    }
+   ]
+  },
+  {
+   "id": "ent1-14",
+   "title": "Discovery skills",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Thinking about the source of an idea can help assess your existing ideas or even develop new ones. Your idea may just be a starting point, and you should be alert to many more that will occur to you. New ideas will also require evaluation to select the best options for you."
+    },
+    {
+     "t": "img",
+     "src": "img/ent_6.jpg",
+     "alt": "Diagram of discovery skills: networking at the top, then observing, questioning, experimenting, curiosity, connectivity, associating and incubation leading to creativity and innovation",
+     "caption": "Figure 2 Discovery skills"
+    }
+   ]
+  },
+  {
+   "id": "ent1-15",
+   "title": "Types of discovery skills",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "Skill",
+      "Meaning"
+     ],
+     "rows": [
+      [
+       "Observing",
+       "actively noticing, watching, listening, perceiving, experiencing something"
+      ],
+      [
+       "Questioning",
+       "asking relevant questions"
+      ],
+      [
+       "Curiosity",
+       "the behaviour that causes you to ask questions and seek answers to why, how, where, when things happen as they do"
+      ],
+      [
+       "Connectivity",
+       "linking objects, people, concepts, data, ideas etc. to see what results"
+      ],
+      [
+       "Associating",
+       "making connections between one thing and another, e.g. alternative solutions to a problem or ways to satisfy a need"
+      ],
+      [
+       "Incubation",
+       "developing ideas or solutions to a point where they have form"
+      ],
+      [
+       "Creativity and innovation",
+       "the production of a new idea, solution, product, service or business"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent1-16",
+   "title": "Check the discovery skills",
+   "blocks": [
+    {
+     "t": "flash",
+     "cards": [
+      {
+       "front": "Observing",
+       "back": "Actively noticing, watching, listening, perceiving, experiencing something."
+      },
+      {
+       "front": "Questioning",
+       "back": "Asking relevant questions."
+      },
+      {
+       "front": "Curiosity",
+       "back": "The behaviour that makes you ask why, how, where and when things happen as they do."
+      },
+      {
+       "front": "Connectivity",
+       "back": "Linking objects, people, concepts, data and ideas to see what results."
+      },
+      {
+       "front": "Associating",
+       "back": "Making connections between one thing and another, e.g. possible solutions to a problem."
+      },
+      {
+       "front": "Incubation",
+       "back": "Developing ideas to the point where they have form."
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Later in the course you will return to these skills in practical activities."
+    }
+   ]
+  },
+  {
+   "id": "ent1-17",
+   "title": "Learning about ideas",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Is there such a thing as an 'ideas person'? This course assumes not, and nor does it assume that being enterprising is a trait you are born with. People can and do learn how to develop ideas. Those who appear good at solving problems or identifying opportunities have learned to do so."
+    },
+    {
+     "t": "p",
+     "text": "People are exposed to different sets of opportunities. These differences create diversity in views, attitudes and approaches, which result in different ideas. Being entrepreneurial is understood as having the ability to take advantage of differences (Blundel et al., 2018)."
+    },
+    {
+     "t": "tf",
+     "id": "ent1-q4",
+     "q": "This course assumes that being enterprising is a trait you are born with.",
+     "answer": false,
+     "explain": "The course assumes people can and do learn how to develop ideas."
+    }
+   ]
+  },
+  {
+   "id": "ent1-18",
+   "title": "James Dyson",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/ent_7.jpg",
+     "alt": "Black and white photograph of James Dyson from above, surrounded by tools, building something",
+     "caption": "Figure 3 James Dyson"
+    },
+    {
+     "t": "p",
+     "text": "James Dyson was a product designer. He studied design at the Royal College of Art and, through contacts, worked for entrepreneur Jeremy Fry, who favoured a 'hands-on' approach to design and problem solving."
+    },
+    {
+     "t": "p",
+     "text": "While renovating his house, Dyson encountered industrial extraction fans. Frustrated by the poor suction of the vacuum he used to tidy up, he wondered whether a solution from industry might work in a domestic setting. A few thousand prototypes later, a bagless domestic vacuum appeared on the market. The account ignores many technical aspects, but it demonstrates the value of learning."
+    }
+   ]
+  },
+  {
+   "id": "ent1-19",
+   "title": "What makes an inventor tick?",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Video 3: What makes an inventor tick?",
+     "url": null,
+     "note": "James Dyson offers his views on being an inventor. There is never a 'Eureka moment': you start with an often very bad idea, build lots of prototypes and end up with something quite different that works. He likes 'wrong thinking', starting with the opposite of the correct way to do something to push thinking down a different path. Key qualities are curiosity, patience with testing, and dogged determination, like a rubber ball that bounces back. He advises building a working model, then going to a good patent agent, and criticises patent renewal fees as a tax on innovation and the shortage of UK engineers."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Reduce the invention to practice: build a working model to prove it works, then take it, with your drawings, to a good patent agent. Dyson's advice is to go and make it yourself rather than trying to persuade disinterested manufacturers.",
+     "title": "From Dyson's video"
+    }
+   ]
+  },
+  {
+   "id": "ent1-20",
+   "title": "Ideas all around us",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Dyson's source of inspiration, or perhaps his frustration, turned into an opportunity. If others felt as he did about those poor experiences then surely there was an opportunity. New or better solutions can come from:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "simplifying what is there",
+      "adding to what is there",
+      "emphasising different attributes",
+      "making something available in one place that otherwise customers would have to seek in many different places"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "In other words, ideas are born from context; they are not fixed."
+    }
+   ]
+  },
+  {
+   "id": "ent1-21",
+   "title": "A word of caution",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Although you may perceive things in one way and see a new approach, this does not necessarily mean others will share your vision or view your idea as better. Changes and adaptation are likely, sometimes because your own view changes, sometimes the context, or even the way you perceive it."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Testing your ideas against others is important. The Dyson example, which took many prototypes before getting it right, illustrates this."
+    },
+    {
+     "t": "quiz",
+     "id": "ent1-q5",
+     "q": "What does the Dyson prototype story mainly illustrate?",
+     "options": [
+      "Good ideas arrive in a single flash",
+      "Testing and adapting an idea repeatedly is important",
+      "Only designers can innovate",
+      "Prototypes are unnecessary if the idea is good"
+     ],
+     "answer": 1,
+     "explain": "It took many prototypes before getting it right: testing ideas against others is important."
+    }
+   ]
+  },
+  {
+   "id": "ent1-22",
+   "title": "Activity 3: How ideas change over time",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Video 4: Changing ideas",
+     "url": null,
+     "note": "The entrepreneurs describe how their ideas changed. Nick Allen: they had designs people liked and just tried a market; customers' suggestions steered them to silk scarves. Claudio Marturano: the concept stayed the same but the plan changed dramatically, helped by the Open University MBA. Emma Prince: it started as mentoring and coaching and evolved as schools asked for education coaching, tuition and family work. Alex Bond: a smart food label seemed an obvious benefit, but big manufacturers found packaging too slim-margin for any label, so they developed a spray product with the same technology."
+    },
+    {
+     "t": "activity",
+     "id": "ent1-a3",
+     "title": "Activity 3: How ideas change over time",
+     "prompt": "Watch Video 4. As you listen to the entrepreneurs, think about what reasons, if any, they gave for changing course.",
+     "model": "Ideas can arise from many places: internally (a talent or ability), from experiences and frustrations, or from challenges you perceive as opportunities. These can all change over time. Evolution is common because when ideas meet potential customers or users, they challenge your assumptions, and feedback on likes and dislikes leads to new insights.",
+     "points": [
+      "Customer feedback (e.g. suggestions to use silk scarves) led to a new product",
+      "Market demand pulled the business into new services (schools asking for more)",
+      "Cost and price realities made the original product unviable (the label was too expensive)",
+      "Core technology or concept was kept while the application changed"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent1-23",
+   "title": "Solving problems and seeing opportunities",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Ideas arise from internal and external sources and through different experiences. Often the simplest ideas and solutions are the best, but behind the apparent simplicity lie some very practical challenges. This section explores tools and techniques that may help."
+    },
+    {
+     "t": "h",
+     "text": "Design thinking"
+    },
+    {
+     "t": "p",
+     "text": "'Design' has become a fashionable way to approach problem solving, and designers are seen as a great source of ideas. Dyson applied what is now called 'design thinking' before it was fashionable. Drawing on the experience of others helps you understand a challenge; it is often the mix of experience, and being able to 'see' how an idea from one area addresses an issue in another, that provides novel ways of thinking."
+    }
+   ]
+  },
+  {
+   "id": "ent1-24",
+   "title": "Framing",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "'Framing' is the ability to recognise the type of issue in hand and structure it in a way that allows you to try alternative ideas to arrive at a solution. If one idea doesn't work, try another. It often starts with the question 'what if...?'",
+     "title": "Key idea"
+    },
+    {
+     "t": "p",
+     "text": "Framing works where there is a clear sense of what needs to be achieved. It means thinking about:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "how people are going to use the things you plan to make",
+      "how you will create value and, critically, for whom"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Thinking like a designer means defining clearly the real nature of the underlying problem during exploratory phases. Only once this is agreed does it make sense to move on to alternative solutions."
+    }
+   ]
+  },
+  {
+   "id": "ent1-25",
+   "title": "The double diamond",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "For each possible solution, a sense check shows how each frame may affect the desired outcome. The UK Design Council formalised this in its 'double diamond' process, with four phases."
+    },
+    {
+     "t": "img",
+     "src": "img/ent_10.jpg",
+     "alt": "Design Council double diamond: discover, define, develop, deliver, with two diamonds opening and narrowing thinking",
+     "caption": "Figure 4 Double Diamond model (Design Council, 2004)"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Phase",
+      "What happens"
+     ],
+     "rows": [
+      [
+       "Discover",
+       "more insight into the problem or challenge; opens up thinking"
+      ],
+      [
+       "Define",
+       "focus on specific areas: priorities, test assumptions and feasibility"
+      ],
+      [
+       "Develop",
+       "broaden out again to potential solutions, prototypes and concepts to test"
+      ],
+      [
+       "Deliver",
+       "evaluate alternatives to filter down to solutions to finalise and produce"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent1-26",
+   "title": "Double diamond check",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "ent1-q6",
+     "q": "In the double diamond, which phase involves focusing on priorities and testing assumptions and feasibility?",
+     "options": [
+      "Discover",
+      "Define",
+      "Develop",
+      "Deliver"
+     ],
+     "answer": 1,
+     "explain": "Define narrows thinking to specific areas, priorities, assumptions and feasibility. Discover and Develop open thinking up; Deliver filters to final solutions."
+    },
+    {
+     "t": "quiz",
+     "id": "ent1-q7",
+     "q": "Which phase broadens thinking to potential solutions, prototypes and concepts?",
+     "options": [
+      "Discover",
+      "Define",
+      "Develop",
+      "Deliver"
+     ],
+     "answer": 2,
+     "explain": "Develop opens thinking out again to all potential solutions and prototypes that can be tested."
+    },
+    {
+     "t": "p",
+     "text": "For more detail see the UK Design Council's double diamond and the Stanford 'd school' (see Further reading in the original course)."
+    }
+   ]
+  },
+  {
+   "id": "ent1-27",
+   "title": "Activity 4 (part 1): Generating ideas",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Video 5: Brainstorming",
+     "url": "https://www.youtube.com/watch?v=9K8W4ooygUU",
+     "note": "A detailed approach to brainstorming: generate as many ideas as you can for a problem or irritation without filtering or judging them."
+    },
+    {
+     "t": "activity",
+     "id": "ent1-a4a",
+     "title": "Activity 4, part 1: Brainstorm",
+     "prompt": "Think of a problem or irritation you are aware of, or simply try to create something for fun. Watch the brainstorming video and come up with as many ideas as you can to solve your problem or create something. Try to come up with at least five ideas. Don't filter or judge them in any way yet, and remember they can be anything you want.",
+     "model": "A good brainstorm produces at least five varied ideas, written without judging them. Include wild ones too: the next part is where you filter, and the point is to remove early filters like 'that will never work' or 'nobody would go for this' before putting filters back systematically.",
+     "points": [
+      "List at least five ideas",
+      "Do not judge or filter ideas yet",
+      "Ideas can be anything you want, including wild ones"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent1-28",
+   "title": "Try it: idea lab",
+   "blocks": [
+    {
+     "t": "tool",
+     "tool": "idea-lab",
+     "title": "Try it: Idea lab",
+     "intro": "Use the idea lab to push your brainstorm further and generate variations of your ideas before you evaluate them."
+    }
+   ]
+  },
+  {
+   "id": "ent1-29",
+   "title": "Evaluating ideas: suitable, feasible, acceptable",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Academic Roger Martin and designer Tim Brown (Brown and Martin, 2015) suggest that designers juggle these questions when they assess ideas:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Suitable**: does the idea actually address the issue?",
+      "**Feasible**: is it technically possible?",
+      "**Acceptable**: is it acceptable to all stakeholders?"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Score each idea 1 to 5 for suitability, feasibility and acceptability (5 most, 1 least) and add your own significant criteria, such as fit with family, passion or lifestyle. Then total the scores."
+    }
+   ]
+  },
+  {
+   "id": "ent1-30",
+   "title": "Activity 4 (part 2): Will it work?",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "Idea",
+      "Suitable",
+      "Feasible",
+      "Acceptable",
+      "Own criteria",
+      "Total"
+     ],
+     "rows": [
+      [
+       "Idea 1",
+       "1-5",
+       "1-5",
+       "1-5",
+       "1-5",
+       "sum"
+      ],
+      [
+       "Idea 2",
+       "1-5",
+       "1-5",
+       "1-5",
+       "1-5",
+       "sum"
+      ],
+      [
+       "Idea 3",
+       "1-5",
+       "1-5",
+       "1-5",
+       "1-5",
+       "sum"
+      ]
+     ]
+    },
+    {
+     "t": "activity",
+     "id": "ent1-a4b",
+     "title": "Activity 4, part 2: Score your ideas",
+     "prompt": "Using the table above (Table 3 'Will it work?'), write down each idea from your brainstorm and score it 1 to 5 for suitability, feasibility and acceptability, with 5 the most. Add your own filtering criterion (e.g. fit with family, passion, suits lifestyle) and total the scores to see which scores highest. Then reflect: did you want one idea to win?",
+     "model": "This is a simple exercise, though oddly effective. Often people feel they want one particular idea to win and 'fix' the scores, or feel disappointed afterwards. This highlights how we tend to filter out ideas 'that will never work' or 'nobody would go for'. It shows the importance of removing those initial filters before putting them back in a systematic way.",
+     "points": [
+      "Scoring ideas against suitable, feasible and acceptable gives a systematic filter",
+      "We tend to favour one idea and may 'fix' the scores",
+      "Early instinctive filtering ('it will never work') removes ideas too soon",
+      "Remove initial filters first, then reintroduce them systematically"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent1-31",
+   "title": "Learning from mistakes",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/ent_11.jpg",
+     "alt": "A light bulb surrounded by screwed-up pieces of white paper",
+     "caption": "Figure 5 Not all ideas work"
+    },
+    {
+     "t": "p",
+     "text": "It is easy to neglect the value of learning from things that don't work. Most of what we know about entrepreneurs and ideas comes from people who have been successful. Sometimes they were lucky, but more often it was hard work, and learning and recovering from lots of mistakes."
+    },
+    {
+     "t": "p",
+     "text": "Apple's early handheld touchscreen device, the Newton (1993), was a disastrous mistake. What if the lesson Apple had taken was never to develop another touchscreen mobile device?"
+    }
+   ]
+  },
+  {
+   "id": "ent1-32",
+   "title": "Dyson and the ball barrow",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "One of the key elements of Dyson's story is what he learnt from his ball barrow being stolen. The innovation was to replace the front wheel of a wheelbarrow with a ball, making it much easier to manoeuvre. His idea, however, was stolen by a US company."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "This was a valuable lesson in failure to protect his idea, which he later applied to controlling production and intellectual property in future ventures (Blundel et al., 2018, pp. 248-51)."
+    },
+    {
+     "t": "p",
+     "text": "It is easier to learn from your mistakes than to discern the real lessons. People are sensitive to failure and have a real aversion to loss, which can affect your objectivity about whether something will work again. You will often hear 'we tried that before and it didn't work'. Software mantras like 'move fast and break things' or 'fail fast' champion learning from failure."
+    }
+   ]
+  },
+  {
+   "id": "ent1-33",
+   "title": "Interpreting failure",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Learning from and embracing failure can create something stronger, but there can be resistance. Some cultures, countries or organisations do not encourage failure at all, because the risk to reputation or careers is too high."
+    },
+    {
+     "t": "p",
+     "text": "Failure is not simply inconvenient for some enterprises. The social consequences for social enterprises should not be underestimated or trivialised (UnLtd, 2016). A failed banking app could leave thousands of customers without access to their accounts, unpaid and charged fees through no fault of their own."
+    },
+    {
+     "t": "p",
+     "text": "Care is needed over *how* you learn from failure: it is the interpretation that matters. Apple did not ditch touchscreens; some suggest the Newton was simply launched before its time, with pricing and handwriting recognition to blame (The Telegraph, 2018)."
+    }
+   ]
+  },
+  {
+   "id": "ent1-34",
+   "title": "Feedback and resilience",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "It is highly likely that one or more aspects of your own idea will be challenged or rejected at some point. You can ignore this feedback, or agree and use it to tweak or revise your idea so it is more robust. Try not to let negative feedback make you falter at the first hurdle."
+    },
+    {
+     "t": "p",
+     "text": "As you continue, you will see it is not always plain sailing for any entrepreneur, including the four you are following, who will keep sharing their experiences."
+    },
+    {
+     "t": "tf",
+     "id": "ent1-q8",
+     "q": "The only sensible lesson from an idea that failed is never to try something similar again.",
+     "answer": false,
+     "explain": "It is the interpretation that matters. Apple kept developing touchscreens after the Newton; the failure may have been about timing, pricing and handwriting recognition."
+    },
+    {
+     "t": "quiz",
+     "id": "ent1-q9",
+     "q": "What lesson did Dyson draw from his ball barrow idea being stolen by a US company?",
+     "options": [
+      "Never share any ideas",
+      "Protect your idea and control production and intellectual property",
+      "Avoid wheelbarrows",
+      "Only work for larger firms"
+     ],
+     "answer": 1,
+     "explain": "It taught him to protect his ideas and control production and intellectual property in future ventures."
+    }
+   ]
+  },
+  {
+   "id": "ent1-35",
+   "title": "Session 1 quiz (1)",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Check what you've learned this session."
+    },
+    {
+     "t": "quiz",
+     "id": "ent1-q10",
+     "q": "According to the definitions used in this course, entrepreneurs are defined by...",
+     "options": [
+      "the size of organisation they work for",
+      "their actions: creating or exploiting change for profit, innovating, accepting risk and moving resources",
+      "their qualifications",
+      "whether they are inventors"
+     ],
+     "answer": 1,
+     "explain": "Entrepreneurs are defined by their actions, not the size of the organisation."
+    },
+    {
+     "t": "quiz",
+     "id": "ent1-q11",
+     "q": "Which of the following are discovery skills? Select all that apply.",
+     "options": [
+      "Observing",
+      "Questioning",
+      "Procrastinating",
+      "Associating"
+     ],
+     "answer": [
+      0,
+      1,
+      3
+     ],
+     "explain": "Observing, questioning, curiosity, connectivity, associating and incubation are discovery skills."
+    },
+    {
+     "t": "quiz",
+     "id": "ent1-q12",
+     "q": "Dyson came up with the bagless vacuum cleaner after...",
+     "options": [
+      "a single 'Eureka moment' in the bath",
+      "encountering industrial extraction fans and building thousands of prototypes",
+      "buying a patent",
+      "a market survey"
+     ],
+     "answer": 1,
+     "explain": "He wondered whether industrial extraction technology could work in a domestic setting, then built a few thousand prototypes."
+    }
+   ]
+  },
+  {
+   "id": "ent1-36",
+   "title": "Session 1 quiz (2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "ent1-q13",
+     "q": "Which Drucker source of innovation is 'changes in society, in perception, mood or meaning'?",
+     "options": [
+      "Internal",
+      "External",
+      "Bright idea"
+     ],
+     "answer": 1,
+     "explain": "It is an external source."
+    },
+    {
+     "t": "tf",
+     "id": "ent1-q14",
+     "q": "Evaluating an idea for suitability asks whether it is technically possible.",
+     "answer": false,
+     "explain": "That is feasibility. Suitability asks whether the idea actually addresses the issue; acceptability asks whether it is acceptable to all stakeholders."
+    },
+    {
+     "t": "quiz",
+     "id": "ent1-q15",
+     "q": "Alex Bond's team changed from a food label to a spray product mainly because...",
+     "options": [
+      "they lost the technology",
+      "big food manufacturers found packaging margins too slim to add any label",
+      "regulators banned labels",
+      "a competitor patented the label"
+     ],
+     "answer": 1,
+     "explain": "The cost of packaging is so slim that any label made it too expensive, so they used the technology for a spray."
+    }
+   ]
+  },
+  {
+   "id": "ent1-37",
+   "title": "Summary",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Telling a good story, as our entrepreneurs do, is part of turning an idea into reality. You will need to convince others to help, join your team, provide resources or finance, and eventually engage as users or customers."
+    },
+    {
+     "t": "p",
+     "text": "An entrepreneur is not necessarily the source of innovation. Dyson's first idea of the ball barrow came from frustration; later the ball became part of his vacuum cleaner, though arguably it was the suction that made the difference. Recognising that an industrial approach could be applied to the domestic market, and trying to make it work, was the crucial factor."
+    },
+    {
+     "t": "h",
+     "text": "In this session you have:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "heard from entrepreneurs, in particular where their ideas come from",
+      "considered how to generate an idea and the tools to evaluate it",
+      "listened to examples of ideas that worked and did not, and how they evolved through learning from failure"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "In the next session you will explore how to make ideas a reality."
+    }
+   ]
+  }
+ ]
+}

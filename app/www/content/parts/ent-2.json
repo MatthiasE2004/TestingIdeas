@@ -1,0 +1,1010 @@
+{
+ "id": "ent2",
+ "title": "Session 2: From idea to reality",
+ "summary": "Starting a business: motivation, UK business landscape, growth, protecting IP, business structures and getting support.",
+ "minutes": 60,
+ "pages": [
+  {
+   "id": "ent2-01",
+   "title": "From idea to reality",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Many new businesses fail within two years of starting up, and 50 per cent within three years (Business Wales, 2018). You have considered sources of ideas; but what happens next? This session covers the decisions needed to formally start your business and three vital aspects you must manage simultaneously."
+    },
+    {
+     "t": "img",
+     "src": "img/ent_12.jpg",
+     "alt": "A woman spinning plates on sticks, facing away from the camera",
+     "caption": "Figure 1 Business involves spinning many plates at once"
+    },
+    {
+     "t": "h",
+     "text": "By the end of this session you will be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "describe your own motivation for starting your enterprise",
+      "identify what support and actions you need to make your idea a reality",
+      "evaluate alternative business structures to refine those appropriate to your needs"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent2-02",
+   "title": "Three vital aspects: delivering, running, getting",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "**Delivering the business**: can you consistently meet demand for a product or service others consider worth paying for? If you can't, your business won't get off the ground.",
+      "**Running the business**: fulfilling the functions and obligations of an organisation properly, observing the law, and meeting stakeholders' expectations (customers, shareholders, suppliers). Fall foul of the law or let customers down and the business will not last.",
+      "**Getting the business**: your ability to find, supply and keep getting new sales, contracts and customers. With no future income you deplete your capital and resources and cannot meet obligations to creditors."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "A successful, sustainable business balances and addresses all three aspects at the same time."
+    }
+   ]
+  },
+  {
+   "id": "ent2-03",
+   "title": "Check the three aspects",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "ent2-q1",
+     "q": "Finding, supplying and keeping on getting new sales, contracts and customers is which aspect of business?",
+     "options": [
+      "Delivering the business",
+      "Running the business",
+      "Getting the business"
+     ],
+     "answer": 2,
+     "explain": "Getting the business is about generating future income streams."
+    },
+    {
+     "t": "quiz",
+     "id": "ent2-q2",
+     "q": "Observing the law and meeting stakeholders' expectations is part of...",
+     "options": [
+      "Delivering the business",
+      "Running the business",
+      "Getting the business"
+     ],
+     "answer": 1,
+     "explain": "Running the business covers fulfilling the functions and obligations of an organisation properly."
+    }
+   ]
+  },
+  {
+   "id": "ent2-04",
+   "title": "Starting your business",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "There are a number of considerations when you start: your ambitions for the business, your own motivation, goals, context and circumstances, and the nature of the business you intend to run."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Another important consideration is your **exit strategy**: how you would prefer to leave the business. You may want to be bought out, pass or sell it to family or employees, wind it up, or be taken over. Keep this in mind as you decide what structure your business will take."
+    }
+   ]
+  },
+  {
+   "id": "ent2-05",
+   "title": "Motivation and context",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "What is your motivation? Is this a **lifestyle business**, a way to earn a living that fits your lifestyle using mainly your own skills, talents and/or time? Does it have to fit with a family situation? You may see yourself as self-employed, staying local and small to keep a sensible work-life balance."
+    },
+    {
+     "t": "p",
+     "text": "Perhaps your business depends on your immediate environment for reasons such as:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "natural features, like wonderful views, and amenities that you want to exploit",
+      "ready access to customers (footfall or easy logistics) or the infrastructure your business needs, from a central location to superfast broadband"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent2-06",
+   "title": "Reflection: your motivation",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "ent2-a0",
+     "title": "Reflection: your motivation",
+     "prompt": "Reflect on your own motivation for starting your enterprise, taking into consideration all of the aspects that have so far been discussed.",
+     "model": "Your answer is personal. A strong answer says why you want to start (e.g. lifestyle, independence, solving a problem, growth), links this to your skills, family situation, location and resources, and considers how you would eventually exit.",
+     "points": [
+      "State the main reason you want to start the business",
+      "Link motivation to lifestyle, skills, family and location",
+      "Consider whether you want to stay small or grow",
+      "Think about how you might eventually exit"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent2-07",
+   "title": "Business in the UK",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Successive governments have identified low productivity in the UK economy and so have supported entrepreneurship, new business start-ups and therefore new jobs. In 2020 the government estimated around 6 million UK businesses."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Size",
+      "Number of businesses"
+     ],
+     "rows": [
+      [
+       "Small (0-49 employees)",
+       "5.94 million"
+      ],
+      [
+       "Medium (50-249 employees)",
+       "36,100"
+      ],
+      [
+       "Large",
+       "7,800"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "(BEIS, 2020)"
+    }
+   ]
+  },
+  {
+   "id": "ent2-08",
+   "title": "What counts as an SME?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Different definitions of small to medium-sized businesses (SMEs) exist, but those used by UK government differentiate on turnover and employee numbers."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Micro-businesses**: fewer than ten employees and turnover under £2m.",
+      "**SME**: up to 250 employees and turnover up to £25m. SMEs represent over 99 per cent of all UK businesses (Rhodes, 2017)."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "UK business angels have continued to invest at a similar level to pre-Covid times (British Business Bank, 2020a). The UK Business Angels Association have continued to prioritise proposals from healthcare; biotech, life sciences and pharmaceuticals; and software as a service."
+    }
+   ]
+  },
+  {
+   "id": "ent2-09",
+   "title": "Share of enterprises",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/ent_13.jpg",
+     "alt": "Bar chart of small, medium and large enterprises: share of businesses, turnover and employment",
+     "caption": "Figure 2 Share of enterprises"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Size",
+      "Businesses",
+      "Turnover",
+      "Employment"
+     ],
+     "rows": [
+      [
+       "Small",
+       "99.30%",
+       "37%",
+       "48%"
+      ],
+      [
+       "Medium",
+       "0.60%",
+       "15%",
+       "12%"
+      ],
+      [
+       "Large",
+       "0.10%",
+       "49%",
+       "40%"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent2-10",
+   "title": "Priority sectors and growth",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The UK government prioritises financial services, science and technology, energy and health. These matter for the security of the economy and are sectors where the UK can be influential. Many more are important, including food and drink, clothing and textiles, and transport. Check the devolved administrations in Scotland, Wales and Northern Ireland, or other countries, to see how emphasis differs."
+    },
+    {
+     "t": "p",
+     "text": "Government priorities do not stop you building a thriving business in another sector, but funding may be more readily available in priority sectors."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Large companies account for only 0.1 per cent of businesses, but 40 per cent of employment and almost half (49 per cent) of turnover. Growing a small enterprise takes much more than working harder and faster."
+    }
+   ]
+  },
+  {
+   "id": "ent2-11",
+   "title": "Check the numbers",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "ent2-q3",
+     "q": "Roughly what share of UK businesses are small (0-49 employees)?",
+     "options": [
+      "About 50%",
+      "About 75%",
+      "About 99%",
+      "About 10%"
+     ],
+     "answer": 2,
+     "explain": "Small businesses are 99.30% of all businesses."
+    },
+    {
+     "t": "tf",
+     "id": "ent2-q4",
+     "q": "Large companies account for most UK businesses.",
+     "answer": false,
+     "explain": "They are only 0.1% of businesses, though they provide 40% of employment and 49% of turnover."
+    }
+   ]
+  },
+  {
+   "id": "ent2-12",
+   "title": "Planning for growth",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Do you have all the skills, time, resources and organisational ability to keep all three aspects (getting, delivering and running) going? If not, you must consider who will get, do and run your business. That may mean becoming an employer, with all the responsibilities that implies."
+    },
+    {
+     "t": "p",
+     "text": "Jyoti Banerjee of the M-Institute (a not-for-profit supporting growth of medium-sized businesses) observes that leading a small business versus a medium-sized business is very different and needs quite different behaviours and attitudes."
+    },
+    {
+     "t": "video",
+     "title": "Video 1: Jyoti Banerjee: mid-sized businesses",
+     "url": "https://www.youtube.com/watch?v=xn-jB6ac1A4",
+     "note": "Jyoti Banerjee describes how medium-sized businesses are different to small businesses. Small businesses tend to be concerned with survival and viability, and may be based around the owner's lifestyle; a medium-sized business is concerned with growth and scaling up, which needs a different mindset and managerial behaviour."
+    }
+   ]
+  },
+  {
+   "id": "ent2-13",
+   "title": "Scaling up to a medium-sized business",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/ent_14.jpg",
+     "alt": "A goldfish jumping from a small fish bowl to a larger one",
+     "caption": "Figure 3 Scaling up is one of the biggest challenges for an entrepreneur"
+    },
+    {
+     "t": "p",
+     "text": "Scaling up is arguably one of the biggest challenges for entrepreneurs who have created a successful small business. Being focused on keeping on top of everything, knowing who's doing what, and following every opportunity is very different to deploying a staff of 50 or 200 employees."
+    },
+    {
+     "t": "p",
+     "text": "As you grow you cannot wrap your arms around it all. Growth means a little less direct control and the ability to find and trust other people to perform their role."
+    }
+   ]
+  },
+  {
+   "id": "ent2-14",
+   "title": "Costs and obligations of growth",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "If your idea has high growth potential and you can't finance it yourself, you will need external investment. Growth likely needs employees, a means of production (premises, equipment or people) and a structure, and possibly research and development. All entail increasing costs, and medium-sized businesses can find access to finance harder than larger companies."
+    },
+    {
+     "t": "p",
+     "text": "Some regulations apply regardless of size. Small businesses may be exempt from some, such as financial audits for turnover below £10.2m and fewer than 50 employees, but medium-sized firms must meet all the requirements of a larger business without its structure and specialist staff."
+    },
+    {
+     "t": "p",
+     "text": "You must also compete for skilled staff or fund training, pay competitive wages, pensions and benefits, and satisfy investors with a longer term view of how costs can rise while future revenues are generated."
+    }
+   ]
+  },
+  {
+   "id": "ent2-15",
+   "title": "The medium-sized mindset",
+   "blocks": [
+    {
+     "t": "quote",
+     "text": "Entrepreneurs who want to run medium-sized businesses have to think differently by setting aside the instinct to do everything themselves because they know they're best at it.",
+     "by": "Banerjee (2011), paraphrased in the course"
+    },
+    {
+     "t": "p",
+     "text": "Entrepreneurs must be able and prepared to bring on board a team to spread the load and provide diversity of thinking and new ideas. You will return to financing your business in more detail in Session 7."
+    },
+    {
+     "t": "quiz",
+     "id": "ent2-q5",
+     "q": "Which mindset shift does Banerjee suggest is needed to run a medium-sized business?",
+     "options": [
+      "Doing everything yourself",
+      "Bringing on a team and trusting others to share the load",
+      "Staying as small as possible",
+      "Avoiding external investment"
+     ],
+     "answer": 1,
+     "explain": "Entrepreneurs need to set aside the instinct to do everything themselves and bring on a team."
+    }
+   ]
+  },
+  {
+   "id": "ent2-16",
+   "title": "Reflection: what are your goals?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Knowing what you want from setting up your own business is an important early step. This reflection helps you outline your goals and ambitions."
+    },
+    {
+     "t": "activity",
+     "id": "ent2-a1",
+     "title": "Reflection: your goals",
+     "prompt": "Answer these in turn: (1) What does running your own business mean to you? (2) What is your business all about; what is its purpose or mission? (3) Who else will be affected by your decisions? (4) Thinking ahead five years, where do you see yourself, your family, your business? (5) Do you have the mindset Banerjee suggests is vital to grow? (6) What are your personal values? Does your image of the future square with them, and are any likely to conflict?",
+     "model": "Five years from now your business could be well established and you could have achieved your goals, but getting there means taking stock of your situation, making decisions and taking action now. A good answer is concrete about purpose, people affected, a five-year picture, readiness to delegate, and any values conflicts.",
+     "points": [
+      "State what running a business means to you and its purpose or mission",
+      "Identify others affected (family, employees, customers, community)",
+      "Describe where you want yourself, your family and the business in five years",
+      "Assess whether you have the growth mindset (delegating, building a team)",
+      "Check your personal values against your vision and note conflicts"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent2-17",
+   "title": "Protecting your idea",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "In Session 1 you explored the business idea. One of the most important decisions in starting your business is how to protect your intellectual property."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "**Intellectual property (IP)** is the intangible property that comes from your ideas and thoughts. It includes 'inventions, literary and artistic works, designs, symbols, names and images used in commerce' (WIPO, 2018).",
+     "title": "Definition"
+    },
+    {
+     "t": "p",
+     "text": "Protecting your IP makes it much harder for others to steal or copy it, as the Dyson example showed. It has costs, so build them into your growth planning. If you plan to grow by licensing your idea or franchising it, IP is essential."
+    }
+   ]
+  },
+  {
+   "id": "ent2-18",
+   "title": "Types of IP",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/ent_15.jpg",
+     "alt": "Registered trademark, copyright and trademark symbols",
+     "caption": "Figure 4 Patent, copyright and trademark symbols"
+    },
+    {
+     "t": "flash",
+     "cards": [
+      {
+       "front": "Patents",
+       "back": "Give the inventor the right to prevent others making, using or selling the subject matter under patent. The best protection for a new product."
+      },
+      {
+       "front": "Copyright",
+       "back": "Covers original works of art, authorship or written copy (books, music, film etc.)."
+      },
+      {
+       "front": "Trademarks",
+       "back": "Protect the value of a name, brand, logo or other symbols that distinguish your product, e.g. the Adidas three stripes or the Nike tick."
+      },
+      {
+       "front": "Trade secrets",
+       "back": "Allow the owner to take action against anyone who breaches an agreement to keep something confidential, e.g. a family recipe."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent2-19",
+   "title": "Choosing names and trademarks",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Before you register your company and website address, or consider international markets, check whether you can have and use them without infringing another business. Consider cultural references that make your product less attractive overseas."
+    },
+    {
+     "t": "p",
+     "text": "Also make sure your product and company name work for customers and other stakeholders: is it memorable, and can it be spelled and therefore found?"
+    },
+    {
+     "t": "quiz",
+     "id": "ent2-q6",
+     "q": "A family recipe kept confidential and protected by an agreement is best covered by...",
+     "options": [
+      "Patent",
+      "Copyright",
+      "Trademark",
+      "Trade secret"
+     ],
+     "answer": 3,
+     "explain": "Trade secrets allow the owner to act against anyone who breaches a confidentiality agreement."
+    },
+    {
+     "t": "quiz",
+     "id": "ent2-q7",
+     "q": "Which type of IP protects a brand name or logo?",
+     "options": [
+      "Patent",
+      "Copyright",
+      "Trademark",
+      "Trade secret"
+     ],
+     "answer": 2,
+     "explain": "Trademarks protect the value of a name, brand, logo or symbol."
+    }
+   ]
+  },
+  {
+   "id": "ent2-20",
+   "title": "Professional advice is advised",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "This course cannot give everything you need on IP, but here are tips to discuss with a legal adviser:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "If you work for someone else, check your employment terms so your employer doesn't own new ideas or inventions. Don't work on your idea in their time with their resources; keep employed work and new venture distinct.",
+      "A non-disclosure or confidentiality agreement lets you talk to experts and advisers without jeopardising your position.",
+      "Conversations with friends and colleagues may produce joint ideas or loose proposals to be co-founders. Once agreed, agree the terms of the relationship."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent2-21",
+   "title": "More IP tips",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "If working with others (e.g. independent contractors), ensure all IP rights are assigned to your company. If you employ someone from a competitor, check they aren't bound by confidentiality or non-compete conditions.",
+      "If you use open source software, check the rights and permissions. If you use images on your website, don't infringe others' copyright.",
+      "Protection should cover all the country markets you intend to trade in."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "While this course is written as if starting a business is linear, in reality you operate on many fronts at the same time."
+    }
+   ]
+  },
+  {
+   "id": "ent2-22",
+   "title": "Activity 1: Finding advice",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "ent2-a2",
+     "title": "Activity 1: Finding advice",
+     "prompt": "Make notes on whether you need to get advice on protecting your idea. Lots of information is available online, and your local enterprise partnership or economic development agency will often have local law firms that provide seminars and free advice for new businesses. Useful websites on starting a business: GOV.UK, Forbes, TechCrunch.",
+     "model": "If you have a novel concept, product or idea and have invested a lot of time and energy in it, it makes no sense to let someone else capitalise on it. Seeking professional advice early may save you a lot of trouble later, or costly challenges from employers, employees or colleagues.",
+     "points": [
+      "Consider which kind of IP (patent, copyright, trademark, trade secret) applies to your idea",
+      "Seek professional advice early to avoid later costly disputes",
+      "Check employer ownership of ideas and use confidentiality agreements",
+      "Use free sources such as GOV.UK and local enterprise agencies"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent2-23",
+   "title": "What kind of business structures are there?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "One of the early decisions is what legal structure your business will take. Distinguish the **legal form** (how the law regards the enterprise) from the **organisational type** (how you regard and present it). You can have several organisational types but only one legal form."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Structure",
+      "Key points"
+     ],
+     "rows": [
+      [
+       "Sole trader",
+       "Simplest way to operate; personal liability for debts and tax; not separate from the operation"
+      ],
+      [
+       "Partnership",
+       "Two or more co-owners share the income; business not separate from its operators"
+      ],
+      [
+       "Limited liability partnership",
+       "At least one general and one limited partner (not both); limited partners liable up to their contribution and cannot manage"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent2-24",
+   "title": "Companies and franchises",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "Structure",
+      "Key points"
+     ],
+     "rows": [
+      [
+       "Limited company",
+       "Separate from its operators; finances separate from owner's; can retain profits after corporation tax; needs directors, shares, memorandum and articles; registered with Companies House"
+      ],
+      [
+       "Franchise",
+       "Franchisor gives a franchisee the right to use its name, logo and business model (e.g. McDonalds, Subway); a way to start with less new-business activity, or to scale your idea"
+      ]
+     ]
+    },
+    {
+     "t": "quiz",
+     "id": "ent2-q8",
+     "q": "Which structure treats the business as separate from its operators and requires registration with Companies House?",
+     "options": [
+      "Sole trader",
+      "Partnership",
+      "Limited company",
+      "Franchise"
+     ],
+     "answer": 2,
+     "explain": "A limited company is a separate legal entity with its own finances and must be registered with Companies House (UK)."
+    }
+   ]
+  },
+  {
+   "id": "ent2-25",
+   "title": "Social businesses",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "There are common organisational types used by social businesses:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Social enterprise**: primarily social objectives; profit mostly reinvested in the business or community rather than maximising shareholder profit.",
+      "**Community enterprise**: a social enterprise owned and run by a geographical community or community of interest.",
+      "**Co-operative**: an autonomous association of persons united voluntarily to meet common economic, social and cultural needs through a jointly-owned, democratically controlled enterprise (International Co-operative Alliance)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent2-26",
+   "title": "Types of co-operative and other social forms",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "**Worker co-operative**: owned and run by its workers",
+      "**Housing co-operative**: owned and run by its tenants",
+      "**Consumer co-operative**: owned and run by its customers",
+      "**Co-operative consortium**: owned and run by other businesses that use its services",
+      "**Multi-stakeholder co-operative**: a mixture of any or all of the above"
+     ]
+    },
+    {
+     "t": "flash",
+     "cards": [
+      {
+       "front": "Community land trust",
+       "back": "An organisation created to hold land as an asset for community use."
+      },
+      {
+       "front": "Credit union",
+       "back": "A non-profit financial institution owned and operated entirely by its members."
+      },
+      {
+       "front": "Development trust",
+       "back": "A community-based enterprise that secures and manages community assets."
+      },
+      {
+       "front": "Social firm",
+       "back": "A business committed to creating employment and training for people furthest from the labour market."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent2-27",
+   "title": "Ethical business and choosing a structure",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Any of these types can also be an ethical business. A social enterprise is established to benefit people and the planet as its primary purpose; an ethical business seeks to minimise harm to people and the planet."
+    },
+    {
+     "t": "p",
+     "text": "Deciding on structure requires thinking about how you will finance the business and its anticipated size. An individual can trade for a social purpose as well as being a sole trader and call themselves a social business: there is very little regulation of organisational types in branding or marketing."
+    },
+    {
+     "t": "p",
+     "text": "Refer back to your goals. Structure has implications for who controls the business and whether audited accounts and named directors are required."
+    }
+   ]
+  },
+  {
+   "id": "ent2-28",
+   "title": "Not for profit",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Funding has become available to support a range of 'not-for-profit' enterprises: community companies, social enterprises, charities and community interest companies. They are increasingly important as central government devolves local service provision and funding cuts reduce services."
+    },
+    {
+     "t": "p",
+     "text": "Setting one up means considering the same things as any for-profit enterprise: demand, financial viability, skills and capacity, and securing funding. But as these are often publicly regulated bodies, they have a more complex legal structure, so contact one of the organisations listed at the end of the session."
+    }
+   ]
+  },
+  {
+   "id": "ent2-29",
+   "title": "What structure do I need?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Do some research of your own before deciding. These questions help narrow the options for discussion with a professional adviser (GOV.UK is a good place to start):"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Starting alone or with others? What if one wants to leave, retire or move away?",
+      "Taking over a business from someone else? What is its structure, who owns it, what involvement might they want?",
+      "How much administration? Some structures don't require registering, incorporating, filing or auditing accounts, or annual returns.",
+      "How much finance, and from where? What assets could be collateral? How do shareholders affect your growth plan?",
+      "Tax advantages or protection of personal assets?",
+      "Other considerations like community, surroundings or the environment?"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent2-30",
+   "title": "Activity 2: Deciding on the structure of your business",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "Structure",
+      "How would this work for me?",
+      "What wouldn't work for me?"
+     ],
+     "rows": [
+      [
+       "Sole trader",
+       "",
+       ""
+      ],
+      [
+       "Partnership",
+       "",
+       ""
+      ],
+      [
+       "Limited liability partnership",
+       "",
+       ""
+      ],
+      [
+       "Limited company",
+       "",
+       ""
+      ],
+      [
+       "Social business",
+       "",
+       ""
+      ],
+      [
+       "Franchise",
+       "",
+       ""
+      ]
+     ]
+    },
+    {
+     "t": "activity",
+     "id": "ent2-a3",
+     "title": "Activity 2: Deciding on the structure",
+     "prompt": "Using your answers to the questions above, look up the types of structure that exist to see how they would fit for you. For each of sole trader, partnership, limited liability partnership, limited company, social business and franchise, note how it would work for you and what wouldn't work for you.",
+     "model": "It is impossible to give general feedback without knowing you, your circumstances and your idea. You will get a lot more from a discussion with a legal adviser if you have done preparatory thinking and are clear about what matters to you: your goals, future ambitions, lifestyle and whether and how you want to grow.",
+     "points": [
+      "Compare each structure against your own goals and circumstances",
+      "Consider liability, finance, control, administration and tax",
+      "Note which structures suit staying small and which suit growth",
+      "Prepare questions for a professional adviser"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent2-31",
+   "title": "Getting and running a business",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "What are the core functions and roles that keep a business running? At this point it is interesting to see how our entrepreneurs started out."
+    },
+    {
+     "t": "video",
+     "title": "Video 2: Starting out",
+     "url": null,
+     "note": "The entrepreneurs describe their first steps. Emma Prince talked to local schools and the council (who all said there was a shortage), gave three months' notice to network and learn pitfalls from charities, and was supported by her family. Claudio Marturano wanted out of the corporate world, got advice from the Open University, Business Gateway and Scottish Enterprise, then took the plunge. Alex Bond and colleagues sought a patent first, then joined an Imperial College accelerator that taught them about forming a company, raising funds and market research. Nick Allen found a former M&S buyer to help shape the brand, then used local growth hubs, the Department for International Trade and trading standards for advice."
+    }
+   ]
+  },
+  {
+   "id": "ent2-32",
+   "title": "Bootstrapping it",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "**Bootstrapping**: many small businesses start small, with no external help or funding. They try to turn their hand to everything, which can mean long hours, learning new skills and relying on a lot of advice. Don't panic!"
+    },
+    {
+     "t": "p",
+     "text": "A dilemma is when to hire the first employees. Being a good employer means taking responsibility on a number of fronts. Consider the economics term **opportunity cost**: at some point consider whether it is cheaper or more efficient for someone else to carry out functions (running, getting or delivering the business)."
+    },
+    {
+     "t": "p",
+     "text": "If you can make more profit per hour turning out something to sell than doing your book-keeping, it makes economic sense to hire someone to do the books. This 'make or buy' decision applies to each aspect of your business. Reflect on Jyoti Banerjee's points in Section 3."
+    }
+   ]
+  },
+  {
+   "id": "ent2-33",
+   "title": "Activity 3: Core functions of a business",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "ent2-a4",
+     "title": "Activity 3: Core functions of a business",
+     "prompt": "Under each of these three headings, make a list of tasks and roles you would need to consider when running your business: Finance; Administration and governance; Sales, marketing and customer service.",
+     "model": "Finance: book-keeping; banking cash and cheques; payroll; invoicing; chasing unpaid invoices; VAT returns; budgeting; forecasting cash flow; settling invoices. Administration and governance: statutory returns; customer records; supplier and employee contracts; pensions; data protection and security; leases and hire contracts; insurances; share and partnership agreements; managing stock; securing premises; policies (refunds, payment terms, loyalty, employment terms). Sales, marketing and customer service: getting and converting leads; answering enquiries; following up leads; closing deals; responding to tenders; drafting proposals; solving customer queries such as complaints and payment errors; replacing and refunding goods.",
+     "points": [
+      "Finance: book-keeping, payroll, invoicing, VAT, budgeting, cash-flow forecasting",
+      "Administration and governance: statutory returns, contracts, insurance, data protection, policies",
+      "Sales, marketing and customer service: leads, enquiries, closing deals, tenders, complaints",
+      "Consider which tasks you can do and which to hire or buy in"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent2-34",
+   "title": "Developing your enterprise and finding help",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "There is a lot to running a successful business. If you don't have the skills now, you can acquire them over time; many free courses on book-keeping, budgeting and marketing exist on OpenLearn and the internet."
+    },
+    {
+     "t": "p",
+     "text": "Friends, family or your extended network may offer support. Working with people you know and trust may seem obvious, but think it through. They have your best interests at heart but also their own priorities, jobs and responsibilities."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Can you ensure their investment or support is sustainable and won't lead to unacceptable risk or loss for them?",
+      "Will you be able to pay them?",
+      "Will the business sustain all your needs and ambitions?",
+      "Will relationships withstand disagreements, advice that goes wrong, mistakes, long hours and other pressures?",
+      "Would two people earning from the same business be an advantage or a pressure?"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent2-35",
+   "title": "Reflection: working with people you trust",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "ent2-a5",
+     "title": "Reflection: the pros of working with people you trust",
+     "prompt": "Many family businesses work very well. So far there have been more cons than pros. Find a counterbalance: what are the advantages of working with people you trust and who may share your ambition?",
+     "model": "Advantages include trust and loyalty, shared commitment and ambition, flexibility on hours and pay in the early days, quick and candid communication, shared values, and a ready-made support network that can share the load and bring different skills.",
+     "points": [
+      "Trust and loyalty reduce risk in the early days",
+      "Shared ambition and commitment",
+      "Flexibility and willingness to share the workload",
+      "Complementary skills and a ready-made support network"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent2-36",
+   "title": "Activity 4: Finding useful resources",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Public bodies provide support, resources, information and advice, and can signpost local organisations. Here are starting points in the UK nations and Ireland."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "England and UK-wide: Entrepreneur Handbook (grants and funding), Local Enterprise Partnership network (growth hubs), Social Enterprise UK",
+      "Scotland: Business Gateway, Highlands and Islands Enterprise, Highlands and Islands Social Enterprise Zone, Just Enterprise, Scottish Institute for Enterprise, Scottish Enterprise, Scottish Government Rural Business Support, Scottish Rural Network",
+      "Northern Ireland and Ireland: Enterprise Northern Ireland, Invest Northern Ireland, Social Entrepreneurs Ireland, Social Enterprise Northern Ireland",
+      "Wales: Business Wales, Wales Council for Voluntary Action, Trade & Invest Wales"
+     ]
+    },
+    {
+     "t": "activity",
+     "id": "ent2-a6",
+     "title": "Activity 4: Finding useful resources",
+     "prompt": "Make a note of, or bookmark, the organisations above that may be most useful to you so you can come back to them throughout the course as you develop your business. Write which ones you chose and why.",
+     "model": "Pick the national and local bodies relevant to where you live and your sector, and say what each offers (grants, advice, networking, mentoring, training).",
+     "points": [
+      "Choose organisations relevant to your nation and sector",
+      "Note what each offers (funding, advice, networks, training)",
+      "Include at least one local source of support"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent2-37",
+   "title": "Session 2 quiz (1)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "ent2-q9",
+     "q": "What are the three vital aspects of a business to manage simultaneously?",
+     "options": [
+      "Marketing, branding, selling",
+      "Delivering, running and getting the business",
+      "Finance, law, HR",
+      "Product, price, place"
+     ],
+     "answer": 1,
+     "explain": "Delivering, running and getting the business."
+    },
+    {
+     "t": "tf",
+     "id": "ent2-q10",
+     "q": "A sole trader's business is legally separate from the owner.",
+     "answer": false,
+     "explain": "Sole traders are not separate from the operation; they are personally liable for debts and tax."
+    },
+    {
+     "t": "quiz",
+     "id": "ent2-q11",
+     "q": "The 'make or buy' decision about hiring someone to do book-keeping is based on which economic idea?",
+     "options": [
+      "Opportunity cost",
+      "Franchising",
+      "Bootstrapping",
+      "Exit strategy"
+     ],
+     "answer": 0,
+     "explain": "If you earn more per hour producing than doing the books, it makes economic sense to hire someone else."
+    }
+   ]
+  },
+  {
+   "id": "ent2-38",
+   "title": "Session 2 quiz (2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "ent2-q12",
+     "q": "Which structures involve co-owners where in law the business is not separate from its operators? Select all that apply.",
+     "options": [
+      "Sole trader",
+      "Partnership",
+      "Limited company",
+      "Credit union"
+     ],
+     "answer": [
+      0,
+      1
+     ],
+     "explain": "Sole traders and (ordinary) partnerships are not separate legal entities; a limited company is."
+    },
+    {
+     "t": "quiz",
+     "id": "ent2-q13",
+     "q": "A franchisor gives a franchisee the right to use...",
+     "options": [
+      "their patent only",
+      "their business name, logo and business model",
+      "their employees",
+      "their bank account"
+     ],
+     "answer": 1,
+     "explain": "A franchise is one way to start a business with less new-business activity, or to scale an idea."
+    },
+    {
+     "t": "tf",
+     "id": "ent2-q14",
+     "q": "Medium-sized businesses can find access to finance harder than larger companies.",
+     "answer": true,
+     "explain": "Medium-sized businesses must find and manage access to finance to grow, and this can be more difficult than for larger companies."
+    }
+   ]
+  },
+  {
+   "id": "ent2-39",
+   "title": "Summary",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Professional advisers, lawyers and accountants, can advise and set up your company for a fee, but do your research first and take advantage of the many public bodies that support new and growing businesses. They offer networks, gatherings where you meet other local businesses (a source of custom and advice), training, templates and guidelines, and may provide a mentor or personal adviser."
+    },
+    {
+     "t": "h",
+     "text": "In this session you have:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "recognised how businesses are sustainable by managing all the core functions of getting, doing and running the business",
+      "identified several different types of business entity depending on how big the business may become",
+      "considered how your motivation and financing affect your business structure",
+      "learned how to assess gaps in the core skills your business needs",
+      "seen how important professional advice and support from others is"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "In the next session you will explore how your business can create value, using the business model canvas."
+    }
+   ]
+  }
+ ]
+}

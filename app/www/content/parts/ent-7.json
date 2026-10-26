@@ -1,0 +1,787 @@
+{
+ "id": "ent7",
+ "title": "Session 7: Financing your business",
+ "summary": "Sources of finance, cash flow, financial statements and what investors look for.",
+ "minutes": 50,
+ "pages": [
+  {
+   "id": "ent7-01",
+   "title": "Financing your business",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "One of the main reasons businesses fail is that they run out of cash. Your business model might be sustainable at first through investment of your own money, and over time through retained profits, but it is unlikely you can finance growth and expansion that way indefinitely."
+    },
+    {
+     "t": "img",
+     "src": "img/ent_38.jpg",
+     "alt": "Chalk sketch of a bar chart with an upward trajectory",
+     "caption": "Figure 1 Capturing value in each transaction leads to sustainability"
+    },
+    {
+     "t": "p",
+     "text": "Every business needs to capture some percentage of the value in each transaction. Your key stakeholders (suppliers, customers, distributors, investors, staff) must also see mutual value in the deal."
+    }
+   ]
+  },
+  {
+   "id": "ent7-02",
+   "title": "What you will learn",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The key to a sustainable business is **cash flow management**: understanding how and when income and expenditure arise, and forecasting so you can meet financial obligations in the short and long term. By the end of this session you will be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "recognise alternative sources of finance for a new business and how to choose between them",
+      "understand some of the key financial concepts needed when running a business",
+      "understand the two most important financial statements you will need to manage your business",
+      "recognise ways to improve your cash flow management and sustain your business",
+      "understand how investors and lenders evaluate your business when they consider funding it."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "title": "",
+     "text": "This session will not make you a finance expert, but it will help you evaluate the benefits, risks and obligations of each form of finance and have a more informed discussion with a finance professional."
+    }
+   ]
+  },
+  {
+   "id": "ent7-03",
+   "title": "Three main sources of funding",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "There are three main sources of business funding:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Equity financing** - contributed by the owners at start-up. Equity is never repaid unless the business is closed down and there are enough funds from liquidation. No regular interest is paid, but investors hope for a dividend if the business is profitable.",
+      "**Debt financing** - comes from a third party external to the business. The loan must be repaid in full at the end of the loan period, with interest paid on the amount. The lender is first in the queue if the business is made bankrupt. In the UK, interest is currently deducted as an expense from sales revenues before tax is calculated.",
+      "**Reinvested profits** - come from the owners, but profits need to materialise as cash to be re-invested or spent supporting the business."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent7-04",
+   "title": "Activity 1: Pros and cons",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "ent7-a1",
+     "title": "Activity 1 Pros and cons of funding sources",
+     "prompt": "Consider what the pros and cons to your business may be of equity financing, debt financing and reinvested profits.",
+     "model": "How you finance your business depends on factors such as whether you are prepared to give away ownership, whether you expect high growth, whether your sales pipeline looks healthy, and whether you have rapid sales turnover with customers who pay on time. There may be other reasons specific to your business.",
+     "points": [
+      "Equity means giving away some ownership and control but does not need repaying",
+      "Debt must be repaid with interest but you keep ownership",
+      "Reinvested profits depend on profits actually materialising as cash",
+      "Choice depends on growth expectations, sales pipeline and how quickly customers pay"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent7-05",
+   "title": "Cash management",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A growing business needs to make the most of all its resources, including cash. **Cash management** means assessing the flow of cash in your business and thinking about how to improve it. It considers:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "the agreements and terms you reach with suppliers and distributors, if applicable",
+      "the speed at which you collect money in from customers",
+      "the speed at which you pay money to suppliers",
+      "the amount of cash you want to keep invested in inventory (the stock of goods held for re-sale)."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "The first steps in external funding decisions are to evaluate your current cash position, as prospective lenders will do the same."
+    }
+   ]
+  },
+  {
+   "id": "ent7-06",
+   "title": "The cash delay problem",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Sales are usually made on account or on credit, so there is a delay between making the sale and receiving cash. Without enough cash flowing round the business to cover that delay, your enterprise will come to a halt."
+    },
+    {
+     "t": "p",
+     "text": "Establishing where your cash is committed can be complex:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "goods may have been bought and paid for in cash",
+      "employees involved in manufacturing or operations need to be paid",
+      "overheads such as rent, energy or computer costs may already have been paid out."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "All of these running costs must be funded before cash is actually received from customers."
+    }
+   ]
+  },
+  {
+   "id": "ent7-07",
+   "title": "Solvency and liquidity",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Solvency and liquidity",
+     "text": "A business remains **solvent** when its cash resources can satisfy its longer-term financial obligations as they fall due. This requires **liquid funds**, i.e. cash, or assets that can be readily transformed into cash. **Liquidity** is the ability of an enterprise to pay its short-term obligations. Good management of working capital helps ensure that profits do become cash."
+    },
+    {
+     "t": "quiz",
+     "id": "ent7-q1",
+     "q": "A business can pay its short-term obligations as they fall due. Which term describes this ability?",
+     "options": [
+      "Liquidity",
+      "Dilution",
+      "Depreciation",
+      "Equity"
+     ],
+     "answer": 0,
+     "explain": "Liquidity is the ability of an enterprise to pay its short-term obligations."
+    }
+   ]
+  },
+  {
+   "id": "ent7-08",
+   "title": "Working capital and the balance sheet",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The day-to-day running costs and operational resources are called **working capital**. A positive figure means current assets (immediate cash and what is owed to the business) exceed current liabilities (what the business owes), which gives suppliers and lenders a sense of security."
+    },
+    {
+     "t": "p",
+     "text": "Working capital = cash at bank + inventory + cash due from customers (receivables) - cash due to suppliers (payables)."
+    },
+    {
+     "t": "p",
+     "text": "A **balance sheet** summarises the assets and liabilities of a business, and its equity, at a particular moment in time."
+    }
+   ]
+  },
+  {
+   "id": "ent7-09",
+   "title": "Assets, liabilities and equity",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "**Assets** - things a business owns, or money owed to it.",
+      "**Liabilities** - financial obligations, or amounts the business owes to somebody else.",
+      "**Equity** (sometimes 'net worth') - assets minus liabilities: the value remaining after all obligations are taken into account."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "**Depreciation** allocates the cost of an asset over its useful life, so fixed assets such as plant or machinery may appear with declining value in successive years."
+    },
+    {
+     "t": "p",
+     "text": "The balance sheet indicates financial health: the ability to pay bills when they fall due, cash resources, and how much debt there is in relation to equity."
+    }
+   ]
+  },
+  {
+   "id": "ent7-10",
+   "title": "An example balance sheet",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/ent_39.jpg",
+     "alt": "Example balance sheet listing current assets, non-current assets, liabilities and stockholders' equity, with totals",
+     "caption": "Figure 2 Example of a balance sheet"
+    },
+    {
+     "t": "quiz",
+     "id": "ent7-q2",
+     "q": "In the example, total assets are 101,000 and total liabilities 16,000. What is the equity (net worth)?",
+     "options": [
+      "85,000",
+      "117,000",
+      "16,000",
+      "101,000"
+     ],
+     "answer": 0,
+     "explain": "Equity = assets minus liabilities = 101,000 - 16,000 = 85,000, matching the stockholders' equity shown."
+    }
+   ]
+  },
+  {
+   "id": "ent7-11",
+   "title": "The profit and loss account",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A **profit and loss account** (p&l), sometimes called an income statement, shows how a business has performed over a period such as a month or a year. It pulls together sales revenues and expenses to show whether a profit or loss was generated, and so whether the business is economically viable."
+    },
+    {
+     "t": "img",
+     "src": "img/ent_40.jpg",
+     "alt": "Spreadsheet showing an empty example of a profit and loss account with income and expenses in the left column",
+     "caption": "Figure 3 Example of a business' profit and loss account"
+    }
+   ]
+  },
+  {
+   "id": "ent7-12",
+   "title": "What the p&l shows",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The p&l shows the complete trading picture over time, including sales made before customers have paid. Expenses include *all* costs incurred, even those not yet paid."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Sales revenue includes cash sales and sales made on credit terms.",
+      "Cost of goods sold includes cash purchases and purchases made on credit terms."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "It is a basis for business decisions: owners can see trends in sales, expenses and margins, compare with earlier periods and similar businesses, and budget for the future."
+    },
+    {
+     "t": "tf",
+     "id": "ent7-q3",
+     "q": "A profit and loss account only includes costs that have already been paid in cash.",
+     "answer": false,
+     "explain": "Expenses shown include all costs incurred, including those not yet paid."
+    }
+   ]
+  },
+  {
+   "id": "ent7-13",
+   "title": "Limited liability",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A limited company is owned by its shareholders: those who have paid money to acquire a legal and financial interest ('a share'). If you have incorporated (Limited, Ltd or plc) you are protected from taking on the losses of the business, because it is a separate legal entity (see Session 2)."
+    },
+    {
+     "t": "p",
+     "text": "Incorporation protects investors and acts as an incentive to invest: the most a shareholder can lose is their original investment. Shares can be bought and sold without financial impact on the company, other than the legal duty to maintain a register of shareholders."
+    }
+   ]
+  },
+  {
+   "id": "ent7-14",
+   "title": "Reflection: would you invest?",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "ent7-a2",
+     "title": "Reflection: What would you invest in?",
+     "prompt": "Take a moment to reflect on what kind of enterprise you might invest in and why. What factors might you take into consideration? What would you expect in return?",
+     "model": "You might invest in an enterprise whose founders you trust, where there is clear mutual value, a credible market and evidence of how it makes money. In return you might expect repayments, dividends or growth in the value of your shares, as well as perhaps non-financial returns that match your own values.",
+     "points": [
+      "Consider the people, idea and evidence of demand",
+      "Expect a return: repayments, dividends or share value growth",
+      "Weigh risk against return",
+      "Own values may matter beyond money"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent7-15",
+   "title": "What are investors looking for?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Investors seek a return through regular repayments, dividends or an increase in the future value of their shares. They want to understand past performance as an indication of viability. Can you demonstrate your profit margin? It shows how well you control costs, and a higher margin means more resilience to unforeseen events."
+    },
+    {
+     "t": "p",
+     "text": "Other facts and figures that satisfy investors:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "your rate of growth compared with your past, competitors and the economy",
+      "your personal track record, skills, resources, capabilities, patents or a new market you target",
+      "evidence that your business model and value proposition translate into a return",
+      "your effectiveness in collecting cash from customers, if already trading",
+      "evidence of collateral or assets that provide security."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent7-16",
+   "title": "Cash flow forecasts and shocks",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Some businesses are seasonal or cyclical (e.g. Christmas or Hanukkah) and must plan for cash shortfalls after high demand. Show that supply can meet demand at the peak. A **cash flow forecast** helps you pace expenditure when sales are low, and a cash contingency plan for when inflows drop reassures investors."
+    },
+    {
+     "t": "img",
+     "src": "img/ent_41.jpg",
+     "alt": "Spreadsheet showing cash inflows and outflows for January to June, with net cash flow and opening and closing balances",
+     "caption": "Figure 4 Example of a cash flow forecast"
+    },
+    {
+     "t": "p",
+     "text": "Can your forecast withstand a sharp shock such as an equipment breakdown or the loss of a major order? Is there enough cash to recover and recommence operations? Evaluate and test it."
+    }
+   ]
+  },
+  {
+   "id": "ent7-17",
+   "title": "Try it: break-even and cash runway",
+   "blocks": [
+    {
+     "t": "tool",
+     "tool": "breakeven",
+     "title": "Try it: start-up costs, break-even and cash runway",
+     "intro": "Enter your start-up costs, prices and monthly costs to see how many sales you need to break even and how long your cash will last."
+    }
+   ]
+  },
+  {
+   "id": "ent7-18",
+   "title": "Debt: why it matters",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The most common cause of failure in small businesses is the inability to generate the cash to repay debt and interest. Once internal sources such as working capital are considered, equity or debt can fill cash shortfalls."
+    },
+    {
+     "t": "p",
+     "text": "An owner may inject more equity, and may share risk by inviting other investors to contribute. Equity investors might then consider other forms of finance to reduce their risk and meet planned expansion. There are several types of debt agreement."
+    }
+   ]
+  },
+  {
+   "id": "ent7-19",
+   "title": "Types of debt (1)",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "**Preference shares** - often carry a guaranteed fixed interest rate and rank ahead of ordinary shares in any repayment arising from insolvency.",
+      "**Loan stock or debentures** - a special form of contracted loan, usually redeemable at a specific maturity date. May be issued to buy specific assets and secured on them.",
+      "**Bonds** - another contracted loan; potentially tradable, although usually unsecured.",
+      "**Leasing** - specific assets are acquired with lease finance, always secured on the asset. It saves a large upfront outflow and can be less risky than a bank loan, but needs regular payments and there may be an early cancellation fee."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent7-20",
+   "title": "Types of debt (2)",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "**Bank loans** - usually for a fixed period, with a fixed or variable interest rate; often secured on specific assets or the business as a whole.",
+      "**Bank overdraft** - offered at the bank's discretion and can be cancelled at any time, not necessarily because of concerns about your business. Suited to short-term cash shortfalls; repayable on demand, with interest and a fee.",
+      "**Suppliers or trade payables** - suppliers give an interest-free loan if they offer a month's credit terms. They assess your credit standing first."
+     ]
+    },
+    {
+     "t": "quiz",
+     "id": "ent7-q4",
+     "q": "Which form of debt finance is repayable on demand and can be cancelled by the bank at any time?",
+     "options": [
+      "Bank overdraft",
+      "Debenture",
+      "Lease",
+      "Bond"
+     ],
+     "answer": 0,
+     "explain": "An overdraft is at the bank's discretion, can be cancelled at any time and is repayable on demand."
+    }
+   ]
+  },
+  {
+   "id": "ent7-21",
+   "title": "Grants",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Apart from equity, a business grant is the only other source of finance that is not repayable. A grant is a permanent cash injection, and unlike equity there is no loss of control over the business. Many development agencies and networks (Session 2) offer grants or can point you to those that do."
+    },
+    {
+     "t": "p",
+     "text": "Since the pandemic there have been grants from organisations such as Innovate UK aimed at research and development ideas with significant impact on the UK economy. Applying is competitive and grants are often only for a specific future project. In the UK, Gov.uk gives information on grants and funding schemes; many other governments also support entrepreneurs."
+    }
+   ]
+  },
+  {
+   "id": "ent7-22",
+   "title": "Alternative finance",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "'Alternative finance' describes raising business and consumer funding **without a bank as intermediary**. It has developed over the past 15 years to bridge the funding gap for micro and small businesses when bank funding was hard to obtain. Individuals pool funds so larger amounts can be lent to consumers and businesses. The most common forms are crowdfunding and peer-to-peer lending."
+    },
+    {
+     "t": "h",
+     "text": "Online platforms"
+    },
+    {
+     "t": "p",
+     "text": "The intermediary is an online platform, giving lenders and borrowers instant access to information about the project. Funds are raised over a fixed limited time, usually a couple of months. Platforms are not regulated to the same extent as banks and are paid through fees or charges."
+    }
+   ]
+  },
+  {
+   "id": "ent7-23",
+   "title": "Rate of return and risk",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Alternative finance attracts investors from retail savers to businesses, drawn by higher returns than low bank interest (1-2% in the UK in 2018). Funding Circle, for instance, quotes a return of 7 per cent on consumer loans."
+    },
+    {
+     "t": "p",
+     "text": "But the risk is higher too. Returns are not guaranteed and amounts lent are not protected by investor compensation schemes. In the UK, the Financial Services Compensation Scheme guarantees bank deposits up to £85,000 if a bank fails; there is no such guarantee for an alternative finance investor. Platforms use different approaches to pooling and arranging loans to increase security."
+    }
+   ]
+  },
+  {
+   "id": "ent7-24",
+   "title": "Crowdfunding",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Crowdfunding lets start-ups and microbusinesses with no tangible assets, no profit record and limited cash use existing customers and supporters to fund their business. It rolls up small sums, sometimes as little as £10, from many people. Supporters can see others' backing, comments and business updates during the funding period, which may influence them."
+    },
+    {
+     "t": "p",
+     "text": "For a business in the earliest stage of its life cycle, crowdfunding may appeal: you pitch via a platform and interested people contribute. Kickstarter is the world's largest reward-based crowdfunder. Investment crowdfunding (UK examples: Seedrs and Crowdcube) is growing rapidly; you will need professional legal advice and sound financial forecasts."
+    }
+   ]
+  },
+  {
+   "id": "ent7-25",
+   "title": "Types of crowdfunding",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "**Investment- or equity-based** - the investor receives a share in the business in return for funds.",
+      "**Peer-to-peer lending** - funds arranged as loans; the lender receives interest for a fixed period and repayment in full.",
+      "**Reward-based** - funding in return for goods or services, valued by the borrower.",
+      "**Donation-based** - funding for a charitable cause; donors expect nothing in return.",
+      "**Invoice trading** - helps businesses borrow in advance of receiving money from customers.",
+      "**Mini-bonds** - offered on some equity-based portals; not regulated in the same way and higher risk for the investor than equity."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent7-26",
+   "title": "Activity 2: Crowdfunding (1)",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Read advice on succeeding with crowdfunding from Nesta (nesta.org.uk/news/crowdfunding-tips), then answer True or False."
+    },
+    {
+     "t": "tf",
+     "id": "ent7-a2-1",
+     "q": "All ventures funded by crowdfunding platforms are successful.",
+     "answer": false,
+     "explain": "False. More than half are not."
+    },
+    {
+     "t": "tf",
+     "id": "ent7-a2-2",
+     "q": "The biggest mistake crowdfunders make is in asking for too little money.",
+     "answer": true,
+     "explain": "True. It is essential to make proper estimates of your costs."
+    }
+   ]
+  },
+  {
+   "id": "ent7-27",
+   "title": "Activity 2: Crowdfunding (2)",
+   "blocks": [
+    {
+     "t": "tf",
+     "id": "ent7-a2-3",
+     "q": "All platforms are the same so there is no point in shopping around.",
+     "answer": false,
+     "explain": "False. Some platforms focus on a particular sector, cause or industry; some are rewards-based, others equity-based, and commission differs."
+    },
+    {
+     "t": "tf",
+     "id": "ent7-a2-4",
+     "q": "All crowdfunding platforms are regulated by the FCA.",
+     "answer": false,
+     "explain": "False. You should read further about the risks to investors and lenders."
+    }
+   ]
+  },
+  {
+   "id": "ent7-28",
+   "title": "Peer-to-peer lending",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Funding Circle is an established peer-to-peer platform with tens of thousands of investors, as well as local government and universities, lending to British businesses. The Government-owned British Business Bank pledged to lend £40m via it."
+    },
+    {
+     "t": "p",
+     "text": "You can apply for loans up to £1 million (Funding Circle) or £3 million (Thincats), repayable over up to five years. Many platforms only lend to creditworthy borrowers, making them safer for investors. Investors don't own shares; their reward is interest. Peer-to-peer lending has been tax free in the UK since April 2016. Equity crowdfunding tax benefits (the EIS and SEIS schemes) are more complex but attractive."
+    }
+   ]
+  },
+  {
+   "id": "ent7-29",
+   "title": "Public equity",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "As a business grows and generates profit, the increase in net assets makes it attractive to additional external investors. The need to increase funding is the main reason to go public (Kim and Weisbach, 2008), or a business may have expansion plans needing more finance."
+    },
+    {
+     "t": "p",
+     "text": "Both can be achieved through an **initial public offering (IPO)** of shares through a stock exchange. The decision involves weighing the management time and professional fees that stock exchange regulation requires."
+    }
+   ]
+  },
+  {
+   "id": "ent7-30",
+   "title": "Private equity",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Private equity may be better than issuing public shares for several reasons:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "a business that is too small, has no track record or a high risk profile may do better staying private",
+      "less need to disclose details to the public and competitors",
+      "less onerous compliance and regulation",
+      "raising money from local investors or friends may be quicker",
+      "less exposure to hostile takeover and less pressure to produce consistently high profits."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Dilution",
+     "text": "Dilution is the reduction of each shareholder's interest in the total business as more shareholders are invited in. The more shareholders with voting rights, the less control you have."
+    }
+   ]
+  },
+  {
+   "id": "ent7-31",
+   "title": "Angels and venture capitalists",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A **business angel** contributes both equity funding and management skills. The UK Business Angels Association is the trade body; syndicates spread individual risk. **Venture capital** is groups of investors providing equity for early-stage, innovative, high-risk businesses, expecting a high return in the medium term, and often giving advice. Both can fund businesses that want to expand without going public. Angels may take board roles and invest for at least three years."
+    },
+    {
+     "t": "p",
+     "text": "A survey of 158 UK angels showed 56 per cent of investments ended at a loss, often losing the whole investment; overall returns for UK angels were 22 per cent (Nesta, 2009)."
+    }
+   ]
+  },
+  {
+   "id": "ent7-32",
+   "title": "What angels and VCs expect",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Investors tend to want involvement at the early stages of reasonably well-established businesses with ambitions to grow substantially but without the backing to do it alone: they must have potential to 'scale up' and a plan to show it."
+    },
+    {
+     "t": "p",
+     "text": "Many owners reject equity finance because they don't want to give up control or have a social mission that doesn't fit investors' ambitions. Angels and VCs want a board seat, strong governance, regular meetings, monthly management accounts and reports. You gain finance, knowledge, contacts and experience, but you are accountable to them. A VC will also expect an **exit route**: a way to realise gains in cash."
+    }
+   ]
+  },
+  {
+   "id": "ent7-33",
+   "title": "Video: Financing a start-up",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Watch our entrepreneurs discuss how they financed their business start-up and how they matched investors' expectations with their own ambitions and ideas."
+    },
+    {
+     "t": "video",
+     "title": "Video 1 Financing a business start-up",
+     "url": null,
+     "note": "Entrepreneurs describe how they financed their start-up, starting with grants ('a lot of free money'), and the issues of matching investor expectations with their own ambitions."
+    }
+   ]
+  },
+  {
+   "id": "ent7-34",
+   "title": "Weighing up the pros and cons",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Owners must weigh keeping control of their projects against receiving expert advice, support and a large amount of funding from a venture capital firm or business angel."
+    },
+    {
+     "t": "p",
+     "text": "Through crowdfunding, businesses get feedback from investors who are also customers and can become advocates. Crowdfunding is still early-stage but has filled a funding gap for SMEs. There are successes (E-Car Club raised £100,000 in equity on Crowdcube and was later acquired by Europcar), spectacular failures (iBackPack) and some famous scams (Cataldo's Cancer)."
+    }
+   ]
+  },
+  {
+   "id": "ent7-35",
+   "title": "Session quiz (1)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "ent7-q5",
+     "q": "Which source of finance is, apart from equity, not repayable and involves no loss of control?",
+     "options": [
+      "A grant",
+      "A bank overdraft",
+      "A debenture",
+      "A mini-bond"
+     ],
+     "answer": 0,
+     "explain": "A grant is a permanent cash injection with no repayment and no loss of control."
+    },
+    {
+     "t": "quiz",
+     "id": "ent7-q6",
+     "q": "In which type of crowdfunding does the investor receive a share in the business?",
+     "options": [
+      "Equity-based",
+      "Reward-based",
+      "Donation-based",
+      "Invoice trading"
+     ],
+     "answer": 0,
+     "explain": "In investment- or equity-based crowdfunding the investor receives a share."
+    },
+    {
+     "t": "tf",
+     "id": "ent7-q7",
+     "q": "Alternative finance investors in the UK are covered by the Financial Services Compensation Scheme in the same way as bank depositors.",
+     "answer": false,
+     "explain": "There is no such guarantee for an alternative finance investor."
+    }
+   ]
+  },
+  {
+   "id": "ent7-36",
+   "title": "Session quiz (2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "ent7-q8",
+     "q": "Which statement about dilution is correct?",
+     "options": [
+      "Each shareholder's share of the business falls as more shareholders join",
+      "It spreads depreciation over several years",
+      "It shows profit margin over a year",
+      "It is a type of bank loan"
+     ],
+     "answer": 0,
+     "explain": "Dilution reduces each shareholder's interest as more shareholders are added, reducing your control."
+    },
+    {
+     "t": "quiz",
+     "id": "ent7-q9",
+     "q": "Which of these do investors typically expect from a venture capitalist deal?",
+     "options": [
+      "An exit route to realise gains in cash",
+      "No involvement in the board",
+      "No reporting",
+      "A guaranteed fixed return"
+     ],
+     "answer": 0,
+     "explain": "VCs expect an exit route, a seat on the board and regular reporting."
+    },
+    {
+     "t": "quiz",
+     "id": "ent7-q10",
+     "q": "Which financial statement shows how a business has performed over a period of time?",
+     "options": [
+      "Profit and loss account",
+      "Balance sheet",
+      "Share register",
+      "Loan agreement"
+     ],
+     "answer": 0,
+     "explain": "The p&l (income statement) shows sales and expenses over a period; the balance sheet is a snapshot at one moment."
+    }
+   ]
+  },
+  {
+   "id": "ent7-37",
+   "title": "Summary",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "This session introduced options from the start of your enterprise lifecycle to the high-growth phases. The most important advice is to understand your own business and your own values. You have:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "recognised how crucial it is to manage cash flow",
+      "looked at three important financial statements: the balance sheet, profit and loss account, and cash flow statement",
+      "considered the sources of funds available at different life-cycle stages and how to assess them against your aims and the terms attached."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "If you approach external investors, understand what they are looking for and what they can provide: it is a two-way exchange of value. Be clear what you want and what you will give up: control, ownership and almost certainly a share of future profits. Seeking professional advice and being confident in your own financial statements are crucial steps."
+    },
+    {
+     "t": "flash",
+     "cards": [
+      {
+       "front": "Equity financing",
+       "back": "Money contributed by the owners at start-up; never repaid unless the business is liquidated."
+      },
+      {
+       "front": "Working capital",
+       "back": "Cash + inventory + receivables - payables: the day-to-day running resources."
+      },
+      {
+       "front": "Balance sheet",
+       "back": "Snapshot of assets, liabilities and equity at a moment in time."
+      },
+      {
+       "front": "Profit and loss account",
+       "back": "Sales revenues and expenses over a period, showing profit or loss."
+      },
+      {
+       "front": "Dilution",
+       "back": "Each shareholder's share falls as more shareholders join."
+      },
+      {
+       "front": "Exit route",
+       "back": "A way for investors to realise gains in cash."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
