@@ -18,7 +18,7 @@
     if(tf)return Promise.resolve(tf);
     return import(abs('/vendor/transformers.min.js')).then(function(m){
       tf=m; var env=m.env; env.allowLocalModels=false; env.useBrowserCache=true;
-      var w=env.backends.onnx.wasm; w.wasmPaths={mjs:abs('/vendor/ort-wasm-simd-threaded.jsep.mjs'),wasm:abs('/vendor/ort-wasm-simd-threaded.jsep.wasm')};
+      var w=env.backends.onnx.wasm; w.wasmPaths={mjs:abs('/vendor/ort-wasm-simd-threaded.asyncify.mjs'),wasm:abs('/vendor/ort-wasm-simd-threaded.asyncify.wasm')};
       w.numThreads=self.crossOriginIsolated?Math.min(4,navigator.hardwareConcurrency||2):1; return tf;});
   }
   function gpuInfo(){
