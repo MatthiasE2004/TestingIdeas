@@ -206,43 +206,62 @@
     root.appendChild(aiCard());root.appendChild(syncCard());root.appendChild(dataCard());
     root.appendChild(h('div',{class:'card flat tiny muted'},h('b',null,'About. '),'Course content: The Open University, OpenLearn (CC BY-NC-SA 4.0): "Project management: the start of the project journey" and "Entrepreneurship: from ideas to reality". Reformatted for mobile learning with added practice questions and interactive tools. Not an official Open University product.'));}
 
+  function fmtMB(b){return b>=1073741824?(b/1073741824).toFixed(2)+' GB':(b/1048576).toFixed(0)+' MB'}
   function aiCard(){
     var card=h('div',{class:'card'}),status=h('div',{class:'tiny muted'}),diag=h('div',{class:'tiny muted',style:{marginTop:'6px'}});
     card.appendChild(h('div',{class:'label'},'Local AI'));card.appendChild(h('h3',{style:{margin:'4px 0 4px'}},'On-device model'));
-    card.appendChild(h('p',{class:'muted tiny'},'Runs fully on this device (no cloud). Models are downloaded once over Wi-Fi from Hugging Face. 0.5B-1B models suit 4 GB tablets; 1.5B-2B need more free RAM.'));
+    card.appendChild(h('p',{class:'muted tiny'},'Runs fully on this device (no cloud). Models are downloaded once from Hugging Face. 0.5B-1B models suit 4 GB tablets; 1.5B-2B need more free RAM.'));
     card.appendChild(status);card.appendChild(diag);
     LLM.gpuInfo().then(function(g){diag.textContent='WebGPU: '+(g.webgpu?('yes'+(g.f16?' (fp16)':'')+(g.desc?' · '+g.desc:'')):'not available - CPU mode')+' · secure context: '+(self.isSecureContext?'yes':'no')+' · isolated: '+(self.crossOriginIsolated?'yes':'no')});
-    /* device preference */
     var dev=h('div',{class:'row',style:{margin:'12px 0'}},h('span',{class:'tiny muted'},'Run on:'));
     [['auto','Auto (GPU first)'],['webgpu','GPU only'],['wasm','CPU only']].forEach(function(d){dev.appendChild(h('button',{class:'chip'+(Store.settings.device===d[0]?' on':''),onclick:function(){Store.settings.device=d[0];Store.saveSettings();var p=card.parentNode;p.replaceChild(aiCard(),card)}},d[1]))});
     card.appendChild(dev);
-    var prog=h('div',{class:'progress-line hide'},h('i')),list=h('div'),testOut=h('div');
-    card.appendChild(prog);
-    function renderStatus(s){var st=LLM.status();
+    var list=h('div'),testOut=h('div'),other=h('div'),store=h('div',{class:'tiny muted',style:{marginTop:'10px'}}),inst={},live=null,lastErrByRepo={};
+    function renderStatus(){var st=LLM.status();
       status.innerHTML=st.state==='ready'?'<b class="ok">Ready</b> · '+H.esc(st.model.name)+' · '+H.esc(st.backend)
-        :st.state==='loading'?'<b>Loading</b> '+H.esc(st.model?st.model.name:'')+(s&&s.totalMB?' · '+s.loadedMB.toFixed(0)+' / '+s.totalMB.toFixed(0)+' MB':'')
-        :st.state==='error'?'<b class="bad">Error:</b> '+H.esc(st.error||''):'No model loaded';
-      if(st.state==='loading'){prog.classList.remove('hide');prog.firstChild.style.width=Math.round(((s&&s.progress)||0)*100)+'%'}else prog.classList.add('hide');}
-    renderStatus();var sub=function(s){if(document.body.contains(card)){renderStatus(s);if(s&&s.state!=='loading')drawList()}};LLM.on(sub);
-    function loadModel(m){Store.settings.model=m.id||m.repo;Store.saveSettings();LLM.load(m,{device:Store.settings.device}).then(function(){H.toast('Model ready')}).catch(function(e){H.toast('Load failed')})}
-    function drawList(){list.innerHTML='';var cur=LLM.status();
-      LLM.catalog.forEach(function(m){var dl=LLM.downloaded(m),active=cur.state==='ready'&&cur.model&&cur.model.id===m.id;
-        list.appendChild(h('div',{class:'model-row'},h('div',{style:{flex:1,minWidth:0}},h('b',{style:{fontWeight:500}},m.name),' ',h('span',{class:'label'},m.params+' · ~'+m.mb+' MB'),h('div',{class:'tiny muted'},m.note+(dl?' · downloaded':''))),
-          h('div',{class:'row',style:{gap:'6px'}},
-            h('button',{class:'btn sm'+(active?'':' primary'),disabled:active||cur.state==='loading',onclick:function(){loadModel(m)}},active?'Active':(dl?'Load':'Download')),
-            dl?h('button',{class:'btn ghost sm',disabled:cur.state==='loading',onclick:function(){if(active)LLM.unload();LLM.purge(m).then(drawList)}},'Delete'):null)))});}
-    drawList();card.appendChild(list);
+        :st.state==='loading'?'<b>Working...</b> '+H.esc(st.model?st.model.name:''):st.state==='error'?'<b class="bad">Error:</b> '+H.esc(st.error||''):'No model loaded'}
+    function refresh(){return LLM.storage().then(function(s){inst={};s.repos.forEach(function(r){inst[r.repo]=r});
+      store.textContent='Model files on this device: '+fmtMB(s.repos.reduce(function(a,r){return a+r.bytes},0))+(s.quota?' · app storage used '+fmtMB(s.usage)+' of ~'+fmtMB(s.quota)+' available':'');
+      drawList();drawOther()})}
+    function select(m){Store.settings.model=m.id||m.repo;Store.saveSettings();LLM.load(m,{device:Store.settings.device}).then(function(){H.toast('Model ready')}).catch(function(e){lastErrByRepo[m.repo]=String(e&&e.message||e);H.toast('Download/load failed')}).then(refresh)}
+    function drawList(){list.innerHTML='';var cur=LLM.status(),busy=cur.state==='loading';
+      LLM.catalog.forEach(function(m){var i=inst[m.repo],has=!!(i&&i.complete),partial=!!(i&&!i.complete),active=cur.state==='ready'&&cur.model&&cur.model.repo===m.repo,
+        loadingThis=busy&&cur.model&&cur.model.repo===m.repo,selected=Store.settings.model===m.id;
+        var info=h('div',{style:{flex:1,minWidth:0}},h('b',{style:{fontWeight:500}},m.name),' ',h('span',{class:'label'},m.params+' · ~'+m.mb+' MB'));
+        var sub=has?'Downloaded · '+fmtMB(i.bytes)+(active?' · active ('+cur.backend+')':(selected?' · selected':'')):partial?'Incomplete files · '+fmtMB(i.bytes):m.note;
+        info.appendChild(h('div',{class:'tiny '+(has?'ok':'muted')},sub));
+        if(!has&&!partial&&!loadingThis)info.lastChild.className='tiny muted';
+        if(lastErrByRepo[m.repo]&&!loadingThis&&!has)info.appendChild(h('div',{class:'tiny bad'},'Failed: '+lastErrByRepo[m.repo]));
+        if(loadingThis){var ph=live&&live.phase,pct=Math.round(((live&&live.progress)||0)*100);
+          var txt=!live||live.phase==='start'?'Starting download...':(ph==='init'?'Initializing model on '+(Store.settings.device==='wasm'?'CPU':'GPU')+'... (can take a minute)':'Downloading '+pct+'% · '+live.loadedMB.toFixed(0)+' / '+live.totalMB.toFixed(0)+' MB'+(live.speedMBs?' · '+live.speedMBs.toFixed(1)+' MB/s':''));
+          info.appendChild(h('div',{class:'tiny',style:{marginTop:'4px'}},txt));info.appendChild(h('div',{class:'progress-line'},h('i',{style:{width:(ph==='init'?100:Math.max(2,pct))+'%'}})))}
+        var btns=h('div',{class:'row',style:{gap:'6px',flexShrink:0}});
+        if(loadingThis)btns.appendChild(h('span',{class:'label'},'Working'));
+        else{
+          btns.appendChild(h('button',{class:'btn sm'+(active?'':' primary'),disabled:active||busy,onclick:function(){delete lastErrByRepo[m.repo];select(m)}},active?'Active':has?(selected?'Load':'Select'):(partial?'Retry':'Download')));
+          if(has||partial)btns.appendChild(h('button',{class:'btn ghost sm',disabled:busy,onclick:function(){if(!confirm('Delete files of '+m.name+' ('+fmtMB(i.bytes)+')?'))return;if(active)LLM.unload();LLM.purge(m).then(function(){if(Store.settings.model===m.id){Store.settings.model=null;Store.saveSettings()}H.toast('Deleted');refresh()})}},'Delete'))}
+        list.appendChild(h('div',{class:'model-row'},info,btns))})}
+    function drawOther(){other.innerHTML='';var known={};LLM.catalog.forEach(function(m){known[m.repo]=1});
+      var rest=Object.keys(inst).filter(function(r){return !known[r]}).map(function(r){return inst[r]});
+      if(!rest.length)return;other.appendChild(h('div',{class:'label',style:{margin:'14px 0 4px'}},'Other model files (custom or leftovers)'));
+      rest.forEach(function(r){var cur=LLM.status(),active=cur.state==='ready'&&cur.model&&cur.model.repo===r.repo;
+        other.appendChild(h('div',{class:'model-row'},h('div',{style:{flex:1,minWidth:0,wordBreak:'break-all'}},r.repo,h('div',{class:'tiny '+(r.complete?'ok':'bad')},(r.complete?'Downloaded':'Incomplete')+' · '+fmtMB(r.bytes))),
+          h('div',{class:'row',style:{gap:'6px'}},r.complete?h('button',{class:'btn sm primary',disabled:active||cur.state==='loading',onclick:function(){select({id:r.repo,repo:r.repo,name:r.repo,custom:true,params:'?',mb:0})}},active?'Active':'Select'):null,
+            h('button',{class:'btn ghost sm',onclick:function(){if(active)LLM.unload();LLM.purgeRepo(r.repo).then(function(){H.toast('Deleted');refresh()})}},'Delete'))))})}
+    renderStatus();
+    var sub=function(s){if(!document.body.contains(card))return;renderStatus();if(s&&s.state==='loading'){live=s.phase?s:Object.assign({},live,s);drawList()}else if(s&&(s.state==='ready'||s.state==='error')){live=null;refresh()}};LLM.on(sub);
+    card.appendChild(h('div',{class:'label',style:{margin:'4px 0 2px'}},'Models'));card.appendChild(list);card.appendChild(other);card.appendChild(store);
+    card.appendChild(h('div',{class:'row',style:{marginTop:'10px'}},h('button',{class:'btn ghost sm',onclick:function(){if(!confirm('Delete ALL downloaded model files and caches from this device?'))return;LLM.purgeAll().then(function(){Store.settings.model=null;Store.saveSettings();H.toast('All model files deleted');renderStatus();refresh()})}},'Delete all model files'),h('button',{class:'btn ghost sm',onclick:refresh},'Rescan')));
     var cu=h('input',{class:'input',placeholder:'Custom ONNX repo, e.g. onnx-community/...',value:Store.settings.custom||''});
-    card.appendChild(h('div',{class:'row',style:{marginTop:'12px',flexWrap:'nowrap'}},cu,h('button',{class:'btn sm primary',onclick:function(){var v=cu.value.trim();if(!v)return;Store.settings.custom=v;Store.saveSettings();loadModel({id:v,repo:v,name:v,custom:true,params:'?',mb:0})}},'Load')));
+    card.appendChild(h('div',{class:'row',style:{marginTop:'12px',flexWrap:'nowrap'}},cu,h('button',{class:'btn sm primary',onclick:function(){var v=cu.value.trim();if(!v)return;Store.settings.custom=v;Store.saveSettings();select({id:v,repo:v,name:v,custom:true,params:'?',mb:0})}},'Download')));
     var auto=h('button',{class:'sw'+(Store.settings.autoload?' on':''),onclick:function(){Store.settings.autoload=!Store.settings.autoload;Store.saveSettings();auto.classList.toggle('on')}});
-    card.appendChild(h('div',{class:'row between',style:{marginTop:'14px'}},h('span',null,'Load last model when the app starts'),auto));
-    /* test */
+    card.appendChild(h('div',{class:'row between',style:{marginTop:'14px'}},h('span',null,'Load selected model when the app starts'),auto));
     var tin=h('input',{class:'input',value:'Explain in two sentences why a feasibility study matters before starting a project.'});
     card.appendChild(h('div',{style:{marginTop:'16px'}},h('div',{class:'label',style:{marginBottom:'6px'}},'Test the model'),tin,
       h('div',{class:'row',style:{marginTop:'8px'}},h('button',{class:'btn primary sm',onclick:function(){
         if(!AI.available()){H.toast('Load a model first');return}testOut.innerHTML='';var box=h('div',{class:'ai-box',style:{marginTop:'10px'}},h('span',{class:'label'},'Output'),h('span',{class:'t'},'...'));testOut.appendChild(box);var t0=Date.now();
         AI.ask({system:'You are a concise tutor.',prompt:tin.value,maxTokens:120,temperature:0.3,onToken:function(t){box.querySelector('.t').textContent=t}}).then(function(t){box.querySelector('.t').textContent=t;box.appendChild(h('div',{style:{marginTop:'8px',fontSize:'.8rem',color:'#9a9a9a'}},LLM.lastTps.toFixed(1)+' tokens/s · '+((Date.now()-t0)/1000).toFixed(1)+' s · '+(LLM.status().backend||'')))}).catch(function(e){box.querySelector('.t').textContent='Error: '+e.message})}},'Run test')),testOut));
-    return card}
+    refresh();return card}
 
   function syncCard(){
     var card=h('div',{class:'card'}),body=h('div');

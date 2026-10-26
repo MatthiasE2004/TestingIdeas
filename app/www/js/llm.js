@@ -30,9 +30,12 @@
   }
   function resolve(model){ // model may be catalog entry or {repo:'..'}
     var m=typeof model==='string'?(CATALOG.filter(function(c){return c.id===model})[0]||{repo:model,name:model,custom:true}):model; return m}
+  var t0dl=0,lastB=0,lastT=0,speed=0;
   function progressCb(p){
     if(p.status==='progress'&&p.total){prog[p.file]={l:p.loaded,t:p.total}; var l=0,t=0;for(var k in prog){l+=prog[k].l;t+=prog[k].t}
-      emit({progress:t?l/t:0,loadedMB:l/1048576,totalMB:t/1048576,file:p.file});}
+      var now=Date.now(); if(!lastT){lastT=now;lastB=l}else if(now-lastT>800){speed=(l-lastB)/((now-lastT)/1000);lastT=now;lastB=l}
+      emit({progress:t?l/t:0,loadedMB:l/1048576,totalMB:t/1048576,file:p.file,speedMBs:speed/1048576,phase:(t&&l>=t)?'init':'download'});}
+    else if(p.status==='initiate'||p.status==='download')emit({file:p.file,phase:'download'});
     else if(p.status==='ready'||p.status==='done')emit({file:p.file});
   }
   var LLM={
@@ -41,7 +44,7 @@
     isReady:function(){return state==='ready'&&!!gen},
     /** opts:{device:'auto'|'webgpu'|'wasm'} */
     load:function(model,opts){
-      opts=opts||{}; var m=resolve(model); state='loading'; lastErr=null; prog={}; cur=m; gen=null; emit({progress:0});
+      opts=opts||{}; var m=resolve(model); state='loading'; lastErr=null; prog={}; lastT=0;speed=0; cur=m; gen=null; var hadFlag=LLM.downloaded(m); emit({progress:0,phase:'start'});
       return Promise.all([lib(),gpuInfo()]).then(function(r){
         var gi=r[1],want=opts.device||'auto';
         var devs=want==='wasm'?['wasm']:want==='webgpu'?['webgpu']:(gi.webgpu?['webgpu','wasm']:['wasm']);
@@ -51,14 +54,33 @@
             .catch(function(e){ if(i+1<devs.length){console.warn('load on '+dev+' failed, trying next',e);return attempt(i+1)} throw e});}
         return attempt(0);
       }).then(function(p){gen=p;state='ready';try{localStorage.setItem('learn.dl.'+m.repo,'1')}catch(e){} emit({progress:1});return m})
-        .catch(function(e){state='error';lastErr=String(e&&e.message||e);gen=null;emit();throw e});
+        .catch(function(e){state='error';lastErr=String(e&&e.message||e);gen=null;
+          // a failed first download leaves partial files behind: remove them so storage is not wasted
+          var cleanup=hadFlag?Promise.resolve():LLM.purgeRepo(m.repo);
+          return cleanup.then(function(){lastErr+=hadFlag?'':' (partial files were removed)';emit();throw e})});
     },
-    downloaded:function(model){var m=resolve(model);try{return localStorage.getItem('learn.dl.'+m.repo)==='1'}catch(e){return false}},
+    downloaded:function(model){var repo=typeof model==='string'&&model.indexOf('/')>0?model:resolve(model).repo;try{return localStorage.getItem('learn.dl.'+repo)==='1'}catch(e){return false}},
     unload:function(){gen=null;state='idle';backend=null;emit()},
     /** removes cached files of a model */
-    purge:function(model){var m=resolve(model);try{localStorage.removeItem('learn.dl.'+m.repo)}catch(e){}
-      if(!self.caches)return Promise.resolve(); return caches.keys().then(function(ks){return Promise.all(ks.map(function(k){return caches.open(k).then(function(c){return c.keys().then(function(reqs){
-        return Promise.all(reqs.filter(function(r){return r.url.indexOf('/'+m.repo+'/')>=0}).map(function(r){return c.delete(r)}))})})}))})},
+    purge:function(model){return LLM.purgeRepo(resolve(model).repo)},
+    purgeRepo:function(repo){try{localStorage.removeItem('learn.dl.'+repo)}catch(e){}
+      if(!self.caches)return Promise.resolve(0); var n=0;
+      return caches.keys().then(function(ks){return Promise.all(ks.map(function(k){return caches.open(k).then(function(c){return c.keys().then(function(reqs){
+        return Promise.all(reqs.filter(function(r){return r.url.indexOf('huggingface.co/'+repo+'/')>=0}).map(function(r){n++;return c.delete(r)}))})})}))}).then(function(){return n})},
+    purgeAll:function(){var jobs=[];LLM.unload();
+      try{Object.keys(localStorage).filter(function(k){return k.indexOf('learn.dl.')===0}).forEach(function(k){localStorage.removeItem(k)})}catch(e){}
+      if(self.caches)jobs.push(caches.keys().then(function(ks){return Promise.all(ks.map(function(k){return caches.delete(k)}))})); return Promise.all(jobs)},
+    /** scans the cache: -> {repos:[{repo,bytes,files,complete}], usage, quota} */
+    storage:function(){
+      var est=(navigator.storage&&navigator.storage.estimate)?navigator.storage.estimate().catch(function(){return {}}):Promise.resolve({});
+      var scan=!self.caches?Promise.resolve({}):caches.keys().then(function(ks){var by={};
+        return Promise.all(ks.map(function(k){return caches.open(k).then(function(c){return c.keys().then(function(reqs){
+          return Promise.all(reqs.map(function(r){var m=/huggingface\.co\/([^\/]+\/[^\/]+)\//.exec(r.url);if(!m)return;
+            return c.match(r).then(function(res){if(!res)return;var cl=+res.headers.get('content-length');
+              var sz=cl>0?Promise.resolve(cl):res.clone().blob().then(function(b){return b.size});
+              return sz.then(function(b){var e=by[m[1]]||(by[m[1]]={repo:m[1],bytes:0,files:0});e.bytes+=b;e.files++})})}))})})})).then(function(){return by})});
+      return Promise.all([scan,est]).then(function(r){var list=Object.keys(r[0]).map(function(k){var e=r[0][k];e.complete=LLM.downloaded(e.repo);return e});
+        list.sort(function(a,b){return b.bytes-a.bytes});return {repos:list,usage:r[1].usage||0,quota:r[1].quota||0}})},
     /** opts:{system,prompt,maxTokens,temperature,onToken} */
     generate:function(o){
       var run=function(){
