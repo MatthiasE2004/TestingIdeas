@@ -4,13 +4,14 @@
   var CATALOG=[
     {id:'qwen2.5-0.5b',name:'Qwen2.5 0.5B Instruct',params:'0.5B',repo:'onnx-community/Qwen2.5-0.5B-Instruct',mb:450,note:'Fastest. Good for short feedback.'},
     {id:'qwen3-0.6b',name:'Qwen3 0.6B',params:'0.6B',repo:'onnx-community/Qwen3-0.6B-ONNX',mb:520,note:'Small reasoning-capable model (thinking is switched off).',qwen3:true},
-    {id:'gemma3-1b',name:'Gemma 3 1B IT',params:'1B',repo:'onnx-community/gemma-3-1b-it-ONNX-GQA',mb:760,note:'Closest available Gemma 1B; best quality/size balance.'},
-    {id:'llama3.2-1b',name:'Llama 3.2 1B Instruct',params:'1.2B',repo:'onnx-community/Llama-3.2-1B-Instruct-q4f16',mb:1000,gpuOnly:true,fixedDtype:'q4f16',note:'GPU only.'},
+    {id:'gemma3-1b',native:false,name:'Gemma 3 1B IT',params:'1B',repo:'onnx-community/gemma-3-1b-it-ONNX-GQA',mb:760,note:'Closest available Gemma 1B; best quality/size balance.'},
+    {id:'llama3.2-1b',native:false,name:'Llama 3.2 1B Instruct',params:'1.2B',repo:'onnx-community/Llama-3.2-1B-Instruct-q4f16',mb:1000,gpuOnly:true,fixedDtype:'q4f16',note:'GPU only.'},
     {id:'qwen2.5-1.5b',name:'Qwen2.5 1.5B Instruct',params:'1.5B',repo:'onnx-community/Qwen2.5-1.5B-Instruct',mb:1100,note:'Noticeably better answers; slower.'},
     {id:'qwen3-1.7b',name:'Qwen3 1.7B',params:'1.7B',repo:'onnx-community/Qwen3-1.7B-ONNX',mb:1250,note:'Thinking switched off.',qwen3:true},
     {id:'smollm2-1.7b',name:'SmolLM2 1.7B Instruct',params:'1.7B',repo:'HuggingFaceTB/SmolLM2-1.7B-Instruct',mb:1200,note:'Needs the ONNX files in the repo; if it fails use another model.'},
-    {id:'gemma4-1b',name:'Gemma 4 1B (unverified id)',params:'1B',repo:'onnx-community/gemma-4-1b-it-ONNX',mb:800,note:'Repo id could not be verified from the build machine. If the download fails, paste the correct ONNX repo id under Custom model.'}
+    {id:'gemma4-1b',native:false,name:'Gemma 4 1B (unverified id)',params:'1B',repo:'onnx-community/gemma-4-1b-it-ONNX',mb:800,note:'Repo id could not be verified from the build machine. If the download fails, paste the correct ONNX repo id under Custom model.'}
   ];
+  var NATIVE=!!(window.Android&&window.Android.llmPost),useNative=false;
   var worker=null,cur=null,backend=null,state='idle',lastErr=null,subs=[],prog={},seq=0,calls={},lastInfo={};
   var t0dl=0,lastB=0,lastT=0,speed=0;
   function emit(extra){subs.forEach(function(f){try{f(Object.assign({state:state,model:cur,backend:backend,error:lastErr},extra||{}))}catch(e){}})}
@@ -33,50 +34,68 @@
   function startWorker(){
     killWorker();
     worker=new Worker(location.origin+'/js/llm-worker.js',{type:'module'});
-    worker.onmessage=function(e){var m=e.data;
+    worker.onmessage=function(e){onMsg(e.data)};
+    worker.onerror=function(e){failAll(new Error('AI worker error: '+(e.message||'failed to start')));};
+    return worker}
+  function onMsg(m){
       if(m.type==='progress')return progressCb(m.p);
       var c=calls[m.id];if(!c)return;
       if(m.type==='token'){if(c.onToken)c.onToken(clean(m.text))}
       else if(m.type==='loaded'){delete calls[m.id];c.res(m)}
       else if(m.type==='done'){delete calls[m.id];c.res(m)}
-      else if(m.type==='error'){delete calls[m.id];c.rej(new Error(m.message))}};
-    worker.onerror=function(e){failAll(new Error('AI worker error: '+(e.message||'failed to start')));};
-    return worker}
+      else if(m.type==='error'){delete calls[m.id];c.rej(new Error(m.message))}}
+  window.__llmEvent=onMsg;
+  function send(msg){if(useNative)window.Android.llmPost(JSON.stringify(msg));else worker.postMessage(msg)}
   function killWorker(){if(worker){try{worker.terminate()}catch(e){}worker=null}}
   function failAll(err){var cs=calls;calls={};Object.keys(cs).forEach(function(k){cs[k].rej(err)})}
-  function call(msg,extra){return new Promise(function(res,rej){var id=++seq;calls[id]=Object.assign({res:res,rej:rej},extra||{});msg.id=id;worker.postMessage(msg)})}
+  function call(msg,extra){return new Promise(function(res,rej){var id=++seq;calls[id]=Object.assign({res:res,rej:rej},extra||{});msg.id=id;send(msg)})}
   function clean(t){return String(t||'').replace(/<think>[\s\S]*?(<\/think>|$)/g,'').trim()}
+  function loadNative(m){
+    killWorker();useNative=true;
+    mark({stage:'load',dev:'native',model:m.id||m.repo});
+    var th=Math.max(2,Math.min(4,Math.floor((navigator.hardwareConcurrency||8)/2)));
+    return call({type:'load',repo:m.repo,dtype:'q4',threads:th,template:m.template}).then(function(r){
+      backend='CPU (native x'+r.threads+')';lastInfo={isolated:true,threads:r.threads,device:'native',dtype:'q4'};return m})}
+  function loadWeb(m,want){
+    useNative=false;startWorker();
+    return gpuInfo().then(function(gi){
+      if(want==='webgpu'&&!gi.webgpu)throw new Error('WebGPU is not available in this WebView - use CPU mode.');
+      if(m.gpuOnly&&want!=='webgpu')throw new Error('This model needs GPU mode (experimental).');
+      var dtype=m.fixedDtype||(want==='webgpu'&&gi.f16?'q4f16':'q4');
+      mark({stage:'load',dev:want,model:m.id||m.repo});
+      return call({type:'load',origin:location.origin,repo:m.repo,device:want,dtype:dtype,threads:threads()}).then(function(r){
+        backend=want==='webgpu'?'GPU (WebGPU)':'CPU (WebView WASM x'+r.threads+')';lastInfo={isolated:r.isolated,threads:r.threads,device:want,dtype:dtype};return m})})}
+  function nativeList(){if(!NATIVE)return [];try{return JSON.parse(window.Android.llmStorage())}catch(e){return []}}
   var LLM={
     catalog:CATALOG, gpuInfo:gpuInfo,
     on:function(f){subs.push(f)}, status:function(){return {state:state,model:cur,backend:backend,error:lastErr}},
-    isReady:function(){return state==='ready'&&!!worker},
+    isReady:function(){return state==='ready'&&(useNative||!!worker)},
+    nativeAvailable:function(){return NATIVE},
     info:function(){return lastInfo},
-    /** opts:{device:'wasm'|'webgpu'|'auto'} ('auto' = CPU; GPU is opt-in) */
+    /** opts:{device:'native'|'wasm'|'webgpu'}. Native (Android only) = ONNX Runtime CPU kernels via JNI; wasm/webgpu = WebView worker. */
     load:function(model,opts){
       opts=opts||{}; var m=resolve(model); state='loading'; lastErr=null; prog={}; lastT=0;speed=0; cur=m; backend=null; var hadFlag=LLM.downloaded(m);
-      emit({progress:0,phase:'start'}); startWorker();
-      return gpuInfo().then(function(gi){
-        var want=opts.device==='webgpu'?'webgpu':'wasm';
-        if(want==='webgpu'&&!gi.webgpu)throw new Error('WebGPU is not available in this WebView - use CPU mode.');
-        if(m.gpuOnly&&want!=='webgpu')throw new Error('This model needs GPU mode (experimental).');
-        var dtype=m.fixedDtype||(want==='webgpu'&&gi.f16?'q4f16':'q4');
-        mark({stage:'load',dev:want,model:m.id||m.repo});
-        return call({type:'load',origin:location.origin,repo:m.repo,device:want,dtype:dtype,threads:threads()}).then(function(r){
-          backend=want==='webgpu'?'GPU (WebGPU)':'CPU (WASM x'+r.threads+')';lastInfo={isolated:r.isolated,threads:r.threads,device:want,dtype:dtype};return m})})
-      .then(function(){state='ready';mark(null);try{localStorage.setItem('learn.dl.'+m.repo,'1')}catch(e){}emit({progress:1});return m})
-      .catch(function(e){mark(null);state='error';lastErr=String(e&&e.message||e);killWorker();
+      var wantNative=NATIVE&&opts.device==='native'&&m.native!==false;
+      emit({progress:0,phase:'start'});
+      var p=wantNative?loadNative(m):loadWeb(m,opts.device==='webgpu'?'webgpu':'wasm');
+      if(wantNative)p=p.catch(function(e){ // model not supported by the native engine (tokenizer / dtype): transparently use the WebView CPU engine
+        if(/Unsupported|only fp32|no KV-cache|Only byte-level/i.test(String(e.message))){console.warn('native engine cannot run this model, using WebView CPU',e.message);return loadWeb(m,'wasm')}
+        throw e});
+      return p.then(function(){state='ready';mark(null);try{localStorage.setItem('learn.dl.'+m.repo,'1')}catch(e){}emit({progress:1});return m})
+      .catch(function(e){mark(null);state='error';lastErr=String(e&&e.message||e);if(!useNative)killWorker();
         var cleanup=hadFlag?Promise.resolve():LLM.purgeRepo(m.repo);
         return cleanup.then(function(){if(!hadFlag)lastErr+=' (partial files were removed)';emit();throw e})});
     },
-    downloaded:function(model){var repo=typeof model==='string'&&model.indexOf('/')>0?model:resolve(model).repo;try{return localStorage.getItem('learn.dl.'+repo)==='1'}catch(e){return false}},
-    unload:function(){killWorker();state='idle';backend=null;emit()},
+    downloaded:function(model){var repo=typeof model==='string'&&model.indexOf('/')>0?model:resolve(model).repo;try{if(NATIVE&&window.Android.llmComplete(repo))return true;return localStorage.getItem('learn.dl.'+repo)==='1'}catch(e){return false}},
+    unload:function(){if(useNative){try{window.Android.llmPost(JSON.stringify({type:'unload'}))}catch(e){}}killWorker();state='idle';backend=null;emit()},
     /** removes cached files of a model */
     purge:function(model){return LLM.purgeRepo(resolve(model).repo)},
     purgeRepo:function(repo){try{localStorage.removeItem('learn.dl.'+repo)}catch(e){}
+      if(NATIVE){try{window.Android.llmPurge(repo)}catch(e){}}
       if(!self.caches)return Promise.resolve(0); var n=0;
       return caches.keys().then(function(ks){return Promise.all(ks.map(function(k){return caches.open(k).then(function(c){return c.keys().then(function(reqs){
         return Promise.all(reqs.filter(function(r){return r.url.indexOf('huggingface.co/'+repo+'/')>=0}).map(function(r){n++;return c.delete(r)}))})})}))}).then(function(){return n})},
-    purgeAll:function(){var jobs=[];LLM.unload();
+    purgeAll:function(){var jobs=[];LLM.unload();if(NATIVE){try{window.Android.llmPurgeAll()}catch(e){}}
       try{Object.keys(localStorage).filter(function(k){return k.indexOf('learn.dl.')===0}).forEach(function(k){localStorage.removeItem(k)})}catch(e){}
       if(self.caches)jobs.push(caches.keys().then(function(ks){return Promise.all(ks.map(function(k){return caches.delete(k)}))})); return Promise.all(jobs)},
     /** scans the cache: -> {repos:[{repo,bytes,files,complete}], usage, quota} */
@@ -88,12 +107,14 @@
             return c.match(r).then(function(res){if(!res)return;var cl=+res.headers.get('content-length');
               var sz=cl>0?Promise.resolve(cl):res.clone().blob().then(function(b){return b.size});
               return sz.then(function(b){var e=by[m[1]]||(by[m[1]]={repo:m[1],bytes:0,files:0});e.bytes+=b;e.files++})})}))})})})).then(function(){return by})});
-      return Promise.all([scan,est]).then(function(r){var list=Object.keys(r[0]).map(function(k){var e=r[0][k];e.complete=LLM.downloaded(e.repo);return e});
+      return Promise.all([scan,est]).then(function(r){var by=r[0];
+        nativeList().forEach(function(n){var e=by[n.repo]||(by[n.repo]={repo:n.repo,bytes:0,files:0});e.bytes+=n.bytes;e.files+=n.files;e.nativeDone=n.complete});
+        var list=Object.keys(by).map(function(k){var e=by[k];e.complete=!!e.nativeDone||LLM.downloaded(e.repo);return e});
         list.sort(function(a,b){return b.bytes-a.bytes});return {repos:list,usage:r[1].usage||0,quota:r[1].quota||0}})},
     /** opts:{system,prompt,maxTokens,temperature,onToken,timeoutMs} -> Promise<string>. Rejects with Error('cancelled'|'timeout'|...) */
     generate:function(o){
       if(!LLM.isReady())return Promise.reject(new Error('no-model'));
-      var dev=lastInfo.device==='webgpu'?'webgpu':'wasm',msgs=[];
+      var dev=lastInfo.device||'wasm',msgs=[];
       if(o.system)msgs.push({role:'system',content:o.system});
       msgs.push({role:'user',content:o.prompt+((cur&&cur.qwen3)?' /no_think':'')});
       mark({stage:'generate',dev:dev,model:cur&&(cur.id||cur.repo)});
@@ -102,11 +123,14 @@
       var p=new Promise(function(res,rej){
         var c=call({type:'generate',msgs:msgs,max:o.maxTokens||160,temp:temp},{onToken:function(t){if(!first)first=Date.now();if(o.onToken)o.onToken(t)}});
         c.then(function(r){LLM.lastTps=r.tps||0;LLM.lastFirstMs=first?first-t0:0;res(clean(r.text))},rej);
-        var limit=o.timeoutMs||(dev==='webgpu'?90000:240000);
-        timer=setTimeout(function(){ // nothing finished in time: kill the worker so nothing stays stuck
-          cancelled=true;killWorker();state='idle';backend=null;failAll(new Error('timeout'));emit()},limit);
-        LLM._cancel=function(){cancelled=true;try{worker.postMessage({type:'interrupt'})}catch(e){}
-          setTimeout(function(){if(calls[myId]){killWorker();state='idle';backend=null;failAll(new Error('cancelled'));emit()}},2500)};
+        var limit=o.timeoutMs||(dev==='webgpu'?90000:dev==='native'?120000:240000);
+        function hardStop(why){ // nothing finished in time / cancel not honoured: native keeps its model, the web worker is killed so nothing stays stuck
+          cancelled=true;
+          if(useNative){try{window.Android.llmPost(JSON.stringify({type:'interrupt'}))}catch(e){}failAll(new Error(why))}
+          else{killWorker();state='idle';backend=null;failAll(new Error(why));emit()}}
+        timer=setTimeout(function(){hardStop('timeout')},limit);
+        LLM._cancel=function(){cancelled=true;try{send({type:'interrupt'})}catch(e){}
+          setTimeout(function(){if(calls[myId])hardStop('cancelled')},2500)};
       });
       var fin=function(){clearTimeout(timer);LLM._cancel=null;mark(null)};
       return p.then(function(t){fin();if(cancelled&&!t)throw new Error('cancelled');return t},function(e){fin();throw e});

@@ -44,16 +44,17 @@
   /* ---------- crash guard ---------- */
   // If the WebView renderer (or whole app) died while the model was loading/generating, fall back to CPU and say so.
   (function crashCheck(){
-    var n=0,inf=null;try{n=window.Android&&Android.consumeRenderCrashes?Android.consumeRenderCrashes():0}catch(e){}
+    var n=0,inf=null,nc=0;try{n=window.Android&&Android.consumeRenderCrashes?Android.consumeRenderCrashes():0}catch(e){}
+    try{nc=window.Android&&Android.llmConsumeCrash?Android.llmConsumeCrash():0}catch(e){}
     try{inf=JSON.parse(localStorage.getItem('learn.inflight'));localStorage.removeItem('learn.inflight')}catch(e){}
-    if(!n&&!inf)return;
-    var dev=(inf&&inf.dev)||'webgpu',was=Store.settings.device;
-    Store.settings.crash={stage:inf?inf.stage:'unknown',dev:dev,model:inf&&inf.model,t:Date.now(),switched:dev==='webgpu'&&was!=='wasm'};
+    if(!n&&!inf&&!nc)return;
+    var dev=nc?'native':((inf&&inf.dev)||'webgpu'),was=Store.settings.device;
+    Store.settings.crash={stage:inf?inf.stage:'unknown',dev:dev,model:inf&&inf.model,t:Date.now(),switched:dev!=='wasm'&&was!=='wasm'};
     if(Store.settings.crash.switched)Store.settings.device='wasm';
     Store.settings.autoload=false;Store.saveSettings();window.__crashed=true})();
   function crashBanner(){var c=Store.settings.crash;if(!c)return null;
     var what=c.stage==='generate'?'while writing feedback':c.stage==='load'?'while loading the model':'unexpectedly';
-    var msg=c.dev==='webgpu'?'The AI engine crashed '+what+' on the GPU. I switched to CPU mode and turned off loading at start-up. Open Settings > Local AI and select your model again (CPU mode downloads a slightly different file the first time).'
+    var msg=c.dev==='native'?'The native AI engine stopped unexpectedly. I switched to the WebView CPU engine and turned off loading at start-up. Open Settings > Local AI and select your model again; if it keeps happening, try a smaller (0.5B) model.':c.dev==='webgpu'?'The AI engine crashed '+what+' on the GPU. I switched to CPU mode and turned off loading at start-up. Open Settings > Local AI and select your model again (CPU mode downloads a slightly different file the first time).'
       :'The AI engine crashed '+what+' even on the CPU - most likely out of memory. Close other apps, or pick a smaller model (0.5B) in Settings > Local AI. Loading at start-up is off.';
     return h('div',{class:'callout',style:{marginBottom:'14px'}},h('div',{class:'label',style:{marginBottom:'4px'}},'AI stopped unexpectedly'),h('div',null,msg),
       h('div',{class:'row',style:{marginTop:'10px'}},h('button',{class:'btn sm primary',onclick:function(){go('#/settings')}},'Open settings'),h('button',{class:'btn sm ghost',onclick:function(){delete Store.settings.crash;Store.saveSettings();route()}},'Dismiss')))}
@@ -239,7 +240,7 @@
     card.appendChild(status);card.appendChild(diag);
     LLM.gpuInfo().then(function(g){diag.textContent='WebGPU: '+(g.webgpu?('yes'+(g.f16?' (fp16)':'')+(g.desc?' · '+g.desc:'')):'not available - CPU mode')+' · secure context: '+(self.isSecureContext?'yes':'no')+' · isolated: '+(self.crossOriginIsolated?'yes':'no')});
     var dev=h('div',{class:'row',style:{margin:'12px 0'}},h('span',{class:'tiny muted'},'Run on:'));
-    [['wasm','CPU (stable)'],['webgpu','GPU (experimental)']].forEach(function(d){dev.appendChild(h('button',{class:'chip'+((Store.settings.device==='webgpu'?'webgpu':'wasm')===d[0]?' on':''),onclick:function(){Store.settings.device=d[0];Store.saveSettings();var p=card.parentNode;p.replaceChild(aiCard(),card)}},d[1]))});
+    (LLM.nativeAvailable()?[['native','Native CPU (fastest)'],['wasm','WebView CPU'],['webgpu','WebView GPU (experimental)']]:[['wasm','CPU (stable)'],['webgpu','GPU (experimental)']]).forEach(function(d){dev.appendChild(h('button',{class:'chip'+(((Store.settings.device==='native'&&!LLM.nativeAvailable())?'wasm':Store.settings.device)===d[0]?' on':''),onclick:function(){Store.settings.device=d[0];Store.saveSettings();var p=card.parentNode;p.replaceChild(aiCard(),card)}},d[1]))});
     card.appendChild(dev);
     var list=h('div'),testOut=h('div'),other=h('div'),store=h('div',{class:'tiny muted',style:{marginTop:'10px'}}),inst={},live=null,lastErrByRepo={};
     function renderStatus(){var st=LLM.status();

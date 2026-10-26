@@ -4,7 +4,9 @@
   function blank(){return {v:1,done:{},ans:{},quiz:{},tool:{},pos:{},t:0}}
   function read(k,d){try{var s=JSON.parse(localStorage.getItem(k));if(s)return s}catch(e){}return d}
   var st=read(KEY,blank()); if(!st||st.v!==1)st=blank();
-  var set=read(SKEY,{theme:'auto',model:null,autoload:true,device:'wasm',custom:''});
+  var NAT=!!(window.Android&&window.Android.llmPost);
+  var set=read(SKEY,{theme:'auto',model:null,autoload:true,device:NAT?'native':'wasm',custom:'',dev2:1});
+  if(NAT&&!set.dev2){set.device='native';set.dev2=1}   // one-time move to the native engine for existing installs
   var subs=[];
   function persist(){try{localStorage.setItem(KEY,JSON.stringify(st))}catch(e){} subs.forEach(function(f){try{f()}catch(e){}})}
   function saveSet(){try{localStorage.setItem(SKEY,JSON.stringify(set))}catch(e){}}

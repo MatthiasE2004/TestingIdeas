@@ -3,14 +3,22 @@
 It produces gibberish but exercises exactly the code path real models use. Usage: make_tiny_model.py OUT_DIR [layers] [hidden]"""
 import sys, os, json, numpy as np, onnx
 from onnx import helper as oh, TensorProto as TP, numpy_helper as nh
-from tokenizers import Tokenizer, models, trainers, pre_tokenizers, decoders
+from tokenizers import Tokenizer, models, trainers, pre_tokenizers, decoders, normalizers, Regex
 out = sys.argv[1]; L = int(sys.argv[2]) if len(sys.argv) > 2 else 2; D = int(sys.argv[3]) if len(sys.argv) > 3 else 128
 H = 4; HD = D // H; V = 3000
 os.makedirs(out + "/onnx", exist_ok=True)
 # ---- tokenizer (byte-level BPE trained on course text) ----
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 corpus = [open(f, encoding="utf-8").read() for f in ("/tmp/claude-0/-home-user-TestingIdeas/5f829c21-dcab-5cfc-b415-a90a75546e9d/scratchpad/src/pm.txt",) if os.path.exists(f)] or ["a project is a temporary endeavour " * 200]
-tok = Tokenizer(models.BPE()); tok.pre_tokenizer = pre_tokenizers.ByteLevel(add_prefix_space=False); tok.decoder = decoders.ByteLevel()
+QWEN = len(sys.argv) > 4 and sys.argv[4] == "qwen"   # Qwen2.5-style tokenizer: NFC + regex Split + byte-level (use_regex=False)
+QRE = r"(?i:'s|'t|'re|'ve|'m|'ll|'d)|[^\r\n\p{L}\p{N}]?\p{L}+|\p{N}| ?[^\s\p{L}\p{N}]+[\r\n]*|\s*[\r\n]+|\s+(?!\S)|\s+"
+tok = Tokenizer(models.BPE())
+if QWEN:
+    tok.normalizer = normalizers.NFC()
+    tok.pre_tokenizer = pre_tokenizers.Sequence([pre_tokenizers.Split(Regex(QRE), behavior="isolated", invert=False), pre_tokenizers.ByteLevel(add_prefix_space=False, use_regex=False)])
+else:
+    tok.pre_tokenizer = pre_tokenizers.ByteLevel(add_prefix_space=False)
+tok.decoder = decoders.ByteLevel()
 special = ["<|endoftext|>", "<|im_start|>", "<|im_end|>"]
 tok.train_from_iterator(corpus, trainers.BpeTrainer(vocab_size=V, special_tokens=special, initial_alphabet=pre_tokenizers.ByteLevel.alphabet()))
 tok.save(out + "/tokenizer.json"); eos = tok.token_to_id("<|im_end|>")

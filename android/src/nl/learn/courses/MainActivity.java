@@ -30,6 +30,21 @@ public class MainActivity extends Activity {
     static final String START = "https://" + HOST + "/index.html";
     WebView web;
     BtSync bt;
+    NativeLlm llm;
+
+    synchronized NativeLlm llm() {
+        if (llm == null) {
+            llm = new NativeLlm(new java.io.File(getFilesDir(), "models"), "https://huggingface.co", new NativeLlm.Sink() {
+                public void event(String json) { if (bt != null) bt.js("window.__llmEvent&&window.__llmEvent(" + json + ")"); }
+                public void inflight(boolean on) {
+                    android.content.SharedPreferences.Editor e = getSharedPreferences("learn", MODE_PRIVATE).edit();
+                    if (on) e.putBoolean("nativeInflight", true); else e.remove("nativeInflight");
+                    e.commit(); // synchronous: must survive a native crash
+                }
+            });
+        }
+        return llm;
+    }
 
     @Override
     protected void onCreate(Bundle b) {
@@ -187,6 +202,33 @@ public class MainActivity extends Activity {
             int n = sp.getInt("renderGone", 0);
             if (n != 0) sp.edit().putInt("renderGone", 0).apply();
             return n;
+        }
+
+        @android.webkit.JavascriptInterface
+        public boolean llmAvailable() { return true; }
+
+        @android.webkit.JavascriptInterface
+        public void llmPost(String json) { llm().handle(json); }
+
+        @android.webkit.JavascriptInterface
+        public String llmStorage() { return llm().storageJson(); }
+
+        @android.webkit.JavascriptInterface
+        public boolean llmComplete(String repo) { return llm().isComplete(repo); }
+
+        @android.webkit.JavascriptInterface
+        public double llmPurge(String repo) { return (double) llm().purge(repo); }
+
+        @android.webkit.JavascriptInterface
+        public void llmPurgeAll() { llm().purgeAll(); }
+
+        /** 1 if the previous run died inside native model code (marker never cleared), then resets */
+        @android.webkit.JavascriptInterface
+        public int llmConsumeCrash() {
+            android.content.SharedPreferences sp = getSharedPreferences("learn", MODE_PRIVATE);
+            boolean c = sp.getBoolean("nativeInflight", false);
+            if (c) sp.edit().remove("nativeInflight").commit();
+            return c ? 1 : 0;
         }
 
         @android.webkit.JavascriptInterface

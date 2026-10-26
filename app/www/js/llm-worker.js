@@ -1,12 +1,16 @@
 /* Dedicated worker: owns the ONNX Runtime session so inference never blocks the UI thread. */
-let tf=null,gen=null,stopper=null;
+let tf=null,gen=null,stopper=null,lastDevice=null;
 const post=m=>postMessage(m);
-async function lib(origin,threads){
+async function lib(origin,threads,device){
   if(tf)return tf;
   tf=await import(origin+'/vendor/transformers.min.js');
   const env=tf.env;env.allowLocalModels=false;env.useBrowserCache=true;
   const w=env.backends.onnx.wasm;
-  w.wasmPaths={mjs:origin+'/vendor/ort-wasm-simd-threaded.asyncify.mjs',wasm:origin+'/vendor/ort-wasm-simd-threaded.asyncify.wasm'};
+  // WebGPU needs the asyncify build (it contains webgpuInit); plain CPU runs the faster non-asyncify build
+  const flavour=device==='webgpu'?'.asyncify':'';
+  w.wasmPaths={mjs:origin+'/vendor/ort-wasm-simd-threaded'+flavour+'.mjs',wasm:origin+'/vendor/ort-wasm-simd-threaded'+flavour+'.wasm'};
+  w.simd=true;w.proxy=false;
+  try{env.backends.onnx.webgpu.powerPreference='high-performance'}catch(_){}
   w.numThreads=threads;
   return tf;
 }
@@ -15,7 +19,8 @@ onmessage=async e=>{
   try{
     if(m.type==='interrupt'){if(stopper)stopper.interrupt();return}
     if(m.type==='load'){
-      const t=await lib(m.origin,m.threads);
+      if(tf&&m.device!==lastDevice){/* ORT wasm paths are fixed at first use */}
+      const t=await lib(m.origin,m.threads,m.device);lastDevice=m.device;
       if(gen){try{await gen.dispose()}catch(_){}gen=null}
       gen=await t.pipeline('text-generation',m.repo,{device:m.device,dtype:m.dtype,progress_callback:p=>post({type:'progress',p:{status:p.status,file:p.file,loaded:p.loaded,total:p.total}})});
       post({type:'loaded',id:m.id,device:m.device,threads:m.threads,isolated:self.crossOriginIsolated===true});

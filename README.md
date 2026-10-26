@@ -8,7 +8,11 @@ short pages, quizzes, written activities with on-device AI feedback, 15 interact
 - On-device AI: transformers.js + ONNX Runtime Web (WebGPU, WASM fallback). Models are downloaded in-app (Settings > Local AI).
 - Content: The Open University, OpenLearn, CC BY-NC-SA 4.0.
 
+## Local AI engines
+1. **Native CPU (default on Android)**: `android/src/.../NativeLlm.java` + `BpeTokenizer.java` run Hugging Face ONNX decoder models (`onnx/model_q4.onnx`, fp32 KV cache; Qwen2.5/Qwen3/SmolLM-style byte-level BPE + ChatML) with ONNX Runtime Android's native arm64 kernels (no WebView, no GPU, no wasm). Models are downloaded by Java into app storage.
+2. **WebView CPU / GPU (fallback, e.g. Gemma)**: transformers.js + ONNX Runtime Web inside a Web Worker.
+A renderer or native crash is detected on the next start and switches the app to the WebView CPU engine with a notice.
+
 ## Testing the local AI
 - In the app: Settings > Local AI > **Run AI self-test** (loads the selected model, generates, runs a real feedback request, measures UI freezes; PASS / PASSED with warnings / FAILED).
-- On a dev machine (no real model needed): `python3 tests/make_tiny_model.py out/tiny-fast 2 128; python3 tests/make_tiny_model.py out/tiny-slow 16 512; node tests/e2e_ai.js iso` (also `noiso`, and `iso gpu` for WebGPU via software Vulkan).
-  The fixtures are random-weight models in the same ONNX layout real models use, so they exercise the same engine, worker, streaming, cancel and timeout code.
+- Automated (no real model needed): `./build.sh` once, then `tests/run_all.sh`. It builds random-weight fixture models in the real ONNX layout and checks: the Java tokenizer against Python `tokenizers` on 400+ strings, the Java generation loop token-for-token against Python `onnxruntime`, download/storage/purge, cancel, the app UI driving the real Java engine, and the WebView worker engine (isolated and not).

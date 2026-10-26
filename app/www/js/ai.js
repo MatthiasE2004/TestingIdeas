@@ -28,7 +28,7 @@
       var sys='You are a friendly tutor. Reply in under 70 words, plain text: one thing the student did well, then one thing missing. Compare to the key points.';
       var pts=(opts.points||[]).slice(0,4).map(function(p){return '- '+p}).join('\n');
       var p='Question: '+String(opts.question).slice(0,280)+'\nKey points:\n'+pts+'\nStudent answer: '+String(opts.answer).slice(0,500)+'\nFeedback:';
-      return AI.ask({system:sys,prompt:p,maxTokens:110,temperature:0.3,onToken:opts.onToken}).then(function(t){return {text:t.trim(),source:'ai',covered:cov}}).catch(function(e){var r=rules();
+      return AI.ask({system:sys,prompt:p,maxTokens:110,temperature:0,onToken:opts.onToken}).then(function(t){return {text:t.trim(),source:'ai',covered:cov}}).catch(function(e){var r=rules();
         if(e&&(e.message==='timeout'||e.message==='cancelled'))r.text=(e.message==='timeout'?'The AI took too long, so here is a self-check instead.\n\n':'Cancelled. Self-check instead:\n\n')+r.text;
         return r});
     },
