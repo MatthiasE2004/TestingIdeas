@@ -10,6 +10,8 @@ PY=${PY:-python3}
 for m in tiny-fast tiny-qwen tiny-slow; do echo "### Java engine vs Python reference: $m"; tests/jvm/run.sh out/$m || FAIL=1; done
 if [ -f out/qwen3-gguf/Qwen3-0.6B-Q4_K_M.gguf ] && [ -d out/qwen3 ]; then echo "### Real Qwen3 0.6B: ONNX engine vs reference"; tests/jvm/run.sh out/qwen3 || FAIL=1; echo "### Real Qwen3 0.6B GGUF through llama.cpp"; tests/jvm/run_gguf.sh out/qwen3-gguf Qwen3-0.6B-Q4_K_M.gguf out/qwen3 || FAIL=1; fi
 echo "### App UI + real Java engines (native paths)"; node tests/e2e_native.js | grep -E "PASS|FAIL|ALL|CRASH" || FAIL=1
+echo "### Notes, highlights, document editor, AI modes/context"; node tests/e2e_notes.js | grep -E "FAIL|ALL|CRASH" || FAIL=1
+echo "### Touch gestures (real touch events)"; node tests/e2e_touch.js | grep -E "FAIL|ALL|CRASH" || FAIL=1
 echo "### WebView engine (worker/WASM), cross-origin isolated"; node tests/e2e_ai.js iso | grep -E "FAIL|ALL|CRASH" || FAIL=1
 echo "### WebView engine, not isolated (single thread)"; node tests/e2e_ai.js noiso | grep -E "FAIL|ALL|CRASH" || FAIL=1
 [ $FAIL = 0 ] && echo "=== ALL SUITES PASSED ===" || echo "=== SOME SUITE FAILED ==="; exit $FAIL

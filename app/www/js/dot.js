@@ -50,6 +50,7 @@
     home:'<path d="M4 11l8-7 8 7v9h-5v-6H9v6H4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>',
     list:'<path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>',
     sync:'<path d="M4 12a8 8 0 0113.7-5.6L20 8M20 4v4h-4M20 12a8 8 0 01-13.7 5.6L4 16M4 20v-4h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>',
+    book:'<path d="M5 4h11a3 3 0 013 3v13H8a3 3 0 01-3-3z M5 17a3 3 0 013-3h11" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>',
     spark:'<path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z" fill="currentColor"/>'};
   function icon(n,px){return '<svg viewBox="0 0 24 24" width="'+(px||22)+'" height="'+(px||22)+'" aria-hidden="true">'+I[n]+'</svg>'}
   window.Dot={text:dotText,ring:ring,icon:icon};

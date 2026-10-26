@@ -56,6 +56,14 @@ const stop=()=>{bridge.kill();app.kill()};
   await p.waitForFunction(()=>{const b=document.querySelector('.ai-box');return b&&!b.querySelector('button')&&!/Thinking|Checking/.test(b.innerText)},null,{timeout:120000});
   const fb2=await p.$eval('.ai-box',e=>e.innerText);console.log('FEEDBACK ('+((Date.now()-t0)/1000).toFixed(1)+'s):',fb2.replace(/\n/g,' ').slice(0,400));
   ok('real AI feedback on a real activity answer',/AI tutor/i.test(fb2)&&fb2.length>120);
+
+  // ---- AI page with the real model: question answered from course content + notes, with modes
+  await p.evaluate(()=>{Store.putNote({id:'rn1',course:'pm',cid:'pm1',pid:'pm1-03',title:'x',type:'note',segs:[],text:'Projects are temporary',note:'Exam tip: remember projects have a defined end date.',c:5})});
+  await p.evaluate(()=>location.hash='#/ai/pm');await p.waitForSelector('.chat-in');
+  await p.fill('.chat-in','What is the difference between a project and operations?');const ta0=Date.now();await p.click('.chat-bar .btn.primary');
+  await p.waitForFunction(()=>{const b=[...document.querySelectorAll('.bub.ai')].pop();return b&&!/Thinking/.test(b.innerText)&&b.innerText.length>30&&!document.querySelector('.chat-bar .btn.primary').innerText.includes('Stop')},null,{timeout:120000});
+  const ans=await p.evaluate(()=>[...document.querySelectorAll('.bub.ai')].pop().innerText.replace(/\n/g,' '));console.log('AI PAGE ANSWER ('+((Date.now()-ta0)/1000).toFixed(1)+'s):',ans.slice(0,420));
+  ok('AI page answers a course question with the real model and lists sources',/project/i.test(ans)&&/Sources:/.test(ans));
   await p.evaluate(()=>location.hash='#/settings');await p.waitForSelector('.model-row');await p.waitForTimeout(600);
   const r2=await p.$eval('.model-row:has-text("gguf test")',e=>e.innerText.replace(/\n/g,' | '));ok('model manager shows the GGUF size',/Downloaded · 3\d\d MB/.test(r2),r2);
  }

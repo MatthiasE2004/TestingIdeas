@@ -25,10 +25,8 @@
         return {text:txt.trim(),source:'rules',covered:cov};};
       if(!AI.available())return Promise.resolve(rules());
       // keep the prompt short: on CPU every prompt token costs time
-      var sys="You are a supportive tutor. Never repeat the student's answer. Reply in at most 3 short sentences of plain text: first say what the student got right, then name the most important idea that is missing or wrong. Speak to the student as 'you'.";
-      var pts=(opts.points||[]).slice(0,4).map(function(p){return '- '+p}).join('\n');
-      var p='Question: '+String(opts.question).slice(0,280)+'\n\nIdeas a complete answer should cover:\n'+pts+'\n\nStudent\'s answer: "'+String(opts.answer).slice(0,500)+'"\n\nWrite your feedback now.';
-      return AI.ask({system:sys,prompt:p,maxTokens:110,temperature:0,onToken:opts.onToken}).then(function(t){return {text:t.trim(),source:'ai',covered:cov}}).catch(function(e){var r=rules();
+      var pr=Prompts.feedback({question:opts.question,answer:opts.answer,points:opts.points,model:opts.model,course:opts.course,pid:opts.pid});
+      return AI.ask({system:pr.system,prompt:pr.prompt,maxTokens:pr.maxTokens,temperature:0,onToken:opts.onToken}).then(function(t){return {text:t.trim(),source:'ai',covered:cov}}).catch(function(e){var r=rules();
         if(e&&(e.message==='timeout'||e.message==='cancelled'))r.text=(e.message==='timeout'?'The AI took too long, so here is a self-check instead.\n\n':'Cancelled. Self-check instead:\n\n')+r.text;
         return r});
     },

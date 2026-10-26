@@ -23,11 +23,22 @@
   /* ---------- router ---------- */
   function go(hash,replace){if(replace)history.replaceState(null,'',hash),route();else location.hash=hash}
   window.addEventListener('hashchange',route);
+  var activeSel=null;
+  function cleanupView(){
+    if(activeSel){activeSel.destroy();activeSel=null}
+    var f=$app.firstChild;if(f&&f.__cleanup){try{f.__cleanup()}catch(e){}}
+    if(window.NotesUI)NotesUI.closePanel();if(window.Sheet)Sheet.hide();
+    document.querySelectorAll('.mk-pop,.sel-bar,.sel-layer').forEach(function(n){n.remove()})}
   function route(){
-    var p=(location.hash||'#/').slice(2).split('/');window.scrollTo(0,0);
+    cleanupView();
+    var raw=(location.hash||'#/').slice(2),qs=raw.split('?'),p=qs[0].split('/'),eid=(/(?:^|&)e=([^&]+)/.exec(qs[1]||'')||[])[1];window.scrollTo(0,0);
     if(!p[0])return viewHome();
     if(p[0]==='c')return viewCourse(p[1]);
-    if(p[0]==='p')return viewPage(p[1],+p[2],+p[3]);
+    if(p[0]==='p')return viewPage(p[1],+p[2],+p[3],false);
+    if(p[0]==='n')return viewPage(p[1],+p[2]||0,+p[3]||0,true,eid);
+    if(p[0]==='notes'){var r=h('div');mount(r);return NotesUI.viewNotesHome(r)}
+    if(p[0]==='doc'){var r2=h('div');mount(r2);return NotesUI.viewDoc(r2,p[1]||'pm')}
+    if(p[0]==='ai'){var r3=h('div');mount(r3);var last=index.map(function(i){return Store.getPos(i.id)||{t:0}});return NotesUI.viewAI(r3,p[1]||(index[0]&&(last[1]&&last[1].t>last[0].t?index[1].id:index[0].id))||'pm')}
     if(p[0]==='settings')return viewSettings();
     viewHome();}
   function mount(node){$app.innerHTML='';$app.appendChild(node)}
@@ -67,6 +78,10 @@
     var cb=crashBanner();if(cb)root.appendChild(cb);
     root.appendChild(h('div',{class:'hero'},h('div',{class:'big',html:Dot.text('LEARN',{size:9,gap:1.2})}),h('p',{class:'muted',style:{marginTop:'14px'}},'Pick a course and continue where you left off.')));
     var grid=h('div',{class:'course-grid'}),cont=h('div');root.appendChild(cont);root.appendChild(grid);
+    var nn=Store.allNotes();
+    root.appendChild(h('div',{class:'home-actions'},
+      h('button',{class:'big-btn',onclick:function(){go('#/notes')}},h('div',{html:Dot.icon('book',26)}),h('div',{class:'bt'},'Notes'),h('div',{class:'tiny muted'},nn.length?nn.length+' highlights & notes':'Highlights, notes, documents')),
+      h('button',{class:'big-btn dark',onclick:function(){go('#/ai')}},h('div',{html:Dot.icon('spark',26)}),h('div',{class:'bt'},'AI'),h('div',{class:'tiny',style:{color:'#9a9a9a'}},'Ask, rewrite, summarize'))));
     var lastTs=0,lastC=null;
     Promise.all(index.map(function(i){return loadCourse(i.id)})).then(function(cs){
       cs.forEach(function(c){var s=stats(c),pos=Store.getPos(c.id);if(pos&&pos.t>lastTs){lastTs=pos.t;lastC=c}
@@ -110,32 +125,64 @@
     });}
 
   /* ---------- page player ---------- */
-  function viewPage(cid,ci,pi){
-    var root=h('div',{class:'player'});mount(root);
-    loadCourse(cid).then(function(c){
-      var ch=c.chapters[ci],pg=ch&&ch.pages[pi];if(!pg)return go('#/c/'+cid,true);
-      Store.setPos(cid,ci,pi,pg.id);
-      var head=h('div',{class:'phead'},
-        h('div',{class:'row between'},h('button',{class:'round','aria-label':'Overview',onclick:function(){go('#/c/'+cid)},html:Dot.icon('list')}),
-          h('div',{style:{flex:1,minWidth:0,textAlign:'center'}},h('div',{class:'label',style:{whiteSpace:'nowrap',overflow:'hidden',textOverflow:'ellipsis'}},(ci+1)+'. '+ch.title),h('div',{class:'tiny muted'},(pi+1)+' / '+ch.pages.length)),
-          h('button',{class:'round',onclick:function(){go('#/settings')},html:Dot.icon('gear')})));
-        var seg;
-        if(ch.pages.length>30){var dn=chStats(ch).done;seg=h('div',{class:'bar red',style:{marginTop:'10px',position:'relative'}},h('i',{style:{width:Math.round(dn/ch.pages.length*100)+'%',background:'var(--ink)'}}),
-          h('b',{style:{position:'absolute',top:'-3px',left:'calc('+(pi/(ch.pages.length-1)*100).toFixed(1)+'% - 6px)',width:'12px',height:'12px',borderRadius:'50%',background:'var(--red)'}}));seg.style.overflow='visible'}
-        else{seg=h('div',{class:'seg'});ch.pages.forEach(function(p,i){seg.appendChild(h('i',{class:Store.isDone(p.id)?'d':'',style:i===pi?{background:'var(--red)'}:null}))})}
-        head.appendChild(seg);
+  function markSel(n,b,bi){
+    var k=function(i){return bi+':'+i};
+    switch(b.t){
+      case 'h':case 'p':n.setAttribute('data-sel',k(0));break;
+      case 'ul':case 'ol':[].forEach.call(n.children,function(li,i){li.setAttribute('data-sel',k(i))});break;
+      case 'callout':if(n.lastChild)n.lastChild.setAttribute('data-sel',k(0));break;
+      case 'quote':if(n.firstChild)n.firstChild.setAttribute('data-sel',k(0));break;
+      case 'table':var i=0;n.querySelectorAll('td').forEach(function(td){td.setAttribute('data-sel',k(i++))});break;
+      case 'img':var fc=n.querySelector('figcaption');if(fc)fc.setAttribute('data-sel',k(0));break;
+      case 'video':var vp=n.querySelector('p');if(vp)vp.setAttribute('data-sel',k(0));break;
+    }}
+  /** nv=true: notes viewer (read-only reading with yellow highlights / blue notes, colored ticks in the progress bar, side panel button) */
+  function viewPage(cid,ci,pi,nv,eid){
+    var root=h('div',{class:'player'+(nv?' nv':'')});mount(root);
+    if(activeSel){activeSel.destroy();activeSel=null}
+    return loadCourse(cid).then(function(c){
+      var ch=c.chapters[ci],pg=ch&&ch.pages[pi];if(!pg)return go(nv?'#/notes':'#/c/'+cid,true);
+      if(nv){try{localStorage.setItem('learn.nvpos.'+cid,ci+'/'+pi)}catch(e){}}else Store.setPos(cid,ci,pi,pg.id);
+      var url=function(a,b){return '#/'+(nv?'n':'p')+'/'+cid+'/'+a+'/'+b};
+      var leftBtns=h('div',{class:'row',style:{gap:'8px',flexWrap:'nowrap'}},h('button',{class:'round','aria-label':'Home',onclick:function(){go('#/')},html:Dot.icon('home')}),
+        h('button',{class:'round','aria-label':nv?'All notes':'Overview',onclick:function(){go(nv?'#/notes':'#/c/'+cid)},html:Dot.icon('list')}));
+      var rightBtns=nv?h('div',{class:'row',style:{gap:'8px',flexWrap:'nowrap'}},h('button',{class:'round dark','aria-label':'List of highlights and notes',title:'Highlights & notes',onclick:function(){openNotesPanel()},html:Dot.icon('book')}))
+        :h('div',{class:'row',style:{gap:'8px',flexWrap:'nowrap'}},h('button',{class:'round','aria-label':'Open notes view',title:'Notes view',onclick:function(){go('#/n/'+cid+'/'+ci+'/'+pi)},html:Dot.icon('book')}),h('button',{class:'round',onclick:function(){go('#/settings')},html:Dot.icon('gear')}));
+      var head=h('div',{class:'phead'},h('div',{class:'row between',style:{flexWrap:'nowrap'}},leftBtns,
+          h('div',{style:{flex:1,minWidth:0,textAlign:'center'}},h('div',{class:'label',style:{whiteSpace:'nowrap',overflow:'hidden',textOverflow:'ellipsis'}},(nv?'NOTES \u00b7 ':'')+(ci+1)+'. '+ch.title),h('div',{class:'tiny muted'},(pi+1)+' / '+ch.pages.length)),rightBtns));
+      var seg,n=ch.pages.length;
+      if(nv){ // continuous bar: blue ticks = pages with notes, yellow = pages with highlights
+        seg=h('div',{class:'tbar'});var pos=function(i){return n>1?(i/(n-1)*100):50};
+        ch.pages.forEach(function(p,i){var k=Notes.counts(cid,p.id);if(!k.notes&&!k.hl)return;
+          seg.appendChild(h('button',{class:'tick '+(k.notes&&k.hl?'both':k.notes?'note':'hl'),style:{left:pos(i)+'%'},title:p.title,'aria-label':p.title,onclick:function(){go(url(ci,i))}}))});
+        seg.appendChild(h('b',{class:'here',style:{left:pos(pi)+'%'}}));
+        head.appendChild(seg);head.appendChild(h('div',{class:'nv-legend'},h('span',null,h('i',{style:{background:'var(--yellow)'}}),'Highlights'),h('span',null,h('i',{style:{background:'var(--blue)'}}),'Notes')))}
+      else if(n>30){var dn=chStats(ch).done;seg=h('div',{class:'bar red',style:{marginTop:'10px',position:'relative'}},h('i',{style:{width:Math.round(dn/n*100)+'%',background:'var(--ink)'}}),
+          h('b',{style:{position:'absolute',top:'-3px',left:'calc('+(pi/(n-1)*100).toFixed(1)+'% - 6px)',width:'12px',height:'12px',borderRadius:'50%',background:'var(--red)'}}));seg.style.overflow='visible';head.appendChild(seg)}
+      else{seg=h('div',{class:'seg'});ch.pages.forEach(function(p,i){seg.appendChild(h('i',{class:Store.isDone(p.id)?'d':'',style:i===pi?{background:'var(--red)'}:null}))});head.appendChild(seg)}
       var hasTool=pg.blocks.some(function(b){return b.t==='tool'});
-      var body=h('div',{class:'pbody'+(hasTool?' wide':'')},h('h1',null,pg.title));
+      var title=h('h1',{'data-sel':'t:0'},pg.title),body=h('div',{class:'pbody'+(hasTool&&!nv?' wide':'')},title);
       var ctx={cid:cid,pid:pg.id};
-      pg.blocks.forEach(function(b){try{var n=renderBlock(b,ctx);if(n)body.appendChild(n)}catch(e){console.error(e);body.appendChild(h('div',{class:'callout'},'Could not display this block.'))}});
-      var last=pi===ch.pages.length-1,lastCh=ci===c.chapters.length-1;
-      function next(){Store.markDone(pg.id);
+      pg.blocks.forEach(function(b,bi){try{
+        if(nv&&b.t==='tool'){body.appendChild(h('div',{class:'callout note'},'Interactive tool: '+(b.title||b.tool)+' (open this page in the course to use it).'));return}
+        var nd=renderBlock(b,ctx);if(nd){markSel(nd,b,bi);body.appendChild(nd)}}catch(e){console.error(e);body.appendChild(h('div',{class:'callout'},'Could not display this block.'))}});
+      var last=pi===n-1,lastCh=ci===c.chapters.length-1;
+      function next(){
+        if(nv){if(!last)go(url(ci,pi+1),true);else if(!lastCh)go('#/n/'+cid+'/'+(ci+1)+'/0',true);return}
+        Store.markDone(pg.id);
         if(!last)go('#/p/'+cid+'/'+ci+'/'+(pi+1),true);
         else if(!lastCh){H.toast('Chapter complete');go('#/c/'+cid,true)}else{H.toast('Course complete!');go('#/c/'+cid,true)}}
-      var foot=h('div',{class:'pfoot'+(hasTool?' wide':'')},
-        h('button',{class:'btn',disabled:pi===0&&ci===0,onclick:function(){if(pi>0)go('#/p/'+cid+'/'+ci+'/'+(pi-1),true);else{var pc=c.chapters[ci-1];go('#/p/'+cid+'/'+(ci-1)+'/'+(pc.pages.length-1),true)}}},icon('back',18),' Back'),
-        h('button',{class:'btn primary',onclick:next},last?(lastCh?'Finish course':'Finish chapter'):'Next',' ',icon('next',18)));
+      function prev(){if(pi>0)go(url(ci,pi-1),true);else{var pc=c.chapters[ci-1];go(url(ci-1,pc.pages.length-1),true)}}
+      var foot=h('div',{class:'pfoot'+(hasTool&&!nv?' wide':'')},
+        h('button',{class:'btn',disabled:pi===0&&ci===0,onclick:prev},icon('back',18),' Back'),
+        h('button',{class:'btn primary',disabled:nv&&last&&lastCh,onclick:next},nv?'Next':(last?(lastCh?'Finish course':'Finish chapter'):'Next'),' ',icon('next',18)));
       root.appendChild(head);root.appendChild(body);root.appendChild(foot);
+      var sctx={course:c,cid:ch.id,pid:pg.id,title:pg.title};
+      function openNotesPanel(){NotesUI.openPanel({course:c,mode:'jump',title:'Highlights & notes',onJump:function(e,i1,i2){go('#/n/'+cid+'/'+i1+'/'+i2+'?e='+e.id)}})}
+      function paint(){Notes.paint(body,cid,pg.id)}
+      paint();
+      activeSel=Sel.attach(body,sctx,{refresh:function(){var y=window.scrollY;viewPage(cid,ci,pi,nv).then(function(){window.scrollTo(0,y)})},openNotesView:nv?null:function(){go('#/n/'+cid+'/'+ci+'/'+pi)}});
+      if(eid){var mk=body.querySelector('.mk[data-id="'+eid+'"]');if(mk){setTimeout(function(){mk.scrollIntoView({block:'center',behavior:'smooth'});mk.classList.add('flash');setTimeout(function(){mk.classList.remove('flash')},1800)},120)}}
     });}
 
   /* ---------- block renderers ---------- */
@@ -149,7 +196,7 @@
       case 'quote':return h('div',{class:'card flat'},h('div',{style:{fontFamily:'var(--serif)',fontSize:'1.15rem'},html:md(b.text)}),b.by?h('div',{class:'label',style:{marginTop:'8px'}},b.by):null);
       case 'table':return h('div',{class:'card',style:{overflowX:'auto',padding:'12px 16px'}},h('table',{class:'tbl'},h('thead',null,h('tr',null,b.head.map(function(x){return h('th',null,x)}))),h('tbody',null,b.rows.map(function(r){return h('tr',null,r.map(function(x){return h('td',{html:md(String(x))})}))}))));
       case 'video':return renderVideo(b);
-      case 'activity':return renderActivity(b);
+      case 'activity':return renderActivity(b,ctx);
       case 'quiz':return renderQuiz(b);
       case 'tf':return renderQuiz({id:b.id,q:b.q,options:['True','False'],answer:b.answer?0:1,explain:b.explain});
       case 'flash':return renderFlash(b);
@@ -178,7 +225,7 @@
     if(locked){showFb(saved.ok);check.classList.add('hide');retry.classList.remove('hide')}
     return box}
 
-  function renderActivity(b){
+  function renderActivity(b,ctx){
     var box=h('div',{class:'card'}),ta=h('textarea',{class:'textarea',placeholder:'Write your answer here...'}),out=h('div'),timer;
     ta.value=Store.getAns(b.id)||'';
     ta.addEventListener('input',function(){clearTimeout(timer);timer=setTimeout(function(){Store.setAns(b.id,ta.value)},400)});
@@ -193,7 +240,7 @@
       var ai=h('div',{class:'ai-box',style:{marginTop:'12px'}},lbl,txt);out.appendChild(ai);
       if(useAI){ai.appendChild(h('br'));ai.appendChild(cancel);
         tick=setInterval(function(){if(got)return;var s=Math.round((Date.now()-t0)/1000);txt.textContent='Thinking... '+s+' s'+(s>8?'\n(the first words can take up to a minute on CPU)':'')},1000)}
-      AI.feedback({question:b.prompt,answer:v,points:b.points||[],model:b.model,context:b.title,onToken:function(t){got=true;txt.textContent=t}}).then(function(r){
+      AI.feedback({question:b.prompt,answer:v,points:b.points||[],model:b.model,context:b.title,course:ctx&&courses[ctx.cid],pid:ctx&&ctx.pid,onToken:function(t){got=true;txt.textContent=t}}).then(function(r){
         clearInterval(tick);cancel.remove();
         lbl.textContent=r.source==='ai'?'AI tutor \u00b7 on-device':'Self-check \u00b7 key ideas';txt.textContent=r.text;
         if(r.source==='ai'&&r.covered&&r.covered.length){var kl=h('div',{style:{marginTop:'12px',paddingTop:'10px',borderTop:'1px solid #2a2a2a',fontSize:'.85rem',color:'#bdbdbd'}},h('div',{class:'label'},'Key ideas \u00b7 '+((Date.now()-t0)/1000).toFixed(0)+' s'));r.covered.forEach(function(c){kl.appendChild(h('div',{style:{marginTop:'4px'}},(c.hit?'\u2713 ':'\u25CB ')+c.point))});ai.appendChild(kl)}
@@ -224,12 +271,12 @@
   /* ---------- settings ---------- */
   function viewSettings(){
     var root=h('div');mount(root);
-    root.appendChild(h('div',{class:'topbar'},h('button',{class:'round',onclick:function(){history.length>1?history.back():go('#/')},html:Dot.icon('back')}),h('div',{class:'dot',html:Dot.text('SETTINGS',{size:4}),style:{width:'190px'}}),h('span',{style:{width:'46px'}})));
+    root.appendChild(h('div',{class:'topbar'},h('button',{class:'round','aria-label':'Home',onclick:function(){go('#/')},html:Dot.icon('home')}),h('div',{class:'dot',html:Dot.text('SETTINGS',{size:4}),style:{width:'190px'}}),h('span',{style:{width:'46px'}})));
     /* appearance */
     var th=h('div',{class:'row'});['auto','light','dark'].forEach(function(t){th.appendChild(h('button',{class:'chip'+(Store.settings.theme===t?' on':''),onclick:function(){Store.settings.theme=t;Store.saveSettings();applyTheme();viewSettings()}},t[0].toUpperCase()+t.slice(1)))});
     root.appendChild(h('div',{class:'card'},h('div',{class:'label'},'Appearance'),h('h3',{style:{margin:'4px 0 10px'}},'Theme'),th));
     var cb2=crashBanner();if(cb2)root.insertBefore(cb2,root.children[1]);
-    root.appendChild(aiCard());root.appendChild(syncCard());root.appendChild(dataCard());
+    root.appendChild(aiCard());root.appendChild(behaviourCard());root.appendChild(syncCard());root.appendChild(dataCard());
     root.appendChild(h('div',{class:'card flat tiny muted'},h('b',null,'About. '),'Course content: The Open University, OpenLearn (CC BY-NC-SA 4.0): "Project management: the start of the project journey" and "Entrepreneurship: from ideas to reality". Reformatted for mobile learning with added practice questions and interactive tools. Not an official Open University product.'));}
 
   function fmtMB(b){return b>=1073741824?(b/1073741824).toFixed(2)+' GB':(b/1048576).toFixed(0)+' MB'}
@@ -295,6 +342,17 @@
         AI.ask({system:'You are a concise tutor.',prompt:tin.value,maxTokens:120,temperature:0.3,onToken:function(t){box.querySelector('.t').textContent=t}}).then(function(t){box.querySelector('.t').textContent=t;box.appendChild(h('div',{style:{marginTop:'8px',fontSize:'.8rem',color:'#9a9a9a'}},LLM.lastTps.toFixed(1)+' tokens/s · '+((Date.now()-t0)/1000).toFixed(1)+' s · '+(LLM.status().backend||'')))}).catch(function(e){box.querySelector('.t').textContent='Error: '+e.message})}},'Run test')),testOut));
     refresh();return card}
 
+  function behaviourCard(){
+    var card=h('div',{class:'card'});
+    card.appendChild(h('div',{class:'label'},'Local AI'));card.appendChild(h('h3',{style:{margin:'4px 0 6px'}},'How the AI responds'));
+    card.appendChild(h('p',{class:'muted tiny'},'Pick a response mode, or write your own. The active mode is used for activity feedback, questions about selected text, the AI page and document tools.'));
+    card.appendChild(h('div',{class:'label',style:{margin:'10px 0 6px'}},'Active mode'));card.appendChild(ModesUI.chips());
+    card.appendChild(h('div',{class:'label',style:{margin:'16px 0 6px'}},'Check my activity answers against'));card.appendChild(ModesUI.basisToggle());
+    card.appendChild(h('p',{class:'muted tiny',style:{marginTop:'6px'}},'Model answer: compares with the key ideas from the course. Course content: also looks up the relevant course pages. Both: uses both.'));
+    card.appendChild(h('div',{class:'label',style:{margin:'16px 0 6px'}},'Manage modes'));
+    var mm=h('div');card.appendChild(mm);function drawM(){mm.innerHTML='';mm.appendChild(ModesUI.manager(function(){card.replaceWith(behaviourCard())}))}drawM();
+    return card}
+
   function syncCard(){
     var card=h('div',{class:'card'}),body=h('div');
     card.appendChild(h('div',{class:'label'},'Sync'));card.appendChild(h('h3',{style:{margin:'4px 0 4px'}},'Nearby device (Bluetooth)'));
@@ -333,5 +391,5 @@
     if(Store.settings.autoload&&m&&!window.__crashed){var ent=LLM.catalog.filter(function(c){return c.id===m})[0]||(Store.settings.custom&&Store.settings.custom===m?{id:m,repo:m,name:m,custom:true}:null);
       if(ent&&LLM.downloaded(ent))setTimeout(function(){LLM.load(ent,{device:Store.settings.device}).catch(function(){})},1200)}
   }).catch(function(e){$app.textContent='Failed to load courses: '+e.message});
-  window.__app={go:go,loadCourse:loadCourse};
+  window.__app={go:go,loadCourse:loadCourse,index:function(){return index}};
 })();
