@@ -1,17 +1,10 @@
 /* On-device LLM runtime. Inference runs in a dedicated Web Worker (js/llm-worker.js) so the UI can never freeze;
    transformers.js + ONNX Runtime Web (CPU/WASM by default, WebGPU opt-in). Models are cached with the Cache API. */
 (function(){
+  // Focus build: a single model. Qwen3 0.6B runs on the native engine (ONNX Runtime, CPU); WebView engines remain as fallbacks.
   var CATALOG=[
-    {id:'qwen2.5-0.5b',name:'Qwen2.5 0.5B Instruct',params:'0.5B',repo:'onnx-community/Qwen2.5-0.5B-Instruct',mb:450,note:'Fastest. Good for short feedback.'},
-    {id:'qwen3-0.6b',name:'Qwen3 0.6B',params:'0.6B',repo:'onnx-community/Qwen3-0.6B-ONNX',mb:520,note:'Small reasoning-capable model (thinking is switched off).',qwen3:true},
-    {id:'gemma3-1b',native:false,name:'Gemma 3 1B IT',params:'1B',repo:'onnx-community/gemma-3-1b-it-ONNX-GQA',mb:760,note:'Closest available Gemma 1B; best quality/size balance.'},
-    {id:'llama3.2-1b',native:false,name:'Llama 3.2 1B Instruct',params:'1.2B',repo:'onnx-community/Llama-3.2-1B-Instruct-q4f16',mb:1000,gpuOnly:true,fixedDtype:'q4f16',note:'GPU only.'},
-    {id:'qwen2.5-1.5b',name:'Qwen2.5 1.5B Instruct',params:'1.5B',repo:'onnx-community/Qwen2.5-1.5B-Instruct',mb:1100,note:'Noticeably better answers; slower.'},
-    {id:'qwen3-1.7b',name:'Qwen3 1.7B',params:'1.7B',repo:'onnx-community/Qwen3-1.7B-ONNX',mb:1250,note:'Thinking switched off.',qwen3:true},
-    {id:'smollm2-1.7b',name:'SmolLM2 1.7B Instruct',params:'1.7B',repo:'HuggingFaceTB/SmolLM2-1.7B-Instruct',mb:1200,note:'Needs the ONNX files in the repo; if it fails use another model.'},
-    {id:'gemma4-1b',native:false,name:'Gemma 4 1B (unverified id)',params:'1B',repo:'onnx-community/gemma-4-1b-it-ONNX',mb:800,note:'Repo id could not be verified from the build machine. If the download fails, paste the correct ONNX repo id under Custom model.'}
+    {id:'qwen3-0.6b',name:'Qwen3 0.6B',params:'0.6B',repo:'onnx-community/Qwen3-0.6B-ONNX',mb:520,note:'Small chat model; thinking is switched off.',qwen3:true}
   ];
-  var NATIVE=!!(window.Android&&window.Android.llmPost),useNative=false;
   var worker=null,cur=null,backend=null,state='idle',lastErr=null,subs=[],prog={},seq=0,calls={},lastInfo={};
   var t0dl=0,lastB=0,lastT=0,speed=0;
   function emit(extra){subs.forEach(function(f){try{f(Object.assign({state:state,model:cur,backend:backend,error:lastErr},extra||{}))}catch(e){}})}
