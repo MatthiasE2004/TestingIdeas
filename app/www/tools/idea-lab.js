@@ -13,7 +13,7 @@
   '.il-round{width:44px;height:44px;border-radius:50%;border:1.5px solid var(--line);background:var(--surface);cursor:pointer;font-size:1.3rem;line-height:1}.il-round[disabled]{opacity:.3}'+
   '.il-slider{display:grid;grid-template-columns:minmax(90px,130px) 1fr 28px;gap:10px;align-items:center;min-height:44px}.il-slider input{width:100%;accent-color:var(--ink);min-height:44px}'+
   '.il-slider b{font-family:var(--mono);text-align:right}'+
-  '.il-rank{display:grid;grid-template-columns:28px 1fr 56px;gap:10px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line)}.il-rank .bar{margin-top:6px}'+
+  '.il-rank{display:grid;grid-template-columns:28px 1fr auto;gap:10px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line)}.il-rank .bar{margin-top:6px}'+
   '.il-hmw{border-left:3px solid var(--line);padding-left:12px}.il-hmw.pick{border-color:var(--red)}'+
   '.il-chips{display:flex;gap:8px;flex-wrap:wrap}';
 
@@ -136,7 +136,7 @@
       wrap.appendChild(h('div',{class:'row',style:{margin:'10px 0'}},
         h('button',{class:'btn',onclick:function(){S.active=null;S.ci=(S.ci+1)%S.order.length;save();render()}},'Next card'),
         h('span',{class:'tiny muted'},'Card '+((S.ci%S.order.length)+1)+' of '+S.order.length)));
-      var inp=h('textarea',{class:'textarea',style:{minHeight:'70px'},placeholder:'Write an idea in response. Do not filter or judge yet - it can be anything.','aria-label':'New idea'});
+      var inp=h('textarea',{class:"textarea",style:{minHeight:"96px"},placeholder:'Write an idea in response. Do not filter or judge yet - it can be anything.','aria-label':'New idea'});
       function addIdea(){var t=inp.value.trim();if(!t)return;S.ideas.push({id:uid(),text:t,src:cur.t,s:[3,3,3,3],dots:0});inp.value='';save();render();var f=el.querySelector('textarea[aria-label="New idea"]');if(f)f.focus()}
       inp.addEventListener('keydown',function(e){if(e.key==='Enter'&&(e.ctrlKey||e.metaKey)){e.preventDefault();addIdea()}});
       wrap.appendChild(h('div',{class:'card flat'},h('span',{class:'label'},'Capture an idea'),inp,h('div',{class:'row',style:{marginTop:'8px'}},h('button',{class:'btn primary',onclick:addIdea},'Add idea note'))));

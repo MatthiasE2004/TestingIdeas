@@ -12,6 +12,7 @@
   '.be-chart{width:100%;height:auto;display:block;background:var(--surface);border-radius:var(--r-md)}'+
   '.be-chart text{font-family:var(--mono);font-size:11px;fill:var(--ink2)}'+
   '.be-scroll{overflow-x:auto}'+
+  '@media(max-width:560px){.be-sl{grid-template-columns:1fr 80px;gap:0 10px}.be-sl>span{grid-column:1}.be-sl>b{grid-column:2;grid-row:1}.be-sl>input{grid-column:1/3}.be-u{display:none}table.tbl{font-size:.8rem}table.tbl th{letter-spacing:.02em;padding:8px 3px}table.tbl td{padding:8px 3px}}'+
   'tr.be-neg td{background:rgba(215,25,33,.12);color:var(--red);font-weight:600}'+
   'table.tbl td.n,table.tbl th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}'+
   '.be-opt{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}'+
@@ -207,7 +208,7 @@
         card.appendChild(first?h('div',{class:'callout'},h('b',null,'Cash goes below zero in '+(first.m===0?'month 0 (start-up)':'month '+first.m)+'. '),'The lowest point is '+gbp(min.bal)+' in month '+min.m+'. You need at least '+gbp(-min.bal)+' more finance - or lower costs, faster payment or higher sales - to survive.'):
           h('div',{class:'callout tip'},h('b',null,'Cash stays above zero for the whole year. '),'Lowest balance '+gbp(min.bal)+' in month '+min.m+'. A contingency plan is still wise: could you survive a sharp, short-term shock such as equipment breakdown or losing a major order?'));
         // bars
-        var Wd=600,Ht=150,maxA=Math.max.apply(null,rows.map(function(r){return Math.abs(r.bal)}).concat([1]));
+        var Wd=420,Ht=150,maxA=Math.max.apply(null,rows.map(function(r){return Math.abs(r.bal)}).concat([1]));
         var s=svg('svg',{viewBox:'0 0 '+Wd+' '+Ht,class:'be-chart',role:'img','aria-label':'Closing cash balance by month, negative months in red'});
         var zero=Ht/2,bw=Wd/rows.length;
         s.appendChild(svg('line',{x1:0,x2:Wd,y1:zero,y2:zero,stroke:'var(--ink3)'}));
@@ -216,8 +217,8 @@
           s.appendChild(svg('text',{x:i*bw+bw/2,y:r.bal>=0?Ht-3:12,'text-anchor':'middle'},r.m))});
         card.appendChild(s);card.appendChild(h('p',{class:'tiny muted',style:{margin:'4px 0 12px'}},'Closing cash by month (0 = start-up). Red bars are below zero.'));
         // table
-        var tb=h('table',{class:'tbl'},h('thead',null,h('tr',null,h('th',null,'Mth'),h('th',{class:'n'},'Units'),h('th',{class:'n'},'Cash in'),h('th',{class:'n'},'Cash out'),h('th',{class:'n'},'Closing cash'))),
-          h('tbody',null,rows.map(function(r){return h('tr',{class:r.bal<0?'be-neg':''},h('td',null,r.m),h('td',{class:'n'},r.m?r.u:'-'),h('td',{class:'n'},gbp(r.inn)),h('td',{class:'n'},gbp(r.out)),h('td',{class:'n'},gbp(r.bal)))})));
+        var tb=h('table',{class:'tbl'},h('thead',null,h('tr',null,h('th',null,'Mth'),h('th',{class:'n be-u'},'Units'),h('th',{class:'n'},'Cash in'),h('th',{class:'n'},'Cash out'),h('th',{class:'n'},'Closing cash'))),
+          h('tbody',null,rows.map(function(r){return h('tr',{class:r.bal<0?'be-neg':''},h('td',null,r.m),h('td',{class:'n be-u'},r.m?r.u:'-'),h('td',{class:'n'},gbp(r.inn)),h('td',{class:'n'},gbp(r.out)),h('td',{class:'n'},gbp(r.bal)))})));
         card.appendChild(h('div',{class:'be-scroll',role:'region','aria-label':'Monthly cash flow table',tabindex:'0'},tb));
         out.appendChild(card);
         // fix

@@ -82,7 +82,7 @@
     var CHECKS=[
       {k:'six',l:'All six parts are covered',w:'The course lists the problem, customer, solution, value proposition, business model and the investment ask.',
        t:function(){var m=SECS.filter(function(s){return words(S.sec[s.id])<6});return m.length?{ok:false,msg:'Still thin or missing: '+m.map(function(s){return s.lab}).join(', ')+'.'}:{ok:true}}},
-      {k:'time',l:'Fits the time ('+S.target+' seconds)',w:'An elevator pitch lasts no longer than 60 seconds.',
+      {k:'time',get l(){return 'Fits the time ('+S.target+' seconds)'},w:'An elevator pitch lasts no longer than 60 seconds.',
        t:function(){var w=totalWords(),s=secs(w);if(w<limitW()*0.4)return {ok:false,msg:'About '+s+'s - too thin. You have room for roughly '+(limitW()-w)+' more words.'};
          return s>S.target?{ok:false,msg:'About '+s+'s - cut around '+(w-limitW())+' words.'}:{ok:true}}},
       {k:'story',l:'The problem is told as a story',w:'Stories bring the problem alive and are more memorable than technical detail.',
@@ -223,7 +223,7 @@
       var c=h('div',{class:'pt-card'},h('span',{class:'label'},'Elevator pitch'),
         h('h2',null,txt('value')||txt('solution')||filled[0].lab));
       SECS.forEach(function(s){if(txt(s.id)&&s.id!=='value')c.appendChild(h('div',{class:'row2'},h('span',{class:'label'},s.lab),h('span',null,txt(s.id))))});
-      c.appendChild(h('div',{class:'meta'},h('span',null,totalWords()+' words'),h('span',null,'~'+secs(totalWords())+'s spoken'),h('span',null,'checklist '+sc+'%'),S.runs.length?h('span',null,'best run '+Math.min.apply(null,S.runs.map(function(r){return r.s}))+'s'):null)));
+      c.appendChild(h('div',{class:'meta'},h('span',null,totalWords()+' words'),h('span',null,'~'+secs(totalWords())+'s spoken'),h('span',null,'checklist '+sc+'%'),S.runs.length?h('span',null,'best run '+Math.min.apply(null,S.runs.map(function(r){return r.s}))+'s'):null));
       w.appendChild(c);
       w.appendChild(h('div',{class:'row',style:{margin:'14px 0'}},h('button',{class:'btn primary',onclick:copy},'Copy as text'),h('button',{class:'btn',onclick:function(){S.tab=0;save();render()}},'Edit'),h('button',{class:'btn ghost',onclick:function(){S.tab=1;save();render()}},'Practise again')));
       w.appendChild(h('div',{class:'callout tip'},'Next steps: say it to a real person, then ask what they remember. If they cannot remember what you do or what you want, they cannot refer you to anyone else.'));

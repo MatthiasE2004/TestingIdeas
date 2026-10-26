@@ -105,14 +105,15 @@
           h('b',{style:{position:'absolute',top:'-3px',left:'calc('+(pi/(ch.pages.length-1)*100).toFixed(1)+'% - 6px)',width:'12px',height:'12px',borderRadius:'50%',background:'var(--red)'}}));seg.style.overflow='visible'}
         else{seg=h('div',{class:'seg'});ch.pages.forEach(function(p,i){seg.appendChild(h('i',{class:Store.isDone(p.id)?'d':'',style:i===pi?{background:'var(--red)'}:null}))})}
         head.appendChild(seg);
-      var body=h('div',{class:'pbody'},h('h1',null,pg.title));
+      var hasTool=pg.blocks.some(function(b){return b.t==='tool'});
+      var body=h('div',{class:'pbody'+(hasTool?' wide':'')},h('h1',null,pg.title));
       var ctx={cid:cid,pid:pg.id};
       pg.blocks.forEach(function(b){try{var n=renderBlock(b,ctx);if(n)body.appendChild(n)}catch(e){console.error(e);body.appendChild(h('div',{class:'callout'},'Could not display this block.'))}});
       var last=pi===ch.pages.length-1,lastCh=ci===c.chapters.length-1;
       function next(){Store.markDone(pg.id);
         if(!last)go('#/p/'+cid+'/'+ci+'/'+(pi+1),true);
         else if(!lastCh){H.toast('Chapter complete');go('#/c/'+cid,true)}else{H.toast('Course complete!');go('#/c/'+cid,true)}}
-      var foot=h('div',{class:'pfoot'},
+      var foot=h('div',{class:'pfoot'+(hasTool?' wide':'')},
         h('button',{class:'btn',disabled:pi===0&&ci===0,onclick:function(){if(pi>0)go('#/p/'+cid+'/'+ci+'/'+(pi-1),true);else{var pc=c.chapters[ci-1];go('#/p/'+cid+'/'+(ci-1)+'/'+(pc.pages.length-1),true)}}},icon('back',18),' Back'),
         h('button',{class:'btn primary',onclick:next},last?(lastCh?'Finish course':'Finish chapter'):'Next',' ',icon('next',18)));
       root.appendChild(head);root.appendChild(body);root.appendChild(foot);
@@ -186,7 +187,7 @@
 
   function renderTool(b,ctx){
     var wrap=h('div'),holder=h('div',{class:'tool'},h('div',{class:'label'},'Loading tool...'));
-    if(b.title)wrap.appendChild(h('h3',null,b.title));if(b.intro)wrap.appendChild(h('p',{class:'muted',html:md(b.intro)}));wrap.appendChild(holder);
+    if(b.intro)wrap.appendChild(h('p',{class:'muted',html:md(b.intro)}));wrap.appendChild(holder);
     ToolLoader.ensure(b.tool).then(function(ok){holder.innerHTML='';
       if(!ok){holder.appendChild(h('div',{class:'callout'},'This interactive tool ('+b.tool+') is not available in this build.'));return}
       var t=Tools.get(b.tool),pre=b.tool+':';

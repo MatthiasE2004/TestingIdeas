@@ -65,3 +65,4 @@ figure.img figcaption{font-size:.82rem;color:var(--ink2);margin-top:8px}
 .progress-line>i{display:block;height:100%;background:var(--red);width:0;transition:width .3s}
 code.k{font-family:var(--mono);background:var(--surface2);border-radius:6px;padding:1px 6px;font-size:.85em}
 @media(min-width:900px){ .phead{padding-top:14px} .pbody h1{font-size:2rem} body{font-size:18px} }
+.pbody.wide,.pfoot.wide{max-width:1040px}

@@ -12,7 +12,7 @@ var BLOCKS=[
       'A customer segment is only valid if you know who those customers are, what their needs are, that there are enough of them to make it worthwhile and that you have the means to reach them. Does each of yours pass all four?',
       'What makes one group distinct from another - different needs, different behaviour, different ways of being reached?',
       'Which segment is the most likely first customer? (You will have more success focusing on the most likely segment than on "everyone".)']},
- {k:'vp',  title:'Value propositions', short:'Value propositions',
+ {k:'vp',  title:'Value propositions', short:'Value props',
   def:'The bundles of products and services that are designed to appeal to and provide value to different customer segments.',
   qs:['What problem(s) or need(s) are you solving or meeting for each segment?',
       'How will your idea alleviate the problem or provide a gain for customers?',
@@ -25,7 +25,7 @@ var BLOCKS=[
       'Which sales channels will you use: website, social media, face to face (pop-up shops, festivals...)?',
       'Where does each segment already spend time? Can you reach them there?',
       'Is every touchpoint convenient and easy? (Time-poor customers value operational ease.)']},
- {k:'cr',  title:'Customer relationships', short:'Relationships',
+ {k:'cr',  title:'Customer relationships', short:'Relations',
   def:'Defines how you will relate to your customers (e.g. loyalty schemes or discounts, rewards, recognition of greatest need etc.).',
   qs:['What kind of relationship does each segment expect: transactional, loyalty and engagement, or advocacy?',
       'How will you win, keep and grow customers? Delighted customers come back and tell other people.',
@@ -92,7 +92,7 @@ var EXAMPLES=[
   kr:['Music licences from labels and publishers','Streaming technology and apps','Recommendation algorithms and listener data','Brand and user base'],
   ka:['Platform and app development','Negotiating and managing music licences','Building personalised recommendations','Selling advertising and growing subscribers'],
   kp:['Record labels, publishers and artists','Cloud infrastructure providers','Telecom and device partners'],
-  cost:['Royalty payments for music licences','Technology and cloud infrastructure','Platform development and data teams','Marketing and sales for advertising and subscribers']}}
+  cost:['Royalty payments for music licences','Technology and cloud infrastructure','Platform development and data teams building recommendations','Marketing to grow the brand and user base, and advertising sales']}}
 ];
 
 /* ---------- helpers ---------- */
@@ -465,7 +465,6 @@ mount:function(el,ctx){
     document.addEventListener('keydown',onKey);
     sheetPoll=setInterval(function(){if(!el.isConnected)closeSheet()},800);
     buildSheet();
-    var ta=p.querySelector('textarea.bmc-add');if(ta&&window.innerWidth>=640)ta.focus();
   }
   function onKey(e){if(e.key==='Escape')closeSheet()}
   function closeSheet(){
