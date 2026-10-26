@@ -63,6 +63,7 @@ public class NativeLlm {
     int layers, kvHeads, headDim;
     final Set<Integer> eos = new HashSet<Integer>();
     String loadedRepo;
+    volatile long gguf;   // llama.cpp handle when a GGUF model is loaded
     List<String> pastNames = new ArrayList<String>();
     boolean hasPos, hasMask;
 
@@ -78,7 +79,7 @@ public class NativeLlm {
     public void handle(String json) {
         final JsonObject m = JsonParser.parseString(json).getAsJsonObject();
         String type = m.get("type").getAsString();
-        if ("interrupt".equals(type)) { cancel = true; return; }
+        if ("interrupt".equals(type)) { cancel = true; long g = gguf; if (g != 0) LlamaJni.cancel(g); return; }
         if ("unload".equals(type)) { exec.submit(new Runnable() { public void run() { closeSession(); } }); return; }
         if ("load".equals(type)) exec.submit(new Runnable() { public void run() { load(m); } });
         else if ("generate".equals(type)) exec.submit(new Runnable() { public void run() { generate(m); } });
@@ -99,6 +100,7 @@ public class NativeLlm {
 
     void load(JsonObject m) {
         int id = m.get("id").getAsInt();
+        if (m.has("gguf") && !m.get("gguf").isJsonNull()) { loadGguf(id, m); return; }
         try {
             String repo = m.get("repo").getAsString();
             String dtype = m.has("dtype") ? m.get("dtype").getAsString() : "q4";
@@ -138,6 +140,7 @@ public class NativeLlm {
     }
 
     void closeSession() {
+        if (gguf != 0) { long g = gguf; gguf = 0; try { LlamaJni.free(g); } catch (Throwable ignored) { } }
         try { if (session != null) session.close(); } catch (Throwable ignored) { }
         session = null;
         loadedRepo = null;
@@ -206,6 +209,78 @@ public class NativeLlm {
     static JsonObject readJson(File f) throws IOException {
         InputStreamReader r = new InputStreamReader(new FileInputStream(f), StandardCharsets.UTF_8);
         try { return JsonParser.parseReader(r).getAsJsonObject(); } finally { r.close(); }
+    }
+
+
+    /* ------------------------------------------------------------ GGUF via llama.cpp */
+
+    void loadGguf(int id, JsonObject m) {
+        try {
+            String repo = m.get("repo").getAsString();
+            String file = m.get("gguf").getAsString();
+            int threads = m.has("threads") ? m.get("threads").getAsInt() : 4;
+            closeSession();
+            File dir = new File(root, repo);
+            File f = new File(dir, file);
+            if (!f.exists() || f.length() == 0) { dir.mkdirs(); lastProgress = 0; download(repo, file, f, false); }
+            new File(dir, ".complete-" + file).createNewFile();
+            if (!LlamaJni.init()) throw new Exception("Unsupported: the llama.cpp native library is not available on this device");
+            template = m.has("template") && !m.get("template").isJsonNull() ? m.get("template").getAsString() : (file.toLowerCase().contains("qwen3") ? "chatml-nothink" : "chatml");
+            long h;
+            sink.inflight(true);
+            try { h = LlamaJni.load(f.getAbsolutePath(), threads, 2048); } finally { sink.inflight(false); }
+            if (h == 0) throw new Exception("Unsupported or damaged model file: " + LlamaJni.lastError());
+            gguf = h;
+            loadedRepo = repo;
+            JsonObject o = new JsonObject();
+            o.addProperty("type", "loaded");
+            o.addProperty("id", id);
+            o.addProperty("device", "llama");
+            o.addProperty("threads", threads);
+            o.addProperty("isolated", true);
+            emit(o);
+        } catch (Throwable t) {
+            closeSession();
+            error(id, t);
+        }
+    }
+
+    void generateGguf(final int id, JsonObject m) {
+        try {
+            int max = m.has("max") ? m.get("max").getAsInt() : 128;
+            float temp = m.has("temp") ? (float) m.get("temp").getAsDouble() : 0f;
+            float rep = m.has("rep") ? (float) m.get("rep").getAsDouble() : 1.08f;
+            String prompt = applyTemplate(template, m.getAsJsonArray("msgs"));
+            final ByteArrayOutputStream all = new ByteArrayOutputStream();
+            long g = gguf;
+            sink.inflight(true);
+            int n;
+            try {
+                n = LlamaJni.generate(g, prompt.getBytes(StandardCharsets.UTF_8), max, temp, rep, new LlamaJni.Callback() {
+                    public void onBytes(byte[] b) {
+                        all.write(b, 0, b.length);
+                        JsonObject o = new JsonObject();
+                        o.addProperty("type", "token");
+                        o.addProperty("id", id);
+                        o.addProperty("text", new String(all.toByteArray(), StandardCharsets.UTF_8));
+                        emit(o);
+                    }
+                });
+            } finally { sink.inflight(false); }
+            if (n < 0) throw new Exception(LlamaJni.lastError());
+            double[] st = LlamaJni.stats();
+            JsonObject o = new JsonObject();
+            o.addProperty("type", "done");
+            o.addProperty("id", id);
+            o.addProperty("text", new String(all.toByteArray(), StandardCharsets.UTF_8));
+            o.addProperty("tps", st[0]);
+            o.addProperty("prefillMs", st[1]);
+            o.addProperty("promptTokens", (int) st[2]);
+            o.addProperty("cancelled", cancel);
+            emit(o);
+        } catch (Throwable t) {
+            error(id, t);
+        }
     }
 
     /* ------------------------------------------------------------ download */
@@ -282,7 +357,7 @@ public class NativeLlm {
                 e.addProperty("repo", o.getName() + "/" + n.getName());
                 e.addProperty("bytes", acc[0]);
                 e.addProperty("files", acc[1]);
-                e.addProperty("complete", new File(n, ".complete").exists());
+                e.addProperty("complete", isComplete(o.getName() + "/" + n.getName()));
                 arr.add(e);
             }
         }
@@ -295,7 +370,11 @@ public class NativeLlm {
         if (k != null) for (File x : k) size(x, acc);
     }
 
-    public boolean isComplete(String repo) { return new File(new File(root, repo), ".complete").exists(); }
+    public boolean isComplete(String repo) {
+        String[] names = new File(root, repo).list();
+        if (names != null) for (String n : names) if (n.startsWith(".complete")) return true;
+        return false;
+    }
 
     public long purge(String repo) {
         if (repo.equals(loadedRepo)) closeSession();
@@ -347,6 +426,7 @@ public class NativeLlm {
     void generate(JsonObject m) {
         int id = m.get("id").getAsInt();
         cancel = false;
+        if (gguf != 0) { generateGguf(id, m); return; }
         OrtSession.Result prev = null;
         try {
             if (session == null) throw new Exception("no-model");

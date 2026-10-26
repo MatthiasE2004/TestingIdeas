@@ -7,7 +7,7 @@
       opts=opts||{};var steps=[];
       function step(name){var s={name:name,status:'run',detail:''};steps.push(s);onUpdate&&onUpdate(steps);return s}
       function done(s,status,detail){s.status=status;s.detail=detail||'';onUpdate&&onUpdate(steps)}
-      var dev=Store.settings.device==='native'&&!LLM.nativeAvailable()?'wasm':Store.settings.device,stall;
+      var dev=(Store.settings.device==='native'||Store.settings.device==='llama')&&!LLM.nativeAvailable()?'wasm':Store.settings.device,stall;
       var s1=step('Environment');
       return LLM.gpuInfo().then(function(g){
         var bits=['secure context: '+(self.isSecureContext?'yes':'NO'),'workers: '+(window.Worker?'yes':'NO'),'WebGPU: '+(g.webgpu?'yes'+(g.f16?' (fp16)':''):'no'),'threads: '+(self.crossOriginIsolated?'multi (isolated)':'single (not isolated - slower)')];

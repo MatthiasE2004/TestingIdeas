@@ -8,11 +8,12 @@ short pages, quizzes, written activities with on-device AI feedback, 15 interact
 - On-device AI: transformers.js + ONNX Runtime Web (WebGPU, WASM fallback). Models are downloaded in-app (Settings > Local AI).
 - Content: The Open University, OpenLearn, CC BY-NC-SA 4.0.
 
-## Local AI engines
-1. **Native CPU (default on Android)**: `android/src/.../NativeLlm.java` + `BpeTokenizer.java` run Hugging Face ONNX decoder models (`onnx/model_q4.onnx`, fp32 KV cache; Qwen2.5/Qwen3/SmolLM-style byte-level BPE + ChatML) with ONNX Runtime Android's native arm64 kernels (no WebView, no GPU, no wasm). Models are downloaded by Java into app storage.
-2. **WebView CPU / GPU (fallback, e.g. Gemma)**: transformers.js + ONNX Runtime Web inside a Web Worker.
+## Local AI engines (Settings > Local AI > engine)
+1. **llama.cpp (default on Android)**: `android/jni/llama_jni.cpp` + `NativeLlm.java` run GGUF models (Qwen3 0.6B Q4_K_M from `unsloth/Qwen3-0.6B-GGUF`) with llama.cpp (pinned commit in `build.sh`, built with the NDK for arm64, dot-product NEON kernels). Memory-mapped model, logits only for the last token.
+2. **ONNX Runtime native**: `NativeLlm.java` + `BpeTokenizer.java` run Hugging Face ONNX decoder models with ONNX Runtime Android.
+3. **WebView CPU / GPU**: transformers.js + ONNX Runtime Web in a Web Worker (fallback; GPU is experimental).
 A renderer or native crash is detected on the next start and switches the app to the WebView CPU engine with a notice.
 
 ## Testing the local AI
 - In the app: Settings > Local AI > **Run AI self-test** (loads the selected model, generates, runs a real feedback request, measures UI freezes; PASS / PASSED with warnings / FAILED).
-- Automated (no real model needed): `./build.sh` once, then `tests/run_all.sh`. It builds random-weight fixture models in the real ONNX layout and checks: the Java tokenizer against Python `tokenizers` on 400+ strings, the Java generation loop token-for-token against Python `onnxruntime`, download/storage/purge, cancel, the app UI driving the real Java engine, and the WebView worker engine (isolated and not).
+- Automated: `./build.sh` once (downloads NDK, llama.cpp, ORT), then `tests/run_all.sh`. If `out/qwen3` (ONNX files) and `out/qwen3-gguf` (the GGUF) exist it also tests the real Qwen3 0.6B (tokenizer + chat template vs Hugging Face, generation vs the ONNX Runtime reference, llama.cpp through JNI, the real app UI). It always builds random-weight fixture models in the real ONNX layout and checks: the Java tokenizer against Python `tokenizers` on 400+ strings, the Java generation loop token-for-token against Python `onnxruntime`, download/storage/purge, cancel, the app UI driving the real Java engine, and the WebView worker engine (isolated and not).

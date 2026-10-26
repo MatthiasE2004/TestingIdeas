@@ -13,8 +13,8 @@ extra=["Hello, world!","  leading and trailing  ","tabs\tand\nnewlines\r\n\r\nen
 json.dump(extra+lines[:400],open(sys.argv[1],'w'))
 PY
 SCRATCH=/tmp/claude-0/-home-user-TestingIdeas/5f829c21-dcab-5cfc-b415-a90a75546e9d/scratchpad
-JAVA_OUT=$(java -Dfile.encoding=UTF-8 -Dstdout.encoding=UTF-8 -cp "$T/classes:$C/onnxruntime-desktop-1.20.0.jar:$C/gson.jar" nl.learn.courses.NativeLlmTest "$FIX" "$T/strings.json" 24 2>&1 | grep -v JAVA_TOOL | tail -1)
-PY_OUT=$("$SCRATCH/venv/bin/python" "$ROOT/tests/oracle.py" "$FIX" "$T/strings.json" 24)
+JAVA_OUT=$(java -Dfile.encoding=UTF-8 -Dstdout.encoding=UTF-8 -Xmx6g -Dthreads=${THREADS:-2} -cp "$T/classes:$C/onnxruntime-desktop-1.20.0.jar:$C/gson.jar" nl.learn.courses.NativeLlmTest "$FIX" "$T/strings.json" 24 2>&1 | grep -v JAVA_TOOL | tail -1)
+PY_OUT=$("$SCRATCH/venv/bin/python" "$ROOT/tests/oracle.py" "$FIX" "$T/strings.json" 24 2>"$T/oracle.err")
 python3 - "$JAVA_OUT" "$PY_OUT" <<'PY'
 import json,sys
 j=json.loads(sys.argv[1]); p=json.loads(sys.argv[2]); bad=0
@@ -22,7 +22,7 @@ mism=[i for i,(a,b) in enumerate(zip(j['enc'],p['enc'])) if a!=b]
 print(('PASS' if not mism else 'FAIL'),'tokenizer parity on',len(p['enc']),'strings;',len(mism),'mismatches')
 if mism: bad+=1; i=mism[0]; print('  first mismatch',i,j['enc'][i][:20],p['enc'][i][:20])
 ok=j['prompt']==p['prompt']; print('PASS' if ok else 'FAIL','chat template + prompt tokens identical'); bad+=0 if ok else 1
-ok=j['text']==p['text']; print('PASS' if ok else 'FAIL','greedy generation identical to onnxruntime reference ('+str(len(p['text']))+' chars,',round(j['tps'],1),'tok/s)'); bad+=0 if ok else 1
+ok=j['text']==p['text']; print('  text:',repr(j['text'][:200]));print('PASS' if ok else 'FAIL','greedy generation identical to onnxruntime reference ('+str(len(p['text']))+' chars,',round(j['tps'],1),'tok/s)'); bad+=0 if ok else 1
 if not ok: print('  java:',repr(j['text'][:80]),'\n  ref :',repr(p['text'][:80]))
 print('PASS' if j['cancelledFlag'] else 'FAIL','interrupt stops generation'); bad+=0 if j['cancelledFlag'] else 1
 print('PASS' if j['progressEvents'] else 'FAIL','download progress events'); bad+=0 if j['progressEvents'] else 1

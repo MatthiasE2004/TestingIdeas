@@ -3,7 +3,9 @@
 (function(){
   // Focus build: a single model. Qwen3 0.6B runs on the native engine (ONNX Runtime, CPU); WebView engines remain as fallbacks.
   var CATALOG=[
-    {id:'qwen3-0.6b',name:'Qwen3 0.6B',params:'0.6B',repo:'onnx-community/Qwen3-0.6B-ONNX',mb:520,note:'Small chat model; thinking is switched off.',qwen3:true}
+    {id:'qwen3-0.6b',name:'Qwen3 0.6B',params:'0.6B',repo:'onnx-community/Qwen3-0.6B-ONNX',mb:919,
+     gguf:{repo:'unsloth/Qwen3-0.6B-GGUF',file:'Qwen3-0.6B-Q4_K_M.gguf',mb:397},template:'chatml-nothink',
+     note:'Small chat model; thinking is switched off.',qwen3:true}
   ];
   var NATIVE=!!(window.Android&&window.Android.llmPost),useNative=false;
   var worker=null,cur=null,backend=null,state='idle',lastErr=null,subs=[],prog={},seq=0,calls={},lastInfo={};
@@ -50,6 +52,12 @@
     var th=Math.max(2,Math.min(4,Math.floor((navigator.hardwareConcurrency||8)/2)));
     return call({type:'load',repo:m.repo,dtype:'q4',threads:th,template:m.template}).then(function(r){
       backend='CPU (native x'+r.threads+')';lastInfo={isolated:true,threads:r.threads,device:'native',dtype:'q4'};return m})}
+  function loadLlama(m){
+    killWorker();useNative=true;
+    mark({stage:'load',dev:'llama',model:m.id||m.repo});
+    var th=Math.max(2,Math.min(4,Math.floor((navigator.hardwareConcurrency||8)/2)));
+    return call({type:'load',repo:m.gguf.repo,gguf:m.gguf.file,threads:th,template:m.template}).then(function(r){
+      backend='CPU (llama.cpp x'+r.threads+')';lastInfo={isolated:true,threads:r.threads,device:'llama',dtype:'q4_k_m'};return m})}
   function loadWeb(m,want){
     useNative=false;startWorker();
     return gpuInfo().then(function(gi){
@@ -60,7 +68,10 @@
       return call({type:'load',origin:location.origin,repo:m.repo,device:want,dtype:dtype,threads:threads()}).then(function(r){
         backend=want==='webgpu'?'GPU (WebGPU)':'CPU (WebView WASM x'+r.threads+')';lastInfo={isolated:r.isolated,threads:r.threads,device:want,dtype:dtype};return m})})}
   function nativeList(){if(!NATIVE)return [];try{return JSON.parse(window.Android.llmStorage())}catch(e){return []}}
+  function engineIsLlama(m){return NATIVE&&Store.settings.device==='llama'&&!!(m&&m.gguf)}
   var LLM={
+    repoOf:function(m){m=resolve(m);return engineIsLlama(m)?m.gguf.repo:m.repo},
+    sizeMB:function(m){m=resolve(m);return engineIsLlama(m)?m.gguf.mb:m.mb},
     catalog:CATALOG, gpuInfo:gpuInfo,
     on:function(f){subs.push(f)}, status:function(){return {state:state,model:cur,backend:backend,error:lastErr}},
     isReady:function(){return state==='ready'&&(useNative||!!worker)},
@@ -69,21 +80,22 @@
     /** opts:{device:'native'|'wasm'|'webgpu'}. Native (Android only) = ONNX Runtime CPU kernels via JNI; wasm/webgpu = WebView worker. */
     load:function(model,opts){
       opts=opts||{}; var m=resolve(model); state='loading'; lastErr=null; prog={}; lastT=0;speed=0; cur=m; backend=null; var hadFlag=LLM.downloaded(m);
-      var wantNative=NATIVE&&opts.device==='native'&&m.native!==false;
+      var wantLlama=NATIVE&&opts.device==='llama'&&!!m.gguf,wantNative=NATIVE&&opts.device==='native'&&m.native!==false;
+      var usedRepo=wantLlama?m.gguf.repo:m.repo;hadFlag=LLM.downloaded(m);
       emit({progress:0,phase:'start'});
-      var p=wantNative?loadNative(m):loadWeb(m,opts.device==='webgpu'?'webgpu':'wasm');
+      var p=wantLlama?loadLlama(m):wantNative?loadNative(m):loadWeb(m,opts.device==='webgpu'?'webgpu':'wasm');
       if(wantNative)p=p.catch(function(e){ // model not supported by the native engine (tokenizer / dtype): transparently use the WebView CPU engine
         if(/Unsupported|only fp32|no KV-cache|Only byte-level/i.test(String(e.message))){console.warn('native engine cannot run this model, using WebView CPU',e.message);return loadWeb(m,'wasm')}
         throw e});
-      return p.then(function(){state='ready';mark(null);try{localStorage.setItem('learn.dl.'+m.repo,'1')}catch(e){}emit({progress:1});return m})
+      return p.then(function(){state='ready';mark(null);try{localStorage.setItem('learn.dl.'+usedRepo,'1')}catch(e){}emit({progress:1});return m})
       .catch(function(e){mark(null);state='error';lastErr=String(e&&e.message||e);if(!useNative)killWorker();
-        var cleanup=hadFlag?Promise.resolve():LLM.purgeRepo(m.repo);
+        var cleanup=hadFlag?Promise.resolve():LLM.purgeRepo(usedRepo);
         return cleanup.then(function(){if(!hadFlag)lastErr+=' (partial files were removed)';emit();throw e})});
     },
-    downloaded:function(model){var repo=typeof model==='string'&&model.indexOf('/')>0?model:resolve(model).repo;try{if(NATIVE&&window.Android.llmComplete(repo))return true;return localStorage.getItem('learn.dl.'+repo)==='1'}catch(e){return false}},
+    downloaded:function(model){var repo=typeof model==='string'&&model.indexOf('/')>0?model:LLM.repoOf(model);try{if(NATIVE&&window.Android.llmComplete(repo))return true;return localStorage.getItem('learn.dl.'+repo)==='1'}catch(e){return false}},
     unload:function(){if(useNative){try{window.Android.llmPost(JSON.stringify({type:'unload'}))}catch(e){}}killWorker();state='idle';backend=null;emit()},
     /** removes cached files of a model */
-    purge:function(model){return LLM.purgeRepo(resolve(model).repo)},
+    purge:function(model){var m=resolve(model);return Promise.all([LLM.purgeRepo(m.repo)].concat(m.gguf?[LLM.purgeRepo(m.gguf.repo)]:[])).then(function(){return 0})},
     purgeRepo:function(repo){try{localStorage.removeItem('learn.dl.'+repo)}catch(e){}
       if(NATIVE){try{window.Android.llmPurge(repo)}catch(e){}}
       if(!self.caches)return Promise.resolve(0); var n=0;
@@ -116,8 +128,8 @@
       var myId=seq+1;
       var p=new Promise(function(res,rej){
         var c=call({type:'generate',msgs:msgs,max:o.maxTokens||160,temp:temp},{onToken:function(t){if(!first)first=Date.now();if(o.onToken)o.onToken(t)}});
-        c.then(function(r){LLM.lastTps=r.tps||0;LLM.lastFirstMs=first?first-t0:0;res(clean(r.text))},rej);
-        var limit=o.timeoutMs||(dev==='webgpu'?90000:dev==='native'?120000:240000);
+        c.then(function(r){LLM.lastTps=r.tps||0;LLM.lastPrefillMs=r.prefillMs||0;LLM.lastPromptTokens=r.promptTokens||0;LLM.lastFirstMs=first?first-t0:0;res(clean(r.text))},rej);
+        var limit=o.timeoutMs||(dev==='webgpu'?90000:useNative?120000:240000);
         function hardStop(why){ // nothing finished in time / cancel not honoured: native keeps its model, the web worker is killed so nothing stays stuck
           cancelled=true;
           if(useNative){try{window.Android.llmPost(JSON.stringify({type:'interrupt'}))}catch(e){}failAll(new Error(why))}

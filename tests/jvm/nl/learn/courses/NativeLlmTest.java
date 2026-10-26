@@ -30,8 +30,7 @@ public class NativeLlmTest {
             String rel = p.substring(p.indexOf("/resolve/main/") + 14);
             File f = new File(fixture, rel);
             if (!f.exists()) { ex.sendResponseHeaders(404, -1); ex.close(); return; }
-            byte[] d = Files.readAllBytes(f.toPath());
-            ex.sendResponseHeaders(200, d.length); ex.getResponseBody().write(d); ex.close();
+            ex.sendResponseHeaders(200, f.length()); Files.copy(f.toPath(), ex.getResponseBody()); ex.close();
         });
         srv.start();
         File root = Files.createTempDirectory("nativellm").toFile();
@@ -41,7 +40,7 @@ public class NativeLlmTest {
             public void inflight(boolean on) { }
         });
         JsonObject load = new JsonObject();
-        load.addProperty("type", "load"); load.addProperty("id", 1); load.addProperty("repo", "test/" + fixture.getName()); load.addProperty("dtype", "q4"); load.addProperty("threads", 2);
+        load.addProperty("type", "load"); load.addProperty("id", 1); load.addProperty("repo", "test/" + fixture.getName()); load.addProperty("dtype", "q4"); load.addProperty("threads", Integer.parseInt(System.getProperty("threads", "2")));
         llm.handle(load.toString());
         waitFor("loaded", 1, 120000);
         JsonArray strings = JsonParser.parseString(new String(Files.readAllBytes(Paths.get(a[1])), "UTF-8")).getAsJsonArray();

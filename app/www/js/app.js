@@ -196,7 +196,7 @@
       AI.feedback({question:b.prompt,answer:v,points:b.points||[],model:b.model,context:b.title,onToken:function(t){got=true;txt.textContent=t}}).then(function(r){
         clearInterval(tick);cancel.remove();
         lbl.textContent=r.source==='ai'?'AI tutor \u00b7 on-device':'Self-check \u00b7 key ideas';txt.textContent=r.text;
-        if(r.source==='ai'&&r.covered&&r.covered.length){ai.appendChild(h('div',{style:{marginTop:'10px',fontSize:'.85rem',color:'#9a9a9a'}},'Key ideas: '+r.covered.filter(function(c){return c.hit}).length+'/'+r.covered.length+' touched \u00b7 '+((Date.now()-t0)/1000).toFixed(0)+' s'))}
+        if(r.source==='ai'&&r.covered&&r.covered.length){var kl=h('div',{style:{marginTop:'12px',paddingTop:'10px',borderTop:'1px solid #2a2a2a',fontSize:'.85rem',color:'#bdbdbd'}},h('div',{class:'label'},'Key ideas \u00b7 '+((Date.now()-t0)/1000).toFixed(0)+' s'));r.covered.forEach(function(c){kl.appendChild(h('div',{style:{marginTop:'4px'}},(c.hit?'\u2713 ':'\u25CB ')+c.point))});ai.appendChild(kl)}
         btn.disabled=false;if(b.model)showModel()})}},icon('spark',16),' Get feedback');
     var modelBox=h('div'),shown=false;
     function showModel(){if(shown||!b.model)return;shown=true;modelBox.appendChild(h('div',{class:'callout note',style:{marginTop:'12px'}},h('div',{class:'label'},'Model answer'),h('div',{html:md(b.model)})))}
@@ -240,7 +240,7 @@
     card.appendChild(status);card.appendChild(diag);
     LLM.gpuInfo().then(function(g){diag.textContent='WebGPU: '+(g.webgpu?('yes'+(g.f16?' (fp16)':'')+(g.desc?' · '+g.desc:'')):'not available - CPU mode')+' · secure context: '+(self.isSecureContext?'yes':'no')+' · isolated: '+(self.crossOriginIsolated?'yes':'no')});
     var dev=h('div',{class:'row',style:{margin:'12px 0'}},h('span',{class:'tiny muted'},'Run on:'));
-    (LLM.nativeAvailable()?[['native','Native CPU (fastest)'],['wasm','WebView CPU'],['webgpu','WebView GPU (experimental)']]:[['wasm','CPU (stable)'],['webgpu','GPU (experimental)']]).forEach(function(d){dev.appendChild(h('button',{class:'chip'+(((Store.settings.device==='native'&&!LLM.nativeAvailable())?'wasm':Store.settings.device)===d[0]?' on':''),onclick:function(){Store.settings.device=d[0];Store.saveSettings();var p=card.parentNode;p.replaceChild(aiCard(),card)}},d[1]))});
+    (LLM.nativeAvailable()?[['llama','llama.cpp (fastest)'],['native','ONNX Runtime native'],['wasm','WebView CPU'],['webgpu','WebView GPU (experimental)']]:[['wasm','CPU (stable)'],['webgpu','GPU (experimental)']]).forEach(function(d){dev.appendChild(h('button',{class:'chip'+(((Store.settings.device==='native'&&!LLM.nativeAvailable())?'wasm':Store.settings.device)===d[0]?' on':''),onclick:function(){Store.settings.device=d[0];Store.saveSettings();var p=card.parentNode;p.replaceChild(aiCard(),card)}},d[1]))});
     card.appendChild(dev);
     var list=h('div'),testOut=h('div'),other=h('div'),store=h('div',{class:'tiny muted',style:{marginTop:'10px'}}),inst={},live=null,lastErrByRepo={};
     function renderStatus(){var st=LLM.status();
@@ -251,7 +251,7 @@
       drawList();drawOther()})}
     function select(m){Store.settings.model=m.id||m.repo;Store.saveSettings();LLM.load(m,{device:Store.settings.device}).then(function(){H.toast('Model ready')}).catch(function(e){lastErrByRepo[m.repo]=String(e&&e.message||e);H.toast('Download/load failed')}).then(refresh)}
     function drawList(){list.innerHTML='';var cur=LLM.status(),busy=cur.state==='loading';
-      LLM.catalog.forEach(function(m){var i=inst[m.repo],has=!!(i&&i.complete),partial=!!(i&&!i.complete),active=cur.state==='ready'&&cur.model&&cur.model.repo===m.repo,
+      LLM.catalog.forEach(function(m){var rp=LLM.repoOf(m),i=inst[rp],has=!!(i&&i.complete),partial=!!(i&&!i.complete),active=cur.state==='ready'&&cur.model&&cur.model.repo===m.repo,
         loadingThis=busy&&cur.model&&cur.model.repo===m.repo,selected=Store.settings.model===m.id;
         var info=h('div',{style:{flex:1,minWidth:0}},h('b',{style:{fontWeight:500}},m.name),' ',h('span',{class:'label'},m.params+' · ~'+m.mb+' MB'));
         var sub=has?'Downloaded · '+fmtMB(i.bytes)+(active?' · active ('+cur.backend+')':(selected?' · selected':'')):partial?'Incomplete files · '+fmtMB(i.bytes):m.note;
@@ -267,7 +267,7 @@
           btns.appendChild(h('button',{class:'btn sm'+(active?'':' primary'),disabled:active||busy,onclick:function(){delete lastErrByRepo[m.repo];select(m)}},active?'Active':has?(selected?'Load':'Select'):(partial?'Retry':'Download')));
           if(has||partial)btns.appendChild(h('button',{class:'btn ghost sm',disabled:busy,onclick:function(){if(!confirm('Delete files of '+m.name+' ('+fmtMB(i.bytes)+')?'))return;if(active)LLM.unload();LLM.purge(m).then(function(){if(Store.settings.model===m.id){Store.settings.model=null;Store.saveSettings()}H.toast('Deleted');refresh()})}},'Delete'))}
         list.appendChild(h('div',{class:'model-row'},info,btns))})}
-    function drawOther(){other.innerHTML='';var known={};LLM.catalog.forEach(function(m){known[m.repo]=1});
+    function drawOther(){other.innerHTML='';var known={};LLM.catalog.forEach(function(m){known[m.repo]=1;if(m.gguf)known[m.gguf.repo]=1});
       var rest=Object.keys(inst).filter(function(r){return !known[r]}).map(function(r){return inst[r]});
       if(!rest.length)return;other.appendChild(h('div',{class:'label',style:{margin:'14px 0 4px'}},'Other model files (custom or leftovers)'));
       rest.forEach(function(r){var cur=LLM.status(),active=cur.state==='ready'&&cur.model&&cur.model.repo===r.repo;

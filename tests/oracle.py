@@ -4,14 +4,22 @@ import sys, json, numpy as np, onnxruntime as ort
 from tokenizers import Tokenizer
 d = sys.argv[1]
 tok = Tokenizer.from_file(d + "/tokenizer.json")
-cfg = json.load(open(d + "/config.json")); H = cfg["num_key_value_heads"]; HD = cfg["hidden_size"] // cfg["num_attention_heads"]; L = cfg["num_hidden_layers"]
+cfg = json.load(open(d + "/config.json")); H = cfg["num_key_value_heads"]; HD = cfg.get("head_dim") or cfg["hidden_size"] // cfg["num_attention_heads"]; L = cfg["num_hidden_layers"]
 strings = json.load(open(sys.argv[2]))
 enc = [tok.encode(s, add_special_tokens=False).ids for s in strings]
-def chat(msgs): return "".join(f"<|im_start|>{m['role']}\n{m['content']}<|im_end|>\n" for m in msgs) + "<|im_start|>assistant\n"
+import os
+TC = json.load(open(d + "/tokenizer_config.json")) if os.path.exists(d + "/tokenizer_config.json") else {}
+def chat(msgs):
+    if isinstance(TC.get("chat_template"), str) and "<think>" in TC["chat_template"]:   # real Qwen3: render the official Jinja template with thinking disabled
+        import jinja2
+        env = jinja2.Environment(); env.globals["raise_exception"] = lambda m: (_ for _ in ()).throw(Exception(m))
+        return env.from_string(TC["chat_template"]).render(messages=msgs, add_generation_prompt=True, enable_thinking=False, tools=None)
+    return "".join(f"<|im_start|>{m['role']}\n{m['content']}<|im_end|>\n" for m in msgs) + "<|im_start|>assistant\n"
 msgs = [{"role": "system", "content": "You are a tutor."}, {"role": "user", "content": "Explain what a project is, in a few words: temporary, unique, budget. Ünïcödé ✓"}]
 ids = tok.encode(chat(msgs), add_special_tokens=False).ids
 sess = ort.InferenceSession(d + "/onnx/model_q4.onnx", providers=["CPUExecutionProvider"])
 eos = {tok.token_to_id("<|im_end|>"), tok.token_to_id("<|endoftext|>")}
+print("PROMPT:", repr(chat(msgs)), file=sys.stderr)
 past = {f"past_key_values.{i}.{k}": np.zeros((1, H, 0, HD), np.float32) for i in range(L) for k in ("key", "value")}
 all_ids = list(ids); feed = ids; plen = 0; gen = []
 for step in range(int(sys.argv[3]) if len(sys.argv) > 3 else 24):

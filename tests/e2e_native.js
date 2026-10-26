@@ -2,8 +2,8 @@
 const {chromium}=require('playwright'),{spawn,execSync}=require('child_process'),path=require('path');
 const ROOT=path.resolve(__dirname,'..'),C=ROOT+'/out/cache',T=ROOT+'/out/jvmtest',BP=8830,AP=8831;
 const results=[];const ok=(n,c,d)=>{results.push(c);console.log((c?'PASS ':'FAIL ')+n+(d?' - '+d:''))};
-execSync(`mkdir -p ${T}/classes && javac -nowarn --release 17 -cp ${C}/onnxruntime-desktop-1.20.0.jar:${C}/gson.jar -d ${T}/classes ${ROOT}/android/src/nl/learn/courses/BpeTokenizer.java ${ROOT}/android/src/nl/learn/courses/NativeLlm.java ${ROOT}/tests/jvm/nl/learn/courses/BridgeServer.java 2>&1 | grep -v JAVA_TOOL || true`,{shell:'/bin/bash'});
-const bridge=spawn('java',['-cp',`${T}/classes:${C}/onnxruntime-desktop-1.20.0.jar:${C}/gson.jar`,'nl.learn.courses.BridgeServer',ROOT+'/out',String(BP)],{stdio:['ignore','pipe','inherit']});
+execSync(`mkdir -p ${T}/classes && javac -nowarn --release 17 -cp ${C}/onnxruntime-desktop-1.20.0.jar:${C}/gson.jar -d ${T}/classes ${ROOT}/android/src/nl/learn/courses/BpeTokenizer.java ${ROOT}/android/src/nl/learn/courses/LlamaJni.java ${ROOT}/android/src/nl/learn/courses/NativeLlm.java ${ROOT}/tests/jvm/nl/learn/courses/BridgeServer.java 2>&1 | grep -v JAVA_TOOL || true`,{shell:'/bin/bash'});
+const bridge=spawn('java',['-Djava.library.path='+ROOT+'/out/jni-host','-Xmx3g','-cp',`${T}/classes:${C}/onnxruntime-desktop-1.20.0.jar:${C}/gson.jar`,'nl.learn.courses.BridgeServer',ROOT+'/out',String(BP)],{stdio:['ignore','pipe','inherit']});
 const app=spawn('node',[__dirname+'/serve.js',ROOT+'/app/www',AP,'iso'],{stdio:'ignore'});
 const stop=()=>{bridge.kill();app.kill()};
 (async()=>{await new Promise(r=>{bridge.stdout.on('data',d=>{if(String(d).includes('ready'))r()})});await new Promise(r=>setTimeout(r,500));
@@ -12,7 +12,8 @@ const stop=()=>{bridge.kill();app.kill()};
   window.Android={llmPost:j=>sx('POST','/post',j),llmStorage:()=>sx('GET','/storage'),llmComplete:r=>sx('GET','/complete?repo='+encodeURIComponent(r))==='true',llmPurge:r=>+sx('GET','/purge?repo='+encodeURIComponent(r)),llmPurgeAll:()=>sx('GET','/purgeall'),llmConsumeCrash:()=>0,consumeRenderCrashes:()=>0,openUrl(){}};
   (async function poll(){for(;;){try{const r=await fetch(B+'/events');const a=await r.json();a.forEach(e=>window.__llmEvent&&window.__llmEvent(e))}catch(e){await new Promise(r=>setTimeout(r,500))}}})()},`http://localhost:${BP}`);
  await p.goto(`http://localhost:${AP}/index.html`);await p.waitForSelector('.course');
- ok('app defaults to the native engine',await p.evaluate(()=>Store.settings.device==='native'&&LLM.nativeAvailable()));
+ ok('app defaults to the llama.cpp engine on Android',await p.evaluate(()=>Store.settings.device==='llama'&&LLM.nativeAvailable()));
+ await p.evaluate(()=>{Store.settings.device='native'});   // first scenario: ONNX Runtime native engine with the tiny fixture
  // register the fixture as a catalog model whose "Hugging Face" is the bridge's /hub
  await p.evaluate(()=>{LLM.catalog.unshift({id:'tiny-qwen',name:'Tiny test model',params:'0.01B',repo:'test/tiny-qwen',mb:4,note:'fixture'})});
  await p.evaluate(()=>location.hash='#/settings');await p.waitForSelector('.model-row');
@@ -38,5 +39,25 @@ const stop=()=>{bridge.kill();app.kill()};
  const sz=await p.$eval('.model-row:has-text("Tiny test model")',e=>e.innerText.replace(/\n/g,' | '));ok('model manager lists size of native files',/MB/.test(sz)&&/Downloaded/.test(sz),sz);
  p.on('dialog',d=>d.accept());await p.click('.model-row:has-text("Tiny test model") button:has-text("Delete")');await p.waitForTimeout(800);
  const after=await p.$eval('.model-row:has-text("Tiny test model")',e=>e.innerText.replace(/\n/g,' | '));ok('delete removes native files',/Download/.test(after)&&!/Downloaded/.test(after),after);
+
+ // ---- real Qwen3 0.6B GGUF through llama.cpp, driven by the real UI
+ if(require('fs').existsSync(ROOT+'/out/qwen3-gguf/Qwen3-0.6B-Q4_K_M.gguf')){
+  await p.evaluate(()=>{LLM.unload();Store.settings.device='llama';Store.saveSettings();LLM.catalog.unshift({id:'q3gguf',name:'Qwen3 0.6B (gguf test)',params:'0.6B',repo:'onnx-community/none',mb:919,gguf:{repo:'test/qwen3-gguf',file:'Qwen3-0.6B-Q4_K_M.gguf',mb:397},template:'chatml-nothink',qwen3:true,note:'real model'})});
+  await p.evaluate(()=>location.hash='#/c/pm');await p.evaluate(()=>location.hash='#/settings');await p.waitForSelector('.model-row:has-text("gguf test")');
+  await p.click('.model-row:has-text("gguf test") button:has-text("Download")');
+  await p.waitForFunction(()=>LLM.status().state==='ready',null,{timeout:120000});
+  ok('real Qwen3 GGUF downloaded and loaded by llama.cpp',(await p.evaluate(()=>LLM.status().backend)).includes('llama.cpp'),await p.evaluate(()=>LLM.status().backend));
+  await p.click('text=Run AI self-test');await p.waitForSelector('text=/PASSED|FAILED/',{timeout:120000});
+  const st2=await p.evaluate(()=>[...document.querySelectorAll('.model-row')].map(r=>r.innerText.replace(/\n/g,' ')).filter(t=>/Generate|Feedback test/.test(t)));console.log(st2.join('\n'));
+  ok('self-test passes with the real model',await p.isVisible('text=PASSED'));
+  await p.evaluate(()=>location.hash='#/p/pm/0/10');await p.waitForSelector('.textarea');
+  await p.fill('.textarea','Projects are temporary and unique, they have a budget and a deadline, while operations are ongoing and repetitive.');
+  const t0=Date.now();await p.click('text=Get feedback');
+  await p.waitForFunction(()=>{const b=document.querySelector('.ai-box');return b&&!b.querySelector('button')&&!/Thinking|Checking/.test(b.innerText)},null,{timeout:120000});
+  const fb2=await p.$eval('.ai-box',e=>e.innerText);console.log('FEEDBACK ('+((Date.now()-t0)/1000).toFixed(1)+'s):',fb2.replace(/\n/g,' ').slice(0,400));
+  ok('real AI feedback on a real activity answer',/AI tutor/i.test(fb2)&&fb2.length>120);
+  await p.evaluate(()=>location.hash='#/settings');await p.waitForSelector('.model-row');await p.waitForTimeout(600);
+  const r2=await p.$eval('.model-row:has-text("gguf test")',e=>e.innerText.replace(/\n/g,' | '));ok('model manager shows the GGUF size',/Downloaded · 3\d\d MB/.test(r2),r2);
+ }
  ok('no page errors',errs.length===0,errs.slice(0,2).join(' | '));
  await b.close();stop();const f=results.filter(x=>!x).length;console.log(f?`\n${f} FAILED`:'\nALL PASSED');process.exit(f?1:0)})().catch(e=>{console.error('TEST CRASH',e);stop();process.exit(2)});
