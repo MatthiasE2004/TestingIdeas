@@ -13,7 +13,7 @@ import java.util.Map;
 
 /** The whole screen, drawn in a Nothing-OS style: pure black, white dot-matrix type, a ring of dots and one red accent. */
 class NothingView extends View {
-    interface Listener { void onToggle(); void onSound(); }
+    interface Listener { void onToggle(); void onSound(); void onPick(int index); }
 
     private static final int RED = Color.parseColor("#D71921"), DIM = Color.parseColor("#2C2C2C"), GREY = Color.parseColor("#8A8A8A");
     private static final Map<Character, String[]> FONT = new HashMap<>();
@@ -25,6 +25,9 @@ class NothingView extends View {
     private String soundName = "";
     private float cx, cy, radius;
     private boolean enabled = true;
+    private String[] pickerItems;      // non-null while the sound list is open
+    private int pickerChecked = -1;
+    private final RectF[] rows = new RectF[8];
 
     NothingView(Context c) {
         super(c);
@@ -40,9 +43,40 @@ class NothingView extends View {
         invalidate();
     }
 
+    void openPicker(String[] items, int checked) {
+        pickerItems = items;
+        pickerChecked = checked;
+        invalidate();
+    }
+
+    /** @return true if the list was open */
+    boolean closePicker() {
+        if (pickerItems == null) return false;
+        pickerItems = null;
+        invalidate();
+        return true;
+    }
+
+    private void drawPicker(Canvas c, float w, float d) {
+        text(c, "SOUND", 28 * d, 56 * d, 2.6f * d, Color.WHITE, false);
+        float rowH = 72 * d, top = 120 * d;
+        for (int i = 0; i < pickerItems.length; i++) {
+            rows[i] = new RectF(24 * d, top + i * rowH, w - 24 * d, top + (i + 1) * rowH - 8 * d);
+            line.setStrokeWidth(1.5f * d);
+            line.setColor(i == pickerChecked ? RED : DIM);
+            c.drawRoundRect(rows[i], 18 * d, 18 * d, line);
+            String n = pickerItems[i].toUpperCase();
+            float unit = Math.min(3f * d, (rows[i].width() - 80 * d) / (n.length() * 6f));
+            if (i == pickerChecked) { dot.setColor(RED); c.drawCircle(rows[i].left + 28 * d, rows[i].centerY(), 6 * d, dot); }
+            text(c, n, rows[i].left + 52 * d, rows[i].centerY(), unit, Color.WHITE, false);
+        }
+        text(c, "BACK TO CLOSE", w / 2, getHeight() - 48 * d, 2f * d, GREY, true);
+    }
+
     @Override protected void onDraw(Canvas c) {
         float w = getWidth(), h = getHeight(), d = getResources().getDisplayMetrics().density;
         c.drawColor(Color.BLACK);
+        if (pickerItems != null) { drawPicker(c, w, d); return; }
         long t = System.currentTimeMillis();
         boolean flash = state == AlarmService.RINGING && (t / 250) % 2 == 0;
 
@@ -126,7 +160,13 @@ class NothingView extends View {
     }
 
     @Override public boolean onTouchEvent(MotionEvent e) {
-        if (e.getAction() == MotionEvent.ACTION_UP && listener != null) {
+        if (e.getAction() == MotionEvent.ACTION_UP && listener != null && pickerItems != null) {
+            int hit = -1;
+            for (int i = 0; i < pickerItems.length; i++) if (rows[i] != null && rows[i].contains(e.getX(), e.getY())) hit = i;
+            pickerItems = null;
+            invalidate();
+            listener.onPick(hit);
+        } else if (e.getAction() == MotionEvent.ACTION_UP && listener != null) {
             float dx = e.getX() - cx, dy = e.getY() - cy;
             if (dx * dx + dy * dy <= radius * radius * 1.2f) listener.onToggle();
             else if (enabled && pill.contains(e.getX(), e.getY())) listener.onSound();
