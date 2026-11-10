@@ -1,6 +1,6 @@
 # Learn: offline course app (Android)
 
-Two OpenLearn courses (Project management; Entrepreneurship) as one APK: home screen with progress %, chapter overview with resume,
+Four OpenLearn courses (Project management; Entrepreneurship; Leadership and followership; Personal branding) as one APK: home screen with progress %, chapter overview with resume,
 short pages, quizzes, written activities with on-device AI feedback, 15 interactive tools, Bluetooth progress sync.
 
 - Install: `dist/learn-courses.apk` (sideload; signed with `android/learn-debug.keystore`, so updates install over it).
