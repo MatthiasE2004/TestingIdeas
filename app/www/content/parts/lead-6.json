@@ -1,0 +1,359 @@
+{
+  "id": "lead6",
+  "title": "Week 6: Challenges for every leader",
+  "summary": "Common leadership challenges - building teams, motivating and developing staff, leading change and dealing with internal politics - and ways to address them.",
+  "minutes": 120,
+  "pages": [
+    {
+      "id": "lead6-01",
+      "title": "Welcome to Week 6",
+      "blocks": [
+        {"t": "p", "text": "Last week you looked at followership from the perspectives of both follower and leader, and at the importance of follower engagement and development. This week focuses on key challenges leaders face - **building an effective team, dealing with internal politics, motivating and developing staff, and leading change** - and potential solutions to each."},
+        {"t": "video", "title": "Lynne Johnson introduces Week 6", "url": null, "note": "Lynne explains that this week tackles fundamental leadership skills: how to build an effective team, deal with internal politics, motivate and develop your staff, and lead change. We often look to great leaders from history for inspiration - but does leadership change over time, and what are the challenges for modern leaders?"},
+        {"t": "callout", "kind": "key", "title": "By the end of this week you will be able to", "text": "recognise a range of common leadership challenges; reflect on challenges you have observed or experienced; describe ways in which common leadership challenges might be addressed."}
+      ]
+    },
+    {
+      "id": "lead6-02",
+      "title": "Challenges for modern leaders",
+      "blocks": [
+        {"t": "p", "text": "The role of leader is not an easy one. Leaders juggle and prioritise many complex responsibilities, and as leadership styles and employee expectations change they must increasingly prioritise staff **wellbeing**. Many leaders thrive on the variety, but it can be challenging."},
+        {"t": "img", "src": "img/lead_52.jpg", "alt": "A snow-covered mountain peak.", "caption": "Figure 1 There are many challenges for modern leaders"},
+        {"t": "p", "text": "Many researchers have surveyed leaders worldwide to identify common challenges. Before looking at the results, start with your own perceptions."}
+      ]
+    },
+    {
+      "id": "lead6-03",
+      "title": "Your three critical challenges",
+      "blocks": [
+        {"t": "activity", "id": "lead6-a1", "title": "Activity 1 Three most critical leadership challenges", "prompt": "What are the three most critical leadership challenges you or your leaders currently face? List them.", "model": "Did you choose mainly internal or external challenges, or a mix? You may have focused on internal challenges such as building and motivating your team, or on national or global issues that could affect your leadership. The challenges different leaders face vary with the context of their work and their own strengths and abilities.", "points": [
+          "Lists three specific challenges",
+          "Distinguishes internal (e.g. team, motivation) from external (national or global) challenges",
+          "Recognises that challenges depend on context and the leader's own strengths and abilities"
+        ]},
+        {"t": "p", "text": "Online searches for the most common recent leadership challenges frequently mention:"},
+        {"t": "ul", "items": ["leading a team", "inspiring and motivating others", "developing employees", "dealing with change", "fostering trust."]}
+      ]
+    },
+    {
+      "id": "lead6-04",
+      "title": "Professor Hartley's view of the challenges",
+      "blocks": [
+        {"t": "p", "text": "Jean Hartley has worked with many high-profile leaders, from elected politicians to civic activists and public and private sector professionals."},
+        {"t": "video", "title": "Professor Jean Hartley: common leadership challenges", "url": null, "note": "Three challenges. (1) Be clear about the purpose or task of your leadership: even experienced leaders need to reflect carefully, continuously and critically on whether they have framed it right, broken down the tasks appropriately or missed something. (2) Match your leadership style or approach to the context, the people and the outcomes - e.g. senior police deciding between command and control in a public order emergency and drawing the whole team into problem solving for a new problem; is this new and unclear, needing all the brains and expertise available, or something done before, where the job is to deliver on time, to high quality, with people fulfilled? (3) Maintain 'grace under pressure': even when stressed or under attack from colleagues, a boss or the media, stay calm, good humoured, respectful and polite. A leader who loses their temper or snaps has 'lost it' to some extent."}
+      ]
+    },
+    {
+      "id": "lead6-05",
+      "title": "Grace under pressure",
+      "blocks": [
+        {"t": "p", "text": "In *Grace Under Pressure: Leading through Change and Crisis*, John Baldoni (2023) describes grace under pressure as meeting:"},
+        {"t": "ul", "items": ["anger with composure", "denigration with respect", "sadness with compassion", "scarcity with abundance", "insults with smiles", "selfishness with selflessness", "hoarding with generosity", "life with gratitude."]},
+        {"t": "p", "text": "(Baldoni, 2023, p. xvii) - something for everyone to aspire to!"},
+        {"t": "quiz", "id": "lead6-q1", "q": "According to Baldoni (2023), grace under pressure means meeting anger with...", "options": ["silence", "composure", "authority", "humour"], "answer": 1, "explain": "Baldoni's list begins 'anger with composure', followed by denigration with respect, sadness with compassion and so on."}
+      ]
+    },
+    {
+      "id": "lead6-06",
+      "title": "Personal leadership challenges",
+      "blocks": [
+        {"t": "activity", "id": "lead6-a2", "title": "Activity 2 Personal leadership challenges", "prompt": "Reflect on your experiences of leadership challenge, as the leader or as an observer. Choose one example from the common challenges so far and summarise the situation. Then answer: What actions did the leader take? What actions did others take? What was the outcome?", "model": "Reflecting on your own times of challenge or crisis and your actions gives insight into your methods and whether you need to change them - use your leadership journal to do this regularly. If you observed another leader, you can learn from their strengths and weaknesses and apply what you learn to your own practice now or in the future.", "points": [
+          "Summarises a specific challenge linked to one of the common challenges",
+          "Describes the leader's actions and those of others",
+          "States the outcome",
+          "Draws a lesson about their own methods or what to apply in future"
+        ]}
+      ]
+    },
+    {
+      "id": "lead6-07",
+      "title": "Building an effective team: Tuckman",
+      "blocks": [
+        {"t": "p", "text": "Leading a team is a significant part of any leader's role, and getting an increasingly diverse range of members to work well together can be a challenge. Bruce Tuckman's (1965) team development model, still widely referenced, has four stages:"},
+        {"t": "ol", "items": [
+          "**Forming** - members test boundaries and explore behaviours, getting to know each other. Your role: introduce members and roles, and describe the team's focus with clarity.",
+          "**Storming** - members push against boundaries, leading to conflict and emotional responses. Your role: mediate, using your authority when required, helping them recognise each other's work styles.",
+          "**Norming** - the group overcomes resistance and finds new cohesion. Your role: monitor progress and give constructive feedback and praise.",
+          "**Performing** - roles become flexible and functional; energy goes into the task. Your role: step back, delegate more and focus on developing the team."
+        ]},
+        {"t": "img", "src": "img/lead_54.jpg", "alt": "Several hands come together in a group high five.", "caption": "Figure 2 Building a strong team is essential"}
+      ]
+    },
+    {
+      "id": "lead6-08",
+      "title": "The fifth stage: adjourning",
+      "blocks": [
+        {"t": "p", "text": "Tuckman later added **adjourning**: the team is reorganised for other projects or disbanded. This can be a time of uncertainty, perhaps even a sense of loss if the team performed well."},
+        {"t": "img", "src": "img/lead_55.jpg", "alt": "Graph of team effectiveness over time: effectiveness dips from forming to a low at storming, rises through norming to a peak at performing, then falls slightly at adjourning.", "caption": "Figure 3 Tuckman's team development model"},
+        {"t": "callout", "kind": "tip", "text": "Recognising that storming is normal - and that with the right mediation it will end - can help you deal with personal feelings of frustration or negativity."}
+      ]
+    },
+    {
+      "id": "lead6-09",
+      "title": "Check: Tuckman's stages",
+      "blocks": [
+        {"t": "match", "id": "lead6-m1", "title": "Match each description to Tuckman's stage", "pairs": [
+          {"term": "Forming", "def": "Members get to know each other; the leader introduces roles and describes the team's focus clearly"},
+          {"term": "Storming", "def": "Members push against boundaries and conflict arises; the leader mediates"},
+          {"term": "Norming", "def": "The group finds new cohesion; the leader monitors progress and gives feedback and praise"},
+          {"term": "Performing", "def": "Roles are flexible and functional; the leader steps back, delegates and develops the team"},
+          {"term": "Adjourning", "def": "The team is reorganised or disbanded, which can bring uncertainty or a sense of loss"}
+        ]}
+      ]
+    },
+    {
+      "id": "lead6-10",
+      "title": "Tuckman in hybrid and virtual teams",
+      "blocks": [
+        {"t": "p", "text": "Since COVID-19 many teams work in a hybrid way (more on hybrid working in Week 7). Hoffman (2022) observes, based on Tuckman's model:"},
+        {"t": "ul", "items": [
+          "**Forming** takes longer for virtual teams - find creative ways to connect, e.g. messaging apps or team celebrations, especially for new hires who may feel left out.",
+          "**Storming** - a virtual environment makes some feel more able to lash out and others more likely to withdraw; leaders need the right balance.",
+          "**Norming** - remote working boosts task productivity at the expense of spontaneous collaboration, so look for chances to encourage spontaneity.",
+          "**Performing** takes constant work virtually - people may take things out of context or struggle with communication; watch for signs.",
+          "**Adjourning** - people easily 'disappear' after a project; publicly acknowledge contributions and invite continued contact to combat home workers' loneliness."
+        ]}
+      ]
+    },
+    {
+      "id": "lead6-11",
+      "title": "The fundamentals of team building",
+      "blocks": [
+        {"t": "p", "text": "There is lots of online advice about team dynamics, but the fundamentals can be distilled into:"},
+        {"t": "ul", "items": [
+          "**choosing the right people** - a good mix of skills and knowledge that complement each other and get the job done",
+          "making sure members are **clear about the task** and motivated to achieve it",
+          "**regular communication** - monitoring progress, giving feedback and celebrating success."
+        ]},
+        {"t": "tf", "id": "lead6-q2", "q": "According to Hoffman (2022), remote working tends to increase spontaneous collaboration during the norming stage.", "answer": false, "explain": "Remote working leads to greater task productivity at the expense of spontaneous collaboration, so leaders must look for ways to encourage it."}
+      ]
+    },
+    {
+      "id": "lead6-12",
+      "title": "Team building exercises",
+      "blocks": [
+        {"t": "p", "text": "Team building exercises range from moving blindfolded through an obstacle course guided by a team member who can see, to a sports competition - and hybrid working adds even more options. They let the team interact outside work and learn about each other, and let you observe strengths and weaknesses in a different setting."},
+        {"t": "callout", "kind": "note", "text": "Choose an exercise whose learning points clearly transfer back to the workplace. An activity seen as 'pointless' can demotivate the team and lose respect for the leader."},
+        {"t": "p", "text": "Brown (2016) gives three ways to set up exercises that create impact:"},
+        {"t": "ol", "items": ["Identify what impact you need - e.g. spending time together, learning skills, accomplishing something.", "Decide what type of 'different' you need - e.g. location, mix of people, activity.", "Create something tangible - e.g. an action plan, a decision made."]}
+      ]
+    },
+    {
+      "id": "lead6-13",
+      "title": "Design a team building exercise",
+      "blocks": [
+        {"t": "activity", "id": "lead6-a3", "title": "Activity 3 A team building exercise", "prompt": "1. Think of a team you are in (virtual or in person): (a) Is the purpose of the team clear? (b) Does it have the right mix of people/skills? (c) Are people in the right roles, using their strengths? (d) Are members motivated? (e) Which phase is it in - forming, storming, norming or performing? (f) What development could it benefit from? 2. With (f) in mind, devise a team building exercise that addresses that need, with a realistic budget, a purpose and a benefit back in the normal team situation.", "hint": "For ideas, the Venture Team Building website lists over 60 activities, and a Hoppier blog (Aite, 2023) suggests 20 virtual activities for fun and engagement.", "model": "A good answer diagnoses the team (purpose, mix, roles, motivation, Tuckman stage) and designs an exercise that targets the development need, with a clear impact, a useful 'different' element and a tangible output, within a realistic budget. Consider actually running it - volunteer at an away day or training afternoon. Afterwards, reflect in your leadership journal, collect feedback from participants and consider what to do differently; Gibbs' (1988) reflective cycle from Week 3 can structure that reflection.", "points": [
+          "Assesses the team's purpose, mix of skills, roles and motivation",
+          "Identifies the team's Tuckman stage",
+          "Names a specific development need",
+          "Designs an exercise with a clear purpose, realistic budget and transferable benefit",
+          "Plans to gather feedback and reflect afterwards"
+        ]},
+        {"t": "img", "src": "img/lead_31.jpg", "alt": "Gibbs' reflective cycle: a series of boxes arranged in a circle and connected by clockwise arrows.", "caption": "Figure 4 Gibbs' reflective cycle - use it to reflect on how your exercise went"}
+      ]
+    },
+    {
+      "id": "lead6-14",
+      "title": "Motivating your team",
+      "blocks": [
+        {"t": "p", "text": "A motivated team knows what it is working towards and shares your enthusiasm and commitment. If they believe in and respect you, they will often follow you when not yet certain about something. Three elements help:"},
+        {"t": "ol", "items": ["a clear vision that you believe in, and a focus on the impact of the work", "regular and inspiring communication to the whole team, not just your direct reports", "leading by example and making yourself visible and accessible to your team."]},
+        {"t": "img", "src": "img/lead_56.jpg", "alt": "A word cloud built around 'motivation', with words such as business, teamwork, success, attitude and positive.", "caption": "Figure 5 Key words that capture the essence of motivation"},
+        {"t": "p", "text": "These matter just as much with virtual teams - especially being visible and accessible, which may need more creativity online."}
+      ]
+    },
+    {
+      "id": "lead6-15",
+      "title": "Communicating progress",
+      "blocks": [
+        {"t": "p", "text": "Professor Jean Hartley agrees that communicating progress is crucial, and sometimes challenging, for keeping a team inspired and focused."},
+        {"t": "video", "title": "Professor Jean Hartley: communicating progress", "url": null, "note": "Some leaders are good at developing a strategy or holding the initial meeting or workshops, but fall down on continuing to communicate the purpose and progress. Leaders often get bored hearing themselves repeat the same things because they have already taken it in - but repeating it (not ad nauseam) helps. People may hear the words without understanding them at first, may have been preoccupied early on, or may start to flag halfway through a project, when reminding them why the work matters is really important."},
+        {"t": "tf", "id": "lead6-q3", "q": "Professor Hartley suggests that once a leader has explained the purpose clearly at the start of a project, repeating it later is unnecessary.", "answer": false, "explain": "She argues repeating the purpose and progress on several occasions helps, because people may not have understood or listened at first, or may flag halfway through."}
+      ]
+    },
+    {
+      "id": "lead6-16",
+      "title": "What motivates you?",
+      "blocks": [
+        {"t": "p", "text": "Before you can motivate your team, a useful starting point is to think about what motivates you."},
+        {"t": "activity", "id": "lead6-a4", "title": "Activity 4 What motivates you?", "prompt": "Think about a professional situation in which you felt really motivated. What made you feel like that? How was your motivation demonstrated in your actions? Summarise the situation.", "model": "Different people feel and show motivation in different ways, so consider your team members' personality types when looking for signs that they are with you. Enthusiasm and commitment can show in many ways, from volunteering for extra tasks or responsibilities to quietly completing tasks on time or even early.", "points": [
+          "Describes a specific professional situation",
+          "Identifies what caused the motivation",
+          "Explains how the motivation showed in their actions",
+          "Recognises that others may show motivation differently"
+        ]}
+      ]
+    },
+    {
+      "id": "lead6-17",
+      "title": "Developing staff to motivate them",
+      "blocks": [
+        {"t": "p", "text": "A key way to motivate people is to show interest in their circumstances: support and coach them, look at their career plan together and consider how to develop them. Development needn't mean a formal course - it could involve:"},
+        {"t": "ul", "items": [
+          "work shadowing or secondment to another department or organisation",
+          "a new, stretching responsibility, e.g. chairing a discussion group or delivering online training",
+          "letting a team member implement a new idea they have had",
+          "delegating some of your work - showing you trust them to represent you",
+          "encouraging someone to find or become a mentor, e.g. through virtual introductions between hybrid workers."
+        ]},
+        {"t": "p", "text": "Use your leadership journal (Week 3, Activity 6) to reflect on which ideas suit your team. A motivated team is usually happier and more productive, leading to better staff retention and improved business performance (see Week 5)."}
+      ]
+    },
+    {
+      "id": "lead6-18",
+      "title": "Leading change",
+      "blocks": [
+        {"t": "img", "src": "img/lead_58.jpg", "alt": "Quotation: 'Change is a threat when done to me, but an opportunity when done by me.' Rosabeth Moss Kanter, business strategist.", "caption": "Figure 6 A quote about change from a well-known business strategist"},
+        {"t": "p", "text": "Change is one of the biggest issues for any modern leader. People are often reluctant to change, but organisations need almost constant transformation as the external environment develops fast. Motivation is key, so leaders must balance the organisation's needs with motivating the team to keep looking forward."},
+        {"t": "video", "title": "Video on leading change", "url": "https://www.youtube.com/watch?v=__IlYNMdV9E", "note": "An external YouTube video recommended at the start of the course's section on leading change, before Kotter's eight-step change process (the source does not describe its content)."}
+      ]
+    },
+    {
+      "id": "lead6-19",
+      "title": "Kotter's eight-step change process",
+      "blocks": [
+        {"t": "p", "text": "John Kotter developed his eight-step process over several decades (*Leading Change*, 2012; *Accelerate*, 2014)."},
+        {"t": "img", "src": "img/lead_59.jpg", "alt": "Eight numbered circles around a central 'The big opportunity': create a sense of urgency, build a guiding coalition, form a strategic vision and initiatives, enlist a volunteer army, enable action by removing barriers, generate short-term wins, sustain acceleration, institute change.", "caption": "Figure 7 Kotter's eight step change process"},
+        {"t": "ol", "items": [
+          "*Create a sense of urgency* - inspire people to act, with passion and purpose, on a bold, aspirational opportunity.",
+          "*Build a guiding coalition* of effective people to guide, coordinate and communicate it.",
+          "*Form a strategic vision and initiatives* - clarify how the future will differ from the past and how initiatives linked to the vision will make it real.",
+          "*Enlist a volunteer army* - large-scale change needs many people who *want* to contribute and are unified in pursuing the goal."
+        ]}
+      ]
+    },
+    {
+      "id": "lead6-20",
+      "title": "Kotter's steps 5 to 8",
+      "blocks": [
+        {"t": "ol", "items": [
+          "*Enable action by removing barriers* that slow things down or block progress - clear the way to innovate, work nimbly across silos and generate impact quickly.",
+          "*Generate short-term wins* - recognise, collect and communicate them to track progress and energise volunteers to persist.",
+          "*Sustain acceleration* - after the first successes, use your growing credibility to keep improving systems, structures and policies until the vision is achieved.",
+          "*Institute change* - regularly articulate the connections between the new behaviours and organisational success until they replace old habits."
+        ]},
+        {"t": "match", "id": "lead6-m2", "title": "Match each description to Kotter's step", "pairs": [
+          {"term": "Create a sense of urgency", "def": "Inspire people to act with passion and purpose on a bold opportunity"},
+          {"term": "Build a guiding coalition", "def": "Gather effective people to guide, coordinate and communicate the change"},
+          {"term": "Enlist a volunteer army", "def": "Rally many people who actively want to contribute to a common opportunity"},
+          {"term": "Enable action by removing barriers", "def": "Clear roadblocks so people can innovate and work across silos"},
+          {"term": "Generate short-term wins", "def": "Recognise and communicate early successes to energise people"},
+          {"term": "Institute change", "def": "Link new behaviours to organisational success until they replace old habits"}
+        ]}
+      ]
+    },
+    {
+      "id": "lead6-21",
+      "title": "Plan a change",
+      "blocks": [
+        {"t": "activity", "id": "lead6-a5", "title": "Activity 5 Plan a change", "prompt": "Choose something you'd like to change (at work, in a voluntary organisation, or a process that needs updating) - or use this example: you run a small customer advice team in a local government office; appointments are 'drop-in only' within office hours and queues become huge, so you want to change the booking process. Make notes for each of Kotter's steps: 1 Why is it urgent and how will you create urgency? 2 Who is in your guiding coalition (different levels and spheres of influence)? 3 What is your vision, how will it improve things, and what initiatives support it? 4 Who must you influence and how will you persuade them? 5 What or who are the barriers? 6 What short-term wins can you share with supporters? 7 How will you keep the change moving, and what will you monitor? 8 How will you communicate success, to whom, and ensure it is maintained?", "hint": "Work through all eight steps in order; one or two sentences each is enough.", "model": "For the example: (1) Urgent because customer complaints about queues are rising and advisers can't meet everyone's needs, so they feel demotivated and under pressure. (2) Senior management, customers, influential advisers and the reception staff who deal with queues. (3) Vision: meet customer needs within one week of a request, and within 24 hours for urgent enquiries - reducing queues, setting realistic expectations and letting advisers plan, in line with office goals on customer service and staff stress; collect customer feedback on the proposals. (4) Get customers, advisers and reception on side through decision-making meetings, e.g. on which booking system to use. (5) An adviser strongly against it: listen in a one-to-one, or meet every adviser so she isn't singled out. (6) Win IT's support to build an online booking system and involve advisers in the requirements. (7) Set a clear timeline and give regular updates. (8) Share evidence of shorter waits and positive client feedback with all stakeholders, and check the system until fully adopted. Record your plan in your journal and talk it through with a colleague; the Plan Do Study Act tool offers an alternative structure for small-scale changes.", "points": [
+          "Explains why the change is urgent",
+          "Names a varied guiding coalition and the people to win over",
+          "States a clear vision with supporting initiatives",
+          "Identifies barriers or resistors and how to address them",
+          "Plans short-term wins, sustained momentum and how success will be communicated and maintained"
+        ]}
+      ]
+    },
+    {
+      "id": "lead6-22",
+      "title": "Force field analysis",
+      "blocks": [
+        {"t": "p", "text": "Change is challenging partly because of the natural discomfort or even active resistance team members often show."},
+        {"t": "callout", "kind": "key", "title": "Force field analysis", "text": "A change management tool developed by Kurt Lewin (1951) that looks at the **drivers** and **resistors** of change."},
+        {"t": "video", "title": "MindTools: force field analysis", "url": "https://www.youtube.com/watch?v=HCe2H3AsHio", "note": "A short MindTools video explaining how force field analysis works, weighing the forces driving a change against the forces resisting it. It ends by pointing to an accompanying article on the MindTools website."},
+        {"t": "quiz", "id": "lead6-q4", "q": "What does Lewin's force field analysis examine?", "options": ["The stages a team goes through as it develops", "The drivers and resistors of a change", "The four strategies for influencing superiors", "The eight steps of a change programme"], "answer": 1, "explain": "Force field analysis looks at the forces driving change and those resisting it. The other options describe Tuckman, Kipnis and Schmidt, and Kotter."}
+      ]
+    },
+    {
+      "id": "lead6-23",
+      "title": "Trust during change",
+      "blocks": [
+        {"t": "p", "text": "Trust is a key element of successful change: if your team trusts you, they are more likely to follow your lead. Change management consultant Wendy Hirsch explains why."},
+        {"t": "video", "title": "Wendy Hirsch: why trust matters in change", "url": null, "note": "Organisational change can threaten trust, because we build trust from our experiences and change makes us re-evaluate. Trust is linked to positive risk-taking, going above and beyond and task performance. Leaders can build and maintain trust in three ways: demonstrate competence (the technical know-how, yours or your team's); show you care about how the change affects people, by talking with them in small groups and addressing concerns; and walk the talk, upholding your values even when things shift. Also: give people some input into decisions, communicate clearly and honestly throughout the change (not just at the start), and model humility and curiosity, making it OK to make mistakes as long as everyone learns and adapts."},
+        {"t": "quiz", "id": "lead6-q5", "q": "Which of these is one of Wendy Hirsch's three ways for leaders to build trust during change?", "options": ["Keep plans confidential until they are final", "Demonstrate competence", "Avoid admitting mistakes", "Communicate mainly at the launch of the change"], "answer": 1, "explain": "Her three ways are demonstrate competence, show that you care, and walk the talk. She also recommends communicating honestly throughout and making it OK to make mistakes."}
+      ]
+    },
+    {
+      "id": "lead6-24",
+      "title": "Dealing with internal politics",
+      "blocks": [
+        {"t": "p", "text": "Surveying over 750 leadership programme participants worldwide, Gentry (2016) identified **internal politics** - also called office or workplace politics - as a key challenge: the actions and behaviours of those competing for status or power at work."},
+        {"t": "img", "src": "img/lead_61.jpg", "alt": "A pair of blue and black boxing gloves hanging against a dark brick wall.", "caption": "Figure 8 Internal politics"},
+        {"t": "p", "text": "Office politics exist because:"},
+        {"t": "ul", "items": [
+          "individuals and teams compete for limited resources and use tactics to influence those in charge of finances",
+          "some people seek promotion and want to look better than colleagues",
+          "people are committed to their project or department and promote it, especially to senior managers",
+          "people with strong moral or ethical views share them and can be dismissive of those who disagree",
+          "personality types differ - confident, vocal people can frustrate those who prefer a quieter, measured approach."
+        ]}
+      ]
+    },
+    {
+      "id": "lead6-25",
+      "title": "Handling politics efficiently",
+      "blocks": [
+        {"t": "p", "text": "Politics can take a lot of time and energy, but as a team leader you must engage, or your team may miss out on resources or profile. To do it with minimum time and energy:"},
+        {"t": "ul", "items": [
+          "Be part of several networks so you aren't seen as taking sides; prioritise senior managers' requests for help and be reliable.",
+          "Don't gossip, and don't rely on promises of confidentiality unless you know you can trust someone.",
+          "Don't be afraid to give timely, appropriate and constructive feedback to senior staff.",
+          "Communicate clearly and authentically; follow up important conversations with an email.",
+          "Know what you are trying to achieve and be ready to explain why it is best for the organisation.",
+          "Listen - understanding your organisation lets you align your priorities with other departments; collaboration is viewed positively by senior managers."
+        ]}
+      ]
+    },
+    {
+      "id": "lead6-26",
+      "title": "Mobilising support beyond your team",
+      "blocks": [
+        {"t": "video", "title": "Professor Jean Hartley: mobilising people", "url": null, "note": "Some definitions of leadership describe it as mobilising people's time, attention and resources to achieve outcomes. Think about who you need to get on board: your team, but also people across the organisation whose work overlaps with yours or who pass work to you. You may need to maintain your area's reputation and help others understand what your team contributes to the wider purpose. Map out your stakeholders - possibly including the public, customers and suppliers - and how to encourage them to understand and support your work."},
+        {"t": "tf", "id": "lead6-q6", "q": "When leading a team, it is best to stay out of the organisation's political discourse altogether.", "answer": false, "explain": "Leaders need to involve themselves, otherwise their team may miss out on much-needed resources or profile - but they can do it efficiently, e.g. by networking widely, communicating clearly and listening."}
+      ]
+    },
+    {
+      "id": "lead6-27",
+      "title": "What would you do? Scenario 1",
+      "blocks": [
+        {"t": "p", "text": "**Activity 6 What would you do?** Reputation plays a key part in office politics: if you are well regarded, people are more inclined to support you, collaborate and share funding. Even small decisions affect how you are perceived. Decide what you would prioritise."},
+        {"t": "quiz", "id": "lead6-q7", "q": "An urgent email arrives from your manager needing immediate attention. At the same moment a colleague says your manager's boss phoned and wants you to call back as soon as possible. What do you do?", "options": ["Phone the more senior manager back straight away - your boss can wait", "Read your manager's email before you call their boss - it might contain relevant information", "Deal with your manager's email first - they said it was urgent and you've no idea what the senior manager wants"], "answer": 1, "explain": "Prioritise your response to the senior manager, but if you have time to quickly view your boss's email, it could give you information that will enhance your phone call."}
+      ]
+    },
+    {
+      "id": "lead6-28",
+      "title": "What would you do? Scenario 2",
+      "blocks": [
+        {"t": "quiz", "id": "lead6-q8", "q": "In a meeting you have an important point to make, but it contradicts a senior manager who is present - and their boss is attending too. What do you do?", "options": ["Keep quiet but discuss it with the senior manager after the meeting", "Make your point in a constructive and polite manner", "Keep quiet and never make your point - you don't want to make enemies"], "answer": 1, "explain": "The textbook answer is to make your point constructively and politely: a good leader should respond positively to constructive disagreement, the senior leader may even agree, and others will gain a favourable impression of you. But use emotional intelligence: if the manager would react badly, is under stress, or you need them to sign off a budget, raising it afterwards may be wiser; if you need support from around the table to change their mind, speaking up helps."},
+        {"t": "callout", "kind": "note", "text": "This one has no single right answer. Understanding the context, the mood of those around you and what you hope to achieve will guide your choice."}
+      ]
+    },
+    {
+      "id": "lead6-29",
+      "title": "Summary of Week 6",
+      "blocks": [
+        {"t": "p", "text": "You should now feel more confident about facing key leadership challenges. You've met processes and models - Tuckman's team development stages, Brown's approach to team building, Kotter's eight steps, Lewin's force field analysis - that give a structure for planning action or insight into why people behave as they do. All these topics are widely researched, so you can easily find out more."},
+        {"t": "callout", "kind": "key", "title": "You should now be able to", "text": "recognise a range of common leadership challenges; reflect on challenges you have observed or experienced; describe ways in which common leadership challenges might be addressed."},
+        {"t": "p", "text": "Next week: challenges for leaders of the future, including technological developments and global change, emerging leadership styles and where to keep up to date."}
+      ]
+    },
+    {
+      "id": "lead6-30",
+      "title": "Week 6 quiz",
+      "blocks": [
+        {"t": "quiz", "id": "lead6-q9", "q": "In Tuckman's model, at which stage should a leader mainly mediate conflict, using their authority when required?", "options": ["Forming", "Storming", "Norming", "Performing"], "answer": 1, "explain": "Storming brings conflict and emotional responses as members push against boundaries; the leader mediates and helps them recognise each other's work styles."},
+        {"t": "quiz", "id": "lead6-q10", "q": "Which of these are among the three elements that help a leader motivate a team? Select all that apply.", "options": ["A clear vision you believe in", "Communicating only with your direct reports", "Regular, inspiring communication to the whole team", "Leading by example and being visible and accessible"], "answer": [0, 2, 3], "multi": true, "explain": "The three elements are a clear vision, regular inspiring communication to the whole team (not just direct reports), and leading by example while being visible and accessible."},
+        {"t": "quiz", "id": "lead6-q11", "q": "In Kotter's process, which step comes straight after 'Create a sense of urgency'?", "options": ["Generate short-term wins", "Build a guiding coalition", "Enlist a volunteer army", "Institute change"], "answer": 1, "explain": "Step 2 is to build a guiding coalition of effective people to guide, coordinate and communicate the change."}
+      ]
+    },
+    {
+      "id": "lead6-31",
+      "title": "Week 6 quiz (continued)",
+      "blocks": [
+        {"t": "quiz", "id": "lead6-q12", "q": "According to Brown (2016), which is one of the three keys to a team-building exercise that creates impact?", "options": ["Keep it as close to normal work as possible", "Create something tangible, such as an action plan or decision", "Make it competitive so there is a clear winner", "Hold it only for new team members"], "answer": 1, "explain": "Brown's three keys: identify the impact you need, decide what type of 'different' you need, and create something tangible."},
+        {"t": "tf", "id": "lead6-q13", "q": "Development that motivates staff always requires attending a formal training course.", "answer": false, "explain": "Development can include work shadowing, a stretching new responsibility, implementing their own idea, delegated work or mentoring."}
+      ]
+    }
+  ]
+}

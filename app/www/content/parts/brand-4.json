@@ -1,0 +1,873 @@
+{
+ "id": "brand4",
+ "title": "Week 4: Developing my personal brand",
+ "summary": "Identify your values, strengths, personality and career goals, and pull them together into your personal brand story.",
+ "minutes": 120,
+ "pages": [
+  {
+   "id": "brand4-01",
+   "title": "Welcome to Week 4",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Last week you learned more about what personal branding is, how a personal brand can be used in the workplace, and some celebrity case studies, both good and bad."
+    },
+    {
+     "t": "p",
+     "text": "This week you'll concentrate on defining the various elements of your own brand, understanding what you want it to achieve and exploring the key attributes you want to promote to others."
+    },
+    {
+     "t": "video",
+     "title": "Video 1 Introduction to Week 4",
+     "url": null,
+     "note": "A short animated introduction with no spoken audio. You'll begin by considering the different elements your personal brand might include: what you have to offer and what is important to you - exploring your values, identifying your strengths and describing your personality traits. Next you'll consider your career goals and start to write your story, pulling all those elements together."
+    },
+    {
+     "t": "h",
+     "text": "By the end of this week, you will be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "recognise the key elements of your personal brand",
+      "articulate your values, strengths and personality traits more clearly",
+      "describe your career goals."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "title": "Keep your answers",
+     "text": "You'll refer back to this week's activity answers for the rest of the course, so save them as you go."
+    }
+   ]
+  },
+  {
+   "id": "brand4-02",
+   "title": "Three stages of developing my brand",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Before you can promote your personal brand to employers or others who might influence your future career, there are three broad stages to putting it together:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "**Know what you have to offer and what is important to you** - take stock of your values, strengths, behaviours, etc.",
+      "**Know what you want** - have a vision for where you want to be career-wise at a point in the future, e.g. three years' time.",
+      "**Know what you are going to say** - be ready to share your personal brand clearly and succinctly at every appropriate opportunity."
+     ]
+    },
+    {
+     "t": "img",
+     "src": "img/brand_27.jpg",
+     "alt": "A man stands in front of a white wall, as if in a gallery, looking at drawn icons such as a lightbulb, a clock, a target and a handshake.",
+     "caption": "Figure 1 Figuring it out"
+    }
+   ]
+  },
+  {
+   "id": "brand4-03",
+   "title": "Don't underestimate the challenge",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "This might sound straightforward, but many people find identifying their strengths and values difficult, and it can take time to do properly. Having a clear idea of who you are and what you enjoy will help you decide what to do next - whether that means setting your sights on a specific career or recognising the right opportunities when they arise."
+    },
+    {
+     "t": "p",
+     "text": "In Week 1 you started to think about what your brand is now and whether it needs changing. This week you delve deeper into what's important to you and what you'd like to share with the working world. The activities are designed to be useful whatever your experience, but some of you may feel the need for more support."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "title": "Getting support",
+     "text": "Identifying your values and strengths is something a careers adviser is well qualified to help with (e.g. the Open University Careers and Employability team). Alternatively, a coach, mentor or even a friend can provide support and feedback as you process your thoughts."
+    }
+   ]
+  },
+  {
+   "id": "brand4-04",
+   "title": "Activity 1 Find a friend",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Feedback is an important tool: when you've decided on your values, strengths, etc., find ways to test your analysis with family, friends or colleagues."
+    },
+    {
+     "t": "activity",
+     "id": "brand4-a1",
+     "title": "Activity 1 Find a friend (about 5 minutes)",
+     "prompt": "Receiving feedback is extremely valuable for the self-assessment you'll do this week. Before you start, list the people you know and trust who could offer feedback on the values, strengths and personality traits you come up with.",
+     "model": "Don't aim to collect feedback from everyone on your list for all the exercises - this could feel overwhelming for everyone involved, including you! Some people may be better placed to offer feedback on your skills and strengths, while others might comment more usefully on the personality traits you've identified.",
+     "points": [
+      "List several people you know and trust.",
+      "You don't need feedback from everyone on every exercise.",
+      "Some people suit feedback on skills and strengths.",
+      "Others suit feedback on your personality traits."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand4-05",
+   "title": "Knowing what I have to offer: values",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/brand_28.jpg",
+     "alt": "A pair of upturned hands holding a small brown paper package tied with string and an unmarked label.",
+     "caption": "Figure 2 What do you have to offer?"
+    },
+    {
+     "t": "p",
+     "text": "Many careers professionals begin a discussion about occupational choice by focusing on your values, as several studies have shown that values often align with occupational preferences."
+    },
+    {
+     "t": "quote",
+     "text": "For example, it has been found that individuals preferring, choosing or attaining business occupations were generally high on utilitarian orientation and material values; people choosing medical occupations, social work, and teaching appeared to be high in social values, in particular on altruism.",
+     "by": "Sverko et al. (2008, p.557)"
+    }
+   ]
+  },
+  {
+   "id": "brand4-06",
+   "title": "What are values?",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Values",
+     "text": "'The things that you believe are important in the way you live and work' (Mind Tools Content Team, n.d.)."
+    },
+    {
+     "t": "p",
+     "text": "The more closely you can align your values with the way you live and work, the more satisfied you are likely to be."
+    },
+    {
+     "t": "p",
+     "text": "Gayle Johnson is a freelance copywriter and coach who has consciously built her business around her values."
+    },
+    {
+     "t": "video",
+     "title": "Video 1 Gayle Johnson - Values",
+     "url": null,
+     "note": "Gayle describes values as principles or guiding lights - the foundations of everything. If you're strong in what you believe in, you can turn your hand to anything. Through reflective exercises she found her values were connection and compassion, and built her business around them. Seeing other copywriters work very differently, she was daunted at first ('I'm not a slick hipster marketing type'), but pretending would have used all her energy and she wouldn't have been as good. Instead she was clear about what she stood for - tuning into your values is being kind to yourself, working with yourself, not against it. Her website states she works with values-driven people, which attracts clients she loves working with. Values are a 'breadcrumb trail through the woods' and anchor points: when mistakes happen you can come back to them, recentre and go again; they attract the right clients 'like magnets'."
+    }
+   ]
+  },
+  {
+   "id": "brand4-07",
+   "title": "Gayle's advice on finding your values",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Video 2 Gayle Johnson - Values Advice",
+     "url": null,
+     "note": "Gayle made a list of values and used a process of elimination, and also thought about situations where she'd felt alive, 'on fire' and working at her best, then asked what values those moments meant. Knowing your values anchors you in your own work and stops you comparing yourself to others: one person's values might be growth, ambition and wealth; another's harmony and community - they could do the same work, but their 'vibe' and how they interpret it would be very different. Tuning into your values can help you avoid imposter syndrome when starting a business or new role, because you're doing it your way and no one can take that away. Mistakes still happen, but your values are something to come back to that give you strength to keep going."
+    },
+    {
+     "t": "quiz",
+     "id": "brand4-q1",
+     "q": "According to Gayle, how can knowing your values help when you start a new role or business?",
+     "options": [
+      "It guarantees you will never make mistakes",
+      "It helps you avoid imposter syndrome because you're doing it your way",
+      "It means you can copy successful competitors",
+      "It tells you which industry to work in"
+     ],
+     "answer": 1,
+     "explain": "Gayle says values anchor you and stop you comparing yourself to others, helping you avoid imposter syndrome. Mistakes still happen, but you can always come back to your values."
+    }
+   ]
+  },
+  {
+   "id": "brand4-08",
+   "title": "Activity 2 Identifying my values: step 1",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "This is an exercise commonly used in values work. Gayle has used it herself and with clients."
+    },
+    {
+     "t": "activity",
+     "id": "brand4-a2a",
+     "title": "Activity 2 Identifying my values - Step 1 (about 20 minutes in total)",
+     "prompt": "Spend a few minutes thinking about times when you felt happiest, proudest, most fulfilled - or, as Gayle puts it, 'alive', 'on fire' and 'working at my best'. Include examples from both your home and work life. Note them down.",
+     "model": "Your core values are already reflected in what you do and say when you're comfortable in your environment. Recalling peak moments - at home and at work - gives you the raw material for identifying the values behind them in the next step.",
+     "points": [
+      "Describe at least one time you felt happiest or proudest.",
+      "Include examples from both home and work life.",
+      "Note what made you feel alive or at your best."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand4-09",
+   "title": "Activity 2 Identifying my values: step 2",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/brand_31.jpg",
+     "alt": "A word cloud of values shaped like a speech bubble, with prominent words such as freedom, compassion, individuality, responsibility, equality, justice and humility.",
+     "caption": "Figure 3 Which values will you choose?"
+    },
+    {
+     "t": "activity",
+     "id": "brand4-a2b",
+     "title": "Activity 2 Identifying my values - Step 2",
+     "prompt": "Consider the values that best represent why those times made you feel so positive, and list them. Use the word cloud for ideas, add others that fit better, or search online for 'core values'. Go with your initial reaction to each word - don't overthink it.",
+     "model": "Look for the values that explain why each peak moment felt good - for example freedom, compassion, individuality, responsibility or community. Trust your first reaction; you will narrow the list down in the next step.",
+     "points": [
+      "List several values linked to your positive experiences.",
+      "Explain why each value made those times feel good.",
+      "Go with your initial reaction rather than overthinking."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand4-10",
+   "title": "Activity 2 Identifying my values: step 3",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "brand4-a2c",
+     "title": "Activity 2 Identifying my values - Step 3",
+     "prompt": "Narrow down your list to between three and five core values and list them.",
+     "model": "Your core values are already reflected in what you do and say, but labelling them helps make them more visible professionally and lets them influence your decision making; they should hold a prominent position in your personal branding. As Gayle explains, knowing them helps you feel comfortable about what you offer: several people may do the same job, but none with exactly your approach - that is what makes you unique. Values also help you recognise good opportunities: if you chose 'wealth', salary matters; if you value 'individuality', a workplace requiring conformity may be uncomfortable. Seek support if needed, e.g. from a careers adviser, coach or someone from your Activity 1 list.",
+     "points": [
+      "Choose three to five core values.",
+      "Labelling values makes them more visible professionally and guides decisions.",
+      "Your values make your approach to work unique.",
+      "Values help you judge whether a role or workplace suits you."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand4-11",
+   "title": "Values at work",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Many of us don't deliberately think about our values, yet we all have them and they guide what we do. You might feel they're clearly expressed at home, but what about at work? Gayle talks about using values as **anchor points** to come back to - helpful when making career decisions."
+    },
+    {
+     "t": "p",
+     "text": "Aligning your job with your values can be an important element of job satisfaction. If you strongly believe in accountability but colleagues seem to get away with mistakes and blaming others, that can make you angry, unhappy or demoralised. If you are self-employed and your values include freedom and independence, that should be a good match."
+    },
+    {
+     "t": "p",
+     "text": "If you plan to use personal branding to find a more satisfying job, clearly communicating your values to your network and beyond is a good way to start."
+    }
+   ]
+  },
+  {
+   "id": "brand4-12",
+   "title": "Knowing what I have to offer: strengths",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A common explanation is that **strengths are innate**, whereas **skills can be learned and developed**. For example, your natural strength might be communication, but you've learned the skill of writing concise reports."
+    },
+    {
+     "t": "img",
+     "src": "img/brand_32.jpg",
+     "alt": "A little girl dressed as a superhero in a red mask and cape raises her arm as if about to fly into the sky.",
+     "caption": "Figure 4 What are my strengths?"
+    },
+    {
+     "t": "p",
+     "text": "In a career context, strengths are also thought of as the skills you most enjoy using; roles that let you use them are likely to bring satisfaction. Using your strengths energises you, whereas other activities can feel draining. Knowing your strengths won't necessarily lead to a new career path, but looking for opportunities to use them in new ways can make you happier (Seligman et al. 2005, p.416)."
+    }
+   ]
+  },
+  {
+   "id": "brand4-13",
+   "title": "Strengths or skills?",
+   "blocks": [
+    {
+     "t": "tf",
+     "id": "brand4-q2",
+     "q": "In the course's explanation, a skill is innate while a strength is something you learn.",
+     "answer": false,
+     "explain": "It is the other way round: strengths are innate, whereas skills can be learned and developed (e.g. a natural strength in communication, a learned skill of writing concise reports)."
+    },
+    {
+     "t": "quiz",
+     "id": "brand4-q3",
+     "q": "Which sign suggests you are using one of your strengths?",
+     "options": [
+      "The task feels draining",
+      "The activity energises you",
+      "You were trained to do it",
+      "Your manager asked you to do it"
+     ],
+     "answer": 1,
+     "explain": "Using your strengths energises you, whereas other activities might feel draining."
+    }
+   ]
+  },
+  {
+   "id": "brand4-14",
+   "title": "Activity 3 Using my strengths",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "brand4-a3",
+     "title": "Activity 3 Using my strengths (about 15 minutes)",
+     "prompt": "1) List the things you do, in work or outside, that really energise and enthuse you. 2) Choose one of those activities and analyse the skills you use when you do it - e.g. communicating with others, organising something, being creative. 3) Of those skills, which ones make you feel energised when you use them? Is it all of them or just certain ones? List them.",
+     "model": "The skills you listed in the last step are your strengths. This is a quick exercise; if you found it useful, repeat it for all the activities you enjoy. Are there strengths that come up again and again? When you have a clear picture of your strengths you can add them to your personal brand.",
+     "points": [
+      "List activities that energise you.",
+      "Break one activity down into the skills it uses.",
+      "The skills that energise you are your strengths.",
+      "Repeat for other activities to find recurring strengths."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand4-15",
+   "title": "Ideas for naming strengths",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "If you struggled to define your strengths, many lists are available. Holloway (2017, p.39) gives a selection that is more nuanced than most, including:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "telling engaging stories",
+      "extracting key points",
+      "creating order from chaos",
+      "never ever give up",
+      "never miss a deadline",
+      "create harmony in a team",
+      "researching new concepts",
+      "effortlessly funny",
+      "unfaltering focus",
+      "up to the minute knowledge",
+      "ultra-calm in a crisis",
+      "intuitive empathy",
+      "technologically savvy",
+      "nurturing a network",
+      "stress-testing ideas"
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "title": "Reflect",
+     "text": "Do you have any strengths on that list that you could use in new ways in your current role(s)?"
+    }
+   ]
+  },
+  {
+   "id": "brand4-16",
+   "title": "Knowing what I have to offer: personality",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Your personality, combined with your values, strengths, knowledge and experience, is what gives you your unique personal brand. No-one else will be able to offer the same combination of factors."
+    },
+    {
+     "t": "img",
+     "src": "img/brand_33.jpg",
+     "alt": "About fifty overlapping passport photos of people of different ages, genders and ethnicities pinned as if on a notice board.",
+     "caption": "Figure 5 Everyone is unique"
+    },
+    {
+     "t": "p",
+     "text": "In Week 2 you considered the relevance of a 'brand personality' and the human traits attributed to a product or organisation. Now consider which elements of your own personality you might incorporate into your brand."
+    }
+   ]
+  },
+  {
+   "id": "brand4-17",
+   "title": "Activity 4 Describing myself",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "brand4-a4",
+     "title": "Activity 4 Describing myself (about 10 minutes)",
+     "prompt": "Imagine you're at an event where everyone is meeting for the first time and someone asks you to describe yourself. What would you say? Focus on your personality traits - for example humble, direct, charming, passionate, irritable or odd! (David Ball's 'Big Long List of Personality Traits' offers prompts.) Write one or two short paragraphs.",
+     "model": "People respond to this in different ways and are often too modest or self-deprecating. Did you focus on positive aspects or highlight negatives? Positive aspects are the obvious ones to share in your brand, but you can learn from the negatives too: a characteristic you describe as 'shyness' could actually highlight your ability to observe, listen and analyse.",
+     "points": [
+      "Describe several of your personality traits.",
+      "Avoid being too modest or self-deprecating.",
+      "Positive traits are the obvious ones to share.",
+      "Reframe 'negative' traits, e.g. shyness as the ability to observe, listen and analyse."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand4-18",
+   "title": "Knowing what I want",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Setting key goals for your future career is an important part of personal branding. Once you know what you're aiming for, you can tailor your brand and how you promote it."
+    },
+    {
+     "t": "img",
+     "src": "img/brand_34.jpg",
+     "alt": "A straight road heads towards distant mountains, with 'START' and an arrow painted on the tarmac.",
+     "caption": "Figure 6 Know where to start"
+    },
+    {
+     "t": "p",
+     "text": "You don't need a detailed career plan. At an early stage your goals might be broad, for example:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "working in a certain context, e.g. with animals",
+      "achieving a specific status, e.g. managing a team",
+      "being based in a different location, e.g. overseas."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "At this stage, promoting your brand could mean talking to people in roles that interest you or contacting employers who might facilitate those goals. This tells you whether your brand aligns with what they look for (more on employers in Week 5)."
+    }
+   ]
+  },
+  {
+   "id": "brand4-19",
+   "title": "Being open to opportunities",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Even with developed plans, many successful careers grow from opportunities that arise unexpectedly. The key is to be open to them, so relevant goals might be to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "investigate interesting opportunities seriously and with positivity - asking 'how could I make that work?' rather than assuming 'that wouldn't work for me'",
+      "follow the social media channels of interesting people and organisations",
+      "attend an event, e.g. a conference or job fair, related to an area of work that interests you."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Here, promoting your brand might involve networking (Week 7) or commenting on the social media posts of key individuals (Week 6)."
+    }
+   ]
+  },
+  {
+   "id": "brand4-20",
+   "title": "Activity 5 Identifying my career goals",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "brand4-a5",
+     "title": "Activity 5 Identifying my career goals (about 15 minutes)",
+     "prompt": "Try to answer this in 30 seconds: what are your three most important career goals right now? Then take a few minutes to consider how realistic they are given current constraints such as location, financial needs or family commitments. Can you tweak them to fit what you need? Rewrite them if necessary.",
+     "model": "Life coach Bennie Louw (n.d.) explains his 'Quick List method': when you only have 30 seconds to write your three most important goals, your answers will be as accurate as if you had 30 minutes or three hours - your subconscious goes into a kind of 'hyper-drive' and your most important goals pop out, often to your surprise. Your goals may be short, medium or long term, which affects how long they take to achieve. In Week 8 you'll revisit them and plan the actions needed.",
+     "points": [
+      "Write three career goals quickly, within 30 seconds.",
+      "Check them against constraints such as location, money and family.",
+      "Tweak or rewrite them to be realistic.",
+      "Goals may be short, medium or long term."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "title": "Need more support?",
+     "text": "This is only a brief overview of goal setting. Many people seek help from a careers adviser or coach; the career planning section of the OU's Careers and Employability website is a useful start."
+    }
+   ]
+  },
+  {
+   "id": "brand4-21",
+   "title": "Writing my story",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The final stage in defining your personal brand is to bring it all together. It can be useful to think of it as a story: start with a more detailed narrative, which you can edit to meet your needs later."
+    },
+    {
+     "t": "img",
+     "src": "img/brand_35.jpg",
+     "alt": "An old-fashioned typewriter with 'What's your story?' typed on a sheet of paper.",
+     "caption": "Figure 7 Find your story"
+    },
+    {
+     "t": "p",
+     "text": "You might present your story in different ways to your target audience (Weeks 6 and 7), but the main task now is to pull together your key elements: **career goals, values, strengths, personality** and **knowledge/experience**."
+    }
+   ]
+  },
+  {
+   "id": "brand4-22",
+   "title": "An example story",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "If you're struggling to get started, here's an example:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Career goals:** Within 5 years, I want to be a successful freelance writer with clients across a range of organisations. If I can use my writing to influence change and innovation, that would be the cherry on the cake.",
+      "**Values:** Concern for others, creativity and independence. I'd be supporting or developing people, as a leader or service provider, in an autonomous role where I set my own timetable and use creativity to solve problems. My ideal workplace celebrates innovation. I have strong family values, so work must fit around my children.",
+      "**Strengths:** 1) interacting with people, communicating authentically and effectively at all levels; 2) written communication - I love writing and editing copy that helps people be the best they can be.",
+      "**Personality:** Kind, thoughtful, empathetic and warm, with a good sense of humour; I use these to bring people together and motivate them. I'm curious and enjoy learning and sharing new facts or skills.",
+      "**Knowledge and experience:** Over 20 years in higher education, with significant knowledge of the student experience and a particular interest in careers and employability."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand4-23",
+   "title": "Activity 6 My story",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "brand4-a6",
+     "title": "Activity 6 My story (about 30 minutes)",
+     "prompt": "Using what you've learned about yourself this week, summarise the key points under each heading, thinking about how they relate to your future career ideas: 1) career goals, 2) values, 3) strengths, 4) personality, 5) knowledge/experience. When you're happy with it, share it with someone from your Activity 1 list for feedback - it's easier to hear constructive feedback from people you know, like and trust than from an employer you're keen to work for.",
+     "model": "This won't necessarily be the final version; you might make changes after more feedback, but you've made a great start. Once you've collected feedback, this isn't something you need to present to others again - it is not your 'elevator pitch'. It is a narrative you can draw on when planning consistent messages about who you are and what you have to offer. Save it, as you'll refer back to your personal brand story later in the course.",
+     "points": [
+      "Cover all five headings: goals, values, strengths, personality, knowledge/experience.",
+      "Link each element to your future career plans.",
+      "Share it with a trusted person for feedback.",
+      "It is a narrative to draw on, not your elevator pitch."
+     ],
+     "hint": "Use the example story on the previous page as a model."
+    },
+    {
+     "t": "p",
+     "text": "Want to go deeper? Many useful books are listed in the course's Further reading section."
+    }
+   ]
+  },
+  {
+   "id": "brand4-23t",
+   "title": "Try it: build your personal brand",
+   "blocks": [
+    {
+     "t": "tool",
+     "tool": "brand-builder",
+     "title": "Try it: personal brand builder",
+     "intro": "Work through the four cornerstones step by step - values, strengths, personality and vision - then your target audience, positioning and why. The builder checks your brand for consistency and drafts a brand statement you can edit."
+    }
+   ]
+  },
+  {
+   "id": "brand4-24",
+   "title": "Elements of my brand",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "brand4-m1",
+     "title": "Match each element of a personal brand to its description",
+     "pairs": [
+      {
+       "term": "Values",
+       "def": "The things you believe are important in the way you live and work"
+      },
+      {
+       "term": "Strengths",
+       "def": "Innate qualities; the skills you most enjoy using and that energise you"
+      },
+      {
+       "term": "Skills",
+       "def": "Abilities that can be learned and developed, such as writing concise reports"
+      },
+      {
+       "term": "Personality",
+       "def": "Traits such as humble, direct or passionate that you'd use to describe yourself"
+      },
+      {
+       "term": "Career goals",
+       "def": "A vision of where you want to be career-wise, e.g. in three years' time"
+      },
+      {
+       "term": "Your story",
+       "def": "A narrative pulling all the elements together that you can draw on for consistent messages"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand4-25",
+   "title": "Week 4 badge quiz (1)",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "This quiz counts towards your badge. It has 15 questions; aim for 50% or more."
+    },
+    {
+     "t": "quiz",
+     "id": "brand4-q4",
+     "q": "What is the first of the three broad stages to putting your personal brand together?",
+     "options": [
+      "Know what you are going to say",
+      "Know what you want",
+      "Know what you have to offer and what is important to you",
+      "Know who your competitors are"
+     ],
+     "answer": 2,
+     "explain": "The three stages are: know what you have to offer and what is important to you; know what you want; know what you are going to say."
+    },
+    {
+     "t": "quiz",
+     "id": "brand4-q5",
+     "q": "'Know what you want' means:",
+     "options": [
+      "Having a vision of where you want to be career-wise at a point in the future",
+      "Listing every job vacancy you might apply for",
+      "Deciding on your salary",
+      "Writing your elevator pitch"
+     ],
+     "answer": 0,
+     "explain": "Stage 2 is having a vision for where you want to be career-wise in the future, e.g. in three years' time."
+    },
+    {
+     "t": "tf",
+     "id": "brand4-q6",
+     "q": "The course suggests testing your list of values and strengths with family, friends or colleagues.",
+     "answer": true,
+     "explain": "Feedback is an important tool: find ways to test your analysis with people you know and trust."
+    }
+   ]
+  },
+  {
+   "id": "brand4-26",
+   "title": "Week 4 badge quiz (2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "brand4-q7",
+     "q": "How does Mind Tools define values?",
+     "options": [
+      "The skills you most enjoy using",
+      "The things that you believe are important in the way you live and work",
+      "The traits others see in you",
+      "Your long-term career goals"
+     ],
+     "answer": 1,
+     "explain": "Mind Tools defines values as 'the things that you believe are important in the way you live and work'."
+    },
+    {
+     "t": "quiz",
+     "id": "brand4-q8",
+     "q": "According to Sverko et al. (2008), people choosing social work, medicine or teaching tended to score high on:",
+     "options": [
+      "Material values",
+      "Utilitarian orientation",
+      "Social values, especially altruism",
+      "Independence"
+     ],
+     "answer": 2,
+     "explain": "Those choosing medical occupations, social work and teaching appeared high in social values, in particular altruism; business occupations were linked with utilitarian and material values."
+    },
+    {
+     "t": "quiz",
+     "id": "brand4-q9",
+     "q": "Which two values did Gayle Johnson build her business around?",
+     "options": [
+      "Growth and ambition",
+      "Connection and compassion",
+      "Wealth and freedom",
+      "Harmony and community"
+     ],
+     "answer": 1,
+     "explain": "Gayle found her values came down to things like connection and compassion and built her business around them."
+    }
+   ]
+  },
+  {
+   "id": "brand4-27",
+   "title": "Week 4 badge quiz (3)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "brand4-q10",
+     "q": "In Activity 2, how many core values are you asked to narrow your list down to?",
+     "options": [
+      "One",
+      "Two",
+      "Three to five",
+      "Ten"
+     ],
+     "answer": 2,
+     "explain": "Step 3 asks you to narrow your list to between three and five core values."
+    },
+    {
+     "t": "quiz",
+     "id": "brand4-q11",
+     "q": "If one of your core values is 'individuality', which work environment might be uncomfortable for you?",
+     "options": [
+      "One that requires you to conform",
+      "One that celebrates innovation",
+      "One where you work autonomously",
+      "One that rewards creativity"
+     ],
+     "answer": 0,
+     "explain": "The discussion notes that if you value individuality, a work environment that requires you to conform might not be comfortable."
+    },
+    {
+     "t": "quiz",
+     "id": "brand4-q12",
+     "q": "What does the course say is a common difference between strengths and skills?",
+     "options": [
+      "Strengths are learned; skills are innate",
+      "Strengths are innate; skills can be learned and developed",
+      "They mean exactly the same thing",
+      "Skills are only used at work"
+     ],
+     "answer": 1,
+     "explain": "Strengths are innate, whereas skills can be learned and developed."
+    }
+   ]
+  },
+  {
+   "id": "brand4-28",
+   "title": "Week 4 badge quiz (4)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "brand4-q13",
+     "q": "According to Seligman et al. (2005), what has the potential to make you happier?",
+     "options": [
+      "Simply knowing your strengths",
+      "Looking for opportunities to use your strengths in new ways",
+      "Working on your weaknesses",
+      "Changing career every few years"
+     ],
+     "answer": 1,
+     "explain": "Knowing your strengths alone won't necessarily lead to a new path, but using them in new ways has the potential to make you happier."
+    },
+    {
+     "t": "quiz",
+     "id": "brand4-q14",
+     "q": "In Activity 4, someone describes themselves as 'shy'. How might they reframe this for their brand?",
+     "options": [
+      "As a weakness to hide",
+      "As an ability to observe, listen and analyse",
+      "As a reason to avoid networking",
+      "As irrelevant to their brand"
+     ],
+     "answer": 1,
+     "explain": "The discussion suggests 'shyness' could highlight your ability to observe, listen and analyse."
+    },
+    {
+     "t": "quiz",
+     "id": "brand4-q15",
+     "q": "What gives you your unique personal brand?",
+     "options": [
+      "Your job title alone",
+      "Your personality combined with your values, strengths, knowledge and experience",
+      "Your social media following",
+      "Your qualifications"
+     ],
+     "answer": 1,
+     "explain": "Your personality, combined with your values, strengths, knowledge and experience, is a combination no-one else can offer."
+    }
+   ]
+  },
+  {
+   "id": "brand4-29",
+   "title": "Week 4 badge quiz (5)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "brand4-q16",
+     "q": "Which of these is a relevant goal for someone wanting to be open to unexpected opportunities? Select all that apply.",
+     "options": [
+      "Investigate interesting opportunities seriously and with positivity",
+      "Follow the social media channels of interesting people and organisations",
+      "Assume 'that wouldn't work for me'",
+      "Attend an event such as a conference or job fair"
+     ],
+     "answer": [
+      0,
+      1,
+      3
+     ],
+     "explain": "The course suggests asking 'how could I make that work?', following interesting people and organisations, and attending relevant events.",
+     "multi": true
+    },
+    {
+     "t": "quiz",
+     "id": "brand4-q17",
+     "q": "Why does the 'Quick List method' give you only 30 seconds to write your three main career goals?",
+     "options": [
+      "To save time for planning",
+      "Because answers written quickly are as accurate as those given hours of thought",
+      "Because goals should be short term",
+      "To make the exercise competitive"
+     ],
+     "answer": 1,
+     "explain": "Bennie Louw says that with only 30 seconds your answers are as accurate as with 30 minutes or three hours - your most important goals 'pop out'."
+    },
+    {
+     "t": "tf",
+     "id": "brand4-q18",
+     "q": "Your personal brand story from Activity 6 is the same as your elevator pitch.",
+     "answer": false,
+     "explain": "It is not your elevator pitch; it is a narrative you can draw on when planning consistent messages about who you are and what you offer."
+    }
+   ]
+  },
+  {
+   "id": "brand4-30",
+   "title": "Summary of Week 4",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "By now you should be feeling more confident about the various elements of your personal brand. You might have considered some of them for the first time and need more support to finalise your story, or you might have used this week's activities to hone and finish it."
+    },
+    {
+     "t": "h",
+     "text": "You should now be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "recognise the key elements of your personal brand",
+      "articulate your values, strengths and personality traits more clearly",
+      "describe your career goals."
+     ]
+    },
+    {
+     "t": "flash",
+     "cards": [
+      {
+       "front": "Three stages",
+       "back": "Know what you have to offer; know what you want; know what you are going to say."
+      },
+      {
+       "front": "Values",
+       "back": "The things you believe are important in the way you live and work (Mind Tools)."
+      },
+      {
+       "front": "Strengths vs skills",
+       "back": "Strengths are innate and energise you; skills can be learned and developed."
+      },
+      {
+       "front": "Quick List method",
+       "back": "Write your three most important career goals in 30 seconds (Louw)."
+      },
+      {
+       "front": "My story",
+       "back": "Career goals, values, strengths, personality and knowledge/experience pulled together."
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Next week you'll view things from the employer's perspective: what they look for in a personal brand now and in the future. You are now halfway through the course."
+    }
+   ]
+  }
+ ]
+}

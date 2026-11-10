@@ -1,0 +1,842 @@
+{
+ "id": "lead1",
+ "title": "Where are you starting from?",
+ "summary": "Course guidance, definitions of leadership and followership, leadership versus management, and reviewing your own experience, aims and time.",
+ "minutes": 50,
+ "pages": [
+  {
+   "id": "lead1-01",
+   "title": "Introduction and guidance",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "*Leadership and followership* is a free badged course of 8 weeks, with approximately 3 hours' study time each week. You can work through it at your own pace, so if you have more time one week there is no problem with pushing on to another week's study."
+    },
+    {
+     "t": "p",
+     "text": "You'll start by considering your own leadership experience and learning about different leadership styles. You'll then focus on key leadership skills and how to develop them, explore good and bad leadership and possible solutions to problems, find out what makes a good follower and how leaders develop their followers, look at common leadership challenges and the future of leadership, and finally devise a plan to build your own experience."
+    }
+   ]
+  },
+  {
+   "id": "lead1-02",
+   "title": "What you will be able to do",
+   "blocks": [
+    {
+     "t": "h",
+     "text": "After completing this course, you should be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "describe a variety of leadership styles and approaches and analyse how they fit with personal preferences",
+      "recognise the skills required for leadership and assess personal experience and capability",
+      "define followership, from the perspectives of both the leader and the follower",
+      "identify how effective leadership can overcome a variety of common challenges",
+      "reflect on personal experience, start a leadership journal and devise an appropriate plan of action to develop leadership skills"
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Each week ends with a summary and a short quiz. The course has also been included in the National Careers Service skills toolkit to help you develop new skills.",
+     "title": "Moving around the course"
+    }
+   ]
+  },
+  {
+   "id": "lead1-03",
+   "title": "What is a badged course?",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/lead_2.jpg",
+     "alt": "'Leadership and followership' digital badge from The Open University",
+     "caption": "The course badge"
+    },
+    {
+     "t": "p",
+     "text": "On OpenLearn this is a badged course: badged courses are a key part of The Open University's mission *to promote the educational well-being of the community*, and help learners progress from informal to formal learning. You need about 24 hours of study over about 8 weeks, at a pace to suit you. There is no tutor support, but you get useful feedback from the interactive quizzes."
+    },
+    {
+     "t": "p",
+     "text": "Digital badges demonstrate online that you have gained a skill. You can share them with friends, family and employers, and they are a great motivation for reaching the end of the course and boosting confidence."
+    }
+   ]
+  },
+  {
+   "id": "lead1-04",
+   "title": "How to get a badge",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "On OpenLearn, getting a badge is straightforward:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "read each week of the course",
+      "score 50% or more in the two badge quizzes in Week 4 and Week 8."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "You can usually have three attempts at most quiz questions (true/false questions usually allow one attempt). A right answer first time earns more marks than on a second or third try, so it is possible to get every question right and still score under 50%. If you don't reach 50%, you can retake the whole badge quiz after 24 hours, as many times as you like."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "See getting a badge as an opportunity to reflect on what you have learned rather than as a test. In this app, each week's quiz pages help you check your learning in the same spirit."
+    }
+   ]
+  },
+  {
+   "id": "lead1-05",
+   "title": "Week 1: Where are you starting from?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Welcome to Week 1. Both leadership and followership have been extensively researched by academics and business experts. This course is an introduction, combining practical advice with a taste of that research; references support further reading if you want to go deeper."
+    },
+    {
+     "t": "p",
+     "text": "Reflection is an important part of your development as a leader, so you'll find many reflective activities throughout the course to help you build this skill. You may also find it useful to make notes as you go, or keep a notebook beside you as you study."
+    },
+    {
+     "t": "video",
+     "title": "Introduction to Week 1",
+     "url": null,
+     "note": "Lynne Johnson welcomes you to the course. You'll focus on key leadership skills and how to develop them, explore good and bad leadership and solutions to challenges, and learn what makes a good follower and how leaders can develop followers to create more productive relationships and encourage them towards future leadership roles. Finally you'll plan how to build your own experience. This week starts with your own leadership experience and identifying your aims, to help you get the most from the course."
+    }
+   ]
+  },
+  {
+   "id": "lead1-06",
+   "title": "This week's learning outcomes",
+   "blocks": [
+    {
+     "t": "h",
+     "text": "By the end of this week, you will be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "recognise different definitions of leadership and followership",
+      "describe some of the differences and similarities between leadership and management",
+      "review and reflect on your own leadership experiences and aspirations",
+      "schedule time in your diary for these activities and use this time effectively"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead1-07",
+   "title": "1 Definitions",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Leadership is a topic that people choose to study for a variety of reasons, including to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "enhance our personal leadership experience",
+      "further our theoretical understanding of leadership",
+      "enable us to develop more effective leaders within our organisations"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Followership is closely linked with leadership, and the two concepts are now widely considered to be **interdependent** in producing successful outcomes for both individuals and businesses."
+    },
+    {
+     "t": "img",
+     "src": "img/lead_4.jpg",
+     "alt": "Several figures walk in a line across a snowy mountain landscape on an expedition",
+     "caption": "Figure 1 Leader and followers"
+    }
+   ]
+  },
+  {
+   "id": "lead1-08",
+   "title": "Activity 1 What is a leader?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "How would you describe leadership? Before looking at some definitions, consider what leadership means to you. *Allow about 10 minutes.*"
+    },
+    {
+     "t": "activity",
+     "id": "lead1-a1",
+     "title": "Activity 1 What is a leader?",
+     "prompt": "Think about leaders you are aware of, either from the media or from your own experience. What do they do every day? What are they needed for? What type of people are they? Write a sentence or paragraph that captures your view of what a leader is.",
+     "model": "You could have approached this in different ways. Did you focus on the personal skills and qualities required by a leader, or on the process or tasks of leadership? These perspectives reflect the different ways researchers have conceptualised leadership. Your personal definition is a starting point: revisit it at the end of the course to see if you would change or add anything.",
+     "points": [
+      "A leader influences or guides other people towards a goal.",
+      "Leadership can be described by personal skills, qualities or traits of the leader.",
+      "Leadership can also be described as a process or set of tasks, such as setting direction.",
+      "Leaders are needed to coordinate, motivate or make decisions for a group."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead1-09",
+   "title": "1.1 Defining leadership",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "In *Leadership Theory and Practice*, Professor Peter Northouse takes the central components from 65 different classifications of leadership and distils them into this definition:"
+    },
+    {
+     "t": "quote",
+     "text": "Leadership is a process whereby an individual influences a group of individuals to achieve a common goal.",
+     "by": "Northouse, 2022"
+    },
+    {
+     "t": "p",
+     "text": "Yet, as leadership expert Ralph Stogdill once wrote:"
+    },
+    {
+     "t": "quote",
+     "text": "There are almost as many different definitions of leadership as there are persons who have attempted to define the concept.",
+     "by": "Stogdill, 1974, p. 7"
+    }
+   ]
+  },
+  {
+   "id": "lead1-10",
+   "title": "Many definitions of leadership",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Bret Bogenschneider (2016) presents an impressive list of definitions in his search for a common framework. It includes:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "the process (act) of influencing the activities of an organised group in its efforts toward goal setting and goal achievement (Stogdill)",
+      "interpersonal influence, exercised in a situation and directed, through the communication process, toward the attainment of a specific goal or goals (Tannenbaum, Weschler and Massik)",
+      "when persons engage with others in such a way that leaders and followers raise one another to higher levels of motivation and morality (Burns)",
+      "those who consistently make effective contributions to social order, and who are expected and perceived to do so (Hosking)",
+      "typically defined by the traits, qualities and behaviours of a leader (Horner)"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead1-11",
+   "title": "Common themes and differences",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "There are clear parallels between many of these definitions: **influence** is a common theme. But there are key differences in concept, with some authors describing leadership as a *process* and others highlighting *behaviours*."
+    },
+    {
+     "t": "p",
+     "text": "Each writer's subject specialism (psychology, management or even statistics) also has an influence, along with the prevailing attitudes of the era in which the term was defined."
+    },
+    {
+     "t": "p",
+     "text": "In more recent times, Northouse (2022) describes a growth in 'moral approaches to leadership' and, aligned with increasing awareness of the value of diversity in the workplace, the introduction of **inclusive leadership**, which you'll explore in Week 2."
+    },
+    {
+     "t": "quiz",
+     "id": "lead1-q1",
+     "q": "What is the common theme running through most definitions of leadership?",
+     "options": [
+      "Influence",
+      "Authority from a job title",
+      "Financial reward",
+      "Control of systems"
+     ],
+     "answer": 0,
+     "explain": "Most definitions describe leadership in terms of influencing others towards a goal, although they differ on whether it is a process, a behaviour or a set of traits."
+    }
+   ]
+  },
+  {
+   "id": "lead1-12",
+   "title": "1.2 Defining followership",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Research on followership began in the 1950s, but didn't generate significant interest until 1988, with the work of Robert Kelley (you'll meet his work in Week 5). Early research focused on followers as passive participants. Now a growing body of research presents leadership as a shared endeavour between interdependent followers and leaders."
+    },
+    {
+     "t": "p",
+     "text": "Crossman and Crossman (2011) reviewed the literature on followership. They cite authors with **leader-centred** views, for example:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "the ability to effectively follow the directives and support the efforts of a leader to maximise a structured organisation (Bjugstad et al.)",
+      "a process in which subordinates recognise their responsibility to comply with the orders of leaders and take appropriate action consistent with the situation to carry out those orders to the best of their ability (Townsend and Gebhart)"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead1-13",
+   "title": "Follower-centred views",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "These leader-centred definitions appear alongside more **follower-centred** perspectives, such as:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "the process of attaining one's individual goals by being influenced by a leader into participating in individual or group efforts toward organisational goals in a given situation; followership becomes a function of the follower, the leader and situational variables (Wortman)",
+      "a relational role in which followers have the ability to influence leaders and contribute to the improvement and attainment of group and organisational objectives (Carsten et al.)"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "More recently, Pietraszewski (2020) suggests that no one individual has enough information to solve a complex problem alone. Leaders and followers are information-processing roles within a 'social marketplace, in which leaders propose possible coordination and cooperation enterprises, and followers evaluate and choose among these offered possibilities'."
+    }
+   ]
+  },
+  {
+   "id": "lead1-14",
+   "title": "Followership: an employer's view",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Rebecca Fielding, Managing Director of Gradconsult, defines followership from the perspective of an employer."
+    },
+    {
+     "t": "video",
+     "title": "What is followership?",
+     "url": null,
+     "note": "Rebecca Fielding: followership is the act of implementing what an organisation requires of you - following and contributing to your peers, colleagues and the organisation. It is what 80 per cent of people in an organisation do every day: they make things happen and are trusted and relied upon to deliver. It matters because every leader was a fantastic follower first, and followers deliver for clients and customers, make the products and deliver the services. 'Fantastic followership is what business is all about.'"
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "We are all followers, but what we gain from that relationship varies widely with our reasons for following, our enthusiasm for the leader's methods and goals, and our own skills and characteristics."
+    }
+   ]
+  },
+  {
+   "id": "lead1-15",
+   "title": "Activity 2 Who do you follow?",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "lead1-a2",
+     "title": "Activity 2 Who do you follow?",
+     "prompt": "Write a list of the leaders you follow and your reasons for following them, in the workplace or virtually through social media. Consider: Is your 'followership' experience positive or negative? How does it affect you as a follower? What is your relationship with the leader? How does being a follower help you reach your own goals?",
+     "model": "You'll explore followership in Week 5 from the perspectives of both follower and leader. You'll learn how important it is for a leader to support and develop their followers, how important good followers are in achieving a leader's vision, and the interdependence between followers and leaders in reaching positive outcomes for individuals and businesses.",
+     "points": [
+      "Names specific leaders followed and the reasons for following them.",
+      "Judges whether the followership experience is positive or negative and how it affects them.",
+      "Describes the relationship with the leader.",
+      "Links following the leader to reaching their own goals."
+     ],
+     "hint": "Allow about 10 minutes."
+    },
+    {
+     "t": "p",
+     "text": "The themes of this course are not as easily defined as you might have thought! Their complexity is what makes them interesting; this course simplifies some of it by giving a practical, real-life context."
+    }
+   ]
+  },
+  {
+   "id": "lead1-16",
+   "title": "2 Are leadership and management different or the same?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Authors, business experts, academics and practitioners give contrasting answers to this question. Some think the two roles are different, and others believe they are the same."
+    },
+    {
+     "t": "img",
+     "src": "img/lead_6.jpg",
+     "alt": "Dilbert cartoon. A manager asks why it is taking so long to fix the control management system; Dilbert says the manager's leadership has taught him to give laughably unrealistic timelines and blame others when he misses deadlines; the manager replies 'You're not even doing that right', and Dilbert says 'I guess I need more of your leadership.'",
+     "caption": "Figure 2 Managers and leaders in discussion"
+    }
+   ]
+  },
+  {
+   "id": "lead1-17",
+   "title": "Activity 3 Your views of leadership and management",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Before looking at the different views in the literature: what is your opinion or experience of leadership and management? *Allow about 5 minutes.*"
+    },
+    {
+     "t": "activity",
+     "id": "lead1-a3",
+     "title": "Activity 3 Your views of leadership and management",
+     "prompt": "Write some words (e.g. focusing on tasks and competencies) that you associate with successful (a) leadership and (b) management. Write whatever comes into your head without thinking too long about it.",
+     "model": "Did you find you could make a clear distinction between leadership and management, or did you write similar or overlapping terms? Does that come from your personal experience or observation of individuals in those roles?",
+     "points": [
+      "Lists words for leadership such as vision, inspiring, influencing, direction.",
+      "Lists words for management such as planning, organising, controlling, processes.",
+      "Notices where the two lists differ or overlap.",
+      "Relates the words to personal experience or observation."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead1-18",
+   "title": "Different?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Many authors distinguish leadership and management as two separate functions, both crucial to organisational success:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Zaleznik (1977)**: 'managers embrace process, seek stability and control, and instinctively try to resolve problems quickly - sometimes before they fully understand a problem's significance. Leaders, in contrast, tolerate chaos and lack of structure and are willing to delay closure in order to understand the issues more fully.'",
+      "**Kotter (1990)**: management is about planning, organising and controlling, while leadership involves establishing direction, aligning and motivating people. This is too much for one person, so separate roles are needed if organisations are to flourish."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead1-19",
+   "title": "Manager versus leader",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Drawing on the research of Warren Bennis, Roger Gill (2006, p. 27) summarises the differences:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "The manager",
+      "The leader"
+     ],
+     "rows": [
+      [
+       "Administers",
+       "Innovates"
+      ],
+      [
+       "Is a 'copy'",
+       "Is an 'original'"
+      ],
+      [
+       "Maintains",
+       "Develops"
+      ],
+      [
+       "Focuses on systems and structure",
+       "Focuses on people"
+      ],
+      [
+       "Focuses on control",
+       "Inspires trust"
+      ],
+      [
+       "Takes a short-range view",
+       "Has a long-range perspective"
+      ],
+      [
+       "Asks how and when",
+       "Asks what and why"
+      ],
+      [
+       "Imitates",
+       "Originates"
+      ],
+      [
+       "Accepts the status quo",
+       "Challenges the status quo"
+      ],
+      [
+       "Is a classic 'good soldier'",
+       "Is his or her own person"
+      ],
+      [
+       "Does things right",
+       "Does the right thing"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "*Table 1 The differences between management and leadership (Source: Gill, 2006, p. 27)*"
+    }
+   ]
+  },
+  {
+   "id": "lead1-20",
+   "title": "The same?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Other experts contend that management and leadership may involve different skills and processes, but needn't be done by separate people, and that separating them can even damage an organisation:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Morgan Witzel (2013)**: 'we have managers who cannot and will not lead, because they believe that leadership is someone else's responsibility' and 'at the other end of the spectrum, we have a cadre of leaders who believe management is beneath them.'",
+      "**Tyler (2007)**: 'management involves far more than planning, implementation and the exercise of co-ordination and control'; 'Leadership - the ability to communicate a vision, influence others and gain their trust - will be crucial to achieving your objectives as a manager, and in turn, those of the organisation.'",
+      "The **POLC framework**, a management tool, categorises the four principal functions of management as Planning, Organising, Leading and Controlling."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead1-21",
+   "title": "Where the debate leaves us",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Debate will continue, but there are clearly elements of a leader's and a manager's role that overlap. This course focuses on leadership skills and processes, which may be relevant to people in either leadership or management roles, depending on their job descriptions."
+    },
+    {
+     "t": "p",
+     "text": "Theoretical frameworks underpin the work of an effective leader. Next you'll reflect on your practical leadership experience before looking at how theory might influence your further development."
+    },
+    {
+     "t": "tf",
+     "id": "lead1-q2",
+     "q": "Kotter (1990) argues that one person can comfortably combine all leadership and management functions.",
+     "answer": false,
+     "explain": "Kotter says planning, organising and controlling (management) plus establishing direction, aligning and motivating (leadership) is too much for one person, so separate roles are needed."
+    }
+   ]
+  },
+  {
+   "id": "lead1-22",
+   "title": "Check: who said what?",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "lead1-m1",
+     "title": "Match each view to its author or framework",
+     "pairs": [
+      {
+       "term": "Zaleznik",
+       "def": "Managers seek stability and control; leaders tolerate chaos and delay closure to understand issues"
+      },
+      {
+       "term": "Kotter",
+       "def": "Management plans, organises and controls; leadership sets direction, aligns and motivates - separate roles are needed"
+      },
+      {
+       "term": "Gill",
+       "def": "The manager does things right; the leader does the right thing"
+      },
+      {
+       "term": "Witzel",
+       "def": "Some managers won't lead and some leaders think management is beneath them"
+      },
+      {
+       "term": "Tyler",
+       "def": "Communicating a vision, influencing and gaining trust is crucial to achieving a manager's objectives"
+      },
+      {
+       "term": "POLC framework",
+       "def": "Planning, Organising, Leading and Controlling as the four functions of management"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead1-23",
+   "title": "3 Reviewing your own leadership experience",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Reviewing your own leadership experience gives you a personal starting point for this course and a clearer idea of what to do next. You might have developed leadership skills by:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "taking a leadership role in the workplace for a project or team",
+      "organising a fundraising event or social gathering",
+      "mentoring someone",
+      "volunteering to lead a project or group in your local community",
+      "taking responsibility at home due to the illness of a parent or guardian",
+      "being captain of a sports team",
+      "holding a committee position in a university society",
+      "leading a group project as part of your course"
+     ]
+    },
+    {
+     "t": "img",
+     "src": "img/lead_7.jpg",
+     "alt": "Word cloud with words such as leadership, management, team, trust, integrity, creativity, innovation, risk, experience and vision",
+     "caption": "Figure 3 Key words that capture the essence of leadership"
+    }
+   ]
+  },
+  {
+   "id": "lead1-24",
+   "title": "Building leadership experience",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Rebecca Fielding adds her ideas about ways to build your leadership experience both within and outside the workplace."
+    },
+    {
+     "t": "video",
+     "title": "Building your leadership experience",
+     "url": null,
+     "note": "Rebecca Fielding: you can build leadership experience before work - volunteering, getting involved in projects, offering to lead a piece of group work as a student, joining a club or society and taking a role (not necessarily captain - treasurer or membership director count too), helping at a church, mosque, sports or youth group, school or library. 'Putting your hand up' - volunteering to take responsibility and make something happen, taking a risk and learning as you go - is the fundamental essence of leadership. Some of the best leaders are thoughtful, quiet people in the background. At work, if you see something that needs doing, offer to do it or simply do it; join employability or employee voice groups, committees and extra projects, and make little differences every day."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "You don't have to be a 'rabble rouser' to lead. Volunteering to take responsibility - 'putting your hand up' - is where leadership starts."
+    }
+   ]
+  },
+  {
+   "id": "lead1-25",
+   "title": "Activity 4 Reviewing your leadership experience",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "lead1-a4",
+     "title": "Activity 4 Reviewing your leadership experience",
+     "prompt": "Note any occasion, role or activity that has involved you leading in some way (if you were part of a leadership group, think about your specific role). For each example ask: If you asked the others involved who was the leader, would they say it was you? Did you consciously decide to lead or did the situation evolve around you? Did you enjoy being the leader? Looking back, could you have done anything differently?",
+     "model": "The context may have coloured your perception: if it felt negative or forced on you, you may underestimate how much you learned, so try to detach your emotions and view it analytically. If you expected to fail but surprised yourself, look for a new experience that pushes you further. If you felt disappointed, think about why and whether others would agree. Don't worry if you don't have many examples yet. Asking whether you would do anything differently is a useful learning tool.",
+     "points": [
+      "Describes at least one concrete leadership occasion or role.",
+      "Considers whether others saw them as the leader and whether leading was a conscious choice.",
+      "Reflects on whether they enjoyed leading.",
+      "Identifies what they could have done differently."
+     ],
+     "hint": "Allow about 20 minutes."
+    }
+   ]
+  },
+  {
+   "id": "lead1-26",
+   "title": "4 Identifying your aims",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/lead_9.jpg",
+     "alt": "Quote: 'You are never too old to set another goal or to dream a new dream.' C.S. Lewis",
+     "caption": "Figure 4 An inspirational quote by C.S. Lewis"
+    },
+    {
+     "t": "p",
+     "text": "What are you hoping to achieve by undertaking this course? It depends on your experience, circumstances and aspirations. You might be:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "at the beginning of your leadership journey, with clear aspirations but limited experience",
+      "keen to develop your existing leadership skills and understanding further",
+      "interested in exploring how leadership theory might enhance your practical experience",
+      "looking for a boost to reach the next step on your career ladder"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead1-27",
+   "title": "Reflecting on what you want",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "If this is the first time you've been asked to think about what you want to achieve, it helps to consider what you want from life, your values and the kind of work-life balance that would benefit you (OpenLearn offers a Personal Awareness tool for this in its Toolkit)."
+    },
+    {
+     "t": "p",
+     "text": "This self-reflection is an important skill: it is the base from which you consider your options for the future. You'll find out more about using reflection in your leadership development in Week 3."
+    }
+   ]
+  },
+  {
+   "id": "lead1-28",
+   "title": "Activity 5 What do I want from this course?",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "lead1-a5",
+     "title": "Activity 5 What do I want from this course?",
+     "prompt": "Choose the statement that best suits your current aspirations, and explain why (or write your own motive if none fits): (1) I know I don't want to be a leader but am curious about leadership and wish to understand it better. (2) I want to be a leader in the future but am at the beginning of my leadership journey and deciding what to do next. (3) I am already a leader and want to be more effective in my role. (4) I want to make myself more employable. (5) I am a follower and want to know how to better support/understand my leader. (6) I am a leader and I want to develop my followers.",
+     "model": "Having a clear sense of why you are doing the course helps you make the most of each week by focusing on the most relevant elements. For example, to enhance your employability, focus extra time on the practical Week 3; if you are interested in followership, Week 5 is particularly relevant; if you are a leader hoping to improve, Weeks 4 and 6 should be particularly valuable.",
+     "points": [
+      "States clearly which aspiration fits best or gives their own motive.",
+      "Explains the reason for choosing the course.",
+      "Links the aim to parts of the course to focus on (e.g. Week 3, 5, 4 and 6)."
+     ],
+     "hint": "Allow about 5 minutes."
+    }
+   ]
+  },
+  {
+   "id": "lead1-29",
+   "title": "5 Making time for this course",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/lead_10.jpg",
+     "alt": "An old-fashioned station clock on an ornate bracket against a blue sky",
+     "caption": "Figure 5 Making time"
+    },
+    {
+     "t": "p",
+     "text": "A key skill you will need to demonstrate is managing your time effectively. If you work full time or balance study with responsibilities such as childcare, you may have only a little spare time."
+    },
+    {
+     "t": "p",
+     "text": "To gain the most benefit, set aside a certain number of hours each week for the course and any extra work. A useful place to start is identifying how you currently spend your time."
+    }
+   ]
+  },
+  {
+   "id": "lead1-30",
+   "title": "Activity 6 How do you spend your time?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Draw up a schedule of 90-minute blocks from 8 a.m. to 11 p.m. (08:00-09:30, 09:30-11:00 ... 21:30-23:00) for each day, Monday to Sunday. It assumes you sleep between 11 p.m. and 8 a.m.; adapt it to your circumstances. *Allow about 15 minutes.*"
+    },
+    {
+     "t": "activity",
+     "id": "lead1-a6",
+     "title": "Activity 6 How do you spend your time?",
+     "prompt": "Fill in your weekly schedule of 90-minute blocks, showing how you spend each block. Then summarise here: which blocks are already committed, which free blocks you could devote to this course, and when in the day you study most effectively.",
+     "model": "You should now have a clearer idea of the time available in your usual week and can identify blocks to devote to the course and your goals. Consider when you study most effectively: some people are more productive in the evenings, others in the mornings. When are you least likely to be distracted? Chris Bailey's *The Productivity Project* (2016) explores managing time, attention and energy. Breaking large tasks down and being realistic about priorities also helps.",
+     "points": [
+      "Identifies how their time is currently committed across the week.",
+      "Names specific free blocks of time for study.",
+      "Considers the time of day when they are most productive or least distracted.",
+      "Is realistic about priorities and competing commitments."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead1-31",
+   "title": "Time management and leadership",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Time management is also a crucial skill for a leader with competing priorities. Pressure to complete a project or deliver an outcome in a short time frame can come from many sources, including senior leaders, clients, funding bodies or even governments."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Managing your time effectively can make meeting key deadlines much easier - for your studies now, and as a leader later."
+    }
+   ]
+  },
+  {
+   "id": "lead1-32",
+   "title": "Week 1 quiz (1)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "lead1-q3",
+     "q": "How many classifications of leadership did Northouse draw on to create his definition?",
+     "options": [
+      "12",
+      "40",
+      "65",
+      "100"
+     ],
+     "answer": 2,
+     "explain": "Northouse distilled the central components of 65 classifications into: 'a process whereby an individual influences a group of individuals to achieve a common goal'."
+    },
+    {
+     "t": "quiz",
+     "id": "lead1-q4",
+     "q": "When did followership research start to generate significant interest?",
+     "options": [
+      "In the 1950s, when research began",
+      "In 1988, with the work of Robert Kelley",
+      "In 2011, with Crossman and Crossman",
+      "In 2020, with Pietraszewski"
+     ],
+     "answer": 1,
+     "explain": "Research began in the 1950s but only attracted significant interest from 1988 with Robert Kelley's work."
+    },
+    {
+     "t": "tf",
+     "id": "lead1-q5",
+     "q": "Early followership research viewed followers mainly as passive participants in the leadership process.",
+     "answer": true,
+     "explain": "Early research saw followers as passive; more recent work treats leadership as a shared endeavour between interdependent leaders and followers."
+    }
+   ]
+  },
+  {
+   "id": "lead1-33",
+   "title": "Week 1 quiz (2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "lead1-q6",
+     "q": "Which definition of followership is follower-centred?",
+     "options": [
+      "Subordinates recognise their responsibility to comply with the orders of leaders",
+      "The ability to follow directives and support a leader to maximise a structured organisation",
+      "A relational role in which followers can influence leaders and contribute to objectives",
+      "Carrying out a leader's orders to the best of one's ability"
+     ],
+     "answer": 2,
+     "explain": "Carsten et al.'s definition emphasises followers' ability to influence leaders, a follower-centred view; the others are leader-centred."
+    },
+    {
+     "t": "quiz",
+     "id": "lead1-q7",
+     "q": "According to Gill's summary (Table 1), which describes the leader rather than the manager?",
+     "options": [
+      "Asks how and when",
+      "Focuses on control",
+      "Accepts the status quo",
+      "Has a long-range perspective"
+     ],
+     "answer": 3,
+     "explain": "The leader has a long-range perspective, asks what and why, inspires trust and challenges the status quo."
+    },
+    {
+     "t": "quiz",
+     "id": "lead1-q8",
+     "q": "In Pietraszewski's 'social marketplace', what do followers do?",
+     "options": [
+      "Obey the most senior person",
+      "Evaluate and choose among the coordination enterprises leaders propose",
+      "Solve complex problems alone",
+      "Set the organisation's goals"
+     ],
+     "answer": 1,
+     "explain": "Leaders propose possible coordination and cooperation enterprises; followers evaluate and choose among them, because no one person has enough information alone."
+    }
+   ]
+  },
+  {
+   "id": "lead1-34",
+   "title": "Summary of Week 1",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "You should now feel confident about your reasons for choosing this course and have a useful base for developing your understanding and experience further. You've explored what leadership and followership mean, and what they mean to you, recognised differences and similarities between leadership and management, and become more aware of the research available."
+    },
+    {
+     "t": "h",
+     "text": "You should now feel that you can:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "recognise different definitions of leadership and followership",
+      "describe some of the differences and similarities between leadership and management",
+      "review and reflect on your own leadership experiences and aspirations",
+      "schedule time each week for these activities and use this time effectively"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Next week, you will look at different leadership theories and styles, and how the context of leadership can affect how you lead."
+    }
+   ]
+  }
+ ]
+}

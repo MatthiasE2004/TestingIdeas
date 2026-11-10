@@ -1,0 +1,974 @@
+{
+ "id": "lead5",
+ "title": "Week 5: Why is followership important?",
+ "summary": "Follower types, the benefits of good followership, what followers need, and how leaders can engage and develop them.",
+ "minutes": 90,
+ "pages": [
+  {
+   "id": "lead5-01",
+   "title": "Welcome to Week 5",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Last week you looked at what you can learn from bad leadership and the common mistakes leaders make. This week focuses on **followers** and the part they play in effective organisations."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Mainly interested in leadership? Many qualities of a proactive follower are the same as those of an effective leader.",
+      "Not much leadership experience yet? Becoming an effective follower is an excellent starting point.",
+      "Already a leader? You'll look at how to develop positive relationships with your followers and encourage them to consider their own leadership journey."
+     ]
+    },
+    {
+     "t": "video",
+     "title": "Lynne Johnson introduces Week 5",
+     "url": null,
+     "note": "Lynne explains that this week you'll look at various types of followers, such as passive, alienated and conformist, and figure out what kinds of followers you currently have. You'll explore how to engage and develop your followers, and there is a short quiz at the end of the week."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "By the end of this week you will be able to",
+     "text": "recognise different types of followership; describe the benefits of effective followership; identify followers' needs; describe ways of engaging and developing your followers."
+    }
+   ]
+  },
+  {
+   "id": "lead5-02",
+   "title": "From leader-centred to follower-centred",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "As you saw in Week 1, followership has been studied since the 1950s. Early work was mostly **leader-centred**, framing followers as recipients of leadership."
+    },
+    {
+     "t": "img",
+     "src": "img/lead_44.jpg",
+     "alt": "Seven large birds fly in a V-shaped formation, a single bird leading and the others following.",
+     "caption": "Figure 1 Followers have an important role to play"
+    },
+    {
+     "t": "p",
+     "text": "The body of research keeps growing and now takes a more **follower-centred** approach, investigating the interdependence between followers and leaders. Understanding the characteristics of different followers can make you a better follower *and* a better leader."
+    }
+   ]
+  },
+  {
+   "id": "lead5-03",
+   "title": "Kelley's five follower types",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Several follower typologies exist, mainly leader-centred. One of the earliest and most widely cited is by Robert Kelley (1988), who describes five groups:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Sheep** - passive and uncritical, lacking in initiative and a sense of responsibility. They perform the tasks given to them and stop.",
+      "**Yes people** - livelier but equally unenterprising. Dependent on a leader for inspiration, they can be aggressively deferential, even servile. Kelley later called them 'conformist followers'.",
+      "**Alienated followers** - critical and independent in their thinking but passive in carrying out their role. Often cynical, they sink gradually into disgruntled acquiescence, seldom openly opposing a leader.",
+      "**Survivors** - perpetually sample the wind and live by the slogan 'better safe than sorry'. They are adept at surviving change.",
+      "**Effective followers** - think for themselves and carry out their duties and assignments with energy and assertiveness."
+     ]
+    },
+    {
+     "t": "quote",
+     "text": "Followership is not a person but a role ... effective followers and effective leaders are often the same people playing different parts at different hours of the day.",
+     "by": "Robert Kelley (1988)"
+    }
+   ]
+  },
+  {
+   "id": "lead5-04",
+   "title": "Check: Kelley's typology",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Match each description to the follower type Kelley (1988) gives it."
+    },
+    {
+     "t": "match",
+     "id": "lead5-m1",
+     "title": "Match each description to Kelley's follower type",
+     "pairs": [
+      {
+       "term": "Sheep",
+       "def": "Passive and uncritical; they perform the tasks given to them and stop"
+      },
+      {
+       "term": "Yes people",
+       "def": "Lively but unenterprising; dependent on the leader for inspiration and can be servile"
+      },
+      {
+       "term": "Alienated followers",
+       "def": "Critical and independent thinkers, but passive and often cynical in their role"
+      },
+      {
+       "term": "Survivors",
+       "def": "Perpetually sample the wind; 'better safe than sorry'"
+      },
+      {
+       "term": "Effective followers",
+       "def": "Think for themselves and carry out their duties with energy and assertiveness"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead5-05",
+   "title": "Chaleff: support and challenge",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Ira Chaleff (2009) bases his typology on two dimensions: how much a follower **supports** the leader and how much they **challenge** them. He describes four styles of followership:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Style",
+      "Support / challenge",
+      "What it looks like"
+     ],
+     "rows": [
+      [
+       "The resource",
+       "Low / low",
+       "Does what's required but doesn't go beyond the minimum"
+      ],
+      [
+       "The individualist",
+       "Low / high",
+       "Has low deference and isn't afraid to criticise"
+      ],
+      [
+       "The implementer",
+       "High / low",
+       "Does what is needed with minimal oversight or explanation"
+      ],
+      [
+       "The partner",
+       "High / high",
+       "Gives vigorous support but is also willing to question the leader"
+      ]
+     ]
+    },
+    {
+     "t": "quiz",
+     "id": "lead5-q1",
+     "q": "In Chaleff's typology, which follower gives vigorous support but is also willing to question the leader?",
+     "options": [
+      "The resource",
+      "The implementer",
+      "The partner",
+      "The individualist"
+     ],
+     "answer": 2,
+     "explain": "The partner combines high support with high challenge. The implementer is high support but low challenge."
+    }
+   ]
+  },
+  {
+   "id": "lead5-06",
+   "title": "Carsten et al.: a follower-centred view",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Much research looks at how follower styles support or derail *leadership*. Carsten et al. (2010) took a **follower-centred** approach, exploring how style and behaviour affect *followership itself*. They asked people about their role as follower - positives, negatives, personal qualities and behaviours - and grouped the answers into three categories:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "**Passive** - taking and following orders, and deferring to the leader's knowledge and expertise.",
+      "**Active** - offering opinions when given the opportunity but remaining loyal and obedient whether or not they agreed with the leader.",
+      "**Proactive** - behaviours more aligned with partnership than dominance and submission."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "'Followership holds a multiplicity of meaning for individuals occupying the role' (Carsten et al., p. 21). Context matters: it depends on leadership style and the working environment."
+    }
+   ]
+  },
+  {
+   "id": "lead5-07",
+   "title": "What type of follower are you?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "So far you've considered what type of leader you are, or could be - but how many of us ever think about what type of follower we are? Identifying your own follower type makes you more aware of how you and others interact with leaders, which is useful when reflecting on your own role as a leader."
+    },
+    {
+     "t": "activity",
+     "id": "lead5-a1",
+     "title": "Activity 1 What type of follower are you?",
+     "prompt": "In Week 1, Activity 2, you thought about your reasons for following various leaders. Choose one of those leader-follower relationships and, using the typologies in this section (Kelley; Chaleff; Carsten et al.), consider what type of follower you are. Summarise your thoughts.",
+     "hint": "Name the typology and the type, give an example of your behaviour, and think about what shapes your engagement (the leader, the context).",
+     "model": "Your follower type may stem from your personal qualities, but Bastardoz and Van Vugt (2019) suggest followers may match their style to their leader's, with engagement resulting from satisfaction with outcomes, fairness of the leader's procedures, alternative leaders and investment in the relationship. Context matters too: a sudden funding cut is likely to affect engagement. If you are not an effective follower, consider why and what would help; if you are, what inspires you and how you benefit. To improve, set a goal, e.g. give appropriate, constructive feedback to your leader within the next month, and note ideas in your leadership journal (the GROW goal-setting tool may help).",
+     "points": [
+      "Identifies a specific follower type from one of the typologies",
+      "Supports it with an example of their own behaviour in a real leader-follower relationship",
+      "Considers how the leader's style or the context affects their engagement",
+      "Reflects on whether they are an effective follower and what would help them become more engaged",
+      "Sets a goal or next step for becoming a more effective follower"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead5-08",
+   "title": "How to develop as a follower",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Across these typologies, positive or proactive followership means having energy and assertiveness, providing support but being willing to question, and seeing yourself as a **partner** rather than a subordinate."
+    },
+    {
+     "t": "p",
+     "text": "But Benson et al. (2016), working with leaders of highly competitive sports teams, warn that leaders may interpret proactive behaviour differently in different situations. Five factors matter (p. 960):"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "the presence of third party observers",
+      "the momentary demands of the task at hand",
+      "the stage of the decision making process",
+      "suitability of the targeted issue",
+      "relational dynamics."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Proactive followership takes skill: recognise when your contributions are appropriate, or the leader may interpret them negatively."
+    }
+   ]
+  },
+  {
+   "id": "lead5-09",
+   "title": "Proactive - but in which direction?",
+   "blocks": [
+    {
+     "t": "quote",
+     "text": "Whether a follower is good or not is not just a matter of activity, but also depends on whether they assist the organisation in achieving its objectives or not.",
+     "by": "Matshoba-Ramuedzisi et al. (2022, p. 657)"
+    },
+    {
+     "t": "p",
+     "text": "A follower may be very proactive 'but in the opposite direction to what the organisation requires.'"
+    },
+    {
+     "t": "video",
+     "title": "Professor Jean Hartley: how to be a good follower",
+     "url": null,
+     "note": "Being a good follower shares characteristics with being a good leader: think about yourself, the people you work with and the context. Think hard about your leader: what kind of person are they, what are they trying to achieve, what helps or hinders them, what are their preferences? Do they decide from figures and performance data or like stories; good news first or everything on the table; detail or the big picture? Start with what your leader most wants from a situation, then follow up with what you think is important. See yourself as one of several followers: take the initiative, volunteer, and present questions or problems constructively rather than obstructively. If you lead others, reflect on which of your own followers are helpful and constructive and apply that at the level above you."
+    }
+   ]
+  },
+  {
+   "id": "lead5-09t",
+   "title": "Try it: what kind of follower are you?",
+   "blocks": [
+    {
+     "t": "tool",
+     "tool": "follower-type",
+     "title": "Try it: followership explorer",
+     "intro": "Rate twelve statements about how you follow one particular leader to see where you sit on Kelley's, Chaleff's and Carsten et al.'s models, with development tips. Then explore the types and sort fifteen real follower behaviours."
+    }
+   ]
+  },
+  {
+   "id": "lead5-10",
+   "title": "Benefits of good followership",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Good followership benefits both followers and leaders. When they work effectively together, the organisation benefits too. Leaders and organisations clearly gain from effective, engaged employees - but followers gain as well, especially if they want to develop as future leaders."
+    },
+    {
+     "t": "img",
+     "src": "img/lead_46.jpg",
+     "alt": "Four shiny silver cogs, each held in someone's hand, interlocking in the centre.",
+     "caption": "Figure 2 When followers and leaders work well together there are many benefits"
+    },
+    {
+     "t": "p",
+     "text": "The typologies labelled good followers 'effective', 'proactive' or 'partners'. As leaders increasingly value these partnerships, followers should be aware of the benefits to them."
+    }
+   ]
+  },
+  {
+   "id": "lead5-11",
+   "title": "Benefit for followers: upward influencing",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A follower with an effective relationship with their leader can influence situations where they think the leader is making a mistake, offer extra support, and improve circumstances for themselves and colleagues. This is sometimes called **'managing up'**."
+    },
+    {
+     "t": "p",
+     "text": "Kipnis and Schmidt (1983) identify four strategies commonly used to influence superiors:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "*Reason* - using data and information to support your requests",
+      "*Coalition* - mobilising others to support you",
+      "*Ingratiation* - creating goodwill",
+      "*Bargaining* - negotiating and exchanging benefits or favours."
+     ]
+    },
+    {
+     "t": "tf",
+     "id": "lead5-q2",
+     "q": "Kipnis and Schmidt's four influencing strategies are used only by followers trying to influence their superiors.",
+     "answer": false,
+     "explain": "Leaders also use these strategies to influence their followers; they are just deployed in a different way."
+    }
+   ]
+  },
+  {
+   "id": "lead5-12",
+   "title": "Influencing up",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "lead5-a2",
+     "title": "Activity 2 Influencing up",
+     "prompt": "Think of a time when you've tried to influence someone who was senior to you. What strategy did you use - reason, coalition, ingratiation or bargaining? Was it successful? If it wasn't, might one of the other strategies have worked better?",
+     "model": "As Professor Hartley explains, the most successful approach depends on the person you are trying to influence: one person may respond better to a logical argument backed by data, another to the bigger picture. These four are not the only strategies; depending on the problem you may need to enlist the support of a more senior member of staff, or use recognised organisational policies and processes to highlight an issue.",
+     "points": [
+      "Describes a real attempt to influence someone senior",
+      "Names the strategy used (reason, coalition, ingratiation or bargaining)",
+      "Evaluates whether it worked and why",
+      "Considers whether another strategy would have suited that person's preferences better"
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "To explore this further, the course Toolkit includes a 'Managing your Manager' tool to help you understand your boss and their context."
+    }
+   ]
+  },
+  {
+   "id": "lead5-13",
+   "title": "Benefit for followers: developing leadership skills",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "As a follower you can develop yourself as a future leader - by observing your leader's strengths and weaknesses, or through the support, advice and development opportunities they give you. Many skills of an effective follower are mirrored in an effective leader:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "courage",
+      "judgement",
+      "communication",
+      "independent thinking",
+      "initiative",
+      "self-awareness and self-management",
+      "commitment",
+      "diplomacy",
+      "collaboration",
+      "influencing."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Agho (2009) surveyed over 300 senior executives: 'a significant number of the respondents agreed that followership skills should be viewed as prerequisites for effective leadership' (p. 7)."
+    }
+   ]
+  },
+  {
+   "id": "lead5-14",
+   "title": "Benefits for the organisation: more effective leadership",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A more engaged and committed workforce benefits the organisation in many ways: leaders' and managers' work becomes easier and more rewarding, and business enhancements follow. A leader with a disengaged, unmotivated team finds it hard to complete projects, innovate or introduce change; engaged, enthusiastic followers make a huge difference."
+    },
+    {
+     "t": "activity",
+     "id": "lead5-a3",
+     "title": "Activity 3 What's in it for the leader?",
+     "prompt": "Consider how a strong, engaged, enthusiastic team can benefit their leader, and list your ideas.",
+     "model": "When your followers are engaged, your leadership is more effective. Followers who use their initiative and look for responsibility free up your time to focus more strategically. Engaged, enthusiastic team members are inspiring to work with, making your own role more enjoyable and fulfilling. And followers willing to challenge you could save you from some of the common leadership mistakes from Week 4.",
+     "points": [
+      "Engaged followers make leadership more effective",
+      "Followers who take initiative free the leader's time for strategic work",
+      "An enthusiastic team makes the leader's role more enjoyable and fulfilling",
+      "Followers who challenge can save the leader from common mistakes"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead5-15",
+   "title": "Which followers does the organisation need?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A leader must think strategically about the types of followers their organisation needs - you might not always need 'effective' or 'proactive' followers. As Chaleff (2009) explains, an 'implementer' might seem the perfect follower, but if a leader starts making mistakes, the implementer is unlikely to challenge them. Some contexts, such as a manufacturing production line, benefit from passive followers who are happy to abide by the rules."
+    },
+    {
+     "t": "quiz",
+     "id": "lead5-q3",
+     "q": "According to Chaleff (2009), what is the risk of a team made up of 'implementers'?",
+     "options": [
+      "They will need constant supervision",
+      "They are unlikely to challenge a leader who starts making mistakes",
+      "They will criticise every decision the leader makes",
+      "They will do only the bare minimum"
+     ],
+     "answer": 1,
+     "explain": "Implementers are high support/low challenge, so they do what is needed but rarely question the leader - even when the leader is going wrong."
+    }
+   ]
+  },
+  {
+   "id": "lead5-16",
+   "title": "Employee engagement",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "**Employee engagement** is an increasingly popular management concept focusing on the mutual benefits of a strong relationship between employer and employee. The CIPD lists its benefits as:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Happier, healthier and more fulfilled employees",
+      "Better staff retention",
+      "Improved business performance, e.g. increased customer satisfaction, productivity, innovation, efficiency",
+      "Increased profit",
+      "Stronger brand and reputation."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "So the benefits of good followership reach the follower, the leader and the organisation. Yet some organisations are starting to question whether the traditional leader-follower relationship is the most effective approach."
+    }
+   ]
+  },
+  {
+   "id": "lead5-17",
+   "title": "Can you be a leader without followers?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Answers vary: some commentators give an emphatic 'no', while others ask whether there needs to be a leader at all."
+    },
+    {
+     "t": "img",
+     "src": "img/lead_47.jpg",
+     "alt": "An empty lecture theatre with tiered blue seats and white walls.",
+     "caption": "Figure 3 Can you lead if you have no followers?"
+    },
+    {
+     "t": "p",
+     "text": "Reviewing the literature, Uhl-Bien et al. (2014) find two key approaches in followership research:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "*Followership as a position or role* - how followers' identities and behaviours influence leader attitudes, behaviours and outcomes.",
+      "*Followership as a social process* - followership and leadership are co-constructed in social and relational interactions between people."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "In both, followership and leadership are closely linked, each influencing the other to create the best outcomes."
+    }
+   ]
+  },
+  {
+   "id": "lead5-18",
+   "title": "Where have all the followers gone?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Kempster et al. (2020) interviewed Executive MBA students and found an 'absence of follower identification in their everyday working lives'. They ask:"
+    },
+    {
+     "t": "quote",
+     "text": "Can we, as researchers, label practices as leading or following and label our research subjects as leaders or followers if they themselves reject those identifications?",
+     "by": "Kempster et al. (2020)"
+    },
+    {
+     "t": "p",
+     "text": "They discuss more fluid forms such as distributed and collective leadership: 'a flow between people leading and following - rather than designated, materialised leaders permanently leading and followers following.'"
+    },
+    {
+     "t": "tf",
+     "id": "lead5-q4",
+     "q": "Uhl-Bien et al. (2014) describe followership as a social process in which leadership and followership are co-constructed through relationships.",
+     "answer": true,
+     "explain": "This is the second of their two approaches; the first treats followership as a position or role."
+    }
+   ]
+  },
+  {
+   "id": "lead5-19",
+   "title": "Leadership from a dancing guy",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Leadership from a dancing guy",
+     "url": "https://www.youtube.com/watch?v=fW8amMCVAJQ",
+     "note": "A man is dancing on his own and others are gradually encouraged to join him until everyone wants to take part."
+    },
+    {
+     "t": "activity",
+     "id": "lead5-a4",
+     "title": "Activity 4 Leadership from a dancing guy",
+     "prompt": "Watch the video and consider what characteristics the man exhibits that persuade others to participate. Make a list of your observations.",
+     "model": "The man's enthusiasm and commitment to his activity is infectious. Once people start to join him, the mood changes and everyone wants to participate. Anyone can start something without followers, but with a clear vision that is easy to follow, followers will join. At work, a project that starts off unpopular can win people over if you communicate well and inspire them; convincing one or two team members first means they may advocate for you across the wider team.",
+     "points": [
+      "Enthusiasm and commitment are infectious",
+      "Once the first followers join, the mood changes and others follow",
+      "A clear vision that is easy to follow attracts followers",
+      "Winning over one or two early supporters can bring the wider team on board"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead5-20",
+   "title": "Shared leadership",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Followers play a key role in leadership success, but some approaches blur the traditional roles of leader and follower."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Shared leadership",
+     "text": "'A dynamic, interactive influence process among individuals in groups for which the objective is to lead one another to the achievement of group or organizational goals or both' (Pearce and Conger, 2003, p. 1)."
+    },
+    {
+     "t": "p",
+     "text": "Leadership behaviours are shown by a set of individuals rather than a single person; leadership becomes a shared function or activity rather than a role. It can create a strong sense of shared responsibility and effective collaboration, but relies on excellent communication - without it, decision-making can be impeded. It suits complex, technical environments where different experts in a multidisciplinary team become relevant at different stages of a project."
+    }
+   ]
+  },
+  {
+   "id": "lead5-21",
+   "title": "Collective, distributed and holacracy",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Other versions of shared leadership you may meet:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Collective leadership** - 'a group of people with diverse skills and experience come together to work toward goals that they develop jointly... the group empowers the person or people with the most relevant expertise to tackle particular problems and implement solutions' (Shonk, 2023).",
+      "**Distributed leadership** - 'collaborative, autonomous practices managed by a network of formal and informal leaders across an organization' (Ancona, quoted in Somers, 2022).",
+      "**Holacracy** - a more radical approach that distributes leadership between all employees, removing the traditional leader-follower relationship altogether (more in Week 7)."
+     ]
+    },
+    {
+     "t": "match",
+     "id": "lead5-m2",
+     "title": "Match each description to its approach",
+     "pairs": [
+      {
+       "term": "Shared leadership",
+       "def": "A dynamic, interactive influence process in which group members lead one another to achieve goals"
+      },
+      {
+       "term": "Collective leadership",
+       "def": "A diverse group sets goals jointly and empowers those with the most relevant expertise to tackle problems"
+      },
+      {
+       "term": "Distributed leadership",
+       "def": "Collaborative, autonomous practices managed by a network of formal and informal leaders"
+      },
+      {
+       "term": "Holacracy",
+       "def": "Leadership distributed between all employees, removing the leader-follower relationship altogether"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead5-22",
+   "title": "What do followers need?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Even within these approaches, each individual has needs and responsibilities that require nurturing. Understanding and meeting your followers' needs lets you form positive relationships with your team."
+    },
+    {
+     "t": "img",
+     "src": "img/lead_48.jpg",
+     "alt": "A hand holding a pen that has written 'What do you need?' on the front of a ring-bound notebook.",
+     "caption": "Figure 4 Followers' needs are important"
+    },
+    {
+     "t": "p",
+     "text": "Jackson and Parry (2011) describe needs the leader must try to fulfil, for example:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "the need for **clarity** - what should we be doing? Where are we going?",
+      "the need for **meaning** - what are we doing this for?",
+      "the need for **safety** - will it be ok if we do this?"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead5-23",
+   "title": "Four basic needs: Gallup research",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A Gallup team asked over 10 000 followers what the most influential leaders contribute to their lives. Rath and Conchie (2008) identified four basic needs: **trust, compassion, stability and hope**. The researchers explained (Robison, 2009):"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Trust: 'primarily built through relationships... the foundational currency that a leader has with his team or his followers.'",
+      "Stability: leaders should think constantly about creating 'a basic sense of security and stability throughout an organization.'",
+      "Hope: 'Followers need to see how things will get better... Leaders need to build that foundation of stability, and hope sits on top of that.'",
+      "Compassion: 'You can show you care, for example, by having tough conversations with people about their performance and their positioning.'"
+     ]
+    },
+    {
+     "t": "quiz",
+     "id": "lead5-q5",
+     "q": "Which set lists the four basic needs of followers identified by Gallup's research (Rath and Conchie, 2008)?",
+     "options": [
+      "Clarity, meaning, safety, reward",
+      "Trust, compassion, stability, hope",
+      "Recognition, pay, security, autonomy",
+      "Vision, voice, integrity, development"
+     ],
+     "answer": 1,
+     "explain": "Gallup's research with over 10 000 followers found trust, compassion, stability and hope. Clarity, meaning and safety come from Jackson and Parry (2011)."
+    }
+   ]
+  },
+  {
+   "id": "lead5-24",
+   "title": "Identifying the needs of your followers",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Considering the needs of different types of follower lets you interact with current followers more effectively, or prepares you for future leadership and helps you pre-empt issues."
+    },
+    {
+     "t": "activity",
+     "id": "lead5-a5",
+     "title": "Activity 5 Identifying the needs of your followers",
+     "prompt": "Choose a typology and think of examples of different types of followers you have encountered (if you don't lead anyone, think about a leader you follow and your fellow followers). Then answer: (1) Did you observe behaviours that were positive or negative? (2) What were the reasons for their engagement or lack of it? (3) What do you think those followers needed? (4) What actions did the leader take to identify those needs - and what could they have taken?",
+     "model": "The followers may share a common type or you may have identified a range of types. Their needs might be the same but expressed differently, or there may be a range of issues to address. Look for common themes that could be addressed with the whole team, and use your leadership journal to explore issues in more detail.",
+     "points": [
+      "Uses a named typology to describe real followers",
+      "Identifies positive or negative behaviours and reasons for (dis)engagement",
+      "Names specific needs, e.g. clarity, meaning, safety, trust, compassion, stability or hope",
+      "Evaluates what the leader did, or could have done, to identify those needs",
+      "Looks for common themes that could be addressed with the whole team"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "In a large team you may not be able to address everyone's needs individually, but you can facilitate or delegate group activities and communication strategies."
+    }
+   ]
+  },
+  {
+   "id": "lead5-25",
+   "title": "Engaging and developing your followers",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A positive step towards engaging followers is to emphasise your commitment to their development. A team that is motivated and feels valued performs more effectively than one whose members feel underappreciated and ignored."
+    },
+    {
+     "t": "video",
+     "title": "Professor Jean Hartley: engaging your followers",
+     "url": null,
+     "note": "Followers have talents and initiative beyond their formal role description. Some people do exactly what they're asked and not a jot more - and are entitled to - but you'll get much more if people feel appreciated, respected and that you want their views and ideas on doing the task better. Drawing on the team brings in more perspectives and ideas you hadn't thought of. A high-energy team inspires energy in the leader and others; a 'dead' team with suppressed energy and poor communication is much harder to lead. The leader's task is to channel and focus that energy on the task, and care for people, rather than trying to control it."
+    }
+   ]
+  },
+  {
+   "id": "lead5-26",
+   "title": "Engagement: the global picture",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Gallup's State of the Global Workplace report (2023) found:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Category (2022)",
+      "Share",
+      "Description"
+     ],
+     "rows": [
+      [
+       "Thriving and engaged",
+       "23%",
+       "Highest level since measurements began in 2009"
+      ],
+      [
+       "'Quiet quitting'",
+       "59%",
+       "'Filling a seat and watching the clock', feeling lost and disconnected"
+      ],
+      [
+       "'Loud quitting'",
+       "18%",
+       "Taking actions that directly harm the organisation, 'undercutting its goals and opposing its leaders'; trust has been broken"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Gallup estimates that 'low engagement costs the global economy US$8.8 trillion and accounts for 9% of global GDP' - so engagement matters for economic as well as individual productivity and success."
+    },
+    {
+     "t": "quiz",
+     "id": "lead5-q6",
+     "q": "According to Gallup (2023), roughly what share of the world's employees were 'quiet quitting' in 2022?",
+     "options": [
+      "18%",
+      "23%",
+      "59%",
+      "9%"
+     ],
+     "answer": 2,
+     "explain": "59% were quiet quitting, 23% were thriving and engaged and 18% were loud quitting. 9% is the share of global GDP that low engagement is estimated to cost."
+    }
+   ]
+  },
+  {
+   "id": "lead5-27",
+   "title": "Four enablers of engagement",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "MacLeod and Clarke (2009) set out four enablers of employee engagement:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "**Leadership** - a strong strategic narrative with widespread ownership: a clear story of the organisation's purpose, why it has its vision, and how each individual contributes. Employees have a clear line of sight between their job and the narrative.",
+      "**Engaging managers** - facilitate and empower rather than control; treat staff with appreciation and respect; commit to developing, increasing and rewarding their capabilities.",
+      "**Employee voice** - views are sought, listened to and make a difference; employees speak out and challenge when appropriate; listening and responsiveness run through the organisation.",
+      "**Integrity** - behaviour throughout the organisation is consistent with stated values, leading to trust."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "These themes run through the course: Week 4's solutions (clear vision, good communication, developing your team, leading by example) and Week 6's challenges of motivating and developing a team."
+    }
+   ]
+  },
+  {
+   "id": "lead5-28",
+   "title": "Check: the four enablers",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "lead5-m3",
+     "title": "Match each description to MacLeod and Clarke's enabler",
+     "pairs": [
+      {
+       "term": "Leadership",
+       "def": "A strong strategic narrative so employees see where their job fits the organisation's purpose"
+      },
+      {
+       "term": "Engaging managers",
+       "def": "Managers who facilitate and empower, and treat staff with appreciation and respect"
+      },
+      {
+       "term": "Employee voice",
+       "def": "Employees' views are sought and listened to, and they challenge when appropriate"
+      },
+      {
+       "term": "Integrity",
+       "def": "Behaviour throughout the organisation is consistent with stated values"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead5-29",
+   "title": "Purpose and context",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Professor Jean Hartley: task and context",
+     "url": null,
+     "note": "Make sure people are clear about the task and their contribution to it: check they understand it and ask whether they have better ideas for carrying it out - a sense of purpose is very important. Also help manage the wider context the team operates in: share enough for people to see where their work fits, but protect them from context that is distracting or distressing. She tells a (possibly apocryphal) NASA story: a visiting dignitary asked a cleaner about their job and was told 'my job is to help put men on the Moon' - knowing where your job fits the bigger purpose can be incredibly motivating."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Link this to MacLeod and Clarke's first enabler: employees need a clear line of sight between their job and the organisation's narrative."
+    }
+   ]
+  },
+  {
+   "id": "lead5-30",
+   "title": "Developing followers",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Kelley (1988) notes that many organisations train leaders but few train followers. He outlines topics for a follower training programme:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Improving independent, critical thinking",
+      "Self-management",
+      "Disagreeing agreeably",
+      "Building credibility",
+      "Aligning personal and organisational goals and commitments",
+      "Acting responsibly towards the organisation, the leader, co-workers and oneself",
+      "Similarities and differences between leadership and followership roles",
+      "Moving between the two roles with ease."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "More recently, Oc et al. (2023) recommend that leadership development first focuses on 'how a group of individuals interact with each other' and their shared objective, before 'the things they need to do to achieve that objective'. Leaders and followers must 'learn how leadership can be shared and how the roles they play can change depending on the circumstances' (p. 18)."
+    }
+   ]
+  },
+  {
+   "id": "lead5-31",
+   "title": "Other ways to support your followers",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "As well as training and development opportunities, you can:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Allow them to take responsibility and lead on different elements of the work.",
+      "Give praise and encouragement, acknowledging their work and taking a step back yourself.",
+      "Give them confidence to innovate by letting them implement changes without fear of repercussions.",
+      "Coach them using your knowledge and experience - or coach key individuals who can cascade your knowledge to others."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "title": "The follower's view",
+     "text": "Followers may resist development if they feel you ask too much - e.g. they aren't paid enough for more responsibility, or resent delegated tasks they aren't interested in. Plan development *with* them: give them a voice and explain the business needs that must be addressed."
+    }
+   ]
+  },
+  {
+   "id": "lead5-32",
+   "title": "Developing your followers",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "lead5-a6",
+     "title": "Activity 6 Developing your followers",
+     "prompt": "Think about an individual or group you want to develop into more effective followers or prepare for future leadership - e.g. members of an existing team, a social group you want to inspire, or social media followers you want to build on Twitter or LinkedIn. How could you inspire or develop them? What could you do to explore their needs and expectations?",
+     "model": "Identify the person or group clearly, then think about what they need and expect - ask them, rather than assume. Plan ways to inspire and develop them, such as giving responsibility, praise, freedom to innovate and coaching. Use your leadership journal to explore the ideas and form a plan, try to implement some aspect of follower development over the next few weeks and months, and use the GROW tool to plan your next steps.",
+     "points": [
+      "Identifies a specific person or group to develop",
+      "Describes how to find out their needs and expectations, e.g. by talking with them",
+      "Proposes concrete ways to inspire or develop them",
+      "Plans next steps, such as a journal entry, GROW plan or timescale"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead5-33",
+   "title": "Summary of Week 5",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Our understanding of followership and its interdependence with leadership is still developing, but even leader-centric studies show that followers play a vital role in leadership and business success. Followers should be nurtured and encouraged to interact - sometimes critically - with leaders, and leaders should reciprocate with feedback and dialogue. This boosts engagement and motivation and prepares followers for their own leadership roles."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "You should now be able to",
+     "text": "recognise different types of followership; describe the benefits of effective followership; identify followers' needs; describe ways of engaging and developing your followers."
+    },
+    {
+     "t": "p",
+     "text": "Next week: common challenges for modern leaders - internal politics, team dynamics, leading change, and motivating and developing staff."
+    },
+    {
+     "t": "quiz",
+     "id": "lead5-q7",
+     "q": "Which statement best reflects Kelley's (1988) view of followership?",
+     "options": [
+      "Followership is a personality trait you are born with",
+      "Followership is a role; effective followers and leaders are often the same people at different times",
+      "Followers are simply recipients of leadership",
+      "Good followers never question their leader"
+     ],
+     "answer": 1,
+     "explain": "Kelley argues 'followership is not a person but a role' - the same people play leader and follower parts at different hours of the day."
+    }
+   ]
+  },
+  {
+   "id": "lead5-34",
+   "title": "Week 5 quiz",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "lead5-q8",
+     "q": "Which of these are among Kipnis and Schmidt's (1983) strategies for influencing superiors? Select all that apply.",
+     "options": [
+      "Reason",
+      "Coalition",
+      "Intimidation",
+      "Bargaining",
+      "Ingratiation"
+     ],
+     "answer": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "multi": true,
+     "explain": "The four strategies are reason, coalition, ingratiation and bargaining. Intimidation is not one of them."
+    },
+    {
+     "t": "tf",
+     "id": "lead5-q9",
+     "q": "Shared leadership works well even without excellent communication, because responsibility is spread across the group.",
+     "answer": false,
+     "explain": "Shared leadership relies on excellent communication; without it, it can impede decision-making."
+    },
+    {
+     "t": "quiz",
+     "id": "lead5-q10",
+     "q": "Carsten et al. (2010) described followers who offer opinions when given the chance but stay loyal and obedient whether or not they agree. Which category is this?",
+     "options": [
+      "Passive",
+      "Active",
+      "Proactive"
+     ],
+     "answer": 1,
+     "explain": "Active followers offer opinions but remain loyal and obedient regardless; proactive followers behave more like partners."
+    }
+   ]
+  }
+ ]
+}

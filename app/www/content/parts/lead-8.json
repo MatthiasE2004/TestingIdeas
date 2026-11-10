@@ -1,0 +1,934 @@
+{
+ "id": "lead8",
+ "title": "Week 8: Developing yourself as a leader",
+ "summary": "Review your learning, write a leadership vision, set SMART goals with an action plan, find people and training to help - then take the badge quiz.",
+ "minutes": 210,
+ "pages": [
+  {
+   "id": "lead8-01",
+   "title": "Week 8: Developing yourself as a leader",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Welcome to Week 8 - you've almost finished the course! Last week you looked at how leadership is changing. This week you concentrate on your own leadership learning and development: reflecting on what you've learned and setting goals for your career progression."
+    },
+    {
+     "t": "video",
+     "title": "Lynne introduces Week 8",
+     "url": null,
+     "note": "Lynne Johnson: this week is all about you. Use your leadership journal from Week 3 to plan your leadership development; get networking once you've worked out who the right people are; decide whether you need further training or retraining; and decide how to progress your career - new responsibilities, a promotion, even a change of job? Review your personal aims from Week 1 and use all your learning to set you on course for the next stage of your career."
+    },
+    {
+     "t": "h",
+     "text": "By the end of this week you will be able to"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "reflect on your own leadership experience and identify areas for development",
+      "set SMART goals and devise an action plan to support your leadership development",
+      "identify appropriate training/networking opportunities."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "When you finish, you can claim a badge for the course."
+    }
+   ]
+  },
+  {
+   "id": "lead8-02",
+   "title": "1 What have you learned?",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/lead_72.jpg",
+     "alt": "Five people seen from above, sitting in a circle of chairs with books and tablets, having a discussion",
+     "caption": "Figure 1 Reviewing your learning"
+    },
+    {
+     "t": "p",
+     "text": "This course has covered a wide range of topics on leadership and followership. Some themes will be more familiar than others, but each week should have offered relevant ideas."
+    },
+    {
+     "t": "p",
+     "text": "By now you should feel more comfortable with reflection. Your leadership journal should be well underway, you should have settled on a good time of day to add to it, and you should be developing a style that suits you."
+    }
+   ]
+  },
+  {
+   "id": "lead8-03",
+   "title": "Video: reflection at the core",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Leadership expert Professor Jean Hartley is very clear on the benefits of a reflective approach."
+    },
+    {
+     "t": "video",
+     "title": "Jean Hartley on reflection",
+     "url": null,
+     "note": "Reflection is 'absolutely at the core of leadership development' - almost every course or workshop includes it. For the experienced, effective leaders Hartley has worked with, reflection is a habit of mind: they monitor themselves continuously, sometimes formally (a journal or diary, jotting points, talking with trusted friends). Leadership benefits from 'rehearsal', and reflection is that rehearsal: rerun a meeting or presentation in your head and write it down. You can reflect several times - first from your own position (How did I start? Did I get the purpose across succinctly?), then from the listener's (How did I come across? What was going on for the person on their phone?). Reflect with trusted others too, asking 'How did I do?' rather than 'Was I good enough?' so you don't betray a lack of confidence."
+    },
+    {
+     "t": "tf",
+     "id": "lead8-q1",
+     "q": "Jean Hartley suggests asking trusted colleagues 'Do you think I did good enough?' to get the most useful feedback.",
+     "answer": false,
+     "explain": "She advises asking 'How did I do?' instead, so that you don't come across as underconfident."
+    }
+   ]
+  },
+  {
+   "id": "lead8-04",
+   "title": "Activity 1 Reviewing your learning",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "lead8-a1",
+     "title": "Activity 1 Reviewing your learning",
+     "prompt": "Allow about 40 minutes. Review your journal entries, notes and activity responses from throughout the course. What have been your key learning points from each week? Two or three bullet points per week are enough to crystallise your thinking. If you've done this weekly already, bring those thoughts together here.",
+     "model": "Summarising your learning points shows how your knowledge of leadership and followership has grown over the last eight weeks. This should be inspiring - if you can learn something new from 24 hours of study, just think what you can achieve during your career!",
+     "points": [
+      "Lists two or three key points for each week.",
+      "Draws on journal entries and earlier activity answers.",
+      "Shows how understanding of leadership and followership has developed.",
+      "Notes what to take forward into practice."
+     ],
+     "hint": "Weeks: 1 starting point and definitions; 2 styles; 3 skills; 4 poor leadership; 5 followership; 6 challenges; 7 the future."
+    }
+   ]
+  },
+  {
+   "id": "lead8-05",
+   "title": "2 Progressing your career",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/lead_74.jpg",
+     "alt": "A wooden mannequin climbing a staircase of wooden blocks, taking them several at a time",
+     "caption": "Figure 2 Climbing step by step"
+    },
+    {
+     "t": "p",
+     "text": "You now understand more clearly what a leader is, the crucial interdependence between leaders and followers, and the challenges leaders face now and in future. You must decide how you want to progress from here."
+    },
+    {
+     "t": "p",
+     "text": "Look back at Week 1, Activity 5, where you considered your aspirations for the course. Have they changed?"
+    },
+    {
+     "t": "p",
+     "text": "Before setting goals, many business experts highlight the value of a **personal leadership vision**. Knowing what kind of leader you want to be, and how you want to lead, helps you prioritise goals and gives you a clearer target."
+    }
+   ]
+  },
+  {
+   "id": "lead8-06",
+   "title": "Activity 2 What is your leadership vision?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "In Week 7 you considered your leadership purpose - 'your ultimate reason for doing what you do every day' (Robbins, no date). That can inform your vision for the future. Examples:"
+    },
+    {
+     "t": "quote",
+     "text": "To be a teacher. And to be known for inspiring my students to be more than they thought they could be.",
+     "by": "Oprah Winfrey"
+    },
+    {
+     "t": "quote",
+     "text": "To be an honest and accessible leader, known for leading engaged and effective teams.",
+     "by": "Higher Education Leader"
+    },
+    {
+     "t": "activity",
+     "id": "lead8-a2",
+     "title": "Activity 2 What is your leadership vision?",
+     "prompt": "Allow about 15 minutes. Using your leadership journal, consider your own leadership vision. Keep it concise and inspiring: describe the kind of leader you want to be in, for example, five years' time.",
+     "model": "Did you focus on personal traits and qualities, or on how you want to carry out the leadership process? Either way, you can start to consider how to develop from where you are now into that leader. A vision can take time to perfect, so spend more time refining it if needed. A mentor can be a useful sounding board.",
+     "points": [
+      "Vision is concise and inspiring.",
+      "Describes the kind of leader you want to be in a set time (e.g. five years).",
+      "Focuses on traits and qualities and/or how you want to lead.",
+      "Links to your leadership purpose and values.",
+      "Can be refined over time, e.g. with a mentor."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead8-07",
+   "title": "Activity 3 What could you do next?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "With a sense of the leader you want to be, where will you put it into practice - your current workplace, a voluntary role, a new job? Take a few minutes to focus on the options you could explore next."
+    },
+    {
+     "t": "activity",
+     "id": "lead8-a3",
+     "title": "Activity 3 What could you do next?",
+     "prompt": "Allow about 15 minutes. List all the career-related options you could potentially explore next - e.g. a new project role, promotion, a new job. If you're not looking for work, consider voluntary activities or sharing your leadership observations on social media. Include anything that comes to mind, even options you may not pursue. Categories that may help: in the workplace; outside work; in person; online.",
+     "model": "This is a quick brainstorm of all the options available to you. You could include others - your mentor, manager, friends or family - to see if they come up with anything different. In Section 3 you'll edit these ideas and settle on key goals.",
+     "points": [
+      "Lists many options without filtering them yet.",
+      "Covers workplace and outside-work options.",
+      "Includes both in-person and online possibilities.",
+      "Could involve others (mentor, manager, friends) in the brainstorm."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead8-08",
+   "title": "3 Planning your leadership development",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "**Personal development planning** lets you focus on potential study, career and personal development options and goals."
+    },
+    {
+     "t": "video",
+     "title": "An introduction to personal development planning",
+     "url": "https://www.youtube.com/watch?v=6gqPHCWT3f0",
+     "note": "A short introductory video on the concept of personal development planning. (External YouTube content.)"
+    },
+    {
+     "t": "p",
+     "text": "You started this in Week 3, reflecting on your skills, those you'd like to develop and ways to develop them. The thoughts in your leadership journal are a useful starting point for your goals."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Make your goals SMART: **S**pecific, **M**easurable, **A**greed, **R**ealistic, **T**ime bound.",
+     "title": "SMART goals"
+    }
+   ]
+  },
+  {
+   "id": "lead8-09",
+   "title": "Versions of SMART and other tools",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The course Toolkit's Goal Setting tool uses R = Relevant and A = Achievable, and expands the acronym to **SMARTER**, adding Engagement and Reward. Choose the interpretation that resonates for you."
+    },
+    {
+     "t": "p",
+     "text": "This course uses **Agreed** because you may need to agree plans with your manager, and **Realistic** because your goal must be achievable - you should have identified and be able to remove obstacles or constraints such as financial cost to you or your organisation."
+    },
+    {
+     "t": "p",
+     "text": "Other goal-setting tools you can explore online include **HARD** (*heartfelt, animated, required, difficult*) and **PACT** (*purposeful, actionable, continuous, trackable*)."
+    }
+   ]
+  },
+  {
+   "id": "lead8-10",
+   "title": "Check: goal-setting acronyms",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "lead8-m1",
+     "title": "Match each set of words to its goal-setting acronym",
+     "pairs": [
+      {
+       "term": "SMART (as used in this course)",
+       "def": "Specific, measurable, agreed, realistic, time bound"
+      },
+      {
+       "term": "SMARTER",
+       "def": "Adds engagement and reward to the SMART letters"
+      },
+      {
+       "term": "HARD",
+       "def": "Heartfelt, animated, required, difficult"
+      },
+      {
+       "term": "PACT",
+       "def": "Purposeful, actionable, continuous, trackable"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead8-11",
+   "title": "Choosing the right kind of goal",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Swann (2024) suggests different types of goal suit different circumstances; setting the wrong goal can be detrimental and lead to feelings of failure. Ask yourself two questions:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Are you already good at the task?** If you have the ability and resources, a **specific goal** will probably work best - aim high!",
+      "**Are you new to, or still learning, a complex task?** A **learning goal** works better - e.g. identify a number of strategies to try out in order to get better at something."
+     ]
+    },
+    {
+     "t": "quiz",
+     "id": "lead8-q2",
+     "q": "You're new to negotiating budgets, a complex task. According to Swann (2024), which goal is likely to work best?",
+     "options": [
+      "A specific, stretching target such as 'secure a 20% budget increase this quarter'",
+      "A learning goal, such as identifying several negotiation strategies to try out",
+      "No goal until you are more experienced"
+     ],
+     "answer": 1,
+     "explain": "For tasks you are still learning, a learning goal works better; specific, high goals suit tasks you're already good at."
+    }
+   ]
+  },
+  {
+   "id": "lead8-12",
+   "title": "A worked example of goal setting",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Goal",
+       "To increase my confidence in leading a team"
+      ],
+      [
+       "Current status: experience",
+       "Limited - led a university project group and captained the school football team"
+      ],
+      [
+       "Current status: knowledge",
+       "Taking the badged open course *Leadership and followership*; did a leadership module during my degree"
+      ],
+      [
+       "Current status: skills",
+       "Good communicator, empathetic, well organised, creative; limited experience of negotiation and strategy"
+      ],
+      [
+       "Development/training needed",
+       "More up-to-date leadership experience; build negotiation and strategic thinking skills"
+      ],
+      [
+       "Action plan",
+       "Organise a charity fund-raising event in the next six months"
+      ],
+      [
+       "Outcome",
+       "Disco organised in July, raised £2000"
+      ],
+      [
+       "Evaluation",
+       "Wrote a strategic plan; negotiated a fee waiver with venue and DJ. Feel more confident about my leadership skills"
+      ],
+      [
+       "Next step",
+       "Build strategic thinking further; look for chances to contribute to strategic planning at work"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "There are many templates for a personal development plan; this is one worked example (Table 1)."
+    }
+   ]
+  },
+  {
+   "id": "lead8-13",
+   "title": "Activity 4 Putting it all together",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "lead8-a4",
+     "title": "Activity 4 Putting it all together",
+     "prompt": "Allow about 30 minutes. 1. Pull together relevant content from earlier activities (e.g. Week 1, Activities 4 and 5; Week 2, Activity 7; Week 3, Activities 3-6; Week 5, Activity 5; Week 6, Activity 5; Week 8, Activity 2). 2. Build your leadership development plan for up to three goals, using the same headings as the worked example: goal; current status (experience, knowledge, skills); development/training needed; action plan; outcome; evaluation; next step. Use your workplace's template if you prefer, and check each goal is SMART.",
+     "model": "You may have identified more than one goal, in which case prioritise your action plans. Is it achievable to tackle them all at once? Don't set too many goals or you'll be overwhelmed and may not achieve them all, which can be demoralising.",
+     "points": [
+      "Draws on earlier activities (aims, skills audit, style, vision).",
+      "Each goal is SMART: specific, measurable, agreed, realistic, time bound.",
+      "Records current experience, knowledge and skills, plus development needed.",
+      "Includes a concrete action plan and how outcomes will be evaluated.",
+      "Prioritises a small number of goals to avoid being overwhelmed."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead8-14",
+   "title": "4 Networking with the right people",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/lead_75.jpg",
+     "alt": "A group of people talking over drinks at a workplace social event",
+     "caption": "Figure 3 Networking is key to success"
+    },
+    {
+     "t": "p",
+     "text": "A key element in achieving your goals is identifying people who can help - senior colleagues who can put you forward for opportunities (sometimes called a **sponsor**), or team members you collaborate with. A strong network can be hugely beneficial to your leadership development."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "'The action or process of making use of a network of people for the exchange of information, etc., or for professional or other advantage' (Oxford English Dictionary, 2017).",
+     "title": "Networking"
+    },
+    {
+     "t": "p",
+     "text": "Many people find networking daunting, but put simply it is about getting to know professional people and showing them your potential."
+    }
+   ]
+  },
+  {
+   "id": "lead8-15",
+   "title": "Activity 5 Who can help you?",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Networking advice (Harvard Business Review)",
+     "url": "https://www.youtube.com/watch?v=MnrINCauK-E",
+     "note": "A short Harvard Business Review video with practical networking advice, including reconnecting with 'dormant ties'. (External YouTube content.)"
+    },
+    {
+     "t": "activity",
+     "id": "lead8-a5",
+     "title": "Activity 5 Who can help you?",
+     "prompt": "Allow about 10 minutes. Look at your goals and action plans from Activity 4. Who could help you? List: people you already know (at work, personally, including 'dormant ties'); people connected to them (LinkedIn contacts, friends, colleagues); strangers with a shared interest (leadership experts, forum members); and others.",
+     "model": "Now you have a list of useful contacts, add contacting them to your action plan and set a time frame in which to do it.",
+     "points": [
+      "Lists people already known, including dormant ties.",
+      "Lists second-degree connections, e.g. LinkedIn contacts.",
+      "Lists strangers with shared interests, such as experts or forum members.",
+      "Adds contacting them to the action plan with a time frame."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead8-16",
+   "title": "Professional organisations",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Several UK professional organisations have an interest in leadership (web links in the References):"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Chartered Institute of Personnel and Development",
+      "Chartered Management Institute",
+      "Institute of Directors",
+      "Institute of Leadership and Management"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Many run online discussion forums, conferences or other networking events. Your sector's professional bodies will also be interested in leadership whatever their specialism, so investigate their approach to leadership development too."
+    },
+    {
+     "t": "p",
+     "text": "Outside the UK, use a search engine to find organisations relevant to your profession or focused on leadership."
+    }
+   ]
+  },
+  {
+   "id": "lead8-17",
+   "title": "5 Exploring training",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/lead_76.jpg",
+     "alt": "Several people in a room looking at a screen, seen from behind",
+     "caption": "Figure 4 Training leaders is big business"
+    },
+    {
+     "t": "p",
+     "text": "Leadership development and training is big business: one report found US companies spend $14 billion a year on it. Many organisations offer physical and virtual courses promising key skills or knowledge."
+    },
+    {
+     "t": "p",
+     "text": "This course has given you a taster, but you may want to learn more about key areas to meet your goals. You don't have to be a leader to benefit: **followers can gain as much from leadership training as leaders**. Followers are the leaders of the future, and a good organisation will develop them too."
+    }
+   ]
+  },
+  {
+   "id": "lead8-18",
+   "title": "Internal training",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Many organisations train their staff internally or externally. Before looking outside, investigate the in-house options. Contact Human Resources or talk to your manager. It could be:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "a dedicated leadership training programme",
+      "a workshop covering a specific skill",
+      "an afternoon of networking with existing leaders in your organisation."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "If nothing meets your needs, offer to organise something. Find out if there's a budget for external speakers, and consider opening it to staff across the organisation - a useful networking opportunity that might even help with internal politics!"
+    }
+   ]
+  },
+  {
+   "id": "lead8-19",
+   "title": "External training",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "You don't need a leadership qualification to prove you're a good leader. It can be useful, but it's no substitute for practical experience."
+    },
+    {
+     "t": "p",
+     "text": "Choose a reputable provider: professional organisations offer or endorse programmes, and catalogues such as findcourses.co.uk give a starting point. Ask:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Will it develop the right skills and take me closer to my goals?",
+      "Is it practical, theoretical or a mix - what suits me best?",
+      "Do the content and delivery style inspire and motivate me?",
+      "Will I get regular feedback on my progress?",
+      "What support is offered - peer support, coaching, mentoring?",
+      "Will future employers recognise it?",
+      "Can I talk to previous participants first?"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Research thoroughly: courses can be expensive. Ideally a course adds to your CV, builds your skills and confidence, and gives you a peer support network."
+    }
+   ]
+  },
+  {
+   "id": "lead8-20",
+   "title": "Activity 6 Leadership shield exercise",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Leadership training courses involve many learning activities. Here is one example (adapted from Hart and Waisman, 2004)."
+    },
+    {
+     "t": "activity",
+     "id": "lead8-a6",
+     "title": "Activity 6 Leadership shield exercise",
+     "prompt": "Allow about 15 minutes. 1. Draw a shield on paper or in your journal and divide it into four quadrants: (a) two of your leadership skills; (b) the part of your current work you like best; (c) two values that influence how you lead others; (d) a recent success or accomplishment. 2. Which quadrant was easiest to complete, and why? 3. Which quadrant, if any, reveals something about you that others might not know? 4. On a course you'd discuss your choices with a partner or group - find someone to talk to about it.",
+     "model": "Your background, values and personal philosophies inevitably affect the way you interact with and lead people, and this exercise highlights some of those characteristics. Did it reveal anything new? (Taken from The Leadership Training Activity Book, Hart and Waisman, 2004.)",
+     "points": [
+      "Completes all four quadrants: skills, favourite work, values, recent success.",
+      "Explains which quadrant was easiest and why.",
+      "Identifies something others might not know about you.",
+      "Recognises how values and background shape the way you lead.",
+      "Discusses the shield with someone else."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead8-21",
+   "title": "Academic study",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "To explore the academic side of leadership in more depth, many institutions offer relevant courses."
+    },
+    {
+     "t": "p",
+     "text": "In the UK, the Universities and Colleges Admissions Service (**UCAS**) has a searchable database of undergraduate and postgraduate courses (ucas.com)."
+    },
+    {
+     "t": "quiz",
+     "id": "lead8-q3",
+     "q": "Which statement about leadership training reflects the course?",
+     "options": [
+      "Only people already in leadership roles benefit from leadership training",
+      "A leadership qualification is the best proof that you are a good leader",
+      "Followers can gain as much from leadership training as leaders, but a qualification is no substitute for practical experience",
+      "External courses should always be chosen before internal options"
+     ],
+     "answer": 2,
+     "explain": "The course stresses that followers are the leaders of the future, that qualifications don't replace experience, and that you should investigate in-house options first."
+    }
+   ]
+  },
+  {
+   "id": "lead8-22",
+   "title": "Badge quiz: how it works",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Congratulations on almost reaching the end of the course. Now it's time for the **Week 8 badge quiz**. Like the Week 4 badge quiz, it has 15 questions in total, drawing on the whole course."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "To gain the badge you need to read each week of the course and score 50% or more in the two badge quizzes (Week 4 and Week 8).",
+     "title": "Getting your badge"
+    },
+    {
+     "t": "p",
+     "text": "See the badge as an opportunity to reflect on what you have learned rather than as a test. Read each explanation after answering."
+    }
+   ]
+  },
+  {
+   "id": "lead8-23",
+   "title": "Badge quiz (1 of 5)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "lead8-q4",
+     "q": "Kotter (1990) distinguishes management from leadership. Which describes *leadership* in his view?",
+     "options": [
+      "Planning, organising and controlling",
+      "Establishing direction, aligning and motivating people",
+      "Embracing process and seeking stability"
+     ],
+     "answer": 1,
+     "explain": "Kotter sees management as planning, organising and controlling, and leadership as establishing direction, aligning and motivating people."
+    },
+    {
+     "t": "quiz",
+     "id": "lead8-q5",
+     "q": "Which is one of Bass's (1985) four 'I's of transformational leadership?",
+     "options": [
+      "Individualised consideration",
+      "Incentivised compliance",
+      "Instructional control"
+     ],
+     "answer": 0,
+     "explain": "The four 'I's are individualised consideration, intellectual stimulation, inspirational motivation and idealised influence (charisma)."
+    },
+    {
+     "t": "tf",
+     "id": "lead8-q6",
+     "q": "Transactional leaders are process and action oriented, and can be particularly effective when projects must be tightly controlled.",
+     "answer": true,
+     "explain": "Their responsive, directive style gives clarity, though a lack of autonomy can demotivate."
+    }
+   ]
+  },
+  {
+   "id": "lead8-24",
+   "title": "Badge quiz (2 of 5)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "lead8-q7",
+     "q": "Mayer and Salovey (1990) define emotional intelligence as the ability to...",
+     "options": [
+      "achieve high scores on reasoning tests",
+      "monitor one's own and others' feelings and emotions, discriminate among them and use this information to guide thinking and actions",
+      "suppress emotions at work"
+     ],
+     "answer": 1,
+     "explain": "Goleman (1998) later identified five competencies: self-awareness, self-regulation, motivation, empathy and social skills."
+    },
+    {
+     "t": "quiz",
+     "id": "lead8-q8",
+     "q": "Kellerman (2004) divides ineffective leadership into three groups. Which leader is 'stiff and unyielding, unable or unwilling to adapt to new ideas'?",
+     "options": [
+      "Incompetent",
+      "Rigid",
+      "Intemperate"
+     ],
+     "answer": 1,
+     "explain": "Incompetent leaders lack the will or skill; intemperate leaders lack self-control; rigid leaders cannot adapt."
+    },
+    {
+     "t": "quiz",
+     "id": "lead8-q9",
+     "q": "In Kelley's (1988) typology, which followers 'think for themselves and carry out their duties and assignments with energy and assertiveness'?",
+     "options": [
+      "Sheep",
+      "Survivors",
+      "Effective followers",
+      "Yes people"
+     ],
+     "answer": 2,
+     "explain": "Kelley also notes that 'followership is not a person but a role'."
+    }
+   ]
+  },
+  {
+   "id": "lead8-25",
+   "title": "Badge quiz (3 of 5)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "lead8-q10",
+     "q": "In Chaleff's (2009) model, the 'partner' follower shows...",
+     "options": [
+      "low support and low challenge",
+      "high support and low challenge",
+      "high support and high challenge",
+      "low support and high challenge"
+     ],
+     "answer": 2,
+     "explain": "The partner gives vigorous support but is also willing to question the leader."
+    },
+    {
+     "t": "quiz",
+     "id": "lead8-q11",
+     "q": "Shared leadership (Pearce and Conger, 2003) means that...",
+     "options": [
+      "leadership behaviours are exhibited by a set of individuals, as a shared function rather than one person's role",
+      "the most senior person shares the decisions with the board",
+      "no-one is responsible for leading"
+     ],
+     "answer": 0,
+     "explain": "It is 'a dynamic, interactive influence process among individuals in groups' - it relies on excellent communication."
+    },
+    {
+     "t": "quiz",
+     "id": "lead8-q12",
+     "q": "Force field analysis, developed by Kurt Lewin (1951), is a change management tool that looks at...",
+     "options": [
+      "the stages a team passes through",
+      "the drivers and resistors of change",
+      "the financial costs of change"
+     ],
+     "answer": 1,
+     "explain": "It weighs the forces driving change against those resisting it."
+    }
+   ]
+  },
+  {
+   "id": "lead8-26",
+   "title": "Badge quiz (4 of 5)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "lead8-q13",
+     "q": "Which of these are among Haas's (2022) 5Cs of hybrid working? Select all that apply.",
+     "options": [
+      "Coordination",
+      "Connection",
+      "Control",
+      "Culture"
+     ],
+     "answer": [
+      0,
+      1,
+      3
+     ],
+     "explain": "The 5Cs are communication, coordination, connection, creativity and culture.",
+     "multi": true
+    },
+    {
+     "t": "quiz",
+     "id": "lead8-q14",
+     "q": "Which quality is NOT one of George's (2003) five qualities of authentic leaders?",
+     "options": [
+      "Understanding their purpose",
+      "Leading with their heart",
+      "Seeking power and prestige",
+      "Demonstrating self-discipline"
+     ],
+     "answer": 2,
+     "explain": "Authentic leaders are more interested in empowering others than in power, money or prestige for themselves."
+    },
+    {
+     "t": "tf",
+     "id": "lead8-q15",
+     "q": "In the holacracy model used by Zappos, authority is distributed so employees can use their judgement within an agreed scope.",
+     "answer": true,
+     "explain": "Distributed authority is one of holacracy's five modules; leadership was distributed rather than absent."
+    }
+   ]
+  },
+  {
+   "id": "lead8-27",
+   "title": "Badge quiz (5 of 5)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "lead8-q16",
+     "q": "In this course's version of SMART goals, what does the 'A' stand for, and why?",
+     "options": [
+      "Achievable - because goals must be easy",
+      "Agreed - because you may need to agree your plans with a current manager",
+      "Ambitious - because goals should stretch you"
+     ],
+     "answer": 1,
+     "explain": "The course uses 'Agreed' (and 'Realistic' for R); other versions use Achievable and Relevant."
+    },
+    {
+     "t": "quiz",
+     "id": "lead8-q17",
+     "q": "According to Jean Hartley, why is reflection so valuable for leadership development?",
+     "options": [
+      "It replaces the need for feedback from others",
+      "It acts as a form of rehearsal you can repeat from different perspectives",
+      "It is only useful after a major failure"
+     ],
+     "answer": 1,
+     "explain": "Reflection lets you rerun a situation - from your own view and the listener's - and you can also reflect with trusted others."
+    },
+    {
+     "t": "quiz",
+     "id": "lead8-q18",
+     "q": "Which of these is defined as 'making use of a network of people for the exchange of information, etc., or for professional or other advantage'?",
+     "options": [
+      "Mentoring",
+      "Sponsorship",
+      "Networking",
+      "Holacracy"
+     ],
+     "answer": 2,
+     "explain": "This is the Oxford English Dictionary (2017) definition of networking."
+    }
+   ]
+  },
+  {
+   "id": "lead8-28",
+   "title": "Summary",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "This week you have brought together your learning from the whole course and considered how to use it for your next steps: identifying key goals and actions, who might help you, and whether you need further training."
+    },
+    {
+     "t": "p",
+     "text": "You should now be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "reflect on your own leadership experience and identify areas for development",
+      "set SMART goals and devise an action plan to support your leadership development",
+      "identify appropriate training/networking opportunities."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Congratulations - you have come to the end of the course! To finish and get your badge, complete this week's badge quiz.",
+     "title": "Well done"
+    }
+   ]
+  },
+  {
+   "id": "lead8-29",
+   "title": "Tell us what you think and where next",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The course team invites you to complete a short, confidential end-of-course survey (surveymonkey.co.uk/r/leadership_followership_end) about your experience and what you plan to do next."
+    },
+    {
+     "t": "p",
+     "text": "More free resources and courses are on OpenLearn (open.edu/openlearn), including the badged employability courses *Understanding your sector* and *Developing career resilience*. New to university study? Look at the Open University's Access courses and certificates, or the BA (Hons) Business management (leadership practice)."
+    },
+    {
+     "t": "h",
+     "text": "Get careers guidance"
+    },
+    {
+     "t": "p",
+     "text": "The National Careers Service can help you decide your next steps with your new skills."
+    },
+    {
+     "t": "h",
+     "text": "Web links"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Chartered Institute of Personnel and Development - cipd.co.uk",
+      "Chartered Management Institute - managers.org.uk",
+      "Institute of Directors - iod.com",
+      "Institute of Leadership and Management - i-l-m.com",
+      "Universities and Colleges Admissions Service - ucas.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead8-30",
+   "title": "Further reading",
+   "blocks": [
+    {
+     "t": "h",
+     "text": "Business resources"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Harvard Business Review - hbr.org",
+      "Forbes - forbes.com",
+      "European Business Review - europeanbusinessreview.com",
+      "CIPD - cipd.co.uk/news-views",
+      "CMI - managers.org.uk"
+     ]
+    },
+    {
+     "t": "h",
+     "text": "Academic resources"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "The Leadership Quarterly - journals.elsevier.com/the-leadership-quarterly",
+      "Journal of Leadership and Organizational Studies - journals.sagepub.com/home/jlo"
+     ]
+    },
+    {
+     "t": "h",
+     "text": "Leadership organisations"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "International Leadership Association - ila-net.org",
+      "Centre for Leadership Studies (University of Exeter)",
+      "Institute of Leadership and Management - i-l-m.com"
+     ]
+    },
+    {
+     "t": "h",
+     "text": "Leadership experts"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Marshall Goldsmith - marshallgoldsmith.com",
+      "John Kotter - kotterinternational.com",
+      "Simon Sinek - startwithwhy.com"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead8-31",
+   "title": "Acknowledgements and licence",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "This free course was written by Liz Smith."
+    },
+    {
+     "t": "p",
+     "text": "Except for third party materials and otherwise stated (see the Open University terms and conditions, open.ac.uk/conditions), this content is made available under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Licence (creativecommons.org/licenses/by-nc-sa/4.0/deed.en_GB)."
+    },
+    {
+     "t": "p",
+     "text": "Material acknowledged in the original course is proprietary and used under licence (not subject to the Creative Commons Licence). Course image: LoveTheWind/iStockphoto.com. Week 7 figures: Chaiwat Hemakom/Getty Images; ThitareeSarmkasat/Getty Images; Bet_Noire, CarlosAndreSantos, pertusinas and goir/iStockphoto.com. Week 8: Activity 6 adapted from Hart, L. B. and Waisman, C. S. (2004) *The Leadership Training Activity Book: 50 Exercises for Building Effective Leaders*, Amacom, pp. 11-15; figures: franckreporter, SunnyGraph, Rawpixel Ltd and serts/iStockphoto.com. Other weeks' figures are credited to their sources (including Getty Images, iStockphoto.com, Shutterstock, Lyndon Smith, Kotter International and Wendy Hirsch for the trust video); Week 1 Figure 2 is Dilbert by Scott Adams (Universal Uclick)."
+    },
+    {
+     "t": "p",
+     "text": "Every effort has been made to contact copyright owners. If any have been inadvertently overlooked, the publishers will be pleased to make the necessary arrangements at the first opportunity."
+    }
+   ]
+  }
+ ]
+}

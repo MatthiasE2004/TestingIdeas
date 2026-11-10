@@ -10,8 +10,12 @@ COURSES = [
  dict(id="ent", title="Entrepreneurship", subtitle="From ideas to reality", accent="#0B0B0B",
       source="The Open University, OpenLearn - Entrepreneurship: from ideas to reality (CC BY-NC-SA 4.0)",
       url="https://www.open.edu/openlearn/ocw/mod/oucontent/view.php?id=109136&section=1"),
+ dict(id="lead", title="Leadership and followership", subtitle="Leading and following well", accent="#0B0B0B",
+      source="The Open University, OpenLearn - Leadership and followership (CC BY-NC-SA 4.0)", url="https://www.open.edu/openlearn/"),
+ dict(id="brand", title="Personal branding", subtitle="For career success", accent="#0B0B0B",
+      source="The Open University, OpenLearn - Personal branding for career success (CC BY-NC-SA 4.0)", url="https://www.open.edu/openlearn/"),
 ]
-BLOCKS = {"h","p","ul","ol","img","callout","quote","table","video","activity","quiz","tf","flash","tool"}
+BLOCKS = {"h","p","ul","ol","img","callout","quote","table","video","activity","quiz","tf","flash","tool","match"}
 errors = []; warnings = []
 index = []
 tool_ids = set(re.findall(r"register\(\s*['\"]([\w-]+)['\"]", "".join(open(f, encoding="utf-8").read() for f in glob.glob(os.path.join(WWW, "tools", "*.js")))))
@@ -32,7 +36,8 @@ for c in COURSES:
                 if t not in BLOCKS: errors.append(f"{pg['id']}: unknown block {t}"); continue
                 if t == "img" and not os.path.exists(os.path.join(WWW, b["src"])): errors.append(f"{pg['id']}: missing image {b['src']}")
                 if t == "tool" and b["tool"] not in tool_ids: warnings.append(f"{pg['id']}: tool '{b['tool']}' not registered")
-                if t in ("activity","quiz","tf"):
+                if t == "match" and not (2 <= len(b.get("pairs", [])) <= 12 and all(x.get("term") and x.get("def") for x in b["pairs"])): errors.append(f"{pg['id']}: bad match block")
+                if t in ("activity","quiz","tf","match"):
                     if b["id"] in ids: errors.append(f"duplicate interactive id {b['id']}")
                     ids.add(b["id"])
                 if t == "quiz":

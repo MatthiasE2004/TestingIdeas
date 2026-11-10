@@ -118,7 +118,7 @@ const sleep=ms=>new Promise(r=>setTimeout(r,ms));
   await p.evaluate(()=>{const e=document.querySelector('.doc-ed');const r=document.createRange();const t=[...e.querySelectorAll('p,li')].find(x=>/after list|second|plain/.test(x.textContent));r.selectNodeContents(t);const s=getSelection();s.removeAllRanges();s.addRange(r)});await sleep(200);
   await p.click('.doc-ai >> text=Rewrite');await p.waitForSelector('.doc-res:not(.hide) .btn');await sleep(200);
   const aiCall=await p.evaluate(()=>window.__ai[0]);
-  ok('Rewrite sends the selected text with the active mode',/Rewrite the text/.test(aiCall.prompt)&&/Be concise|friendly/.test(aiCall.system),aiCall.system.slice(0,80));
+  ok('Rewrite sends the selected text with the active mode',/Rewrite the text/.test(aiCall.prompt)&&aiCall.system.includes(await p.evaluate(()=>Modes.active('chat').instructions.slice(0,30))),aiCall.system.slice(0,80));
   await p.click('.doc-res >> text=Replace selection');await sleep(300);
   ok('AI result replaces the selection in the document',await p.$eval('.doc-ed',e=>e.innerText.includes('MOCK ANSWER')));
   ok('no page errors (course + notes + doc)',errs.length===0,errs.slice(0,2).join(' | '));

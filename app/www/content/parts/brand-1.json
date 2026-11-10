@@ -1,0 +1,630 @@
+{
+ "id": "brand1",
+ "title": "Week 1: Where am I starting from?",
+ "summary": "Course guidance, then what a personal brand is, its pros and cons, your current brand, your aims and making time to study.",
+ "minutes": 200,
+ "pages": [
+  {
+   "id": "brand1-01",
+   "title": "Welcome to Personal branding for career success",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Welcome to this free course, *Personal branding for career success*. The course lasts eight weeks, with approximately three hours of study each week. You can work at your own pace, so if you have more time one week there is no problem with pushing on to complete another week's study."
+    },
+    {
+     "t": "p",
+     "text": "You can test your understanding through the weekly quizzes; in the original course, the Week 4 and Week 8 quizzes give you the opportunity to earn a badge."
+    },
+    {
+     "t": "h",
+     "text": "After completing this course, you will be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "describe what personal branding is and understand how the concept can help you in your career",
+      "understand how relevant marketing techniques and tactics can be applied to branding a person",
+      "define your own, authentic personal brand and know who you want to market it to and why",
+      "promote yourself effectively to employers, both in your workplace and beyond",
+      "devise an appropriate plan of action to develop and promote your personal brand and enhance your career"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand1-02",
+   "title": "How to study this course",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Each week ends with a summary that leads you on to the next week, and you can return to the course contents at any time to move to any part of the course."
+    },
+    {
+     "t": "p",
+     "text": "The course is not intended to be an academic course but a self-help career guide to personal branding. You will see references both to academic research and to online blog content, because many experienced individuals share their commentary in popular books and online rather than in academic publications."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "title": "Plan your study",
+     "text": "To complete the course you need about 24 hours of study time over about 8 weeks, but you can study at any time and at a pace to suit you."
+    },
+    {
+     "t": "p",
+     "text": "The Open University also invites learners to complete an optional, confidential start-of-course survey about themselves and their expectations."
+    }
+   ]
+  },
+  {
+   "id": "brand1-03",
+   "title": "Badged courses and badges",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "While studying this course you have the option to work towards a digital badge. Badged courses are a key part of The Open University's mission *to promote the educational well-being of the community*, and help you progress from informal to formal learning. They are free and differ from formal courses because there is no tutor support, but you do get useful feedback from the interactive quizzes."
+    },
+    {
+     "t": "p",
+     "text": "Digital badges are a way of demonstrating online that you have gained a skill. They help learners gain recognition and help employers identify the right candidate. You can share them with friends, family, employers and on social media; they are a great motivation and often boost confidence."
+    },
+    {
+     "t": "img",
+     "src": "img/brand_2.jpg",
+     "alt": "Hexagonal blue Open University badge reading 'Personal Branding' with a rising bar chart icon",
+     "caption": "The Personal Branding badge"
+    }
+   ]
+  },
+  {
+   "id": "brand1-04",
+   "title": "How to get a badge",
+   "blocks": [
+    {
+     "t": "h",
+     "text": "What you have to do"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "read each week of the course",
+      "score 50% or more in the two badge quizzes in Week 4 and Week 8"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "For all the quizzes you can have up to three attempts at most questions (true/false questions usually allow one attempt). A correct answer first time earns more marks than one on the second or third attempt, so it is possible to get every question right and still not reach 50%. Wrong answers often come with helpful feedback."
+    },
+    {
+     "t": "p",
+     "text": "If you don't reach 50% in a badge quiz, you can retry the whole quiz after 24 hours, as many times as you like. See getting a badge as an opportunity to reflect on what you have learned rather than as a test."
+    }
+   ]
+  },
+  {
+   "id": "brand1-05",
+   "title": "Week 1: Where am I starting from?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Welcome to Week 1. Congratulations! You are on your way to developing a new personal brand that will enhance your professional profile and your career. Whether you are starting from scratch or looking to enhance an existing brand, this course can help you."
+    },
+    {
+     "t": "video",
+     "title": "Video 1 Introduction to Week 1 (no spoken audio)",
+     "url": null,
+     "note": "Animated text introducing the week: you start by asking 'what is a personal brand?', see definitions from academics and business professionals, explore the pros and cons of developing a personal brand, think about how you might describe yourself to a stranger, identify your aims for the course and use time management tools to find time to study."
+    },
+    {
+     "t": "h",
+     "text": "By the end of this week, you will be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "recognise what a personal brand is",
+      "review your current personal brand",
+      "identify areas of interest based on your current aims and aspirations"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand1-06",
+   "title": "What is a personal brand?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "We all have a brand already. It reflects our values, beliefs and personal qualities and determines how they come across to other people. As Jeff Bezos, CEO of Amazon, famously said:"
+    },
+    {
+     "t": "quote",
+     "text": "Your brand is what people say about you when you're not in the room.",
+     "by": "Jeff Bezos"
+    },
+    {
+     "t": "img",
+     "src": "img/brand_4.jpg",
+     "alt": "A bearded man wearing glasses holds up a Post-it note reading 'You are your own brand'",
+     "caption": "Figure 1 You are your own brand"
+    }
+   ]
+  },
+  {
+   "id": "brand1-07",
+   "title": "Defining a personal brand",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "McNally and Speak (2009, p.4) start from a well-defined concept of a brand: '...a perception or emotion, maintained by a buyer or a prospective buyer, describing the experience related to doing business with an organisation or consuming its products or services.'"
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Personal brand (McNally and Speak, 2009)",
+     "text": "'Your brand is a perception or emotion, maintained by somebody other than you, that describes the total experience of having a relationship with you.'"
+    },
+    {
+     "t": "quote",
+     "text": "Your brand is a reflection of who you are and what you believe, which is visibly expressed by what you do and how you do it. It's the doing part that connects you with someone else, and that connection with someone else results in a relationship.",
+     "by": "McNally and Speak (2009)"
+    }
+   ]
+  },
+  {
+   "id": "brand1-08",
+   "title": "Positive views of personal branding",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Personal branding is viewed by academics and professionals in many different ways, and not always positively. For some, defining and understanding your personal brand is an obvious path to living a better life:"
+    },
+    {
+     "t": "quote",
+     "text": "Building an authentic personal brand is an evolutionary and organic process and a journey towards a successful life.",
+     "by": "H. Rampersad (2009, p.xiii)"
+    },
+    {
+     "t": "p",
+     "text": "For Tom Peters, widely quoted as the first to talk about the concept, it is the only way to develop and progress in your career:"
+    },
+    {
+     "t": "quote",
+     "text": "Regardless of age, regardless of position, regardless of the business we happen to be in, all of us need to understand the importance of branding. We are CEOs of our own companies: Me Inc. To be in business today, our most important job is to be a head marketer for the brand called You.",
+     "by": "Tom Peters (1997, p.2)"
+    }
+   ]
+  },
+  {
+   "id": "brand1-09",
+   "title": "Celebrity, cynicism and this course's view",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Many of us associate personal branding with entrepreneurship, or even celebrity, when individuals become the face of their own brand:"
+    },
+    {
+     "t": "quote",
+     "text": "A great way to understand the concept is as follows... when somebody hears your name, what pops into their head? That's your brand, for better or for worse.",
+     "by": "The Celebrity Branding Agency (n.d.)"
+    },
+    {
+     "t": "p",
+     "text": "For some it represents a cynicism that has affected many of our lives, for example through the rise of reality TV:"
+    },
+    {
+     "t": "quote",
+     "text": "The branded self is one of the more cynical products of the era of the flexible personality: a form of self-presentation singularly focused on attracting attention and acquiring cultural and monetary value.",
+     "by": "A. Hearn (2008, p.179)"
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "This course's approach",
+     "text": "Personal branding is treated as a useful tool for promoting yourself effectively and consistently to employers, current and future, helping you gain greater job satisfaction and progress your career as you want to."
+    }
+   ]
+  },
+  {
+   "id": "brand1-10",
+   "title": "Activity 1 Quotes, definitions and opinions",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Allow about 5 minutes."
+    },
+    {
+     "t": "video",
+     "title": "Video 2 Different ideas about personal brand",
+     "url": "https://www.youtube.com/watch?v=mP_xc5dKQjc",
+     "note": "A short video of different quotes, definitions and opinions about what a personal brand is."
+    },
+    {
+     "t": "activity",
+     "id": "brand1-a1",
+     "title": "Activity 1 Quotes, definitions and opinions",
+     "prompt": "Watch the video and make a note of any quotes that particularly catch your eye or seem to encapsulate your own perception of what personal branding is.",
+     "model": "What stood out may have been the focus on being yourself, using your talent or making a strong impression on others. Although there are many definitions available, your personal brand is just that - 'personal'. In fact, it is unique to you, and you'll explore this in more detail as you work through the course.",
+     "points": [
+      "Names a quote or idea that stood out and why",
+      "Links it to being yourself, using your talent or making an impression on others",
+      "Recognises that a personal brand is personal and unique to you"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand1-11",
+   "title": "The potential: positives",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "What are some of the potential pros and cons for you when developing your personal brand? First, the positives."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "*Helps you to stand out.* A strong brand lets you communicate clearly to recruiters or customers. If they can easily see that your skills and values align with what they are looking for, they are more likely to engage with you.",
+      "*Networking becomes easier.* A clear brand helps you a) identify the people you want to network with and b) have concise, effective points to make in conversation (more in Week 7).",
+      "*Supports career decision making.* An authentic brand involves considering what you want from your career and what you have to offer, which makes choosing which job to apply for or which offer to accept easier."
+     ]
+    },
+    {
+     "t": "img",
+     "src": "img/brand_5.jpg",
+     "alt": "A person holds a green circle with a plus sign in one hand and a red circle with a minus sign in the other",
+     "caption": "Figure 2 There are always pros and cons"
+    }
+   ]
+  },
+  {
+   "id": "brand1-12",
+   "title": "The pitfalls: negatives",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "*Lack of authenticity.* For many, authenticity is an important element of a successful brand. Presenting a brand that doesn't honestly represent who you are, day after day, to employers, colleagues and peers, will be hard work and often personally unfulfilling.",
+      "*Too much self disclosure.* Personal branding involves self-disclosure. How far you embrace that is up to you; there may be a line you are not prepared to cross, e.g. sharing your opinions openly on social media (more in Week 6).",
+      "*Time consuming.* Developing and promoting your brand - contacting the right people, putting relevant commentary on social media, etc. - takes time, so you must be prepared to commit to doing it properly."
+     ]
+    },
+    {
+     "t": "quiz",
+     "id": "brand1-q1",
+     "q": "Which of these is described as a potential pitfall of personal branding?",
+     "options": [
+      "It makes networking harder",
+      "Presenting a brand that doesn't honestly represent who you are",
+      "It makes career decisions more difficult"
+     ],
+     "answer": 1,
+     "explain": "Lack of authenticity is a pitfall; easier networking and support for career decisions are listed as positives."
+    }
+   ]
+  },
+  {
+   "id": "brand1-13",
+   "title": "Not everyone agrees",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Not everyone supports personal branding. Sheryl Sandberg, Chief Operating Officer of Facebook, was asked how business people should manage their personal brands:"
+    },
+    {
+     "t": "quote",
+     "text": "You don't have a brand. I get this question a lot, and I shudder every time. Crest has a brand. Perrier has a brand. People are not that simple. When we are packaged, we're ineffective and inauthentic.",
+     "by": "Sheryl Sandberg (Holland, 2017)"
+    },
+    {
+     "t": "p",
+     "text": "Her advice is 'Don't package yourself. Just speak honestly, factually and from your own experience'."
+    },
+    {
+     "t": "p",
+     "text": "Sandberg makes a useful point about the potential to take personal branding too far; in Week 2 you'll look at what we can learn from branding a product. Even if you are uncomfortable with a whole branding exercise, some components of the process, e.g. developing your LinkedIn profile effectively, can be useful for anyone."
+    }
+   ]
+  },
+  {
+   "id": "brand1-14",
+   "title": "Activity 2 Having a strong brand",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Allow about 10 minutes."
+    },
+    {
+     "t": "activity",
+     "id": "brand1-a2",
+     "title": "Activity 2 Having a strong brand",
+     "prompt": "Consider someone you think has a strong personal brand - someone you know (at work, in your social circle) or someone in the media. With Jeff Bezos' quote in mind, what do people say about them when they aren't in the room? List the words that spring to mind. Then note how that person communicates their brand: e.g. are they always positive in meetings, do they volunteer for unpopular tasks, talk about what they stand for, contribute consistently? Do you think their brand has had a positive impact on their career?",
+     "model": "You might have chosen words like 'consistent', 'interesting', 'attention-seeking', 'friendly' or 'authoritative'. They might not all be things you'd want said about you, but they show that person's impact on those around them. A celebrity such as Angelina Jolie, an ambassador for the UN Refugee Agency, has a hugely effective brand with millions of followers: you may not share what she stands for, but her brand is clear and has helped develop her career and causes.",
+     "points": [
+      "Lists words people use about the person when they are not in the room",
+      "Describes how the person communicates their brand through behaviour",
+      "Judges whether the brand has had a positive impact on their career",
+      "Recognises that a brand reflects a person's impact on those around them"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand1-15",
+   "title": "What is my personal brand?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Take a moment to consider the personal brand that you currently have. This will give you a starting point to build from as you work through the course."
+    },
+    {
+     "t": "img",
+     "src": "img/brand_6.jpg",
+     "alt": "A smiling woman wearing glasses holds up an empty business card",
+     "caption": "Figure 3 What's your personal brand?"
+    },
+    {
+     "t": "activity",
+     "id": "brand1-a3",
+     "title": "Activity 3 Describing my brand to a stranger",
+     "prompt": "Allow about 30 minutes. How would you describe yourself to a stranger in three workplace-relevant words? Some to get you started: honest, creative, diligent, trustworthy, positive, innovative, organised, empathetic, effective, accurate, detailed, questioning, friendly, problem solver, supportive, dedicated, reliable, ambitious, flexible, thorough, focused. Then ask three people you trust (colleagues, friends, family) for three words each and add them. Were they similar to yours, or were there surprises? Do you like how they described you, or would you like to change their perception?",
+     "model": "Understanding how others perceive you, and how that compares with your own view, is a useful starting point. From there you can decide whether your current brand aligns with how you want to be seen, and whether it will help your career plans - or whether you need to change the brand or the plans. Something you see as positive may be seen as negative: 'creative and innovative' may not suit a role that follows established procedures, and 'thorough' might look 'obsessive' to someone else.",
+     "points": [
+      "Gives three self-description words and words from three other people",
+      "Compares own view with how others see them",
+      "Considers whether this brand supports current career plans",
+      "Notes that a trait seen as positive may be seen as negative by others"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand1-16",
+   "title": "Identifying the aims",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Because personal branding can be applied in so many ways, be clear about why you want to develop yours at this point in your career. For example, you might be looking for:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "a clearer sense of who you are and what you have to offer - increasing your clarity and confidence",
+      "a chance to rebrand - if your priorities have changed and your brand no longer reflects what you want from your career",
+      "further development in your workplace - maximising the chances of your name coming up when opportunities or vacancies arise",
+      "a clear, consistent message for your networks, off and online - making networking easier and leading to interesting connections",
+      "ideas to promote yourself to new employers, e.g. through applications and interviews - which can make a significant difference to your success rate"
+     ]
+    },
+    {
+     "t": "img",
+     "src": "img/brand_7.jpg",
+     "alt": "A hand holds a camera lens in front of blurred woodland; through the lens the trees are sharp",
+     "caption": "Figure 4 Be clear"
+    }
+   ]
+  },
+  {
+   "id": "brand1-17",
+   "title": "Activity 4 What do I want my personal brand to do for my career?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Allow about 10 minutes."
+    },
+    {
+     "t": "activity",
+     "id": "brand1-a4",
+     "title": "Activity 4 What do I want my personal brand to do for my career?",
+     "prompt": "Explain why you want to develop your personal brand. Which of the aims (clarity about yourself, a rebrand, development at work, a consistent message for your networks, promoting yourself to new employers) apply to you?",
+     "model": "Knowing why you want to develop your personal brand and how you want to use it will help to inform your progress through the course. Whatever stage you are at, the course is designed to share something useful each week, but some weeks may be more relevant to your journey than others.",
+     "points": [
+      "States a clear reason for developing a personal brand",
+      "Links the reason to a specific aim such as rebranding, promotion or finding a new employer",
+      "Considers how the brand will be used in their career"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand1-18",
+   "title": "Ten benefits of a personal brand",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Executive Career Coach Susan Chritton's blog (n.d.) lists ten benefits:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "**Permission to be yourself** - express your authentic self",
+      "**Gains in confidence** - know you have something of value to offer",
+      "**Building credibility** - through consistent actions that align with your brand",
+      "**Showcasing your specialty** - your unique mix of work experience, life experience and personal characteristics determines your niche",
+      "**Leaving your mark** - people remember your actions, expertise and emotional connections",
+      "**Connection to your target audience** - clear, consistent interaction that quickly becomes familiar",
+      "**Distinguishing yourself from the competition** - your target market discerns something different about you",
+      "**The support you need** - be clear about what you need so you can ask with clarity",
+      "**Focusing your energy** - use your brand as a filter to decide what to focus on",
+      "**Letting yourself be lazy** - a brand thrives on consistency, so once it's right you don't need to re-invent yourself"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand1-19",
+   "title": "Making time for this course",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "We all experience time pressure, and the first things we drop are often activities we take on for our own development or enjoyment. Spending a little time identifying when you can work on the course each week, and deliberately setting that time aside, can make a difference."
+    },
+    {
+     "t": "p",
+     "text": "Allow a minimum of three hours each week. If possible, choose times when you can bring energy and attention to the task: if you function better in the mornings, set your alarm earlier and complete a section before your daily routine; if you are more energetic in the evening, allocate time towards the end of each day."
+    },
+    {
+     "t": "img",
+     "src": "img/brand_8.jpg",
+     "alt": "A hand holds a black alarm clock surrounded by colourful drawings of things that take up time, such as books, a laptop, a coffee cup and a paper aeroplane",
+     "caption": "Figure 5 Fitting it in"
+    }
+   ]
+  },
+  {
+   "id": "brand1-20",
+   "title": "Activity 5 How do I spend my time?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Allow about 15 minutes. The original activity provides a schedule (Table 1 Hours spent) of 90-minute blocks between 8 am and 11 pm for each day of the week: 08:00-09:30, 09:30-11:00, 11:00-12:30, 12:30-14:00, 14:00-15:30, 15:30-17:00, 17:00-18:30, 18:30-20:00, 20:00-21:30 and 21:30-23:00. It assumes most people sleep between 11 pm and 8 am, but adapt it to your own circumstances."
+    },
+    {
+     "t": "activity",
+     "id": "brand1-a5",
+     "title": "Activity 5 How do I spend my time?",
+     "prompt": "Using the 90-minute blocks from Monday to Sunday, note how you spend the hours in each block. Then identify which blocks you could set aside for this course (at least three hours a week) and when you have most energy.",
+     "hint": "Write it day by day, e.g. 'Mon 08:00-09:30 commute; 20:00-21:30 free'.",
+     "model": "After completing the schedule you should have a clearer idea of the time available in your usual week and be able to identify blocks you could devote to the course and to any goals you set yourself. If you need more help, a time management tool can help you break large tasks down and be realistic about your priorities.",
+     "points": [
+      "Describes how time is currently spent across the week",
+      "Identifies specific blocks of time for studying the course",
+      "Allows at least three hours per week",
+      "Chooses times when energy and attention are high"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand1-21",
+   "title": "Week 1 quiz (1)",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Now that you've completed Week 1, take this short quiz to reflect on what you've learned."
+    },
+    {
+     "t": "quiz",
+     "id": "brand1-q2",
+     "q": "According to Jeff Bezos, what is your brand?",
+     "options": [
+      "The logo and colours you use online",
+      "What people say about you when you're not in the room",
+      "The job title on your CV"
+     ],
+     "answer": 1,
+     "explain": "Bezos famously said 'Your brand is what people say about you when you're not in the room.'"
+    },
+    {
+     "t": "quiz",
+     "id": "brand1-q3",
+     "q": "In McNally and Speak's definition, who maintains the perception or emotion that makes up your personal brand?",
+     "options": [
+      "You",
+      "Somebody other than you",
+      "Your employer's marketing team"
+     ],
+     "answer": 1,
+     "explain": "Your brand is 'a perception or emotion, maintained by somebody other than you, that describes the total experience of having a relationship with you.'"
+    },
+    {
+     "t": "quiz",
+     "id": "brand1-q4",
+     "q": "Who is widely quoted as the first person to talk about the concept of a personal brand, describing 'the brand called You'?",
+     "options": [
+      "Tom Peters",
+      "Sheryl Sandberg",
+      "Simon Sinek"
+     ],
+     "answer": 0,
+     "explain": "Tom Peters (1997) said we are CEOs of our own companies, 'Me Inc.', and heads of marketing for 'the brand called You'."
+    }
+   ]
+  },
+  {
+   "id": "brand1-22",
+   "title": "Week 1 quiz (2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "brand1-q5",
+     "q": "Which of these are listed as positives of developing a personal brand? Select all that apply.",
+     "options": [
+      "It helps you to stand out",
+      "Networking becomes easier",
+      "It requires no time commitment",
+      "It supports career decision making"
+     ],
+     "answer": [
+      0,
+      1,
+      3
+     ],
+     "multi": true,
+     "explain": "Standing out, easier networking and support for career decisions are the positives; branding is actually time consuming, which is listed as a pitfall."
+    },
+    {
+     "t": "tf",
+     "id": "brand1-q6",
+     "q": "Sheryl Sandberg advises business people to package themselves carefully as a brand, just like Crest or Perrier.",
+     "answer": false,
+     "explain": "Sandberg said 'You don't have a brand... People are not that simple' and advised 'Don't package yourself. Just speak honestly, factually and from your own experience'."
+    },
+    {
+     "t": "tf",
+     "id": "brand1-q7",
+     "q": "A characteristic you see as positive, such as being 'thorough', might be perceived negatively by someone else.",
+     "answer": true,
+     "explain": "Someone might see 'thorough' as 'obsessive', or 'creative and innovative' as unsuited to a role that follows established procedures."
+    }
+   ]
+  },
+  {
+   "id": "brand1-23",
+   "title": "Summary of Week 1",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "By this point you should have a better understanding of what personal branding is all about. You've considered how different authors view it and some of the advantages you can gain from it. You've also reflected on your own personal brand and why you want to develop it."
+    },
+    {
+     "t": "h",
+     "text": "You should now be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "recognise what a personal brand is",
+      "review your current personal brand",
+      "identify areas of interest based on your current aims and aspirations"
+     ]
+    },
+    {
+     "t": "flash",
+     "cards": [
+      {
+       "front": "Personal brand",
+       "back": "A perception or emotion, maintained by somebody other than you, that describes the total experience of having a relationship with you (McNally and Speak, 2009)."
+      },
+      {
+       "front": "'Me Inc.'",
+       "back": "Tom Peters' idea that we are CEOs of our own companies and head marketers for 'the brand called You'."
+      },
+      {
+       "front": "Authenticity",
+       "back": "Presenting a brand that honestly represents who you are; a brand that doesn't is hard work and often unfulfilling."
+      },
+      {
+       "front": "Self-disclosure",
+       "back": "Sharing information and opinions about yourself; how far you go is your choice."
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Next week, you'll focus on what makes a successful brand."
+    }
+   ]
+  }
+ ]
+}

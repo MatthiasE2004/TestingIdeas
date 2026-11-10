@@ -5,7 +5,7 @@
   "subtitle": "The start of the project journey",
   "accent": "#D71921",
   "chapters": 6,
-  "pages": 235
+  "pages": 236
  },
  {
   "id": "ent",
@@ -13,6 +13,22 @@
   "subtitle": "From ideas to reality",
   "accent": "#0B0B0B",
   "chapters": 8,
-  "pages": 264
+  "pages": 263
+ },
+ {
+  "id": "lead",
+  "title": "Leadership and followership",
+  "subtitle": "Leading and following well",
+  "accent": "#0B0B0B",
+  "chapters": 8,
+  "pages": 281
+ },
+ {
+  "id": "brand",
+  "title": "Personal branding",
+  "subtitle": "For career success",
+  "accent": "#0B0B0B",
+  "chapters": 8,
+  "pages": 229
  }
 ]

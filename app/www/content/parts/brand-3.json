@@ -1,0 +1,835 @@
+{
+ "id": "brand3",
+ "title": "Week 3: Personal branding explained",
+ "summary": "How personal branding developed, how a clear brand helps at work, what to learn from celebrity brands, and why authenticity matters.",
+ "minutes": 75,
+ "pages": [
+  {
+   "id": "brand3-01",
+   "title": "Welcome to Week 3",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Last week you were introduced to the processes and practices behind branding a product or organisation, and started to consider how they might be applied in a personal branding context."
+    },
+    {
+     "t": "p",
+     "text": "This week you'll look at personal branding in more detail: how and why it has developed, and what can be learned from those who use their personal brand effectively, or not."
+    },
+    {
+     "t": "video",
+     "title": "Video 1 Introduction to Week 3",
+     "url": null,
+     "note": "A short animated introduction with no spoken audio. Personal branding is still a relatively new concept. In the 1990s Tom Peters said 'It's this simple. You are a brand. You are in charge of your brand.' The impact of social media has been huge. This week focuses on how a strong personal brand can make a difference in the workplace, what you can learn from the way celebrities use and manipulate their brands, and what happens when mistakes are made - and how to avoid them happening to you."
+    },
+    {
+     "t": "h",
+     "text": "By the end of this week, you will be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "recognise how a clear personal brand can be beneficial to your career",
+      "appreciate the ways that celebrity branding tactics might be used to your own advantage",
+      "understand the value of developing an authentic brand."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand3-02",
+   "title": "Where personal branding began",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "When considering the origins of personal branding, authors often quote Socrates, who said: 'The way to gain a good reputation is to endeavour to be what you desire to appear' (Karaduman 2013, p.465)."
+    },
+    {
+     "t": "img",
+     "src": "img/brand_20.jpg",
+     "alt": "The word BRAND written in red on white, surrounded by sketched words such as research, identity, strategy, trust, design and teamwork.",
+     "caption": "Figure 1 Brand is important"
+    },
+    {
+     "t": "p",
+     "text": "In the 1950s, sociologist Erving Goffman first published *The Presentation of Self in Everyday Life*, which suggested that we spend our lives playing a series of different parts in order to present ourselves to others in the best possible light."
+    },
+    {
+     "t": "video",
+     "title": "Video 2 Erving Goffman's work",
+     "url": "https://www.youtube.com/watch?v=6Z0XS-QLDWM",
+     "note": "A short clip explaining Goffman's work on the presentation of self in more detail."
+    }
+   ]
+  },
+  {
+   "id": "brand3-03",
+   "title": "'The Brand Called You'",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Following his 1997 article, 'The Brand Called You', many authors refer to Tom Peters as the 'father of personal branding'. He closes the article with this call to action:"
+    },
+    {
+     "t": "quote",
+     "text": "It's this simple: You are a brand. You are in charge of your brand. There is no single path to success. And there is no one right way to create the brand called You. Except this: Start today. Or else.",
+     "by": "Tom Peters (1997)"
+    },
+    {
+     "t": "p",
+     "text": "This viewpoint was ground-breaking over 20 years ago, but personal branding is now a familiar concept. It has grown in popularity following the explosion of the internet, combined with a desire to prioritise job satisfaction and a need to stand out in an increasingly competitive job market."
+    },
+    {
+     "t": "p",
+     "text": "Before the internet, the first people to use personal branding to their advantage were celebrities and other professionals with a public profile, such as politicians. They used television, radio and newspapers, or made appearances at events, giving speeches and meeting people."
+    }
+   ]
+  },
+  {
+   "id": "brand3-04",
+   "title": "Activity 1 How things have changed",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "brand3-a1",
+     "title": "Activity 1 How things have changed (about 10 minutes)",
+     "prompt": "Imagine a politician campaigning to win an election in the 1990s, before the internet and social media became ubiquitous. If you were in their marketing team, how might you promote their personal brand? Which media would you use, and how would you make sure their messages reached the maximum number of people? Now fast forward to today: how would your promotional campaign differ? Note your thoughts for the 1990s and for now.",
+     "model": "In the 1990s and before, politicians had to rely on inspiring oration and personal charisma. Appearing at key events, giving speeches and shaking lots of hands allowed people to see and hear what they had to say, and newspaper, radio or television coverage broadened their reach, as it still does today. Now social media has changed all that: a politician doesn't even need to leave their office to reach millions. Twitter, Facebook, Instagram, etc. get their message directly into the homes of potential voters, reaching the younger generations they most want to influence.",
+     "points": [
+      "In the 1990s politicians relied on speeches, events, personal charisma and meeting people.",
+      "Newspapers, radio and television broadened their reach.",
+      "Today social media lets them reach millions without leaving the office.",
+      "Social media puts messages directly into voters' homes and reaches younger generations."
+     ],
+     "hint": "Think about two columns: '1990s' and 'Now'."
+    }
+   ]
+  },
+  {
+   "id": "brand3-05",
+   "title": "Personal branding is not 'me me me'",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The impact of the internet and social media on personal branding has been huge. But this has also led to a common misinterpretation of what personal branding is. Arruda (2017) explains:"
+    },
+    {
+     "t": "quote",
+     "text": "...personal branding works when it is based in authenticity and a genuine desire to add value to those around you. It is not a 'me me me' way of life. Personal branding does allow you to stand out in an increasingly competitive world. It helps you clarify and express the value you can deliver to your team and employer. Personal branding is not a competition to see how visible you can become - for the sake of being visible.",
+     "by": "Arruda (2017)"
+    },
+    {
+     "t": "p",
+     "text": "Arruda laments that 'conflating personal branding with social media excess has eroded the true value of personal branding as a serious career development strategy'."
+    },
+    {
+     "t": "tf",
+     "id": "brand3-q1",
+     "q": "According to Arruda, the strength of a personal brand is measured by how visible you are on social media.",
+     "answer": false,
+     "explain": "Arruda says personal branding is not a competition to be visible for the sake of it, nor measured in tweets per minute; it works when based on authenticity and a genuine desire to add value to others."
+    }
+   ]
+  },
+  {
+   "id": "brand3-06",
+   "title": "Making a difference at work",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Paying attention to your personal brand at work can have an impact in two key areas:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "You are better prepared to present a clear message to others about who you are and what you have to offer.",
+      "Colleagues, peers and employers will have a clear understanding of what they can gain from working with you."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Sometimes you might want to boost your personal brand image in the workplace because you are facing a challenging situation and want to demonstrate that you can deal with it."
+    },
+    {
+     "t": "video",
+     "title": "Video 3 Interview with Jane Chapman",
+     "url": null,
+     "note": "Business Image Consultant Jane Chapman explains how image can enhance your authority in a challenging work context. 1) Think about the psychology of colour: dark neutrals (navy, charcoal grey, black) automatically give you more gravitas - base your outfit on them and add a bit of other colour, rather than black head to toe. 2) Wear something you feel 'a million dollars' in and comfortable in, so you don't have to think about it. 3) Wear something that makes you feel confident - typically dressing a bit smarter. Body language: avoid closed body language where you shrink down; think about eye contact and projecting confidence. When you look like you can handle anything, chances are you'll feel confident enough to do it."
+    }
+   ]
+  },
+  {
+   "id": "brand3-07",
+   "title": "Image and authority",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Jane Chapman's advice gives some simple, practical ways to project confidence when the pressure is on."
+    },
+    {
+     "t": "quiz",
+     "id": "brand3-q2",
+     "q": "Which of these does Jane Chapman suggest will give you more gravitas in a challenging work situation?",
+     "options": [
+      "Wearing bright colours from head to toe",
+      "Basing your outfit on a dark neutral such as navy or charcoal",
+      "Wearing black head to toe",
+      "Dressing down so you seem approachable"
+     ],
+     "answer": 1,
+     "explain": "She says dark neutrals automatically give you more gravitas, but recommends adding a bit of other colour rather than wearing black head to toe; dressing a bit smarter usually builds confidence."
+    }
+   ]
+  },
+  {
+   "id": "brand3-08",
+   "title": "Case study: Leya's unexpected opportunity",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Leya had been working as a careers adviser for five years when her boss suggested she try managing a department for a few months while a colleague was seconded elsewhere. Management was not something Leya had ever considered, but her boss was sure she would excel. She accepted, found she really enjoyed the role, and is now the Director of a large careers service."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Why it happened",
+     "text": "Leya had developed a clear personal brand within the organisation. She was known for her strong interpersonal skills and her ability to motivate and encourage others. She hadn't deliberately cultivated a brand, but by being open and honest in all her interactions with colleagues and clients, her personal brand was authentic and clear for all to see."
+    }
+   ]
+  },
+  {
+   "id": "brand3-09",
+   "title": "Case study: Linda's successful interview",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Linda had been a manager for several years when she applied for a job that seemed to require her skillset but included oversight of many operational areas she knew little about. At interview, she decided to be clear about who she was and what she could offer, rather than apologising for gaps in her knowledge. She focused on her track record of working with a wide range of people, bringing them together and building effective teams. She got the job!"
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Why it worked",
+     "text": "The authentic brand Linda communicated was exactly what the employer was looking for. Unknown to her, there had been significant personnel issues and the team was fractured and aimless. By presenting her brand clearly and confidently, she convinced the employer she was the perfect person to sort that out."
+    }
+   ]
+  },
+  {
+   "id": "brand3-10",
+   "title": "Case study: Philip's social media marketing",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "When Philip left a senior role to start a freelance career, he wanted the right people to know he was available. He developed a website, thinking carefully about how to present himself, then focused on LinkedIn and Twitter - regularly posting thoughts and ideas and commenting on other material. He had always done this, but now did it more deliberately, considering how his comments might be perceived by potential employers and keeping them regular and timely. Offers of work followed!"
+    },
+    {
+     "t": "p",
+     "text": "For Philip this wasn't about collecting followers or a target of five tweets a day. He wanted the right people to notice and remember him for the right, professional reasons. Once his brand was valued, he could approach followers directly with ideas about how he could help them - and his pitches were well received because his reputation was already strong."
+    }
+   ]
+  },
+  {
+   "id": "brand3-11",
+   "title": "Gayle Johnson: a deliberate brand",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Gayle Johnson is a self-employed copywriter and coach who took a more deliberate approach to defining her personal brand at work."
+    },
+    {
+     "t": "video",
+     "title": "Video 4 Interview with Gayle Johnson",
+     "url": null,
+     "note": "As a middle manager in a large university facing many competing demands and change programmes, Gayle realised that you can't control everything, but you can control what you stand for. She became more conscious and deliberate about how she showed up at work - not putting on a mask, but bringing out what she really stood for and her values. Being herself gave her confidence and strength, made her more effective (no energy wasted on a mask) and strengthened her relationships and network of trusted people. Later she realised the job couldn't fulfil her further, so she set up her own copywriting and writing-mentor business. With thousands of competitors and the belief that 'people buy people', she was very deliberate about being herself and letting people into her world. Three years on, she only works with clients she really connects with, who value what she does."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "title": "Key point",
+     "text": "Gayle's brand helped her feel more authentic, which boosted her job satisfaction and professional relationships."
+    }
+   ]
+  },
+  {
+   "id": "brand3-12",
+   "title": "Activity 2 How could personal branding help me at work?",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "brand3-a2",
+     "title": "Activity 2 How could personal branding help me at work? (about 15 minutes)",
+     "prompt": "Think about your current work situation. How is your personal brand working for you at the moment? Has it brought you any unexpected opportunities, as it did for Leya? Choose one thing you are happy with about your brand and one thing you'd like to improve. You might find it helpful to look back at Week 1, Activity 3, where you asked others to describe you.",
+     "model": "Leya didn't consciously develop a personal brand at work, but others recognised it because of her consistent actions and behaviour. Gayle had a clear idea of why a strong brand mattered to her, and developing it helped her feel more authentic, enhancing her job satisfaction and professional relationships. Week 1, Activity 3 might have shown how your brand is currently perceived. You can now consider whether to alter or enhance it - for example, promoting a particular strength or set of values more strongly, or simply wanting more people to know and recognise your brand.",
+     "points": [
+      "Name one thing about your current brand you are happy with.",
+      "Name one thing you would like to improve or promote more strongly.",
+      "A brand can be recognised through consistent actions and behaviour, even if not deliberately built.",
+      "An authentic brand can improve job satisfaction and work relationships."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand3-13",
+   "title": "What can I learn from celebrity branding?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "For most of us, personal branding brings certain celebrities to mind. Their brands are cultivated deliberately to maximise their following and the potential profit from appearances, product ranges and endorsements. But what can we learn from their approach for our own careers?"
+    },
+    {
+     "t": "img",
+     "src": "img/brand_23.jpg",
+     "alt": "A glamorous woman in a black dress steps out of a car onto a red carpet as photographers crowd around with flashes going off.",
+     "caption": "Figure 2 The red carpet"
+    },
+    {
+     "t": "h",
+     "text": "1 A clearly defined brand"
+    },
+    {
+     "t": "p",
+     "text": "The brands of talk show host and philanthropist Oprah Winfrey, or singer-songwriter Lady Gaga, are clearly defined and come across as authentic: we know what they do and what they stand for. Take time to identify your own authentic brand, starting with questions such as 'What are my values?' or 'What do I want to be known for?'"
+    }
+   ]
+  },
+  {
+   "id": "brand3-14",
+   "title": "Sharing your brand and making connections",
+   "blocks": [
+    {
+     "t": "h",
+     "text": "2 Share your brand through a variety of channels"
+    },
+    {
+     "t": "p",
+     "text": "Celebrities broaden their profile by endorsing existing products to reach new audiences - for example David Beckham's endorsement of watches and whisky, or Justin Timberlake co-founding a clothing line with an established designer. You might start a blog or volunteer to present at a meeting or conference."
+    },
+    {
+     "t": "h",
+     "text": "3 Connect with other brands"
+    },
+    {
+     "t": "p",
+     "text": "Singers duet with other famous singers (e.g. David Bowie and Bing Crosby's 'Peace on Earth'/'Little Drummer Boy'), and actors perform together in fund-raising events such as Comic Relief. You could write a guest blog for someone whose audience you can connect with, or present your work to another department. The key point is expanding your network."
+    }
+   ]
+  },
+  {
+   "id": "brand3-15",
+   "title": "Clear boundaries",
+   "blocks": [
+    {
+     "t": "h",
+     "text": "4 Successful celebrity brands have clear boundaries"
+    },
+    {
+     "t": "p",
+     "text": "Many celebrities have struggled with what to post on social media or how to respond to negative comments - some have withdrawn altogether. Those with the most successful brands have clear boundaries about how much they will share and what they will or won't respond to."
+    },
+    {
+     "t": "p",
+     "text": "Social media can reach a much wider audience, but decide how you want to use it rather than feeling pressurised to have an online profile. Ask yourself: 'Will it help me to achieve what I want in my career, or are there other methods that might be more effective?'"
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "title": "Focus",
+     "text": "If you use social media, focus on one tool rather than spreading yourself across every platform. LinkedIn is an obvious one for many professionals, but Instagram might fit your brand and ambitions better. You'll look at promoting your brand online in Week 6."
+    }
+   ]
+  },
+  {
+   "id": "brand3-16",
+   "title": "Celebrity tactics: check",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "brand3-m1",
+     "title": "Match each celebrity tactic to how you could adapt it",
+     "pairs": [
+      {
+       "term": "A clearly defined brand",
+       "def": "Ask yourself 'What are my values?' and 'What do I want to be known for?'"
+      },
+      {
+       "term": "Sharing through a variety of channels",
+       "def": "Start a blog or volunteer to present at a meeting or conference"
+      },
+      {
+       "term": "Connecting with other brands",
+       "def": "Write a guest blog for someone with an audience you can connect with"
+      },
+      {
+       "term": "Clear boundaries",
+       "def": "Decide how much to share online and what you will or won't respond to"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand3-17",
+   "title": "Activity 3 Using social media",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "JK Rowling, author of the Harry Potter books, is a regular user of Twitter. Read these tweets (or use a public figure you follow):"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "'It's that anniversary again. This year, I apologise for killing someone who didn't die during the #BattleofHogwarts, but who laid down his life to save the people who'd win it. I refer, of course, to Dobby the house elf.'",
+      "'Argentinian artist Marta Minujín's monumental replica of the Greek Parthenon created with 100,000 copies of banned books, to [sic] symbolizes the resistance to political repression #womensart'",
+      "'You're free to offend. The rest of us are free to say we're offended. That's what freedom of speech means.'",
+      "'Your regular reminder that @AlabedBana is the girl who live tweeted as bombs fell, while pro-Assad apologists claimed she didn't exist.'"
+     ]
+    },
+    {
+     "t": "activity",
+     "id": "brand3-a3",
+     "title": "Activity 3 Using social media (about 10 minutes)",
+     "prompt": "Based on these four tweets, describe your impression of JK Rowling's personal brand.",
+     "model": "You might have picked up that she is (a) caring and appreciative - apologising to fans for something unpopular in a novel, while referring to an exciting event that might entice new readers; (b) a champion for the repressed - using her celebrity to showcase women's art; (c) strong willed - responding to detractors and clear about what she believes; and (d) not afraid of expressing her opinions, with strong political views. Her tweets are consistent and clearly reflect her personal brand, so readers can decide whether they support or disagree with her. In a career context, your tweets can similarly affect how an employer perceives you and whether they want to work with you.",
+     "points": [
+      "She comes across as caring and appreciative of her fans.",
+      "She champions the repressed and showcases causes such as women's art.",
+      "She is strong willed and not afraid to express her opinions.",
+      "Her tweets are consistent and clearly reflect her brand.",
+      "Your own posts can affect how employers perceive you."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand3-18",
+   "title": "Brands that work: Oprah Winfrey",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Oprah Winfrey is a talk show host, actor, philanthropist and owner of a multi-media production company. The Cult Branding Company (n.d.) summarises her brand:"
+    },
+    {
+     "t": "quote",
+     "text": "Some TV personalities seem distant and removed from the general public, but Oprah has never shied away from sharing intimate, personal details about her life with her audience. [...] She is indeed an ordinary person with ordinary problems to overcome. It's her seeming vulnerability and fragility that make her that much more inclusive of a brand.",
+     "by": "The Cult Branding Company (n.d.)"
+    },
+    {
+     "t": "img",
+     "src": "img/brand_24.jpg",
+     "alt": "President Barack Obama places the Presidential Medal of Freedom on a blue ribbon around Oprah Winfrey's neck.",
+     "caption": "Figure 3 Oprah Winfrey receiving the Presidential Medal of Freedom"
+    },
+    {
+     "t": "p",
+     "text": "Sharing that level of detail would be uncomfortable for most of us, and usually unnecessary in a career context, but the case clearly illustrates the value of an authentic brand."
+    }
+   ]
+  },
+  {
+   "id": "brand3-19",
+   "title": "What is authenticity?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The concept of an authentic or 'true' self is contentious. Some authors see it as relevant and important; others describe it as a non-scientific 'fiction' (Strohminger, 2017, p.7). Strohminger gives two reasons:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "'the true self depends on the values of the observer' and is therefore subjective 'and strongly tied to what each individual person herself most prizes', and",
+      "'claims made on its behalf may completely contradict all available data', so 'the true self is posited rather than observed'."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "While the existence of an authentic self might not be scientifically proven, the word 'authentic' is regularly used when discussing personal branding because it presents a useful and relevant concept."
+    }
+   ]
+  },
+  {
+   "id": "brand3-20",
+   "title": "Authentic and inauthentic people",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Positive psychology professor Stephen Joseph (2016) lists common characteristics of authentic and inauthentic people:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Authentic",
+      "Inauthentic"
+     ],
+     "rows": [
+      [
+       "Have realistic perceptions of reality",
+       "Are self-deceptive and unrealistic in their perceptions of reality"
+      ],
+      [
+       "Are accepting of themselves and of other people",
+       "Look to others for approval and to feel valued"
+      ],
+      [
+       "Are thoughtful",
+       "Are judgemental of other people"
+      ],
+      [
+       "Express their emotions freely and clearly",
+       "Are unable to express their emotions freely and clearly"
+      ],
+      [
+       "Are open to learning from their mistakes",
+       "Are not open to learning from their mistakes"
+      ],
+      [
+       "Understand their motivations",
+       "Do not understand their motivations"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Table 1, adapted from Joseph (2016). He explains: 'If behind what a person says and does is a defensive and self-deceptive approach to life, then no matter how passionate and committed they are to a cause, ultimately they are not being true to themselves.'"
+    }
+   ]
+  },
+  {
+   "id": "brand3-21",
+   "title": "Spot the authentic trait",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Use Joseph's table to check your understanding."
+    },
+    {
+     "t": "quiz",
+     "id": "brand3-q3",
+     "q": "According to Joseph (2016), which of these are characteristics of *authentic* people? Select all that apply.",
+     "options": [
+      "They look to others for approval to feel valued",
+      "They are open to learning from their mistakes",
+      "They understand their motivations",
+      "They are judgemental of other people",
+      "They accept themselves and other people"
+     ],
+     "answer": [
+      1,
+      2,
+      4
+     ],
+     "explain": "Authentic people are realistic, self-accepting and accepting of others, thoughtful, emotionally expressive, open to learning from mistakes and understand their motivations. Seeking approval and judging others are inauthentic traits.",
+     "multi": true
+    }
+   ]
+  },
+  {
+   "id": "brand3-22",
+   "title": "Simon Sinek on authenticity",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Video 5 Simon Sinek on how authentic behaviour builds trust",
+     "url": "https://www.youtube.com/watch?v=-60R0rC7GU4",
+     "note": "Respected author and motivational speaker Simon Sinek explains authenticity: authentic behaviour builds trust, and it means ensuring that you believe in the things you say and do."
+    },
+    {
+     "t": "activity",
+     "id": "brand3-a4",
+     "title": "Activity 4 Can I be authentic at work? (about 15 minutes)",
+     "prompt": "Based on what Simon Sinek said about believing in the things you say and do, ask yourself: (1) Are there times when I must do things that go against my own values? For example, you really value family but must work long hours and always feel you're neglecting them. (2) Do I ever have to work in a way that doesn't reflect my preferred style? For example, your job requires you to focus on the bigger picture when you'd prefer to immerse yourself in operational detail.",
+     "model": "If your work doesn't align with your values or preferred style and you must present yourself in a way that feels inauthentic, that can affect your job satisfaction. The Kaleidoscope Career Model (Mainiero & Sullivan, 2006), from a five-year study of career patterns, identifies three parameters that lead people to take stock and make career changes: a need for challenge, a need for balance, and a need to ask 'How can I be authentic, true to myself and make genuine decisions for myself?' We all compromise sometimes, but compromising too much can affect your satisfaction, your attitude to your job and how others perceive your brand.",
+     "points": [
+      "Identify any times work conflicts with your values.",
+      "Identify any ways you work against your preferred style.",
+      "Feeling inauthentic at work can reduce job satisfaction.",
+      "The Kaleidoscope Career Model names challenge, balance and authenticity as drivers of career change.",
+      "Too much compromise can affect how others perceive your brand."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand3-23",
+   "title": "Authenticity in this course",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Discussions about the 'authentic self' will undoubtedly continue. For the purposes of this course, it may help to think of authenticity as meaning 'genuine, real and true'."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Authenticity",
+     "text": "Genuine, real and true. The more honest you can be in presenting your personal brand, the more effective it will be in representing who you are and what you are looking for."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "title": "Kaleidoscope Career Model",
+     "text": "Mainiero & Sullivan (2006): people take stock of their careers and make transitions to meet three needs - **challenge**, **balance** and **authenticity**."
+    }
+   ]
+  },
+  {
+   "id": "brand3-24",
+   "title": "Making mistakes: Scarlett Johansson",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Several celebrities have aligned themselves with products or campaigns that harmed their personal brand. In 2014, actress Scarlett Johansson, known for supporting charities and at the time an Oxfam ambassador, signed a contract to promote Sodastream. The company is headquartered in Israel and had a factory in an Israeli settlement on the West Bank."
+    },
+    {
+     "t": "p",
+     "text": "Oxfam wrote to her explaining that it 'believes that businesses that operate in settlements further the ongoing poverty and denial of rights of the Palestinian communities that we work to support'. She stood by her decision and eventually stepped down from her Oxfam role (Thorpe, 2014)."
+    },
+    {
+     "t": "img",
+     "src": "img/brand_25.jpg",
+     "alt": "A woman sits at her desk in front of a computer, glasses in hand, rubbing her eyes in frustration.",
+     "caption": "Figure 4 When your personal brand goes wrong"
+    }
+   ]
+  },
+  {
+   "id": "brand3-25",
+   "title": "Making mistakes: Kendall Jenner",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "More recently, supermodel and TV personality Kendall Jenner made a Pepsi advert in which she handed a can of the drink to a riot policeman at a protest. Given the #BlackLivesMatter protests in the US at the time, the public felt it was an inappropriate subject for a soft drink advert and there was widespread condemnation (Sanghani, 2017). The company apologised and cancelled the advert."
+    },
+    {
+     "t": "p",
+     "text": "Neither career suffered lasting damage, but both had to deal with negative feedback and may have lost credibility with some followers."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "title": "Lessons for you",
+     "text": "Think about what or who you align yourself with: do they fit the personal brand you wish to promote? Make sure the views you share with colleagues, social media followers, etc. represent your brand effectively."
+    }
+   ]
+  },
+  {
+   "id": "brand3-26",
+   "title": "Common personal branding mistakes",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Webber (n.d.) discusses common mistakes people make with their personal branding:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "**You haven't clarified your purpose** - first decide exactly who you want to be, then start self-promoting.",
+      "**You're not sharing the right things** - are you over- or under-promoting, or being careless about what you share?",
+      "**You're caught up in the career you've already had, not the one you want** - choose the projects and experiences you'd most like to replicate and talk about them."
+     ]
+    },
+    {
+     "t": "quiz",
+     "id": "brand3-q4",
+     "q": "According to Webber, what should you do *before* you start self-promoting?",
+     "options": [
+      "Build as large a following as possible",
+      "Decide exactly who you want to be",
+      "List every job you have ever had",
+      "Copy the brand of a successful celebrity"
+     ],
+     "answer": 1,
+     "explain": "Webber's first mistake is not clarifying your purpose: decide exactly who you want to be, then start promoting yourself."
+    }
+   ]
+  },
+  {
+   "id": "brand3-27",
+   "title": "Activity 5 It doesn't work for me",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "brand3-a5",
+     "title": "Activity 5 It doesn't work for me (about 10 minutes)",
+     "prompt": "Think of a person in the public eye with a high-profile personal brand you really don't align with - a reality TV star, politician, actor, etc. Summarise why their personal brand doesn't work for you. Then list what other people do like about them.",
+     "model": "This person's high-profile brand shows that even though you don't feel aligned with them, others clearly do. Perhaps they made obvious mistakes that put you off, or their brand simply doesn't attract or interest you. The point is that you can never devise a personal brand that will appeal to everyone. If you are brave enough to share the authentic you with the world, you must accept that some negativity is likely to come your way - and that's fine. Those who do buy into your values will be the people you most enjoy talking to and working with.",
+     "points": [
+      "Explain why this person's brand doesn't appeal to you.",
+      "Identify what other people like about them.",
+      "No personal brand can appeal to everyone.",
+      "Being authentic means accepting some negativity.",
+      "The people who share your values are the ones you'll most enjoy working with."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand3-28",
+   "title": "Who said what?",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "brand3-m2",
+     "title": "Match each idea to its source",
+     "pairs": [
+      {
+       "term": "Socrates",
+       "def": "The way to gain a good reputation is to endeavour to be what you desire to appear"
+      },
+      {
+       "term": "Erving Goffman",
+       "def": "We play a series of parts to present ourselves to others in the best possible light"
+      },
+      {
+       "term": "Tom Peters",
+       "def": "You are a brand. You are in charge of your brand. Start today."
+      },
+      {
+       "term": "Arruda (2017)",
+       "def": "Personal branding is not a 'me me me' way of life or a competition to be visible"
+      },
+      {
+       "term": "Strohminger (2017)",
+       "def": "The true self is posited rather than observed"
+      },
+      {
+       "term": "Joseph (2016)",
+       "def": "Authentic people are open to learning from their mistakes and understand their motivations"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand3-29",
+   "title": "Week 3 practice quiz (1)",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Reflect on what you've learned this week."
+    },
+    {
+     "t": "quiz",
+     "id": "brand3-q5",
+     "q": "Who is often called the 'father of personal branding'?",
+     "options": [
+      "Erving Goffman",
+      "Tom Peters",
+      "Simon Sinek",
+      "Socrates"
+     ],
+     "answer": 1,
+     "explain": "Following his 1997 article 'The Brand Called You', many authors refer to Tom Peters as the father of personal branding."
+    },
+    {
+     "t": "quiz",
+     "id": "brand3-q6",
+     "q": "Why was Leya offered the chance to manage a department?",
+     "options": [
+      "She had deliberately marketed herself on social media",
+      "She had a clear, authentic brand built on openness and honesty, known for interpersonal and motivational skills",
+      "She applied for a management qualification",
+      "She had the longest service in the team"
+     ],
+     "answer": 1,
+     "explain": "Leya hadn't cultivated a brand deliberately; her open, honest interactions made her strengths in interpersonal skills and motivating others clear to everyone."
+    },
+    {
+     "t": "tf",
+     "id": "brand3-q7",
+     "q": "Philip's social media approach was mainly about collecting as many followers as possible.",
+     "answer": false,
+     "explain": "Philip wanted the right people to notice and remember him for the right, professional reasons, not to collect followers or hit tweet targets."
+    }
+   ]
+  },
+  {
+   "id": "brand3-30",
+   "title": "Week 3 practice quiz (2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "brand3-q8",
+     "q": "What is the key point of connecting your brand with others (e.g. guest blogging, presenting to another department)?",
+     "options": [
+      "Expanding your network",
+      "Getting paid endorsements",
+      "Avoiding social media",
+      "Copying other people's style"
+     ],
+     "answer": 0,
+     "explain": "Celebrities duet or appear together to broaden awareness; for you the key point is expanding your network."
+    },
+    {
+     "t": "quiz",
+     "id": "brand3-q9",
+     "q": "What broad lesson does the course draw from the Scarlett Johansson and Kendall Jenner cases?",
+     "options": [
+      "Never take part in advertising",
+      "Think about what or who you align yourself with and whether it fits your brand",
+      "Negative feedback always ends a career",
+      "Only share views on social media"
+     ],
+     "answer": 1,
+     "explain": "Neither suffered lasting career damage, but both faced negative feedback; the lesson is to check that what you align with and the views you share fit your brand."
+    },
+    {
+     "t": "tf",
+     "id": "brand3-q10",
+     "q": "A well-designed personal brand can appeal to everyone.",
+     "answer": false,
+     "explain": "You can never devise a personal brand that appeals to everyone; being authentic means accepting some negativity."
+    }
+   ]
+  },
+  {
+   "id": "brand3-31",
+   "title": "Summary of Week 3",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "This week you focused on real-life examples of personal branding and looked at the impact it can have in the workplace. You considered what can be learned from the personal branding of people in the public eye, and how their approach can be applied by those of us who don't aspire to celebrity!"
+    },
+    {
+     "t": "h",
+     "text": "You should now be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "recognise how a clear personal brand can be beneficial to your career",
+      "appreciate the ways that celebrity branding tactics might be used to your own advantage",
+      "understand the value of developing an authentic brand."
+     ]
+    },
+    {
+     "t": "flash",
+     "cards": [
+      {
+       "front": "The Brand Called You",
+       "back": "Tom Peters' 1997 article; he is often called the 'father of personal branding'."
+      },
+      {
+       "front": "Authenticity (in this course)",
+       "back": "Genuine, real and true - the more honest your brand, the more effective it is."
+      },
+      {
+       "front": "Kaleidoscope Career Model",
+       "back": "Mainiero & Sullivan (2006): career changes are driven by needs for challenge, balance and authenticity."
+      },
+      {
+       "front": "Arruda's warning",
+       "back": "Conflating personal branding with social media excess erodes its value as a career strategy."
+      },
+      {
+       "front": "Webber's three mistakes",
+       "back": "Not clarifying purpose; not sharing the right things; focusing on the career you've had, not the one you want."
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Next week you'll begin to look in more detail at developing your own personal brand."
+    }
+   ]
+  }
+ ]
+}

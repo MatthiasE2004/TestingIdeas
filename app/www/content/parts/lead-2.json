@@ -1,0 +1,1062 @@
+{
+ "id": "lead2",
+ "title": "What kind of leader could you be?",
+ "summary": "Leadership theories, the impact of cultural and generational context, and transactional, transformational, adaptive and inclusive styles - and your own.",
+ "minutes": 55,
+ "pages": [
+  {
+   "id": "lead2-01",
+   "title": "Week 2: What kind of leader could you be?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Last week you were introduced to the broad concepts of leadership and followership, reflected on your reasons for choosing the course and started to identify a base for developing further."
+    },
+    {
+     "t": "p",
+     "text": "This week you'll look more closely at different leadership theories and styles, and how the context in which you lead can affect your approach. Awareness of different styles gives you a theoretical base for your own choices about the way you lead."
+    },
+    {
+     "t": "video",
+     "title": "Introduction to Week 2",
+     "url": null,
+     "note": "Lynne Johnson introduces the week: you'll look at leadership styles with case studies, think about what your own style may be, look at the changing face of leadership through the ages and whether there are generational or cultural differences, and explore some more recently defined leadership styles, ending with a quick quiz."
+    }
+   ]
+  },
+  {
+   "id": "lead2-02",
+   "title": "This week's learning outcomes",
+   "blocks": [
+    {
+     "t": "h",
+     "text": "By the end of this week, you will be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "recognise how context can impact on leadership",
+      "identify a variety of leadership styles/approaches",
+      "assess your own leadership style"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead2-03",
+   "title": "1 Leadership theory - a brief history",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "For decades, philosophers, researchers and business experts across the globe have tried to define effective leadership and identify a formula for leadership success. There are too many theories to cover here, so this is an overview of the most commonly discussed categories, in the order in which they were developed."
+    },
+    {
+     "t": "img",
+     "src": "img/lead_12.jpg",
+     "alt": "Statue of the Roman Emperor Constantine, seated and holding a sword",
+     "caption": "Figure 1 Leaders throughout history have had different styles and characteristics"
+    }
+   ]
+  },
+  {
+   "id": "lead2-04",
+   "title": "Trait theories",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "**Trait theories** suggest there is a set of personal characteristics that exemplify the ideal leader.",
+     "title": "Trait theories"
+    },
+    {
+     "t": "p",
+     "text": "Early, so-called 'great man' theories supposed that leaders are born, not made, and that these characteristics are fixed. Attitudes have changed since early trait research, but there has been renewed interest in leadership traits, for example recent studies of the emotional intelligence of leaders."
+    },
+    {
+     "t": "p",
+     "text": "*Further reading:* Mann (1959); Stogdill (1974); Lord, DeVader and Alliger (1986); Caruso et al. (2002)."
+    }
+   ]
+  },
+  {
+   "id": "lead2-05",
+   "title": "Behavioural and contingency theories",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "**Behavioural theories** focus on leadership as a behavioural pattern, i.e. what leaders do and how they do it. These behaviours can be learned and developed, so anyone has the potential to become a leader.",
+     "title": "Behavioural theories"
+    },
+    {
+     "t": "p",
+     "text": "Tools have been developed to investigate leadership behaviours, such as the Leader Behaviour Description Questionnaire from Ohio State University in the 1950s and 60s. *Further reading:* Stogdill (1963); Likert (1961, 1967); Blake and Mouton (1985)."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "**Contingency theories** propose that effective leadership is contingent (dependent) on the situation, and that good leaders adapt their approach or style to different situations.",
+     "title": "Contingency theories"
+    },
+    {
+     "t": "p",
+     "text": "*Further reading:* Fiedler (1964); Hersey and Blanchard (1993)."
+    }
+   ]
+  },
+  {
+   "id": "lead2-06",
+   "title": "What makes a good leader, in theory?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Taking these three categories together, a good leader is someone who:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "demonstrates the right traits and skills, e.g. integrity, empathy",
+      "exhibits appropriate behaviours",
+      "adapts to the situation in which they are leading"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "The rest of the course explores these characteristics and where leadership theory goes next. What do you think is the core element of good leadership? Which theory do you identify with most?"
+    },
+    {
+     "t": "quiz",
+     "id": "lead2-q1",
+     "q": "Which category of theory assumes leaders are 'born, not made'?",
+     "options": [
+      "Early trait ('great man') theories",
+      "Behavioural theories",
+      "Contingency theories",
+      "Path-Goal Theory"
+     ],
+     "answer": 0,
+     "explain": "Early 'great man' trait theories saw leadership characteristics as innate and fixed. Behavioural theories assume behaviours can be learned."
+    }
+   ]
+  },
+  {
+   "id": "lead2-07",
+   "title": "Activity 1 Choose a theory",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "lead2-a1",
+     "title": "Activity 1 Choose a theory",
+     "prompt": "Choose one category - trait, behavioural or contingency theories - and research it in more detail (e.g. using the further reading suggested, or your own online or library research). Outline your findings in no more than 200 words. Then reflect: what do you think are the pros and cons of that approach to leadership?",
+     "model": "While a particular theory may be discredited over time, or contradicted by other academics, there are often elements that strike a chord and lead to further research and development of its ideas. You may have your own ideas about how current theories could be developed further; leadership training opportunities are covered in Week 8.",
+     "points": [
+      "Correctly summarises the chosen theory (traits, behaviours, or adapting to the situation).",
+      "Refers to some research or authors associated with the theory.",
+      "Identifies at least one strength of the approach.",
+      "Identifies at least one weakness or criticism of the approach."
+     ],
+     "hint": "Allow about 30 minutes. If you feel inspired, repeat it for each theory!"
+    }
+   ]
+  },
+  {
+   "id": "lead2-08",
+   "title": "Why theory helps leaders",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Professor Jean Hartley, Professor of Public Leadership at The Open University, explains why a theoretical overview is useful to underpin practical experience."
+    },
+    {
+     "t": "video",
+     "title": "Why leaders need theory",
+     "url": null,
+     "note": "Jean Hartley: practical experience is really useful, but without theory and concepts you will struggle to understand what is going on in a situation, how you are behaving and how others react to you. Don't apply theory rigidly; draw on it. It is 'like having a deck of cards in your hand': is this a situation for a single heroic leader or for shared and distributed leadership? Does it call for transformational leadership (raising followers' energy and commitment) or transactional leadership (making sure tasks are done and purposes are clear)? Ideas about different types of follower also help you engage people, understand difficult team members and why they may feel angry, disengaged or overburdened."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Hartley talks about changing your style depending on the situation - which brings us to the role of context."
+    }
+   ]
+  },
+  {
+   "id": "lead2-09",
+   "title": "2 Leadership context",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/lead_14.jpg",
+     "alt": "A single pink umbrella stands out among a sea of white umbrellas",
+     "caption": "Figure 2 Adapting to your context"
+    },
+    {
+     "t": "p",
+     "text": "Adapting your leadership to your situation is an important aspect of effective leadership, and context plays a key part in determining that situation."
+    },
+    {
+     "t": "p",
+     "text": "Context can be drawn from international, national, local and internal perspectives, and is influenced by politics, community values and organisational culture. Two areas of particular interest are **cross-cultural** and **generational** context."
+    }
+   ]
+  },
+  {
+   "id": "lead2-10",
+   "title": "2.1 Cross-cultural context",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Leaders increasingly lead multicultural teams, sometimes spread across the world, and different cultures take different approaches to leadership. Interviews by House et al. (1997) highlight that:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "the Dutch place emphasis on egalitarianism and are sceptical about the value of leadership",
+      "Iranians seek power and strength in their leaders",
+      "the Malaysian leader is expected to behave in a manner that is humble, modest and dignified",
+      "the French appreciate two kinds of leaders: a strong charismatic leader, or a consensus builder, coalition former and effective negotiator",
+      "Americans seek empowerment from leaders who grant autonomy and delegate authority, and also respect the bold, forceful, confident, risk-taking leader"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead2-11",
+   "title": "Culture, hierarchy and motivation",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Dempsey (2019) refers to the importance of hierarchy and dominant leadership in Latin American and Asian cultures, which can lead to tensions between colleagues with contrasting cultural viewpoints."
+    },
+    {
+     "t": "p",
+     "text": "He also reports that approaches to staff motivation change with culture, from a focus on risk-aversion in Northeast Asia and the Middle East to a more flexible and opportunistic stance in the UK and US."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "In a multicultural team, it helps if a leader is aware of potential cultural sensitivities."
+    },
+    {
+     "t": "quiz",
+     "id": "lead2-q2",
+     "q": "According to House et al. (1997), which culture expects its leaders to be humble, modest and dignified?",
+     "options": [
+      "Dutch",
+      "Iranian",
+      "Malaysian",
+      "American"
+     ],
+     "answer": 2,
+     "explain": "Malaysian leaders are expected to be humble, modest and dignified; the Dutch are sceptical of leadership; Iranians seek power and strength."
+    }
+   ]
+  },
+  {
+   "id": "lead2-12",
+   "title": "2.2 Generational context",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Up to five generations may be working together today. While there will always be outliers, each generation is broadly accepted to have characteristics worth knowing in cross-generational teams (summarised from the Indeed editorial team, 2022):"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Generation",
+      "Born",
+      "Perceived characteristics"
+     ],
+     "rows": [
+      [
+       "Traditionalists / Silent generation",
+       "Before 1945 (mostly retired)",
+       "Value clear hierarchies and top-down management; loyal, exert extra effort to help others; quite formal, even with peers"
+      ],
+      [
+       "Baby boomers",
+       "1946 to mid-1960s",
+       "Favour flatter, democratic structures; value equal opportunities and friendly workplaces; measure success through personal goals; challenge processes and generate change"
+      ],
+      [
+       "Generation X",
+       "Mid-1960s to 1980",
+       "Entrepreneurial; value flexibility, independence, efficiency and innovation; work well with mentors; prioritise work-life balance"
+      ],
+      [
+       "Millennials / Generation Y",
+       "1981 to late 1990s (one of the largest portions of the workforce)",
+       "Technologically aware; value collaboration and open communication; motivated by meaningful work; development matters more than company loyalty"
+      ],
+      [
+       "Generation Z / Centennials / iGen",
+       "Late 1990s to approx. 2015",
+       "Competitive multitaskers; value technology at work; security is important; prefer flexible working; prioritise results over effort"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead2-13",
+   "title": "Leading across generations",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "These different characteristics and perceptions can bring challenges, particularly if the leader has different values from their workforce!"
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "The key to navigating generational differences is for the leader to set aside any personal frustration, view diverse perspectives positively and be open to learning from them."
+    },
+    {
+     "t": "quiz",
+     "id": "lead2-q3",
+     "q": "Which generation is described as motivated by meaningful work, valuing professional and personal development more than company loyalty?",
+     "options": [
+      "Baby boomers",
+      "Generation X",
+      "Millennials / Generation Y",
+      "Traditionalists"
+     ],
+     "answer": 2,
+     "explain": "Millennials are perceived as technologically aware, collaborative and motivated by meaningful work and development."
+    }
+   ]
+  },
+  {
+   "id": "lead2-14",
+   "title": "Activity 2 Influences on leadership context",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "lead2-a2",
+     "title": "Activity 2 Influences on leadership context",
+     "prompt": "Choose an organisation you are part of, or would like to be part of. As its leader, list the issues you would have to consider under each heading: international trends and issues (e.g. globalisation); national trends (e.g. political policies); local influences (e.g. the role of local communities); internal influences (e.g. the culture of the organisation); cross-cultural influences (e.g. a variety of nationalities in the workforce); generational influences (e.g. a variety of generational viewpoints in the workforce).",
+     "model": "Depending on your example, you may not have issues in every category, but the point is that all organisations and leaders are subject to a range of influences. You may also have thought of funding issues, attitude to risk, team motivation and so on.",
+     "points": [
+      "Names a specific organisation.",
+      "Identifies international and national influences such as globalisation or government policy.",
+      "Identifies local and internal influences such as community and organisational culture.",
+      "Considers cross-cultural and generational differences in the workforce.",
+      "Recognises other influences such as funding, risk or motivation."
+     ],
+     "hint": "Allow about 20 minutes."
+    }
+   ]
+  },
+  {
+   "id": "lead2-15",
+   "title": "3 What is leadership style?",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Leadership style is a sub-section of leadership theory that concentrates on the traits and behaviours of leaders. Your **leadership style** is the way in which you utilise your personality traits, learned behaviours and experience to maximise the performance of your team."
+    },
+    {
+     "t": "img",
+     "src": "img/lead_15.jpg",
+     "alt": "Several people interacting in an open-plan office, laughing and talking; one person stands while the others sit at their desks",
+     "caption": "Figure 3 Leaders have different styles"
+    },
+    {
+     "t": "p",
+     "text": "Many leaders benefit from frameworks, theories and definitions to guide their actions. Two leadership style frameworks follow."
+    }
+   ]
+  },
+  {
+   "id": "lead2-16",
+   "title": "Lewin's three styles",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The work of Kurt Lewin and colleagues in the 1930s defined three styles of leadership that are still referred to regularly today:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Autocratic** - the leader makes decisions themselves, without consulting others.",
+      "**Democratic** - the leader involves followers in the decision-making process.",
+      "**Laissez faire** - the leader has little involvement, allowing followers to make their own decisions."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "*Further reading:* Lewin (1939)."
+    }
+   ]
+  },
+  {
+   "id": "lead2-17",
+   "title": "Path-Goal Theory",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Path-Goal Theory is concerned with how leaders motivate followers to achieve specified goals. Developed by Robert House in 1971 and later updated, it incorporates leadership style, follower needs and situation, and defines four leadership behaviours:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Directive** - being clear and specific about expectations, tasks and deadlines",
+      "**Supportive** - focusing on followers' needs and welfare, creating a positive working environment",
+      "**Participative** - involving followers in decision making and encouraging their ideas",
+      "**Achievement-orientated** - having high expectations and setting challenging goals you are confident followers can achieve"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Leaders match a behaviour to the task and situation, factoring in follower characteristics such as desire for control and preference for structure. *Further reading:* House (1974); House (1996)."
+    }
+   ]
+  },
+  {
+   "id": "lead2-18",
+   "title": "When to use which style",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Such frameworks give you choices and guidance about how to lead in particular situations. This short video explains when you might use different styles."
+    },
+    {
+     "t": "video",
+     "title": "Leadership styles: when to use them",
+     "url": "https://www.youtube.com/watch?v=ukVXp0a4ZhU",
+     "note": "A short external (YouTube) video explaining when you might use different leadership styles, such as Lewin's autocratic, democratic and laissez-faire styles. It refers at the end to an accompanying MindTools article on leadership styles."
+    }
+   ]
+  },
+  {
+   "id": "lead2-19",
+   "title": "Activity 3 Varying your leadership style",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "lead2-q4",
+     "q": "When might you use Kurt Lewin's autocratic style of leadership?",
+     "options": [
+      "When the team consists of new staff with little or no experience of a time critical task",
+      "When the team are highly motivated and knowledgeable",
+      "When a complex task needs to be carefully planned"
+     ],
+     "answer": 0,
+     "explain": "Autocratic leadership can be appropriate with a new, inexperienced team who need support to deliver a project quickly, or in a military situation with clear and present dangers."
+    },
+    {
+     "t": "quiz",
+     "id": "lead2-q5",
+     "q": "When might you use Kurt Lewin's laissez faire style of leadership?",
+     "options": [
+      "When the leader doesn't really know what to do",
+      "When staff are highly motivated and take pride in their work",
+      "When a task requires effective collaboration between different staff members"
+     ],
+     "answer": 1,
+     "explain": "Laissez faire is criticised as too 'hands off', but can develop and encourage motivated, capable staff with a drive to succeed. Leadership skill lies in judging which approach to adopt."
+    }
+   ]
+  },
+  {
+   "id": "lead2-20",
+   "title": "Check: styles and behaviours",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "lead2-m1",
+     "title": "Match each description to the style or behaviour",
+     "pairs": [
+      {
+       "term": "Autocratic",
+       "def": "The leader makes decisions themselves, without consulting others"
+      },
+      {
+       "term": "Democratic",
+       "def": "The leader involves followers in the decision-making process"
+      },
+      {
+       "term": "Laissez faire",
+       "def": "The leader has little involvement, letting followers make their own decisions"
+      },
+      {
+       "term": "Directive",
+       "def": "Being clear and specific about expectations, tasks and deadlines"
+      },
+      {
+       "term": "Supportive",
+       "def": "Focusing on followers' needs and welfare to create a positive working environment"
+      },
+      {
+       "term": "Participative",
+       "def": "Involving followers in decision making and encouraging their ideas"
+      },
+      {
+       "term": "Achievement-orientated",
+       "def": "Setting high expectations and challenging goals followers can achieve"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead2-21",
+   "title": "4 Transactional and transformational",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Some researchers focus on a single style. Transformational and transactional leadership are regularly discussed together; transformational theories are often thought of as the next category in the evolution of leadership theory, after trait, behavioural and contingency theories."
+    },
+    {
+     "t": "img",
+     "src": "img/lead_16.jpg",
+     "alt": "Close-up of a camera lens",
+     "caption": "Figure 4 Looking through the lens at leadership styles"
+    },
+    {
+     "t": "p",
+     "text": "As first contrasted by James McGregor Burns (1978), **transactional** leadership focuses simply on the link between performance and reward, whereas **transformational** leadership builds a connection with followers that motivates and inspires them to achieve more."
+    }
+   ]
+  },
+  {
+   "id": "lead2-22",
+   "title": "Transactional leadership",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Transactional leadership plays an important role in many organisations, particularly where there is a focus on standards and procedures. Transactional leaders are process and action oriented and are particularly effective when projects must be tightly controlled, e.g. on a production line with low paid employees. Their responsive, directive style can be useful in emergencies."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Advantage:** clarity - employees know what's expected and have incentives to perform well.",
+      "**Disadvantage:** lack of autonomy, potentially demotivating both leader and employees."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Bill Gates is often given as an example, particularly in his early days at Microsoft when reward and punishment were a key focus. Many commentators also view Steve Jobs, former CEO of Apple, as transactional, famous for his strong focus on tasks and structures."
+    }
+   ]
+  },
+  {
+   "id": "lead2-23",
+   "title": "Transformational leadership: the four 'I's",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Transformational leadership has become one of the most popular leadership concepts. Bass (1985) developed it further, defining four basic elements, the four 'I's:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Individualised consideration** - supporting individual followers; coaching and developing them",
+      "**Intellectual stimulation** - encouraging followers to solve problems creatively for themselves",
+      "**Inspirational motivation** - inspiring and enthusing followers through clear communication of the vision",
+      "**Idealised influence (charisma)** - being a role model; having high moral and ethical standards"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead2-24",
+   "title": "Case study: Nelson Mandela",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/lead_17.jpg",
+     "alt": "A South African bank note featuring Nelson Mandela, surrounded by coins",
+     "caption": "Figure 5 Nelson Mandela"
+    },
+    {
+     "t": "p",
+     "text": "A well-known case study (Penn State blog, 2013) of transformational leadership is Nelson Mandela, the first black President of South Africa. He motivated and inspired his followers to end apartheid by encouraging them to come up with their own solutions (*intellectual stimulation*), showing personal concern for the struggles of individual followers (*individualised consideration*), and repeatedly articulating a clear vision with charisma and conviction."
+    }
+   ]
+  },
+  {
+   "id": "lead2-25",
+   "title": "Check: the four 'I's",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "lead2-m2",
+     "title": "Match each example to one of Bass's four 'I's",
+     "pairs": [
+      {
+       "term": "Individualised consideration",
+       "def": "Coaching a team member and showing concern for their personal struggles"
+      },
+      {
+       "term": "Intellectual stimulation",
+       "def": "Encouraging followers to come up with their own creative solutions"
+      },
+      {
+       "term": "Inspirational motivation",
+       "def": "Enthusing followers by clearly and repeatedly communicating the vision"
+      },
+      {
+       "term": "Idealised influence",
+       "def": "Acting as a role model with high moral and ethical standards"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead2-26",
+   "title": "Activity 4 What makes a transformational leader?",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "lead2-a4",
+     "title": "Activity 4 What makes a transformational leader?",
+     "prompt": "Think of someone you consider to be a transformational leader - someone you work with, a community leader or a historical figure. Present three pieces of evidence that demonstrate their transformational style.",
+     "model": "For example, Walt Disney, animator and founder of one of the top motion picture companies, is often quoted as a transformational leader: (1) he had a very clear vision of what he wanted to achieve and understood he couldn't do it alone; (2) he was charismatic, with infectious, motivating enthusiasm; (3) he was creative, encouraging his team to explore new ideas and offering personal support when needed.",
+     "points": [
+      "Names a specific leader.",
+      "Gives evidence of a clear, well-communicated vision (inspirational motivation).",
+      "Gives evidence of charisma or acting as a role model (idealised influence).",
+      "Gives evidence of encouraging creativity or supporting individuals (intellectual stimulation, individualised consideration)."
+     ],
+     "hint": "Allow about 10 minutes. Use the four 'I's as a checklist."
+    }
+   ]
+  },
+  {
+   "id": "lead2-27",
+   "title": "The downsides of transformational leadership",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Although transformational leadership is mainly viewed positively, it has potential negatives:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Transformational leaders often struggle with detail; carried away by passion and enthusiasm, they may miss what the facts are telling them and lead the organisation in the wrong direction.",
+      "Their approach may not meet all followers' needs, so they can end up working closely with a small cohort and isolating other team members.",
+      "Their enthusiasm might lead them to expect too much from followers, such as working long hours."
+     ]
+    },
+    {
+     "t": "tf",
+     "id": "lead2-q6",
+     "q": "Transactional leadership's key advantage is that employees know what is expected of them and have incentives to perform well.",
+     "answer": true,
+     "explain": "Clarity is the key advantage; the main disadvantage is lack of autonomy, which can demotivate leader and employees."
+    }
+   ]
+  },
+  {
+   "id": "lead2-28",
+   "title": "5 More leadership styles",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Historically, leadership research focused on male leaders, often in large private-sector organisations in North America. Today's research considers the perspectives of male and female followers, peers and supervisors from a diverse range of organisations and countries, and this has led to more inclusive leadership styles."
+    },
+    {
+     "t": "img",
+     "src": "img/lead_18.jpg",
+     "alt": "A telescope on a tripod stand",
+     "caption": "Figure 6 A focus on leadership styles"
+    }
+   ]
+  },
+  {
+   "id": "lead2-29",
+   "title": "Adaptive leadership",
+   "blocks": [
+    {
+     "t": "quote",
+     "text": "Simply stated, adaptive leaders prepare and encourage people to deal with change.",
+     "by": "Northouse, 2022, p. 498"
+    },
+    {
+     "t": "p",
+     "text": "Adaptive leadership helps people and organisations adapt to changing and challenging environments. It was developed by Ronald Heifetz with colleagues during the 1990s and beyond. He explains that 'adaptive work is required when our deeply held beliefs are challenged, when the values that made us successful become less relevant, and when legitimate yet competing perspectives emerge' (Heifetz and Laurie, 1997)."
+    }
+   ]
+  },
+  {
+   "id": "lead2-30",
+   "title": "Six adaptive leader behaviours",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Heifetz and Laurie define six leader behaviours key to the process:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "*Get on the balcony* - step back from the 'field of action' and look from a different perspective",
+      "*Identify the adaptive challenge* - find out what the key challenge is",
+      "*Regulate distress* - manage conflict and provide direction for your followers",
+      "*Maintain disciplined attention* - encourage followers to remain open to, and learn from, conflicting points of view",
+      "*Give the work back to the people* - empower followers to solve their own problems",
+      "*Protect voices of leadership from below* - encourage junior staff to share their concerns and don't dismiss them"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead2-31",
+   "title": "Technical versus adaptive challenges",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Heifetz separates adaptive from technical challenges:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Technical challenges",
+      "Adaptive challenges"
+     ],
+     "rows": [
+      [
+       "More easily defined",
+       "Not clearly defined"
+      ],
+      [
+       "Solved through the leader's authority and/or expertise",
+       "Require a range of expertise and a supportive, collaborative environment"
+      ]
+     ]
+    },
+    {
+     "t": "quiz",
+     "id": "lead2-q7",
+     "q": "A team must change long-held working habits after new regulations arrive, and nobody is sure what the full problem is. What kind of challenge is this in Heifetz's terms?",
+     "options": [
+      "Technical - the leader's expertise can solve it",
+      "Adaptive - it is not clearly defined and needs collaboration",
+      "Neither - it is a management issue only"
+     ],
+     "answer": 1,
+     "explain": "Adaptive challenges are not clearly defined and need a range of expertise and a supportive, collaborative environment; technical ones can be solved by the leader's authority or expertise."
+    }
+   ]
+  },
+  {
+   "id": "lead2-32",
+   "title": "Activity 5 What are your adaptive challenges?",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "lead2-a5",
+     "title": "Activity 5 What are your adaptive challenges?",
+     "prompt": "Consider an adaptive challenge you have faced at work or in your personal life (e.g. implementing new regulations at work, or changing your lifestyle to correct a health issue). What was the challenge? What was difficult about adapting? What personal behaviours or habits did you have to change? What specific actions did you take? Who else needed to be involved to ensure success, and what was their approach?",
+     "model": "Change can be difficult and distressing for many people, and an effective leader will address that, even while adapting their own behaviours and values. Was your example difficult or distressing? Did you receive support from a leader? Understanding theories like this one, and having a list such as Heifetz and Laurie's six behaviours to refer to, can help you lead change in a difficult environment. Leading change is covered in Week 6.",
+     "points": [
+      "Describes a specific challenge that required adapting beliefs, habits or behaviour.",
+      "Explains what made adapting difficult or distressing.",
+      "Identifies the behaviours changed and actions taken.",
+      "Recognises who else was involved and how they supported the change."
+     ],
+     "hint": "Allow about 15 minutes."
+    }
+   ]
+  },
+  {
+   "id": "lead2-33",
+   "title": "Adaptive leadership after the pandemic",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Goniewicz and Hertelendy (2023) argue that 'in the post-pandemic world, adaptive leadership becomes even more vital as it requires strategic foresight, empathy, resilience, and effective communication.' Drawing on lessons from COVID-19, they recommend that leaders:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "adopt a learning mindset, both personally and organisationally",
+      "prioritise mental health and wellbeing, investing resources to help teams manage stress and keep a healthy work-life balance",
+      "forge partnerships with other organisations, sectors and countries to share knowledge, resources and best practice",
+      "address systemic inequalities, creating inclusive, equitable environments to ensure future resilience",
+      "enhance crisis management skills such as rapid decision making and effective resource allocation"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead2-34",
+   "title": "Inclusive leadership",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "'Creating inclusive, equitable environments' is increasingly important in any leadership situation as the workforce grows more diverse and global collaboration expands. A report for the Employer Network for Equality and Inclusion (ENEI, 2016), based on a survey of almost 1000 employees and 61 interviews in 11 organisations, defines an inclusive leader as an 'exemplar of inclusive behaviour' who:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "listens to and seeks out the views of diverse people and takes account of them, without bias, in decisions",
+      "appreciates that a diverse group will generate more creative solutions, and encourages this",
+      "inspires people through a shared vision of future success and motivates them to deliver it",
+      "leverages difference for high performance and responsive excellence to customers', clients' and service users' needs",
+      "provides positive feedback to boost people's self-efficacy",
+      "helps diverse people identify and develop their talents for performance now and future advancement",
+      "communicates authentically and honestly in a way that inspires trust, loyalty and well-being"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead2-35",
+   "title": "Why inclusive leadership matters",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The ENEI report also describes 15 core competencies of an inclusive leader, ranging from empathy and confidence building to stewardship and healing. You'll explore a selection of leadership skills in Week 3; OpenLearn's course *Diversity and inclusion in the workplace* is a useful resource if you want to go further."
+    },
+    {
+     "t": "p",
+     "text": "Inclusive leadership has not yet been extensively researched, but there is evidence of benefits ranging from the promotion of psychological safety and work engagement (Nembhard and Edmondson, 2006) to innovative work behaviour (Qi, Liu, Wei and Hu, 2019)."
+    },
+    {
+     "t": "quiz",
+     "id": "lead2-q8",
+     "q": "Which of these are behaviours of an inclusive leader according to ENEI (2016)? Select all that apply.",
+     "options": [
+      "Seeks out diverse views and takes account of them without bias",
+      "Makes decisions alone to avoid conflict",
+      "Provides positive feedback to boost self-efficacy",
+      "Helps diverse people identify and develop their talents"
+     ],
+     "answer": [
+      0,
+      2,
+      3
+     ],
+     "explain": "Inclusive leaders listen to diverse views without bias, boost self-efficacy with positive feedback and develop people's talents; deciding alone is the opposite of inclusion.",
+     "multi": true
+    }
+   ]
+  },
+  {
+   "id": "lead2-36",
+   "title": "Case study: Deloitte and curiosity",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/lead_19.jpg",
+     "alt": "Office building with the Deloitte sign",
+     "caption": "Figure 7 Deloitte"
+    },
+    {
+     "t": "p",
+     "text": "Like many global firms, Deloitte offers pro bono programmes, from an annual day of service to immersive international projects, and uses them to cultivate inclusive leaders. A report (Taproot Foundation, 2021) shares six stories of US-based Deloitte professionals connecting pro bono experience to inclusive leadership traits. One trait is **curiosity**."
+    },
+    {
+     "t": "p",
+     "text": "Robert helped a non-profit serving high-risk young people to quantify the impact of a programme. His team knew strategic communications and data analysis but not the client's intervention model. 'Robert saw first-hand how powerful curiosity can be. He learned to ask open-ended questions and facilitate conversations that brought together the Deloitte team's expertise and the client's knowledge.'"
+    }
+   ]
+  },
+  {
+   "id": "lead2-37",
+   "title": "An inclusive environment is a curious one",
+   "blocks": [
+    {
+     "t": "quote",
+     "text": "An inclusive environment must also be a curious one. Inclusive leaders constantly ask questions, recognising that knowledge from others can fill in the gaps in the bigger picture. They create an environment of inquiry to discover where new passions may lie. This openness can create a space for teams to safely push and inspire each other to the highest quality results.",
+     "by": "Taproot Foundation, 2021"
+    },
+    {
+     "t": "tf",
+     "id": "lead2-q9",
+     "q": "Inclusive leadership has already been extensively researched, with conclusive results.",
+     "answer": false,
+     "explain": "It has not yet been extensively researched, although evidence suggests benefits such as psychological safety, work engagement and innovative work behaviour."
+    }
+   ]
+  },
+  {
+   "id": "lead2-37t",
+   "title": "Try it: lead in different situations",
+   "blocks": [
+    {
+     "t": "tool",
+     "tool": "leader-style",
+     "title": "Try it: situational leadership simulator",
+     "intro": "Contingency theories say good leaders adapt their style to the situation. Lead nine different teams - from new temps to senior experts, a merger and a global team - and choose the style or behaviour that fits, using Lewin, Path-Goal, transactional/transformational, adaptive and inclusive leadership."
+    }
+   ]
+  },
+  {
+   "id": "lead2-38",
+   "title": "6 Assessing your own leadership style",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Are you an autocratic leader, or do you prefer the transformational style? Are you facing significant change in your organisation and feeling drawn to the adaptive approach?"
+    },
+    {
+     "t": "img",
+     "src": "img/lead_20.jpg",
+     "alt": "A row of white business shirts hanging on a rail",
+     "caption": "Figure 8 What is your leadership style?"
+    },
+    {
+     "t": "p",
+     "text": "There are no right or wrong answers. Many experts conclude that your leadership style is not fixed, and that you can adapt and develop it as your career progresses."
+    }
+   ]
+  },
+  {
+   "id": "lead2-39",
+   "title": "Activity 6 How do you lead?",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "lead2-a6",
+     "title": "Activity 6 How do you lead?",
+     "prompt": "Write three words that you feel describe your leadership style. If you need inspiration: if someone were observing you in a leadership role, what would you want them to see, hear and feel?",
+     "model": "Are you happy with your current style? Would an observer see different elements to the ones you outlined? Would you like to make changes? Experts agree you can change your leadership style: learn different skills and behaviours, implement elements of the models here and in the wider literature, or choose a style that inspires you and work towards it.",
+     "points": [
+      "Gives three words describing their leadership style.",
+      "Considers how an observer would see, hear and feel their leadership.",
+      "Reflects on whether they would like to change or develop their style.",
+      "Links their style to a model or style from this week."
+     ],
+     "hint": "Allow about 10 minutes."
+    }
+   ]
+  },
+  {
+   "id": "lead2-40",
+   "title": "Activity 7 Leadership style questionnaires",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Many online tools analyse leadership style. They don't give a definitive outcome, but reflect your preferences for different styles and approaches. Examples suggested by the course: *Skills You Need: What sort of leader are you?*, *Coach-You: Leadership style assessment*, *The Foundation of Nursing Leadership: What is your leadership style?* and *Psychologies: What's your natural leadership style?* If you use another tool, make sure it is free."
+    },
+    {
+     "t": "activity",
+     "id": "lead2-a7",
+     "title": "Activity 7 Leadership style questionnaires",
+     "prompt": "Do one free online leadership style questionnaire and summarise your results: which styles or preferences did it highlight, did they surprise you, and which questions made you think about your approach to leading?",
+     "model": "These questionnaires are not intended to give a definitive analysis of your style or skills, but their questions can stimulate your thoughts about your approach to leading. Keep this summary for your leadership skills audit in Week 3. For more depth, Northouse's *Leadership Theory and Practice* covers a different style in each chapter, with a questionnaire for each.",
+     "points": [
+      "Names the tool used and summarises the result.",
+      "Relates the result to styles covered this week.",
+      "Reflects critically: the result is an indication of preferences, not definitive.",
+      "Notes questions or insights to use in the Week 3 skills audit."
+     ],
+     "hint": "Allow about 1 hour."
+    }
+   ]
+  },
+  {
+   "id": "lead2-41",
+   "title": "Week 2 quiz (1)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "lead2-q10",
+     "q": "Which theory proposes that good leaders adapt their approach to different situations?",
+     "options": [
+      "Trait theory",
+      "Behavioural theory",
+      "Contingency theory",
+      "'Great man' theory"
+     ],
+     "answer": 2,
+     "explain": "Contingency theories say effective leadership depends on the situation."
+    },
+    {
+     "t": "quiz",
+     "id": "lead2-q11",
+     "q": "Path-Goal Theory, developed by Robert House, is mainly concerned with:",
+     "options": [
+      "How leaders motivate followers to achieve specified goals",
+      "Identifying the traits leaders are born with",
+      "Distinguishing managers from leaders",
+      "Measuring cultural differences"
+     ],
+     "answer": 0,
+     "explain": "Path-Goal Theory combines style, follower needs and situation to explain how leaders motivate followers towards goals, using four behaviours."
+    },
+    {
+     "t": "tf",
+     "id": "lead2-q12",
+     "q": "Behavioural theories assume that leadership behaviours can be learned, so anyone has the potential to become a leader.",
+     "answer": true,
+     "explain": "That assumption distinguishes behavioural theories from early trait theories."
+    }
+   ]
+  },
+  {
+   "id": "lead2-42",
+   "title": "Week 2 quiz (2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "lead2-q13",
+     "q": "Which of these is one of Heifetz and Laurie's six adaptive leader behaviours?",
+     "options": [
+      "Reward and punish performance",
+      "Get on the balcony",
+      "Make all decisions without consultation",
+      "Focus on systems and structure"
+     ],
+     "answer": 1,
+     "explain": "'Get on the balcony' means stepping back from the field of action to see a different perspective."
+    },
+    {
+     "t": "quiz",
+     "id": "lead2-q14",
+     "q": "Who first contrasted transactional and transformational leadership?",
+     "options": [
+      "Bass (1985)",
+      "James McGregor Burns (1978)",
+      "Kurt Lewin (1939)",
+      "Ronald Heifetz (1997)"
+     ],
+     "answer": 1,
+     "explain": "Burns (1978) first contrasted them; Bass (1985) developed transformational leadership further with the four 'I's."
+    },
+    {
+     "t": "quiz",
+     "id": "lead2-q15",
+     "q": "What is the key to leading teams with different generational characteristics?",
+     "options": [
+      "Adopting the values of the youngest generation",
+      "Treating everyone the same and ignoring differences",
+      "Setting aside personal frustration, viewing diverse perspectives positively and learning from them",
+      "Grouping staff by generation"
+     ],
+     "answer": 2,
+     "explain": "The leader should set aside frustration, see diverse perspectives positively and be open to learning from them."
+    }
+   ]
+  },
+  {
+   "id": "lead2-43",
+   "title": "Summary of Week 2",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "You should now feel better informed about leadership theories and styles, and more aware of the leadership literature you can access. You have explored the impact context can have on leadership, learned about key styles including transactional, transformational, adaptive and inclusive leadership, and considered your own style."
+    },
+    {
+     "t": "h",
+     "text": "You should now feel that you can:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "recognise how context can impact on leadership",
+      "identify a variety of leadership styles/approaches",
+      "assess your own leadership style"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Next week you'll focus on the specific skills and behaviours required of an effective leader, from the perspectives of a range of employers, and start to look at your own leadership skills and how to develop them."
+    }
+   ]
+  }
+ ]
+}

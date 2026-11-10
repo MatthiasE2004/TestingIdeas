@@ -1,208 +1,496 @@
 {
-  "id": "ent3",
-  "title": "Session 3: Creating value",
-  "summary": "Use the business model canvas to describe how your business creates and delivers value, and learn the dilemmas every entrepreneur faces, including when to pivot.",
-  "minutes": 45,
-  "pages": [
+ "id": "ent3",
+ "title": "Session 3: Creating value",
+ "summary": "Use the business model canvas to describe how your business creates and delivers value, and learn the dilemmas every entrepreneur faces, including when to pivot.",
+ "minutes": 45,
+ "pages": [
+  {
+   "id": "ent3-01",
+   "title": "A business is a value delivery system",
+   "blocks": [
     {
-      "id": "ent3-01",
-      "title": "A business is a value delivery system",
-      "blocks": [
-        {"t": "quote", "text": "A business is a value delivery system.", "by": "Lanning and Michaels, 1988"},
-        {"t": "p", "text": "It is only by creating something that people are willing to pay for or support that you will make money and be able to sustain your enterprise. Value goes beyond cost or price: sentimental value has nothing to do with money, and the premium we pay for an exclusive brand goes beyond the cost of materials, production and delivery."},
-        {"t": "h", "text": "By the end of this session you will be able to:"},
-        {"t": "ul", "items": [
-          "create and describe your business model as a foundation for creating value",
-          "identify the kind of dilemmas that entrepreneurs face in setting up their business",
-          "recognise why it is important to remain flexible and willing to adapt and change to be successful."
-        ]}
-      ]
+     "t": "quote",
+     "text": "A business is a value delivery system.",
+     "by": "Lanning and Michaels, 1988"
     },
     {
-      "id": "ent3-02",
-      "title": "Practice and theory",
-      "blocks": [
-        {"t": "p", "text": "It is tempting to skip theory and go straight to creating your product or service. But without a clear legal status and business model you may quickly run into problems with cash-flow, HMRC, suppliers and customers. A little planning now helps others see how to set things up well and who they are dealing with."},
-        {"t": "p", "text": "In Session 2 you looked at the three essential activities of managing a business:"},
-        {"t": "ul", "items": [
-          "**Running** the business: the 'must do' activities such as invoicing, paying tax and complying with regulations",
-          "**Getting** the business: finding, attracting and keeping customers",
-          "**Delivering** the business: creating the product or service customers want to use or buy."
-        ]},
-        {"t": "callout", "kind": "tip", "text": "The models in this course work as a checklist or framework: you can quickly build a visual outline of your business to develop it and to explain it to people who can support you."}
-      ]
+     "t": "p",
+     "text": "It is only by creating something that people are willing to pay for or support that you will make money and be able to sustain your enterprise. Value goes beyond cost or price: sentimental value has nothing to do with money, and the premium we pay for an exclusive brand goes beyond the cost of materials, production and delivery."
     },
     {
-      "id": "ent3-03",
-      "title": "Traditional approach: product first",
-      "blocks": [
-        {"t": "p", "text": "The traditional approach to a business can be represented as a simple left-to-right system: create the product, make the product, then sell the product."},
-        {"t": "img", "src": "img/ent_17.jpg", "alt": "Three arrows in a row reading Create the product, Make the product, Sell the product.", "caption": "Figure 1 Traditional product-oriented system"}
-      ]
+     "t": "h",
+     "text": "By the end of this session you will be able to:"
     },
     {
-      "id": "ent3-04",
-      "title": "McKinsey's value delivery system",
-      "blocks": [
-        {"t": "p", "text": "McKinsey's value delivery system offers an alternative, but still quite traditional, view. It starts from the customer's value rather than from the product."},
-        {"t": "img", "src": "img/ent_18.jpg", "alt": "Three arrows: Choose the value (understand value drivers, select target, define benefits and price), Provide the value (product, process, design, procurement, manufacturing, distribution, service, price), Communicate the value to the customer (sales message, advertising, promotion, public relations).", "caption": "Figure 2 McKinsey's value delivery system"},
-        {"t": "p", "text": "In both systems the assumption is that as you move from left to right, there are opportunities to create value."}
-      ]
-    },
-    {
-      "id": "ent3-05",
-      "title": "The business model canvas",
-      "blocks": [
-        {"t": "callout", "kind": "key", "title": "Business model canvas", "text": "Sometimes called the 'value nine box model', proposed by Alex Osterwalder (Osterwalder and Pigneur, 2010). It is a systematic way of working through the essential elements of any business."},
-        {"t": "p", "text": "The nine boxes are not seen in isolation but as an integrated way of operating, with each part capable of adding value. The canvas has become very popular amongst the start-up community, especially technology-based start-ups."},
-        {"t": "p", "text": "As you work through the course, use it to capture ideas and experiment with your own version as each of the nine aspects of the business model is discussed. The next pages let you build your own canvas in the app."}
-      ]
-    },
-    {
-      "id": "ent3-06",
-      "title": "Activity 1: Describing the canvas",
-      "blocks": [
-        {"t": "p", "text": "First watch the short video, which defines a number of terms and brings the business model canvas to life. Then match the definitions to the nine terms."},
-        {"t": "video", "title": "Video 1 The business model canvas", "url": "https://www.youtube.com/watch?v=IP0cUBWTgpY", "note": "A short video defining the terms of the business model canvas."},
-        {"t": "activity", "id": "ent3-a1", "title": "Activity 1 Describing the business model canvas", "prompt": "Match each definition to one of the nine terms (value proposition, customer segments, key resources, key partners, customer relationships, key activities, cost structure, channels, revenue streams):\n1. The bundles of products and services designed to appeal to and provide value to different customer segments\n2. The groups of people with a distinct need or use for your products or services\n3. What assets (people, equipment, premises) are absolutely necessary to deliver value\n4. People or organisations with expertise or the ability to do essential things you rely upon but cannot do cost effectively yourself\n5. How you will relate to your customers (loyalty schemes, discounts, rewards, recognition of greatest need)\n6. What things you absolutely need to do very well\n7. Where costs arise in the business\n8. The touchpoints: places or means of distributing your product or service\n9. How and through which activities you will capture value", "hint": "Take each definition in turn and ask which of the nine boxes it describes.", "model": "1 Value proposition; 2 Customer segments; 3 Key resources; 4 Key partners; 5 Customer relationships; 6 Key activities; 7 Cost structure; 8 Channels; 9 Revenue streams.", "points": ["Value proposition = bundles of products and services that provide value", "Customer segments = groups with a distinct need; channels = touchpoints for distribution", "Key resources = necessary assets; key activities = things you must do very well; key partners = essential outside expertise", "Customer relationships = how you relate to customers; cost structure = where costs arise; revenue streams = how you capture value"]}
-      ]
-    },
-    {
-      "id": "ent3-07",
-      "title": "The nine boxes: key terms",
-      "blocks": [
-        {"t": "p", "text": "Check your understanding of the nine building blocks. Tap each card to reveal the definition."},
-        {"t": "flash", "cards": [
-          {"front": "Value proposition", "back": "The bundles of products and services designed to appeal to and provide value to different customer segments."},
-          {"front": "Customer segments", "back": "The groups of people with a distinct need or use for your products or services."},
-          {"front": "Channels", "back": "The touchpoints: places or means of distributing your product or service."},
-          {"front": "Customer relationships", "back": "How you will relate to your customers, e.g. loyalty schemes, discounts, rewards, recognition of greatest need."},
-          {"front": "Revenue streams", "back": "How and through which activities you will capture value in your business."},
-          {"front": "Key resources", "back": "What assets (e.g. people, equipment, premises) are absolutely necessary to deliver value."},
-          {"front": "Key activities", "back": "What things you absolutely need to do very well."},
-          {"front": "Key partners", "back": "People or organisations with expertise or the ability to do essential things you rely upon but cannot do for yourself, cost effectively."}
-        ]}
-      ]
-    },
-    {
-      "id": "ent3-08",
-      "title": "Try it: your canvas",
-      "blocks": [
-        {"t": "tool", "tool": "bmc", "title": "Try it: Business Model Canvas", "intro": "Fill in the nine boxes for your own idea. Leave gaps where you do not yet know: those are the areas to investigate as the course goes on."}
-      ]
-    },
-    {
-      "id": "ent3-09",
-      "title": "Your business model is unique",
-      "blocks": [
-        {"t": "p", "text": "As you work through this course you will cover all aspects of the business model canvas. You will have more detail or ideas for some parts and less for others. Activity 2 helps you identify these areas."},
-        {"t": "activity", "id": "ent3-a2", "title": "Activity 2 Thinking of your own business model canvas", "prompt": "Take a few minutes to think about your own business idea and what aspects of a business model you could clearly describe for it now. Which will you need to work on? Note your thoughts down.", "hint": "Go through the nine boxes one by one: which can you fill in confidently, and which are still blank?", "model": "Answers are personal. A good response names the canvas boxes you can already describe (for example customer segments or the value proposition) and identifies the ones that still need research (for example key partners, channels or cost structure), with a note of how you might find out.", "points": ["Identify the canvas boxes you can already describe clearly", "Identify the boxes where you have gaps or only assumptions", "Say what you could do to fill the gaps, e.g. research competitors or talk to customers"]}
-      ]
-    },
-    {
-      "id": "ent3-10",
-      "title": "A source of competitive advantage",
-      "blocks": [
-        {"t": "p", "text": "Your business model should be unique to your idea, so you are the expert in it. While you may share component parts with other businesses, your model differentiates you. Competitive advantage, and a compelling reason for customers to favour you, can come from any part of the model, including your pricing strategy and the elements of your value proposition."},
-        {"t": "video", "title": "Video 2 Plan or jump in?", "url": null, "note": "Our entrepreneurs talk about their business model and whether they planned it or whether it emerged over time."},
-        {"t": "callout", "kind": "note", "title": "Example: SAGA", "text": "SAGA targeted a very specific group, the over 50s. Founded by Sidney De Haan in 1959, it began with packaged holidays, then added travel, caravan and motor insurance, financial services and latterly health care. It owns a direct mail and fulfilment service and a subscription magazine read by around one million readers. Think about how you will reach your own customers."}
-      ]
-    },
-    {
-      "id": "ent3-11",
-      "title": "The entrepreneur's dilemma",
-      "blocks": [
-        {"t": "p", "text": "For each part of your business model there are choices, and it can be hard to decide what is best. As a new venture you may have no previous experience, or no predecessors to learn from. That is quite normal: every entrepreneur and start-up faces dilemmas about what to do."},
-        {"t": "h", "text": "Dilemma 1: building confidence"},
-        {"t": "p", "text": "So much is unknown and untested, yet supporters, investors and customers are likely to need more certainty, especially for a new or unique idea. Passion, self-belief, hard work and persistence matter, but a lack of evidence may deter important stakeholders. You will have to convince stakeholders even before you convince customers."},
-        {"t": "ul", "items": [
-          "Planning how you will operate lets you sense check your idea with others and reduces the risk of being blinded by your own enthusiasm.",
-          "An accountant can sense check your assumptions about costs and revenue streams.",
-          "Basic market research and researching competitor offers give evidence and comfort to stakeholders."
-        ]}
-      ]
-    },
-    {
-      "id": "ent3-12",
-      "title": "Dilemma 2: managed growth",
-      "blocks": [
-        {"t": "p", "text": "It is very common for start-ups to 'bootstrap': to operate with no external help or finance beyond one's own savings or personal credit (first discussed in Session 2). Keeping it all under your own control can be exhilarating, but pretty soon it may prove overwhelming or even counter-productive."},
-        {"t": "activity", "id": "ent3-a3", "title": "Activity 3 Limitations of bootstrapping", "prompt": "Can you think of three signs that indicate it is time to go beyond bootstrapping to seek external resources?", "hint": "Think about workload, money and skills.", "model": "Possible signs: you are overwhelmed and cannot keep up with demand on your own; you lack the skills or knowledge for key tasks such as accounting, marketing or technical work; your own savings or credit cannot fund the growth the business needs; growth is being held back by space or equipment; you are missing opportunities because you cannot invest.", "points": ["The workload has become overwhelming or counter-productive for one person", "You lack key skills or knowledge that others could supply", "Your own savings or credit cannot fund further growth", "Demand or opportunities are outgrowing your resources"]},
-        {"t": "p", "text": "The mix of knowledge, skills and 'personality' of you, your staff, volunteers or network is unique and can be part of your competitive advantage. Many small firms do not employ support staff, using technology (e.g. accounting software) or outsourcing (e.g. a virtual PA, customer service centre or sales) instead."}
-      ]
-    },
-    {
-      "id": "ent3-13",
-      "title": "Dilemma 3: finding support",
-      "blocks": [
-        {"t": "p", "text": "Your idea may need premises and employees from the outset, but for many start-ups growth is gradual until they outgrow their own resources. Entrepreneurs are known for 'paying it forward': giving others the help, advice and support they once received."},
-        {"t": "callout", "kind": "key", "title": "Incubators", "text": "Typically physical work spaces, which may also provide training, mentors, access to commercial networks and equipment. They may be rent free or charge rent or a membership fee, often have a sector focus (e.g. biotech) and are often aligned with universities or enterprise development agencies."},
-        {"t": "callout", "kind": "key", "title": "Accelerators", "text": "A more recent concept based on the original 'Y Combinator', a US programme that began in 2005 to support digital start-ups."},
-        {"t": "video", "title": "Video 3 What are accelerators?", "url": null, "note": "Describes a range of accelerators run by Barclays, Lloyds of London and Microsoft, based in London."}
-      ]
-    },
-    {
-      "id": "ent3-14",
-      "title": "Accelerators and co-working",
-      "blocks": [
-        {"t": "p", "text": "This model of support has been replicated all over the world. As well as development support, accelerators focus on investment and the potential for high growth, so they are more selective and take start-ups on in cohorts to develop business plans, prototypes and a pitch to investors. Programmes last from three to 12 months. Investors usually seek equity rather than a fee, and there may be mentorship, training and seed funding (the initial investment). Some provide workspace, others services only."},
-        {"t": "img", "src": "img/ent_21.jpg", "alt": "Two maps of the UK showing the locations of incubators (left, purple markers) and accelerators (right, blue markers), concentrated in England and especially the south-east.", "caption": "Figure 3 Location of accelerators and incubators in the UK (NESTA, 2018)"},
-        {"t": "p", "text": "**Co-working spaces** simply provide a place to work in contact with other companies or organisations (some are run as social enterprises), plus access to networks, events and publicity opportunities."}
-      ]
-    },
-    {
-      "id": "ent3-15",
-      "title": "Dilemma 4: pivoting",
-      "blocks": [
-        {"t": "quote", "text": "To improve is to change; to be perfect is to change often.", "by": "Winston Churchill"},
-        {"t": "callout", "kind": "key", "title": "Pivot", "text": "To make a change in your strategy without changing your vision. Eric Ries (2011), known for the 'lean start-up' methodology, is credited with the term."},
-        {"t": "p", "text": "Pivoting is a key decision point when something isn't working, or isn't working the way you thought. It means finding ways around obstacles to achieve your ultimate goal by solving a customer problem or meeting a need. Ries advocates developing your business by testing and learning from both successes and failures."},
-        {"t": "p", "text": "The classic dilemma is knowing when to stop doing something, when to stick with it and when to do it differently. Giving up can be painful if you have invested a lot of emotion and belief, especially if you are taking over someone else's ideas."}
-      ]
-    },
-    {
-      "id": "ent3-16",
-      "title": "Types of pivot",
-      "blocks": [
-        {"t": "h", "text": "Customer segment pivot"},
-        {"t": "p", "text": "You develop a product with teenagers in mind but, through time and testing, recognise it has more potential for adults. If you then target and design around adults, this is a customer segment pivot."},
-        {"t": "h", "text": "Need or problem pivot"},
-        {"t": "p", "text": "You believe your idea meets one problem, but find the product is doing something more compelling for those customers. PayPal was originally intended to be cybersecurity software but, after a reported five pivots, became a secure payment system for mobile and online use, and a beneficiary of the explosion in e-commerce."},
-        {"t": "callout", "kind": "note", "text": "Most, if not all, successful companies have had to consider when and how to change: to take advantage of opportunities, to learn from customer feedback and behaviour, or to avoid failure."}
-      ]
-    },
-    {
-      "id": "ent3-17",
-      "title": "Check your understanding (1)",
-      "blocks": [
-        {"t": "quiz", "id": "ent3-q1", "q": "Which statement best describes the business model canvas?", "options": ["A legal document that registers your business", "A visual way of working through nine integrated elements of a business, each able to add value", "A forecast of profit and loss for the first year", "A list of competitors in your market"], "answer": 1, "explain": "The canvas (Osterwalder and Pigneur, 2010) is a systematic, integrated way of describing the essential elements of a business in nine boxes."},
-        {"t": "quiz", "id": "ent3-q2", "q": "Which canvas element describes the touchpoints, i.e. places or means of distributing your product or service?", "options": ["Channels", "Key partners", "Cost structure", "Revenue streams"], "answer": 0, "explain": "Channels are the touchpoints through which you reach customers and distribute your offering."},
-        {"t": "tf", "id": "ent3-q3", "q": "The traditional product-oriented system moves from selling the product to creating the product.", "answer": false, "explain": "It runs left to right: create the product, make the product, then sell the product."}
-      ]
-    },
-    {
-      "id": "ent3-18",
-      "title": "Check your understanding (2)",
-      "blocks": [
-        {"t": "quiz", "id": "ent3-q4", "q": "A founder who has run everything alone from personal savings is now overwhelmed by the workload. Which dilemma are they facing?", "options": ["Building confidence", "Managed growth beyond bootstrapping", "Pivoting a customer segment", "Choosing a co-working space"], "answer": 1, "explain": "Bootstrapping can become overwhelming or counter-productive, which is a sign to seek external resources."},
-        {"t": "quiz", "id": "ent3-q5", "q": "Which of these is typically true of accelerators, in contrast with incubators?", "options": ["They are always rent free", "They focus on investment and high growth, take cohorts for 3 to 12 months and often seek equity", "They only provide desk space", "They are only for social enterprises"], "answer": 1, "explain": "Accelerators are more selective, run cohort programmes of between three and 12 months, and investors usually take equity rather than a fee."},
-        {"t": "quiz", "id": "ent3-q6", "q": "Which of these is an example of a pivot?", "options": ["Changing your strategy while keeping your vision, e.g. targeting adults instead of teenagers", "Abandoning your idea completely", "Refusing to change because of earlier investment", "Raising your prices every year"], "answer": 0, "explain": "To pivot is to change your strategy without changing your vision, learning from testing and customer feedback."}
-      ]
-    },
-    {
-      "id": "ent3-19",
-      "title": "Summary",
-      "blocks": [
-        {"t": "p", "text": "In this session you have:"},
-        {"t": "ul", "items": [
-          "considered different ways of looking at the business model to deliver value to customers",
-          "familiarised yourself with the business model canvas, a visual summary of how you will realise your business idea",
-          "recognised how the canvas makes clear who the business is aimed at, its infrastructure, key resources and activities",
-          "identified how your business model is unique to you and that every element offers opportunities to innovate",
-          "considered how your business is likely to change as you test and learn from customers and gain experience."
-        ]},
-        {"t": "p", "text": "You also explored dilemmas entrepreneurs face: building confidence, managed growth, finding support and pivoting. Keep checking back and adapting your own canvas, highlighting gaps to investigate and using your learning to prepare an action plan. In Session 4 you zoom in on your customers and the market for your product."}
-      ]
+     "t": "ul",
+     "items": [
+      "create and describe your business model as a foundation for creating value",
+      "identify the kind of dilemmas that entrepreneurs face in setting up their business",
+      "recognise why it is important to remain flexible and willing to adapt and change to be successful."
+     ]
     }
-  ]
+   ]
+  },
+  {
+   "id": "ent3-02",
+   "title": "Practice and theory",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "It is tempting to skip theory and go straight to creating your product or service. But without a clear legal status and business model you may quickly run into problems with cash-flow, HMRC, suppliers and customers. A little planning now helps others see how to set things up well and who they are dealing with."
+    },
+    {
+     "t": "p",
+     "text": "In Session 2 you looked at the three essential activities of managing a business:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Running** the business: the 'must do' activities such as invoicing, paying tax and complying with regulations",
+      "**Getting** the business: finding, attracting and keeping customers",
+      "**Delivering** the business: creating the product or service customers want to use or buy."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "The models in this course work as a checklist or framework: you can quickly build a visual outline of your business to develop it and to explain it to people who can support you."
+    }
+   ]
+  },
+  {
+   "id": "ent3-03",
+   "title": "Traditional approach: product first",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The traditional approach to a business can be represented as a simple left-to-right system: create the product, make the product, then sell the product."
+    },
+    {
+     "t": "img",
+     "src": "img/ent_17.jpg",
+     "alt": "Three arrows in a row reading Create the product, Make the product, Sell the product.",
+     "caption": "Figure 1 Traditional product-oriented system"
+    }
+   ]
+  },
+  {
+   "id": "ent3-04",
+   "title": "McKinsey's value delivery system",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "McKinsey's value delivery system offers an alternative, but still quite traditional, view. It starts from the customer's value rather than from the product."
+    },
+    {
+     "t": "img",
+     "src": "img/ent_18.jpg",
+     "alt": "Three arrows: Choose the value (understand value drivers, select target, define benefits and price), Provide the value (product, process, design, procurement, manufacturing, distribution, service, price), Communicate the value to the customer (sales message, advertising, promotion, public relations).",
+     "caption": "Figure 2 McKinsey's value delivery system"
+    },
+    {
+     "t": "p",
+     "text": "In both systems the assumption is that as you move from left to right, there are opportunities to create value."
+    }
+   ]
+  },
+  {
+   "id": "ent3-05",
+   "title": "The business model canvas",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Business model canvas",
+     "text": "Sometimes called the 'value nine box model', proposed by Alex Osterwalder (Osterwalder and Pigneur, 2010). It is a systematic way of working through the essential elements of any business."
+    },
+    {
+     "t": "p",
+     "text": "The nine boxes are not seen in isolation but as an integrated way of operating, with each part capable of adding value. The canvas has become very popular amongst the start-up community, especially technology-based start-ups."
+    },
+    {
+     "t": "p",
+     "text": "As you work through the course, use it to capture ideas and experiment with your own version as each of the nine aspects of the business model is discussed. The next pages let you build your own canvas in the app."
+    }
+   ]
+  },
+  {
+   "id": "ent3-06",
+   "title": "Activity 1: Describing the canvas",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "First watch the short video, which defines a number of terms and brings the business model canvas to life. Then tap each definition and choose the matching term from the nine boxes."
+    },
+    {
+     "t": "video",
+     "title": "Video 1 The business model canvas",
+     "url": "https://www.youtube.com/watch?v=IP0cUBWTgpY",
+     "note": "A short video defining the terms of the business model canvas."
+    },
+    {
+     "t": "match",
+     "id": "ent3-m1",
+     "title": "Activity 1: match each definition to its term",
+     "pairs": [
+      {
+       "term": "Value proposition",
+       "def": "The bundles of products and services designed to appeal to and provide value to different customer segments"
+      },
+      {
+       "term": "Customer segments",
+       "def": "The groups of people with a distinct need or use for your products or services"
+      },
+      {
+       "term": "Key resources",
+       "def": "What assets (people, equipment, premises) are absolutely necessary to deliver value"
+      },
+      {
+       "term": "Key partners",
+       "def": "People or organisations with expertise or the ability to do essential things you rely upon but cannot do cost effectively yourself"
+      },
+      {
+       "term": "Customer relationships",
+       "def": "How you will relate to your customers (loyalty schemes, discounts, rewards, recognition of greatest need)"
+      },
+      {
+       "term": "Key activities",
+       "def": "What things you absolutely need to do very well"
+      },
+      {
+       "term": "Cost structure",
+       "def": "Where costs arise in the business"
+      },
+      {
+       "term": "Channels",
+       "def": "The touchpoints: places or means of distributing your product or service"
+      },
+      {
+       "term": "Revenue streams",
+       "def": "How and through which activities you will capture value"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent3-08",
+   "title": "Try it: your canvas",
+   "blocks": [
+    {
+     "t": "tool",
+     "tool": "bmc",
+     "title": "Try it: Business Model Canvas",
+     "intro": "Fill in the nine boxes for your own idea. Leave gaps where you do not yet know: those are the areas to investigate as the course goes on."
+    }
+   ]
+  },
+  {
+   "id": "ent3-09",
+   "title": "Your business model is unique",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "As you work through this course you will cover all aspects of the business model canvas. You will have more detail or ideas for some parts and less for others. Activity 2 helps you identify these areas."
+    },
+    {
+     "t": "activity",
+     "id": "ent3-a2",
+     "title": "Activity 2 Thinking of your own business model canvas",
+     "prompt": "Take a few minutes to think about your own business idea and what aspects of a business model you could clearly describe for it now. Which will you need to work on? Note your thoughts down.",
+     "hint": "Go through the nine boxes one by one: which can you fill in confidently, and which are still blank?",
+     "model": "Answers are personal. A good response names the canvas boxes you can already describe (for example customer segments or the value proposition) and identifies the ones that still need research (for example key partners, channels or cost structure), with a note of how you might find out.",
+     "points": [
+      "Identify the canvas boxes you can already describe clearly",
+      "Identify the boxes where you have gaps or only assumptions",
+      "Say what you could do to fill the gaps, e.g. research competitors or talk to customers"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent3-10",
+   "title": "A source of competitive advantage",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Your business model should be unique to your idea, so you are the expert in it. While you may share component parts with other businesses, your model differentiates you. Competitive advantage, and a compelling reason for customers to favour you, can come from any part of the model, including your pricing strategy and the elements of your value proposition."
+    },
+    {
+     "t": "video",
+     "title": "Video 2 Plan or jump in?",
+     "url": null,
+     "note": "Our entrepreneurs talk about their business model and whether they planned it or whether it emerged over time."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "title": "Example: SAGA",
+     "text": "SAGA targeted a very specific group, the over 50s. Founded by Sidney De Haan in 1959, it began with packaged holidays, then added travel, caravan and motor insurance, financial services and latterly health care. It owns a direct mail and fulfilment service and a subscription magazine read by around one million readers. Think about how you will reach your own customers."
+    }
+   ]
+  },
+  {
+   "id": "ent3-11",
+   "title": "The entrepreneur's dilemma",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "For each part of your business model there are choices, and it can be hard to decide what is best. As a new venture you may have no previous experience, or no predecessors to learn from. That is quite normal: every entrepreneur and start-up faces dilemmas about what to do."
+    },
+    {
+     "t": "h",
+     "text": "Dilemma 1: building confidence"
+    },
+    {
+     "t": "p",
+     "text": "So much is unknown and untested, yet supporters, investors and customers are likely to need more certainty, especially for a new or unique idea. Passion, self-belief, hard work and persistence matter, but a lack of evidence may deter important stakeholders. You will have to convince stakeholders even before you convince customers."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Planning how you will operate lets you sense check your idea with others and reduces the risk of being blinded by your own enthusiasm.",
+      "An accountant can sense check your assumptions about costs and revenue streams.",
+      "Basic market research and researching competitor offers give evidence and comfort to stakeholders."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ent3-12",
+   "title": "Dilemma 2: managed growth",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "It is very common for start-ups to 'bootstrap': to operate with no external help or finance beyond one's own savings or personal credit (first discussed in Session 2). Keeping it all under your own control can be exhilarating, but pretty soon it may prove overwhelming or even counter-productive."
+    },
+    {
+     "t": "activity",
+     "id": "ent3-a3",
+     "title": "Activity 3 Limitations of bootstrapping",
+     "prompt": "Can you think of three signs that indicate it is time to go beyond bootstrapping to seek external resources?",
+     "hint": "Think about workload, money and skills.",
+     "model": "Possible signs: you are overwhelmed and cannot keep up with demand on your own; you lack the skills or knowledge for key tasks such as accounting, marketing or technical work; your own savings or credit cannot fund the growth the business needs; growth is being held back by space or equipment; you are missing opportunities because you cannot invest.",
+     "points": [
+      "The workload has become overwhelming or counter-productive for one person",
+      "You lack key skills or knowledge that others could supply",
+      "Your own savings or credit cannot fund further growth",
+      "Demand or opportunities are outgrowing your resources"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "The mix of knowledge, skills and 'personality' of you, your staff, volunteers or network is unique and can be part of your competitive advantage. Many small firms do not employ support staff, using technology (e.g. accounting software) or outsourcing (e.g. a virtual PA, customer service centre or sales) instead."
+    }
+   ]
+  },
+  {
+   "id": "ent3-13",
+   "title": "Dilemma 3: finding support",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Your idea may need premises and employees from the outset, but for many start-ups growth is gradual until they outgrow their own resources. Entrepreneurs are known for 'paying it forward': giving others the help, advice and support they once received."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Incubators",
+     "text": "Typically physical work spaces, which may also provide training, mentors, access to commercial networks and equipment. They may be rent free or charge rent or a membership fee, often have a sector focus (e.g. biotech) and are often aligned with universities or enterprise development agencies."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Accelerators",
+     "text": "A more recent concept based on the original 'Y Combinator', a US programme that began in 2005 to support digital start-ups."
+    },
+    {
+     "t": "video",
+     "title": "Video 3 What are accelerators?",
+     "url": null,
+     "note": "Describes a range of accelerators run by Barclays, Lloyds of London and Microsoft, based in London."
+    }
+   ]
+  },
+  {
+   "id": "ent3-14",
+   "title": "Accelerators and co-working",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "This model of support has been replicated all over the world. As well as development support, accelerators focus on investment and the potential for high growth, so they are more selective and take start-ups on in cohorts to develop business plans, prototypes and a pitch to investors. Programmes last from three to 12 months. Investors usually seek equity rather than a fee, and there may be mentorship, training and seed funding (the initial investment). Some provide workspace, others services only."
+    },
+    {
+     "t": "img",
+     "src": "img/ent_21.jpg",
+     "alt": "Two maps of the UK showing the locations of incubators (left, purple markers) and accelerators (right, blue markers), concentrated in England and especially the south-east.",
+     "caption": "Figure 3 Location of accelerators and incubators in the UK (NESTA, 2018)"
+    },
+    {
+     "t": "p",
+     "text": "**Co-working spaces** simply provide a place to work in contact with other companies or organisations (some are run as social enterprises), plus access to networks, events and publicity opportunities."
+    }
+   ]
+  },
+  {
+   "id": "ent3-15",
+   "title": "Dilemma 4: pivoting",
+   "blocks": [
+    {
+     "t": "quote",
+     "text": "To improve is to change; to be perfect is to change often.",
+     "by": "Winston Churchill"
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Pivot",
+     "text": "To make a change in your strategy without changing your vision. Eric Ries (2011), known for the 'lean start-up' methodology, is credited with the term."
+    },
+    {
+     "t": "p",
+     "text": "Pivoting is a key decision point when something isn't working, or isn't working the way you thought. It means finding ways around obstacles to achieve your ultimate goal by solving a customer problem or meeting a need. Ries advocates developing your business by testing and learning from both successes and failures."
+    },
+    {
+     "t": "p",
+     "text": "The classic dilemma is knowing when to stop doing something, when to stick with it and when to do it differently. Giving up can be painful if you have invested a lot of emotion and belief, especially if you are taking over someone else's ideas."
+    }
+   ]
+  },
+  {
+   "id": "ent3-16",
+   "title": "Types of pivot",
+   "blocks": [
+    {
+     "t": "h",
+     "text": "Customer segment pivot"
+    },
+    {
+     "t": "p",
+     "text": "You develop a product with teenagers in mind but, through time and testing, recognise it has more potential for adults. If you then target and design around adults, this is a customer segment pivot."
+    },
+    {
+     "t": "h",
+     "text": "Need or problem pivot"
+    },
+    {
+     "t": "p",
+     "text": "You believe your idea meets one problem, but find the product is doing something more compelling for those customers. PayPal was originally intended to be cybersecurity software but, after a reported five pivots, became a secure payment system for mobile and online use, and a beneficiary of the explosion in e-commerce."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "Most, if not all, successful companies have had to consider when and how to change: to take advantage of opportunities, to learn from customer feedback and behaviour, or to avoid failure."
+    }
+   ]
+  },
+  {
+   "id": "ent3-17",
+   "title": "Check your understanding (1)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "ent3-q1",
+     "q": "Which statement best describes the business model canvas?",
+     "options": [
+      "A legal document that registers your business",
+      "A visual way of working through nine integrated elements of a business, each able to add value",
+      "A forecast of profit and loss for the first year",
+      "A list of competitors in your market"
+     ],
+     "answer": 1,
+     "explain": "The canvas (Osterwalder and Pigneur, 2010) is a systematic, integrated way of describing the essential elements of a business in nine boxes."
+    },
+    {
+     "t": "quiz",
+     "id": "ent3-q2",
+     "q": "Which canvas element describes the touchpoints, i.e. places or means of distributing your product or service?",
+     "options": [
+      "Channels",
+      "Key partners",
+      "Cost structure",
+      "Revenue streams"
+     ],
+     "answer": 0,
+     "explain": "Channels are the touchpoints through which you reach customers and distribute your offering."
+    },
+    {
+     "t": "tf",
+     "id": "ent3-q3",
+     "q": "The traditional product-oriented system moves from selling the product to creating the product.",
+     "answer": false,
+     "explain": "It runs left to right: create the product, make the product, then sell the product."
+    }
+   ]
+  },
+  {
+   "id": "ent3-18",
+   "title": "Check your understanding (2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "ent3-q4",
+     "q": "A founder who has run everything alone from personal savings is now overwhelmed by the workload. Which dilemma are they facing?",
+     "options": [
+      "Building confidence",
+      "Managed growth beyond bootstrapping",
+      "Pivoting a customer segment",
+      "Choosing a co-working space"
+     ],
+     "answer": 1,
+     "explain": "Bootstrapping can become overwhelming or counter-productive, which is a sign to seek external resources."
+    },
+    {
+     "t": "quiz",
+     "id": "ent3-q5",
+     "q": "Which of these is typically true of accelerators, in contrast with incubators?",
+     "options": [
+      "They are always rent free",
+      "They focus on investment and high growth, take cohorts for 3 to 12 months and often seek equity",
+      "They only provide desk space",
+      "They are only for social enterprises"
+     ],
+     "answer": 1,
+     "explain": "Accelerators are more selective, run cohort programmes of between three and 12 months, and investors usually take equity rather than a fee."
+    },
+    {
+     "t": "quiz",
+     "id": "ent3-q6",
+     "q": "Which of these is an example of a pivot?",
+     "options": [
+      "Changing your strategy while keeping your vision, e.g. targeting adults instead of teenagers",
+      "Abandoning your idea completely",
+      "Refusing to change because of earlier investment",
+      "Raising your prices every year"
+     ],
+     "answer": 0,
+     "explain": "To pivot is to change your strategy without changing your vision, learning from testing and customer feedback."
+    }
+   ]
+  },
+  {
+   "id": "ent3-19",
+   "title": "Summary",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "In this session you have:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "considered different ways of looking at the business model to deliver value to customers",
+      "familiarised yourself with the business model canvas, a visual summary of how you will realise your business idea",
+      "recognised how the canvas makes clear who the business is aimed at, its infrastructure, key resources and activities",
+      "identified how your business model is unique to you and that every element offers opportunities to innovate",
+      "considered how your business is likely to change as you test and learn from customers and gain experience."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "You also explored dilemmas entrepreneurs face: building confidence, managed growth, finding support and pivoting. Keep checking back and adapting your own canvas, highlighting gaps to investigate and using your learning to prepare an action plan. In Session 4 you zoom in on your customers and the market for your product."
+    }
+   ]
+  }
+ ]
 }

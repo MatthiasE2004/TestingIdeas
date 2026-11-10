@@ -1,0 +1,1132 @@
+{
+ "id": "lead7",
+ "title": "Week 7: The future of leadership",
+ "summary": "How hybrid working, wellbeing, AI and collaboration are reshaping leadership, plus emerging styles such as authentic, politically astute and 'un-leadership'.",
+ "minutes": 180,
+ "pages": [
+  {
+   "id": "lead7-01",
+   "title": "Week 7: The future of leadership",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Welcome to Week 7 of *Leadership and followership*. Last week you focused on common leadership challenges - team dynamics and development, internal politics and change."
+    },
+    {
+     "t": "p",
+     "text": "This week you look to the future: how global change might affect leadership style, and the new challenges leaders will face."
+    },
+    {
+     "t": "video",
+     "title": "Lynne introduces Week 7",
+     "url": null,
+     "note": "Lynne Johnson explains that this week you'll get 'future ready' as a leader: exploring what might impact most on leadership in the years to come, why the word *collaborative* is on everyone's lips, emerging styles such as shared leadership, and resources to keep you up to date with future developments."
+    },
+    {
+     "t": "h",
+     "text": "By the end of this week you will be able to"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "describe how global change can impact on leadership styles",
+      "describe new approaches to leadership",
+      "identify sources of information to keep you up to date with future leadership trends."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead7-02",
+   "title": "1 The impact of change",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Change is all around us, from global and political transformation to changing attitudes and ways of living."
+    },
+    {
+     "t": "img",
+     "src": "img/lead_63.jpg",
+     "alt": "A desk with a lightbox sign reading #New Normal",
+     "caption": "Figure 1 The COVID-19 pandemic has brought about a new normal"
+    },
+    {
+     "t": "p",
+     "text": "One of the most significant recent events for the global workforce was the COVID-19 pandemic and the remote working it widely enforced. The imperative to stay at home has gone, but **hybrid working** has become normal for many of us - and it brings new challenges for leaders."
+    }
+   ]
+  },
+  {
+   "id": "lead7-03",
+   "title": "1.1 Hybrid working: the 5Cs",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Haas (2022) describes the challenges of hybrid work as the **5Cs**:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "*Communication* - technical difficulties, but also the fact that some people are more comfortable speaking up over screens than others, especially where barriers of power, status or language already exist.",
+      "*Coordination* - remote teammates can be left out of small exchanges and minor decisions, which can grow to include more important conversations over time.",
+      "*Connection* - social as well as technical connections can be lost, creating an 'underclass' who feel peripheral to the work and the social life that bonds colleagues.",
+      "*Creativity* - collective and individual; home workers miss spontaneous conversations and the stimulus of a change of scenery.",
+      "*Culture* - if people (especially new hires) rarely come together, how is a company's distinctive 'feel' maintained, and how does it stand out in the competition for talent?"
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Haas suggests using the 5Cs as a checklist with your hybrid team: evaluate, analyse, plan and implement improvements together."
+    }
+   ]
+  },
+  {
+   "id": "lead7-04",
+   "title": "Check: the 5Cs of hybrid work",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "lead7-m1",
+     "title": "Match each hybrid-working challenge to its 'C'",
+     "pairs": [
+      {
+       "term": "Communication",
+       "def": "Some people find it easier than others to speak up over screens"
+      },
+      {
+       "term": "Coordination",
+       "def": "Remote teammates get left out of small exchanges and minor decisions"
+      },
+      {
+       "term": "Connection",
+       "def": "Remote staff can become an 'underclass' who feel peripheral and disconnected"
+      },
+      {
+       "term": "Creativity",
+       "def": "Losing spontaneous conversations and the stimulus of a change of scenery"
+      },
+      {
+       "term": "Culture",
+       "def": "Keeping a company's distinctive 'feel' when people rarely meet"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead7-05",
+   "title": "Competencies for hybrid leadership",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Studying healthcare providers working in hybrid mode, Oleksa-Marewska and Tokar (2022) identified four core remote leadership competencies that indicate 'readiness for the challenges of remote and hybrid work':"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Communicativeness** - especially crucial in communicating vision in remote work",
+      "**Credibility** - personal and professional; important in building trust and commitment",
+      "**Self-development** - 'being open to the search for new solutions and acquiring industry knowledge'",
+      "**Digital readiness** - 'an openness to technological solutions and a readiness to implement and use them in order to improve the work of both one's superiors and subordinates'."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "Leading in a hybrid workplace is a developing topic to keep coming back to - the resources in Section 5 will help you do that."
+    }
+   ]
+  },
+  {
+   "id": "lead7-06",
+   "title": "1.2 Mental health and wellbeing",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/lead_64.jpg",
+     "alt": "A pair of cupped hands holding a smiling face drawn on a piece of card",
+     "caption": "Figure 2 Prioritising the mental health and wellbeing of employees is now more important than ever"
+    },
+    {
+     "t": "p",
+     "text": "As well as changing work practices, the pandemic had a significant impact on health. The mental health and wellbeing of employees are now more important than ever for leaders to prioritise."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Burnout is 'a psychological response to exposure to chronic stressors at work [...] characterised by high levels of emotional exhaustion, depersonalisation and reduced personal accomplishment' (Kumar, 2018).",
+     "title": "Burnout"
+    }
+   ]
+  },
+  {
+   "id": "lead7-07",
+   "title": "Signs of burnout",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Burnout has become a common term for both leaders and followers. Kumar (2018) describes these signs:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Affective** - irritability, oversensitivity, less emotional empathy with clients, increased anger",
+      "**Cognitive** - cynical, dehumanising perceptions of clients; negativism/pessimism; labelling clients in derogatory ways",
+      "**Behavioural** - violent outbursts; irritability toward clients; interpersonal, marital and family conflicts; social isolation and withdrawal; responding to clients mechanically",
+      "**Motivational** - loss of interest; indifference towards clients."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Physical signs are excluded, as they can be observed 'only on an individual level'."
+    }
+   ]
+  },
+  {
+   "id": "lead7-08",
+   "title": "Do leaders spot the warning signs?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Using written vignettes, Pischel et al. (2022) reviewed leaders' awareness of the warning signals of emerging depression and burnout. They found that 'even under favorable conditions, only about half of the leaders recognized warning signals as a health risk.'"
+    },
+    {
+     "t": "p",
+     "text": "Leaders 'showed lower awareness during times of high stress and low autonomy and when followers displayed less clear warning signals.' Leaders need to understand how their awareness may be impeded, and training on common mental health disorders and early warning signs may be valuable."
+    },
+    {
+     "t": "tf",
+     "id": "lead7-q1",
+     "q": "Pischel et al. (2022) found that, under favourable conditions, most leaders (around nine in ten) recognised warning signals of burnout as a health risk.",
+     "answer": false,
+     "explain": "Only about half of the leaders recognised the warning signals, even under favourable conditions - and awareness fell further under high stress and low autonomy."
+    }
+   ]
+  },
+  {
+   "id": "lead7-09",
+   "title": "Preventing burnout",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Wright (2023) suggests these strategies to prevent burnout in yourself and your employees:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Encourage an open and honest workplace culture.",
+      "Put specific HR policies in place - keep workloads sustainable and allow time to relax and recover.",
+      "Notice changes in working patterns, such as emails sent outside work hours.",
+      "Be aware of workloads and deadlines; notice when people ask for help.",
+      "Notice behaviour changes - mood swings, energy levels, interactions with others.",
+      "Balance work allocation proportionately.",
+      "Think about giving back time (leave or fewer hours) after a heavy period.",
+      "Signpost to support.",
+      "Practise what you preach - don't work at all hours and expect out-of-hours replies.",
+      "Look after your own wellbeing - your team will likely follow your example."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead7-10",
+   "title": "1.3 Talent management and retention",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Having tasted life without the daily commute, many people decided to change their careers after the pandemic. This contributed to what is often called **'the great resignation'**, and many leaders have had to focus more on attracting and retaining employees. The same applies to leaders themselves - and to their organisations' ability to attract and keep them."
+    },
+    {
+     "t": "video",
+     "title": "Decoding 'the great resignation' (Gartner)",
+     "url": "https://www.youtube.com/watch?v=bvC8UfRA13o",
+     "note": "A short video from Gartner that focuses on decoding 'the great resignation'. (External YouTube content.)"
+    },
+    {
+     "t": "p",
+     "text": "Developing a greater awareness and understanding of the issues facing your employees is a good place to start."
+    }
+   ]
+  },
+  {
+   "id": "lead7-11",
+   "title": "2 The impact of disruptive technologies",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "'Disruptive technologies' may sound intimidating, but the phrase covers many things you know well - from using the internet on your mobile phone to storing things in 'a cloud'."
+    },
+    {
+     "t": "img",
+     "src": "img/lead_65.jpg",
+     "alt": "A pile of smartphones showing different colourful screens",
+     "caption": "Figure 3 Disruptive technologies are more familiar than you think"
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "'Any enhanced or completely new technology that replaces and disrupts an existing technology, rendering it obsolete. It is designed to succeed similar technology that is already in use.' (Techopedia, 2017)",
+     "title": "Disruptive technology"
+    },
+    {
+     "t": "p",
+     "text": "Păvăloaia and Necula (2023) name the five most prominent examples: **AI, the Internet of Things, blockchain, 5G and 3D printing**. This course concentrates on the one with the highest profile and widest reach: artificial intelligence (AI)."
+    }
+   ]
+  },
+  {
+   "id": "lead7-12",
+   "title": "2.1 Artificial intelligence (AI)",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A guidance document from the Information Commissioner's Office and The Alan Turing Institute (2022) defines AI as:"
+    },
+    {
+     "t": "quote",
+     "text": "AI is an umbrella term for a range of technologies and approaches that often attempt to mimic human thought to solve complex tasks. Things that humans have traditionally done by thinking and reasoning are increasingly being done by, or with the help of, AI.",
+     "by": "ICO and The Alan Turing Institute (2022)"
+    },
+    {
+     "t": "p",
+     "text": "Examples: in healthcare 'AI can be used to spot early signs of illness and diagnose disease'; in policing it can 'identify potential offenders'; in marketing it 'can be used to target products and services to customers'. With such wide uses, AI is likely to have a significant impact on the work lives of many leaders and followers."
+    }
+   ]
+  },
+  {
+   "id": "lead7-13",
+   "title": "Activity 1 The impact of artificial intelligence",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "lead7-a1",
+     "title": "Activity 1 The impact of artificial intelligence",
+     "prompt": "Allow about 10 minutes. Consider what you know about AI and summarise how you think it might impact on leadership in the future - within your own organisation or more broadly.",
+     "model": "It is easy to think of negative impacts, but Khatri (2023) describes several ways AI might positively influence leadership: accelerated decision making, better predictions of future patterns and consequences, more streamlined operations, enhanced collaboration, and development of technical knowledge and skills. As AI's impact grows, some decisions and ways of working will change, and as a leader you'll need to be prepared and able to facilitate their introduction. Innovation management is a complex field worth exploring further (e.g. Nieminen, 2023, 'Innovation Management - The Ultimate Guide').",
+     "points": [
+      "AI could speed up decision making and improve predictions of future patterns.",
+      "AI could streamline operations and enhance collaboration.",
+      "Leaders will need new technical knowledge and skills.",
+      "Leaders must prepare for changed ways of working and facilitate their introduction.",
+      "There are possible negative impacts too, such as concern about jobs."
+     ],
+     "hint": "Think about decisions, operations, collaboration, skills - and about how people may feel about the change."
+    }
+   ]
+  },
+  {
+   "id": "lead7-14",
+   "title": "AI, change and jobs",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "When disruptive technologies transform your operating and business models and customer experience, the staff experience changes too. Your role as leader is to **embrace, support, promote and deploy innovation** while facilitating the potentially rapid change your team experiences (revisit leading change in Week 6)."
+    },
+    {
+     "t": "p",
+     "text": "Many worry about AI and jobs, but the OECD (Milanez, 2023), drawing on almost 100 case studies across eight countries, is more positive than expected:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Employment levels have so far remained steady with AI adoption, though job growth has slowed.",
+      "Robust demand for specialised AI skills is driving growth in AI-related occupations.",
+      "Job reorganisation is more prevalent than job displacement - tasks shift towards those where humans have a comparative advantage.",
+      "Job quality improvements - less tedium, greater engagement, improved physical safety - may be AI's strongest endorsement from a worker's perspective."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "AI can also drive tools for virtual collaboration, such as project management or content analysis tools."
+    }
+   ]
+  },
+  {
+   "id": "lead7-15",
+   "title": "AI case studies: check your understanding",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "lead7-q2",
+     "q": "According to the OECD case studies (Milanez, 2023), which is more prevalent where AI is adopted?",
+     "options": [
+      "Job displacement - roles disappear entirely",
+      "Job reorganisation - tasks shift towards those where humans have a comparative advantage",
+      "Rapid falls in overall employment levels"
+     ],
+     "answer": 1,
+     "explain": "The case studies found job reorganisation more common than displacement, with steady employment levels (though slower job growth)."
+    }
+   ]
+  },
+  {
+   "id": "lead7-16",
+   "title": "3 The impact of collaboration",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "As the global population becomes better connected and opportunities for collaboration grow, a leader's ability to **build productive relationships and share control** is increasingly important."
+    },
+    {
+     "t": "img",
+     "src": "img/lead_66.jpg",
+     "alt": "Cupped hands around a glowing globe linked to many connection points, each a tiny figure in a circle",
+     "caption": "Figure 4 Collaboration and partnership is increasingly important"
+    },
+    {
+     "t": "p",
+     "text": "The pandemic and new ways of interacting, such as hybrid or remote working, have added to this. Creating, developing and maintaining connection between people - team members, partners or clients - has become an even more important part of a leader's role."
+    }
+   ]
+  },
+  {
+   "id": "lead7-17",
+   "title": "3.1 Collaborative leadership",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Collaborative leadership has been around for many years but is particularly relevant today. Hank Rubin (2009), founder of the Institute for Collaborative Leadership, explains:"
+    },
+    {
+     "t": "quote",
+     "text": "You are a collaborative leader once you have accepted responsibility for building - or helping to ensure the success of - a heterogeneous team to accomplish a shared purpose.",
+     "by": "Rubin (2009, p. 2)"
+    },
+    {
+     "t": "p",
+     "text": "This applies whether you lead the team in person or remotely. In *Collaborative Leadership: Building Relationships, Handling Conflict and Sharing Control*, Archer and Cameron (2013) set out three critical skills and three essential attitudes:"
+    },
+    {
+     "t": "h",
+     "text": "Skills"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "*Mediation* - addressing conflict constructively and effectively as soon as it arises",
+      "*Influencing* - sharing control and choosing the best approach to influencing partners",
+      "*Engaging others* - networking and building relationships"
+     ]
+    },
+    {
+     "t": "h",
+     "text": "Attitudes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "*Agility* - forward-looking, quickly assimilating facts and asking incisive questions",
+      "*Patience* - calm and measured, reflecting on new information and giving confidence to others",
+      "*Empathy* - truly listening and being open-minded to others' views"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead7-18",
+   "title": "Check: skills and attitudes",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "lead7-m2",
+     "title": "Match each description to Archer and Cameron's skill or attitude",
+     "pairs": [
+      {
+       "term": "Mediation",
+       "def": "Addressing conflict constructively as soon as it arises"
+      },
+      {
+       "term": "Influencing",
+       "def": "Sharing control and choosing the best way to persuade partners"
+      },
+      {
+       "term": "Engaging others",
+       "def": "Networking and building relationships"
+      },
+      {
+       "term": "Agility",
+       "def": "A forward-looking mind that quickly assimilates facts and asks incisive questions"
+      },
+      {
+       "term": "Patience",
+       "def": "A calm, measured approach that gives confidence to others"
+      },
+      {
+       "term": "Empathy",
+       "def": "Truly listening and being open-minded to the views of others"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead7-19",
+   "title": "A manifesto for the collaborative leader",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Archer and Cameron (2013) offer a ten-point manifesto:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Seek out conflict early - address it openly and with confidence.",
+      "Don't expect partners to share your objectives - look for common ground.",
+      "Collaboration is not a zero-sum game - invest in your partners' success if you want them to invest in yours.",
+      "Value and use diversity to find innovative solutions.",
+      "Only get as close and collaborate as much as the situation demands.",
+      "Look to the long term in relationships.",
+      "Listen hard, then show you have understood.",
+      "Be clear where the significant 'points of interdependence' are.",
+      "Engage others in your mission to be a collaborative leader.",
+      "Be authentic in all you do."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "This is broadly a Western view, from a more individualistic starting point. Elsewhere, for example in East Asia, people have a more naturally collaborative/collectivist approach, stemming from a childhood focused on family and community."
+    }
+   ]
+  },
+  {
+   "id": "lead7-20",
+   "title": "Activity 2 Are you collaborative?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "What is your experience of collaboration?"
+    },
+    {
+     "t": "activity",
+     "id": "lead7-a2",
+     "title": "Activity 2 Are you collaborative?",
+     "prompt": "Allow about 10 minutes. Choose one skill and one attitude from Archer and Cameron's list. Reflect on when you have demonstrated them, or seen others do so, and describe your best example(s). If you have led both in-person and remote teams, compare: do you demonstrate the skill or attitude differently? Are you more comfortable in one context?",
+     "model": "Being collaborative is an increasingly important leadership skill with many benefits: collaborative projects are more likely to win funding, your connections keep you better informed about competitors and context, and people in your network may affect your future career. Closer to home, creating an environment where your team collaborates well takes effort but is a key part of the leader's role - and even if you're not yet the leader, you can use these skills and attitudes to work better with others. The core skills are the same inside and beyond your organisation. If you struggle for examples, ask your boss or mentor about joining collaborative, cross-team projects.",
+     "points": [
+      "Names a specific skill (mediation, influencing, engaging others) and attitude (agility, patience, empathy).",
+      "Gives a concrete example of when it was demonstrated.",
+      "Collaboration brings benefits such as funding, being better informed and career connections.",
+      "The same core skills apply inside and outside the organisation, in person or remotely.",
+      "Seek collaborative cross-team projects to build experience."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead7-21",
+   "title": "3.2 Global collaboration",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Some of your team may be excited to learn from overseas colleagues; others may see it as an unnecessary complication. Gardner and Mortensen (2015), 'Collaborating well in large global teams', advise:"
+    },
+    {
+     "t": "h",
+     "text": "Focus on commonalities"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Remind teams of shared goals - why you're working globally and what each team brings.",
+      "Recognise interdependence - explain why success depends on knowledge and experience from other locations."
+     ]
+    },
+    {
+     "t": "h",
+     "text": "Symmetrise information"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Hold regular virtual meetings to share information and personal experience.",
+      "Prioritise members with the right expertise and the cultural intelligence to work with global colleagues.",
+      "Combine meetings with virtual tours of each other's locations to set the context."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Being clear about what each team contributes shows why the collaboration is valuable, and seeing people in their own environments makes working with them seem less daunting. Awareness training on the cross-cultural context (Week 2, Section 2.1) can also reassure concerns."
+    }
+   ]
+  },
+  {
+   "id": "lead7-22",
+   "title": "4 Emerging leadership styles",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/lead_67.jpg",
+     "alt": "A seedling with three green leaves emerging from a crack in concrete",
+     "caption": "Figure 5 New leadership styles continue to emerge"
+    },
+    {
+     "t": "p",
+     "text": "Leadership styles keep being developed, reflecting changing attitudes and priorities. In Week 2 you met established and more recent styles; this section looks at the latest research and approaches emerging to suit how society now perceives work and authority."
+    },
+    {
+     "t": "p",
+     "text": "Leadership has become more concerned with supporting a **positive employee experience**, and styles such as servant, coaching, democratic and authentic leadership - some long established - are gaining traction."
+    }
+   ]
+  },
+  {
+   "id": "lead7-23",
+   "title": "4.1 Authentic leadership",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Many commentators stress the value of being authentic in what we do and say - particularly important as people struggle to return to 'normal' after the pandemic. George (2003) explains:"
+    },
+    {
+     "t": "quote",
+     "text": "Authentic leaders genuinely desire to serve others through their leadership. They are more interested in empowering the people they lead to make a difference than they are in power, money, or prestige for themselves. They are as guided by qualities of the heart, by passion and compassion, as they are by qualities of the mind.",
+     "by": "George (2003)"
+    },
+    {
+     "t": "p",
+     "text": "He suggests authentic leaders demonstrate five qualities:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "understanding their purpose",
+      "practising solid values",
+      "leading with their heart",
+      "establishing connected relationships",
+      "demonstrating self-discipline."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead7-24",
+   "title": "Your leadership purpose",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Understanding your purpose is particularly important for an authentic leader - a challenging process involving self-reflection and self-awareness."
+    },
+    {
+     "t": "p",
+     "text": "Smith (2023) explains that your leadership purpose should not be the same as your company's vision or mission (you'll write a leadership vision in Week 8). It should reflect 'who you are as a person and how you bring those unique qualities into your leadership'. It is about your values and what matters most to you - your ***why*** statement: the cause, purpose or beliefs that motivate you daily."
+    },
+    {
+     "t": "h",
+     "text": "Examples (Smith, 2023)"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "make the world a better place by helping leaders help themselves and their organizations",
+      "advocate for growth, freedom and prosperity through hard work, risk-taking and connection",
+      "create an environment where everyone can reach their highest potential."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead7-25",
+   "title": "The three G model",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "To develop your own purpose statement, Boulard and Cashman (no date) suggest drawing a Venn diagram of three overlapping areas: **grow, give and gifts**."
+    },
+    {
+     "t": "img",
+     "src": "img/lead_68.jpg",
+     "alt": "Venn diagram of three overlapping circles labelled Grow, Gifts and Give, with Purpose at the centre",
+     "caption": "Figure 6 The three G model can help to define your personal purpose"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Gifts** - which two or three of your attributes are most valuable? How are they, alone or combined, unique to you?",
+      "**Give** - when you act on your gifts, who does that help and how? What positive influence can you have on a person, situation or the world?",
+      "**Grow** - what situations or conditions enhance your ability to act on your gifts? What final factor lets you give them more powerfully?"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Your purpose sits in the centre. Keep it to one sentence: short, simple, memorable and useful."
+    }
+   ]
+  },
+  {
+   "id": "lead7-26",
+   "title": "Authentic leadership: check your understanding",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "lead7-q3",
+     "q": "According to Smith (2023), what should your leadership purpose be based on?",
+     "options": [
+      "Your company's vision or mission statement",
+      "Your values, who you are as a person and what motivates you - your 'why'",
+      "Your current job description and targets"
+     ],
+     "answer": 1,
+     "explain": "Smith stresses that leadership purpose is not the company's vision or mission; it reflects your values and the beliefs that motivate you daily."
+    }
+   ]
+  },
+  {
+   "id": "lead7-27",
+   "title": "4.2 Politically astute leadership",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "As internal and external interests diversify and divide opinion, Hartley et al. (2015) present a framework of **political astuteness** skills that benefit leaders and managers in all sectors."
+    },
+    {
+     "t": "p",
+     "text": "Professor Hartley (2023) explains that political astuteness is about 'working with contest and conflict to achieve organisational and social goals'. Leaders use these skills in situations from 'dealing with people within their organisation, including factions and disagreeing tribes' to 'liaising with partners and in strategic alliances.'"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Dimension",
+      "Skills"
+     ],
+     "rows": [
+      [
+       "Strategic direction and scanning",
+       "Retaining a sense of purpose; knowing when to move fast on your agenda and when to hold off; picking up signals (trade press, colleagues, external sources) about what is over the horizon"
+      ],
+      [
+       "Building alignment and alliances",
+       "Knowing who to work with and who to exclude to achieve goals; making alliances amid competition; knowing when to collaborate or compete; understanding organisations' differences in alliances"
+      ],
+      [
+       "Reading people and situations",
+       "Seeing others' values, motives, interests and goals; understanding organisational goals and power structures; recognising the threat you (or your organisation) pose to others"
+      ],
+      [
+       "Interpersonal skills",
+       "Listening; encouraging people to be open with you; being curious and making people feel valued"
+      ],
+      [
+       "Personal skills",
+       "Self-awareness; self-control; a proactive disposition - anticipating and developing the agenda"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead7-28",
+   "title": "Activity 3 Are you politically astute?",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "lead7-a3",
+     "title": "Activity 3 Are you politically astute?",
+     "prompt": "Allow about 10 minutes. Look at the five dimensions of the political astuteness framework (Hartley, 2023) on the previous page. For each skill, decide: Y = I already use it, N = I don't, NR = not relevant to my context. Note which dimensions are strongest and which you could develop.",
+     "model": "Political astuteness matters both internally (revisit internal politics in Week 6) and externally. The framework is a useful checklist, especially for a leader still developing strategic thinking. In Hartley's (2023) survey of 1,500 people, the most frequent learning opportunities came from failure or mismanagement: 88% learnt from their mistakes, 86% from on-the-job experience, 85% from handling a crisis, 77% from a senior manager's good example and 70% from observing bad behaviour by a senior manager. Use your leadership journal to reflect on 'political' conversations you've joined or observed - what went well or wrong, and what could have been done differently.",
+     "points": [
+      "Rates own use of skills across the five dimensions.",
+      "Identifies strengths and areas for development.",
+      "Political astuteness matters internally and externally.",
+      "Most people learn these skills from mistakes, experience and crises.",
+      "Reflecting on past political conversations in a journal helps."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead7-29",
+   "title": "Learning political astuteness",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "lead7-q4",
+     "q": "In Hartley's (2023) survey of 1,500 people, which was the most frequently reported way of learning political astuteness skills?",
+     "options": [
+      "Formal training courses",
+      "Learning from their own mistakes",
+      "Observing bad behaviour from a senior manager",
+      "Reading leadership books"
+     ],
+     "answer": 1,
+     "explain": "88% learnt from their mistakes, followed by on-the-job experience (86%) and handling a crisis (85%). Observing bad behaviour was reported by 70%."
+    }
+   ]
+  },
+  {
+   "id": "lead7-30",
+   "title": "4.3 Is there a future for leadership as we know it?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "In *Dare to Unlead: The art of relational leadership in a fragmented world* (2022), Céline Schillinger argues that leadership styles that worked in an industrial society are no longer fit for a knowledge-based one. We need 'leaders who can gain a better understanding of the world around them, who can facilitate connections between different domains and areas of expertise, and who can enable us to change what doesn't work.'"
+    },
+    {
+     "t": "p",
+     "text": "She suggests focusing on three 'universal values':"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Liberty** - giving individuals freedom to exercise judgement and develop their agency",
+      "**Equality** - embracing collective working practices and encouraging peer leadership",
+      "**Fraternity** - inspiring shared commitment to a common cause, forming communities based on intent and impact."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead7-31",
+   "title": "'Un-leading'",
+   "blocks": [
+    {
+     "t": "quote",
+     "text": "This view of leadership is a toxic ideology. It hurts people, it hurts organizations, it hurts the planet. It is time to 'un-lead': to realize that leadership is first and foremost a collective capacity to be cultivated, whose basic constituent is the relational and emotional fluency [...] including effacing oneself in the collective rather than standing above it. This requires not less effort than the traditional conception of leadership, but more.",
+     "by": "Céline Schillinger (2022)"
+    },
+    {
+     "t": "p",
+     "text": "Schillinger argues organisations 'make us sick' because we keep putting leaders on a pedestal, attributing singular virtues of charisma or 'natural' authority. Un-leadership, she says, creates sustainable economic and human value, unlike the extractive model we are used to."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "A podcast associated with the book features Schillinger and other influential voices: weneedsocial.com/podcast"
+    }
+   ]
+  },
+  {
+   "id": "lead7-32",
+   "title": "Video: the leaders of the future",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Rebecca Fielding shares her view of the types of leaders organisations will recruit in future."
+    },
+    {
+     "t": "video",
+     "title": "Rebecca Fielding on future leaders",
+     "url": null,
+     "note": "Fielding sees fewer permanent pyramid hierarchies (senior leader, middle and first-line managers, 'the troops'); fewer people, especially younger generations, want to work that way. Instead, as in Silicon Valley, people come together in fluid, non-hierarchical, project- and matrix-based teams: you lead one project, I lead the next because I have the expertise, then the team disassembles. This makes better use of individual talents. Alongside this, jobs for life are giving way to freelancing and the gig economy. So command-and-control skills ('I decide, you do') become less relevant; leaders need to engage people, use followership skills (delivering on promises, valuing others' talents), be agile and flexible, and bring networks together to work fluidly, creatively and at a distance."
+    },
+    {
+     "t": "tf",
+     "id": "lead7-q5",
+     "q": "Rebecca Fielding predicts that traditional command-and-control skills will become more important for future leaders.",
+     "answer": false,
+     "explain": "She argues they become much less relevant; engaging people, followership skills and agility in fluid, project-based teams matter more."
+    }
+   ]
+  },
+  {
+   "id": "lead7-33",
+   "title": "Holacracy",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Some organisations are exploring alternatives to traditional leadership. Shared leadership is one; a more extreme model is **holacracy**, used by more than 200 organisations worldwide in sectors from education and technology to retail and design (Holacracy Foundation, 2023)."
+    },
+    {
+     "t": "p",
+     "text": "HolacracyOne describes it as a management framework with five modules, ideally adopted together but possible separately:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "**Clear organisational structure** - no need to ask your manager who to talk to in another department.",
+      "**Clear rules of cooperation** - on transparency, prioritisation and processing requests.",
+      "**Efficient, 'tactical' meetings** - staying focused, avoiding tangents and time wasted seeking consensus.",
+      "**Distributed authority** - clear boundaries within which employees lead and use their judgement.",
+      "**Decentralised governance process** - anyone can propose changes to their own and colleagues' roles."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead7-34",
+   "title": "4.4 Case study: Zappos",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Online shoe retailer Zappos removed its management hierarchy and introduced holacracy several years ago. The focus was **transparency and adaptability**: tools helped staff identify the work that needed doing, and staff could pitch for work that interested them rather than follow an out-of-date job description."
+    },
+    {
+     "t": "p",
+     "text": "In a *Harvard Business Review IdeaCast*, Bernstein and Bunch (2016) described the significant work of retraining staff and building the technology and structures. Crucially, it wasn't 'leaderless' - leadership was **distributed** throughout the organisation."
+    },
+    {
+     "t": "p",
+     "text": "It isn't for everyone: a number of employees reportedly resigned soon after implementation. Zhou (2023) found self-management can enhance engagement and consistency in achieving objectives, but warned that intercultural collaboration and motivation need attention. Zappos now shares resources, testimonials and tours through 'Zappos Insights'."
+    },
+    {
+     "t": "tf",
+     "id": "lead7-q6",
+     "q": "At Zappos, holacracy created a completely leaderless organisation.",
+     "answer": false,
+     "explain": "Bernstein and Bunch (2016) stressed it was not 'leaderless' - leadership or management was distributed throughout the organisation."
+    }
+   ]
+  },
+  {
+   "id": "lead7-35",
+   "title": "Activity 4 What do you predict?",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "lead7-a4",
+     "title": "Activity 4 What do you predict?",
+     "prompt": "Allow about 30 minutes. 1. Find an article, blog or paper about the future of business leadership that captures your imagination (or visit the Holacracy website, or read about Schillinger's Dare to Unlead approach) and summarise it. 2a. How does that approach compare with leadership you've experienced or observed, or your own style? 2b. Could it be effective in your workplace?",
+     "model": "Cutting-edge approaches like the one Zappos introduced are still relatively unusual, but interest is growing all the time. A radical change may be unlikely in your organisation, but elements of these new approaches could inform small changes. Use your leadership journal to identify areas that interest you and experiment with ideas.",
+     "points": [
+      "Summarises a specific future-of-leadership approach or source.",
+      "Compares it with leadership experienced, observed or own style.",
+      "Judges realistically whether it could work in own workplace.",
+      "Radical change is unlikely, but elements could inform small changes.",
+      "Uses the leadership journal to experiment with ideas."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead7-36",
+   "title": "5 Keeping up to date",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Leadership and followership have stimulated research and discussion for decades - and will continue to do so. If you plan to keep learning beyond this course, these resources may help (web links are in the course references)."
+    },
+    {
+     "t": "img",
+     "src": "img/lead_70.jpg",
+     "alt": "A cursor arrow pointing at a web address bar showing http://www.",
+     "caption": "Figure 7 The internet is a useful source of information about leadership"
+    },
+    {
+     "t": "h",
+     "text": "Business resources"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Harvard Business Review** - ideas and classic advice on strategy, innovation and leadership; a few free articles per month, more after free sign-up.",
+      "**Forbes** - global media on business, investing, technology, entrepreneurship, leadership and lifestyle; a few free articles per month.",
+      "**European Business Review** - scholarly economic articles on European companies, with leadership and strategy sections.",
+      "**CIPD** - the professional body for HR and people development (search 'leadership').",
+      "**Chartered Management Institute** - management and leadership training, qualifications, membership and research."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead7-37",
+   "title": "Academic resources and organisations",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Academic resources let you view abstracts, but there is usually a charge for full articles."
+    },
+    {
+     "t": "h",
+     "text": "Academic resources"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**The Leadership Quarterly** - social science journal on leadership as a phenomenon, how to study it and its practical implications; some open access articles.",
+      "**Journal of Leadership and Organizational Studies** - quarterly, peer-reviewed; advances theory, research and practice; some free/open access articles."
+     ]
+    },
+    {
+     "t": "h",
+     "text": "Leadership organisations"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**International Leadership Association** - a global network for those who practise, study and teach leadership.",
+      "**Centre for Leadership Studies (University of Exeter)** - high-quality leadership and governance research.",
+      "**Institute of Leadership and Management** - qualifications, training and research for leaders and managers."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead7-38",
+   "title": "Leadership experts to follow",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Many people could be listed, but these three have different styles and introduce leadership from different perspectives. Their YouTube videos and TED Talks are a good starting point:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Marshall Goldsmith** - leadership coach",
+      "**John Kotter** - Professor of Leadership, author",
+      "**Simon Sinek** - author, motivational speaker and marketing consultant"
+     ]
+    },
+    {
+     "t": "activity",
+     "id": "lead7-a5",
+     "title": "Activity 5 Reviewing the resources - what works for you?",
+     "prompt": "Allow about 1 hour. Spend time online reviewing the resources, organisations and individuals in this section. Some are academic, others practical - which suit you? Choose three resources you could regularly refer to or follow on social media, and say why.",
+     "model": "A resource that inspires and motivates you is a useful tool. You could include inspiring quotes in your leadership journal and look back at them when tired or frustrated. Following people or organisations on social media (e.g. Facebook, Twitter, LinkedIn) is an easy way to keep up to date with their views and activities without spending lots of time reading.",
+     "points": [
+      "Names three specific resources, organisations or experts.",
+      "Explains why each suits own style (academic or practical).",
+      "Plans how to follow them regularly, e.g. on social media.",
+      "Inspiring material can go in the leadership journal."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead7-39",
+   "title": "Summary",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "This week you have learned that the future of leadership involves significant change - and that leaders can rise to the challenge, with many researchers and experts already investigating what will happen next."
+    },
+    {
+     "t": "p",
+     "text": "You should now be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "describe how global change can impact on leadership styles",
+      "describe new approaches to leadership",
+      "identify sources of information to keep you up to date with future leadership trends."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Use your leadership journal to reflect on what you've learned this week. Next week, in your final week, you'll reflect on your own leadership experience and identify areas for development."
+    },
+    {
+     "t": "flash",
+     "cards": [
+      {
+       "front": "The 5Cs of hybrid work (Haas, 2022)",
+       "back": "Communication, coordination, connection, creativity, culture"
+      },
+      {
+       "front": "Burnout",
+       "back": "A psychological response to chronic work stressors: emotional exhaustion, depersonalisation, reduced personal accomplishment (Kumar, 2018)"
+      },
+      {
+       "front": "Disruptive technology",
+       "back": "Enhanced or new technology that replaces an existing one, rendering it obsolete"
+      },
+      {
+       "front": "Collaborative leader (Rubin, 2009)",
+       "back": "Someone who accepts responsibility for building a heterogeneous team to accomplish a shared purpose"
+      },
+      {
+       "front": "Three G model",
+       "back": "Gifts, give, grow - overlapping to define your personal purpose"
+      },
+      {
+       "front": "Holacracy",
+       "back": "A management framework that distributes authority through clear structure, rules, tactical meetings and decentralised governance"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead7-40",
+   "title": "Week 7 quiz (1 of 2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "lead7-q7",
+     "q": "Which four core remote leadership competencies did Oleksa-Marewska and Tokar (2022) identify?",
+     "options": [
+      "Communicativeness, credibility, self-development, digital readiness",
+      "Mediation, influencing, engaging others, empathy",
+      "Liberty, equality, fraternity, purpose",
+      "Agility, patience, empathy, credibility"
+     ],
+     "answer": 0,
+     "explain": "These four indicate 'readiness for the challenges of remote and hybrid work'."
+    },
+    {
+     "t": "quiz",
+     "id": "lead7-q8",
+     "q": "Which are among Păvăloaia and Necula's (2023) five most prominent disruptive technologies? Select all that apply.",
+     "options": [
+      "Artificial intelligence",
+      "Blockchain",
+      "Fax machines",
+      "3D printing",
+      "Internet of Things"
+     ],
+     "answer": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "explain": "The five are AI, the Internet of Things, blockchain, 5G and 3D printing.",
+     "multi": true
+    },
+    {
+     "t": "quiz",
+     "id": "lead7-q9",
+     "q": "Which of these is an *attitude* (not a skill) in Archer and Cameron's (2013) model of collaborative leadership?",
+     "options": [
+      "Mediation",
+      "Influencing",
+      "Patience",
+      "Engaging others"
+     ],
+     "answer": 2,
+     "explain": "The skills are mediation, influencing and engaging others; the attitudes are agility, patience and empathy."
+    }
+   ]
+  },
+  {
+   "id": "lead7-41",
+   "title": "Week 7 quiz (2 of 2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "lead7-q10",
+     "q": "What does Céline Schillinger mean by 'un-leading'?",
+     "options": [
+      "Removing all leaders and letting teams manage without any structure",
+      "Seeing leadership as a collective capacity built on relational and emotional fluency, rather than putting individual leaders on a pedestal",
+      "Returning to command-and-control leadership",
+      "Leaders doing less work than before"
+     ],
+     "answer": 1,
+     "explain": "She sees leadership as a collective capacity; un-leading requires more effort, not less, and means effacing oneself in the collective."
+    },
+    {
+     "t": "quiz",
+     "id": "lead7-q11",
+     "q": "In the three G model, which question belongs to 'Give'?",
+     "options": [
+      "Which two or three of your attributes are most valuable?",
+      "When you act on your gifts, who does that help and how?",
+      "What conditions enhance your ability to act on your gifts?"
+     ],
+     "answer": 1,
+     "explain": "'Gifts' asks about your attributes; 'Grow' about conditions that enhance them; 'Give' about who you help and how."
+    },
+    {
+     "t": "tf",
+     "id": "lead7-q12",
+     "q": "Gardner and Mortensen (2015) recommend 'symmetrising information' in global teams, for example through regular virtual meetings and virtual tours of each other's locations.",
+     "answer": true,
+     "explain": "Alongside focusing on commonalities (shared goals, interdependence), they advise symmetrising information through meetings, the right people and virtual tours."
+    }
+   ]
+  }
+ ]
+}

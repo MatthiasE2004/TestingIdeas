@@ -29,6 +29,7 @@ public class MainActivity extends Activity {
     static final String HOST = "appassets.androidplatform.net";
     static final String START = "https://" + HOST + "/index.html";
     WebView web;
+    boolean dark;
     BtSync bt;
     NativeLlm llm;
 
@@ -49,12 +50,10 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle b) {
         super.onCreate(b);
-        getWindow().setStatusBarColor(Color.parseColor("#ECECEC"));
-        getWindow().setNavigationBarColor(Color.parseColor("#ECECEC"));
-        if (Build.VERSION.SDK_INT >= 23) {
-            getWindow().getDecorView().setSystemUiVisibility(
-                View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR | (Build.VERSION.SDK_INT >= 26 ? 0x10 : 0));
-        }
+        android.content.SharedPreferences sp0 = getSharedPreferences("learn", MODE_PRIVATE);
+        boolean night = (getResources().getConfiguration().uiMode & android.content.res.Configuration.UI_MODE_NIGHT_MASK) == android.content.res.Configuration.UI_MODE_NIGHT_YES;
+        dark = sp0.contains("darkBars") ? sp0.getBoolean("darkBars", false) : night;
+        setBars(dark);
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE);
 
         createWeb();
@@ -63,7 +62,7 @@ public class MainActivity extends Activity {
     void createWeb() {
         web = new WebView(this);
         web.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
-        web.setBackgroundColor(Color.parseColor("#ECECEC"));
+        web.setBackgroundColor(dark ? Color.BLACK : Color.parseColor("#ECECEC"));
         setContentView(web);
 
         WebSettings s = web.getSettings();
@@ -121,7 +120,30 @@ public class MainActivity extends Activity {
                 request.deny();
             }
         });
-        web.loadUrl(START);
+        web.loadUrl(START + hashFrom(getIntent()));
+    }
+
+    /** status + navigation bar colours follow the app theme so dark mode has no light bars */
+    void setBars(boolean d) {
+        dark = d;
+        int c = d ? Color.BLACK : Color.parseColor("#ECECEC");
+        getWindow().setStatusBarColor(c);
+        getWindow().setNavigationBarColor(c);
+        getWindow().getDecorView().setSystemUiVisibility(d ? 0 : (View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR | 0x10));
+        getWindow().getDecorView().setBackgroundColor(c);
+        if (web != null) web.setBackgroundColor(c);
+    }
+
+    static String hashFrom(Intent i) {
+        String h = i == null ? null : i.getStringExtra("hash");
+        return (h != null && h.startsWith("#/")) ? h : "";
+    }
+
+    @Override
+    protected void onNewIntent(Intent i) {
+        super.onNewIntent(i);
+        String h = hashFrom(i);
+        if (h.length() > 0 && web != null) web.evaluateJavascript("location.hash=" + BtSync.q(h), null);
     }
 
     static String mime(String p) {
@@ -178,6 +200,7 @@ public class MainActivity extends Activity {
 
     @Override
     public void onRequestPermissionsResult(int code, String[] perms, int[] res) {
+        if (code == 78) return; // notifications
         bt.onPermissionResult(res.length > 0 && res[0] == PackageManager.PERMISSION_GRANTED);
     }
 
@@ -202,6 +225,41 @@ public class MainActivity extends Activity {
             int n = sp.getInt("renderGone", 0);
             if (n != 0) sp.edit().putInt("renderGone", 0).apply();
             return n;
+        }
+
+        @android.webkit.JavascriptInterface
+        public void setSystemBars(final boolean d) {
+            getSharedPreferences("learn", MODE_PRIVATE).edit().putBoolean("darkBars", d).apply();
+            runOnUiThread(new Runnable() { public void run() { setBars(d); } });
+        }
+
+        /* ---- daily reminder ---- */
+        @android.webkit.JavascriptInterface
+        public void scheduleReminder(boolean on, int h, int m) {
+            getSharedPreferences("learn", MODE_PRIVATE).edit().putBoolean("remindOn", on).putInt("remindH", h).putInt("remindM", m).apply();
+            Reminder.schedule(MainActivity.this);
+        }
+
+        @android.webkit.JavascriptInterface
+        public void setReminderMessages(String json) { getSharedPreferences("learn", MODE_PRIVATE).edit().putString("remindMsgs", json).apply(); }
+
+        @android.webkit.JavascriptInterface
+        public void markReadToday(String day) { getSharedPreferences("learn", MODE_PRIVATE).edit().putString("lastRead", day).apply(); }
+
+        @android.webkit.JavascriptInterface
+        public void testReminder() { Reminder.show(MainActivity.this); }
+
+        @android.webkit.JavascriptInterface
+        public void requestNotificationPermission() {
+            if (Build.VERSION.SDK_INT >= 33 && checkSelfPermission("android.permission.POST_NOTIFICATIONS") != PackageManager.PERMISSION_GRANTED)
+                runOnUiThread(new Runnable() { public void run() { requestPermissions(new String[]{"android.permission.POST_NOTIFICATIONS"}, 78); } });
+        }
+
+        /* ---- home-screen widget ---- */
+        @android.webkit.JavascriptInterface
+        public void updateWidget(String json) {
+            getSharedPreferences("learn", MODE_PRIVATE).edit().putString("widget", json).apply();
+            ProgressWidget.updateAll(MainActivity.this);
         }
 
         @android.webkit.JavascriptInterface

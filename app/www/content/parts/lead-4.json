@@ -1,0 +1,1069 @@
+{
+ "id": "lead4",
+ "title": "Week 4: When leadership goes wrong",
+ "summary": "Recognising ineffective and destructive leadership, its impact on followers and organisations, common leadership mistakes and the skills that help put them right.",
+ "minutes": 100,
+ "pages": [
+  {
+   "id": "lead4-01",
+   "title": "Welcome to Week 4",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Last week you looked at leadership skills: why employers value them and how you can develop yours. This week you move your focus from good leadership to **bad**. You'll consider the spectrum of poor leadership and the common mistakes leaders make. Learning from those mistakes might help you avoid making them yourself."
+    },
+    {
+     "t": "video",
+     "title": "Lynne Johnson introduces Week 4",
+     "url": null,
+     "note": "Lynne notes that to do things right we often have to make mistakes and learn from them, but we can also learn from what happens around us. Have you ever seen or experienced really poor leadership? This week looks at the common mistakes leaders make, defines destructive leadership, explores the impact of bad or weak leadership on a team and, importantly, how to turn it around."
+    },
+    {
+     "t": "h",
+     "text": "By the end of this week, you will be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "recognise poor leadership in different forms",
+      "reflect on the impact of poor or weak leadership",
+      "describe ways in which leadership mistakes might be avoided."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead4-02",
+   "title": "What is poor leadership?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Poor leadership can be described on a **spectrum**. This course concentrates on the poor leadership you're likely to meet in the workplace, ranging from the common mistakes many leaders make to leaders who are 'destructive'."
+    },
+    {
+     "t": "img",
+     "src": "img/lead_33.jpg",
+     "alt": "A shiny black business shoe crushing several egg shells with worried faces drawn on them",
+     "caption": "Figure 1 Poor leadership can damage your team"
+    },
+    {
+     "t": "p",
+     "text": "At some point a leader in your organisation, or in public life, will have made a decision you disagree with, or upset people with a damaging comment. Some show negative behaviours over a long period, harming morale. Have you ever wondered why? Was it pressure, their circumstances, or a lack of the skills to handle the situation?"
+    }
+   ]
+  },
+  {
+   "id": "lead4-03",
+   "title": "Activity 1: Your experience of poor leadership",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "lead4-a1",
+     "title": "Activity 1 Your experience of poor or weak leadership",
+     "prompt": "Part 1: Think of a time when you felt shocked, offended, disappointed or angry at an action taken by a leader you follow. Briefly summarise the situation and how you felt. What made it poor leadership? Part 2: Now put yourself in the leader's position. What could you have done differently?",
+     "model": "When you considered what you would do differently, what were the key differences? Would you use different skills, different language or a different method of communication? Would you seek out and apply knowledge the leader didn't have and should have asked for? Reflecting on how a situation could have been handled more effectively is important for any leader, and your leadership journal is a useful tool for it.",
+     "points": [
+      "Describe the situation and why it felt like poor leadership.",
+      "Consider different skills, language or ways of communicating.",
+      "Think about information the leader lacked and should have sought.",
+      "Reflecting on how a situation could be handled better is a key leadership habit."
+     ],
+     "hint": "Allow about 15 minutes."
+    }
+   ]
+  },
+  {
+   "id": "lead4-04",
+   "title": "When the poor leader is you",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Sometimes the poor or weak leader might be **you**. Have you ever had feedback that surprised you, or coaching that encouraged you to reflect on your own actions? Professor Jean Hartley explains the importance of reviewing yourself."
+    },
+    {
+     "t": "video",
+     "title": "Jean Hartley: reviewing your own leadership",
+     "url": null,
+     "note": "Jean Hartley says it can be hard to review your own leadership, but continual low-key self-monitoring is important. Your environment gives you data: others' body language, meeting dynamics that feel wrong (long pauses, reluctance to speak, only the most powerful speaking), an angry clash, or 'active passivity' - everyone agrees what should be done but it doesn't get done. Ask what your purpose as a leader is and how far you achieve it. Many experienced leaders reflect critically on the journey home or keep a reflective journal. You can also draw in others: a mentor, a coach or an action learning set."
+    }
+   ]
+  },
+  {
+   "id": "lead4-05",
+   "title": "Why leadership can go wrong",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Many things can affect your leadership, from being forced to lead on a vision you don't share, to a lack of confidence in your skills and a feeling of being out of your depth. Sometimes you might just have a bad day!"
+    },
+    {
+     "t": "p",
+     "text": "Many leaders find **coaching and reflection** invaluable for reviewing their actions. This week helps you recognise the wrong behaviours and consider more successful alternatives. Use the leadership journal you started in Week 3 to identify where you might be going wrong and how to improve."
+    },
+    {
+     "t": "video",
+     "title": "Jean Hartley: if your leadership isn't working",
+     "url": null,
+     "note": "Jean advises first analysing the situation to work out what help would be useful. If someone gets under your skin and you're more irritable with them, take it to your coach and find a different way of working with them. If you lack technical skill or understanding of your team, read up or spend more time with team members. If you can't put your finger on what isn't working, talk to a trusted friend who listens and questions well, a mentor, or read around the subject - you may need to try more than one thing. Many things take months or years to improve: 'fall down seven times, get up eight'. Nobody's perfect; be kind to yourself."
+    }
+   ]
+  },
+  {
+   "id": "lead4-06",
+   "title": "Defining poor or weak leadership",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "There is growing academic interest in the negative side of leadership. Schyns and Schilling (2013) give two main reasons:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "the prevalence of destructive leader behaviours in organisations, and the associated costs",
+      "findings that the effects of destructive leaders on their followers are severe."
+     ]
+    },
+    {
+     "t": "img",
+     "src": "img/lead_36.jpg",
+     "alt": "Lego mini figures of Darth Vader and a Stormtrooper facing each other against a red background",
+     "caption": "Figure 2 Bad leaders can be found in both real life and fiction"
+    },
+    {
+     "t": "p",
+     "text": "Researchers have defined many types of negative leadership, often with different terminology. Two key categories follow: **ineffective** and **destructive** leadership."
+    }
+   ]
+  },
+  {
+   "id": "lead4-07",
+   "title": "Ineffective leadership (Kellerman)",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Barbara Kellerman (2004) defines seven types of bad leadership in *Bad Leadership: What it is, How it Happens, Why it Matters*, using many high-profile case studies. She first divides bad leadership into two broad categories:"
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "'Fails to produce the desired change. For reasons that include missing traits, weak skills, strategies badly conceived, and tactics badly employed, ineffective leadership falls short of its intention.'",
+     "title": "Ineffective leadership"
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "'Fails to distinguish between right and wrong.'",
+     "title": "Unethical leadership"
+    },
+    {
+     "t": "p",
+     "text": "This course concentrates on the first category, ineffective leadership."
+    }
+   ]
+  },
+  {
+   "id": "lead4-08",
+   "title": "Three types of ineffective leadership",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Kellerman (2004) divides ineffective leadership into three groups, each illustrated with case studies:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Type",
+      "Description",
+      "Case study"
+     ],
+     "rows": [
+      [
+       "Incompetent",
+       "Lacks the will or skill (or both) to sustain effective action; does not create positive change",
+       "Juan Antonio Samaranch (business leader)"
+      ],
+      [
+       "Rigid",
+       "Stiff and unyielding; unable or unwilling to adapt to new ideas, new information or changing times",
+       "Mary Meeker (business leader)"
+      ],
+      [
+       "Intemperate",
+       "Lacks self-control and is aided and abetted by followers who are unwilling or unable to intervene",
+       "Marion Barry Jr (political leader)"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead4-09",
+   "title": "Destructive leadership",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A growing body of research focuses on **destructive leadership**. After a comprehensive literature review, Padilla, Hogan and Kaiser (2007) set out five features:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "It is seldom absolutely or entirely destructive: there are both good and bad results in most leadership situations.",
+      "It involves dominance, coercion and manipulation rather than influence, persuasion and commitment.",
+      "It has a selfish orientation, focused more on the leader's needs than those of the larger social group.",
+      "Its effects compromise the quality of life for constituents and detract from the organisation's main purposes.",
+      "Destructive outcomes are not only the result of destructive leaders, but also of susceptible followers and conducive environments."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead4-10",
+   "title": "Many styles of destructive leadership",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A more recent literature review and meta-analysis of over 400 data samples (Mackey et al., 2021) suggests we still have an incomplete understanding of destructive leadership, and aims to provide a foundation for further research into the wide variety of destructive styles and behaviours now defined."
+    },
+    {
+     "t": "p",
+     "text": "Their paper lists **21 definitions** of destructive leadership styles from the literature, ranging from **aversive leadership** (leading through intimidation, threats and punishment) to **leadership incivility** (leaders displaying a lack of regard for followers)."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "Have you ever encountered a leader who falls into one of these categories? Can you recognise any of those characteristics in yourself?",
+     "title": "Reflect"
+    }
+   ]
+  },
+  {
+   "id": "lead4-11",
+   "title": "Case study: Theranos",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/lead_37.jpg",
+     "alt": "A Theranos company building with the company sign in front",
+     "caption": "Figure 3 Biotech company, Theranos"
+    },
+    {
+     "t": "p",
+     "text": "Elizabeth Holmes was CEO of biotech company Theranos, which claimed a new technology could run hundreds of tests on small blood samples, speeding up diagnosis and treatment. The technology never worked successfully, and Holmes received a prison sentence for fraud. Tourish (2023) draws out examples of bad leadership:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "The Board Holmes appointed was high profile across US society but had no biotech expertise, so no one offered expertise, oversight and feedback on key decisions.",
+      "The leadership style was controlling, using surveillance cameras and strict limits on colleagues sharing information.",
+      "Employees who asked too many questions or wouldn't 'show unmitigated loyalty' were encouraged to leave."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Holmes has been described as both a destructive leader and a **negatively charismatic** leader: one who used their natural charisma in a destructive way."
+    }
+   ]
+  },
+  {
+   "id": "lead4-12",
+   "title": "Check: types of poor leadership",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "lead4-m1",
+     "title": "Match each description to the type of poor leadership",
+     "pairs": [
+      {
+       "term": "Incompetent",
+       "def": "Lacks the will or skill (or both) to sustain effective action"
+      },
+      {
+       "term": "Rigid",
+       "def": "Unable or unwilling to adapt to new ideas, information or changing times"
+      },
+      {
+       "term": "Intemperate",
+       "def": "Lacks self-control, aided by followers who will not or cannot intervene"
+      },
+      {
+       "term": "Unethical leadership",
+       "def": "Fails to distinguish between right and wrong"
+      },
+      {
+       "term": "Aversive leadership",
+       "def": "Leading through intimidation, threats and punishment"
+      },
+      {
+       "term": "Leadership incivility",
+       "def": "Leaders displaying a lack of regard for followers"
+      },
+      {
+       "term": "Negatively charismatic leadership",
+       "def": "Using natural charisma in a destructive way"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead4-13",
+   "title": "Activity 2: Categorising poor leadership",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "lead4-a2",
+     "title": "Activity 2 Categorising poor leadership",
+     "prompt": "Refer to the example of poor leadership you thought of in Activity 1. Looking at the types and definitions in this section, can you fit that leader into any of the categories? Summarise your thoughts.",
+     "model": "Did your example fit Kellerman's ineffective leadership category - incompetent, rigid or intemperate? Or was your leader destructive, or even negatively charismatic? A key question is: what can I learn from that person's approach to make sure it isn't a path I take in my own leadership career? If your leader is neither ineffective nor destructive, they may simply be making common leadership mistakes.",
+     "points": [
+      "Test the example against incompetent, rigid and intemperate.",
+      "Consider whether it was destructive or negatively charismatic.",
+      "Ask what you can learn so you don't follow the same path.",
+      "Some poor leaders are simply making common mistakes."
+     ],
+     "hint": "Allow about 10 minutes."
+    }
+   ]
+  },
+  {
+   "id": "lead4-14",
+   "title": "The role of followers",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Both Kellerman (2004) and Padilla et al. (2007) include **followers** in their definitions of poor or bad leadership: bad or destructive leaders can't have the same impact without **bystanders** who look the other way, or **colluders** who join in the destruction."
+    },
+    {
+     "t": "p",
+     "text": "Analysis by Mackey et al. (2021) shows 'that much of destructive leadership research actually examines subordinates' negative perceptions of their supervisors instead of how destructive leaders impact followers and their organisations.'"
+    },
+    {
+     "t": "p",
+     "text": "You'll investigate followership in more detail in Week 5. Next, you'll consider the impact of poor leadership on individuals, teams and businesses."
+    }
+   ]
+  },
+  {
+   "id": "lead4-15",
+   "title": "Activity 3: The impact of poor leadership",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/lead_38.jpg",
+     "alt": "A pane of glass with cracks radiating out from an impact at its centre",
+     "caption": "Figure 4 Poor leadership can be shattering"
+    },
+    {
+     "t": "activity",
+     "id": "lead4-a3",
+     "title": "Activity 3 Impact of poor leadership",
+     "prompt": "Think of a time when you felt demotivated. Could your leader (manager, supervisor, team captain etc.) have done anything to change how you felt? What could they have done? What could you have done yourself to change the situation?",
+     "model": "Demotivation is a common result of poor leadership, but a leader can do something about it - acknowledging the demotivation and taking steps to boost morale is a good start. You could also act yourself: giving your leader appropriate, constructive feedback can lead to a positive outcome for everyone. In extreme circumstances, such as bullying or harassment, you may need support from Human Resources.",
+     "points": [
+      "Demotivation is a common result of poor leadership.",
+      "A leader can acknowledge demotivation and boost morale.",
+      "Followers can give the leader constructive feedback.",
+      "In extreme cases like bullying or harassment, seek HR support."
+     ],
+     "hint": "Allow about 15 minutes."
+    }
+   ]
+  },
+  {
+   "id": "lead4-16",
+   "title": "Four areas of impact",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "In their meta-analysis of destructive leadership, Schyns and Schilling (2013) propose a framework of four concepts:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Area",
+      "Impact"
+     ],
+     "rows": [
+      [
+       "Leader related",
+       "Followers resist the leader (e.g. ignoring requests) and lose trust in them"
+      ],
+      [
+       "Job related",
+       "Job satisfaction diminishes as the environment becomes less pleasant; followers become less dedicated or motivated"
+      ],
+      [
+       "Organisation related",
+       "Commitment falls as followers feel the organisation failed to protect them; productivity and turnover are affected"
+      ],
+      [
+       "Individual follower related",
+       "Followers experience stress and harm to well-being; they reduce effort, leading to poor performance"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Cao et al. (2022) found that destructive leadership was most strongly associated with increased **workplace aggression**, while ethical leadership had the strongest negative association - suggesting that 'the emerging leadership types […] have considerable added value.'"
+    }
+   ]
+  },
+  {
+   "id": "lead4-17",
+   "title": "Activity 4: Case study - Lucy",
+   "blocks": [
+    {
+     "t": "quote",
+     "text": "Lucy was a Head of Department in a school, an effective leader with a dedicated team and a strong relationship with the Headteacher. Then the school came under pressure for better results, and the stressed Headteacher began making unrealistic demands. Lucy resisted and argued for a different approach; he became increasingly autocratic, telling her what to do and criticising work he had previously been happy with. She felt she had to follow his instructions. Her team could see she lacked conviction when passing on his demands, assumed she had lost interest and wasn't fighting their corner, and lost respect for her; many became demotivated and critical. Lucy lost confidence, communicated less with her team and became intimidated by her boss, which increased his frustration. Feeling unsupported by both, she eventually left the school.",
+     "by": "Case study (abridged)"
+    },
+    {
+     "t": "activity",
+     "id": "lead4-a4",
+     "title": "Activity 4 Case study",
+     "prompt": "Answer: 1) Was the Headteacher a destructive leader? 2) What could Lucy have done differently? 3) How might Lucy have maintained the motivation of her team? 4) Might members of the team have viewed Lucy as a destructive leader?",
+     "model": "Many circumstances can lead to destructive leadership; here increasing pressure caused the Headteacher to behave destructively, and a lack of emotional intelligence meant he didn't see his impact on Lucy. Lucy could have been clearer with her team about her efforts to counter his demands, and discussed ways to convince him using the team's ideas. She might have sought support from other Heads of Department, HR, school governors or the local authority. Her team might have viewed her leadership as 'incompetent', based on poorly informed assumptions.",
+     "points": [
+      "Pressure led the Headteacher to behave destructively, and he lacked emotional intelligence.",
+      "Lucy could have been open with her team about her efforts and involved them.",
+      "She could have sought support from peers, HR, governors or the local authority.",
+      "The team may have seen Lucy as incompetent because they lacked information."
+     ],
+     "hint": "Allow about 15 minutes."
+    }
+   ]
+  },
+  {
+   "id": "lead4-18",
+   "title": "Common mistakes leaders make",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/lead_39.jpg",
+     "alt": "A man in a suit covering his face, surrounded by fingers pointing at him",
+     "caption": "Figure 5 All leaders will make mistakes"
+    },
+    {
+     "t": "p",
+     "text": "You don't have to be a poor leader to make mistakes. All leaders have good and bad outcomes throughout their careers, however good their intentions. The point is to **learn from mistakes** - and, better still, from other people's before you make them yourself."
+    }
+   ]
+  },
+  {
+   "id": "lead4-19",
+   "title": "Video: Learning from mistakes",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Rebecca Fielding: mistakes and the three-step model",
+     "url": null,
+     "note": "Rebecca says every leader makes mistakes, especially early on, under pressure or on a steep learning curve - and that's OK. As soon as you recognise a mistake, share it with someone you trust and decide how to rectify it. It's fine to say: 'I made the best decision I could with the information I had; I now have new information and have made a different decision.' Her three-step model: 1) feel the pain - the embarrassment, frustration or worry; 2) take the lesson and attach it to that pain, so your brain learns (like a toddler touching a hot radiator); 3) the step everyone forgets - move on, let it go and move forward confidently, owning the mistake without being ashamed of it, and ask for help when you need it."
+    },
+    {
+     "t": "ol",
+     "items": [
+      "**Feel the pain** of the mistake.",
+      "**Learn the lesson** and attach it to that feeling.",
+      "**Move on** confidently - let it go."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead4-20",
+   "title": "Activity 5: Mistakes 1-3",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Here are the first three of six common leadership mistakes. Propose possible solutions for each."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Lack of clear vision:** your team doesn't know why they're doing something, what they're working towards or what success looks like. They lack direction and waste time.",
+      "**Poor communication:** individuals don't know what you want or whether they're doing a good job, so they feel uncertain and lack commitment. They don't know how to communicate with you, so they stop trying.",
+      "**Micromanagement and failure to delegate:** team members feel you don't trust or value them and are demotivated. They wait for instructions and show less initiative."
+     ]
+    },
+    {
+     "t": "activity",
+     "id": "lead4-a5a",
+     "title": "Activity 5 Common mistakes and possible solutions (part 1)",
+     "prompt": "Propose possible solutions for: lack of clear vision; poor communication; micromanagement and failure to delegate.",
+     "model": "Vision: be clear about what the team is working towards and what success looks like; communicate it regularly in different ways, keep the message concise, or involve the team in creating it. Communication: give timely praise or constructive feedback and be regularly available for discussion; understanding what motivates or concerns people builds mutual trust. Delegation: balance letting trusted team members take responsibility with overseeing progress, so people feel empowered and trusted.",
+     "points": [
+      "Make the vision and what success looks like clear, and involve the team in shaping it.",
+      "Communicate regularly in different ways with a concise message.",
+      "Give timely praise and constructive feedback and be available to talk.",
+      "Delegate to trusted people while overseeing progress, so they feel empowered."
+     ],
+     "hint": "Allow about 10 minutes for this part."
+    }
+   ]
+  },
+  {
+   "id": "lead4-21",
+   "title": "Activity 5: Mistakes 4-6",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "**Recruiting the wrong people:** people who lack key skills or have the wrong attitude can damage morale and progress. If you thought that person would fit in, what does that say about your opinion of everyone else?",
+      "**Failing to develop your team:** you haven't invested in upskilling them, yet your expectations keep growing. Employees feel unappreciated and out of their depth, losing confidence and motivation.",
+      "**Failing to lead by example:** you never attend their meetings or events, so they assume you aren't interested. You're always on your phone (business calls, but they don't know that). They start to copy your behaviour."
+     ]
+    },
+    {
+     "t": "activity",
+     "id": "lead4-a5b",
+     "title": "Activity 5 Common mistakes and possible solutions (part 2)",
+     "prompt": "Propose possible solutions for: recruiting the wrong people; failing to develop your team; failing to lead by example.",
+     "model": "Recruitment: take time to surround yourself with good people you can trust and delegate to, freeing you to maximise team performance. Development: learn the team's development needs and align them with your vision and plan; make sure everyone, including you, can develop - it could be work shadowing rather than an expensive course. Example: attend key team meetings and events, model the behaviours you want, work reasonable hours and check on anyone still in the office when you leave. Solutions depend on context; identifying and acknowledging the mistake is the starting point.",
+     "points": [
+      "Recruit good people you can trust and delegate to.",
+      "Identify development needs and give everyone, including you, chances to develop.",
+      "Development need not be expensive, e.g. work shadowing.",
+      "Model the behaviours you expect, attend team events and keep a healthy work-life balance.",
+      "Acknowledging the mistake is the starting point for fixing it."
+     ],
+     "hint": "Allow about 10 minutes for this part."
+    }
+   ]
+  },
+  {
+   "id": "lead4-22",
+   "title": "Advice for leaders: support",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "If you're worried about making mistakes, several avenues of support are available. Rebecca Fielding explains how employers support leaders and how leaders can support themselves."
+    },
+    {
+     "t": "video",
+     "title": "Rebecca Fielding: support for leaders",
+     "url": null,
+     "note": "Rebecca reiterates that mistakes are normal. Organisations support leaders through appraisal and performance reviews, and everyday feedback and coaching from line managers, peers and colleagues. You may be given a buddy (someone who has done the job), a coach (who helps you think through what happened and learn from it) or a mentor (someone more senior and experienced who shares their wisdom). There may be training courses and online resources such as badged open courses. She also recommends 'following your feet': TED talks, YouTube videos, books, and articles in your industry or sector press - follow what interests you, as it gives you energy and insight."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Appraisals and everyday feedback",
+      "A buddy, coach or mentor",
+      "Training courses and online resources",
+      "Your own reading and viewing"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead4-23",
+   "title": "Kellerman's advice for leaders",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Much of the impact of poor leadership is felt by followers. From her case studies, Kellerman (2004) advises leaders who want to work more effectively with their teams to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Establish a culture of openness in which diversity and dissent are encouraged.",
+      "Install an independent person to review complaints and maintain standards.",
+      "Bring in strong, independent advisers who aren't afraid to tell you the truth.",
+      "Avoid 'group think', as it discourages healthy dissent.",
+      "Get reliable and complete information, then disseminate it.",
+      "Give a senior manager who knows the organisation well responsibility for ensuring the mission continues to matter.",
+      "Establish checks and balances to avoid policies and procedures that support bad leadership.",
+      "Connect to all your constituents, not just a chosen, like-minded few."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead4-24",
+   "title": "Kellerman's advice for followers",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "For a follower on the receiving end of poor leadership, Kellerman advises:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Make bad leaders pay for their transgressions.",
+      "Find allies.",
+      "Develop your own sources of information - don't rely on what your leader provides.",
+      "Take collective action, e.g. get a small group together to talk to the boss.",
+      "Be a watchdog.",
+      "Hold leaders to account."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Don't let them get away with it. Whether you discuss the issue directly with your boss or escalate it appropriately, followers play a crucial role in leadership and business success - including when a leader is failing. Adapt these actions to your context.",
+     "title": "Kellerman's key message"
+    }
+   ]
+  },
+  {
+   "id": "lead4-25",
+   "title": "Developing key skills",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "In Week 3 you looked at the skills a good leader needs. Now you'll focus on those a poor leader can lack, and how to develop them."
+    },
+    {
+     "t": "img",
+     "src": "img/lead_42.jpg",
+     "alt": "'Mind the gap' painted in yellow on the ground next to a railway track",
+     "caption": "Figure 6 A gap in your leadership skills?"
+    },
+    {
+     "t": "activity",
+     "id": "lead4-a6",
+     "title": "Activity 6 What skills were lacking?",
+     "prompt": "Go back to the negative leadership example from Activity 1. Using the list of leadership skills from Week 3 (the personal skills audit) as a prompt, list the specific skills or abilities that leader didn't demonstrate.",
+     "model": "Many instances of poor leadership relate to a lack of empathy or poor communication. Did you identify other areas for that person's development? Some skills may seem fixed, such as the ability to empathise, but experts agree that even the least empathetic person can learn to demonstrate empathy, even if it doesn't come naturally.",
+     "points": [
+      "Poor leadership often involves a lack of empathy.",
+      "Poor communication is another common gap.",
+      "Look for other specific development areas for the leader.",
+      "Even skills that seem fixed, like empathy, can be learned."
+     ],
+     "hint": "Allow about 10 minutes."
+    }
+   ]
+  },
+  {
+   "id": "lead4-26",
+   "title": "Lack of emotional intelligence",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The skills with most impact on leadership often involve how someone relates to, is perceived by and communicates with others. **Emotional intelligence** (Week 3) includes empathy, self-awareness and self-regulation - often missing or under-developed in the types of poor leadership covered this week. Bariso (2016) suggests seven steps to develop it:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Reflect on your own emotions",
+      "Ask others for perspective",
+      "Be observant",
+      "Use 'the pause': stop and think before you act",
+      "Explore the 'why', e.g. 'Why does that person feel the way they do?'; 'Why do I feel differently?'",
+      "When criticised, don't take offence; ask 'What can I learn?'",
+      "Practice, practice, practice."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Step 7 matters: these steps won't come naturally at first and need perseverance over time to become embedded."
+    }
+   ]
+  },
+  {
+   "id": "lead4-27",
+   "title": "Lack of integrity",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "**Integrity** is always high on the list in leadership skills surveys and recruitment. It can be seen as lacking in poor leaders, especially if they cover up mistakes or lack of ability with lies."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "'Soundness of moral principle; the character of uncorrupted virtue, especially in relation to truth and fair dealing; uprightness, honesty.' (Oxford English Dictionary, 2023) - in short, always doing the right thing and being honest.",
+     "title": "Integrity"
+    },
+    {
+     "t": "p",
+     "text": "Amster (2015) suggests: fulfil your promises; keep appointments; before you commit, reflect on whether you can deliver; get comfortable with saying no."
+    },
+    {
+     "t": "p",
+     "text": "A Mind Tools (n.d.) editorial, 'Preserving integrity', suggests asking of every choice: *If my choice were printed on the front page of the newspaper, would I feel OK about it? If I make this choice, will I feel OK with myself afterwards?*"
+    }
+   ]
+  },
+  {
+   "id": "lead4-28",
+   "title": "Lack of resilience",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "**Resilience** is an individual's ability to 'bounce back' from difficult and challenging situations. Without it, a leader can rapidly lose self-confidence and the ability to motivate others, soon becoming ineffective."
+    },
+    {
+     "t": "p",
+     "text": "Lucy, Poorkavoos and Thompson (2014) set out five key factors of a resilient leader in their **Resilience Capabilities model**:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Perspective",
+      "Emotional intelligence",
+      "Purpose, values and strengths",
+      "Connections",
+      "Managing physical energy"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "The next pages give their reflective questions for each factor."
+    }
+   ]
+  },
+  {
+   "id": "lead4-29",
+   "title": "Resilience: perspective and emotional intelligence",
+   "blocks": [
+    {
+     "t": "h",
+     "text": "Perspective"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Can you positively reframe negative experiences and find opportunity in adversity?",
+      "Can you accept what you cannot change, and focus on what you can?",
+      "Are you solution-driven, or do you get stuck in the problem?",
+      "Can you face negative information fully without dwelling on it?"
+     ]
+    },
+    {
+     "t": "h",
+     "text": "Emotional intelligence"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Do you acknowledge your own feelings and express them appropriately?",
+      "Can you change your mood when you need to?",
+      "How intentional are you about supporting others?"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead4-30",
+   "title": "Resilience: purpose, connections and energy",
+   "blocks": [
+    {
+     "t": "h",
+     "text": "Purpose, values and strengths"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Do you have a clear sense of purpose at work?",
+      "Do you know your personal strengths and use them regularly at work?",
+      "Do you know your values and act consistently with them?",
+      "Does your work fit your personal values and beliefs?"
+     ]
+    },
+    {
+     "t": "h",
+     "text": "Connections"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Do you have a strong, reliable network inside and outside work to help you through difficult times?",
+      "Can you meet your varied needs through a diverse support network?"
+     ]
+    },
+    {
+     "t": "h",
+     "text": "Managing physical energy"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Do you exercise regularly, get enough sleep and eat a healthy diet?",
+      "Do you make time for activities that give you joy or help you relax?"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead4-31",
+   "title": "Taking care of yourself",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Managing physical energy, or taking care of yourself, is a key element of resilience that is often overlooked. How can you grow and lead your team through adversity if you're tired, unhealthy and stressed?"
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "To explore resilience in the workplace in more detail, see the OpenLearn course 'Developing career resilience'.",
+     "title": "Further study"
+    },
+    {
+     "t": "p",
+     "text": "This week you've considered the impact of poor leadership on followers. Next week, you'll look at the leader-follower relationship in more detail."
+    }
+   ]
+  },
+  {
+   "id": "lead4-32",
+   "title": "Week 4 badge quiz (1/5)",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "This is the Week 4 compulsory badge quiz: 15 questions instead of the usual 5. It counts towards your badge; if you're not successful first time, you can try again."
+    },
+    {
+     "t": "quiz",
+     "id": "lead4-q1",
+     "q": "Kellerman (2004) first divides bad leadership into which two broad categories?",
+     "options": [
+      "Destructive and transformational",
+      "Ineffective and unethical",
+      "Rigid and intemperate",
+      "Aversive and uncivil"
+     ],
+     "answer": 1,
+     "explain": "Ineffective leadership fails to produce the desired change; unethical leadership fails to distinguish between right and wrong."
+    },
+    {
+     "t": "quiz",
+     "id": "lead4-q2",
+     "q": "A leader who is stiff and unyielding, unable or unwilling to adapt to new ideas or changing times, is described by Kellerman as:",
+     "options": [
+      "Incompetent",
+      "Intemperate",
+      "Rigid",
+      "Unethical"
+     ],
+     "answer": 2,
+     "explain": "Rigid leaders cannot or will not adapt to new ideas, information or changing times."
+    },
+    {
+     "t": "quiz",
+     "id": "lead4-q3",
+     "q": "Which of Kellerman's types lacks self-control and is aided by followers unwilling or unable to intervene?",
+     "options": [
+      "Intemperate",
+      "Incompetent",
+      "Rigid",
+      "Negatively charismatic"
+     ],
+     "answer": 0,
+     "explain": "Intemperate leadership lacks self-control and is enabled by followers who don't intervene."
+    }
+   ]
+  },
+  {
+   "id": "lead4-33",
+   "title": "Week 4 badge quiz (2/5)",
+   "blocks": [
+    {
+     "t": "tf",
+     "id": "lead4-q4",
+     "q": "According to Padilla, Hogan and Kaiser (2007), destructive leadership is usually entirely destructive, with no good results.",
+     "answer": false,
+     "explain": "Their first feature says destructive leadership is seldom absolutely or entirely destructive: most situations have both good and bad results."
+    },
+    {
+     "t": "quiz",
+     "id": "lead4-q5",
+     "q": "According to Padilla et al. (2007), the process of destructive leadership involves:",
+     "options": [
+      "Influence, persuasion and commitment",
+      "Dominance, coercion and manipulation",
+      "Delegation, coaching and feedback",
+      "Openness, dissent and diversity"
+     ],
+     "answer": 1,
+     "explain": "Destructive leadership relies on dominance, coercion and manipulation rather than influence, persuasion and commitment."
+    },
+    {
+     "t": "quiz",
+     "id": "lead4-q6",
+     "q": "Padilla et al. (2007) say destructive organisational outcomes are the product of which factors? Select all that apply.",
+     "options": [
+      "Destructive leaders",
+      "Susceptible followers",
+      "Conducive environments",
+      "Strong independent advisers"
+     ],
+     "answer": [
+      0,
+      1,
+      2
+     ],
+     "multi": true,
+     "explain": "Destructive outcomes are not only due to destructive leaders, but also susceptible followers and conducive environments."
+    }
+   ]
+  },
+  {
+   "id": "lead4-34",
+   "title": "Week 4 badge quiz (3/5)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "lead4-q7",
+     "q": "In Mackey et al.'s (2021) review, 'aversive leadership' means:",
+     "options": [
+      "Leaders displaying a lack of regard for followers",
+      "Leading through intimidation, threats and punishment",
+      "Using charisma in a destructive way",
+      "Failing to delegate"
+     ],
+     "answer": 1,
+     "explain": "Aversive leadership is leading through intimidation, threats and punishment; leadership incivility is a lack of regard for followers."
+    },
+    {
+     "t": "quiz",
+     "id": "lead4-q8",
+     "q": "Which was NOT one of the examples of bad leadership at Theranos highlighted by Tourish (2023)?",
+     "options": [
+      "A high-profile Board with no biotech expertise",
+      "A controlling style using surveillance cameras",
+      "Encouraging questioning employees to leave",
+      "Recruiting a strong independent adviser to challenge decisions"
+     ],
+     "answer": 3,
+     "explain": "The lack of independent expert oversight was part of the problem; the other three were cited as examples."
+    },
+    {
+     "t": "quiz",
+     "id": "lead4-q9",
+     "q": "In Schyns and Schilling's (2013) framework, followers feeling the organisation failed to protect them, with effects on productivity and turnover, is:",
+     "options": [
+      "Leader related",
+      "Job related",
+      "Organisation related",
+      "Individual follower related"
+     ],
+     "answer": 2,
+     "explain": "Organisation-related impacts include reduced commitment and effects on productivity and turnover."
+    }
+   ]
+  },
+  {
+   "id": "lead4-35",
+   "title": "Week 4 badge quiz (4/5)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "lead4-q10",
+     "q": "Cao et al. (2022) found which type of leadership had the strongest negative association with workplace aggression?",
+     "options": [
+      "Destructive leadership",
+      "Ethical leadership",
+      "Transactional leadership",
+      "Rigid leadership"
+     ],
+     "answer": 1,
+     "explain": "Destructive leadership was most strongly linked to increased aggression; ethical leadership had the strongest negative association."
+    },
+    {
+     "t": "quiz",
+     "id": "lead4-q11",
+     "q": "What is the third step in Rebecca Fielding's model for dealing with a mistake - the one everyone forgets?",
+     "options": [
+      "Feel the pain",
+      "Attach the lesson to the pain",
+      "Move on, let it go and move forward confidently",
+      "Tell your manager"
+     ],
+     "answer": 2,
+     "explain": "After feeling the pain and learning the lesson, you must let it go and move forward confidently."
+    },
+    {
+     "t": "quiz",
+     "id": "lead4-q12",
+     "q": "A team doesn't know what they are working towards or what success looks like. Which common mistake is this?",
+     "options": [
+      "Poor communication",
+      "Lack of clear vision",
+      "Failing to lead by example",
+      "Recruiting the wrong people"
+     ],
+     "answer": 1,
+     "explain": "Lack of clear vision leaves the team without direction, wasting time on activities that may not be useful."
+    }
+   ]
+  },
+  {
+   "id": "lead4-36",
+   "title": "Week 4 badge quiz (5/5)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "lead4-q13",
+     "q": "Which are among Kellerman's (2004) recommendations for leaders? Select all that apply.",
+     "options": [
+      "Avoid 'group think'",
+      "Establish a culture where dissent is encouraged",
+      "Connect only with a like-minded few",
+      "Bring in independent advisers who will tell you the truth"
+     ],
+     "answer": [
+      0,
+      1,
+      3
+     ],
+     "multi": true,
+     "explain": "Kellerman advises connecting to all constituents, not just a chosen like-minded few."
+    },
+    {
+     "t": "quiz",
+     "id": "lead4-q14",
+     "q": "In Bariso's (2016) steps for developing emotional intelligence, what is 'the pause'?",
+     "options": [
+      "Taking a holiday to recharge",
+      "Stopping to think before you act",
+      "Waiting for others to speak first in meetings",
+      "Delaying decisions until all information is available"
+     ],
+     "answer": 1,
+     "explain": "'The pause' means stopping and thinking before you act."
+    },
+    {
+     "t": "quiz",
+     "id": "lead4-q15",
+     "q": "Which is one of the five factors in the Resilience Capabilities model (Lucy, Poorkavoos and Thompson, 2014)?",
+     "options": [
+      "Financial acumen",
+      "Managing physical energy",
+      "Strategic thinking",
+      "Delegation"
+     ],
+     "answer": 1,
+     "explain": "The five factors are perspective; emotional intelligence; purpose, values and strengths; connections; and managing physical energy."
+    }
+   ]
+  },
+  {
+   "id": "lead4-37",
+   "title": "Week 4 summary",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "You should now have a better idea of what makes a poor leader and the negative impact of poor leadership, and you've considered how to rectify some of the common mistakes leaders make."
+    },
+    {
+     "t": "h",
+     "text": "You should now feel that you can:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "recognise poor leadership in different forms",
+      "reflect on the impact of poor or weak leadership",
+      "describe ways in which leadership mistakes might be avoided."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "You are now halfway through the course. Next week you'll change perspective and look at leadership from the follower's point of view, then consider your own followers and how you might develop them."
+    }
+   ]
+  }
+ ]
+}

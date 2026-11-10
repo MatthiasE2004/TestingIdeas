@@ -1,315 +1,1571 @@
 {
-"id":"pm1","title":"Conception: ‘The journey begins’","summary":"What a project is, who the players are, and how organisations plan, find problems, set objectives and requirements that give rise to projects.","minutes":45,
-"pages":[
-{"id":"pm1-01","title":"The journey begins","blocks":[
-{"t":"p","text":"To write about projects, we have to define what they are and describe how they arise. A project can arise as part of a planning process, as a response to a changing environment, as a business opportunity, as a problem or as a newly identified requirement."},
-{"t":"p","text":"Projects often appear mysterious: to the person in the average organisation they seem to appear the way mushrooms sprout – overnight. They are very diverse, from one or two people over a few days to hundreds of people over years."},
-{"t":"h","text":"Learning outcomes"},
-{"t":"ul","items":["define what a project is","use knowledge-gathering and idea-generating techniques to develop objectives for action","use Pareto analysis and cause and effect diagrams to explore problem areas","generate simple matrix diagrams to relate objectives to strategies","name and describe the chief roles people can assume relating to proposals and projects","relate these roles to the process of organisational planning","explain different views of quality and show that structured planning improves quality"]}
-]},
-{"id":"pm1-02","title":"1.1 What is a project?","blocks":[
-{"t":"p","text":"Projects are often contrasted with **operations**: the normal day-to-day activities of an organisation. A project is something outside normal day-to-day work – although in fields such as construction, research and software design, the day-to-day work *is* carrying out projects."},
-{"t":"p","text":"Projects vary so much that they are hard to define concisely, but the general view is that projects bring about change in an organised manner. Three definitions:"},
-{"t":"quote","text":"a temporary organisation to which resources are assigned to do work to bring about beneficial change.","by":"Turner, 2006"},
-{"t":"quote","text":"a unique, transient endeavour undertaken to achieve a desired outcome.","by":"APM (Association for Project Management), 2006"},
-{"t":"quote","text":"a unique process, consisting of a set of coordinated and controlled activities with start and finish dates, undertaken to achieve an objective conforming to specific requirements, including constraints of time, cost and resources.","by":"British Standard BS 6079-2, 2000"}
-]},
-{"id":"pm1-03","title":"Characteristics of a project","blocks":[
-{"t":"p","text":"To bring about a desired change, a project has these characteristics:"},
-{"t":"ul","items":["a unique undertaking: each one differs from every other in some respect","specific objectives (or goals) to achieve","requires resources","has a budget","has a schedule","requires the effort of people","measures of quality apply"]},
-{"t":"callout","kind":"key","title":"Our definition","text":"A project is organised work towards a pre-defined goal or objective that requires resources and effort – a unique (and therefore possibly risky) venture having a budget and schedule."},
-{"t":"p","text":"Uniqueness means projects take place in an atmosphere of uncertainty. Projects sit anywhere on a ‘spectrum of uniqueness’: an academic research project is quite different from one that improves the routine operation of existing machinery. Once a project has met its objectives it ceases to exist – project work is characterised by **impermanence**."}
-]},
-{"id":"pm1-04","title":"Quality and requirements","blocks":[
-{"t":"p","text":"Quality is discussed throughout this course. Defining it is not trivial, and there are several perspectives. Our view is based on this definition:"},
-{"t":"callout","kind":"key","title":"Quality (ISO 9000, 2005)","text":"The degree to which a set of inherent characteristics fulfils requirements."},
-{"t":"callout","kind":"key","title":"Requirement (ISO 9000)","text":"A need or expectation that is stated, generally implied or obligatory."},
-{"t":"p","text":"In ISO 9000 each inherent characteristic of a product, process or system is related to a requirement."}
-]},
-{"id":"pm1-05","title":"The business case","blocks":[
-{"t":"p","text":"When initiating a project, someone has to justify the request for resources and gather enough evidence to gain approval. A **business case** is the document that sets out the justification for a project and its strategic rationale (APM, 2006)."},
-{"t":"p","text":"Estimates of costs, timescales and benefits are needed even though detailed information may not yet be available. In effect the business case is the initial project plan, with enough information to answer every question a decision maker might ask:"},
-{"t":"ul","items":["What do you want to achieve?","Why do you want to do it?","How are you going to do it?","When are you going to do it?","Who is going to be affected?","What resources do you need?"]}
-]},
-{"id":"pm1-06","title":"A project is a journey","blocks":[
-{"t":"p","text":"A common analogy: a project is like a journey. The daily trip to work is routine, so not really a project. A special trip somewhere new could be a real challenge: there is a reason for it, a plan for reaching the destination and for what must be done on the way, and extra effort is needed to track progress and keep to the route."},
-{"t":"callout","kind":"key","title":"Project management","text":"The application of knowledge, skills, tools and techniques so that the project can be defined, planned, monitored, controlled and delivered in order to achieve its agreed benefits (APM, 2006)."},
-{"t":"p","text":"The analogy also shows the need to separate **project success** from **product success**: a project can meet all its cost, time and quality objectives but fail its business goals, and vice versa. Any assessment of success involves both objective and subjective criteria. Success returns in Section 5."}
-]},
-{"id":"pm1-07","title":"Activity 1: project success","blocks":[
-{"t":"activity","id":"pm1-a1","title":"Activity 1","prompt":"Think about how you might identify whether or not a project is successful. List those items that you would look at to determine a project’s success.","hint":"Think about time, cost, quality, the customer, and the project organisation afterwards.","model":"A project can be judged by asking: did it achieve its time, cost and quality objectives? Does it meet the customer’s perceived requirements? Does the outcome make the client want to come back for further business? Has the project been completed leaving the project organisation fit and able to continue further work?","points":["Time, cost and quality objectives achieved","Meets the customer’s perceived requirements","Client wants to do further business","Project organisation left fit to continue further work"]}
-]},
-{"id":"pm1-08","title":"Examples of projects (1)","blocks":[
-{"t":"p","text":"Projects come in all shapes:"},
-{"t":"ul","items":["**Aircraft:** a manufacturer finds the nose wheel on a prototype collapses too easily and starts a project to strengthen it. Beware knock-on effects: when one wing strut was strengthened, the maintenance access shrank and the fitter could not reach the wiring – so another project had to redesign the access.","**Construction:** a firm builds access roads and small factory units on derelict land to create business and jobs: surveying, demolition, clearing, levelling, roads, foundations and buildings.","**Research and development:** a chemical firm explores products using a new polymer, while also analysing the potential market and manufacturing process."]}
-]},
-{"id":"pm1-09","title":"Examples of projects (2)","blocks":[
-{"t":"ul","items":["**Software:** modify a database so users can prepare reports directly instead of re-typing into a word processor: understand the systems, interview or observe users, specify, code, test, install, train and document.","**Marketing:** launch a new product: market research, an advertising campaign, promotional events and press releases, liaising with wholesalers and retailers.","**Charity:** dig a well, decided in consultation with local people: choose a site, consult a hydrologist, organise labour and materials – and train local people to maintain it and share it fairly.","**Government:** respond to legislative change. The switch from rates to the poll tax, then to the council tax, forced two separate major projects of computer-system change and of identifying and assessing who to tax."]}
-]},
-{"id":"pm1-10","title":"Programmes and portfolios","blocks":[
-{"t":"p","text":"Sometimes the work needed for a major organisational goal is far greater than a single project. The organisation then undertakes a **programme**."},
-{"t":"callout","kind":"key","title":"Programme (APM, 2006)","text":"A group of related projects, which may include related business-as-usual activities, that together achieve a beneficial change of a strategic nature for an organisation."},
-{"t":"callout","kind":"key","title":"Portfolio (APM, 2006)","text":"A grouping of an organisation’s projects, programmes and related business-as-usual activities taking into account resource constraints."},
-{"t":"p","text":"The Olympic Games is a portfolio owned by the host country: a programme is associated with each sport, plus one for the infrastructure changes. A portfolio can also be a group of projects and/or programmes with no inter-dependencies other than sharing or competing for the same resources."}
-]},
-{"id":"pm1-11","title":"SAQ 1: projects vs operations","blocks":[
-{"t":"activity","id":"pm1-s1","title":"SAQ 1","prompt":"Based on the characteristics we have associated with projects and your own experience, draw up a table to compare project management with managing operations.","hint":"Compare change, duration, uniqueness, resources and focus of management.","model":"Projects bring significant change, are limited in time and scope, unique, with transient resources and goal-oriented management that balances performance, time and budget. Operations see only small evolutionary change, are never-ending and repetitive, with stable resources, role-oriented management, and performance, time and budget usually fixed and balanced.","points":["Projects: significant change, operations: small evolutionary change","Projects: limited in time and scope, operations: never-ending","Projects: unique and transient, operations: repetitive and stable","Projects: goal-oriented management balancing objectives; operations: role-oriented, in equilibrium"]}
-]},
-{"id":"pm1-12","title":"Projects vs operations: the table","blocks":[
-{"t":"table","head":["Projects","Operations"],"rows":[["Significant change","Any changes small and evolutionary"],["Limited in time and scope","Never-ending"],["Unique","Repetitive"],["Resources transient","Resources stable"],["Goal-oriented management","Role-oriented management"],["Transient","Stable"],["Attempt to balance performance, time and budget","Performance, time and budget usually fixed and balanced"],["Need to balance objectives","Management generally in state of equilibrium"],["More exciting (perhaps!)","‘Steady as she goes’ feel"]]},
-{"t":"p","text":"You may have listed other aspects. Our next step is to consider who might be involved in the conception of a project."}
-]},
-{"id":"pm1-13","title":"1.2 Organisational structures","blocks":[
-{"t":"p","text":"Projects take place within organisations whose structures, philosophies and cultures affect how work is planned and carried out – a social environment of people who affect, and are affected by, the outcome."},
-{"t":"p","text":"Western organisations are normally **hierarchies** with vertical lines of reporting: a managing director or chief executive at the top, advised by a board of directors on strategic goals. Below, the organisation divides into functional areas, which often reflect specialist groups:"},
-{"t":"ul","items":["marketing","product design and engineering","manufacturing","sales","purchasing","information systems","finance","human resources"]},
-{"t":"p","text":"Large organisations may also divide by product class (e.g. washing machines and televisions each with their own functional areas). Small groups work with little formal structure; project team members often take more than one role."}
-]},
-{"id":"pm1-14","title":"Tension across the organisation","blocks":[
-{"t":"p","text":"A project to develop a new product may involve marketing, information systems, design and engineering and manufacturing. But loyalties in hierarchical organisations follow the vertical reporting lines, and conflicts can arise from the **horizontal links** within the project, as the different areas may have different objectives and cultures."},
-{"t":"callout","kind":"note","text":"Forming a team brings diverse knowledge, assumptions, ideas and skills to the project’s goal. But the tension across the linkages within the team can harm the outcome unless care is taken to prevent it."}
-]},
-{"id":"pm1-15","title":"‘Players in the game’","blocks":[
-{"t":"p","text":"All the various ‘players’ in the project ‘game’, even those only peripherally involved, are important. Be aware of who they are, what role they play and their different attitudes to the project."},
-{"t":"callout","kind":"key","title":"Stakeholder","text":"Any person or group of people who has an interest in a project, is affected by it or can influence its outcome."},
-{"t":"p","text":"Stakeholders include:"},
-{"t":"ul","items":["all the people whose work is changed in any way by the project","those who are affected by it","those who grant resources to the project","those who can obstruct, block or stall the work in any way"]},
-{"t":"p","text":"Their influence may vary at different points in a project’s life. Identifying them during conception provides the foundation for a successful outcome."}
-]},
-{"id":"pm1-16","title":"Key stakeholders (Table 1)","blocks":[
-{"t":"table","head":["Stakeholder","Description"],"rows":[["Sponsor","The person or body for whom the project is undertaken; the primary risk taker, responsible for ensuring the project is successful in the eyes of the stakeholders. Provides the resources (money and people)."],["Champion","An advocate for a proposal or project who has the ear of the people in power and genuine influence. Not always the person with the bright idea. Provides support in difficulty – a different role from the sponsor."],["Client","A person or organisation requesting or commissioning the services of another, usually with payment, possibly a formal contract. Inside one organisation, departments form informal client–supplier relationships."]]}
-]},
-{"id":"pm1-17","title":"Key stakeholders (Table 1, continued)","blocks":[
-{"t":"table","head":["Stakeholder","Description"],"rows":[["Customer","The one who buys; similar to client. E.g. a marketing department might be the client who instigates a new product, for which we (the public) are the customers."],["Owner","Similar to client or customer, though in a legal sense much more narrowly defined. Boddy and Buchanan use it for one with a strong attachment to the aims of a project."],["Blockers or objectors","People or bodies that will resist the project."]]}
-]},
-{"id":"pm1-18","title":"Client or customer?","blocks":[
-{"t":"p","text":"In practice client and customer cause confusion. They can be synonyms or kept apart depending on context: a lawyer has *clients* for services; shops have *customers* for products on the shelves. Some organisations call you a client until money changes hands and a customer afterwards. Dutch and French speakers have only one word ('klant', 'client')."},
-{"t":"p","text":"Resolving confusing terms and ambiguities is an important factor in project definition. In software development there are two further vital players:"},
-{"t":"table","head":["Stakeholder","Description"],"rows":[["End users","The people who will ultimately operate or use the product. If it does not help them do their work, it will not be successful."],["Developer","A person who is part of the team that builds the product."]]}
-]},
-{"id":"pm1-19","title":"More stakeholders, changing roles","blocks":[
-{"t":"p","text":"A surprisingly large number of people can be involved. You may not meet every stakeholder, but be aware of their existence and potential influence. **Statutory and regulatory bodies** appear on most lists since they affect both the product and how it is developed."},
-{"t":"ul","items":["Pharmaceutical industry: new drugs are constrained by regulatory requirements and the licences needed to sell them.","Construction: a project can be affected by changes in health and safety regulations during its lifetime."]},
-{"t":"p","text":"Some people take on several stakeholder roles and change between them as the project unfolds. Organisational politics mean people swap roles because of team membership but also because of their wish to affect the outcome – favourably or adversely."}
-]},
-{"id":"pm1-20","title":"Example 1: the eTMA system","blocks":[
-{"t":"p","text":"At The Open University, students post assignments to tutors, who mark them and send them to the Milton Keynes campus, where marks are recorded before the work is returned by post. A dedicated Assignment Handling Office and a Student Records Office handle this. A prototype electronic service came from academics in the Faculty of Mathematics and Computing; the electronic tutor-marked assignment (eTMA) system was developed by the Management Services Division."},
-{"t":"p","text":"The sponsor was **not** a senior person in Management Services but the Head of the Assignment Handling Office – although the word ‘sponsor’ was not used. The academics would not be champions unless they could influence the go-ahead decision. The Assignment Handling Office seems to be the client."},
-{"t":"p","text":"Had the aim been to replace the postal system entirely, there might have been hostile stakeholders in the Assignment Handling Office, anxious about their future role."}
-]},
-{"id":"pm1-21","title":"Try it: map the players","blocks":[
-{"t":"tool","tool":"stakeholder-grid","title":"Try it: stakeholders","intro":"Place the players in a project (sponsor, champion, client, blockers…) on the grid and see who needs the most attention."}
-]},
-{"id":"pm1-22","title":"1.3 The project environment","blocks":[
-{"t":"p","text":"Projects must be planned – indeed, an organisation must plan to have projects. By **planning** we mean formulating an organised method of achieving something. Projects do not take place in isolation: they have an environment which gives birth to them and with which they interact for the rest of their lives."},
-{"t":"h","text":"The environment of the organisation"},
-{"t":"p","text":"An early step in planning is gathering information about the environment in which the organisation operates: the market, the economy, the technology and the legislative and regulatory climate. Knowing the market means understanding the present market for the organisation and its products and forecasting markets for new or revised products and services."}
-]},
-{"id":"pm1-23","title":"The mission statement","blocks":[
-{"t":"p","text":"A common start to strategic planning is a **mission statement**: a brief description of what the group (the whole organisation or part of it) believes it has been organised to do. Ideally one sentence, certainly no more than a short paragraph – succinct enough to recall readily and compatible with what the group does or is contemplating doing."},
-{"t":"quote","text":"The Open University is open to people, places, methods and ideas. It promotes educational opportunity and social justice by providing high-quality university education to all who wish to realise their ambitions and fulfil their potential. Through academic research, pedagogic innovation and collaborative partnership, it seeks to be a world leader in the design, content and delivery of supported open and distance learning.","by":"The Open University mission statement"}
-]},
-{"id":"pm1-24","title":"Why mission statements matter","blocks":[
-{"t":"p","text":"Some feel mission statements are fashion and of little value, because many in the past sounded like PR exercises or were long and complicated. Properly written, they focus attention on what an organisation is or ought to be doing."},
-{"t":"p","text":"A good mission statement creates **boundaries within which objectives can be set**. If the Open University considered manufacturing computers to raise income, this would obviously fall outside its mission – beyond its expertise, experience and infrastructure, and requiring major organisational change."},
-{"t":"callout","kind":"key","text":"A mission statement is effective when it encapsulates the core values of an organisation concisely and clearly, allowing immediate comparison with any suggestion for activities. But more than a mission statement is needed to identify the organisation’s objectives."}
-]},
-{"id":"pm1-25","title":"Change from above","blocks":[
-{"t":"p","text":"Strategic planning sets the direction and route for an organisation at a macro level. In businesses the board of directors formulates strategic plans, at least to maintain its place in the market and meet customer requirements, and also in the search for new growth. Charities and campaigning groups have boards of trustees; government has comparable bodies."},
-{"t":"p","text":"They plan in response to changes in their environment or legislation, and the result is, in the end, **projects**, because projects are one of the major ways an organisation effects change. A project moves from a starting place to an end point corresponding to a goal taken from the strategic plans."}
-]},
-{"id":"pm1-26","title":"Change from below and from outside","blocks":[
-{"t":"p","text":"Change can also be prompted from within: a bright idea from a member of staff (more diversity, new income, better survival, an unperceived customer need, improved quality) can develop into a project. Planning often involves ideas flowing top-down and bottom-up at once. Change also comes from outside: new legislation, a new standard, or a customer approaching a firm with an idea."},
-{"t":"callout","kind":"note","title":"Example 2","text":"A worker at a catering firm noticed there was nowhere to buy lunch on a large industrial estate. They suggested a small restaurant with a takeaway bar in a little-used area of the premises. It used existing space, expertise and staff, brought new income, and as all trade was cash, improved cash flow and the firm’s ability to survive."}
-]},
-{"id":"pm1-27","title":"SAQ 2: why a catering firm?","blocks":[
-{"t":"activity","id":"pm1-s2","title":"SAQ 2","prompt":"In the lunch-bar example the worker was employed by a catering firm. What is the significance of this in the context of the preceding discussion?","hint":"Think about the mission statement.","model":"It is more likely that such a suggestion will fit with the mission of a catering firm but not with the mission of other types of organisation.","points":["The idea fits a catering firm’s mission","It would probably not fit another type of organisation’s mission","The mission sets the boundaries for acceptable objectives"]}
-]},
-{"id":"pm1-28","title":"Strategic planning","blocks":[
-{"t":"p","text":"Strategic planning varies as much as organisations do: autocratic orders from the board, or consensual wide consultation, proactive or reactive, or a mixture – real life is messier than descriptions suggest. The tools suggested here are not the only ways, but offer an orderly way to move from the present towards a future shaped by planning rather than whim or chance."},
-{"t":"p","text":"The questions in Figure 1 are explored at the level of the whole organisation, then passed downwards: a strategic plan at organisational level becomes an objective at divisional level, and so on down to the team. It also works with no ‘downwards’, e.g. in a cooperative whose groups negotiate with peer groups."}
-]},
-{"id":"pm1-29","title":"Strategic planning questions","blocks":[
-{"t":"img","src":"img/pm_p18_3.jpg","alt":"Four questions on the left, each with an arrow to an outcome on the right: what are we here to do – mission statement; where are we now – SWOT analysis, market analysis/forecasting, technological forecasting; what do we want to achieve – objectives and goals; how might we go about achieving it – strategies and plans.","caption":"Figure 1 Strategic planning questions and their outcomes"}
-]},
-{"id":"pm1-30","title":"SWOT and PESTLE","blocks":[
-{"t":"callout","kind":"key","title":"SWOT analysis","text":"A structure for studying the internal and external environments of an organisation: Strengths, Weaknesses, Opportunities, Threats."},
-{"t":"p","text":"Strengths and weaknesses generally arise internally (present products or projects, customers, staff, morale, information flows). Opportunities and threats arise externally (competition, economic climate, potential market, legislation)."},
-{"t":"p","text":"Acronyms help categorise external factors:"},
-{"t":"ul","items":["**PESTLE:** political, economic, social, technological, legal, environmental – probably the most useful","**STEEP:** a rearranged form that includes legal under political","**PEST (or STEP):** the shortened form"]}
-]},
-{"id":"pm1-31","title":"Example 3: a SWOT","blocks":[
-{"t":"p","text":"A SWOT by a company making computing equipment for industrial use:"},
-{"t":"table","head":["Category","Examples"],"rows":[["Strengths","Established customer base and growing reputation; profitable; committed, experienced salespeople; new wireless data collector in an exciting area"],["Weaknesses","Income too low for new R&D; marketed only for industrial needs; some products sell poorly or are dated; slow product development; unrelated product lines hinder sales; hard to recruit industrial designers"],["Opportunities","Many products have a commercial as well as an industrial market; new areas related to present lines; customer interest in related products"],["Threats","Competitors may copy designs; legal action over product safety; exposure to politics in different countries"]]}
-]},
-{"id":"pm1-32","title":"Using a SWOT well","blocks":[
-{"t":"p","text":"A SWOT can be done for a whole organisation or any part of it – even a single product and the way it is produced and marketed. Its weakness is **subjectivity**: two people in the same company rarely produce the same factors unless they negotiate. Be realistic: it is only the first step in making a plan for action. It is best done by a team, which gives a more balanced view."},
-{"t":"p","text":"Boards or trustees may use it to decide how to build on strengths, address weaknesses, take advantage of opportunities and avoid or reduce threats. A project (or programme or portfolio) may then arise. At this point the project is still **unborn**: perhaps only an uneasy thought by someone in senior management that something is needed."}
-]},
-{"id":"pm1-33","title":"Activity 2: your own SWOT","blocks":[
-{"t":"activity","id":"pm1-a2","title":"Activity 2","prompt":"Carry out a brief SWOT analysis for the group or department where you work, or for a group (such as a club or affinity group) to which you belong. Try to list at least three factors in each category.","hint":"Strengths and weaknesses are internal; opportunities and threats are external.","model":"A strong answer lists at least three factors per category, keeping strengths and weaknesses internal (people, skills, resources, morale) and opportunities and threats external (market, competition, legislation, economy). For example, for a local club: strengths – committed members, own premises, good reputation; weaknesses – ageing membership, little money, few volunteers; opportunities – local grants, new housing nearby, social media; threats – rival clubs, rising hire costs, changing regulations.","points":["At least three factors in each of the four categories","Strengths and weaknesses are internal to the group","Opportunities and threats come from the external environment","Factors are specific and realistic, not vague"]}
-]},
-{"id":"pm1-34","title":"Try it: SWOT and PESTLE","blocks":[
-{"t":"tool","tool":"swot-pest","title":"Try it: SWOT and PESTLE","intro":"Sort factors into a SWOT grid and prompt your thinking about the external environment with the PESTLE headings."}
-]},
-{"id":"pm1-35","title":"1.4 Two investigative tools","blocks":[
-{"t":"p","text":"Some objectives aim to improve an existing situation, procedure, process or product in order to address a weakness – that is, to reduce or eliminate problems. The problem must be investigated thoroughly to find out whether it is serious and worth tackling. Two common tools are **Pareto analysis** and **cause and effect diagrams**."},
-{"t":"h","text":"Pareto analysis"},
-{"t":"p","text":"Credited to the Italian economist Vilfredo Pareto, it relies on an almost universal truism about value and quantity: in a warehouse 20% of items usually represent 80% of stock value; 80% of quality problems come from 20% of possible causes of failure. This 20:80 ratio is often called **Pareto’s law**."}
-]},
-{"id":"pm1-36","title":"How to do a Pareto analysis","blocks":[
-{"t":"p","text":"In a computer system, minor disk-access failures are frequent but little impact (retrying fixes them). Far more rarely a read head touches the magnetic surface and the disk is destroyed: rare but great impact."},
-{"t":"p","text":"A Pareto analysis draws columns representing the magnitude of a problem, or each aspect of a large problem, arranged largest first. Column height represents the value of correcting the problem, so equal columns may be small but frequent difficulties or major but rarer ones."},
-{"t":"img","src":"img/pm_p21_4.jpg","alt":"Bar chart of causes of printed circuit board failures, in descending order: defective components (about 41%), defective bare board (24%), incorrect components (18%), components inserted wrong way round (6%), soldering faults (5%), reason unknown (2%), missing components, components inserted in incorrect positions (about 1% each).","caption":"Figure 2 Pareto analysis of printed circuit board failures"}
-]},
-{"id":"pm1-37","title":"SAQ 3: widgets","blocks":[
-{"t":"p","text":"Weekly production is 100 000 widgets worth £10 each. Quality control removes 5 for burring, 200 unbalanced (out of round) and 50 for repolishing. Customers return a shipment of 500 scratched and gouged, and one of 350 of the wrong size. (Ignore extra shipping charges; look at shipment values only.)"},
-{"t":"activity","id":"pm1-s3","title":"SAQ 3","prompt":"(a) Place these categories of faulty widgets in order from most to least value. (b) Where does the analysis suggest you could achieve the greatest improvement in quality?","hint":"Multiply each count by £10.","model":"(a) 500 scratched and gouged (£5000); 350 incorrect size despatched (£3500); 200 out of round (£2000); 50 substandard polishing (£500); 5 burring (£50). (b) The greatest improvement comes from tackling scratching and gouging, then the despatch errors.","points":["Order: scratched/gouged, wrong size, out of round, polishing, burring","Values £5000, £3500, £2000, £500, £50","Greatest gain from fixing scratching and gouging first","Then correct problems in despatching orders"]}
-]},
-{"id":"pm1-38","title":"SAQ 3: the answer","blocks":[
-{"t":"img","src":"img/pm_p22_5.jpg","alt":"Bar chart of the value of faulty widgets: scratched and gouged £5000, size incorrect £3500, out of round £2000, polishing insufficient £500, burring £50.","caption":"Figure S.1 Pareto analysis of widget problems"},
-{"t":"callout","kind":"note","text":"In reality other factors have an effect. Fixing the wrong-size problem probably costs only taking the 350 back into stock and despatching the right ones. The 200 out-of-round widgets must be scrapped and replaced by new ones at twice the cost of the faulty ones."},
-{"t":"p","text":"Having found which problems merit investigation, study their symptoms, develop theories of the causes, then analyse and experiment to establish true causes. Cause and effect diagramming helps here."}
-]},
-{"id":"pm1-39","title":"Cause and effect diagrams","blocks":[
-{"t":"p","text":"Cause and effect diagrams, also called **Ishikawa** or **fishbone** diagrams, originate in investigating sources of variation in production processes. They identify, sort and display the possible causes of a specific problem or quality characteristic, and show the relationship between an outcome and all the factors that influence it. The diagram identifies where to collect data for further study."},
-{"t":"ol","items":["Define the occurrence (the effect).","Identify the factors that contribute to it (the causes).","Examine them to find the root causes – these must be tackled."]},
-{"t":"p","text":"Causes are listed under categories: **methods, machinery, materials and people**, or **policies, procedures, people and plant**. Sometimes a fifth, **environment**, is needed."}
-]},
-{"id":"pm1-40","title":"Reading a fishbone","blocks":[
-{"t":"img","src":"img/pm_p23_6.jpg","alt":"Fishbone diagram with effect 'poor fuel consumption'. Categories: methods (drive too fast, too many short journeys, using wrong gears), machinery (carburettor adjustment, under-inflated tyres, no record of tyre pressure), people (irregular maintenance, bad driving habits), materials (wrong engine oil, wrong petrol octane).","caption":"Figure 3 A cause and effect diagram for determining the causes of poor fuel consumption for a petrol-driven car"},
-{"t":"p","text":"Major causes connect directly to the main arrow; sub-causes (under-inflated tyres) connect to these; sub-sub-causes (no record of tyre pressure) connect to those – a chain of major and minor causes within each category."}
-]},
-{"id":"pm1-41","title":"Activity 3: ask why","blocks":[
-{"t":"activity","id":"pm1-a3","title":"Activity 3","prompt":"You do not have enough information to draw a complete cause and effect diagram for the fuel consumption problem, but you should be able to formulate questions that reveal more detail. Give an example related to the contributing causes of irregular maintenance.","hint":"Ask a series of ‘why?’ questions.","model":"Ask a series of questions such as: why was maintenance so irregular? One response might be that the driver was not aware how often the car had to be serviced. Another driver might know when to have it done but not always have the money to pay for the work.","points":["Ask ‘why was maintenance irregular?’ and keep asking why","Cause 1: driver unaware of the service frequency","Cause 2: driver knows but lacks the money","Each answer becomes a sub-cause on the diagram"]}
-]},
-{"id":"pm1-42","title":"Using the fishbone result","blocks":[
-{"t":"p","text":"As the analysis proceeds it helps identify the causes that warrant further investigation. The overall balance of the diagram is informative:"},
-{"t":"ul","items":["areas that get busy, with many items and much detail, may need further investigation","causes repeated in more than one branch may be the **root causes** to act upon","assess each cause for what might be measured, so the effects of changes made within a project can be quantified"]},
-{"t":"p","text":"Having determined the source of a problem and the value to the organisation of eliminating or greatly reducing it, the resulting objective should become clear, and possibly some strategies to achieve it."}
-]},
-{"id":"pm1-43","title":"1.5 Organisational objectives","blocks":[
-{"t":"p","text":"**Objectives** are the things the organisation wants to achieve – its ‘whats’."},
-{"t":"ul","items":["Profit-oriented organisation: increase profit.","Producer cooperative: improve the standard of living among members and their families.","Green campaigning organisation: encourage the public to reduce their dependence on the private motor car."]},
-{"t":"activity","id":"pm1-a4","title":"Activity 4","prompt":"Think of a group of which you are a member (work, family, a club). Write down three to five high-level objectives you think such a group would have.","hint":"Start each with a verb such as to provide, to improve, to encourage.","model":"For a family: to provide financial security for each family member; to provide an environment of peace and safety, away from the world at large; to provide a sound educational and social upbringing for any children.","points":["Three to five objectives","Each starts with an action verb (to provide, to improve…)","High-level, saying what the group wants to achieve","Matches the real purpose of the group"]}
-]},
-{"id":"pm1-44","title":"Goals and SMART objectives","blocks":[
-{"t":"p","text":"Objectives contain verbs (to improve, to encourage, to provide) because they imply action is needed to achieve a goal. A **goal** such as ‘a happy family life’ marks the general outcome or desired state. In contrast, objectives are often required to be **SMART**:"},
-{"t":"ul","items":["**Specific:** be precise about what you want to achieve.","**Measurable:** quantify your objectives.","**Achievable:** are you attempting too much?","**Realistic:** do you have the resources to reach the objective?","**Timed:** state when you will achieve the objective."]},
-{"t":"callout","kind":"tip","title":"Example","text":"An internet mail order company starts a project with the objective to reduce delivery costs by 12 per cent by the end of the current financial year."}
-]},
-{"id":"pm1-45","title":"Try it: SMART objectives","blocks":[
-{"t":"tool","tool":"org-objectives","title":"Try it: SMART objectives","intro":"Write an objective and check it against Specific, Measurable, Achievable, Realistic and Timed."}
-]},
-{"id":"pm1-46","title":"Identifying objectives: brainstorming","blocks":[
-{"t":"p","text":"Usually the board or a similar stakeholder grouping decides high-level objectives. There is a balance between individual and collective work, and group dynamics matter: a tendency to value consensus at the price of decision quality, or to make more extreme decisions as a group than alone."},
-{"t":"h","text":"Brainstorming, in three phases"},
-{"t":"ol","items":["A close-knit group of five or six, in a private place, calls out ideas in response to a question. A facilitator encourages participation, discourages criticism and records every idea where all can see.","When ideas falter the group discusses them, rejects (possibly by reference to the mission statement) or keeps ideas, and constructively criticises and roughly ranks those kept. A good criticism: can the idea be developed to make it more usable?","The group seeks consensus on a ranking and develops a ranked set of objectives."]},
-{"t":"p","text":"Prepare by defining the problem clearly, with criteria if possible; the facilitator uses it to keep the group focused."}
-]},
-{"id":"pm1-47","title":"Brainstorming in practice","blocks":[
-{"t":"p","text":"You can brainstorm alone, but a group helps when individuals reach their limit: a member with a different background picks up the idea and takes it forward. It is **lateral thinking**: opening up possibilities and challenging assumptions. The leader should draw in quieter members, relaxing normal work rules so wild ideas can be explored – but criticism stifles the creative atmosphere."},
-{"t":"ul","items":["**Electronic brainstorming** (email or software) captures every idea and can allow anonymity for reluctant contributors – but anonymity can threaten others, so contributions may need moderating against flaming and power grabs. It needs more coordination and extra examples and activities.","**Stimuli** when stuck: bring in experts from a different domain, or use **negative brainstorming** – think how to prevent something and reverse the ideas."]},
-{"t":"quote","text":"In every opportunity there is a threat. In every threat there is an opportunity."}
-]},
-{"id":"pm1-48","title":"Nominal group technique and affinity diagrams","blocks":[
-{"t":"h","text":"Nominal group technique (Delbecq et al., 1986)"},
-{"t":"p","text":"Once the problem is defined, members independently and silently write down as many ideas as possible in a set period (typically an hour or so). The group then discusses them; criticism and debate are discouraged but clarification is allowed. Members vote to rank or rate the ideas. It is more structured than brainstorming, which keeps task focus and reduces conflict – but reduced social interaction can hurt creativity."},
-{"t":"h","text":"Affinity diagrams"},
-{"t":"p","text":"Both techniques give a ranked list. A group can then draw lines between related objectives – thick for strong affinity, thin for weaker – to group them and classify them under headings. For example, a quality-assurance body used: increase effectiveness of the service; increase customer satisfaction; increase profitability; increase job satisfaction; build a strong, global organisation."}
-]},
-{"id":"pm1-49","title":"Towards project proposals","blocks":[
-{"t":"p","text":"Objectives are the organisation’s whats. Turning them into plans, the highest-level **hows**, is the next task. Almost always there is more than one way to achieve an objective: to eat, we might cook at home or go to a restaurant. With several people involved, disagreement may arise – and even one person may be ambivalent (a tired parent welcomes a break from cooking but dreads small children in a restaurant)."},
-{"t":"p","text":"In organisations such conflicts can make a programme or project stray from the spirit of its objectives and compromise quality. Widely practised organised brainstorming and group planning has two benefits: people feel contributions are welcomed and so support the outcome, and people are clearer about the desired outcome and how to work towards it. Both are unquantifiable but contribute to quality."}
-]},
-{"id":"pm1-50","title":"Matrix diagrams","blocks":[
-{"t":"p","text":"Identified objectives form the ‘what’ column of a matrix diagram, with scale ratings for importance. A group then brainstorms **strategies** (‘hows’) and links them to objectives, marking whether links are non-existent, weak, medium or strong."},
-{"t":"img","src":"img/pm_p28_7.jpg","alt":"Matrix with objectives as rows ranked 1 to 4 (reduce operating costs, provide better customer service, increase marketability of systems, increase employee satisfaction) and strategies as columns (identify and quantify costs, identify customer needs, undertake marketing research, study and improve quality assurance techniques, identify and eliminate wasted effort, reduce paperwork). Squares show weak, medium or strong links.","caption":"Figure 4 A simple matrix diagram relating ranked objectives to strategies for achieving them"}
-]},
-{"id":"pm1-51","title":"Iterating the matrix","blocks":[
-{"t":"p","text":"Repeating the process identifies lower-level objectives, lower-level strategies and finally **tactics**. In Figure 4, the strategy ‘identify and quantify costs’ can become an objective in the next iteration, with strategies such as looking at past invoices, finding cheaper sources and identifying handling costs. Customers might take part, e.g. through market research."},
-{"t":"p","text":"A project manager may have no input at the strategic level. But as strategies are refined they turn into programmes of change, and the tactics become projects. A project is a way of employing a strategy or strategies to achieve an objective or objectives. The same process can be used at project level."},
-{"t":"callout","kind":"key","text":"Top-down planning keeps minds on the mission and key objectives. Suggestions from lower down can be tested the same way: how well does this fit the mission and objectives? This reduces the chance of projects that lose management support or diverge from the main business."}
-]},
-{"id":"pm1-52","title":"Example 4: the main thing","blocks":[
-{"t":"p","text":"Norris et al. (1993) describe a successful project to check whether telephone bills had been paid and, if not, remind customers by telephone. A strongly stated objective kept effort from going astray: to maximise the number of outstanding bills that get paid each month."},
-{"t":"p","text":"The team was tempted to apply expensive, difficult technology. Returning to the objective, they realised the project was about reminding people to pay bills, not exciting technology, so the final design differed from their first thoughts."},
-{"t":"quote","text":"The main thing was kept the main thing. The project team never lost sight of their objective. They could easily have been seduced by ‘clever’ solutions … They continually asked the question, ‘Will this clear more unpaid accounts?’","by":"Norris et al. (1993, p. 29)"}
-]},
-{"id":"pm1-53","title":"From objectives towards actions","blocks":[
-{"t":"p","text":"As objectives and strategies are identified, two things occur. First, the ranking of objectives plus the strength of links gives a set of **priorities**. No attempt has yet been made to assess benefits or feasibility and cost – a necessary step before a project can be organised and authorised. Few organisations can afford every strategy for every objective, hence the need to rank."},
-{"t":"p","text":"Second, proposals become more detailed, allowing better judgement of desirability, costs and benefits. Proposals compete for attention, and the more do-able and beneficial emerge."}
-]},
-{"id":"pm1-54","title":"Value planning","blocks":[
-{"t":"p","text":"Determining benefit increasingly means determining the **value** a proposal has for the organisation, which also lets proposals be compared. Value is not simply cost to build or buy: it is a complex process, the **value process**, of assessing every aspect of a proposal over its lifetime. At this early stage, before any investment, it is called **value planning**."},
-{"t":"p","text":"Later you will meet methods for assessing financial costs and benefits. These are part of value planning provided they include running costs (energy, maintenance, repair and replacement) and, ultimately, decommissioning costs."}
-]},
-{"id":"pm1-55","title":"Requirements","blocks":[
-{"t":"callout","kind":"key","title":"Requirement","text":"An expression of need, demand or obligation. Requirements are a statement of the need that a project has to satisfy (APM, 2006)."},
-{"t":"p","text":"Getting requirements right is essential for quality. If they are not clearly and completely set out, no project or design based on them can succeed. Defining them correctly early minimises cost escalation from rework, client dissatisfaction and excessive changes. It involves identifying:"},
-{"t":"ul","items":["who is best placed to define the requirements","what constitutes acceptable and appropriate requirements","what constitutes an acceptable demonstration that each element has been achieved","resolution of technical, financial or organisational conflicts of interest","agreement on and documentation of requirements and demonstrations in the proposal"]}
-]},
-{"id":"pm1-56","title":"Example 5: choosing network parts","blocks":[
-{"t":"p","text":"A large computer system often needs a data communications network made of many components. Suitability cannot be judged on cost alone. Criteria are complex and interlinked:"},
-{"t":"ul","items":["compatibility with all other components, from mechanical and electrical to protocols","capacity, dependability, ease of installation and size","manufacturer’s financial soundness and reputation: can they deliver on time and still be in business when you need to expand?","maintainability (ease and cost)","ability to interconnect with other networks","running and purchase costs"]},
-{"t":"p","text":"Component A may be more suitable than B, C or D, which appear to do the same function more cheaply. Making the correct choice is an important quality issue."}
-]},
-{"id":"pm1-57","title":"Requirement, deliverable, specification","blocks":[
-{"t":"p","text":"Drawing up the statement of requirements is one of the earliest planning steps. A requirement is the starting point of a development. Do not confuse it with:"},
-{"t":"ul","items":["**Deliverables:** the end products of a project, and the measurable results of certain intermediate activities.","**Specification:** a statement of the characteristics of a deliverable, such as size or performance standards."]},
-{"t":"p","text":"A requirement might be ‘to be able to travel independently of the public transport system’. It could be met by car, motorcycle, bicycle or on foot. The deliverable depends on the stage of definition: ‘a super-mini car’, or ‘an 1100 cc petrol-powered motor car capable of carrying four passengers’, or one specifying length, width, height and colour. A firm technical specification comes only after feasibility studies, design and often prototypes."}
-]},
-{"id":"pm1-58","title":"Acceptance testing","blocks":[
-{"t":"p","text":"A requirement must be **appropriate** (to real needs, expectations and the value the client puts on it, and agreed by the client) and **well defined**. Even then, if the parties have not agreed how to demonstrate it has been met, agreement on its meaning can break down over time."},
-{"t":"callout","kind":"key","title":"Acceptance testing","text":"Setting out how it will be possible to demonstrate that a requirement has been met. Acceptance test criteria for each deliverable are established at the same time as its specification."},
-{"t":"p","text":"Terms like ‘easy to use’, ‘safe’ or ‘reliable’ are abstract: how will anyone know when they are achieved? Avoid unquantified terms. State the quality, then list the factors that contribute to it."}
-]},
-{"id":"pm1-59","title":"Making ‘easy to use’ concrete","blocks":[
-{"t":"p","text":"‘Easy to use’ can include:"},
-{"t":"ul","items":["appropriate documentation written in plain English","clues on the item showing how to use it (a shape that only fits another item in one obvious way)","displays directing clearly how it is to be used","parts ergonomically designed for typical users – remembering many people are not ‘typical’ (colour-blind, left-handed, tall, wheelchair users)"]},
-{"t":"p","text":"Later, each factor becomes a demonstration, e.g. ‘a user’s manual that is complete, with several useful and accurate worked examples and uncluttered illustrations’. Demonstrations must be **testable**, with measurable components. For a road de-icing project: ‘Operators shall be able to generate a de-icing schedule after one day’s training’ – easy to check (Robertson and Robertson, 2006)."}
-]},
-{"id":"pm1-60","title":"Activity 5: a door","blocks":[
-{"t":"activity","id":"pm1-a5","title":"Activity 5","prompt":"Assume you are drawing up the requirements for a door. First, list two or three qualities that a door should exhibit, then refine these by listing two contributing factors for each quality.","hint":"Qualities such as ‘easy to use’ need concrete, measurable factors.","model":"Qualities: easy to use, draught-proof, attractive appearance. Easy to use: handle opens easily; door swings or slides out of the way with minimal effort; door wide enough for easy passage. Draught-proof: frame overlaps door edges and fits well; seals improve draught-proofing. Attractive: smooth surface; pleasing proportions; attractive hardware.","points":["Two or three qualities named (e.g. easy to use, draught-proof, attractive)","Each quality has at least two contributing factors","Factors are concrete rather than abstract","Considers all users, e.g. wheelchair users or arms full"]}
-]},
-{"id":"pm1-61","title":"Door requirements: the table","blocks":[
-{"t":"table","head":["Quality","Contributing factors"],"rows":[["Easy to use","Handle opens easily; door swings or slides out of the way with minimal effort; door wide enough for easy passage"],["Draught-proof","Frame overlaps with door edges and fits well; seals used to improve draught-proofing"],["Attractive appearance","Smooth surface; pleasing proportions; attractive hardware used"]]},
-{"t":"p","text":"No demonstrations were set here, but early on you could extend ‘easy to use’: ‘usable by wheelchair users, people with Zimmer frames or pushchairs or with their arms full’. This bears on the door being wide enough, needing minimal effort to open and close, and the handle being easy to reach."}
-]},
-{"id":"pm1-62","title":"Example 6 and the next step","blocks":[
-{"t":"p","text":"Requirements affect cost, yet cost is only one criterion and may not be the most important."},
-{"t":"callout","kind":"note","title":"Example 6","text":"The design team for an early space satellite did not tell the purchasing manager that all electronic parts needed to be ‘high reliability’, able to survive launch pressures and vibration, near vacuum and extreme temperature swings. The manager bought on price alone. A key electronic component, being of the ordinary type, failed to survive the launch."},
-{"t":"h","text":"Next step: feasibility"},
-{"t":"p","text":"Once objectives and strategies are ranked, major problems analysed, decisions made, and requirements and specifications set out, the next step is to pick the strategies to survey for **feasibility** – how profitably do-able they are. A feasibility study emphasises both technical and financial aspects, and its results help decide which proposals to pursue."}
-]},
-{"id":"pm1-63","title":"1.6 Summary","blocks":[
-{"t":"p","text":"This section set the scene for projects: organisations and the players – sponsor, champion, client, customer, owner and other stakeholders. It showed how organisations identify their mission and objectives, explore and refine objectives and strategies in a structured way, analyse problems, and broadly determine feasibility. It is then up to management to decide which actions to pursue."},
-{"t":"ul","items":["define, in your own words, what a project is","name and define the chief roles people assume in respect of proposals and projects","explain the purpose of a mission statement","define and carry out a simple SWOT analysis","explain and carry out a Pareto analysis of a problem","explain the role of cause and effect diagrams","generate simple matrix diagrams relating objectives to strategies","explain how structured planning improves quality","set acceptable requirements for proposed projects"]}
-]},
-{"id":"pm1-64","title":"Key terms","blocks":[
-{"t":"flash","cards":[
-{"front":"Project","back":"Organised work towards a pre-defined goal or objective that requires resources and effort: a unique (and therefore possibly risky) venture having a budget and schedule."},
-{"front":"Stakeholder","back":"Any person or group who has an interest in a project, is affected by it or can influence its outcome."},
-{"front":"Sponsor vs champion","back":"The sponsor is the primary risk taker and provides resources; the champion advocates the project to people in power."},
-{"front":"Mission statement","back":"A brief description of what a group believes it has been organised to do; sets boundaries for objectives."},
-{"front":"Pareto analysis","back":"Columns ordered by magnitude to show which few problems account for most of the value (the 20:80 ratio)."},
-{"front":"Fishbone diagram","back":"Ishikawa cause and effect diagram that sorts possible causes of a problem to find root causes."},
-{"front":"Acceptance testing","back":"Agreeing how it will be demonstrated that a requirement has been met."}
-]}
-]},
-{"id":"pm1-65","title":"Check your understanding (1)","blocks":[
-{"t":"quiz","id":"pm1-q1","q":"Which characteristic best distinguishes a project from operations?","options":["It is repetitive and role-oriented","It is limited in time and scope and unique","Its resources are stable","It never ends"],"answer":1,"explain":"Projects are unique, transient endeavours with start and finish dates; operations are repetitive and never-ending."},
-{"t":"quiz","id":"pm1-q2","q":"Which stakeholder is described as the primary risk taker who provides the resources?","options":["Champion","Customer","Sponsor","End user"],"answer":2,"explain":"The sponsor is the person or body for whom the project is undertaken and who provides money and people."},
-{"t":"tf","id":"pm1-q3","q":"A project that meets all its time, cost and quality objectives cannot fail its business goals.","answer":false,"explain":"Project success and product success differ: a project can meet its objectives yet fail its business goals, and vice versa."}
-]},
-{"id":"pm1-66","title":"Check your understanding (2)","blocks":[
-{"t":"quiz","id":"pm1-q4","q":"In a SWOT analysis, which pair arises from the organisation’s internal environment?","options":["Strengths and weaknesses","Opportunities and threats","Strengths and threats","Weaknesses and opportunities"],"answer":0,"explain":"Strengths and weaknesses are internal; opportunities and threats come from the external environment."},
-{"t":"quiz","id":"pm1-q5","q":"A Pareto analysis of faulty widgets shows scratching and gouging worth £5000 and burring worth £50. What does it suggest?","options":["Fix burring first as it is easiest","Fix scratching and gouging first for the greatest improvement","All problems deserve equal effort","Ignore the problems, as they are small"],"answer":1,"explain":"Pareto analysis ranks by value, pointing to the few causes that account for most of the loss."},
-{"t":"quiz","id":"pm1-q6","q":"Which of these is a SMART objective?","options":["Improve customer service","Be the best in the market","Reduce delivery costs by 12 per cent by the end of this financial year","Make everyone happy"],"answer":2,"explain":"It is specific, measurable and timed; the others are vague goals."}
-]},
-{"id":"pm1-67","title":"Check your understanding (3)","blocks":[
-{"t":"quiz","id":"pm1-q7","q":"Which statements about requirements are correct?","options":["A requirement is the starting point of a development","Acceptance test criteria are set at the same time as the specification","‘Safe’ and ‘reliable’ are good enough as they stand","Demonstrations must be testable and measurable"],"answer":[0,1,3],"multi":true,"explain":"Abstract terms like ‘safe’ must be refined into concrete, measurable factors that can be demonstrated."},
-{"t":"quiz","id":"pm1-q8","q":"In Example 4, why did the telephone-bill project go well?","options":["It used the most advanced technology","The team kept the main objective in sight: clearing more unpaid accounts","It had the biggest budget","It avoided having an objective"],"answer":1,"explain":"A strongly stated objective stopped the team being seduced by ‘clever’ solutions."}
-]}
-]
+ "id": "pm1",
+ "title": "Conception: ‘The journey begins’",
+ "summary": "What a project is, who the players are, and how organisations plan, find problems, set objectives and requirements that give rise to projects.",
+ "minutes": 45,
+ "pages": [
+  {
+   "id": "pm1-01",
+   "title": "The journey begins",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "To write about projects, we have to define what they are and describe how they arise. A project can arise as part of a planning process, as a response to a changing environment, as a business opportunity, as a problem or as a newly identified requirement."
+    },
+    {
+     "t": "p",
+     "text": "Projects often appear mysterious: to the person in the average organisation they seem to appear the way mushrooms sprout – overnight. They are very diverse, from one or two people over a few days to hundreds of people over years."
+    },
+    {
+     "t": "h",
+     "text": "Learning outcomes"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "define what a project is",
+      "use knowledge-gathering and idea-generating techniques to develop objectives for action",
+      "use Pareto analysis and cause and effect diagrams to explore problem areas",
+      "generate simple matrix diagrams to relate objectives to strategies",
+      "name and describe the chief roles people can assume relating to proposals and projects",
+      "relate these roles to the process of organisational planning",
+      "explain different views of quality and show that structured planning improves quality"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm1-02",
+   "title": "1.1 What is a project?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Projects are often contrasted with **operations**: the normal day-to-day activities of an organisation. A project is something outside normal day-to-day work – although in fields such as construction, research and software design, the day-to-day work *is* carrying out projects."
+    },
+    {
+     "t": "p",
+     "text": "Projects vary so much that they are hard to define concisely, but the general view is that projects bring about change in an organised manner. Three definitions:"
+    },
+    {
+     "t": "quote",
+     "text": "a temporary organisation to which resources are assigned to do work to bring about beneficial change.",
+     "by": "Turner, 2006"
+    },
+    {
+     "t": "quote",
+     "text": "a unique, transient endeavour undertaken to achieve a desired outcome.",
+     "by": "APM (Association for Project Management), 2006"
+    },
+    {
+     "t": "quote",
+     "text": "a unique process, consisting of a set of coordinated and controlled activities with start and finish dates, undertaken to achieve an objective conforming to specific requirements, including constraints of time, cost and resources.",
+     "by": "British Standard BS 6079-2, 2000"
+    }
+   ]
+  },
+  {
+   "id": "pm1-03",
+   "title": "Characteristics of a project",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "To bring about a desired change, a project has these characteristics:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "a unique undertaking: each one differs from every other in some respect",
+      "specific objectives (or goals) to achieve",
+      "requires resources",
+      "has a budget",
+      "has a schedule",
+      "requires the effort of people",
+      "measures of quality apply"
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Our definition",
+     "text": "A project is organised work towards a pre-defined goal or objective that requires resources and effort – a unique (and therefore possibly risky) venture having a budget and schedule."
+    },
+    {
+     "t": "p",
+     "text": "Uniqueness means projects take place in an atmosphere of uncertainty. Projects sit anywhere on a ‘spectrum of uniqueness’: an academic research project is quite different from one that improves the routine operation of existing machinery. Once a project has met its objectives it ceases to exist – project work is characterised by **impermanence**."
+    }
+   ]
+  },
+  {
+   "id": "pm1-04",
+   "title": "Quality and requirements",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Quality is discussed throughout this course. Defining it is not trivial, and there are several perspectives. Our view is based on this definition:"
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Quality (ISO 9000, 2005)",
+     "text": "The degree to which a set of inherent characteristics fulfils requirements."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Requirement (ISO 9000)",
+     "text": "A need or expectation that is stated, generally implied or obligatory."
+    },
+    {
+     "t": "p",
+     "text": "In ISO 9000 each inherent characteristic of a product, process or system is related to a requirement."
+    }
+   ]
+  },
+  {
+   "id": "pm1-05",
+   "title": "The business case",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "When initiating a project, someone has to justify the request for resources and gather enough evidence to gain approval. A **business case** is the document that sets out the justification for a project and its strategic rationale (APM, 2006)."
+    },
+    {
+     "t": "p",
+     "text": "Estimates of costs, timescales and benefits are needed even though detailed information may not yet be available. In effect the business case is the initial project plan, with enough information to answer every question a decision maker might ask:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "What do you want to achieve?",
+      "Why do you want to do it?",
+      "How are you going to do it?",
+      "When are you going to do it?",
+      "Who is going to be affected?",
+      "What resources do you need?"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm1-06",
+   "title": "A project is a journey",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A common analogy: a project is like a journey. The daily trip to work is routine, so not really a project. A special trip somewhere new could be a real challenge: there is a reason for it, a plan for reaching the destination and for what must be done on the way, and extra effort is needed to track progress and keep to the route."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Project management",
+     "text": "The application of knowledge, skills, tools and techniques so that the project can be defined, planned, monitored, controlled and delivered in order to achieve its agreed benefits (APM, 2006)."
+    },
+    {
+     "t": "p",
+     "text": "The analogy also shows the need to separate **project success** from **product success**: a project can meet all its cost, time and quality objectives but fail its business goals, and vice versa. Any assessment of success involves both objective and subjective criteria. Success returns in Section 5."
+    }
+   ]
+  },
+  {
+   "id": "pm1-07",
+   "title": "Activity 1: project success",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "pm1-a1",
+     "title": "Activity 1",
+     "prompt": "Think about how you might identify whether or not a project is successful. List those items that you would look at to determine a project’s success.",
+     "hint": "Think about time, cost, quality, the customer, and the project organisation afterwards.",
+     "model": "A project can be judged by asking: did it achieve its time, cost and quality objectives? Does it meet the customer’s perceived requirements? Does the outcome make the client want to come back for further business? Has the project been completed leaving the project organisation fit and able to continue further work?",
+     "points": [
+      "Time, cost and quality objectives achieved",
+      "Meets the customer’s perceived requirements",
+      "Client wants to do further business",
+      "Project organisation left fit to continue further work"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm1-08",
+   "title": "Examples of projects (1)",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Projects come in all shapes:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Aircraft:** a manufacturer finds the nose wheel on a prototype collapses too easily and starts a project to strengthen it. Beware knock-on effects: when one wing strut was strengthened, the maintenance access shrank and the fitter could not reach the wiring – so another project had to redesign the access.",
+      "**Construction:** a firm builds access roads and small factory units on derelict land to create business and jobs: surveying, demolition, clearing, levelling, roads, foundations and buildings.",
+      "**Research and development:** a chemical firm explores products using a new polymer, while also analysing the potential market and manufacturing process."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm1-09",
+   "title": "Examples of projects (2)",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "**Software:** modify a database so users can prepare reports directly instead of re-typing into a word processor: understand the systems, interview or observe users, specify, code, test, install, train and document.",
+      "**Marketing:** launch a new product: market research, an advertising campaign, promotional events and press releases, liaising with wholesalers and retailers.",
+      "**Charity:** dig a well, decided in consultation with local people: choose a site, consult a hydrologist, organise labour and materials – and train local people to maintain it and share it fairly.",
+      "**Government:** respond to legislative change. The switch from rates to the poll tax, then to the council tax, forced two separate major projects of computer-system change and of identifying and assessing who to tax."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm1-10",
+   "title": "Programmes and portfolios",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Sometimes the work needed for a major organisational goal is far greater than a single project. The organisation then undertakes a **programme**."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Programme (APM, 2006)",
+     "text": "A group of related projects, which may include related business-as-usual activities, that together achieve a beneficial change of a strategic nature for an organisation."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Portfolio (APM, 2006)",
+     "text": "A grouping of an organisation’s projects, programmes and related business-as-usual activities taking into account resource constraints."
+    },
+    {
+     "t": "p",
+     "text": "The Olympic Games is a portfolio owned by the host country: a programme is associated with each sport, plus one for the infrastructure changes. A portfolio can also be a group of projects and/or programmes with no inter-dependencies other than sharing or competing for the same resources."
+    }
+   ]
+  },
+  {
+   "id": "pm1-11",
+   "title": "SAQ 1: projects vs operations",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "pm1-s1",
+     "title": "SAQ 1",
+     "prompt": "Based on the characteristics we have associated with projects and your own experience, draw up a table to compare project management with managing operations.",
+     "hint": "Compare change, duration, uniqueness, resources and focus of management.",
+     "model": "Projects bring significant change, are limited in time and scope, unique, with transient resources and goal-oriented management that balances performance, time and budget. Operations see only small evolutionary change, are never-ending and repetitive, with stable resources, role-oriented management, and performance, time and budget usually fixed and balanced.",
+     "points": [
+      "Projects: significant change, operations: small evolutionary change",
+      "Projects: limited in time and scope, operations: never-ending",
+      "Projects: unique and transient, operations: repetitive and stable",
+      "Projects: goal-oriented management balancing objectives; operations: role-oriented, in equilibrium"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm1-12",
+   "title": "Projects vs operations: the table",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "Projects",
+      "Operations"
+     ],
+     "rows": [
+      [
+       "Significant change",
+       "Any changes small and evolutionary"
+      ],
+      [
+       "Limited in time and scope",
+       "Never-ending"
+      ],
+      [
+       "Unique",
+       "Repetitive"
+      ],
+      [
+       "Resources transient",
+       "Resources stable"
+      ],
+      [
+       "Goal-oriented management",
+       "Role-oriented management"
+      ],
+      [
+       "Transient",
+       "Stable"
+      ],
+      [
+       "Attempt to balance performance, time and budget",
+       "Performance, time and budget usually fixed and balanced"
+      ],
+      [
+       "Need to balance objectives",
+       "Management generally in state of equilibrium"
+      ],
+      [
+       "More exciting (perhaps!)",
+       "‘Steady as she goes’ feel"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "You may have listed other aspects. Our next step is to consider who might be involved in the conception of a project."
+    }
+   ]
+  },
+  {
+   "id": "pm1-13",
+   "title": "1.2 Organisational structures",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Projects take place within organisations whose structures, philosophies and cultures affect how work is planned and carried out – a social environment of people who affect, and are affected by, the outcome."
+    },
+    {
+     "t": "p",
+     "text": "Western organisations are normally **hierarchies** with vertical lines of reporting: a managing director or chief executive at the top, advised by a board of directors on strategic goals. Below, the organisation divides into functional areas, which often reflect specialist groups:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "marketing",
+      "product design and engineering",
+      "manufacturing",
+      "sales",
+      "purchasing",
+      "information systems",
+      "finance",
+      "human resources"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Large organisations may also divide by product class (e.g. washing machines and televisions each with their own functional areas). Small groups work with little formal structure; project team members often take more than one role."
+    }
+   ]
+  },
+  {
+   "id": "pm1-14",
+   "title": "Tension across the organisation",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A project to develop a new product may involve marketing, information systems, design and engineering and manufacturing. But loyalties in hierarchical organisations follow the vertical reporting lines, and conflicts can arise from the **horizontal links** within the project, as the different areas may have different objectives and cultures."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "Forming a team brings diverse knowledge, assumptions, ideas and skills to the project’s goal. But the tension across the linkages within the team can harm the outcome unless care is taken to prevent it."
+    }
+   ]
+  },
+  {
+   "id": "pm1-15",
+   "title": "‘Players in the game’",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "All the various ‘players’ in the project ‘game’, even those only peripherally involved, are important. Be aware of who they are, what role they play and their different attitudes to the project."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Stakeholder",
+     "text": "Any person or group of people who has an interest in a project, is affected by it or can influence its outcome."
+    },
+    {
+     "t": "p",
+     "text": "Stakeholders include:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "all the people whose work is changed in any way by the project",
+      "those who are affected by it",
+      "those who grant resources to the project",
+      "those who can obstruct, block or stall the work in any way"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Their influence may vary at different points in a project’s life. Identifying them during conception provides the foundation for a successful outcome."
+    }
+   ]
+  },
+  {
+   "id": "pm1-16",
+   "title": "Key stakeholders (Table 1)",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "Stakeholder",
+      "Description"
+     ],
+     "rows": [
+      [
+       "Sponsor",
+       "The person or body for whom the project is undertaken; the primary risk taker, responsible for ensuring the project is successful in the eyes of the stakeholders. Provides the resources (money and people)."
+      ],
+      [
+       "Champion",
+       "An advocate for a proposal or project who has the ear of the people in power and genuine influence. Not always the person with the bright idea. Provides support in difficulty – a different role from the sponsor."
+      ],
+      [
+       "Client",
+       "A person or organisation requesting or commissioning the services of another, usually with payment, possibly a formal contract. Inside one organisation, departments form informal client–supplier relationships."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm1-17",
+   "title": "Key stakeholders (Table 1, continued)",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "Stakeholder",
+      "Description"
+     ],
+     "rows": [
+      [
+       "Customer",
+       "The one who buys; similar to client. E.g. a marketing department might be the client who instigates a new product, for which we (the public) are the customers."
+      ],
+      [
+       "Owner",
+       "Similar to client or customer, though in a legal sense much more narrowly defined. Boddy and Buchanan use it for one with a strong attachment to the aims of a project."
+      ],
+      [
+       "Blockers or objectors",
+       "People or bodies that will resist the project."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm1-18",
+   "title": "Client or customer?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "In practice client and customer cause confusion. They can be synonyms or kept apart depending on context: a lawyer has *clients* for services; shops have *customers* for products on the shelves. Some organisations call you a client until money changes hands and a customer afterwards. Dutch and French speakers have only one word ('klant', 'client')."
+    },
+    {
+     "t": "p",
+     "text": "Resolving confusing terms and ambiguities is an important factor in project definition. In software development there are two further vital players:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stakeholder",
+      "Description"
+     ],
+     "rows": [
+      [
+       "End users",
+       "The people who will ultimately operate or use the product. If it does not help them do their work, it will not be successful."
+      ],
+      [
+       "Developer",
+       "A person who is part of the team that builds the product."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm1-19",
+   "title": "More stakeholders, changing roles",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A surprisingly large number of people can be involved. You may not meet every stakeholder, but be aware of their existence and potential influence. **Statutory and regulatory bodies** appear on most lists since they affect both the product and how it is developed."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Pharmaceutical industry: new drugs are constrained by regulatory requirements and the licences needed to sell them.",
+      "Construction: a project can be affected by changes in health and safety regulations during its lifetime."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Some people take on several stakeholder roles and change between them as the project unfolds. Organisational politics mean people swap roles because of team membership but also because of their wish to affect the outcome – favourably or adversely."
+    }
+   ]
+  },
+  {
+   "id": "pm1-20",
+   "title": "Example 1: the eTMA system",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "At The Open University, students post assignments to tutors, who mark them and send them to the Milton Keynes campus, where marks are recorded before the work is returned by post. A dedicated Assignment Handling Office and a Student Records Office handle this. A prototype electronic service came from academics in the Faculty of Mathematics and Computing; the electronic tutor-marked assignment (eTMA) system was developed by the Management Services Division."
+    },
+    {
+     "t": "p",
+     "text": "The sponsor was **not** a senior person in Management Services but the Head of the Assignment Handling Office – although the word ‘sponsor’ was not used. The academics would not be champions unless they could influence the go-ahead decision. The Assignment Handling Office seems to be the client."
+    },
+    {
+     "t": "p",
+     "text": "Had the aim been to replace the postal system entirely, there might have been hostile stakeholders in the Assignment Handling Office, anxious about their future role."
+    }
+   ]
+  },
+  {
+   "id": "pm1-21",
+   "title": "Try it: map the players",
+   "blocks": [
+    {
+     "t": "tool",
+     "tool": "stakeholder-grid",
+     "title": "Try it: stakeholders",
+     "intro": "Place the players in a project (sponsor, champion, client, blockers…) on the grid and see who needs the most attention."
+    }
+   ]
+  },
+  {
+   "id": "pm1-22",
+   "title": "1.3 The project environment",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Projects must be planned – indeed, an organisation must plan to have projects. By **planning** we mean formulating an organised method of achieving something. Projects do not take place in isolation: they have an environment which gives birth to them and with which they interact for the rest of their lives."
+    },
+    {
+     "t": "h",
+     "text": "The environment of the organisation"
+    },
+    {
+     "t": "p",
+     "text": "An early step in planning is gathering information about the environment in which the organisation operates: the market, the economy, the technology and the legislative and regulatory climate. Knowing the market means understanding the present market for the organisation and its products and forecasting markets for new or revised products and services."
+    }
+   ]
+  },
+  {
+   "id": "pm1-23",
+   "title": "The mission statement",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A common start to strategic planning is a **mission statement**: a brief description of what the group (the whole organisation or part of it) believes it has been organised to do. Ideally one sentence, certainly no more than a short paragraph – succinct enough to recall readily and compatible with what the group does or is contemplating doing."
+    },
+    {
+     "t": "quote",
+     "text": "The Open University is open to people, places, methods and ideas. It promotes educational opportunity and social justice by providing high-quality university education to all who wish to realise their ambitions and fulfil their potential. Through academic research, pedagogic innovation and collaborative partnership, it seeks to be a world leader in the design, content and delivery of supported open and distance learning.",
+     "by": "The Open University mission statement"
+    }
+   ]
+  },
+  {
+   "id": "pm1-24",
+   "title": "Why mission statements matter",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Some feel mission statements are fashion and of little value, because many in the past sounded like PR exercises or were long and complicated. Properly written, they focus attention on what an organisation is or ought to be doing."
+    },
+    {
+     "t": "p",
+     "text": "A good mission statement creates **boundaries within which objectives can be set**. If the Open University considered manufacturing computers to raise income, this would obviously fall outside its mission – beyond its expertise, experience and infrastructure, and requiring major organisational change."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "A mission statement is effective when it encapsulates the core values of an organisation concisely and clearly, allowing immediate comparison with any suggestion for activities. But more than a mission statement is needed to identify the organisation’s objectives."
+    }
+   ]
+  },
+  {
+   "id": "pm1-25",
+   "title": "Change from above",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Strategic planning sets the direction and route for an organisation at a macro level. In businesses the board of directors formulates strategic plans, at least to maintain its place in the market and meet customer requirements, and also in the search for new growth. Charities and campaigning groups have boards of trustees; government has comparable bodies."
+    },
+    {
+     "t": "p",
+     "text": "They plan in response to changes in their environment or legislation, and the result is, in the end, **projects**, because projects are one of the major ways an organisation effects change. A project moves from a starting place to an end point corresponding to a goal taken from the strategic plans."
+    }
+   ]
+  },
+  {
+   "id": "pm1-26",
+   "title": "Change from below and from outside",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Change can also be prompted from within: a bright idea from a member of staff (more diversity, new income, better survival, an unperceived customer need, improved quality) can develop into a project. Planning often involves ideas flowing top-down and bottom-up at once. Change also comes from outside: new legislation, a new standard, or a customer approaching a firm with an idea."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "title": "Example 2",
+     "text": "A worker at a catering firm noticed there was nowhere to buy lunch on a large industrial estate. They suggested a small restaurant with a takeaway bar in a little-used area of the premises. It used existing space, expertise and staff, brought new income, and as all trade was cash, improved cash flow and the firm’s ability to survive."
+    }
+   ]
+  },
+  {
+   "id": "pm1-27",
+   "title": "SAQ 2: why a catering firm?",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "pm1-s2",
+     "title": "SAQ 2",
+     "prompt": "In the lunch-bar example the worker was employed by a catering firm. What is the significance of this in the context of the preceding discussion?",
+     "hint": "Think about the mission statement.",
+     "model": "It is more likely that such a suggestion will fit with the mission of a catering firm but not with the mission of other types of organisation.",
+     "points": [
+      "The idea fits a catering firm’s mission",
+      "It would probably not fit another type of organisation’s mission",
+      "The mission sets the boundaries for acceptable objectives"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm1-28",
+   "title": "Strategic planning",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Strategic planning varies as much as organisations do: autocratic orders from the board, or consensual wide consultation, proactive or reactive, or a mixture – real life is messier than descriptions suggest. The tools suggested here are not the only ways, but offer an orderly way to move from the present towards a future shaped by planning rather than whim or chance."
+    },
+    {
+     "t": "p",
+     "text": "The questions in Figure 1 are explored at the level of the whole organisation, then passed downwards: a strategic plan at organisational level becomes an objective at divisional level, and so on down to the team. It also works with no ‘downwards’, e.g. in a cooperative whose groups negotiate with peer groups."
+    }
+   ]
+  },
+  {
+   "id": "pm1-29",
+   "title": "Strategic planning questions",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/pm_p18_3.jpg",
+     "alt": "Four questions on the left, each with an arrow to an outcome on the right: what are we here to do – mission statement; where are we now – SWOT analysis, market analysis/forecasting, technological forecasting; what do we want to achieve – objectives and goals; how might we go about achieving it – strategies and plans.",
+     "caption": "Figure 1 Strategic planning questions and their outcomes"
+    }
+   ]
+  },
+  {
+   "id": "pm1-30",
+   "title": "SWOT and PESTLE",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "SWOT analysis",
+     "text": "A structure for studying the internal and external environments of an organisation: Strengths, Weaknesses, Opportunities, Threats."
+    },
+    {
+     "t": "p",
+     "text": "Strengths and weaknesses generally arise internally (present products or projects, customers, staff, morale, information flows). Opportunities and threats arise externally (competition, economic climate, potential market, legislation)."
+    },
+    {
+     "t": "p",
+     "text": "Acronyms help categorise external factors:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**PESTLE:** political, economic, social, technological, legal, environmental – probably the most useful",
+      "**STEEP:** a rearranged form that includes legal under political",
+      "**PEST (or STEP):** the shortened form"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm1-31",
+   "title": "Example 3: a SWOT",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A SWOT by a company making computing equipment for industrial use:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Category",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "Strengths",
+       "Established customer base and growing reputation; profitable; committed, experienced salespeople; new wireless data collector in an exciting area"
+      ],
+      [
+       "Weaknesses",
+       "Income too low for new R&D; marketed only for industrial needs; some products sell poorly or are dated; slow product development; unrelated product lines hinder sales; hard to recruit industrial designers"
+      ],
+      [
+       "Opportunities",
+       "Many products have a commercial as well as an industrial market; new areas related to present lines; customer interest in related products"
+      ],
+      [
+       "Threats",
+       "Competitors may copy designs; legal action over product safety; exposure to politics in different countries"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm1-32",
+   "title": "Using a SWOT well",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A SWOT can be done for a whole organisation or any part of it – even a single product and the way it is produced and marketed. Its weakness is **subjectivity**: two people in the same company rarely produce the same factors unless they negotiate. Be realistic: it is only the first step in making a plan for action. It is best done by a team, which gives a more balanced view."
+    },
+    {
+     "t": "p",
+     "text": "Boards or trustees may use it to decide how to build on strengths, address weaknesses, take advantage of opportunities and avoid or reduce threats. A project (or programme or portfolio) may then arise. At this point the project is still **unborn**: perhaps only an uneasy thought by someone in senior management that something is needed."
+    }
+   ]
+  },
+  {
+   "id": "pm1-33",
+   "title": "Activity 2: your own SWOT",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "pm1-a2",
+     "title": "Activity 2",
+     "prompt": "Carry out a brief SWOT analysis for the group or department where you work, or for a group (such as a club or affinity group) to which you belong. Try to list at least three factors in each category.",
+     "hint": "Strengths and weaknesses are internal; opportunities and threats are external.",
+     "model": "A strong answer lists at least three factors per category, keeping strengths and weaknesses internal (people, skills, resources, morale) and opportunities and threats external (market, competition, legislation, economy). For example, for a local club: strengths – committed members, own premises, good reputation; weaknesses – ageing membership, little money, few volunteers; opportunities – local grants, new housing nearby, social media; threats – rival clubs, rising hire costs, changing regulations.",
+     "points": [
+      "At least three factors in each of the four categories",
+      "Strengths and weaknesses are internal to the group",
+      "Opportunities and threats come from the external environment",
+      "Factors are specific and realistic, not vague"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm1-34",
+   "title": "Try it: SWOT and PESTLE",
+   "blocks": [
+    {
+     "t": "tool",
+     "tool": "swot-pest",
+     "title": "Try it: SWOT and PESTLE",
+     "intro": "Practise the two strategic-planning tools from this section: sort statements into a SWOT and PESTLE analysis, then try one for your own project.",
+     "opts": {
+      "tabs": [
+       "swot",
+       "pestle"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "pm1-35",
+   "title": "1.4 Two investigative tools",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Some objectives aim to improve an existing situation, procedure, process or product in order to address a weakness – that is, to reduce or eliminate problems. The problem must be investigated thoroughly to find out whether it is serious and worth tackling. Two common tools are **Pareto analysis** and **cause and effect diagrams**."
+    },
+    {
+     "t": "h",
+     "text": "Pareto analysis"
+    },
+    {
+     "t": "p",
+     "text": "Credited to the Italian economist Vilfredo Pareto, it relies on an almost universal truism about value and quantity: in a warehouse 20% of items usually represent 80% of stock value; 80% of quality problems come from 20% of possible causes of failure. This 20:80 ratio is often called **Pareto’s law**."
+    }
+   ]
+  },
+  {
+   "id": "pm1-36",
+   "title": "How to do a Pareto analysis",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "In a computer system, minor disk-access failures are frequent but little impact (retrying fixes them). Far more rarely a read head touches the magnetic surface and the disk is destroyed: rare but great impact."
+    },
+    {
+     "t": "p",
+     "text": "A Pareto analysis draws columns representing the magnitude of a problem, or each aspect of a large problem, arranged largest first. Column height represents the value of correcting the problem, so equal columns may be small but frequent difficulties or major but rarer ones."
+    },
+    {
+     "t": "img",
+     "src": "img/pm_p21_4.jpg",
+     "alt": "Bar chart of causes of printed circuit board failures, in descending order: defective components (about 41%), defective bare board (24%), incorrect components (18%), components inserted wrong way round (6%), soldering faults (5%), reason unknown (2%), missing components, components inserted in incorrect positions (about 1% each).",
+     "caption": "Figure 2 Pareto analysis of printed circuit board failures"
+    }
+   ]
+  },
+  {
+   "id": "pm1-37",
+   "title": "SAQ 3: widgets",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Weekly production is 100 000 widgets worth £10 each. Quality control removes 5 for burring, 200 unbalanced (out of round) and 50 for repolishing. Customers return a shipment of 500 scratched and gouged, and one of 350 of the wrong size. (Ignore extra shipping charges; look at shipment values only.)"
+    },
+    {
+     "t": "activity",
+     "id": "pm1-s3",
+     "title": "SAQ 3",
+     "prompt": "(a) Place these categories of faulty widgets in order from most to least value. (b) Where does the analysis suggest you could achieve the greatest improvement in quality?",
+     "hint": "Multiply each count by £10.",
+     "model": "(a) 500 scratched and gouged (£5000); 350 incorrect size despatched (£3500); 200 out of round (£2000); 50 substandard polishing (£500); 5 burring (£50). (b) The greatest improvement comes from tackling scratching and gouging, then the despatch errors.",
+     "points": [
+      "Order: scratched/gouged, wrong size, out of round, polishing, burring",
+      "Values £5000, £3500, £2000, £500, £50",
+      "Greatest gain from fixing scratching and gouging first",
+      "Then correct problems in despatching orders"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm1-38",
+   "title": "SAQ 3: the answer",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/pm_p22_5.jpg",
+     "alt": "Bar chart of the value of faulty widgets: scratched and gouged £5000, size incorrect £3500, out of round £2000, polishing insufficient £500, burring £50.",
+     "caption": "Figure S.1 Pareto analysis of widget problems"
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "In reality other factors have an effect. Fixing the wrong-size problem probably costs only taking the 350 back into stock and despatching the right ones. The 200 out-of-round widgets must be scrapped and replaced by new ones at twice the cost of the faulty ones."
+    },
+    {
+     "t": "p",
+     "text": "Having found which problems merit investigation, study their symptoms, develop theories of the causes, then analyse and experiment to establish true causes. Cause and effect diagramming helps here."
+    }
+   ]
+  },
+  {
+   "id": "pm1-39",
+   "title": "Cause and effect diagrams",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Cause and effect diagrams, also called **Ishikawa** or **fishbone** diagrams, originate in investigating sources of variation in production processes. They identify, sort and display the possible causes of a specific problem or quality characteristic, and show the relationship between an outcome and all the factors that influence it. The diagram identifies where to collect data for further study."
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Define the occurrence (the effect).",
+      "Identify the factors that contribute to it (the causes).",
+      "Examine them to find the root causes – these must be tackled."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Causes are listed under categories: **methods, machinery, materials and people**, or **policies, procedures, people and plant**. Sometimes a fifth, **environment**, is needed."
+    }
+   ]
+  },
+  {
+   "id": "pm1-40",
+   "title": "Reading a fishbone",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/pm_p23_6.jpg",
+     "alt": "Fishbone diagram with effect 'poor fuel consumption'. Categories: methods (drive too fast, too many short journeys, using wrong gears), machinery (carburettor adjustment, under-inflated tyres, no record of tyre pressure), people (irregular maintenance, bad driving habits), materials (wrong engine oil, wrong petrol octane).",
+     "caption": "Figure 3 A cause and effect diagram for determining the causes of poor fuel consumption for a petrol-driven car"
+    },
+    {
+     "t": "p",
+     "text": "Major causes connect directly to the main arrow; sub-causes (under-inflated tyres) connect to these; sub-sub-causes (no record of tyre pressure) connect to those – a chain of major and minor causes within each category."
+    }
+   ]
+  },
+  {
+   "id": "pm1-41",
+   "title": "Activity 3: ask why",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "pm1-a3",
+     "title": "Activity 3",
+     "prompt": "You do not have enough information to draw a complete cause and effect diagram for the fuel consumption problem, but you should be able to formulate questions that reveal more detail. Give an example related to the contributing causes of irregular maintenance.",
+     "hint": "Ask a series of ‘why?’ questions.",
+     "model": "Ask a series of questions such as: why was maintenance so irregular? One response might be that the driver was not aware how often the car had to be serviced. Another driver might know when to have it done but not always have the money to pay for the work.",
+     "points": [
+      "Ask ‘why was maintenance irregular?’ and keep asking why",
+      "Cause 1: driver unaware of the service frequency",
+      "Cause 2: driver knows but lacks the money",
+      "Each answer becomes a sub-cause on the diagram"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm1-42",
+   "title": "Using the fishbone result",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "As the analysis proceeds it helps identify the causes that warrant further investigation. The overall balance of the diagram is informative:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "areas that get busy, with many items and much detail, may need further investigation",
+      "causes repeated in more than one branch may be the **root causes** to act upon",
+      "assess each cause for what might be measured, so the effects of changes made within a project can be quantified"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Having determined the source of a problem and the value to the organisation of eliminating or greatly reducing it, the resulting objective should become clear, and possibly some strategies to achieve it."
+    }
+   ]
+  },
+  {
+   "id": "pm1-42b",
+   "title": "Try it: Pareto and cause & effect",
+   "blocks": [
+    {
+     "t": "tool",
+     "tool": "swot-pest",
+     "opts": {
+      "tabs": [
+       "pareto",
+       "fish"
+      ]
+     },
+     "title": "Try it: Pareto analysis and fishbone diagrams",
+     "intro": "Now that you know both investigative tools, rank the causes of a problem with a Pareto analysis, then sort causes onto a fishbone diagram."
+    }
+   ]
+  },
+  {
+   "id": "pm1-43",
+   "title": "1.5 Organisational objectives",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "**Objectives** are the things the organisation wants to achieve – its ‘whats’."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Profit-oriented organisation: increase profit.",
+      "Producer cooperative: improve the standard of living among members and their families.",
+      "Green campaigning organisation: encourage the public to reduce their dependence on the private motor car."
+     ]
+    },
+    {
+     "t": "activity",
+     "id": "pm1-a4",
+     "title": "Activity 4",
+     "prompt": "Think of a group of which you are a member (work, family, a club). Write down three to five high-level objectives you think such a group would have.",
+     "hint": "Start each with a verb such as to provide, to improve, to encourage.",
+     "model": "For a family: to provide financial security for each family member; to provide an environment of peace and safety, away from the world at large; to provide a sound educational and social upbringing for any children.",
+     "points": [
+      "Three to five objectives",
+      "Each starts with an action verb (to provide, to improve…)",
+      "High-level, saying what the group wants to achieve",
+      "Matches the real purpose of the group"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm1-44",
+   "title": "Goals and SMART objectives",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Objectives contain verbs (to improve, to encourage, to provide) because they imply action is needed to achieve a goal. A **goal** such as ‘a happy family life’ marks the general outcome or desired state. In contrast, objectives are often required to be **SMART**:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Specific:** be precise about what you want to achieve.",
+      "**Measurable:** quantify your objectives.",
+      "**Achievable:** are you attempting too much?",
+      "**Realistic:** do you have the resources to reach the objective?",
+      "**Timed:** state when you will achieve the objective."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "title": "Example",
+     "text": "An internet mail order company starts a project with the objective to reduce delivery costs by 12 per cent by the end of the current financial year."
+    }
+   ]
+  },
+  {
+   "id": "pm1-45",
+   "title": "Try it: SMART objectives",
+   "blocks": [
+    {
+     "t": "tool",
+     "tool": "org-objectives",
+     "title": "Try it: SMART objectives",
+     "intro": "Write an objective and check it against Specific, Measurable, Achievable, Realistic and Timed."
+    }
+   ]
+  },
+  {
+   "id": "pm1-46",
+   "title": "Identifying objectives: brainstorming",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Usually the board or a similar stakeholder grouping decides high-level objectives. There is a balance between individual and collective work, and group dynamics matter: a tendency to value consensus at the price of decision quality, or to make more extreme decisions as a group than alone."
+    },
+    {
+     "t": "h",
+     "text": "Brainstorming, in three phases"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "A close-knit group of five or six, in a private place, calls out ideas in response to a question. A facilitator encourages participation, discourages criticism and records every idea where all can see.",
+      "When ideas falter the group discusses them, rejects (possibly by reference to the mission statement) or keeps ideas, and constructively criticises and roughly ranks those kept. A good criticism: can the idea be developed to make it more usable?",
+      "The group seeks consensus on a ranking and develops a ranked set of objectives."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Prepare by defining the problem clearly, with criteria if possible; the facilitator uses it to keep the group focused."
+    }
+   ]
+  },
+  {
+   "id": "pm1-47",
+   "title": "Brainstorming in practice",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "You can brainstorm alone, but a group helps when individuals reach their limit: a member with a different background picks up the idea and takes it forward. It is **lateral thinking**: opening up possibilities and challenging assumptions. The leader should draw in quieter members, relaxing normal work rules so wild ideas can be explored – but criticism stifles the creative atmosphere."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Electronic brainstorming** (email or software) captures every idea and can allow anonymity for reluctant contributors – but anonymity can threaten others, so contributions may need moderating against flaming and power grabs. It needs more coordination and extra examples and activities.",
+      "**Stimuli** when stuck: bring in experts from a different domain, or use **negative brainstorming** – think how to prevent something and reverse the ideas."
+     ]
+    },
+    {
+     "t": "quote",
+     "text": "In every opportunity there is a threat. In every threat there is an opportunity."
+    }
+   ]
+  },
+  {
+   "id": "pm1-48",
+   "title": "Nominal group technique and affinity diagrams",
+   "blocks": [
+    {
+     "t": "h",
+     "text": "Nominal group technique (Delbecq et al., 1986)"
+    },
+    {
+     "t": "p",
+     "text": "Once the problem is defined, members independently and silently write down as many ideas as possible in a set period (typically an hour or so). The group then discusses them; criticism and debate are discouraged but clarification is allowed. Members vote to rank or rate the ideas. It is more structured than brainstorming, which keeps task focus and reduces conflict – but reduced social interaction can hurt creativity."
+    },
+    {
+     "t": "h",
+     "text": "Affinity diagrams"
+    },
+    {
+     "t": "p",
+     "text": "Both techniques give a ranked list. A group can then draw lines between related objectives – thick for strong affinity, thin for weaker – to group them and classify them under headings. For example, a quality-assurance body used: increase effectiveness of the service; increase customer satisfaction; increase profitability; increase job satisfaction; build a strong, global organisation."
+    }
+   ]
+  },
+  {
+   "id": "pm1-49",
+   "title": "Towards project proposals",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Objectives are the organisation’s whats. Turning them into plans, the highest-level **hows**, is the next task. Almost always there is more than one way to achieve an objective: to eat, we might cook at home or go to a restaurant. With several people involved, disagreement may arise – and even one person may be ambivalent (a tired parent welcomes a break from cooking but dreads small children in a restaurant)."
+    },
+    {
+     "t": "p",
+     "text": "In organisations such conflicts can make a programme or project stray from the spirit of its objectives and compromise quality. Widely practised organised brainstorming and group planning has two benefits: people feel contributions are welcomed and so support the outcome, and people are clearer about the desired outcome and how to work towards it. Both are unquantifiable but contribute to quality."
+    }
+   ]
+  },
+  {
+   "id": "pm1-50",
+   "title": "Matrix diagrams",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Identified objectives form the ‘what’ column of a matrix diagram, with scale ratings for importance. A group then brainstorms **strategies** (‘hows’) and links them to objectives, marking whether links are non-existent, weak, medium or strong."
+    },
+    {
+     "t": "img",
+     "src": "img/pm_p28_7.jpg",
+     "alt": "Matrix with objectives as rows ranked 1 to 4 (reduce operating costs, provide better customer service, increase marketability of systems, increase employee satisfaction) and strategies as columns (identify and quantify costs, identify customer needs, undertake marketing research, study and improve quality assurance techniques, identify and eliminate wasted effort, reduce paperwork). Squares show weak, medium or strong links.",
+     "caption": "Figure 4 A simple matrix diagram relating ranked objectives to strategies for achieving them"
+    }
+   ]
+  },
+  {
+   "id": "pm1-51",
+   "title": "Iterating the matrix",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Repeating the process identifies lower-level objectives, lower-level strategies and finally **tactics**. In Figure 4, the strategy ‘identify and quantify costs’ can become an objective in the next iteration, with strategies such as looking at past invoices, finding cheaper sources and identifying handling costs. Customers might take part, e.g. through market research."
+    },
+    {
+     "t": "p",
+     "text": "A project manager may have no input at the strategic level. But as strategies are refined they turn into programmes of change, and the tactics become projects. A project is a way of employing a strategy or strategies to achieve an objective or objectives. The same process can be used at project level."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Top-down planning keeps minds on the mission and key objectives. Suggestions from lower down can be tested the same way: how well does this fit the mission and objectives? This reduces the chance of projects that lose management support or diverge from the main business."
+    }
+   ]
+  },
+  {
+   "id": "pm1-52",
+   "title": "Example 4: the main thing",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Norris et al. (1993) describe a successful project to check whether telephone bills had been paid and, if not, remind customers by telephone. A strongly stated objective kept effort from going astray: to maximise the number of outstanding bills that get paid each month."
+    },
+    {
+     "t": "p",
+     "text": "The team was tempted to apply expensive, difficult technology. Returning to the objective, they realised the project was about reminding people to pay bills, not exciting technology, so the final design differed from their first thoughts."
+    },
+    {
+     "t": "quote",
+     "text": "The main thing was kept the main thing. The project team never lost sight of their objective. They could easily have been seduced by ‘clever’ solutions … They continually asked the question, ‘Will this clear more unpaid accounts?’",
+     "by": "Norris et al. (1993, p. 29)"
+    }
+   ]
+  },
+  {
+   "id": "pm1-53",
+   "title": "From objectives towards actions",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "As objectives and strategies are identified, two things occur. First, the ranking of objectives plus the strength of links gives a set of **priorities**. No attempt has yet been made to assess benefits or feasibility and cost – a necessary step before a project can be organised and authorised. Few organisations can afford every strategy for every objective, hence the need to rank."
+    },
+    {
+     "t": "p",
+     "text": "Second, proposals become more detailed, allowing better judgement of desirability, costs and benefits. Proposals compete for attention, and the more do-able and beneficial emerge."
+    }
+   ]
+  },
+  {
+   "id": "pm1-54",
+   "title": "Value planning",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Determining benefit increasingly means determining the **value** a proposal has for the organisation, which also lets proposals be compared. Value is not simply cost to build or buy: it is a complex process, the **value process**, of assessing every aspect of a proposal over its lifetime. At this early stage, before any investment, it is called **value planning**."
+    },
+    {
+     "t": "p",
+     "text": "Later you will meet methods for assessing financial costs and benefits. These are part of value planning provided they include running costs (energy, maintenance, repair and replacement) and, ultimately, decommissioning costs."
+    }
+   ]
+  },
+  {
+   "id": "pm1-55",
+   "title": "Requirements",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Requirement",
+     "text": "An expression of need, demand or obligation. Requirements are a statement of the need that a project has to satisfy (APM, 2006)."
+    },
+    {
+     "t": "p",
+     "text": "Getting requirements right is essential for quality. If they are not clearly and completely set out, no project or design based on them can succeed. Defining them correctly early minimises cost escalation from rework, client dissatisfaction and excessive changes. It involves identifying:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "who is best placed to define the requirements",
+      "what constitutes acceptable and appropriate requirements",
+      "what constitutes an acceptable demonstration that each element has been achieved",
+      "resolution of technical, financial or organisational conflicts of interest",
+      "agreement on and documentation of requirements and demonstrations in the proposal"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm1-56",
+   "title": "Example 5: choosing network parts",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A large computer system often needs a data communications network made of many components. Suitability cannot be judged on cost alone. Criteria are complex and interlinked:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "compatibility with all other components, from mechanical and electrical to protocols",
+      "capacity, dependability, ease of installation and size",
+      "manufacturer’s financial soundness and reputation: can they deliver on time and still be in business when you need to expand?",
+      "maintainability (ease and cost)",
+      "ability to interconnect with other networks",
+      "running and purchase costs"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Component A may be more suitable than B, C or D, which appear to do the same function more cheaply. Making the correct choice is an important quality issue."
+    }
+   ]
+  },
+  {
+   "id": "pm1-57",
+   "title": "Requirement, deliverable, specification",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Drawing up the statement of requirements is one of the earliest planning steps. A requirement is the starting point of a development. Do not confuse it with:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Deliverables:** the end products of a project, and the measurable results of certain intermediate activities.",
+      "**Specification:** a statement of the characteristics of a deliverable, such as size or performance standards."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "A requirement might be ‘to be able to travel independently of the public transport system’. It could be met by car, motorcycle, bicycle or on foot. The deliverable depends on the stage of definition: ‘a super-mini car’, or ‘an 1100 cc petrol-powered motor car capable of carrying four passengers’, or one specifying length, width, height and colour. A firm technical specification comes only after feasibility studies, design and often prototypes."
+    }
+   ]
+  },
+  {
+   "id": "pm1-58",
+   "title": "Acceptance testing",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A requirement must be **appropriate** (to real needs, expectations and the value the client puts on it, and agreed by the client) and **well defined**. Even then, if the parties have not agreed how to demonstrate it has been met, agreement on its meaning can break down over time."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Acceptance testing",
+     "text": "Setting out how it will be possible to demonstrate that a requirement has been met. Acceptance test criteria for each deliverable are established at the same time as its specification."
+    },
+    {
+     "t": "p",
+     "text": "Terms like ‘easy to use’, ‘safe’ or ‘reliable’ are abstract: how will anyone know when they are achieved? Avoid unquantified terms. State the quality, then list the factors that contribute to it."
+    }
+   ]
+  },
+  {
+   "id": "pm1-59",
+   "title": "Making ‘easy to use’ concrete",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "‘Easy to use’ can include:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "appropriate documentation written in plain English",
+      "clues on the item showing how to use it (a shape that only fits another item in one obvious way)",
+      "displays directing clearly how it is to be used",
+      "parts ergonomically designed for typical users – remembering many people are not ‘typical’ (colour-blind, left-handed, tall, wheelchair users)"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Later, each factor becomes a demonstration, e.g. ‘a user’s manual that is complete, with several useful and accurate worked examples and uncluttered illustrations’. Demonstrations must be **testable**, with measurable components. For a road de-icing project: ‘Operators shall be able to generate a de-icing schedule after one day’s training’ – easy to check (Robertson and Robertson, 2006)."
+    }
+   ]
+  },
+  {
+   "id": "pm1-60",
+   "title": "Activity 5: a door",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "pm1-a5",
+     "title": "Activity 5",
+     "prompt": "Assume you are drawing up the requirements for a door. First, list two or three qualities that a door should exhibit, then refine these by listing two contributing factors for each quality.",
+     "hint": "Qualities such as ‘easy to use’ need concrete, measurable factors.",
+     "model": "Qualities: easy to use, draught-proof, attractive appearance. Easy to use: handle opens easily; door swings or slides out of the way with minimal effort; door wide enough for easy passage. Draught-proof: frame overlaps door edges and fits well; seals improve draught-proofing. Attractive: smooth surface; pleasing proportions; attractive hardware.",
+     "points": [
+      "Two or three qualities named (e.g. easy to use, draught-proof, attractive)",
+      "Each quality has at least two contributing factors",
+      "Factors are concrete rather than abstract",
+      "Considers all users, e.g. wheelchair users or arms full"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm1-61",
+   "title": "Door requirements: the table",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "Quality",
+      "Contributing factors"
+     ],
+     "rows": [
+      [
+       "Easy to use",
+       "Handle opens easily; door swings or slides out of the way with minimal effort; door wide enough for easy passage"
+      ],
+      [
+       "Draught-proof",
+       "Frame overlaps with door edges and fits well; seals used to improve draught-proofing"
+      ],
+      [
+       "Attractive appearance",
+       "Smooth surface; pleasing proportions; attractive hardware used"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "No demonstrations were set here, but early on you could extend ‘easy to use’: ‘usable by wheelchair users, people with Zimmer frames or pushchairs or with their arms full’. This bears on the door being wide enough, needing minimal effort to open and close, and the handle being easy to reach."
+    }
+   ]
+  },
+  {
+   "id": "pm1-62",
+   "title": "Example 6 and the next step",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Requirements affect cost, yet cost is only one criterion and may not be the most important."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "title": "Example 6",
+     "text": "The design team for an early space satellite did not tell the purchasing manager that all electronic parts needed to be ‘high reliability’, able to survive launch pressures and vibration, near vacuum and extreme temperature swings. The manager bought on price alone. A key electronic component, being of the ordinary type, failed to survive the launch."
+    },
+    {
+     "t": "h",
+     "text": "Next step: feasibility"
+    },
+    {
+     "t": "p",
+     "text": "Once objectives and strategies are ranked, major problems analysed, decisions made, and requirements and specifications set out, the next step is to pick the strategies to survey for **feasibility** – how profitably do-able they are. A feasibility study emphasises both technical and financial aspects, and its results help decide which proposals to pursue."
+    }
+   ]
+  },
+  {
+   "id": "pm1-63",
+   "title": "1.6 Summary",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "This section set the scene for projects: organisations and the players – sponsor, champion, client, customer, owner and other stakeholders. It showed how organisations identify their mission and objectives, explore and refine objectives and strategies in a structured way, analyse problems, and broadly determine feasibility. It is then up to management to decide which actions to pursue."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "define, in your own words, what a project is",
+      "name and define the chief roles people assume in respect of proposals and projects",
+      "explain the purpose of a mission statement",
+      "define and carry out a simple SWOT analysis",
+      "explain and carry out a Pareto analysis of a problem",
+      "explain the role of cause and effect diagrams",
+      "generate simple matrix diagrams relating objectives to strategies",
+      "explain how structured planning improves quality",
+      "set acceptable requirements for proposed projects"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm1-64",
+   "title": "Key terms",
+   "blocks": [
+    {
+     "t": "flash",
+     "cards": [
+      {
+       "front": "Project",
+       "back": "Organised work towards a pre-defined goal or objective that requires resources and effort: a unique (and therefore possibly risky) venture having a budget and schedule."
+      },
+      {
+       "front": "Stakeholder",
+       "back": "Any person or group who has an interest in a project, is affected by it or can influence its outcome."
+      },
+      {
+       "front": "Sponsor vs champion",
+       "back": "The sponsor is the primary risk taker and provides resources; the champion advocates the project to people in power."
+      },
+      {
+       "front": "Mission statement",
+       "back": "A brief description of what a group believes it has been organised to do; sets boundaries for objectives."
+      },
+      {
+       "front": "Pareto analysis",
+       "back": "Columns ordered by magnitude to show which few problems account for most of the value (the 20:80 ratio)."
+      },
+      {
+       "front": "Fishbone diagram",
+       "back": "Ishikawa cause and effect diagram that sorts possible causes of a problem to find root causes."
+      },
+      {
+       "front": "Acceptance testing",
+       "back": "Agreeing how it will be demonstrated that a requirement has been met."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pm1-65",
+   "title": "Check your understanding (1)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "pm1-q1",
+     "q": "Which characteristic best distinguishes a project from operations?",
+     "options": [
+      "It is repetitive and role-oriented",
+      "It is limited in time and scope and unique",
+      "Its resources are stable",
+      "It never ends"
+     ],
+     "answer": 1,
+     "explain": "Projects are unique, transient endeavours with start and finish dates; operations are repetitive and never-ending."
+    },
+    {
+     "t": "quiz",
+     "id": "pm1-q2",
+     "q": "Which stakeholder is described as the primary risk taker who provides the resources?",
+     "options": [
+      "Champion",
+      "Customer",
+      "Sponsor",
+      "End user"
+     ],
+     "answer": 2,
+     "explain": "The sponsor is the person or body for whom the project is undertaken and who provides money and people."
+    },
+    {
+     "t": "tf",
+     "id": "pm1-q3",
+     "q": "A project that meets all its time, cost and quality objectives cannot fail its business goals.",
+     "answer": false,
+     "explain": "Project success and product success differ: a project can meet its objectives yet fail its business goals, and vice versa."
+    }
+   ]
+  },
+  {
+   "id": "pm1-66",
+   "title": "Check your understanding (2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "pm1-q4",
+     "q": "In a SWOT analysis, which pair arises from the organisation’s internal environment?",
+     "options": [
+      "Strengths and weaknesses",
+      "Opportunities and threats",
+      "Strengths and threats",
+      "Weaknesses and opportunities"
+     ],
+     "answer": 0,
+     "explain": "Strengths and weaknesses are internal; opportunities and threats come from the external environment."
+    },
+    {
+     "t": "quiz",
+     "id": "pm1-q5",
+     "q": "A Pareto analysis of faulty widgets shows scratching and gouging worth £5000 and burring worth £50. What does it suggest?",
+     "options": [
+      "Fix burring first as it is easiest",
+      "Fix scratching and gouging first for the greatest improvement",
+      "All problems deserve equal effort",
+      "Ignore the problems, as they are small"
+     ],
+     "answer": 1,
+     "explain": "Pareto analysis ranks by value, pointing to the few causes that account for most of the loss."
+    },
+    {
+     "t": "quiz",
+     "id": "pm1-q6",
+     "q": "Which of these is a SMART objective?",
+     "options": [
+      "Improve customer service",
+      "Be the best in the market",
+      "Reduce delivery costs by 12 per cent by the end of this financial year",
+      "Make everyone happy"
+     ],
+     "answer": 2,
+     "explain": "It is specific, measurable and timed; the others are vague goals."
+    }
+   ]
+  },
+  {
+   "id": "pm1-67",
+   "title": "Check your understanding (3)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "pm1-q7",
+     "q": "Which statements about requirements are correct?",
+     "options": [
+      "A requirement is the starting point of a development",
+      "Acceptance test criteria are set at the same time as the specification",
+      "‘Safe’ and ‘reliable’ are good enough as they stand",
+      "Demonstrations must be testable and measurable"
+     ],
+     "answer": [
+      0,
+      1,
+      3
+     ],
+     "multi": true,
+     "explain": "Abstract terms like ‘safe’ must be refined into concrete, measurable factors that can be demonstrated."
+    },
+    {
+     "t": "quiz",
+     "id": "pm1-q8",
+     "q": "In Example 4, why did the telephone-bill project go well?",
+     "options": [
+      "It used the most advanced technology",
+      "The team kept the main objective in sight: clearing more unpaid accounts",
+      "It had the biggest budget",
+      "It avoided having an objective"
+     ],
+     "answer": 1,
+     "explain": "A strongly stated objective stopped the team being seduced by ‘clever’ solutions."
+    }
+   ]
+  }
+ ]
 }

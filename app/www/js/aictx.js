@@ -1,30 +1,38 @@
 /* AI behaviour: response modes, course/notes retrieval and prompt building (sized for a small ~2K-token on-device model) */
 (function(){
   var h=H.h;
-  /* ---------------- modes ---------------- */
-  var BUILTIN=[
-    {id:'standard',name:'Standard',builtin:true,length:'short',instructions:'Be concise and friendly. Use at most 3 short sentences.'},
-    {id:'extended',name:'Extended',builtin:true,length:'long',instructions:'Give a fuller, step-by-step explanation with a concrete example. Use up to 8 sentences.'},
-    {id:'critical',name:'Critical',builtin:true,length:'medium',instructions:'Focus on improvements: point out weaknesses, gaps and mistakes and say exactly how to fix them. Do not praise unless it is deserved.'}
-  ];
+  /* ---------------- modes: two independent sets, 'grade' (activity feedback) and 'chat' (questions, AI chat, writing help) ---------------- */
+  var BUILTIN={
+    chat:[
+      {id:'auto',name:'Auto',builtin:true,length:'medium',instructions:'Adapt to the request: answer simple questions in 1-3 sentences, give more detail and an example when asked to explain.'},
+      {id:'extended',name:'Extended',builtin:true,length:'long',instructions:'Give a fuller, step-by-step explanation with a concrete example. Use up to 8 sentences.'},
+      {id:'critical',name:'Critical',builtin:true,length:'medium',instructions:'Focus on improvements: point out weaknesses, gaps and mistakes and say exactly how to fix them. Do not praise unless it is deserved.'}],
+    grade:[
+      {id:'standard',name:'Standard',builtin:true,length:'short',instructions:'Be concise and friendly. Use at most 3 short sentences.'},
+      {id:'extended',name:'Extended',builtin:true,length:'long',instructions:'Explain in more depth what is right and what is missing, with a short example of a better answer. Up to 7 sentences.'},
+      {id:'critical',name:'Critical',builtin:true,length:'medium',instructions:'Grade strictly. Focus on what is missing or wrong and exactly how to improve it. Only praise what is clearly correct.'}]};
+  var KEYS={chat:{list:'aiModes',active:'aiMode',edits:'aiModeEdits',def:'auto'},grade:{list:'aiGradeModes',active:'aiGradeMode',edits:'aiGradeModeEdits',def:'standard'}};
   var TOKENS={short:130,medium:220,long:340};
+  function sc(scope){return scope==='grade'?'grade':'chat'}
   var Modes={
-    list:function(){var u=(Store.settings.aiModes||[]).filter(function(m){return m&&m.id});
-      var over=Store.settings.aiModeEdits||{};
-      return BUILTIN.map(function(b){return Object.assign({},b,over[b.id]||{})}).concat(u)},
-    get:function(id){var l=Modes.list();return l.filter(function(m){return m.id===id})[0]||l[0]},
-    active:function(){return Modes.get(Store.settings.aiMode||'standard')},
-    setActive:function(id){Store.settings.aiMode=id;Store.saveSettings()},
-    add:function(name,instructions,length){var m={id:'m'+Date.now().toString(36),name:name.trim()||'My mode',instructions:instructions.trim(),length:length||'medium'};
-      Store.settings.aiModes=(Store.settings.aiModes||[]).concat([m]);Store.saveSettings();return m},
-    update:function(id,patch){var l=Store.settings.aiModes||[],i=l.map(function(m){return m.id}).indexOf(id);
-      if(i>=0){l[i]=Object.assign({},l[i],patch)}else{Store.settings.aiModeEdits=Store.settings.aiModeEdits||{};Store.settings.aiModeEdits[id]=Object.assign({},Store.settings.aiModeEdits[id]||{},patch)}
+    list:function(scope){scope=sc(scope);var k=KEYS[scope],S=Store.settings,u=(S[k.list]||[]).filter(function(m){return m&&m.id}),over=S[k.edits]||{};
+      return BUILTIN[scope].map(function(b){return Object.assign({},b,over[b.id]||{})}).concat(u)},
+    get:function(id,scope){var l=Modes.list(scope);return l.filter(function(m){return m.id===id})[0]||l[0]},
+    active:function(scope){scope=sc(scope);var id=Store.settings[KEYS[scope].active]||KEYS[scope].def;if(scope==='chat'&&id==='standard')id='auto';return Modes.get(id,scope)},
+    setActive:function(id,scope){Store.settings[KEYS[sc(scope)].active]=id;Store.saveSettings()},
+    add:function(name,instructions,length,scope){var k=KEYS[sc(scope)],m={id:'m'+Date.now().toString(36),name:name.trim()||'My mode',instructions:instructions.trim(),length:length||'medium'};
+      Store.settings[k.list]=(Store.settings[k.list]||[]).concat([m]);Store.saveSettings();return m},
+    update:function(id,patch,scope){var k=KEYS[sc(scope)],l=Store.settings[k.list]||[],i=l.map(function(m){return m.id}).indexOf(id);
+      if(i>=0){l[i]=Object.assign({},l[i],patch)}else{Store.settings[k.edits]=Store.settings[k.edits]||{};Store.settings[k.edits][id]=Object.assign({},Store.settings[k.edits][id]||{},patch)}
       Store.saveSettings()},
-    remove:function(id){Store.settings.aiModes=(Store.settings.aiModes||[]).filter(function(m){return m.id!==id});
-      if(Store.settings.aiMode===id)Store.settings.aiMode='standard';Store.saveSettings()},
+    reset:function(id,scope){var k=KEYS[sc(scope)];if(Store.settings[k.edits])delete Store.settings[k.edits][id];Store.saveSettings()},
+    remove:function(id,scope){var k=KEYS[sc(scope)];Store.settings[k.list]=(Store.settings[k.list]||[]).filter(function(m){return m.id!==id});
+      if(Store.settings[k.active]===id)Store.settings[k.active]=k.def;Store.saveSettings()},
     tokens:function(m,min){return Math.max(min||0,TOKENS[(m||Modes.active()).length]||200)},
     basis:function(){return Store.settings.feedbackBasis||'model'},
-    setBasis:function(b){Store.settings.feedbackBasis=b;Store.saveSettings()}
+    setBasis:function(b){Store.settings.feedbackBasis=b;Store.saveSettings()},
+    gradeCommand:function(){return (Store.settings.gradeCommand||'').trim()},
+    setGradeCommand:function(t){Store.settings.gradeCommand=t;Store.saveSettings()}
   };
 
   /* ---------------- course text + retrieval ---------------- */
@@ -74,7 +82,7 @@
   function clip(s,n){s=String(s||'');return s.length>n?s.slice(0,n-1)+'…':s}
 
   /* ---------------- prompt building ---------------- */
-  function sys(extra){var m=Modes.active();return 'You are a helpful study tutor for an online course. '+m.instructions+(extra?' '+extra:'')}
+  function sys(extra,scope){var m=Modes.active(scope);return 'You are a helpful study tutor for an online course. '+m.instructions+(extra?' '+extra:'')}
   var Prompts={
     sys:sys,
     /** course material for a question: [{title,text}] -> text block within a char budget */
@@ -95,8 +103,9 @@
       if(basis!=='model'&&o.course)parts.push('Course material:\n'+Prompts.courseContext(o.course,o.question+' '+o.answer,1500,{pid:o.pid,curChars:700}));
       if(basis==='model'&&o.model&&(o.points||[]).length<2)parts.push('Model answer: '+clip(o.model,400));
       parts.push('Student\'s answer: "'+clip(o.answer,500)+'"');parts.push('Write your feedback now.');
-      return {system:sys("Never repeat the student's answer. Speak to the student as 'you'. First say what the student got right, then what is missing or wrong.")+(basis==='course'?' Judge the answer using the course material.':''),
-        prompt:parts.join('\n\n'),maxTokens:Modes.tokens(null,110)}},
+      var cmd=Modes.gradeCommand();
+      return {system:sys("Never repeat the student's answer. Speak to the student as 'you'. First say what the student got right, then what is missing or wrong.",'grade')+(basis==='course'?' Judge the answer using the course material.':'')+(cmd?' Extra instruction from the student: '+cmd:''),
+        prompt:parts.join('\n\n'),maxTokens:Modes.tokens(Modes.active('grade'),110)}},
     ask:function(o){ // o:{question,course,pid,selection,useCourse,useNotes,history}
       var parts=[];
       if(o.selection)parts.push('Selected text: "'+clip(o.selection,600)+'"');
@@ -104,40 +113,43 @@
       if(o.useNotes&&o.course){var n=Prompts.notesContext(o.course,(o.selection||'')+' '+o.question,700);if(n)parts.push('My notes:\n'+n)}
       if(o.history&&o.history.length)parts.push('Earlier in this chat:\n'+o.history.slice(-2).map(function(m){return (m.role==='user'?'Me: ':'You: ')+clip(m.text,260)}).join('\n'));
       parts.push((o.selection?'Task about the selected text: ':'Question: ')+o.question);
-      return {system:sys('Use the provided course material and notes when they are relevant. If they do not contain the answer, say so briefly instead of inventing facts.'),prompt:parts.join('\n\n'),maxTokens:Modes.tokens(null,160)}},
+      return {system:sys(o.general?'Answer from your general knowledge.':'Use the provided course material and notes when they are relevant. If they do not contain the answer, say so briefly instead of inventing facts.','chat'),prompt:parts.join('\n\n'),maxTokens:Modes.tokens(Modes.active('chat'),160)}},
     transform:function(kind,text,instr){
       var task={rewrite:'Rewrite the text so it is clearer and better written. Keep the meaning.',shorten:'Shorten the text to its essentials.',expand:'Expand the text with a little more detail.',fix:'Fix spelling and grammar only.',summarize:'Summarize the text in 2-3 sentences.',combine:'Combine the separate pieces of text below into one coherent paragraph. Keep all important points. Do not add new facts.',custom:instr||'Improve the text.'}[kind]||instr;
-      return {system:'You are a careful writing assistant. '+Modes.active().instructions+' Output only the resulting text, no preface or explanation.',prompt:task+'\n\nText:\n"""\n'+clip(text,1800)+'\n"""',maxTokens:Modes.tokens(null,200)}}
+      return {system:'You are a careful writing assistant. '+Modes.active('chat').instructions+' Output only the resulting text, no preface or explanation.',prompt:task+'\n\nText:\n"""\n'+clip(text,1800)+'\n"""',maxTokens:Modes.tokens(Modes.active('chat'),200)}}
   };
   window.Modes=Modes;window.Retriever=Retriever;window.Prompts=Prompts;window.clipText=clip;window.plainText=plain;
 
   /* ---------------- reusable UI: mode manager + chips ---------------- */
   var LEN=[['short','Short'],['medium','Medium'],['long','Long']];
   window.ModesUI={
-    chips:function(onChange){
+    chips:function(onChange,scope){scope=sc(scope);
       var box=h('div',{class:'row'});
-      function draw(){box.innerHTML='';Modes.list().forEach(function(m){box.appendChild(h('button',{class:'chip'+(Modes.active().id===m.id?' on':''),onclick:function(){Modes.setActive(m.id);draw();onChange&&onChange(m)}},m.name))})}
+      function draw(){box.innerHTML='';Modes.list(scope).forEach(function(m){box.appendChild(h('button',{class:'chip'+(Modes.active(scope).id===m.id?' on':''),onclick:function(){Modes.setActive(m.id,scope);draw();onChange&&onChange(m)}},m.name))})}
       draw();return box},
     basisToggle:function(onChange){
       var box=h('div',{class:'row'});
       function draw(){box.innerHTML='';[['model','Model answer'],['course','Course content'],['both','Both']].forEach(function(o){box.appendChild(h('button',{class:'chip'+(Modes.basis()===o[0]?' on':''),onclick:function(){Modes.setBasis(o[0]);draw();onChange&&onChange(o[0])}},o[1]))})}
       draw();return box},
-    manager:function(onChange){
+    /** list of modes with Use / Edit / Delete + "Add my own mode" form */
+    manager:function(onChange,scope){scope=sc(scope);
       var box=h('div');
       function form(m){
-        var name=h('input',{class:'input',placeholder:'Mode name, e.g. Exam coach',value:m?m.name:''}),ins=h('textarea',{class:'textarea',style:{minHeight:'80px'},placeholder:'Instructions, e.g. Act as a strict examiner. Ask me one follow-up question.'});ins.value=m?m.instructions:'';
+        var name=h('input',{class:'input',placeholder:scope==='grade'?'Mode name, e.g. Exam marker':'Mode name, e.g. Exam coach',value:m?m.name:''}),ins=h('textarea',{class:'textarea',style:{minHeight:'80px'},placeholder:scope==='grade'?'Instructions, e.g. Mark like a strict examiner and give a score out of 10.':'Instructions, e.g. Explain like I am 12 and end with one follow-up question.'});ins.value=m?m.instructions:'';
         var len=m?m.length:'medium',lenRow=h('div',{class:'row'});
         function drawLen(){lenRow.innerHTML='';lenRow.appendChild(h('span',{class:'tiny muted'},'Answer length:'));LEN.forEach(function(l){lenRow.appendChild(h('button',{class:'chip'+(len===l[0]?' on':''),onclick:function(){len=l[0];drawLen()}},l[1]))})}drawLen();
         return h('div',{class:'card flat',style:{marginTop:'8px'}},name,h('div',{style:{height:'8px'}}),ins,h('div',{style:{height:'8px'}}),lenRow,
-          h('div',{class:'row',style:{marginTop:'10px'}},h('button',{class:'btn primary sm',onclick:function(){if(!ins.value.trim()&&!(m&&m.builtin)){H.toast('Write some instructions');return}
-            if(m){Modes.update(m.id,{name:name.value||m.name,instructions:ins.value,length:len})}else{var nm=Modes.add(name.value,ins.value,len);Modes.setActive(nm.id)}draw();onChange&&onChange()}},m?'Save':'Add mode'),
+          h('div',{class:'row',style:{marginTop:'10px'}},h('button',{class:'btn primary sm',onclick:function(){if(!ins.value.trim()){H.toast('Write some instructions');return}
+            if(m){Modes.update(m.id,{name:name.value||m.name,instructions:ins.value,length:len},scope)}else{var nm=Modes.add(name.value,ins.value,len,scope);Modes.setActive(nm.id,scope)}draw();onChange&&onChange()}},m?'Save':'Add mode'),
+            m&&m.builtin?h('button',{class:'btn ghost sm',onclick:function(){Modes.reset(m.id,scope);draw();onChange&&onChange()}},'Reset to default'):null,
             h('button',{class:'btn ghost sm',onclick:draw},'Cancel')))}
       function draw(){box.innerHTML='';
-        Modes.list().forEach(function(m){
-          var row=h('div',{class:'model-row',style:{alignItems:'flex-start'}},h('div',{style:{flex:1,minWidth:0}},h('b',{style:{fontWeight:500}},m.name),m.builtin?h('span',{class:'label',style:{marginLeft:'8px'}},'built-in'):null,Modes.active().id===m.id?h('span',{class:'label',style:{marginLeft:'8px',color:'var(--green)'}},'active'):null,h('div',{class:'tiny muted'},clipText(m.instructions,160))),
-            h('div',{class:'row',style:{gap:'6px',flexShrink:0}},Modes.active().id!==m.id?h('button',{class:'btn sm',onclick:function(){Modes.setActive(m.id);draw();onChange&&onChange()}},'Use'):null,
+        Modes.list(scope).forEach(function(m){
+          var act=Modes.active(scope).id===m.id;
+          var row=h('div',{class:'model-row',style:{alignItems:'flex-start'}},h('div',{style:{flex:1,minWidth:0}},h('b',{style:{fontWeight:500}},m.name),m.builtin?h('span',{class:'label',style:{marginLeft:'8px'}},'built-in'):null,act?h('span',{class:'label',style:{marginLeft:'8px',color:'var(--green)'}},'active'):null,h('div',{class:'tiny muted'},clipText(m.instructions,160))),
+            h('div',{class:'row',style:{gap:'6px',flexShrink:0}},!act?h('button',{class:'btn sm',onclick:function(){Modes.setActive(m.id,scope);draw();onChange&&onChange()}},'Use'):null,
               h('button',{class:'btn ghost sm',onclick:function(){row.replaceWith(form(m))}},'Edit'),
-              m.builtin?null:h('button',{class:'btn ghost sm',onclick:function(){if(confirm('Delete the mode "'+m.name+'"?')){Modes.remove(m.id);draw();onChange&&onChange()}}},'Delete')));
+              m.builtin?null:h('button',{class:'btn ghost sm',onclick:function(){if(confirm('Delete the mode "'+m.name+'"?')){Modes.remove(m.id,scope);draw();onChange&&onChange()}}},'Delete')));
           box.appendChild(row)});
         var add=h('button',{class:'btn sm primary',style:{marginTop:'12px'},onclick:function(){add.replaceWith(form(null))}},'+ Add my own mode');box.appendChild(add)}
       draw();return box}

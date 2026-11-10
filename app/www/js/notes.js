@@ -10,12 +10,14 @@
     while((n=w.nextNode())){var len=n.nodeValue.length,a=pos,b=pos+len;pos=b;if(b<=s)continue;if(a>=e)break;jobs.push([n,Math.max(s,a)-a,Math.min(e,b)-a])}
     jobs.forEach(function(j){var mid=j[0],from=j[1],to=j[2];if(to<=from)return;if(from>0)mid=mid.splitText(from);if(to-from<mid.nodeValue.length)mid.splitText(to-from);
       var sp=document.createElement('span');sp.className='mk '+cls;sp.setAttribute('data-id',id);mid.parentNode.insertBefore(sp,mid);sp.appendChild(mid)})}
-  function unpaint(root){root.querySelectorAll('.mk').forEach(function(m){var p=m.parentNode;while(m.firstChild)p.insertBefore(m.firstChild,m);p.removeChild(m);p.normalize()})}
+  function unpaint(root){root.querySelectorAll('[data-img].mk-img').forEach(function(f){f.classList.remove('mk-img','hl','note');f.removeAttribute('data-id')});
+    root.querySelectorAll('span.mk').forEach(function(m){var p=m.parentNode;while(m.firstChild)p.insertBefore(m.firstChild,m);p.removeChild(m);p.normalize()})}
   var Notes={
     uid:uid,
     forPage:function(course,pid){return Store.allNotes(course).filter(function(e){return e.pid===pid})},
     paint:function(root,course,pid){unpaint(root);
       Notes.forPage(course,pid).sort(function(a,b){return a.c-b.c}).forEach(function(e){(e.segs||[]).forEach(function(sg){
+        if(sg.img){var f=root.querySelector('[data-img="'+sg.k+'"]');if(f){f.classList.add('mk-img',e.type==='note'?'note':'hl');f.setAttribute('data-id',e.id)}return}
         var el=root.querySelector('[data-sel="'+sg.k+'"]');if(!el)return;
         if(sg.t&&el.textContent.slice(sg.s,sg.e)!==sg.t)return;   // content changed since: skip rather than mis-highlight
         wrap(el,sg.s,sg.e,e.id,e.type==='note'?'note':'hl')})})},
@@ -57,7 +59,7 @@
       var pr=h('div',{class:'row',style:{margin:'8px 0'}});PRESETS.forEach(function(p){pr.appendChild(h('button',{class:'chip',onclick:function(){run(p)}},p))});box.appendChild(pr);
       box.appendChild(h('div',{class:'row',style:{flexWrap:'nowrap'}},inp,h('button',{class:'btn primary sm',onclick:function(){if(inp.value.trim())run(inp.value.trim())}},'Ask')));
       inp.addEventListener('keydown',function(e){if(e.key==='Enter'&&inp.value.trim())run(inp.value.trim())});
-      box.appendChild(h('div',{class:'row',style:{marginTop:'8px',alignItems:'center'}},h('span',{class:'tiny muted'},'Mode:'),ModesUI.chips()));
+      box.appendChild(h('div',{class:'row',style:{marginTop:'8px',alignItems:'center'}},h('span',{class:'tiny muted'},'Mode:'),ModesUI.chips(null,'chat')));
       box.appendChild(out);Sheet.show(box)}
   };
 

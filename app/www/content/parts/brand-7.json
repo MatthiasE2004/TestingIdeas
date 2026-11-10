@@ -1,0 +1,888 @@
+{
+ "id": "brand7",
+ "title": "Week 7: Promoting my brand in writing and in person",
+ "summary": "Convey your personal brand in job applications, CVs, emails, reports and business cards, and in person through first impressions, networking and interviews.",
+ "minutes": 90,
+ "pages": [
+  {
+   "id": "brand7-01",
+   "title": "Welcome to Week 7",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Last week you focused on promoting your brand online, via popular social media platforms including LinkedIn and Facebook."
+    },
+    {
+     "t": "p",
+     "text": "This week, you'll explore how to promote your brand **in writing and in person**. These interactions occur all the time in the workplace, and you'll learn how to be ready to respond when they do."
+    },
+    {
+     "t": "video",
+     "title": "Video 1 Introduction to Week 7",
+     "url": null,
+     "note": "A short video that introduces this week's theme: promoting your personal brand in writing and in person."
+    },
+    {
+     "t": "h",
+     "text": "By the end of this week, you will be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "emphasise your personal brand during the job application process",
+      "demonstrate your personal brand in day-to-day interactions",
+      "recognise opportunities to promote your personal brand in writing and in person."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand7-02",
+   "title": "Job applications: application forms",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "The emphasis here is on how to convey your personal brand effectively in your applications, not on the actual process of filling them in. Many online resources can help with application forms and CVs - for example, the Open University Careers and Employability pages on CVs, application forms and interviews.",
+     "title": "Study note"
+    },
+    {
+     "t": "p",
+     "text": "Most application forms require some form of **personal statement**, outlining how you meet the requirements for the job. The usual process is to go through the job description and person specification for the role and ensure that you address their key requirements as you write your statement."
+    },
+    {
+     "t": "p",
+     "text": "If you find it difficult to focus on your personal brand as you write, start by responding to the role requirements first - detailing your relevant experience, etc. as you normally would. After the first draft, read it through to check for the prominence of your personal brand and look for opportunities to reinforce it throughout."
+    }
+   ]
+  },
+  {
+   "id": "brand7-03",
+   "title": "Weaving your brand into a statement",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "For example, the job requires attention to detail and you also want to emphasise your person-centred values. Rather than simply stating that you have good attention to detail and giving some evidence, you might say instead:"
+    },
+    {
+     "t": "quote",
+     "text": "I pay close attention to detail because I want to ensure that individuals can engage with the service I provide as quickly and easily as possible. They can then focus their attention on the things that are important to them and their work. For example, I recently produced a well-received user manual for our email system.",
+     "by": ""
+    },
+    {
+     "t": "p",
+     "text": "Thus, you have emphasised your personal strength - **concern for others**. You've explained the **benefit to the employer** (saving colleagues' time), and given an **example** they can explore further in your interview."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "The aim is to make yourself stand out from other candidates enough to be invited for interview."
+    }
+   ]
+  },
+  {
+   "id": "brand7-04",
+   "title": "Competency and strengths-based questions",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/brand_48.jpg",
+     "alt": "A hand holding a pen, poised to begin filling out an application form",
+     "caption": "Figure 1 Filling out an application form"
+    },
+    {
+     "t": "h",
+     "text": "Competency-based questions"
+    },
+    {
+     "t": "p",
+     "text": "Some application forms ask a series of competency-based questions focusing on the key skills the organisation is looking for. In Week 5, Activity 3, you answered a question about adaptability - a typical example. The format differs from a personal statement, but the same principle applies: make sure your personal brand is reflected in each answer."
+    },
+    {
+     "t": "h",
+     "text": "Strengths-based questions"
+    },
+    {
+     "t": "p",
+     "text": "These focus on what you *enjoy* doing rather than what you *can* do, e.g. 'Describe an occasion when you achieved something you were really proud of'. This is a perfect opportunity to share your brand. Use the strengths you identified in Week 4, and keep in mind the strengths the employer is looking for, so your answer is as relevant to them as possible."
+    }
+   ]
+  },
+  {
+   "id": "brand7-05",
+   "title": "Competency or strengths?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Check that you can tell the two types of application question apart."
+    },
+    {
+     "t": "quiz",
+     "id": "brand7-q1",
+     "q": "'Describe an occasion when you achieved something you were really proud of.' What type of application question is this?",
+     "options": [
+      "A competency-based question",
+      "A strengths-based question",
+      "A personal statement prompt"
+     ],
+     "answer": 1,
+     "explain": "Strengths-based questions focus on what you enjoy doing rather than what you can do - a perfect opportunity to share your personal brand."
+    },
+    {
+     "t": "tf",
+     "id": "brand7-q2",
+     "q": "With competency-based questions the format is different from a personal statement, so you no longer need to reflect your personal brand in your answers.",
+     "answer": false,
+     "explain": "The format is slightly different, but the same principle applies: try to ensure your personal brand is reflected in each answer."
+    }
+   ]
+  },
+  {
+   "id": "brand7-06",
+   "title": "CVs: your personal profile",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The **personal profile** or personal objective, which comes at the top of your CV, can easily be adapted to incorporate your personal brand. It should give the employer a clear introduction to your CV, grabbing their attention and encouraging them to read on."
+    },
+    {
+     "t": "p",
+     "text": "The mistake many people make with their personal profile is to write something **vague and generic**. It needs to be:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "unique to you",
+      "backed up by some concrete facts",
+      "consistent with the content of the rest of your CV."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand7-07",
+   "title": "Activity 1 A personal profile for my CV",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "brand7-a1",
+     "title": "Activity 1 A personal profile for my CV (about 10 minutes)",
+     "prompt": "Here is a typical personal profile: 'I'm a dedicated team player with retail experience. I have successfully managed a small concession in a large department store and have demonstrated my ability to make a profit. I am an excellent motivator and can work effectively with a wide range of customers and colleagues.' How could personal brand be made clearer in that profile? What facts could be included? Write your suggestions.",
+     "model": "A stronger version combines personal brand with concrete facts: 'I have three years of retail experience, mainly in women's clothing. In my current Concession Manager role, I enjoy using my creativity and strong communication skills to inspire both colleagues and customers with my ideas and suggestions. This has resulted in a 20% profit increase in only four months.' An employer would see evidence for the communication claim, an early-career record of increasing profits, someone who knows their strengths and cares about colleagues and customers, and would want to read on about the Concession Manager role.",
+     "points": [
+      "Replace vague, generic claims with concrete facts and figures (e.g. years of experience, profit increase).",
+      "Provide evidence for claims such as being a good communicator or motivator.",
+      "Show your strengths and values (e.g. creativity, caring about colleagues and customers).",
+      "Make the employer want to read further down the CV."
+     ],
+     "hint": "Think about numbers, the specific role, what you enjoy and what result you achieved."
+    }
+   ]
+  },
+  {
+   "id": "brand7-08",
+   "title": "Your brand throughout your CV",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Your personal brand can be reflected throughout your CV. For example, you can highlight key strengths throughout your employment history and perhaps demonstrate your values by discussing your voluntary work."
+    },
+    {
+     "t": "p",
+     "text": "The key to writing an effective CV is **tailoring it to each employer** you send it to. Aligning your personal brand with their company values, or the strengths you know they look for in their employees, should put you ahead of much of your competition."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Support this approach with evidence that demonstrates when you have used these values and strengths - then you'll be ticking a lot of the employers' boxes."
+    }
+   ]
+  },
+  {
+   "id": "brand7-09",
+   "title": "Day-to-day writing: email",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The most difficult thing to get across effectively in an email is **tone**. How many times have you read an email and felt slightly disgruntled by the sender's attitude - when they might not have intended to come across like that? Staying true to your personal brand might help you to avoid that situation yourself."
+    },
+    {
+     "t": "p",
+     "text": "Holloway (2017) recommends that you start your emails with something that will **build rapport**, for example:"
+    },
+    {
+     "t": "quote",
+     "text": "Hope all's well in the accounts department on this horrible rainy day. I'm not looking forward to cycling home!",
+     "by": ""
+    },
+    {
+     "t": "quote",
+     "text": "Thanks for your message last week, I'm sorry it's taken me so long to reply - a series of small crises has kept me away from email for a few days.",
+     "by": ""
+    },
+    {
+     "t": "p",
+     "text": "This gives the recipient an opportunity to refer to your comment in their reply ('I got wet on my way home too!'), which starts to build rapport between you."
+    }
+   ]
+  },
+  {
+   "id": "brand7-10",
+   "title": "Communicating your brand by email",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/brand_49.jpg",
+     "alt": "A woman sits on the floor with her laptop open, surrounded by colourful cartoon envelopes hovering in the air",
+     "caption": "Figure 2 You've got mail"
+    },
+    {
+     "t": "p",
+     "text": "There are various ways to communicate your personal brand via email:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "By being authentic in your tone and language",
+      "By drawing attention to shared experience or shared values",
+      "By asking the recipient if they have time for a coffee to discuss the issue - which also gives you a chance to demonstrate your brand in person",
+      "By always responding quickly and efficiently, e.g. sending a holding email if a full reply will take time. The recipient is more likely to pay attention to your tone and content if they are not furious about how long you took to reply!"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand7-11",
+   "title": "Business reports and papers",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Meetings inevitably involve paperwork, and sometimes you might be the author - of a report or update on a project, a bid for funding, or a proposal to change something. Your readers will form opinions about you based on what they read."
+    },
+    {
+     "t": "p",
+     "text": "Even if the topic is unrelated to your personal brand, you can get consistent messages about your brand across. Consider what you want the reader to think about you as they read it, e.g.:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "He really knows what he's talking about",
+      "Some serious research has gone into this document",
+      "She seems to have consulted widely",
+      "He cares about the people this will impact on",
+      "She isn't afraid of change",
+      "He has some creative ideas",
+      "Her team are clearly behind her."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand7-12",
+   "title": "Business cards",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Some commentators predicted that social media would kill off the business card, but it hasn't happened yet. For many it remains a useful tool because:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "it stops you from getting lost in someone's phone contact list",
+      "it serves as a useful reminder of your brand whenever someone comes across it in their wallet, bag or desk drawer",
+      "you don't have to waste time spelling out your email address as they type it into their phone - just exchange cards and follow up later."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Many of us are restricted by our organisation's card design, but if you could design your own, how would you convey your personal brand? Think back to Week 3, Activity 3, when you thought about what **colour** your brand would be - this could be the time to use it."
+    }
+   ]
+  },
+  {
+   "id": "brand7-13",
+   "title": "A catchphrase for your card",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "If you can encapsulate your personal brand in a statement, that could also be included on your card. BrandYourself (2017) describes the following examples as your 'catchphrase' about your specific experience:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "I help people create new opportunities in their businesses and careers",
+      "I am a personal trainer, specialising in weight training and mobility",
+      "I give authors visibility on untapped promotional platforms where they can share their work",
+      "I spark new product ideas for large companies that have stagnant product cycles."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Although these don't include a job role or title, you can see how a **focus on what you can do for others** might strengthen your offering."
+    }
+   ]
+  },
+  {
+   "id": "brand7-14",
+   "title": "Activity 2 My personal brand statement",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "brand7-a2",
+     "title": "Activity 2 My personal brand statement (about 10 minutes)",
+     "prompt": "Try to encapsulate your personal brand in a single sentence suitable for a business card. Write it below.",
+     "model": "Even if you don't plan to produce your own business cards, being able to summarise your brand in a sentence is a useful opener to discussions about what you do and why someone should be interested. It might become the first line of your elevator pitch, which you'll look at in more detail in Week 8.",
+     "points": [
+      "Summarise your personal brand in one short sentence.",
+      "Focus on what you can do for others rather than just a job title.",
+      "Reflect your specific experience, strengths or values.",
+      "It could become the first line of your elevator pitch."
+     ],
+     "hint": "Try the pattern 'I help ... to ...' or 'I ... for people who ...'."
+    }
+   ]
+  },
+  {
+   "id": "brand7-15",
+   "title": "Making a good impression",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "There are many contexts in which face-to-face interaction will allow you to promote your personal brand."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "First impressions count - and they are formed even before we start to speak."
+    },
+    {
+     "t": "video",
+     "title": "Video 2 Jayne Chapman - First Impressions",
+     "url": null,
+     "note": "Business Image Specialist Jayne Chapman explains that first impressions are made within a few seconds (some researchers say milliseconds). A positive first impression puts you 'one step forward' in a relationship before you've opened your mouth and helps people receive what you have to say; a negative one puts you a step back. You can make up that ground, but why make it difficult for yourself? First impressions happen and they matter, so get your image working for you rather than against you."
+    },
+    {
+     "t": "img",
+     "src": "img/brand_50.jpg",
+     "alt": "Still from the video: image consultant Jayne Chapman speaking to camera",
+     "caption": "Jayne Chapman, business image specialist"
+    }
+   ]
+  },
+  {
+   "id": "brand7-16",
+   "title": "The three As: authentic, appropriate, attractive",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "How we look plays a key part in how our words and behaviours are received by others. Getting your image right makes it easier to put your personal brand across quickly and effectively. Jayne uses the **3 A's** as a rule of thumb: your image should be **authentic, appropriate and attractive**."
+    },
+    {
+     "t": "video",
+     "title": "Video 3 Jayne Chapman - Three As",
+     "url": null,
+     "note": "Authentic: 'what you see is what you get' - your image should reflect your personal and brand values, so what people see on the outside matches who you are inside. Appropriate: dressing for other people and their context and expectations - e.g. a tree surgeon in outdoor gear and a hard hat, a solicitor who looks the part. Attractive: not sexual attraction, but looking pleasing and well - colours that make you look healthy, clothes that fit, personal finishing touches - plus a smile, eye contact and open body language."
+    },
+    {
+     "t": "img",
+     "src": "img/brand_51.jpg",
+     "alt": "Still from the video: Jayne Chapman smiling as she talks about the three As",
+     "caption": "Video 3 Jayne Chapman - Three As"
+    }
+   ]
+  },
+  {
+   "id": "brand7-17",
+   "title": "The three As: check your understanding",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "brand7-m1",
+     "title": "Match each description to the 'A' it describes",
+     "pairs": [
+      {
+       "term": "Authentic",
+       "def": "What you see is what you get: your image reflects your personal and brand values"
+      },
+      {
+       "term": "Appropriate",
+       "def": "Dressing for other people: working with their expectations and context"
+      },
+      {
+       "term": "Attractive",
+       "def": "Looking pleasing and well: clothes that fit, healthy colours, a smile and open body language"
+      }
+     ]
+    },
+    {
+     "t": "tf",
+     "id": "brand7-q3",
+     "q": "In Jayne Chapman's three As, 'attractive' means being sexually attractive.",
+     "answer": false,
+     "explain": "She is clear that attractive is not about sexual attraction - it means looking pleasing and well, with well-fitting clothes, a smile, eye contact and open body language."
+    }
+   ]
+  },
+  {
+   "id": "brand7-18",
+   "title": "Non-verbal communication",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "As Jayne suggests, smiling, making eye contact and maintaining an open posture convey a positive impression. These elements are collectively known as **non-verbal communication**."
+    },
+    {
+     "t": "p",
+     "text": "Heathfield (2018) describes a number of workplace cues that can help you connect non-verbally with your chosen audience:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "*Facial expression* - emotions such as happiness or boredom are easily conveyed facially.",
+      "*Body language* - folded arms might suggest you feel insecure and defensive.",
+      "*Posture* - slouching conveys lack of interest; sitting rigidly on the edge of your seat might indicate nerves.",
+      "*Eye contact* - appropriate eye contact suggests a confident communicator; staring fixedly may seem aggressive.",
+      "*Gestures* - can convey enthusiasm or passion, but become distracting if overused.",
+      "*Touch* - a strong handshake is perceived much more positively than a limp one."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand7-19",
+   "title": "Reading non-verbal cues",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "brand7-m2",
+     "title": "Match each example to the non-verbal cue (Heathfield, 2018)",
+     "pairs": [
+      {
+       "term": "Body language",
+       "def": "Folded arms might suggest you feel insecure and defensive"
+      },
+      {
+       "term": "Posture",
+       "def": "Slouching conveys a lack of interest in the conversation"
+      },
+      {
+       "term": "Eye contact",
+       "def": "Staring fixedly at someone might be thought aggressive or confrontational"
+      },
+      {
+       "term": "Gestures",
+       "def": "Convey enthusiasm for your topic but distract if overused"
+      },
+      {
+       "term": "Touch",
+       "def": "A strong handshake is perceived more positively than a limp one"
+      },
+      {
+       "term": "Facial expression",
+       "def": "Emotions such as happiness or boredom are easily conveyed"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand7-20",
+   "title": "Activity 3 First impressions",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Think of someone you formed a negative first impression of that turned out to be wrong. If you can't think of anyone, use this example:"
+    },
+    {
+     "t": "p",
+     "text": "When Sarah started a new job, she met Malcolm, who she'd share an office with. He was more smartly dressed than her, didn't smile or say much, said hello but didn't get up or shake her hand. She assumed he didn't like her, felt superior, and was rude and patronising. Months later she'd discovered he had a dry sense of humour, listened carefully to others, and was knowledgeable, kind, shy and excellent at his job. On the day she arrived, he had just had bad news about funding for one of his projects."
+    },
+    {
+     "t": "activity",
+     "id": "brand7-a3",
+     "title": "Activity 3 First impressions (about 10 minutes)",
+     "prompt": "What did you (or Sarah) base that first impression on - clothes, body language, eye contact, etc.? What made you change your impression later? What can you learn from that experience to avoid it happening to you?",
+     "model": "Sarah's first impression was based mainly on body language, gestures and facial expressions - the lack of expression or any formal greeting. Malcolm had a good reason for feeling miserable, and his shyness meant he couldn't express that to a stranger. If he had stood up, shaken her hand, smiled and explained that something negative had just happened, perhaps offering to talk later, he would have made a much more positive impression. Thinking about how you come across, whether planned or in the heat of the moment, helps you convey your brand more effectively.",
+     "points": [
+      "The impression was based on non-verbal cues: body language, gestures, facial expression, no greeting or handshake.",
+      "Getting to know the person over time revealed their real qualities and reasons.",
+      "Standing up, smiling, shaking hands and briefly explaining a bad moment would have helped.",
+      "Think about how you come across to others, planned or in the heat of the moment."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand7-21",
+   "title": "Networking",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "When you attend a conference, a meeting, or an event organised by your professional body or trade association, some form of networking is usually expected. As well as hearing the latest information on a theme, such events are an excellent opportunity to get to know others in your profession."
+    },
+    {
+     "t": "p",
+     "text": "Not everyone finds networking easy - many of us find talking to strangers daunting. Add the need to ensure consistent messages about our personal brand, and we might try to avoid it altogether!"
+    },
+    {
+     "t": "video",
+     "title": "Video 4 from GoThinkBig.co.uk - How Not to Network",
+     "url": "https://www.youtube.com/watch?v=TP0XO0SUKfs",
+     "note": "A light-hearted video from GoThinkBig.co.uk showing how *not* to network."
+    }
+   ]
+  },
+  {
+   "id": "brand7-22",
+   "title": "Activity 4 Opening lines",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Try to think of networking as **a conversation with an interesting person**. Don't worry about finding specific opportunities to tell them about your brand - that might feel awkward and come across as fake. A few pre-prepared opening lines can help your confidence."
+    },
+    {
+     "t": "activity",
+     "id": "brand7-a4",
+     "title": "Activity 4 Opening lines (about 10 minutes)",
+     "prompt": "Come up with three opening lines that you would feel comfortable using when approaching someone at a networking event. List them.",
+     "model": "You might try: 'I don't know anyone here; do you mind if I join you?'; 'What a great speaker, I was really inspired by what she had to say, especially when she spoke about x'; 'How long have you worked for this organisation?'; 'This is my first time, have you attended this event before?' (if yes: 'Any advice for a first timer?'); 'I see you work for X, what do you enjoy about it?'; 'I just noticed your phone/book/laptop - would you recommend it?'; 'What brings you to this event?'",
+     "points": [
+      "Use friendly, open questions that invite the other person to talk.",
+      "Refer to the shared context, e.g. the event, the speaker or being a first timer.",
+      "Show genuine interest in the other person or their organisation.",
+      "Choose lines that feel natural and comfortable for you, not a sales pitch."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand7-23",
+   "title": "Unexpected opportunities to share your brand",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Opportunities to share your personal brand might arise several times a day at work - in the canteen queue, at the bus stop, during the coffee break in a meeting, even in the staff toilets! By behaving **consistently** each time you encounter someone, you'll be building your brand even if you're unaware of it."
+    },
+    {
+     "t": "p",
+     "text": "Start by being friendly and helpful, or by listening sympathetically when they moan about their morning. If they are in your target audience, or can help you reach it, this can be the beginning of a relationship. Consider following up with an email:"
+    },
+    {
+     "t": "quote",
+     "text": "It was lovely chatting to you in the lunch queue today. I'd love to find out more about what you do and see if there's any way my department can support you more efficiently. Could we meet for a coffee?",
+     "by": ""
+    },
+    {
+     "t": "p",
+     "text": "Chance interactions let you demonstrate your values or strengths, or simply build rapport. You can share your brand in more detail as you get to know each other."
+    }
+   ]
+  },
+  {
+   "id": "brand7-24",
+   "title": "Interviews: what the interviewer wants to know",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/brand_52.jpg",
+     "alt": "A smiling young woman shakes hands across a desk with a man in glasses",
+     "caption": "Figure 3 Starting with a smile?"
+    },
+    {
+     "t": "p",
+     "text": "An interview is an obvious place to share your personal brand - that's what you're there for, and the interviewers want to hear what you have to say. (Interview technique itself is covered by many resources, such as the OU Careers and Employability pages.)"
+    },
+    {
+     "t": "p",
+     "text": "There are three key things an interviewer is trying to ascertain:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Can you do the job** - have you got the right strengths, knowledge, experience?",
+      "**Will you do the job** - are you motivated, enthusiastic, engaged?",
+      "**Will you fit in** - do your values and personality traits align with the culture of the organisation?"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "So, even though you are nervous, it's important to show the 'real' you - particularly for determining cultural fit."
+    }
+   ]
+  },
+  {
+   "id": "brand7-25",
+   "title": "Presenting your brand visually at interview",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Jayne Chapman, Partner at True Colours Image Consultancy, has advice for presenting your brand visually in an interview or networking situation."
+    },
+    {
+     "t": "video",
+     "title": "Video 5 Jayne Chapman - Top Tips",
+     "url": null,
+     "note": "1) Think about it in advance - don't pull your outfit together at the last minute, and think about your body language as carefully as your CV and answers. 2) Find out the dress code - everywhere has one, written or informal; ask, or watch what people wear. 3) For an interview, often go smarter - 'dress for the job you want' shows effort and that you'd fit in. 4) The two Cs: wear something you feel confident and comfortable in."
+    },
+    {
+     "t": "img",
+     "src": "img/brand_53.jpg",
+     "alt": "Still from the video: Jayne Chapman giving her top tips",
+     "caption": "Video 5 Jayne Chapman - Top Tips"
+    },
+    {
+     "t": "p",
+     "text": "If you get your image right, you'll feel more confident and the interviewers will spend less time focusing on your appearance and more on listening to what you are saying."
+    }
+   ]
+  },
+  {
+   "id": "brand7-26",
+   "title": "Three more interview tips",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "**Tip 1 - Don't over-rehearse.** You risk coming across as wooden, disengaged and not authentic - and you may give your rehearsed answer instead of answering the actual question.",
+      "**Tip 2 - Be yourself.** If you've done your homework, you already know your values align with the company's, so being yourself and sharing those values is much more likely to win them over.",
+      "**Tip 3 - Be consistent in your messages.** Treat everyone you meet, from the receptionist to the person holding the door, in the same way: engage them in conversation, make eye contact, smile."
+     ]
+    },
+    {
+     "t": "quiz",
+     "id": "brand7-q4",
+     "q": "Why does the course advise against over-rehearsing for an interview?",
+     "options": [
+      "Interviewers always change their questions at the last minute",
+      "You risk seeming wooden and inauthentic, and may give your rehearsed answer instead of answering the actual question",
+      "Rehearsal makes you speak too slowly"
+     ],
+     "answer": 1,
+     "explain": "Over-rehearsing can make you come across as wooden, disengaged and not authentic, and you may not answer the question actually asked."
+    }
+   ]
+  },
+  {
+   "id": "brand7-27",
+   "title": "Beating interview nerves",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Being honest and coming across as authentic is often linked to self-confidence, which can be low when we are nervous. Public speaking expert Robert Kermode suggests these techniques (Kermode, 2014):"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "**Don't speak too fast.** While waiting, breathe in through your nose slowly for a count of three, then out through your nose for a count of three. Repeat three times (about 18 seconds). This significantly lowers your heart rate, so you won't rush when you speak.",
+      "**Stop yourself shaking.** Squeeze your buttocks or thigh muscles - it's almost physically impossible to have shaky hands when they're clenched, and most clothes mask it.",
+      "**Stop your voice shaking.** Stick your tongue out as far as it will go and try to say the whole of Humpty Dumpty out loud. This opens the back of the throat so you sound more confident and authoritative. Do this *before* the interview - not in front of the panel!"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand7-28",
+   "title": "Activity 4 Try it out",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Just in case you don't know it, here are the words to Humpty Dumpty:"
+    },
+    {
+     "t": "quote",
+     "text": "Humpty Dumpty sat on a wall / Humpty Dumpty had a great fall / All the king's horses and all the king's men / Couldn't put Humpty together again.",
+     "by": ""
+    },
+    {
+     "t": "activity",
+     "id": "brand7-a5",
+     "title": "Activity 4 Try it out (about 5 minutes)",
+     "prompt": "The next time you have to deal with a stressful situation, try one or more of Kermode's techniques (slow breathing, clenching your thigh or buttock muscles, the Humpty Dumpty exercise). Note how it made you feel.",
+     "model": "These techniques can be useful for any stressful situation where you will be talking to others, not just job interviews. For example, you could use them to calm your nerves before giving a presentation or having a difficult conversation with a colleague.",
+     "points": [
+      "Name which technique you tried and in what situation.",
+      "Describe how it affected your nerves, voice or speed of speaking.",
+      "The techniques work for any stressful situation, such as presentations or difficult conversations.",
+      "Feeling calmer helps you behave naturally and come across as authentic."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Boosting your self-confidence before an interview lets you behave more naturally and connect more effectively with your interviewers. If your personal brand is clear, they can more easily evaluate what you have to offer."
+    }
+   ]
+  },
+  {
+   "id": "brand7-28t",
+   "title": "Try it: audit and plan your brand promotion",
+   "blocks": [
+    {
+     "t": "tool",
+     "tool": "brand-audit",
+     "title": "Try it: brand presence audit and planner",
+     "intro": "Audit how your brand comes across online, in writing and in person, check your CV profile, build a STAR answer to an application question, then turn your biggest gaps into a short action plan."
+    }
+   ]
+  },
+  {
+   "id": "brand7-29",
+   "title": "Week 7 practice quiz (1 of 2)",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Now that you've completed Week 7, take this short quiz to reflect on what you've learned."
+    },
+    {
+     "t": "quiz",
+     "id": "brand7-q5",
+     "q": "According to Holloway (2017), how should you start your emails to help promote your brand?",
+     "options": [
+      "With your full job title and qualifications",
+      "With something that will build rapport",
+      "With the main request, to save the reader's time"
+     ],
+     "answer": 1,
+     "explain": "Holloway recommends opening with something that builds rapport, e.g. a comment about the weather, which the recipient can refer to in their reply."
+    },
+    {
+     "t": "quiz",
+     "id": "brand7-q6",
+     "q": "Which of these is NOT given as a reason the business card remains useful?",
+     "options": [
+      "It stops you getting lost in someone's phone contact list",
+      "It reminds people of your brand when they come across it",
+      "It replaces the need to follow up with people later",
+      "You don't have to spell out your email address"
+     ],
+     "answer": 2,
+     "explain": "The course says you can exchange cards and do the follow-up later - the card doesn't replace following up."
+    },
+    {
+     "t": "quiz",
+     "id": "brand7-q7",
+     "q": "What is the most common mistake people make with the personal profile at the top of their CV?",
+     "options": [
+      "Making it too long",
+      "Writing something vague and generic",
+      "Including concrete facts"
+     ],
+     "answer": 1,
+     "explain": "The profile needs to be unique to you, contain concrete facts and be consistent with the rest of the CV."
+    }
+   ]
+  },
+  {
+   "id": "brand7-30",
+   "title": "Week 7 practice quiz (2 of 2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "brand7-q8",
+     "q": "Which three things is an interviewer trying to ascertain?",
+     "options": [
+      "Can you do the job, will you do the job, will you fit in",
+      "Your salary, your notice period, your references",
+      "Your appearance, your accent, your age"
+     ],
+     "answer": 0,
+     "explain": "Interviewers want to know whether you have the right strengths and experience, whether you are motivated, and whether your values fit the organisation's culture."
+    },
+    {
+     "t": "quiz",
+     "id": "brand7-q9",
+     "q": "Which techniques does Kermode suggest for beating interview nerves? Select all that apply.",
+     "options": [
+      "Slow breathing through your nose for counts of three",
+      "Squeezing your thigh or buttock muscles",
+      "Drinking a strong coffee beforehand",
+      "Saying Humpty Dumpty with your tongue stuck out"
+     ],
+     "answer": [
+      0,
+      1,
+      3
+     ],
+     "explain": "Kermode suggests slow nasal breathing, clenching thigh or buttock muscles to stop shaking, and the Humpty Dumpty exercise to open the throat.",
+     "multi": true
+    },
+    {
+     "t": "tf",
+     "id": "brand7-q10",
+     "q": "At a networking event, you should look for every opportunity to tell people about your personal brand.",
+     "answer": false,
+     "explain": "Think of networking as a conversation with an interesting person; actively looking for chances to push your brand can feel awkward and come across as fake."
+    }
+   ]
+  },
+  {
+   "id": "brand7-31",
+   "title": "Summary of Week 7",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "This week, you've considered how to share your personal brand in writing and in person, both in your day-to-day life and at more stressful times, such as during the job application process."
+    },
+    {
+     "t": "p",
+     "text": "You should now be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "emphasise your personal brand during the job application process",
+      "demonstrate your personal brand in day-to-day interactions",
+      "recognise opportunities to promote your personal brand in writing and in person."
+     ]
+    },
+    {
+     "t": "flash",
+     "cards": [
+      {
+       "front": "Personal profile",
+       "back": "The statement at the top of your CV: unique to you, backed by concrete facts, consistent with the rest of the CV"
+      },
+      {
+       "front": "Strengths-based question",
+       "back": "Focuses on what you enjoy doing rather than what you can do"
+      },
+      {
+       "front": "The 3 A's",
+       "back": "Your image should be authentic, appropriate and attractive"
+      },
+      {
+       "front": "Non-verbal communication",
+       "back": "Facial expression, body language, posture, eye contact, gestures and touch"
+      },
+      {
+       "front": "Brand catchphrase",
+       "back": "A one-line statement of what you do for others, e.g. for a business card"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Next week, you'll reflect on and consolidate what you've learned throughout the course."
+    }
+   ]
+  },
+  {
+   "id": "brand7-32",
+   "title": "References for Week 7",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "BrandYourself (2017) 'Personal Brand Statement: 7 winning steps to creating one', *Brand Yourself* [Online].",
+      "Heathfield, S. (2018) *Nonverbal communication in the workplace*. The Balance Careers [Online].",
+      "Holloway, J. (2017) *Personal Branding for Brits*. 4th ed. Skipton, North Yorkshire: Spark Ltd.",
+      "Kermode, R. (2014) 'Cheeky tips: 10 weird ways to beat interview nerves', *The Guardian* [Online]."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Images: Figure 1 MangoStar_Studio; Figure 2 Melpomenem; Figure 3 djiledesign (all iStockphoto.com). Video: How Not to Network, www.gothinkbig.co.uk."
+    }
+   ]
+  }
+ ]
+}

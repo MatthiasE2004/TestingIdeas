@@ -198,12 +198,15 @@
     var root=h('div',{class:'tool'}),nav=h('div',{class:'sp-tabs'}),steps=h('div',{class:'sp-steps'}),body=h('div');
     el.appendChild(root);root.appendChild(nav);root.appendChild(steps);root.appendChild(body);
     var TABS=[['swot','SWOT'],['pestle','PESTLE'],['pareto','Pareto'],['fish','Cause & effect']];
+    // a page can show only some of the tools (e.g. SWOT/PESTLE in 1.3, Pareto/fishbone after the 1.4 theory)
+    if(ctx.opts&&ctx.opts.tabs){TABS=TABS.filter(function(t){return ctx.opts.tabs.indexOf(t[0])>=0})}
+    if(!TABS.some(function(t){return t[0]===S.tab}))S.tab=TABS[0][0];
     var STEPS=[['guide','1  Learn it'],['ex','2  Worked example'],['own','3  My own']];
     var sorters={};
     function exDone(k){var s=S.ex[k];if(!s)return false;if(k==='pareto')return s.rank.length===PARETO_ROWS.length&&s.q===true;var n={swot:SWOT_ITEMS,pestle:PEST_ITEMS,fish:FISH_ITEMS}[k].length;return Object.keys(s.done||{}).length===n}
     var completed=false;
-    function checkComplete(){ if(completed)return; var ks=['swot','pestle','pareto','fish'];
-      if(ks.every(exDone)){completed=true;var sc=0;['swot','pestle','fish'].forEach(function(k){var T={swot:SWOT_ITEMS,pestle:PEST_ITEMS,fish:FISH_ITEMS}[k];sc+=Object.keys(S.ex[k].first||{}).length/T.length});sc+=S.ex.pareto.firstOk?1:0.6;ctx.complete(Math.min(1,sc/4))}}
+    function checkComplete(){ if(completed)return; var ks=TABS.map(function(t){return t[0]});
+      if(ks.every(exDone)){completed=true;var sc=0;['swot','pestle','fish'].filter(function(k){return ks.indexOf(k)>=0}).forEach(function(k){var T={swot:SWOT_ITEMS,pestle:PEST_ITEMS,fish:FISH_ITEMS}[k];sc+=Object.keys(S.ex[k].first||{}).length/T.length});if(ks.indexOf('pareto')>=0)sc+=S.ex.pareto.firstOk?1:0.6;ctx.complete(Math.min(1,sc/ks.length))}}
     function drawNav(){nav.innerHTML='';TABS.forEach(function(t){nav.appendChild(h('button',{class:'chip'+(S.tab===t[0]?' on':''),onclick:function(){S.tab=t[0];save();draw()}},t[1]+(exDone(t[0])?' ✓':'')))});
       steps.innerHTML='';STEPS.forEach(function(s){steps.appendChild(h('button',{class:'btn sm'+(S.step[S.tab]===s[0]?' primary':' ghost'),onclick:function(){S.step[S.tab]=s[0];save();draw()}},s[1]))})}
     function draw(){drawNav();body.innerHTML='';var f={swot:swot,pestle:pestle,pareto:pareto,fish:fish}[S.tab];f(S.step[S.tab])}

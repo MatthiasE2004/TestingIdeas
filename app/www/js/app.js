@@ -5,7 +5,9 @@
 
   /* ---------- theme ---------- */
   function applyTheme(){var t=Store.settings.theme,dark=t==='dark'||(t==='auto'&&matchMedia('(prefers-color-scheme: dark)').matches);
-    document.documentElement.setAttribute('data-theme',dark?'dark':'light')}
+    document.documentElement.setAttribute('data-theme',dark?'dark':'light');
+    try{if(window.Android&&Android.setSystemBars)Android.setSystemBars(dark)}catch(e){}}
+  try{matchMedia('(prefers-color-scheme: dark)').addEventListener('change',function(){applyTheme()})}catch(e){}
   applyTheme();
 
   /* ---------- data ---------- */
@@ -43,6 +45,11 @@
     viewHome();}
   function mount(node){$app.innerHTML='';$app.appendChild(node)}
   function icon(n,px){return h('span',{html:Dot.icon(n,px),style:{display:'inline-flex'}})}
+  /* rounded-rectangle AI status button: grey dot = off, green = on */
+  function aiPill(){
+    var b=h('button',{class:'ai-pill',onclick:function(){go('#/settings')}});
+    function upd(){var st=LLM.status(),on=st.state==='ready',ld=st.state==='loading';b.className='ai-pill'+(on?' on':ld?' load':'');b.innerHTML='<i></i>'+(on?'AI on':ld?'AI loading':'AI off');b.title=on?((st.model&&st.model.name)||'')+' \u00b7 '+(st.backend||''):'Tap to set up the local AI'}
+    upd();LLM.on(function(){if(document.body.contains(b))upd()});return b}
   function aiChip(){
     var b=h('button',{class:'chip-ai',onclick:function(){go('#/settings')}});
     function upd(s){var st=LLM.status(),cls='',txt='';
@@ -74,9 +81,11 @@
   function viewHome(){
     var root=h('div');
     var d=new Date(),ds=d.toLocaleDateString(undefined,{weekday:'long',day:'numeric',month:'long'});
-    root.appendChild(h('div',{class:'topbar'},h('span',{class:'label'},ds),h('div',{class:'row'},aiChip(),h('button',{class:'round','aria-label':'Settings',onclick:function(){go('#/settings')},html:Dot.icon('gear')}))));
+    root.appendChild(h('div',{class:'home-top'},h('div',{class:'logo',html:Dot.text('LEARN',{size:7,gap:1.2})}),
+      h('div',{class:'row',style:{gap:'10px',flexWrap:'nowrap'}},aiPill(),h('button',{class:'round','aria-label':'Settings',onclick:function(){go('#/settings')},html:Dot.icon('gear')}))));
+    root.appendChild(h('div',{class:'label',style:{margin:'-4px 0 14px'}},ds));
     var cb=crashBanner();if(cb)root.appendChild(cb);
-    root.appendChild(h('div',{class:'hero'},h('div',{class:'big',html:Dot.text('LEARN',{size:9,gap:1.2})}),h('p',{class:'muted',style:{marginTop:'14px'}},'Pick a course and continue where you left off.')));
+    root.appendChild(Streak.card());
     var grid=h('div',{class:'course-grid'}),cont=h('div');root.appendChild(cont);root.appendChild(grid);
     var nn=Store.allNotes();
     root.appendChild(h('div',{class:'home-actions'},
@@ -133,9 +142,33 @@
       case 'callout':if(n.lastChild)n.lastChild.setAttribute('data-sel',k(0));break;
       case 'quote':if(n.firstChild)n.firstChild.setAttribute('data-sel',k(0));break;
       case 'table':var i=0;n.querySelectorAll('td').forEach(function(td){td.setAttribute('data-sel',k(i++))});break;
-      case 'img':var fc=n.querySelector('figcaption');if(fc)fc.setAttribute('data-sel',k(0));break;
+      case 'img':n.setAttribute('data-img',String(bi));var fc=n.querySelector('figcaption');if(fc)fc.setAttribute('data-sel',k(0));break;
       case 'video':var vp=n.querySelector('p');if(vp)vp.setAttribute('data-sel',k(0));break;
     }}
+  /* figures: tap = zoomable pop-up; press and hold (on the page or in the pop-up) = Highlight / Note / Ask AI */
+  function figureHandlers(fig,c,sctx,cid,pg,nv,refresh){
+    var img=fig.querySelector('img'),bi=fig.getAttribute('data-img'),cap=(fig.querySelector('figcaption')||{}).textContent||'',alt=img.getAttribute('alt')||'';
+    var label='Figure: '+(cap||alt||pg.title);
+    function entry(){return Notes.forPage(cid,pg.id).filter(function(e){return (e.segs||[]).some(function(s){return s.img&&s.k===bi})})[0]}
+    function actions(bar,close){var e=entry();bar.innerHTML='';
+      if(e){bar.appendChild(h('div',{class:'lb-note'},e.type==='note'?e.note:'Highlighted figure'));
+        bar.appendChild(h('div',{class:'row',style:{gap:'6px'}},
+          h('button',{class:'sb nt',onclick:function(){NoteSheet(e,function(t){e.note=t;e.type=t?'note':'hl';Notes.save(e);close();refresh()},function(){Notes.remove(e.id);close();refresh()})}},e.type==='note'?'Edit note':'Add note'),
+          h('button',{class:'sb ai',onclick:function(){AskSheet.open({course:c,pid:pg.id,selection:label+'. '+alt})}},'Ask AI'),
+          h('button',{class:'sb x',onclick:function(){Notes.remove(e.id);close();refresh()}},'Delete')));return}
+      bar.appendChild(h('div',{class:'row',style:{gap:'6px'}},
+        h('button',{class:'sb hl',onclick:function(){Notes.create(sctx,'hl',[{k:bi,img:true}],label,'');close();refresh()}},'Highlight'),
+        h('button',{class:'sb nt',onclick:function(){NoteSheet({type:'hl',text:label,note:''},function(t){Notes.create(sctx,t?'note':'hl',[{k:bi,img:true}],label,t);close();refresh()})}},'Note'),
+        h('button',{class:'sb ai',onclick:function(){AskSheet.open({course:c,pid:pg.id,selection:label+'. '+alt})}},'Ask AI')))}
+    function openLb(withActions){Lightbox.open({src:img.getAttribute('src'),caption:cap,alt:alt,actions:actions,showActions:withActions})}
+    var t=null,moved=false,sx=0,sy=0,long=false;
+    img.addEventListener('click',function(){if(long){long=false;return}openLb(!!entry())});
+    var down=function(e){var p=e.touches?e.touches[0]:e;sx=p.clientX;sy=p.clientY;moved=false;long=false;clearTimeout(t);t=setTimeout(function(){if(!moved){long=true;openLb(true)}},500)};
+    var move=function(e){var p=e.touches?e.touches[0]:e;if(Math.abs(p.clientX-sx)+Math.abs(p.clientY-sy)>9){moved=true;clearTimeout(t)}};
+    var up=function(){clearTimeout(t)};
+    img.addEventListener('touchstart',down,{passive:true});img.addEventListener('touchmove',move,{passive:true});img.addEventListener('touchend',up);
+    img.addEventListener('mousedown',down);img.addEventListener('mousemove',move);img.addEventListener('mouseup',up);
+    img.addEventListener('contextmenu',function(e){e.preventDefault()});img.style.cursor='zoom-in'}
   /** nv=true: notes viewer (read-only reading with yellow highlights / blue notes, colored ticks in the progress bar, side panel button) */
   function viewPage(cid,ci,pi,nv,eid){
     var root=h('div',{class:'player'+(nv?' nv':'')});mount(root);
@@ -147,7 +180,7 @@
       var leftBtns=h('div',{class:'row',style:{gap:'8px',flexWrap:'nowrap'}},h('button',{class:'round','aria-label':'Home',onclick:function(){go('#/')},html:Dot.icon('home')}),
         h('button',{class:'round','aria-label':nv?'All notes':'Overview',onclick:function(){go(nv?'#/notes':'#/c/'+cid)},html:Dot.icon('list')}));
       var rightBtns=nv?h('div',{class:'row',style:{gap:'8px',flexWrap:'nowrap'}},h('button',{class:'round dark','aria-label':'List of highlights and notes',title:'Highlights & notes',onclick:function(){openNotesPanel()},html:Dot.icon('book')}))
-        :h('div',{class:'row',style:{gap:'8px',flexWrap:'nowrap'}},h('button',{class:'round','aria-label':'Open notes view',title:'Notes view',onclick:function(){go('#/n/'+cid+'/'+ci+'/'+pi)},html:Dot.icon('book')}),h('button',{class:'round',onclick:function(){go('#/settings')},html:Dot.icon('gear')}));
+        :h('div',{class:'row',style:{gap:'8px',flexWrap:'nowrap'}},h('button',{class:'round','aria-label':'Open notes view',title:'Notes view',onclick:function(){go('#/n/'+cid+'/'+ci+'/'+pi)},html:Dot.icon('book')}),h('button',{class:'round dark','aria-label':'AI chat',title:'Ask the AI',onclick:function(){ChatPop.open({course:c,pid:pg.id,pageTitle:pg.title})},html:Dot.icon('spark')}));
       var head=h('div',{class:'phead'},h('div',{class:'row between',style:{flexWrap:'nowrap'}},leftBtns,
           h('div',{style:{flex:1,minWidth:0,textAlign:'center'}},h('div',{class:'label',style:{whiteSpace:'nowrap',overflow:'hidden',textOverflow:'ellipsis'}},(nv?'NOTES \u00b7 ':'')+(ci+1)+'. '+ch.title),h('div',{class:'tiny muted'},(pi+1)+' / '+ch.pages.length)),rightBtns));
       var seg,n=ch.pages.length;
@@ -169,7 +202,7 @@
       var last=pi===n-1,lastCh=ci===c.chapters.length-1;
       function next(){
         if(nv){if(!last)go(url(ci,pi+1),true);else if(!lastCh)go('#/n/'+cid+'/'+(ci+1)+'/0',true);return}
-        Store.markDone(pg.id);
+        Store.markDone(pg.id);Store.logRead(pg.id);
         if(!last)go('#/p/'+cid+'/'+ci+'/'+(pi+1),true);
         else if(!lastCh){H.toast('Chapter complete');go('#/c/'+cid,true)}else{H.toast('Course complete!');go('#/c/'+cid,true)}}
       function prev(){if(pi>0)go(url(ci,pi-1),true);else{var pc=c.chapters[ci-1];go(url(ci-1,pc.pages.length-1),true)}}
@@ -182,7 +215,8 @@
       function paint(){Notes.paint(body,cid,pg.id)}
       paint();
       activeSel=Sel.attach(body,sctx,{refresh:function(){var y=window.scrollY;viewPage(cid,ci,pi,nv).then(function(){window.scrollTo(0,y)})},openNotesView:nv?null:function(){go('#/n/'+cid+'/'+ci+'/'+pi)}});
-      if(eid){var mk=body.querySelector('.mk[data-id="'+eid+'"]');if(mk){setTimeout(function(){mk.scrollIntoView({block:'center',behavior:'smooth'});mk.classList.add('flash');setTimeout(function(){mk.classList.remove('flash')},1800)},120)}}
+      body.querySelectorAll('figure.img[data-img]').forEach(function(fig){figureHandlers(fig,c,sctx,cid,pg,nv,function(){var y=window.scrollY;viewPage(cid,ci,pi,nv).then(function(){window.scrollTo(0,y)})})});
+      if(eid){var mk=body.querySelector('.mk[data-id="'+eid+'"],[data-img].mk-img[data-id="'+eid+'"]');if(mk){setTimeout(function(){mk.scrollIntoView({block:'center',behavior:'smooth'});mk.classList.add('flash');setTimeout(function(){mk.classList.remove('flash')},1800)},120)}}
     });}
 
   /* ---------- block renderers ---------- */
@@ -200,6 +234,7 @@
       case 'quiz':return renderQuiz(b);
       case 'tf':return renderQuiz({id:b.id,q:b.q,options:['True','False'],answer:b.answer?0:1,explain:b.explain});
       case 'flash':return renderFlash(b);
+      case 'match':return renderMatch(b);
       case 'tool':return renderTool(b,ctx);
     }
     return null}
@@ -250,6 +285,31 @@
     box.appendChild(h('div',{class:'row',style:{marginTop:'10px'}},btn,b.model?h('button',{class:'btn ghost sm',onclick:showModel},'Show model answer'):null));
     box.appendChild(out);box.appendChild(modelBox);return box}
 
+  /* match: every definition is a row; tapping it pops up all terms to choose from */
+  function renderMatch(b){
+    var saved=Store.getQuiz(b.id)||{},sel=saved.sel||{},checked=!!saved.checked,box=h('div',{class:'card match'}),rows=h('div'),fb=h('div');
+    var terms=b.pairs.map(function(p){return p.term}),seed=0;b.id.split('').forEach(function(c){seed=(seed*31+c.charCodeAt(0))%9973});
+    terms.sort(function(x,y){return ((x.length*seed)%17)-((y.length*seed)%17)||x.localeCompare(y)});
+    box.appendChild(h('div',{class:'label',style:{marginBottom:'6px'}},'Match'));box.appendChild(h('p',{style:{fontWeight:500}},b.title||'Match each definition to its term'));
+    function persist(){Store.setQuiz(b.id,{sel:sel,checked:checked})}
+    function pick(i){
+      var used={};Object.keys(sel).forEach(function(k){used[sel[k]]=k});
+      var list=h('div',{class:'mt-list'});terms.forEach(function(t){var u=used[t]!=null&&+used[t]!==i;
+        list.appendChild(h('button',{class:'opt'+(sel[i]===t?' sel':'')+(u?' used':''),onclick:function(){sel[i]=t;checked=false;persist();Sheet.hide();draw()}},h('span',{class:'k'}),h('span',null,t,u?h('span',{class:'tiny muted'},'  (used)'):null)))});
+      Sheet.show(h('div',{class:'sheet-in'},h('div',{class:'row between'},h('div',{class:'label'},'Choose the term'),h('button',{class:'btn sm ghost',onclick:Sheet.hide},'Close')),
+        h('div',{class:'sel-quote'},b.pairs[i].def),list,sel[i]?h('button',{class:'btn sm ghost',style:{marginTop:'8px'},onclick:function(){delete sel[i];checked=false;persist();Sheet.hide();draw()}},'Clear choice'):null))}
+    function draw(){rows.innerHTML='';var right=0;
+      b.pairs.forEach(function(p,i){var ok=sel[i]===p.term;if(ok)right++;
+        rows.appendChild(h('div',{class:'mt-row'+(checked?(ok?' right':' wrong'):'')},h('div',{class:'mt-def'},p.def),
+          h('button',{class:'mt-pick'+(sel[i]?' set':''),onclick:function(){pick(i)}},sel[i]||'Choose term',h('span',{class:'cp-caret'},' \u25BE')),
+          checked&&!ok?h('div',{class:'tiny',style:{color:'var(--green)',marginTop:'4px'}},'\u2192 '+p.term):null))});
+      fb.innerHTML='';
+      if(checked)fb.appendChild(h('div',{class:'callout '+(right===b.pairs.length?'tip':''),style:{marginTop:'10px'}},h('b',null,right+' of '+b.pairs.length+' correct. '),right===b.pairs.length?'Well done!':'The correct terms are shown under the ones you missed.'))}
+    box.appendChild(rows);
+    box.appendChild(h('div',{class:'row',style:{marginTop:'10px'}},h('button',{class:'btn primary sm',onclick:function(){if(Object.keys(sel).length<b.pairs.length){H.toast('Choose a term for every definition first');return}checked=true;persist();draw()}},'Check'),
+      h('button',{class:'btn ghost sm',onclick:function(){sel={};checked=false;persist();draw()}},'Reset')));
+    box.appendChild(fb);draw();return box}
+
   function renderFlash(b){
     var i=0,card=h('div',{class:'flip',onclick:function(){card.classList.toggle('f')}}),cnt=h('span',{class:'label'});
     var front=h('div',{class:'face',style:{fontSize:'1.35rem',fontWeight:500}}),back=h('div',{class:'face back'});card.appendChild(h('div',{class:'in'},front,back));
@@ -263,7 +323,7 @@
     ToolLoader.ensure(b.tool).then(function(ok){holder.innerHTML='';
       if(!ok){holder.appendChild(h('div',{class:'callout'},'This interactive tool ('+b.tool+') is not available in this build.'));return}
       var t=Tools.get(b.tool),pre=b.tool+':';
-      var tctx={load:function(k){return Store.getTool(pre+(k||'main'))},save:function(o,k){Store.setTool(pre+(k||'main'),o)},ai:AI,toast:H.toast,
+      var tctx={opts:b.opts||null,load:function(k){return Store.getTool(pre+(k||'main'))},save:function(o,k){Store.setTool(pre+(k||'main'),o)},ai:AI,toast:H.toast,
         complete:function(){Store.markDone(ctx.pid)}};
       try{t.mount(holder,tctx)}catch(e){console.error(e);holder.appendChild(h('div',{class:'callout'},'Tool error: '+e.message))}});
     return wrap}
@@ -276,7 +336,12 @@
     var th=h('div',{class:'row'});['auto','light','dark'].forEach(function(t){th.appendChild(h('button',{class:'chip'+(Store.settings.theme===t?' on':''),onclick:function(){Store.settings.theme=t;Store.saveSettings();applyTheme();viewSettings()}},t[0].toUpperCase()+t.slice(1)))});
     root.appendChild(h('div',{class:'card'},h('div',{class:'label'},'Appearance'),h('h3',{style:{margin:'4px 0 10px'}},'Theme'),th));
     var cb2=crashBanner();if(cb2)root.insertBefore(cb2,root.children[1]);
-    root.appendChild(aiCard());root.appendChild(behaviourCard());root.appendChild(syncCard());root.appendChild(dataCard());
+    root.appendChild(h('div',{class:'set-cat',html:Dot.text('AI',{size:4})}));
+    root.appendChild(aiCard());root.appendChild(gradingCard());root.appendChild(chatCard());
+    root.appendChild(h('div',{class:'set-cat',html:Dot.text('LEARNING',{size:4})}));
+    root.appendChild(Reminders.card());
+    root.appendChild(h('div',{class:'set-cat',html:Dot.text('DATA',{size:4})}));
+    root.appendChild(syncCard());root.appendChild(dataCard());
     root.appendChild(h('div',{class:'card flat tiny muted'},h('b',null,'About. '),'Course content: The Open University, OpenLearn (CC BY-NC-SA 4.0): "Project management: the start of the project journey" and "Entrepreneurship: from ideas to reality". Reformatted for mobile learning with added practice questions and interactive tools. Not an official Open University product.'));}
 
   function fmtMB(b){return b>=1073741824?(b/1073741824).toFixed(2)+' GB':(b/1048576).toFixed(0)+' MB'}
@@ -342,6 +407,25 @@
         AI.ask({system:'You are a concise tutor.',prompt:tin.value,maxTokens:120,temperature:0.3,onToken:function(t){box.querySelector('.t').textContent=t}}).then(function(t){box.querySelector('.t').textContent=t;box.appendChild(h('div',{style:{marginTop:'8px',fontSize:'.8rem',color:'#9a9a9a'}},LLM.lastTps.toFixed(1)+' tokens/s · '+((Date.now()-t0)/1000).toFixed(1)+' s · '+(LLM.status().backend||'')))}).catch(function(e){box.querySelector('.t').textContent='Error: '+e.message})}},'Run test')),testOut));
     refresh();return card}
 
+  function gradingCard(){
+    var card=h('div',{class:'card'});
+    card.appendChild(h('div',{class:'label'},'AI \u00b7 Grading'));card.appendChild(h('h3',{style:{margin:'4px 0 6px'}},'How activity answers are graded'));
+    card.appendChild(h('p',{class:'muted tiny'},'Used when you press \u201CGet feedback\u201D on an activity.'));
+    card.appendChild(h('div',{class:'label',style:{margin:'10px 0 6px'}},'Grading mode'));card.appendChild(ModesUI.chips(null,'grade'));
+    card.appendChild(h('div',{class:'label',style:{margin:'16px 0 6px'}},'Check my answers against'));card.appendChild(ModesUI.basisToggle());
+    card.appendChild(h('p',{class:'muted tiny',style:{marginTop:'6px'}},'Model answer: compares with the key ideas from the course. Course content: looks up the relevant course pages. Both: uses both.'));
+    card.appendChild(h('div',{class:'label',style:{margin:'16px 0 6px'}},'Custom command (added to every grading)'));
+    var cmd=h('textarea',{class:'textarea',style:{minHeight:'70px'},placeholder:'e.g. Always give a score out of 10 and one tip for my exam.'});cmd.value=Modes.gradeCommand();
+    var tmr;cmd.addEventListener('input',function(){clearTimeout(tmr);tmr=setTimeout(function(){Modes.setGradeCommand(cmd.value);H.toast('Saved')},700)});card.appendChild(cmd);
+    var det=h('details',{style:{marginTop:'14px'}},h('summary',{class:'muted'},'Manage grading modes'));det.appendChild(ModesUI.manager(function(){card.replaceWith(gradingCard())},'grade'));card.appendChild(det);
+    return card}
+  function chatCard(){
+    var card=h('div',{class:'card'});
+    card.appendChild(h('div',{class:'label'},'AI \u00b7 Chat'));card.appendChild(h('h3',{style:{margin:'4px 0 6px'}},'How the AI chats'));
+    card.appendChild(h('p',{class:'muted tiny'},'Used by the AI button in the course, the AI page, questions about selected text and the document tools. You can also switch with the mode pill next to the chat input.'));
+    card.appendChild(h('div',{class:'label',style:{margin:'10px 0 6px'}},'Chat mode'));card.appendChild(ModesUI.chips(null,'chat'));
+    card.appendChild(h('div',{class:'label',style:{margin:'16px 0 6px'}},'Manage chat modes'));card.appendChild(ModesUI.manager(function(){card.replaceWith(chatCard())},'chat'));
+    return card}
   function behaviourCard(){
     var card=h('div',{class:'card'});
     card.appendChild(h('div',{class:'label'},'Local AI'));card.appendChild(h('h3',{style:{margin:'4px 0 6px'}},'How the AI responds'));

@@ -80,3 +80,18 @@ Quality bar: this must teach the concept, not be a toy. Real interactivity (drag
 
 ## Output etiquette
 Only write your own files. Do not edit css/app.css, js/core.js, js/ai.js, index.html or other authors' files (tell the lead what you need instead). Final reply: <=120 words, list files + anything the lead must know (tool ids used, open issues).
+
+## ADDENDUM (Nov 2026): two new courses + new block type
+New sources (read-only), pandoc markdown converted from the user's Word files:
+- Leadership course: `/tmp/claude-0/-home-user-TestingIdeas/5f829c21-dcab-5cfc-b415-a90a75546e9d/scratchpad/src/lead.md` - "Leadership and followership", Weeks 1-8 (headings `[]{#UnitN .anchor}**Week N: ...**`). The end of the file holds quiz/transcript/"Uncaptioned interactive content" sections - use them where they belong (video transcripts -> video notes, interactive content -> activities/quizzes).
+  Images: `app/www/img/lead_<N>.jpg` (N = docx imageN in `lead.md`).
+- Personal branding course: `.../scratchpad/src/brand.md` - "Personal branding for career success", Weeks 1-8. Activities are partly collected near the end (`# Activity N ...` sections, after line ~6470) - put each activity on the right page of its week.
+  Images: `app/www/img/brand_<N>.jpg`.
+Course ids: `lead` and `brand`. Files: `content/parts/lead-<n>.json` and `brand-<n>.json` with n = week 1..8, chapter ids `lead1`..`lead8`, `brand1`..`brand8`, page ids `<chapterId>-NN`.
+Interactive ids must be globally unique - prefix them with the chapter id (e.g. `lead3-q2`, `brand5-a1`).
+Do NOT add `tool` blocks in these two courses (tools are added afterwards by other authors); just make normal pages.
+Where the source has a weekly quiz/badge quiz without question text, write faithful questions yourself (as before).
+
+New block type `match` (use it whenever the source asks to link/match terms with definitions, or examples with categories):
+`{"t":"match","id":"lead2-m1","title":"Match each definition to its term","pairs":[{"term":"Transactional leadership","def":"Leadership based on exchanges and rewards"}, ...]}`
+4-8 pairs; the app shows every definition as a row and pops up a list of all terms to choose from, then checks.

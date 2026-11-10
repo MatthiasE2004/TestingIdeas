@@ -1,0 +1,812 @@
+{
+ "id": "lead3",
+ "title": "Week 3: What makes a good leader?",
+ "summary": "The skills and behaviours employers look for in leaders, auditing and building your own skills, finding a mentor and keeping a leadership journal.",
+ "minutes": 90,
+ "pages": [
+  {
+   "id": "lead3-01",
+   "title": "Welcome to Week 3",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Last week you looked at leadership theories and styles, and how the context in which you lead affects how you lead. This week, with that theory underpinning your thinking, you'll focus on the **skills that employers look for** in successful leaders. You'll consider leadership frameworks from major employers across different sectors and reflect on your own skills using a skills audit."
+    },
+    {
+     "t": "video",
+     "title": "Lynne Johnson introduces Week 3",
+     "url": null,
+     "note": "Lynne points out that by now you'll have met many average leaders, a few bad ones, a few good ones and hopefully some outstanding ones. So what makes a really good leader, and what key skills and behaviours do organisations look for when choosing people for leadership roles? This week covers that, plus assessing and building your own leadership skills and keeping track of your journey."
+    },
+    {
+     "t": "h",
+     "text": "By the end of this week, you will be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "recognise key skills and behaviours required for effective leadership",
+      "review your own experience and capability in using these skills",
+      "identify opportunities to build your skills and experience",
+      "use a leadership journal to reflect on your experience."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead3-02",
+   "title": "Why employers care about leadership skills",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The academic perspective on leadership is important, but so is the **employer's** perspective, particularly if you want a leadership role. Leadership skills matter to employers for several reasons:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Evidence suggests that employees with leadership skills and ambitions remain loyal to their organisation, have fewer work absences and higher morale.",
+      "Change is constant in business, and effective change requires leaders with the right skills.",
+      "Succession planning is crucial, so most employers are keen to train and develop their future leaders.",
+      "Effective leaders lead to successful businesses; ineffective leadership can lead to failure."
+     ]
+    },
+    {
+     "t": "img",
+     "src": "img/lead_22.jpg",
+     "alt": "A man stands next to a complex black and white line drawing of charts, icons and diagrams that covers an entire wall",
+     "caption": "Figure 1 Leadership skills and the employer"
+    }
+   ]
+  },
+  {
+   "id": "lead3-03",
+   "title": "Activity 1: Your list of leadership skills",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Before looking at employers' requirements, focus for a few minutes on your own view of leadership and the skills you think are important. If you considered skills when defining leadership in Week 1, Activity 1, refer back to that now."
+    },
+    {
+     "t": "activity",
+     "id": "lead3-a1",
+     "title": "Activity 1 Leadership skills list",
+     "prompt": "In five minutes, list all the leadership skills you can think of.",
+     "model": "It is impossible to provide a definitive list, but the most commonly described leadership skills and abilities include the competence to communicate, motivate, make decisions, solve problems and delegate, combined with self-awareness, creativity, positivity and integrity.",
+     "points": [
+      "Communication and the ability to motivate others are core leadership skills.",
+      "Making decisions and solving problems are commonly listed.",
+      "Delegating is an important leadership ability.",
+      "Personal qualities such as self-awareness, creativity, positivity and integrity matter."
+     ],
+     "hint": "Allow about 5 minutes. Think of leaders you admire: what do they do well?"
+    }
+   ]
+  },
+  {
+   "id": "lead3-04",
+   "title": "What one business leader values",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Many business leaders share their experience online or in print, and their hints and tips are often worth reading. For example, Sir Richard Branson, entrepreneur and founder of the Virgin Group, values these leadership qualities and attributes (Half, 2016):"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "the ability to think differently",
+      "an eye for talent",
+      "a positive company culture",
+      "the ability to delegate",
+      "willingness to listen and learn",
+      "a hands-on approach",
+      "the ability to make decisions (and move on from mistakes)",
+      "attention to detail",
+      "passion for the job."
+     ]
+    },
+    {
+     "t": "img",
+     "src": "img/lead_23.jpg",
+     "alt": "The red and white frontage of Branson's Centre of Entrepreneurship on a city street",
+     "caption": "Figure 2 Branson's Centre of Entrepreneurship"
+    }
+   ]
+  },
+  {
+   "id": "lead3-05",
+   "title": "A key skill: emotional intelligence",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "One of the most important elements of effective leadership, and a key theme in current discussion of leadership skills, is **emotional intelligence**."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "The 'ability to monitor one's own and others' feelings and emotions, to discriminate among them and to use this information to guide one's thinking and actions.' (Mayer and Salovey, 1990, p. 189)",
+     "title": "Emotional intelligence"
+    },
+    {
+     "t": "p",
+     "text": "Daniel Goleman (1998) adapted their model to identify five basic emotional and social competencies:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "self-awareness",
+      "self-regulation",
+      "motivation",
+      "empathy",
+      "social skills."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead3-06",
+   "title": "Video: What makes a leader?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "This video from Harvard Business Review explains the value of emotional intelligence, examining each of Goleman's five competencies in turn. In Section 2 you'll see how some of these qualities are reflected in the competency frameworks used by a range of employers."
+    },
+    {
+     "t": "video",
+     "title": "Daniel Goleman: what makes a leader?",
+     "url": "https://www.youtube.com/watch?v=WICq_Pj8ZUk",
+     "note": "Harvard Business Review video in which Daniel Goleman explains the value of emotional intelligence for leaders and examines each of the five competencies: self-awareness, self-regulation, motivation, empathy and social skills. It also explains how emotional intelligence can be developed."
+    }
+   ]
+  },
+  {
+   "id": "lead3-07",
+   "title": "What employers look for: the NHS",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Employers emphasise different leadership skills depending on their context, as you can see by comparing leadership frameworks. You'll now look at five frameworks from sectors ranging from healthcare to corporate finance. Organisations tweak and update these regularly, so they were correct at the time of writing."
+    },
+    {
+     "t": "p",
+     "text": "**1. Healthcare.** The NHS has six core principles, branded 'Our Leadership Way', focusing on the heart, head and hands of leadership (Leadership Academy, 2023):"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Focus",
+      "Principles"
+     ],
+     "rows": [
+      [
+       "Heart: We are Compassionate",
+       "We are inclusive, promote equality and diversity and challenge discrimination. We are kind and treat people with compassion, courtesy and respect."
+      ],
+      [
+       "Head: We are Curious",
+       "We aim for the highest standards and seek to continually improve harnessing our ingenuity. We can be trusted to do what we promise."
+      ],
+      [
+       "Hands: We are Collaborative",
+       "We collaborate, forming effective partnerships to achieve our common goals. We celebrate success and support our people to be the best they can be."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead3-08",
+   "title": "The humanitarian sector: the UN's IASC",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/lead_24.jpg",
+     "alt": "A complex, spiralling metal framework supporting a glass roof on a building",
+     "caption": "Figure 3 There are many leadership frameworks"
+    },
+    {
+     "t": "p",
+     "text": "**2. Humanitarian sector.** The UN's Inter-Agency Standing Committee (IASC) has agreed competencies that are critical for humanitarian coordination and leadership (Inter-Agency Standing Committee, 2021):"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Competency",
+      "Includes"
+     ],
+     "rows": [
+      [
+       "Leadership",
+       "Formulating strategies, applying humanitarian principles and norms; deciding and initiating action"
+      ],
+      [
+       "Managing relationships",
+       "Relating and networking; fostering humanitarian teamwork"
+      ],
+      [
+       "Influencing and representing",
+       "Advocacy and negotiation; presenting and communicating information"
+      ],
+      [
+       "Managing complexity",
+       "Analysing complexity; planning and organising"
+      ],
+      [
+       "Adapting and coping",
+       "Coping with pressure and setbacks; adapting and responding to change"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead3-09",
+   "title": "Higher education: University of Cambridge",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "**3. Higher education.** The University of Cambridge presents its leadership attributes framework visually, as a circle divided into four quadrants, each linked to a group of attributes."
+    },
+    {
+     "t": "img",
+     "src": "img/lead_25.jpg",
+     "alt": "A circle divided into four coloured quadrants, each connected to a list of attributes outside the circle",
+     "caption": "Figure 4 University of Cambridge's leadership attributes framework, 2020"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Quadrant",
+      "Attributes"
+     ],
+     "rows": [
+      [
+       "Achieving excellence in performance in context of governance",
+       "Strategy & direction; Decision making & delivering results; Commitment"
+      ],
+      [
+       "Managing in an environment of change",
+       "Financial acumen; Creativity & innovation; Risk & opportunity; Philanthropy"
+      ],
+      [
+       "Personal leadership",
+       "Communication; Influence & negotiation; Valuing diversity"
+      ],
+      [
+       "People development: engaging and developing others",
+       "Relationship building; Teamwork; Develop people & mentorship"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead3-10",
+   "title": "The private sector: PwC",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "**4. Private sector.** PwC is a professional services company providing specialist advice to businesses. One of the five attributes in its **PwC Professional** leadership development framework is 'Whole leadership', explained as:"
+    },
+    {
+     "t": "quote",
+     "text": "The ability to lead yourself and others to make a difference and create a positive impact in a responsible, authentic, resilient, inclusive and passionate manner.",
+     "by": "PwC, 2023"
+    },
+    {
+     "t": "p",
+     "text": "This is followed by three questions:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Can you lead yourself?",
+      "Can you lead others?",
+      "Are you purpose-led and values driven?"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead3-11",
+   "title": "The technology sector: Google",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "**5. Technology.** The technology sector often takes a less formal approach. For example, an in-house research project at Google identified 10 behaviour styles common to highly rated managers (Google re:Work, n.d.). A highly rated manager:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Is a good coach",
+      "Delegates to the team and does not micromanage",
+      "Has an inclusive approach that takes into account not only the team's performance, but also their well-being and fulfilment",
+      "Is highly productive and results-oriented",
+      "Communicates effectively: listens carefully and shares information",
+      "Supports career development and discusses performance",
+      "Has a clear vision/strategy and shares it with their team",
+      "Has the expertise to advise the team",
+      "Collaborates across departments",
+      "Is decisive."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead3-12",
+   "title": "Common themes across frameworks",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Common themes across these frameworks focus on **developing people, inclusion and communication**. Other themes reflect sector priorities: influencing and representing are key across the humanitarian sector, and compassion is understandably high on the NHS agenda. Emotional intelligence also runs through many of these frameworks, supporting inclusivity, authenticity and relationships with others."
+    },
+    {
+     "t": "match",
+     "id": "lead3-m1",
+     "title": "Match each framework feature to the employer",
+     "pairs": [
+      {
+       "term": "NHS",
+       "def": "'Our Leadership Way': heart, head and hands - compassionate, curious, collaborative"
+      },
+      {
+       "term": "UN Inter-Agency Standing Committee",
+       "def": "Competencies include influencing and representing, managing complexity, adapting and coping"
+      },
+      {
+       "term": "University of Cambridge",
+       "def": "A circle of four quadrants, e.g. personal leadership and managing in an environment of change"
+      },
+      {
+       "term": "PwC",
+       "def": "'Whole leadership': can you lead yourself, lead others, and are you purpose-led and values driven?"
+      },
+      {
+       "term": "Google",
+       "def": "10 behaviours of highly rated managers, from being a good coach to being decisive"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead3-13",
+   "title": "Different employers value different skills",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "These models each emphasise different facets of leadership. Some are presented very formally, others more informally. Most are clear that the themes and dimensions should apply to **all employees**, regardless of their role."
+    },
+    {
+     "t": "p",
+     "text": "If you are interested in working with **small to medium-sized enterprises (SMEs)**, you may have to look harder for their preferred leadership competencies. Smaller organisations often don't have the resources to develop and publicise such structures."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Talk to someone in a senior position to understand their priorities, or look for clues on the organisation's website or in its annual report.",
+     "title": "Researching an SME"
+    }
+   ]
+  },
+  {
+   "id": "lead3-14",
+   "title": "Activity 2: What leadership skills do employers value?",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "lead3-a2",
+     "title": "Activity 2 What leadership skills do employers value?",
+     "prompt": "Choose the leadership frameworks of at least two different employers - the ones outlined here, or an organisation that means something to you (look in a framework, development programme, job description or recruitment literature). Then consider: 1) What are the similarities? 2) What are the differences? 3) Are they written in a different style? 4) Do they highlight different skills? 5) Can you see why they focus on different elements based on their context? 6) Do you feel more aligned to a particular style or culture?",
+     "model": "The more you understand about the ethos of leadership in an organisation, the better you'll be at aligning yourself with its culture and progressing within it. If you looked at your own or a target organisation, you now have a list of skills to develop - or you may realise its ethos doesn't suit you. Comparing two frameworks shows the relevance of context again, and reflecting that understanding is attractive to employers when you apply.",
+     "points": [
+      "Understanding an organisation's leadership ethos helps you align with its culture and progress.",
+      "The frameworks reveal skills you may need to develop.",
+      "You might find an organisation's ethos does not suit you.",
+      "Differences between frameworks reflect each organisation's context.",
+      "Showing you understand an employer's context is attractive in applications."
+     ],
+     "hint": "Allow about 20 minutes."
+    }
+   ]
+  },
+  {
+   "id": "lead3-15",
+   "title": "Video: Key skills employers look for",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Rebecca Fielding: key skills and attributes in leaders",
+     "url": null,
+     "note": "Rebecca Fielding, drawing on her experience recruiting leaders, says there is no 'secret sauce': different organisations look for different things, and the most important thing is to be the authentic, best version of yourself. Whatever label employers use (values, behaviours, competencies, strengths), she sees common qualities: self-awareness and striving for improvement; self-belief, because there is no handbook telling you if a decision is right; good decision-making, using your intellect to make the best decision you can with often imperfect information; and communication skills - great leaders spend much more time explaining why, not just what."
+    },
+    {
+     "t": "p",
+     "text": "Rebecca's qualities range from self-awareness and self-belief to making good decisions and communicating effectively with your team. You'll explore these in more detail later in the course."
+    },
+    {
+     "t": "p",
+     "text": "Understanding the skills employers value is essential preparation for a leadership role: they will look for **evidence** that you have them. Next, you'll assess your own skills and identify gaps in your experience."
+    }
+   ]
+  },
+  {
+   "id": "lead3-16",
+   "title": "Reviewing your leadership skills",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A **skills audit** is a useful way to review your skills and gauge how well developed you think they are. It can help to refer to a recent CV or application form, as this will remind you of what you've already done."
+    },
+    {
+     "t": "img",
+     "src": "img/lead_27.jpg",
+     "alt": "A dial labelled 'Skill level' with a red needle that can point to low, moderate, high or maximum; it points to maximum",
+     "caption": "Figure 5 A skills audit is a useful way to review your skills"
+    },
+    {
+     "t": "p",
+     "text": "In the next activity, score your level of expertise against each skill like this:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Score",
+      "Level"
+     ],
+     "rows": [
+      [
+       "0",
+       "No experience yet"
+      ],
+      [
+       "1",
+       "Basic"
+      ],
+      [
+       "2",
+       "Competent"
+      ],
+      [
+       "3",
+       "Proficient"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead3-17",
+   "title": "Activity 3: Personal skills audit",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "These skills commonly appear in leadership job descriptions: inspiring and motivating others; creating and sharing a clear vision; empathy; integrity; diplomacy; resilience; initiative; self-awareness; self-reflection; self-motivation; influencing others; relationship building; negotiation; team working; verbal communication; listening; presentation skills; driving/leading change; problem solving; decision making; taking risks; multitasking; planning and organising; strategic thinking; financial acumen; evaluating information; analytical thinking."
+    },
+    {
+     "t": "activity",
+     "id": "lead3-a3",
+     "title": "Activity 3 Personal skills audit",
+     "prompt": "Score yourself 0-3 (0 = no experience yet, 1 = basic, 2 = competent, 3 = proficient) against each skill listed above, adding any of your own from job descriptions or experience. Give at least one example of when you've demonstrated each skill. Then summarise your strengths and areas for development - and ask a colleague, manager, mentor or friend who knows you well whether they agree.",
+     "model": "Group your skills by score (all the 3s, all the 2s, etc.) to see your perceived strengths and areas for development. Is there an obvious gap in your experience, or is your next step to grow your overall expertise from basic to competent? Talking to someone who knows you well helps you check whether your self-perceptions are accurate, and they may have ideas to add. Many people underestimate their own abilities.",
+     "points": [
+      "Grouping skills by score shows your strengths and areas for development.",
+      "Look for obvious gaps or a general need to move from basic to competent.",
+      "Give concrete evidence for each skill.",
+      "Ask someone who knows you well to check your self-assessment.",
+      "Many people underestimate their own abilities."
+     ],
+     "hint": "Allow about 30 minutes. Keep a recent CV or application form to hand."
+    }
+   ]
+  },
+  {
+   "id": "lead3-18",
+   "title": "How employers assess leaders",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "In a leadership role, your employer will also assess your skills, for example through a performance review or appraisal. If you can, use feedback from those assessments to enhance your audit."
+    },
+    {
+     "t": "video",
+     "title": "Rebecca Fielding: how leaders are assessed",
+     "url": null,
+     "note": "Rebecca explains the most common method, the annual appraisal or performance review (sometimes with a mid-year review) with your line manager. It looks at what you delivered against your KPIs (Key Performance Indicators) and objectives, and how you delivered it - the organisation's values, behaviours and competencies - often ending in a grade or rating. Other methods: psychometrics, which test how you think and perform as a leader through scenarios; 360-degree feedback from clients, team, boss and peers; and development centres, like in-house assessment centres with group, role-play and written exercises. Most simply, managers and colleagues observe you every day and give feedback."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Appraisal / performance review",
+      "Psychometric tests",
+      "360-degree feedback",
+      "Development centres",
+      "Everyday observation and feedback"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead3-19",
+   "title": "Building your leadership experience",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "In Week 1, Activity 4, you reflected on your leadership experience so far. Wherever you are on the spectrum, there is always more to learn. Opportunities in and outside work include:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Joining a club or society:** a committee role such as treasurer, chair or social secretary gives useful leadership experience.",
+      "**Leading a local community project or campaign:** helps develop a wide range of skills, particularly interacting with people.",
+      "**Organising a fundraising event or social gathering:** needs extensive skills, from decision making and planning to relationship building and negotiating.",
+      "**Mentoring or coaching someone:** focuses on a crucial element of leadership - listening to people and helping them develop."
+     ]
+    },
+    {
+     "t": "img",
+     "src": "img/lead_29.jpg",
+     "alt": "A group of people picking up litter",
+     "caption": "Figure 6 Voluntary work is a great way to build up leadership skills"
+    }
+   ]
+  },
+  {
+   "id": "lead3-20",
+   "title": "Activity 4: Developing your skills",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "lead3-a4",
+     "title": "Activity 4 Developing your skills",
+     "prompt": "Look at the strengths and areas for development from Activity 3 and prioritise those most relevant now (you don't need every skill, especially early in your leadership journey). Note ideas for projects or activities that would help, e.g. chair a working group, volunteer to give a presentation, organise an event. Ask yourself: Do I need to focus on a key area, such as interpersonal skills or negotiating experience? Which projects could build those skills, e.g. fundraising for a local charity, or changing my approach with a member of staff I struggle to connect with?",
+     "model": "Involving your mentor, manager or another leader who knows you will be useful: they may suggest options you hadn't considered or weren't aware of. For more detail, try the GROW framework - Goal, Reality, Options, What will you do next? - to plan your actions.",
+     "points": [
+      "Prioritise the development areas most relevant to you now.",
+      "Identify concrete projects or activities that build those skills.",
+      "Involve a mentor, manager or experienced leader for ideas.",
+      "The GROW model (Goal, Reality, Options, What next) can structure your plan."
+     ],
+     "hint": "Allow about 15 minutes."
+    }
+   ]
+  },
+  {
+   "id": "lead3-21",
+   "title": "Finding a mentor",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A leadership **mentor or coach** in your organisation can guide you towards useful experiences and may put your name forward. Ask Human Resources whether your employer runs leadership development schemes. If not, identify a leader you'd like to be like and approach them for advice. Outside your organisation, or if you're not in work, join a relevant LinkedIn or other social network group and look for someone with interesting things to say about leadership."
+    },
+    {
+     "t": "h",
+     "text": "Top tips for finding a mentor"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "It must be someone with more experience than you.",
+      "Rapport is easier if you choose someone you respect and who shares your values.",
+      "The relationship must be honest, so choose someone you trust to keep conversations confidential.",
+      "Consider people inside and outside your organisation, e.g. someone you met at a conference or networking event."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead3-22",
+   "title": "Activity 5: Finding a mentor",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "lead3-a5",
+     "title": "Activity 5 Finding a mentor",
+     "prompt": "Part 1: List individuals, in your organisation or elsewhere, whom you could approach for leadership advice or mentoring. Part 2: Prepare some key questions to ask them, for example: What are the key skills a good leader needs? What do you wish you had known before your first leadership role? Can you describe your path to leadership?",
+     "model": "Before requesting a formal mentoring relationship, you might arrange an informal first meeting to ask some questions and see whether you could work together; either way you'll gain insights. You could ask how they would find a mentor. If you don't feel ready for a mentor yet, talk to everyone on your list, ask your questions and add them to your network of contacts.",
+     "points": [
+      "Name specific people inside or outside your organisation.",
+      "Prepare focused questions about skills, experience and paths to leadership.",
+      "An informal first meeting helps you judge whether you could work together.",
+      "Even without a formal mentor, these conversations build your network."
+     ],
+     "hint": "Allow about 20 minutes. The OpenLearn course 'Exploring career mentoring and coaching' covers this in more detail."
+    }
+   ]
+  },
+  {
+   "id": "lead3-23",
+   "title": "Keeping a leadership journal",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Most leaders have complex, challenging jobs, so it can be hard to make time to reflect. Writing a **journal** helps you clarify and explore thoughts, questions and concerns in a way that can't happen while they compete for attention in your head. It's an excellent habit to start early. You can use it to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "capture and explore ideas, or note questions you'd like to answer",
+      "look back on events: how you felt, what you did and what you could do differently",
+      "rehearse future conversations that might be difficult",
+      "facilitate decision making: clarify the decision and explore pros and cons",
+      "note anything of interest: quotes, goals, feelings, lessons learned",
+      "note things that went well - **positive reinforcement**, which can boost confidence in difficult times."
+     ]
+    },
+    {
+     "t": "img",
+     "src": "img/lead_30.jpg",
+     "alt": "A colourful pile of notebooks and an electronic tablet on a wooden table",
+     "caption": "Figure 7 A leadership journal is an important tool"
+    }
+   ]
+  },
+  {
+   "id": "lead3-24",
+   "title": "Activity 6: Starting your journal",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Over time, reflect on what you've written and look for patterns or themes that give insight into your typical behaviours and responses."
+    },
+    {
+     "t": "activity",
+     "id": "lead3-a6",
+     "title": "Activity 6 Starting your journal",
+     "prompt": "Choose an online journal/app or a notebook and pen, and the best time of day to write with no distractions. Set aside 15 minutes to write about what's currently in your head, focusing on your leadership interests and the aims for this course you set in Week 1, Activity 5. Ask yourself questions, jot down ideas, revisit recent events, or outline goals (e.g. 'What would I do if I had an extra hour every day?' or 'How would I like to describe myself as a leader?'). Write your first entry, then reflect: how could this help you become a better leader?",
+     "model": "Reflection is a skill: it can feel difficult or awkward at first, but it gets easier with practice. The key is to make the time. If every day seems too much, set aside 10-15 minutes each week to start with, and schedule a slot in your diary if you journal at work.",
+     "points": [
+      "Reflection is a skill that improves with practice.",
+      "The key is making regular time for it.",
+      "Start small, e.g. 10-15 minutes a week, and schedule it.",
+      "Journaling helps you clarify thinking and learn from experience."
+     ],
+     "hint": "Allow about 25 minutes."
+    }
+   ]
+  },
+  {
+   "id": "lead3-25",
+   "title": "Gibbs' reflective cycle",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Models such as **Gibbs' (1988) reflective cycle** can give structure to your reflection. It focuses on what you were thinking and feeling, what was good and bad about the experience and what sense you can make of it, before considering what could have been done differently and what you'd do if it happened again."
+    },
+    {
+     "t": "img",
+     "src": "img/lead_31.jpg",
+     "alt": "Six boxes in a clockwise cycle: Description, Feelings, Evaluation, Analysis, Conclusion, Action plan",
+     "caption": "Figure 8 Gibbs' reflective cycle"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "**Description** - What happened?",
+      "**Feelings** - What were you thinking/feeling?",
+      "**Evaluation** - What was good/bad about the experience?",
+      "**Analysis** - What sense can you make of the situation?",
+      "**Conclusion** - What else could you have done?",
+      "**Action plan** - If it arose again, what would you do?"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lead3-26",
+   "title": "Week 3 practice quiz (1/2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "lead3-q1",
+     "q": "Who defined emotional intelligence as the 'ability to monitor one's own and others' feelings and emotions… and to use this information to guide one's thinking and actions'?",
+     "options": [
+      "Daniel Goleman (1998)",
+      "Mayer and Salovey (1990)",
+      "Barbara Kellerman (2004)",
+      "Gibbs (1988)"
+     ],
+     "answer": 1,
+     "explain": "The definition comes from Mayer and Salovey (1990); Goleman later adapted their model into five competencies."
+    },
+    {
+     "t": "quiz",
+     "id": "lead3-q2",
+     "q": "Which of these are among Goleman's five emotional and social competencies? Select all that apply.",
+     "options": [
+      "Self-regulation",
+      "Financial acumen",
+      "Empathy",
+      "Social skills",
+      "Decisiveness"
+     ],
+     "answer": [
+      0,
+      2,
+      3
+     ],
+     "multi": true,
+     "explain": "Goleman's five are self-awareness, self-regulation, motivation, empathy and social skills."
+    },
+    {
+     "t": "quiz",
+     "id": "lead3-q3",
+     "q": "In the NHS 'Our Leadership Way', which value is linked to the 'heart'?",
+     "options": [
+      "We are Curious",
+      "We are Collaborative",
+      "We are Compassionate",
+      "We are Decisive"
+     ],
+     "answer": 2,
+     "explain": "Heart = Compassionate, Head = Curious, Hands = Collaborative."
+    }
+   ]
+  },
+  {
+   "id": "lead3-27",
+   "title": "Week 3 practice quiz (2/2)",
+   "blocks": [
+    {
+     "t": "tf",
+     "id": "lead3-q4",
+     "q": "Small and medium-sized enterprises usually publish detailed leadership competency frameworks.",
+     "answer": false,
+     "explain": "SMEs often lack the resources to develop and publicise such frameworks, so you may need to talk to senior staff or look at their website or annual report."
+    },
+    {
+     "t": "quiz",
+     "id": "lead3-q5",
+     "q": "What is 360-degree feedback?",
+     "options": [
+      "A yearly review with your line manager only",
+      "Feedback from clients, team, boss, peers and others around you",
+      "A psychometric test of reasoning",
+      "A written exercise at a development centre"
+     ],
+     "answer": 1,
+     "explain": "It gathers feedback from everyone around you - hence '360 degrees'."
+    },
+    {
+     "t": "quiz",
+     "id": "lead3-q6",
+     "q": "In Gibbs' reflective cycle, which stage asks 'What sense can you make of the situation?'",
+     "options": [
+      "Evaluation",
+      "Conclusion",
+      "Analysis",
+      "Action plan"
+     ],
+     "answer": 2,
+     "explain": "Analysis follows Evaluation and comes before Conclusion ('What else could you have done?')."
+    }
+   ]
+  },
+  {
+   "id": "lead3-28",
+   "title": "Week 3 summary",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "You've looked at the leadership skills employers value, audited which you already have and identified those to gain or enhance. You've explored opportunities for leadership development, recognised the benefits of mentors and reflective practice, thought about people who could advise and support you, and taken the first steps in building your leadership journal."
+    },
+    {
+     "t": "h",
+     "text": "You should now feel that you can:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "recognise key skills and behaviours required for effective leadership",
+      "review your own experience and capability in using these skills",
+      "identify opportunities to build your skills and experience",
+      "use a leadership journal to reflect on your experience."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Next week, you'll look at the impact of bad leadership: the common mistakes leaders make and ways to rectify them. Learning from the mistakes of others can be a very valuable leadership experience."
+    }
+   ]
+  }
+ ]
+}

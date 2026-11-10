@@ -1,0 +1,698 @@
+{
+ "id": "brand5",
+ "title": "Week 5: Promoting my brand to employers",
+ "summary": "Identify and research your target audience, learn what employers look for now and in future, and why you must maintain your personal brand.",
+ "minutes": 70,
+ "pages": [
+  {
+   "id": "brand5-01",
+   "title": "Promoting my brand to employers",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Last week you identified and summarised the key elements of your own personal brand, starting to consider what you might present to employers. This week you shift to the **employer perspective**: what they want to know about you and your brand, and how that might change in the future."
+    },
+    {
+     "t": "video",
+     "title": "Video 1 Introduction to Week 5",
+     "url": null,
+     "note": "A short introduction to the week: who your target audience is, what employers are looking for now and in the future, and why you need to maintain your personal brand."
+    },
+    {
+     "t": "h",
+     "text": "By the end of this week you will be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "identify your target audience",
+      "describe what employers are looking for",
+      "understand the importance of maintaining your personal brand."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand5-02",
+   "title": "Who do I want to promote myself to?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "In Week 2 you looked at the importance of correctly identifying your target audience. Now you're ready to have a go yourself."
+    },
+    {
+     "t": "img",
+     "src": "img/brand_36.jpg",
+     "alt": "A smiling woman in red sunglasses shouts into a megaphone against a plain blue background",
+     "caption": "Figure 1 Spread the word"
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Remember the two-stage process: **1. Identifying your audience** and **2. Researching your audience**.",
+     "title": "Two stages"
+    }
+   ]
+  },
+  {
+   "id": "brand5-03",
+   "title": "Three kinds of career goal",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The career goals you want to achieve will probably fall into one of three broad categories, each with a potentially different target audience."
+    },
+    {
+     "t": "ol",
+     "items": [
+      "**Enhancing your current situation** - gaining new responsibilities or an internal promotion. Audience: peers and colleagues, senior managers, members of the HR team in your organisation, etc.",
+      "**Changing your emphasis** - doing the same job for a different employer, or using your skills in a different context within your current organisation. Audience: individuals in other departments or companies, representatives from a relevant professional body or recruitment consultancy, etc.",
+      "**Doing something new** - starting your career, or wanting a complete change and a new challenge. Initially your audience might include people already doing the role you aspire to: they can help you research the role, the main employers and what they look for."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand5-04",
+   "title": "Researching your audience: three prongs",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "When researching organisations or individuals, take a three-pronged approach:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Online** - company websites and social media feeds give insight into what's going on in an organisation; you may spot key individuals who regularly post and share your views. Professional bodies, trade organisations and publications often have news pages that keep you up to date with an industry.",
+      "**On paper** - most printed material is also online, but internal newsletters or more obscure trade publications can provide useful insight.",
+      "**In person** - go to industry events such as conferences, breakfast meetings and networking evenings (find them by following employers or professional bodies on social media, or via student membership). You learn things that aren't on websites or in print, meet people who can help you, and raise your profile - making more direct questions about employment easier."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand5-05",
+   "title": "Check: audiences and research methods",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "brand5-m1",
+     "title": "Match each description to the right term",
+     "pairs": [
+      {
+       "term": "Enhancing your current situation",
+       "def": "Seeking new responsibilities or an internal promotion; audience includes senior managers and HR"
+      },
+      {
+       "term": "Changing your emphasis",
+       "def": "Same job for a different employer, or your skills in a new context; audience includes professional bodies and recruitment consultancies"
+      },
+      {
+       "term": "Doing something new",
+       "def": "Starting out or making a complete change; audience includes people already doing the role you aspire to"
+      },
+      {
+       "term": "Online research",
+       "def": "Company websites, social media feeds and news pages of professional bodies"
+      },
+      {
+       "term": "On-paper research",
+       "def": "Internal newsletters and more obscure trade publications"
+      },
+      {
+       "term": "In-person research",
+       "def": "Conferences, breakfast meetings and networking evenings"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand5-06",
+   "title": "Activity 1 My audience",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The first stage is to identify your target audience; the second is to research it. Allow about 5 minutes."
+    },
+    {
+     "t": "activity",
+     "id": "brand5-a1",
+     "title": "Activity 1 My audience",
+     "prompt": "Think about the career goals you identified in Week 4. Who will help you achieve them - employers, colleagues, peers, etc.? List your target audiences. Then choose one of them, research them and their organisation further, and note your key findings.",
+     "model": "Once you have a clearer idea of the groups you plan to target, you can start to consider exactly what you want from them, e.g. information, insight, a job, etc., and plan how you are going to share your personal brand with them in a way that encourages them to engage with you.",
+     "points": [
+      "Lists specific target audiences linked to your career goals",
+      "Researches at least one target and their organisation",
+      "Identifies what you want from each audience (information, insight, a job)",
+      "Plans how to share your brand so they engage with you"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Some of this research will start to tell you what future employers are looking for."
+    }
+   ]
+  },
+  {
+   "id": "brand5-07",
+   "title": "What are employers looking for?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The job market is constantly changing, so keeping on top of the latest trends helps you promote yourself and stay a step ahead of competitors. Employers all want different things - depending on their culture, work and industry - but some issues are common to many."
+    },
+    {
+     "t": "img",
+     "src": "img/brand_37.jpg",
+     "alt": "Two men and a woman in business suits stand on boxes using telescopes to look across a barren landscape",
+     "caption": "Figure 2 Looking carefully"
+    },
+    {
+     "t": "h",
+     "text": "Strengths"
+    },
+    {
+     "t": "p",
+     "text": "Strengths have gained traction with employers in recent years. Using employees' strengths is a win-win: staff who use their strengths have greater job satisfaction and commitment, and organisations benefit from higher engagement. Having identified your strengths in Week 4, you can promote them - and when they align with an employer's priorities, you know you'll be a good fit."
+    }
+   ]
+  },
+  {
+   "id": "brand5-08",
+   "title": "Strengths-based recruitment",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "TargetJobs (n.d.) explains another reason recruiters of new graduates are interested in strengths:"
+    },
+    {
+     "t": "quote",
+     "text": "It is also argued that strengths-based interviews and assessments provide graduates from all socio-economic backgrounds with an equal opportunity to succeed. The answers to the questions don't require you to have multiple examples from extracurricular activities or internships - examples that might be easier for students from more advantaged backgrounds to obtain.",
+     "by": "TargetJobs (n.d.)"
+    },
+    {
+     "t": "h",
+     "text": "Typical strengths-based interview questions"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "What motivates you?",
+      "What would your perfect day look like?",
+      "How do you judge success?",
+      "If a colleague was struggling to make a complex decision, what would you do to help?",
+      "Given a choice, would you prefer to be giving a presentation or double-checking data?"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand5-09",
+   "title": "Key skills employers want",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Many reports look at the skills employers need - some sector specific, some generic. For example:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "After a survey of 2000 business leaders, LinkedIn Learning (Petrone, 2018) named the top four soft skills they'd like employees to learn: **leadership, communication, collaboration and time management**. If any are your strengths, promote them clearly in your brand.",
+      "The CBI/Pearson Education and Skills Survey (2017, p. 13) reports that over a third of employers were dissatisfied with graduate recruits' **self-management skills and resilience**, and their lack of **business and customer awareness** and **international cultural awareness**. If these are strengths for you, highlight them."
+     ]
+    },
+    {
+     "t": "quiz",
+     "id": "brand5-q1",
+     "q": "Which of these was NOT among LinkedIn Learning's top four soft skills (Petrone, 2018)?",
+     "options": [
+      "Leadership",
+      "Collaboration",
+      "Data analysis",
+      "Time management"
+     ],
+     "answer": 2,
+     "explain": "The four were leadership, communication, collaboration and time management."
+    }
+   ]
+  },
+  {
+   "id": "brand5-10",
+   "title": "Strengths and other skills",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Using your strengths is a key part of greater job satisfaction, but your other skills - gained through previous learning and experience - also play a crucial role in daily working life."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Even if something doesn't fill you with energy and enthusiasm, that doesn't mean you can't be good at it. Choosing a role that lets you feel highly engaged for some of the time motivates you to deal with the less interesting stuff."
+    }
+   ]
+  },
+  {
+   "id": "brand5-11",
+   "title": "Work style: a more flexible workplace",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "As the workplace becomes more flexible, the standard 9-5 day in the office is changing."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Remote working** - with the explosion of digital communication, more organisations encourage staff to work remotely.",
+      "**The 'gig economy'** - workers are paid for the 'gigs' they do. More of us work for ourselves, and companies bring in freelancers alongside permanent staff for key projects. They benefit from your expertise without paying pension or annual leave; you gain variety and flexibility.",
+      "**Short-term contracts** - give the employer a chance to assess and be impressed by your skills, and can lead to longer-term employment if you want it."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "If flexibility appeals to you, research employers' attitudes to it during your target audience research - some are more flexible than others."
+    }
+   ]
+  },
+  {
+   "id": "brand5-12",
+   "title": "Activity 2 Analyse an organisation",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Allow about 25 minutes. Find an organisation you'd be interested in working for and look at its website or social media pages."
+    },
+    {
+     "t": "activity",
+     "id": "brand5-a2",
+     "title": "Activity 2 Analyse an organisation",
+     "prompt": "Analyse what the organisation looks for from its employees: What is its vision or mission? What are its values? Which skills/strengths does it prioritise when recruiting (check current job adverts and job descriptions for common themes)? What issues is it facing at the moment (social media feeds help)? Then compare with the personal brand story from Week 4, Activity 6 (your values, strengths and personality traits). Are there any parallels?",
+     "model": "This is a good way to assess whether your brand aligns with that of the organisation. It will rarely be a perfect match, but if there are several similarities - for example they list your strengths as skills they are looking for, or you can see your values reflected in what they say - it could be worth adding them to your target audience list.",
+     "points": [
+      "Identifies the organisation's vision/mission and values",
+      "Notes the skills or strengths it prioritises in recruitment",
+      "Mentions current issues the organisation faces",
+      "Compares these with your own values, strengths and traits",
+      "Decides whether to add it to your target audience list"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand5-13",
+   "title": "Focus on your sector",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "When you know which sector or industry you want to work in, focus your attention there. Professional bodies and trade journals often commission relevant research - for example on sector skills shortages - that will inform your engagement with employers in those areas."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "If you have a strength that fills a skills gap in your sector, highlighting it makes you an even more attractive candidate."
+    },
+    {
+     "t": "p",
+     "text": "The job market is in constant flux, so you need to keep up with how things develop in the future."
+    }
+   ]
+  },
+  {
+   "id": "brand5-14",
+   "title": "The future of the world of work",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Looking for reassurance that robots won't take all our jobs, we increasingly encounter professional **'futurists'**: people from a range of professions, with experience in strategy and planning, who focus on future trends, forecasting and change."
+    },
+    {
+     "t": "img",
+     "src": "img/brand_38.jpg",
+     "alt": "A row of white humanoid robots wearing headsets sit at computer screens in a futuristic room",
+     "caption": "Figure 3 Is this the future?"
+    },
+    {
+     "t": "video",
+     "title": "Video 2 The future of work - adapting your skills and 'selves' to succeed",
+     "url": "https://www.youtube.com/watch?v=i8zY5PJY1lo",
+     "note": "A short video by professional services company EY explaining 'The Future of Work' and the skills that will be needed. Adaptability is a key theme."
+    }
+   ]
+  },
+  {
+   "id": "brand5-15",
+   "title": "Adaptability",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "**Adaptability** is a key theme in this and many other pieces on the future of work. Kokemuller (n.d.) explains that 'companies need employees who are open to new ideas, flexible enough to work through challenging issues, and generally able to cope when things don't go as planned.'"
+    },
+    {
+     "t": "h",
+     "text": "Adaptable people can:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "come up with alternative solutions when their first suggestion is rejected",
+      "cope when unexpected new projects are given to them",
+      "deal with changes to their role",
+      "remain calm and confident when facing a dilemma."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand5-16",
+   "title": "Activity 3 How adaptable am I?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Allow about 10 minutes. Answer this typical application form question."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Unsure how to structure your answer? Use the **STAR** model: Situation, Task, Action, Result. Put the emphasis on the action you took.",
+     "title": "STAR model"
+    },
+    {
+     "t": "activity",
+     "id": "brand5-a3",
+     "title": "Activity 3 How adaptable am I?",
+     "prompt": "Describe a situation when you had to change the way you worked because of changing circumstances. How did you adapt?",
+     "hint": "Situation - Task - Action - Result; most of your answer should describe your actions.",
+     "model": "Sample answer. Situation: my employer introduced a new IT system at very short notice, fundamentally changing my daily activities. Task: I had to train my team to work with it efficiently. Action: despite initial reservations I researched the system, talked to colleagues in my sector already using it, invited one to talk to the team, took a small group to see it working at their premises, and worked closely with the installation team. Result: despite a few hiccups it was installed on time and the team felt confident and enthusiastic about using it.",
+     "points": [
+      "Describes a specific situation of changing circumstances",
+      "States the task or responsibility",
+      "Focuses on the actions you personally took to adapt",
+      "Gives a clear, positive result"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand5-17",
+   "title": "You can develop adaptability",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Even if adaptability isn't one of your strengths, you can develop it - becoming more adaptable to change is largely about **mindset**. Boss (2014) talks about the importance of redefining your motivation:"
+    },
+    {
+     "t": "quote",
+     "text": "For instance, if personal growth is a primary motivator then try to see adaptability through the lens of self-improvement; if relationships are a key driver for you, then think about how rich and meaningful your relations with others will be after you adapt. How you frame the problem through your mind's eye is what determines your reaction, so if you redefine how you see the problem then you can set yourself up for success. Being ready and willing to adapt is half the battle.",
+     "by": "Boss (2014)"
+    },
+    {
+     "t": "p",
+     "text": "Many organisations have a strong interest in the future of work; the course's Further reading lists useful sources to keep up with it."
+    }
+   ]
+  },
+  {
+   "id": "brand5-18",
+   "title": "What employers say about personal branding",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Professional services company PwC takes personal branding seriously: it runs online courses and sessions for students."
+    },
+    {
+     "t": "video",
+     "title": "Video 3 Aspire to lead: career advice - develop your own personal brand",
+     "url": "https://www.youtube.com/watch?v=vX9IEisqPL0",
+     "note": "A short PwC career-advice video on developing your own personal brand."
+    },
+    {
+     "t": "p",
+     "text": "Employers won't always call it your 'personal brand', but they want a clear impression of you and your abilities quickly. If you stand out from everyone else they are assessing, they will be impressed. A clear, targeted brand shows you've considered their needs and how you can align with and support them - and they won't have to waste time trying to figure you out."
+    }
+   ]
+  },
+  {
+   "id": "brand5-19",
+   "title": "Employers check social media",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Employers regularly look at our social media presence. Jobvite's 2016 Recruiter Nation Report surveyed 1600 HR professionals about the platforms they use to evaluate candidates:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Platform",
+      "Used to evaluate candidates"
+     ],
+     "rows": [
+      [
+       "LinkedIn",
+       "87%"
+      ],
+      [
+       "Facebook",
+       "43%"
+      ],
+      [
+       "Twitter",
+       "22%"
+      ],
+      [
+       "Blogs",
+       "11%"
+      ],
+      [
+       "Instagram",
+       "8%"
+      ],
+      [
+       "YouTube",
+       "6%"
+      ],
+      [
+       "Snapchat",
+       "3%"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Your **digital footprint** is the information about you that exists because of your online activity. Consider it before raising your profile - next week covers how to tidy it."
+    }
+   ]
+  },
+  {
+   "id": "brand5-20",
+   "title": "Personal branding for existing employees",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Employers increasingly help existing employees develop their brand. Homayun (2016) shares eight tips for enhancing your brand at work - a supportive employer may help with some:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Network over lunch** - invite a colleague and find out what they do",
+      "**Help others** - offer help, perhaps over coffee",
+      "**Write a thank you note** to someone you appreciate, e.g. an office assistant",
+      "**Start a book club** - industry-specific or general business books",
+      "**Ask intelligent questions** - do your homework before meetings",
+      "**Get involved in a new project** - contribute outside your normal hours",
+      "**Be charismatic** - think about your body language",
+      "**Be noticed for the right reasons** - don't be late to meetings or work on your laptop throughout"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand5-21",
+   "title": "Activity 4 Being noticed for the wrong reasons",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Allow about 5 minutes."
+    },
+    {
+     "t": "activity",
+     "id": "brand5-a4",
+     "title": "Activity 4 Being noticed for the wrong reasons",
+     "prompt": "Think about someone at work with a work-related habit that annoys or frustrates you - for example, constantly playing with their phone in meetings, or repeatedly bringing up one topic regardless of relevance. How does it affect your opinion of them? Do others share your frustration?",
+     "model": "We have all had colleagues who are nice people and good at their jobs but become annoying in certain contexts. It doesn't mean we can't work productively with them, but it affects our opinion of them and our desire to work with them more than we have to. If they knew a habit was damaging their personal brand, maybe they would change it. Do you have any annoying habits that might affect how your brand is perceived?",
+     "points": [
+      "Describes a specific annoying work habit",
+      "Explains how it affects your opinion of the person",
+      "Recognises that such habits damage a personal brand",
+      "Reflects on your own habits and how they are perceived"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand5-22",
+   "title": "When your personal brand goes wrong",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/brand_39.jpg",
+     "alt": "The words 'You're fired!' revealed through a tear in brown paper",
+     "caption": "Figure 4 Bad news"
+    },
+    {
+     "t": "p",
+     "text": "Employers won't always fire you, but you can get into a lot of trouble for communicating the wrong messages as part of your personal brand."
+    },
+    {
+     "t": "activity",
+     "id": "brand5-a5",
+     "title": "Activity 5 What did Sally do wrong?",
+     "prompt": "Sally tweeted: 'Hooray! I've been offered a job at Bob's Diner. Now to decide if the money is worth smelling of stale chip fat every day...' Explain why you think this message was a bad idea.",
+     "model": "Sally shared a negative view about her new employer. This could be bad for Bob's business and shows a lack of commitment. Future employers checking her social media would wonder if she might say negative things about them too, reducing her chances of an interview. It is based on a real case: another employee saw the tweet and showed his boss, who immediately retracted the job offer.",
+     "points": [
+      "The message is negative about her new employer",
+      "It could harm the business's reputation",
+      "It shows a lack of commitment",
+      "Future employers may fear she would criticise them too",
+      "It could cost her the job offer or interviews"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand5-23",
+   "title": "Cautionary tales",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The internet is full of people who used Twitter or Facebook the wrong way:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Kevin's complaints** - an intern tired of menial jobs at a printing company tweeted that his job was 'boring' and was fired the next day.",
+      "**Susie's Instagram habit** - she posted a picture of her messy desk; an open document on it contained confidential company information. A disciplinary hearing followed.",
+      "**Jennifer's drinking** - a teacher in a strongly religious US state posted a photo appearing to drink straight from a wine bottle at a family barbecue. The headteacher asked her to resign.",
+      "**Martin's misdemeanour** - he phoned in sick, then posted a poolside party photo tagging a friend who was Facebook friends with his boss. He lost a day's pay and future sympathy."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Your personal brand isn't just a tool to get a job you love - you must maintain it and be aware of it all the time. Keep your messages consistent wherever your employer might see them."
+    }
+   ]
+  },
+  {
+   "id": "brand5-24",
+   "title": "Week 5 quiz (1)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "brand5-q2",
+     "q": "What are the two stages of the process for targeting your audience?",
+     "options": [
+      "Writing a CV and attending interviews",
+      "Identifying your audience and researching your audience",
+      "Joining LinkedIn and posting regularly",
+      "Choosing a sector and applying for jobs"
+     ],
+     "answer": 1,
+     "explain": "First identify who your target audience is, then research them and their organisation."
+    },
+    {
+     "t": "quiz",
+     "id": "brand5-q3",
+     "q": "You want a complete career change. Who might initially be part of your target audience?",
+     "options": [
+      "Only your current line manager",
+      "People already doing the role you aspire to",
+      "Only recruitment consultancies",
+      "Members of your current HR team only"
+     ],
+     "answer": 1,
+     "explain": "For 'doing something new', people already in the role can help you research it, the main employers and what they look for."
+    },
+    {
+     "t": "tf",
+     "id": "brand5-q4",
+     "q": "Strengths-based interviews are argued to give graduates from all socio-economic backgrounds an equal opportunity to succeed.",
+     "answer": true,
+     "explain": "TargetJobs notes they don't rely on examples from extracurricular activities or internships, which advantaged students may find easier to obtain."
+    }
+   ]
+  },
+  {
+   "id": "brand5-25",
+   "title": "Week 5 quiz (2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "brand5-q5",
+     "q": "In Jobvite's 2016 survey, which platform did recruiters use most to evaluate candidates?",
+     "options": [
+      "Facebook",
+      "Twitter",
+      "LinkedIn",
+      "Instagram"
+     ],
+     "answer": 2,
+     "explain": "LinkedIn (87%) was followed by Facebook (43%) and Twitter (22%)."
+    },
+    {
+     "t": "quiz",
+     "id": "brand5-q6",
+     "q": "Which of these is a sign of adaptability according to Kokemuller?",
+     "options": [
+      "Insisting on your first suggestion",
+      "Remaining calm and confident when facing a dilemma",
+      "Avoiding unexpected new projects",
+      "Keeping your role exactly the same"
+     ],
+     "answer": 1,
+     "explain": "Adaptable people find alternative solutions, cope with unexpected projects and role changes, and stay calm facing dilemmas."
+    },
+    {
+     "t": "quiz",
+     "id": "brand5-q7",
+     "q": "In the STAR model, where should the emphasis of your answer be?",
+     "options": [
+      "Situation",
+      "Task",
+      "Action",
+      "Result"
+     ],
+     "answer": 2,
+     "explain": "Your emphasis should be on the action you took."
+    }
+   ]
+  },
+  {
+   "id": "brand5-26",
+   "title": "Summary of Week 5",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "You should now have a clearer sense of your chosen target audience and an awareness of what employers are looking for - strengths, key skills and flexible work styles - and how the world of work may change. You have also considered employers' views about personal branding and how the wrong messages can backfire."
+    },
+    {
+     "t": "h",
+     "text": "You should now be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "identify your target audience",
+      "describe what employers are looking for",
+      "understand the importance of maintaining your personal brand."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "This week you started to explore your personal brand online; next week you'll look at that in more detail."
+    }
+   ]
+  }
+ ]
+}

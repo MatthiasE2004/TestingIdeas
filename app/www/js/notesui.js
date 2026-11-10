@@ -155,7 +155,7 @@
       function mk(label,kind,cls){return h('button',{class:'btn sm '+(cls||''),onmousedown:function(e){e.preventDefault()},ontouchstart:function(e){e.preventDefault()},onclick:function(){var t=selText();if(!t){H.toast('Select some text in the document first');return}runAI(kind,t)}},label)}
       aiBar.appendChild(h('div',{class:'row',style:{gap:'6px',flexWrap:'wrap'}},h('span',{class:'label',style:{alignSelf:'center'}},'AI on selection'),mk('Rewrite','rewrite'),mk('Shorten','shorten'),mk('Expand','expand'),mk('Fix grammar','fix'),mk('Summarize','summarize'),
         h('button',{class:'btn sm',onmousedown:function(e){e.preventDefault()},onclick:function(){var t=selText();if(!t){H.toast('Select some text first');return}AskSheet.open({course:c,pid:null,selection:t,onSaveNote:function(a){insertHTML('<p>'+esc(a).replace(/\n+/g,'</p><p>')+'</p>')}})}},'Ask about it')));
-      aiBar.appendChild(h('div',{class:'row',style:{marginTop:'6px',alignItems:'center'}},h('span',{class:'tiny muted'},'Mode:'),ModesUI.chips()));
+      aiBar.appendChild(h('div',{class:'row',style:{marginTop:'6px',alignItems:'center'}},h('span',{class:'tiny muted'},'Mode:'),ModesUI.chips(null,'chat')));
       /* ---------- side panel: import highlights / notes ---------- */
       function importPanel(){
         function quote(e){return '<blockquote>'+esc(e.text)+'</blockquote>'+(e.type==='note'?'<p>'+esc(e.note).replace(/\n/g,'<br>')+'</p>':'')}
@@ -184,7 +184,7 @@
         ctxBox.appendChild(cr);
         ctxBox.appendChild(h('div',{class:'row',style:{marginTop:'8px'}},h('span',{class:'tiny muted'},'Use as context:'),
           h('button',{class:'chip'+(useCourse?' on':''),onclick:function(){useCourse=!useCourse;drawCtx()}},'Course content'),h('button',{class:'chip'+(useNotes?' on':''),onclick:function(){useNotes=!useNotes;drawCtx()}},'My notes & document')));
-        ctxBox.appendChild(h('div',{class:'row',style:{marginTop:'8px',alignItems:'center'}},h('span',{class:'tiny muted'},'Mode:'),ModesUI.chips(),h('button',{class:'btn sm ghost',onclick:function(){manage.classList.toggle('hide');if(!manage.classList.contains('hide')){manage.innerHTML='';manage.appendChild(h('div',{class:'label',style:{marginBottom:'6px'}},'Your AI modes'));manage.appendChild(ModesUI.manager(function(){drawCtx()}))}}},'Edit modes')));
+        ctxBox.appendChild(h('div',{class:'row',style:{marginTop:'8px',alignItems:'center'}},h('span',{class:'tiny muted'},'Mode:'),ModesUI.chips(null,'chat'),h('button',{class:'btn sm ghost',onclick:function(){manage.classList.toggle('hide');if(!manage.classList.contains('hide')){manage.innerHTML='';manage.appendChild(h('div',{class:'label',style:{marginBottom:'6px'}},'Your AI modes'));manage.appendChild(ModesUI.manager(function(){drawCtx()},'chat'))}}},'Edit modes')));
         stat.textContent=AI.available()?'Model: '+(LLM.status().model?LLM.status().model.name:'')+' · '+(LLM.status().backend||''):'No AI model loaded - open Settings > Local AI.'}
       function drawLog(){log.innerHTML='';
         if(!msgs.length)log.appendChild(h('div',{class:'muted',style:{padding:'20px 4px'}},'Ask a question about '+cur.title+'. The AI looks up the most relevant course pages'+(useNotes?' and your notes':'')+' and answers from them. Try: “What is the difference between a project and operations?”'));

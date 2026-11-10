@@ -1,0 +1,809 @@
+{
+ "id": "brand2",
+ "title": "Week 2: Understanding marketing principles and practices",
+ "summary": "What marketers know about successful brands - values, vision, personality, target audience, positioning and consistency - and how it applies to you.",
+ "minutes": 180,
+ "pages": [
+  {
+   "id": "brand2-01",
+   "title": "Week 2: Understanding marketing principles and practices",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Last week you were introduced to personal branding, considering your own brand and why you want to develop it. This week you'll pause to look at approaches used by marketing teams when branding organisations and products. This is a much more familiar area of branding for most of us, and understanding the key elements of a good brand here gives useful insight into how to develop and promote your own."
+    },
+    {
+     "t": "video",
+     "title": "Video 1 Introduction to Week 2 (no spoken audio)",
+     "url": null,
+     "note": "Animated text: this week focuses on what can be learned from the way marketing professionals brand products and organisations - their tactics and techniques, the key elements of a successful brand, the concept of a target audience and the importance of brand positioning - and how these principles can boost your own personal brand."
+    },
+    {
+     "t": "h",
+     "text": "By the end of this week, you will be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "describe the key elements of a successful brand",
+      "appreciate the concept of target audience",
+      "recognise the importance of positioning a brand correctly"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand2-02",
+   "title": "What makes a successful brand?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The Design Council's *Power of Branding* (n.d.) describes 'four cornerstones' of any good brand:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "**The big idea** - what lies at the heart of your company?",
+      "**Values** - what do you believe in?",
+      "**Vision** - where are you going?",
+      "**Personality** - how do you want to come across?"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "These cornerstones apply equally to personal branding. The Design Council suggests relevant questions to ask yourself: What is your offer? What makes you different? What is your 'personality'? What do consumers want or need?"
+    },
+    {
+     "t": "img",
+     "src": "img/brand_10.jpg",
+     "alt": "Illuminated digital advertising signs for well-known brands at Piccadilly Circus, London, at night",
+     "caption": "Figure 1 Successful brands"
+    }
+   ]
+  },
+  {
+   "id": "brand2-03",
+   "title": "Simon Sinek: start with why",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Author and motivational speaker Simon Sinek is very clear about what makes one brand more successful than another."
+    },
+    {
+     "t": "video",
+     "title": "Video 2 Simon Sinek - Start With Why - TED Talk",
+     "url": "https://www.youtube.com/watch?v=IPYeCltXpxw",
+     "note": "A short excerpt from Sinek's 2009 TED Talk 'How Great Leaders Inspire Action'. He explains his Golden Circle model: successful organisations communicate *why* they do what they do, not just what they do. The full talk goes on to explain why the human brain responds so well to starting with 'why'."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "The Golden Circle",
+     "text": "Sinek's model focuses on *why* a particular organisation does what it does, and *why* presenting this clearly to customers can lead to greater success."
+    }
+   ]
+  },
+  {
+   "id": "brand2-04",
+   "title": "Activity 1 'What do you do?'",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Allow about 15 minutes. In many social and business situations people ask 'What do you do?' First think about how you currently answer, e.g. 'I'm a teacher', 'I make architectural models', 'I'm in accounts'. Then watch Sinek apply 'start with why' to himself."
+    },
+    {
+     "t": "video",
+     "title": "Video 3 Start with why: answering the question 'What do you do?'",
+     "url": "https://www.youtube.com/watch?v=9H36Gjg5SLM",
+     "note": "Simon Sinek focuses his 'start with why' approach on himself, showing how to answer 'What do you do?' by starting with why you do it."
+    },
+    {
+     "t": "activity",
+     "id": "brand2-a1",
+     "title": "Activity 1 'What do you do?'",
+     "prompt": "Part 1: Write how you currently answer the question 'What do you do?'. Part 2: Taking Simon Sinek's advice into account, write a new answer that starts with why you do what you do.",
+     "model": "In marketing language you are starting to develop your 'elevator pitch' - typically two or three short sentences explaining who you are and what you do. If you focus on 'why' you do it, as Sinek suggests, you should receive an even more positive response. Focus on what you do now; later in the course you can decide whether to change it, and in Week 8 you'll revisit the elevator pitch.",
+     "points": [
+      "Gives a current 'what I do' answer",
+      "Rewrites the answer to start with why they do it",
+      "Keeps it short, like a two or three sentence elevator pitch",
+      "Focuses on what they do now"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand2-05",
+   "title": "Values: what you stand for",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "In a corporate context, company values describe what an organisation stands for. They are typically kept to four or five and are usually communicated through actions and words."
+    },
+    {
+     "t": "p",
+     "text": "Research by communications consultancy Maitland (Marinker, 2015) looked at the stated core values of FTSE 100 companies. The top 10 were:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Integrity",
+      "Respect",
+      "Innovation",
+      "Safety",
+      "Transparency",
+      "Excellence",
+      "Team work",
+      "Honesty",
+      "Trust",
+      "Responsibility"
+     ]
+    },
+    {
+     "t": "img",
+     "src": "img/brand_11.jpg",
+     "alt": "'Core values' written in chalk on a board, surrounded by words such as trust, quality, integrity, innovation, ethics and respect",
+     "caption": "Figure 2 Core values"
+    }
+   ]
+  },
+  {
+   "id": "brand2-06",
+   "title": "What values tell people",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The Maitland report notes that 'so many of the more commonly expressed values relate to behaviour traits rather than strategic or operational characteristics' and that 'Most people will consider these to be universally desirable behaviours rather than distinctive and informative glimpses into corporate culture' (Marinker, 2015, pp.4, 8)."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "title": "Applying this to you",
+     "text": "Aim for a mix of behavioural and operational characteristics. Employers value integrity and respect, but they also want to know your operationally useful skills, such as problem solving or strategic thinking. If your brand is the same as everyone else's, how will you stand out?"
+    },
+    {
+     "t": "p",
+     "text": "Some companies don't demonstrate the values they claim to stand for! If you present yourself in a certain way, make sure you can live up to that image."
+    },
+    {
+     "t": "quiz",
+     "id": "brand2-q1",
+     "q": "What did the Maitland report observe about the most commonly stated FTSE 100 values?",
+     "options": [
+      "They mostly describe strategic and operational characteristics",
+      "They mostly relate to behaviour traits seen as universally desirable",
+      "They are usually unique to each company"
+     ],
+     "answer": 1,
+     "explain": "Most were behaviour traits that people see as universally desirable, rather than distinctive glimpses into corporate culture."
+    }
+   ]
+  },
+  {
+   "id": "brand2-07",
+   "title": "Activity 2 Brand values",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Allow about 10 minutes. Think of a brand you admire and identify its values - most companies list them on their website. For example:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Microsoft (2018)",
+      "The Coca Cola Company (2018)"
+     ],
+     "rows": [
+      [
+       "innovation",
+       "leadership"
+      ],
+      [
+       "diversity and inclusion",
+       "collaboration"
+      ],
+      [
+       "corporate social responsibility",
+       "integrity"
+      ],
+      [
+       "philanthropies",
+       "accountability"
+      ],
+      [
+       "environment",
+       "passion"
+      ],
+      [
+       "trustworthy computing",
+       "diversity"
+      ],
+      [
+       "",
+       "quality"
+      ]
+     ]
+    },
+    {
+     "t": "activity",
+     "id": "brand2-a2",
+     "title": "Activity 2 Brand values",
+     "prompt": "Write a short paragraph or bullet list of the ways your chosen brand demonstrates or communicates its values in what it does or says.",
+     "model": "Your brand might communicate its values through the quality of its products, its approach to sustainability or its commitment to innovation. The Design Council notes that values are hard to communicate: overt marketing may seem disingenuous, while not communicating them may mean people don't see what you stand for, and any values must be genuine and upheld in how the organisation operates. Methods include graphic design, language, advertising, staff training and the materials used in products.",
+     "points": [
+      "Identifies the values of a chosen brand",
+      "Gives examples of how the brand shows those values in actions or words",
+      "Recognises values must be genuine and upheld in practice",
+      "Mentions methods such as design, language, advertising or staff training"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand2-08",
+   "title": "Values attract advocates",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "When a company's brand values are clearly communicated, they attract people who share those values and who become core customers. They may even become brand advocates, sharing the brand with others and encouraging them to find out more."
+    },
+    {
+     "t": "p",
+     "text": "This transfers to personal branding: attracting the attention of like-minded colleagues and peers ensures your reputation spreads in the right way. Later in the course you'll look at tools for sharing your values, such as a CV or a social media post."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Brand advocate",
+     "text": "Someone who shares a brand's values and actively recommends it to others."
+    }
+   ]
+  },
+  {
+   "id": "brand2-09",
+   "title": "Vision: where are you going?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Brand vision is the concept whereby a business strategically plans where and how its brand will be positioned at some point in the future, e.g. 5 or 10 years from now."
+    },
+    {
+     "t": "quote",
+     "text": "Microsoft was founded with a vision of a computer on every desk, and in every home. We've never wavered from that vision.",
+     "by": "Bill Gates (IMDb, 2018)"
+    },
+    {
+     "t": "p",
+     "text": "In the 40 years since, Microsoft has made significant progress towards achieving it! For you, a vision of where you want your career to be in, say, five years helps you define and communicate your brand. If you want a new employer, you'll need to reach a wider audience than for internal promotion. A vision should be just out of reach; regularly re-evaluate your progress and ambitions so it can change as your career develops."
+    },
+    {
+     "t": "img",
+     "src": "img/brand_12.jpg",
+     "alt": "The Microsoft logo on a sign at the entrance to its head office",
+     "caption": "Figure 3 Microsoft premises"
+    }
+   ]
+  },
+  {
+   "id": "brand2-10",
+   "title": "Personality: how do you come across?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Brand personality is all about the human characteristics that can be attributed to a brand. The Design Council explains: 'Personality traits could be efficient and business-like, friendly and chatty, or perhaps humorous and irreverent' (Design Council, n.d.)."
+    },
+    {
+     "t": "p",
+     "text": "This aligns strongly with personal branding. You won't need to make up characteristics - they are your own - but you *will* need to choose which ones to highlight and showcase."
+    },
+    {
+     "t": "p",
+     "text": "Personality can show in the language and tone used to promote a brand, or even in the colour of its logo. You won't usually need a logo, but it's interesting to consider what colour best represents you and the brand you want to develop."
+    }
+   ]
+  },
+  {
+   "id": "brand2-11",
+   "title": "Activity 3 What colour is my brand?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Allow about 5 minutes. Boutique Media Communication's infographic shows what different colours might suggest about a brand."
+    },
+    {
+     "t": "img",
+     "src": "img/brand_13.jpg",
+     "alt": "Infographic of seven colour columns - red, pink, purple, navy, green, blue, orange - each listing associated words and example brand logos. Red: passionate, active, bold, confidence, power (Kellogg's, Coca-Cola, LEGO). Pink: love, respect, warmth, nurture (Barbie). Purple: creativity, original, individual, compassion (Cadbury). Navy: trust, loyalty, authority, success (Facebook). Green: balance, growth, clarity, prosperity (BP, Starbucks). Blue: spirit, control, determination, ambition (Intel, Skype). Orange: instinct, warmth, optimistic, social, freedom (Fanta, Orange).",
+     "caption": "Figure 4 Colour infographic"
+    },
+    {
+     "t": "activity",
+     "id": "brand2-a3",
+     "title": "Activity 3 What colour is my brand?",
+     "prompt": "Look at the characteristics associated with each colour and decide which one best represents your own personal brand. Write the colour and say why.",
+     "model": "This is a fun look at another aspect of branding. If you respond well to visual content, having a colour in mind can help when thinking about your brand - someone who identifies with red might present themselves very differently from someone aligned with green. A colour can also be practical, for example if you promote your brand through social media such as Facebook or Instagram.",
+     "points": [
+      "Chooses a colour",
+      "Links the colour to characteristics they identify with",
+      "Considers how the colour could be used practically, e.g. on social media"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand2-12",
+   "title": "Finding my target audience",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Marketing and branding professionals spend significant time on target audience. Failing to identify the correct audience risks wasting time and money, attracting the wrong audience, or creating communications too generic to be effective."
+    },
+    {
+     "t": "p",
+     "text": "Focusing on small businesses, Blick (2013, pp.42-44) explains that reaching your target audience is a two-stage process:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "**Identifying it** - considering the type of customer group your business will appeal to. The smaller the target group, the more manageable it is to reach.",
+      "**Researching it** - getting to know the target audience before you start to communicate with it."
+     ]
+    },
+    {
+     "t": "img",
+     "src": "img/brand_14.jpg",
+     "alt": "A hand circles a small group of white figures on a screen with a red pen",
+     "caption": "Figure 5 Target audience"
+    }
+   ]
+  },
+  {
+   "id": "brand2-13",
+   "title": "Narrowing down your audience",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The process applies equally to personal branding. Many employers might suit your brand, so how can you narrow them down to make communicating with them manageable? Blick's practical questions (p.43) can be adapted to employers you'd like to work for:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Will you only target certain postcodes, towns, counties, etc.?",
+      "Do you only want to target businesses of a certain size?",
+      "Can you be more specific about the type of business? If you've identified 'schools', can you narrow that to certain types of school?"
+     ]
+    },
+    {
+     "t": "tf",
+     "id": "brand2-q2",
+     "q": "According to Blick, the larger the target group, the more manageable it becomes to reach them.",
+     "answer": false,
+     "explain": "Blick says the smaller the target group, the more manageable it becomes to reach them."
+    }
+   ]
+  },
+  {
+   "id": "brand2-14",
+   "title": "Researching your audience",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Blick also suggests research methods (pp.44-45) that are equally relevant to personal branding:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Search online for forums or blogs your target audience belongs to (or co-ordinates/produces)",
+      "Subscribe to publications your target audience reads",
+      "Call businesses you'd like to connect with - in a personal context, ask where they advertise vacancies or what skills they are short of",
+      "Find out if your audience belongs to a membership organisation or group with events or conferences you could attend"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "If you know what an organisation is looking for, whether it matches what you offer, and who the key people are, you can significantly enhance your chances. In recruitment, the more targeted and well-researched your application, the more likely you are to be invited to interview."
+    }
+   ]
+  },
+  {
+   "id": "brand2-15",
+   "title": "Activity 4 Tara's target audience",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Allow about 10 minutes."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "title": "Case study: Tara",
+     "text": "Tara is unhappy at work and wants to change direction but has no idea where to start. She is a retail assistant in a high street clothing store but would love to be a landscape gardener. She has GCSEs but no relevant gardening qualifications. Her experience comes from gardening at home and volunteering to help maintain the plants in a local park."
+    },
+    {
+     "t": "activity",
+     "id": "brand2-a4",
+     "title": "Activity 4 Tara's target audience",
+     "prompt": "Referring to Blick's advice on identifying and researching a target audience, what would you suggest Tara does next? Write a bullet-pointed list.",
+     "model": "Tara could decide whether to stay where she is or move, and list potential employers in her chosen locations. She could subscribe to relevant publications and join blogs and forums on landscape gardening to learn about employment and gain contacts. She could contact garden centres, plant nurseries and landscape gardening companies to ask what jobs suit her experience and where they advertise, and ask for work experience or advice on courses and qualifications. After this research she'll have a much better idea of her next move.",
+     "points": [
+      "Narrow down location and list potential employers",
+      "Subscribe to publications and join online blogs or forums",
+      "Contact relevant employers to ask about suitable jobs and where they advertise",
+      "Ask for work experience or advice on courses and qualifications"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand2-16",
+   "title": "Positioning my brand",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Once the brand and audience are clear, the marketing professionals' next step is brand positioning."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Brand positioning",
+     "text": "'the act of designing the company's offering and image to occupy a distinctive place in the mind of the target market' (Kotler and Keller, 2003, p.867)."
+    },
+    {
+     "t": "p",
+     "text": "The Branding Journal (Marion, n.d.) adds that 'brand positioning describes how a brand is different from its competitors and where, or how, it sits in customers' minds. A brand positioning strategy therefore involves creating brand associations in customers' minds to make them perceive the brand in a specific way.'"
+    },
+    {
+     "t": "img",
+     "src": "img/brand_15.jpg",
+     "alt": "Many orange squares drawn on a blackboard, with a hand drawing a white circle in a small gap between them",
+     "caption": "Figure 6 Making your brand stand out"
+    }
+   ]
+  },
+  {
+   "id": "brand2-17",
+   "title": "Examples of brand positioning",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Brand taglines from past and present illustrate different ways a brand might be positioned:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Focus",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "On the benefit",
+       "Volvo: 'For life'; M&Ms: 'Melts in your mouth and not in your hand'"
+      ],
+      [
+       "On the consumer",
+       "Facebook: 'Helps you connect and share with the people in your life'; Sainsbury's: 'Live well for less'"
+      ],
+      [
+       "On how the company does business",
+       "Audi: 'Vorsprung durch Technik' (Advancement through technology); Burger King: 'Have it your way'"
+      ],
+      [
+       "On the competition",
+       "Apple: 'Think different'; Avis: 'We're #2. We try harder'"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Table 1 Examples of brand positioning, adapted from equibrandconsulting.com. As the more concise messages of social media marketing grow, taglines are used less, but this categorisation is useful for your own brand."
+    }
+   ]
+  },
+  {
+   "id": "brand2-18",
+   "title": "Positioning yourself",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Applying the four categories to your personal brand, you might:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "emphasise the **benefits** an employer will gain from hiring you - highlighting the skills, knowledge and experience you bring to a role",
+      "focus on the employer as a **consumer** and explain how you can make their life easier",
+      "explain how you 'do **business**', e.g. showcasing your values and how they align with the organisation's",
+      "clarify the ways you are better than your **competitors** - without appearing mean or overly competitive, as that can backfire"
+     ]
+    },
+    {
+     "t": "match",
+     "id": "brand2-m1",
+     "title": "Match each tagline to its positioning focus",
+     "pairs": [
+      {
+       "term": "Focus on the benefit",
+       "def": "M&Ms: 'Melts in your mouth and not in your hand'"
+      },
+      {
+       "term": "Focus on the consumer",
+       "def": "Sainsbury's: 'Live well for less'"
+      },
+      {
+       "term": "Focus on how the company does business",
+       "def": "Burger King: 'Have it your way'"
+      },
+      {
+       "term": "Focus on the competition",
+       "def": "Avis: 'We're #2. We try harder'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand2-19",
+   "title": "Activity 5 My own brand perceptions",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Allow about 15 minutes. Don't spend too long thinking - just write down any words that spring to mind."
+    },
+    {
+     "t": "activity",
+     "id": "brand2-a5",
+     "title": "Activity 5 My own brand perceptions",
+     "prompt": "List your observations of these well-known brands: 1. Apple, 2. Amazon, 3. Tesco. Then reflect: were your perceptions negative or positive? Were they based on personal experience or on advertising? Did they change once you experienced the brand?",
+     "model": "Once you have personal experience of a brand, your perceptions rest on many things, from interactions with staff to product reliability. Before that, you are more likely to be influenced by branding messages. The same applies to employers: until they meet you, they only have your application, social media posts and what others say about you, so present your brand in a way that encourages them to get in touch.",
+     "points": [
+      "Gives words for Apple, Amazon and Tesco",
+      "Notes whether perceptions are positive or negative",
+      "Distinguishes personal experience from advertising messages",
+      "Links this to how employers perceive you before meeting you"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand2-20",
+   "title": "A consistent message",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Once a company has positioned its brand, it must ensure its messages are consistent. Big brands know that delivering a consistent brand is crucial in winning customers' trust, so they present the same message over and over. Customers who know and trust a brand are more likely to show brand loyalty and become effective brand ambassadors."
+    },
+    {
+     "t": "img",
+     "src": "img/brand_16.jpg",
+     "alt": "A spanner with the word 'consistency' written on it lies in the centre of a pile of tools",
+     "caption": "Figure 7 Consistency is an important tool"
+    },
+    {
+     "t": "tf",
+     "id": "brand2-q3",
+     "q": "Customers who know and trust a brand are more likely to show brand loyalty and become brand ambassadors.",
+     "answer": true,
+     "explain": "Consistency wins trust, and trust leads to loyalty and ambassadorship."
+    }
+   ]
+  },
+  {
+   "id": "brand2-21",
+   "title": "The Starbucks example",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "William Arruda (2016) uses Starbucks as an example:"
+    },
+    {
+     "t": "quote",
+     "text": "What would you think if you walked into a Starbucks and the barista got your triple tall, half caf, iced, non-fat latte wrong? You'd probably say to yourself, \"First-world problem,\" not fret too much and go about your day. What if you went to a different location the next day, and your order was mishandled once again? Part of the brand promise of Starbucks is that you'll receive a customized beverage that perfectly suits your palate and your diet, no matter how complex the details or your order are. How many times would you be willing to experience inconsistency before you switched to a different caffeine dealer?",
+     "by": "William Arruda (2016)"
+    },
+    {
+     "t": "img",
+     "src": "img/brand_17.jpg",
+     "alt": "A white Starbucks cup next to a pile of coffee beans",
+     "caption": "Figure 8 Starbucks coffee"
+    }
+   ]
+  },
+  {
+   "id": "brand2-22",
+   "title": "Consistent, but not unchanging: Virgin",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Arruda points out that consistency doesn't mean you can't change anything. The Virgin brand's history includes:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "1960s - a student magazine",
+      "1970s - record stores and a record label",
+      "1980s - video games, an airline, holidays, balloon flights and hotels",
+      "1990s - a radio station and cinemas",
+      "2000s - trains and a mobile phone network",
+      "2010s - space travel and banking!"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "What remains consistent are its brand values - 'providing heartfelt service, being delightfully surprising, red hot, and straight up while maintaining an insatiable curiosity and creating smart disruption' - and its purpose, 'changing business for good' (Virgin, 2018)."
+    },
+    {
+     "t": "img",
+     "src": "img/brand_18.jpg",
+     "alt": "The red tail of a Virgin aeroplane against a blue sky with white clouds",
+     "caption": "Figure 9 Virgin airline"
+    }
+   ]
+  },
+  {
+   "id": "brand2-23",
+   "title": "Activity 6 Consistent messages",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Allow about 5 minutes. Think back to Activity 3 in Week 1, when you asked three people to describe you in three words."
+    },
+    {
+     "t": "activity",
+     "id": "brand2-a6",
+     "title": "Activity 6 Consistent messages",
+     "prompt": "List the words the three people used. Did each of them use the same or similar words, or were they different? If different, why might that be?",
+     "model": "Similar words indicate your brand messages are consistent; next consider whether they are the right words for the brand you want to convey (Week 4 looks at the key elements of your brand). Different words may be because people know you in different contexts - many of us have a different workplace persona from the 'real' one we show friends and family. Is there something you could do to make those personas more aligned?",
+     "points": [
+      "Lists the words others used",
+      "Judges whether the words were consistent",
+      "Considers whether they are the right words for the desired brand",
+      "Reflects on different personas at work and at home and how to align them"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Being consistent matters equally in what you say and what you do, and the two should be closely aligned. When people start to trust you, your personal brand is working and new career opportunities will arise."
+    }
+   ]
+  },
+  {
+   "id": "brand2-24",
+   "title": "Week 2 quiz (1)",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Now that you've completed Week 2, take this short quiz to reflect on what you've learned."
+    },
+    {
+     "t": "quiz",
+     "id": "brand2-q4",
+     "q": "Which is NOT one of the Design Council's 'four cornerstones' of a good brand?",
+     "options": [
+      "The big idea",
+      "Values",
+      "Price",
+      "Personality"
+     ],
+     "answer": 2,
+     "explain": "The four cornerstones are the big idea, values, vision and personality."
+    },
+    {
+     "t": "quiz",
+     "id": "brand2-q5",
+     "q": "What does Simon Sinek's Golden Circle model say successful organisations focus on communicating?",
+     "options": [
+      "What they sell",
+      "Why they do what they do",
+      "How cheaply they do it"
+     ],
+     "answer": 1,
+     "explain": "Sinek's 'start with why' approach focuses on why an organisation does what it does."
+    },
+    {
+     "t": "quiz",
+     "id": "brand2-q6",
+     "q": "What are Blick's two stages for successfully reaching your target audience?",
+     "options": [
+      "Advertising it and selling to it",
+      "Identifying it and researching it",
+      "Competing for it and keeping it"
+     ],
+     "answer": 1,
+     "explain": "Blick (2013) describes identifying the target audience, then researching it before communicating with it."
+    }
+   ]
+  },
+  {
+   "id": "brand2-25",
+   "title": "Week 2 quiz (2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "brand2-q7",
+     "q": "Kotler and Keller define brand positioning as designing the offering and image to...",
+     "options": [
+      "occupy a distinctive place in the mind of the target market",
+      "reach the largest possible audience",
+      "match competitors as closely as possible"
+     ],
+     "answer": 0,
+     "explain": "Positioning is 'the act of designing the company's offering and image to occupy a distinctive place in the mind of the target market'."
+    },
+    {
+     "t": "quiz",
+     "id": "brand2-q8",
+     "q": "What does the Virgin example show about brand consistency?",
+     "options": [
+      "A consistent brand must never change its products",
+      "Products can change while values and purpose stay consistent",
+      "Consistency only matters for coffee shops"
+     ],
+     "answer": 1,
+     "explain": "Virgin moved from magazines to space travel and banking, but its values and purpose stayed consistent."
+    },
+    {
+     "t": "tf",
+     "id": "brand2-q9",
+     "q": "A brand vision should be easily achievable within a year.",
+     "answer": false,
+     "explain": "A vision is a plan for where the brand will be in perhaps 5 or 10 years, and should always be just out of reach - something to strive for."
+    }
+   ]
+  },
+  {
+   "id": "brand2-26",
+   "title": "Summary of Week 2",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "This week demonstrated some of the core principles and practices involved in successfully marketing a product or organisation. As this is more familiar territory than personal branding, the consumer context introduced themes you'll consider in later weeks."
+    },
+    {
+     "t": "p",
+     "text": "You've considered the key elements of a strong brand, looked at how to identify a target audience and explored brand positioning and the importance of consistent messages."
+    },
+    {
+     "t": "h",
+     "text": "You should now be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "describe the key elements of a successful brand",
+      "appreciate the concept of target audience",
+      "recognise the importance of positioning a brand correctly"
+     ]
+    },
+    {
+     "t": "flash",
+     "cards": [
+      {
+       "front": "Four cornerstones",
+       "back": "The big idea, values, vision and personality (Design Council)."
+      },
+      {
+       "front": "Brand vision",
+       "back": "A strategic plan of where and how a brand will be positioned in the future, e.g. 5 or 10 years from now."
+      },
+      {
+       "front": "Brand personality",
+       "back": "The human characteristics that can be attributed to a brand."
+      },
+      {
+       "front": "Target audience",
+       "back": "The group a brand aims to reach - identified, then researched (Blick, 2013)."
+      },
+      {
+       "front": "Brand positioning",
+       "back": "Designing the offering and image to occupy a distinctive place in the mind of the target market (Kotler and Keller)."
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Next week you will look at the development and use of personal branding in more detail."
+    }
+   ]
+  }
+ ]
+}

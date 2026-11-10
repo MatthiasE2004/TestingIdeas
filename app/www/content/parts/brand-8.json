@@ -1,0 +1,1041 @@
+{
+ "id": "brand8",
+ "title": "Week 8: Taking the next steps",
+ "summary": "Reflect on your learning, rewrite your elevator pitch and brand story, set SMART goals with an action plan, explore advanced personal branding and take the badge quiz.",
+ "minutes": 120,
+ "pages": [
+  {
+   "id": "brand8-01",
+   "title": "Welcome to Week 8",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Welcome to the final week of the course. Last week you considered how to promote your brand in writing and in person, looking at the job application process as well as less obvious opportunities to get your brand across."
+    },
+    {
+     "t": "p",
+     "text": "This week, you'll finish the course by reflecting on everything you've learned and developing a plan to put your personal brand into action."
+    },
+    {
+     "t": "video",
+     "title": "Video 1 Introduction to Week 8",
+     "url": null,
+     "note": "A short video that introduces the final week: reflecting on your learning and planning your next steps."
+    },
+    {
+     "t": "h",
+     "text": "By the end of this week, you will be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "reflect on your learning from the course",
+      "plan your next steps in developing and promoting your personal brand",
+      "recognise some possible future steps to develop your brand even further."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand8-02",
+   "title": "What have I learned?",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/brand_54.jpg",
+     "alt": "A woman in a workplace setting refers to a ring binder and uses a pen to highlight key points",
+     "caption": "Figure 1 Reflecting on learning"
+    },
+    {
+     "t": "p",
+     "text": "Throughout this course, you've considered a variety of brand elements and how you might use them to promote yourself to colleagues, peers and employers. By working through each activity, you've investigated or re-evaluated your:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "current brand - how you describe yourself and what you do, and how others describe you",
+      "brand values",
+      "brand strengths",
+      "brand personality",
+      "brand story",
+      "target audience",
+      "tactics for promoting your brand - online, in writing and in person."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "You've also looked at what you want your brand to do for you and the career goals you'd like to achieve."
+    }
+   ]
+  },
+  {
+   "id": "brand8-03",
+   "title": "Activity 1 Putting it all together",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Review your notes and responses to each activity, then summarise your key learning points week by week. Bullet points are enough. Prompts for each week:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Week",
+      "Example prompts"
+     ],
+     "rows": [
+      [
+       "1 Where am I starting from?",
+       "Describing my brand to a stranger; What do I want my personal brand to do for my career?"
+      ],
+      [
+       "2 Marketing principles and practices",
+       "What do you do? What colour is my brand?"
+      ],
+      [
+       "3 Personal branding explained",
+       "How could a personal brand help me at work? Can I be authentic at work?"
+      ],
+      [
+       "4 Developing my personal brand",
+       "Identifying my values; Describing myself"
+      ],
+      [
+       "5 Promoting my brand to employers",
+       "My audience; How adaptable am I?"
+      ],
+      [
+       "6 Promoting my brand online",
+       "My LinkedIn profile; Choose a platform"
+      ],
+      [
+       "7 In writing and in person",
+       "A personal profile for my CV; Opening lines"
+      ]
+     ]
+    },
+    {
+     "t": "activity",
+     "id": "brand8-a1",
+     "title": "Activity 1 Putting it all together (about 40 minutes)",
+     "prompt": "Summarise your key learning points from each week of the course (Weeks 1-7) in a few bullet points per week. Highlight anything you want to change or develop.",
+     "model": "Summarising your learning in this way allows you to pull together aspects of your personal brand and highlight the things you want to change or develop. When you view all the different facets collectively, your brand and the actions you need to take should start to become even clearer.",
+     "points": [
+      "Cover each week's key activities (values, strengths, story, audience, promotion tactics).",
+      "Keep notes brief - bullet points capture the key points.",
+      "Highlight the aspects of your brand you want to change or develop.",
+      "Viewing all facets together clarifies your brand and the actions you need."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand8-04",
+   "title": "What next? The four cornerstones",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Before beginning your action planning, here's a quick look back at the Design Council's **four cornerstones of a good brand** from Week 3:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "**The big idea** - what lies at the heart of your offer?",
+      "**Values** - what do you believe in?",
+      "**Vision** - where are you going?",
+      "**Personality** - how do you want to come across?"
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "A key part of presenting your personal brand is your answer to 'What do you do?' - your **elevator pitch** - which should encapsulate those four cornerstones in a 30-60 second summary."
+    },
+    {
+     "t": "match",
+     "id": "brand8-m1",
+     "title": "Match each cornerstone to its question",
+     "pairs": [
+      {
+       "term": "The big idea",
+       "def": "What lies at the heart of your offer?"
+      },
+      {
+       "term": "Values",
+       "def": "What do you believe in?"
+      },
+      {
+       "term": "Vision",
+       "def": "Where are you going?"
+      },
+      {
+       "term": "Personality",
+       "def": "How do you want to come across?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand8-05",
+   "title": "The elevator pitch: start with why",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/brand_55.jpg",
+     "alt": "A note pinned to a cork noticeboard reads 'Preparation today leads to success tomorrow'",
+     "caption": "Figure 2 Making plans"
+    },
+    {
+     "t": "p",
+     "text": "You started to think about this in Activity 1 in Week 2, but that was early in the course and focused on your current role. In Activity 2 this week, you'll rethink and rewrite your answer so it reflects what you've learned about your brand and supports your future career plans."
+    },
+    {
+     "t": "p",
+     "text": "There are many ways to approach an elevator pitch. As you saw in Week 2, Simon Sinek's advice is to **start with why**. In a competitive market place where many people have the skills and experience to perform well, *why* you want to do it - your personal motivation - can be a useful differentiator. (See Sinek's 'Find Your Why' website in Further reading.)"
+    }
+   ]
+  },
+  {
+   "id": "brand8-06",
+   "title": "What your pitch should answer",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Holloway (2017, p. 163) suggests that the content of your pitch should answer the following questions:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "What job do you do?",
+      "Who do you help?",
+      "What benefits do you deliver?",
+      "What do you do to deliver them?",
+      "Why is that important?",
+      "What's a great example of when you've delivered?"
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Write down a short answer to each question - together they form the raw material for your pitch."
+    }
+   ]
+  },
+  {
+   "id": "brand8-07",
+   "title": "Smith's advice for a great pitch",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Smith (2018) has this advice:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Say as little as possible (1-3 things) - include the parts of your story relevant to the situation. If they're interested, they'll ask for more",
+      "Decide what you're looking for and emphasise your most relevant experience",
+      "Figure out who you're talking to - tailor your pitch to your audience",
+      "Emphasise the problem you solve rather than what you do",
+      "Include numbers and concrete details - this makes the pitch more memorable",
+      "Turn it into a conversation."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand8-08",
+   "title": "Turning a pitch into a conversation",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Here is Smith's example of turning a pitch into a conversation:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Who",
+      "What they say"
+     ],
+     "rows": [
+      [
+       "Them",
+       "'What do you do?'"
+      ],
+      [
+       "You",
+       "'Do you get any email newsletters from different brands you've purchased something from?'"
+      ],
+      [
+       "Them",
+       "'Yes, I get SO many emails!'"
+      ],
+      [
+       "You",
+       "'I work with brands to write email newsletters that will make you buy something again, and not unsubscribe.'"
+      ]
+     ]
+    },
+    {
+     "t": "tf",
+     "id": "brand8-q1",
+     "q": "Smith (2018) advises packing as many achievements as possible into your elevator pitch so the listener gets the full picture.",
+     "answer": false,
+     "explain": "Smith advises saying as little as possible (1-3 things) relevant to the situation - if they're interested, they'll ask for more."
+    }
+   ]
+  },
+  {
+   "id": "brand8-09",
+   "title": "Activity 2 My elevator pitch",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "brand8-a2",
+     "title": "Activity 2 My elevator pitch (about 20 minutes)",
+     "prompt": "Choose a person or organisation you'd like to pitch your brand to, keeping in mind their priorities and interests. Write your elevator pitch to them. Write everything you can think of first, then edit it down to the crucial points; a bullet-pointed list may be easier to remember than a script.",
+     "model": "When you're happy with it, practise saying it out loud so it's easier to share when the situation arises. Smith (2018) gives an example. Old pitch: 'I'm a stay-at-home mom, and I've recently started doing web design.' New pitch: 'I'm a web designer who's making the internet a more beautiful and positive place! My background in counselling helps me understand what the bloggers and small business owners I work with need. And, thanks to working in administration AND now being a stay-at-home mom, I'm great at coming up with solutions, no matter what you throw at me.'",
+     "points": [
+      "Tailor the pitch to a chosen person or organisation and their priorities.",
+      "Say what you do, who you help and the benefit or problem you solve.",
+      "Include your motivation (why) and relevant experience or concrete details.",
+      "Keep it short (30-60 seconds) and practise saying it out loud."
+     ],
+     "hint": "Use Holloway's six questions and Smith's advice from the previous pages."
+    }
+   ]
+  },
+  {
+   "id": "brand8-10",
+   "title": "Activity 3 Editing my story",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Now look back at the brand story you wrote at the end of Week 4 (Activity 6). This is the detail that sits behind and supports your elevator pitch. Since then, you've considered the needs of employers, looked closely at employers who interest you, and explored different ways to communicate your brand."
+    },
+    {
+     "t": "activity",
+     "id": "brand8-a3",
+     "title": "Activity 3 Editing my story (about 15 minutes)",
+     "prompt": "Paste your personal brand story from Week 4 and re-read it. Is there anything you want to change in response to the feedback you received on your first draft? Considering your learning from the whole course, is there anything else to refine, add or remove - for example, strengths to emphasise now you know more about what your target employers are looking for?",
+     "model": "Is anything missing from your brand that will be important in achieving your goals - such as knowledge or experience you need to gain? If so, make obtaining it one of your actions in the next activity. Remember, your personal brand isn't set in stone. Over time your values and goals will change, you might identify new strengths, or the working environment might alter, so don't be afraid to review and re-invigorate your brand.",
+     "points": [
+      "Respond to the feedback you received on your first draft.",
+      "Emphasise strengths your target employers are looking for.",
+      "Identify anything missing, such as knowledge or experience to gain, and turn it into an action.",
+      "Your brand isn't set in stone - review and re-invigorate it over time."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "When you are clear about your brand and what you want to say to current and future employers, you can move on to action planning."
+    }
+   ]
+  },
+  {
+   "id": "brand8-11",
+   "title": "Action planning: SMART goals",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/brand_56.jpg",
+     "alt": "An open notebook with a pen, with the words 'A goal without a plan is just a wish'",
+     "caption": "Figure 3 Goals and wishes"
+    },
+    {
+     "t": "p",
+     "text": "Once you're happy with your personal brand, come up with some short- to medium-term goals that will help you use it to move your career in the right direction. Start with the aspirations for this course that you outlined in Week 1, and the goals you generated in Week 4, Activity 5. Are there any more you'd like to add?"
+    },
+    {
+     "t": "p",
+     "text": "Try to make your goals **SMART**: **S**pecific, **M**easurable, **A**greed, **R**ealistic, **T**ime bound."
+    },
+    {
+     "t": "p",
+     "text": "The course Toolkit includes a Goal Setting tool that takes you through the SMART process."
+    }
+   ]
+  },
+  {
+   "id": "brand8-12",
+   "title": "SMART check",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "brand8-m2",
+     "title": "Match each SMART letter to what it stands for",
+     "pairs": [
+      {
+       "term": "S",
+       "def": "Specific"
+      },
+      {
+       "term": "M",
+       "def": "Measurable"
+      },
+      {
+       "term": "A",
+       "def": "Agreed"
+      },
+      {
+       "term": "R",
+       "def": "Realistic"
+      },
+      {
+       "term": "T",
+       "def": "Time bound"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Your goals might be short term, e.g. joining LinkedIn or Facebook so you can communicate your brand that way. Or they may be more significant, such as aiming to change your job within a year. The more complex the goal, the more actions it might take to achieve."
+    }
+   ]
+  },
+  {
+   "id": "brand8-13",
+   "title": "Scenario A: a LinkedIn goal",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The tables in this section show how you can break down each goal into actions."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Step",
+      "Scenario A"
+     ],
+     "rows": [
+      [
+       "Goal",
+       "To set up a LinkedIn profile and promote my personal brand by expanding my professional network"
+      ],
+      [
+       "Current status",
+       "Experience: I have never used LinkedIn. Knowledge: I know what it is and have colleagues who use and recommend it. Skills: I'm not very confident with digital platforms and need to build my skills"
+      ],
+      [
+       "Development needed",
+       "I would like some training on how to use LinkedIn"
+      ],
+      [
+       "Action plan",
+       "Find out if my workplace offers LinkedIn training; ask a trusted colleague to show me how it works; enrol in an online course; start networking with professional colleagues"
+      ],
+      [
+       "Outcome",
+       "A colleague has demonstrated the platform to me and I've enrolled in an online course"
+      ],
+      [
+       "Evaluation",
+       "I can use this tool to help me raise my professional profile"
+      ],
+      [
+       "Next step",
+       "Join LinkedIn next week, once I've completed my short online course. Target: 50 relevant connections by the end of the month"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand8-14",
+   "title": "Scenario B: a new job within a year",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "Step",
+      "Scenario B"
+     ],
+     "rows": [
+      [
+       "Goal",
+       "To promote my personal brand and use it to obtain a new job within 1 year"
+      ],
+      [
+       "Current status",
+       "Experience: I haven't consciously promoted my brand before. Knowledge: I have a clear brand I feel confident about. Skills: I have the skills needed to promote my brand"
+      ],
+      [
+       "Development needed",
+       "Expand my network of potential employers and analyse whether my values/strengths align with their needs"
+      ],
+      [
+       "Action plan",
+       "Define my target audience of potential employers; compare their strengths and values to my own; join and post regularly in suitable social media groups; attend relevant conferences and networking events; review application processes and start to apply"
+      ],
+      [
+       "Outcome",
+       "A shortlist of employers; booked on a relevant conference in July; joined 2 LinkedIn groups"
+      ],
+      [
+       "Evaluation",
+       "Reviewing group comments and content; waiting for the list of conference delegates"
+      ],
+      [
+       "Next step",
+       "Connect with key delegates on LinkedIn and catch up at the conference; post my first comment this week; be ready to apply as opportunities arise"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand8-15",
+   "title": "Activity 4 Achieving my goals",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Now it's your turn! Use the same template as the scenarios for up to three goals: **Goal; Current status (experience, knowledge, skills); Development/training/knowledge needed; Action plan; Outcome; Evaluation; Next step.** You can use your workplace's performance review template if you prefer, or the Goal Setting Tool to check your goals are SMART."
+    },
+    {
+     "t": "activity",
+     "id": "brand8-a4",
+     "title": "Activity 4 Achieving my goals (about 30 minutes)",
+     "prompt": "Set one to three goals and, for each, work through: current status (experience, knowledge, skills), development needed, action plan, expected outcome, how you'll evaluate it, and your next step.",
+     "model": "If you have identified more than one goal, prioritise your action plans. Are they sequential or can you do them all at once? Make sure you don't take on too much alongside your day job - if you don't achieve all your goals this can be a negative experience. You should now have a set of SMART goals and an action plan for achieving them.",
+     "points": [
+      "Make each goal SMART: specific, measurable, agreed, realistic, time bound.",
+      "Break each goal down into concrete actions, with outcome, evaluation and next step.",
+      "Prioritise multiple goals and decide if they are sequential or parallel.",
+      "Don't take on too much alongside your day job."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand8-16",
+   "title": "Advanced personal branding: know your community",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/brand_57.jpg",
+     "alt": "A hand places a yellow Lego brick on top of a stack of five grey ones",
+     "caption": "Figure 4 Going up a level"
+    },
+    {
+     "t": "p",
+     "text": "The marketing industry is fast paced and innovative, and it is only a matter of time before innovations in product branding are applied to personal branding. Gilbert (2017) focuses on really understanding your audience or community, using digital marketing tools to explore their needs and test new ideas:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Find out where your community is active** - e.g. podcasts; create a mix of blog posts, infographics, videos and slideshows to reach a wide audience.",
+      "**Leverage social groups** - connect with your community (e.g. on Facebook), find out what interests them and test new ideas, e.g. how-to videos.",
+      "**Go to Q&A websites**, e.g. Quora, to spot trends and find out what matters to your community.",
+      "**Track your progress** - use your platforms' tools to count interactions, subscribers, clicks, etc."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand8-17",
+   "title": "Building followers",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "For more on analytical tools, Sehl (2018) offers a useful beginner's guide to social media analytics on the Hootsuite blog (see Further reading)."
+    },
+    {
+     "t": "p",
+     "text": "Gilbert's suggestions are particularly relevant if you are trying to build a group of followers, either to market your services to, or to position yourself as an expert in your field."
+    },
+    {
+     "t": "quiz",
+     "id": "brand8-q2",
+     "q": "According to Gilbert (2017), what can Q&A websites such as Quora be used for?",
+     "options": [
+      "Posting your CV for employers",
+      "Spotting new trends and finding out what's important to your community",
+      "Counting your subscribers and clicks"
+     ],
+     "answer": 1,
+     "explain": "Gilbert suggests using Q&A websites to spot new trends and find out what matters to your community; tracking clicks is done with your platforms' own tools."
+    }
+   ]
+  },
+  {
+   "id": "brand8-18",
+   "title": "Harr's five levels of visibility",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Harr (2018) offers a 'roadmap' for professionals or experts who want to build their personal brand by maximising visibility, in 5 levels:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "**Resident Experts** - well respected within their firms and by their clients, but little visibility outside those audiences.",
+      "**Local Heroes** - beginning to become known outside their firms; active in local business communities, often speaking at business functions and blogging.",
+      "**Rising Stars** - a regional reputation; fairly well known among peers in their area; speak and write frequently on their expertise.",
+      "**Industry Rock Stars** - well known across the nation for their niche areas of expertise.",
+      "**Global Superstars** - the world's elite experts, who have broken out of their niches and are recognised more broadly in their industries."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand8-19",
+   "title": "Check: levels of visibility",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "brand8-m3",
+     "title": "Match each description to Harr's level",
+     "pairs": [
+      {
+       "term": "Resident Experts",
+       "def": "Respected within their firm and by clients, but little visible outside"
+      },
+      {
+       "term": "Local Heroes",
+       "def": "Becoming known in the local business community, speaking at functions and blogging"
+      },
+      {
+       "term": "Rising Stars",
+       "def": "A regional reputation; speak and write frequently on their expertise"
+      },
+      {
+       "term": "Industry Rock Stars",
+       "def": "Well known across the nation for a niche area of expertise"
+      },
+      {
+       "term": "Global Superstars",
+       "def": "The world's elite experts, recognised broadly across their industries"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand8-20",
+   "title": "Seven tools for the higher levels",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Harr then outlines seven critical tools to include in your personal branding strategy if you want to achieve the higher levels:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "A book",
+      "Speaking engagements",
+      "A website",
+      "A blog platform",
+      "Email marketing service",
+      "Search engine optimisation (SEO)",
+      "A media kit - with bios, speaking samples and photos."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "While some of these might feel overambitious at this stage, they may well be assets you want to aim for in the future."
+    }
+   ]
+  },
+  {
+   "id": "brand8-21",
+   "title": "New ways employers recruit",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "As personal branding evolves, employers embrace innovations and change their processes too. Rogers (2018) describes how some employers are 'ditching old fashioned CVs in favour of highly digital, behaviour-focused strategies for attracting diverse talent', including:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Artificial intelligence** to match graduates to roles: 'Applicants are asked to film their answers to questions that pop up on their computer screen. The videos are then scanned by algorithms, which analyse the words used, how confidently the sentiment is expressed and how concisely the argument is presented.'",
+      "**'Escape room'** type activities to test problem solving and creative thinking.",
+      "**No CVs**: candidates submit 'a piece of work around what motivates them as people from a work or personal perspective', 'in written form, as a video, a voice file or even a link to a blog.'"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "In the future, our opportunities to share our personal brand with employers could become even more interesting!"
+    }
+   ]
+  },
+  {
+   "id": "brand8-22",
+   "title": "Activity 5 What motivates me?",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "brand8-a5",
+     "title": "Activity 5 What motivates me? (about 15 minutes)",
+     "prompt": "If a potential employer asked you to write a short piece about what motivates you, what would be your key points? List them.",
+     "model": "Do the points you made align well with your personal brand? Did they reflect your values, strengths, career goals, etc.? If not, has this activity given you any new ideas to add to your story or elevator pitch?",
+     "points": [
+      "List what genuinely motivates you, at work or personally.",
+      "Check that your points reflect your values and strengths.",
+      "Link your motivation to your career goals.",
+      "Use any new ideas to update your brand story or elevator pitch."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand8-23",
+   "title": "Summary of Week 8",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "This week you have reflected on and consolidated your learning from the whole course and considered your next steps in promoting your personal brand. You've identified some key goals and worked out the actions you need to take to achieve them. Finally, you've looked at how you might take your personal branding journey even further in the future."
+    },
+    {
+     "t": "p",
+     "text": "You should now be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "reflect on your learning from the course",
+      "plan your next steps in developing and promoting your personal brand",
+      "recognise some possible future steps to develop your brand even further."
+     ]
+    },
+    {
+     "t": "flash",
+     "cards": [
+      {
+       "front": "Elevator pitch",
+       "back": "Your answer to 'What do you do?': a 30-60 second summary of the four cornerstones of your brand"
+      },
+      {
+       "front": "Four cornerstones",
+       "back": "The big idea, values, vision, personality (Design Council)"
+      },
+      {
+       "front": "SMART",
+       "back": "Specific, Measurable, Agreed, Realistic, Time bound"
+      },
+      {
+       "front": "Harr's levels",
+       "back": "Resident Experts, Local Heroes, Rising Stars, Industry Rock Stars, Global Superstars"
+      },
+      {
+       "front": "Start with why",
+       "back": "Sinek: your personal motivation can differentiate you from others with similar skills"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand8-24",
+   "title": "Badge quiz: how it works",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "It's now time to take the **Week 8 badge quiz**. It's similar to previous quizzes, but this time there are 15 questions instead of five, covering the whole course with an emphasis on the final weeks."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "On OpenLearn, this compulsory quiz counts towards your badge; if you're not successful the first time, you can try again after 24 hours. Here you can retry the questions as often as you like.",
+     "title": "Badge quiz"
+    },
+    {
+     "t": "p",
+     "text": "Work through the next five pages, three questions per page."
+    }
+   ]
+  },
+  {
+   "id": "brand8-25",
+   "title": "Badge quiz (1 of 5)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "brand8-q3",
+     "q": "Which four cornerstones of a good brand does the Design Council describe?",
+     "options": [
+      "Price, product, place, promotion",
+      "The big idea, values, vision, personality",
+      "Strengths, weaknesses, opportunities, threats",
+      "Authentic, appropriate, attractive, consistent"
+     ],
+     "answer": 1,
+     "explain": "The Design Council's four cornerstones are the big idea, values, vision and personality."
+    },
+    {
+     "t": "quiz",
+     "id": "brand8-q4",
+     "q": "How long should an elevator pitch typically take?",
+     "options": [
+      "5-10 seconds",
+      "30-60 seconds",
+      "3-5 minutes"
+     ],
+     "answer": 1,
+     "explain": "Your elevator pitch should encapsulate the four cornerstones in a 30-60 second summary."
+    },
+    {
+     "t": "quiz",
+     "id": "brand8-q5",
+     "q": "Following Simon Sinek's advice, what should an elevator pitch start with?",
+     "options": [
+      "Your job title",
+      "Your qualifications",
+      "Why you do what you do",
+      "Your salary expectations"
+     ],
+     "answer": 2,
+     "explain": "Sinek's advice is to start with why: your personal motivation can be a useful differentiator in a competitive market place."
+    }
+   ]
+  },
+  {
+   "id": "brand8-26",
+   "title": "Badge quiz (2 of 5)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "brand8-q6",
+     "q": "Which of these is part of Smith's (2018) advice for an elevator pitch? Select all that apply.",
+     "options": [
+      "Emphasise the problem you solve rather than what you do",
+      "Include numbers and concrete details",
+      "Use the same pitch for every audience",
+      "Turn it into a conversation"
+     ],
+     "answer": [
+      0,
+      1,
+      3
+     ],
+     "explain": "Smith advises tailoring the pitch to your audience - so the same pitch for everyone is wrong. The others are all part of her advice.",
+     "multi": true
+    },
+    {
+     "t": "quiz",
+     "id": "brand8-q7",
+     "q": "In the SMART goal framework used in this course, what does the 'A' stand for?",
+     "options": [
+      "Ambitious",
+      "Achievable",
+      "Agreed",
+      "Actionable"
+     ],
+     "answer": 2,
+     "explain": "In this course SMART stands for Specific, Measurable, Agreed, Realistic and Time bound."
+    },
+    {
+     "t": "tf",
+     "id": "brand8-q8",
+     "q": "Once you've written your personal brand story, it should stay fixed so that your brand remains consistent.",
+     "answer": false,
+     "explain": "Your personal brand isn't set in stone - values, goals, strengths and the working environment change, so review and re-invigorate it when necessary."
+    }
+   ]
+  },
+  {
+   "id": "brand8-27",
+   "title": "Badge quiz (3 of 5)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "brand8-q9",
+     "q": "In Harr's (2018) roadmap, experts who are well respected within their firm and by their clients but have little visibility outside are called:",
+     "options": [
+      "Local Heroes",
+      "Resident Experts",
+      "Rising Stars",
+      "Industry Rock Stars"
+     ],
+     "answer": 1,
+     "explain": "Resident Experts are Level 1: respected internally and by clients, but little known outside those audiences."
+    },
+    {
+     "t": "quiz",
+     "id": "brand8-q10",
+     "q": "Which of these is NOT one of Harr's seven critical tools for reaching the higher levels of visibility?",
+     "options": [
+      "A book",
+      "A media kit",
+      "A printed CV",
+      "Search engine optimisation (SEO)"
+     ],
+     "answer": 2,
+     "explain": "Harr's seven tools are a book, speaking engagements, a website, a blog platform, email marketing, SEO and a media kit. A printed CV is not one of them."
+    },
+    {
+     "t": "quiz",
+     "id": "brand8-q11",
+     "q": "Rogers (2018) describes employers using which innovative recruitment techniques? Select all that apply.",
+     "options": [
+      "AI analysis of filmed answers",
+      "'Escape room' activities to test problem solving",
+      "Asking for a piece of work about what motivates you instead of a CV",
+      "Handwriting analysis"
+     ],
+     "answer": [
+      0,
+      1,
+      2
+     ],
+     "explain": "Rogers describes AI-scanned video answers, escape-room style tasks and replacing CVs with a piece about motivation. Handwriting analysis is not mentioned.",
+     "multi": true
+    }
+   ]
+  },
+  {
+   "id": "brand8-28",
+   "title": "Badge quiz (4 of 5)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "brand8-q12",
+     "q": "When writing a personal statement on an application form, what does the course suggest if you find it hard to focus on your brand?",
+     "options": [
+      "Write only about your brand and ignore the job requirements",
+      "Respond to the role requirements first, then re-read the draft and reinforce your brand",
+      "Copy the company's values statement into your answer"
+     ],
+     "answer": 1,
+     "explain": "Address the job description and person specification first, then check the draft for the prominence of your brand and reinforce it."
+    },
+    {
+     "t": "quiz",
+     "id": "brand8-q13",
+     "q": "Jayne Chapman's three As say your image should be:",
+     "options": [
+      "Authentic, appropriate and attractive",
+      "Assertive, ambitious and available",
+      "Accurate, articulate and approachable"
+     ],
+     "answer": 0,
+     "explain": "Authentic (reflects who you are), appropriate (suits others' expectations and context) and attractive (looks pleasing and well)."
+    },
+    {
+     "t": "tf",
+     "id": "brand8-q14",
+     "q": "According to Jayne Chapman, for an interview it is often a good idea to dress smarter than the everyday dress code.",
+     "answer": true,
+     "explain": "She suggests often going smarter for an interview - 'dress for the job you want' - to show you've made an effort and that you'd fit in."
+    }
+   ]
+  },
+  {
+   "id": "brand8-29",
+   "title": "Badge quiz (5 of 5)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "brand8-q15",
+     "q": "Which of these is NOT one of the ways to communicate your personal brand via email?",
+     "options": [
+      "Being authentic in your tone and language",
+      "Drawing attention to shared experience or values",
+      "Responding quickly, or sending a holding email",
+      "Using formal language only, to avoid any personal tone"
+     ],
+     "answer": 3,
+     "explain": "The course encourages an authentic tone and rapport building - not stripping all personal tone out of your emails."
+    },
+    {
+     "t": "quiz",
+     "id": "brand8-q16",
+     "q": "An interviewer asks themselves 'Will you fit in?'. What are they trying to determine?",
+     "options": [
+      "Whether you have the right knowledge and experience",
+      "Whether your values and personality align with the organisation's culture",
+      "Whether you are motivated and enthusiastic"
+     ],
+     "answer": 1,
+     "explain": "'Will you fit in' is about cultural fit - which is why it's important to show the real you."
+    },
+    {
+     "t": "quiz",
+     "id": "brand8-q17",
+     "q": "In the action planning scenarios, which element comes straight after the 'Action plan'?",
+     "options": [
+      "Goal",
+      "Current status",
+      "Outcome",
+      "Development needed"
+     ],
+     "answer": 2,
+     "explain": "The template runs: Goal, Current status, Development needed, Action plan, Outcome, Evaluation, Next step."
+    }
+   ]
+  },
+  {
+   "id": "brand8-30",
+   "title": "Congratulations and where next",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Congratulations! You have come to the end of the course. On OpenLearn, to finish the course and get your badge you need to complete the Week 8 badge quiz."
+    },
+    {
+     "t": "p",
+     "text": "If you've enjoyed this course you can find more free resources on OpenLearn (www.open.edu/openlearn). New to university study? You may be interested in the Open University's access courses. The Open University has over 40 years of experience supporting students through their chosen learning paths - you can find out more in its online prospectus (www.open.ac.uk/courses)."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "The course authors also invite you to complete a short end-of-course survey on OpenLearn (you may already have done it at the end of Week 4).",
+     "title": "Tell us what you think"
+    }
+   ]
+  },
+  {
+   "id": "brand8-31",
+   "title": "Further reading",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "Sinek, S. 'How great leaders inspire action', TED Talk; and Sinek's 'Find Your Why' website (startwithwhy.com/find-your-why).",
+      "Holloway, J. (2017) *Personal Branding for Brits* - lots of case studies and exercises; an instructive, humorous and practical approach.",
+      "*Career Distinction: Stand out by building your brand* (2007), co-authored by William Arruda.",
+      "Kistler, P. (2017) 'Our top 7 best personal branding books'; Parks, J. (n.d.) '12 best marketing books to grow your personal brand'.",
+      "World Economic Forum: *Preparing for the future of work*; Rendell & Brown (2014) *The Future of Work - a journey to 2022* (PwC); McKinsey Global Institute podcast *The New World of Work*.",
+      "Lifewire's introduction to the most popular social media platforms; Sehl, K. 'Social media analytics: A guide for beginners' (Hootsuite blog)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand8-32",
+   "title": "References for Week 8",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "Gilbert, S. (2017) 'Bring more visibility to your brand with the latest marketing trends', *Personal Branding Blog* [Online].",
+      "Harr, E. (2018) 'Personal Branding Strategy: A Roadmap for Professionals, Experts and Executives', *Hinge Marketing* [Online].",
+      "Holloway, J. (2017) *Personal Branding for Brits*. 4th ed. Skipton, North Yorkshire, UK: Spark.",
+      "Rogers, C. (2018) 'Brands are ditching CVs to find new ways of discovering diverse talent', *Marketing Week* [Online].",
+      "Smith, K. (2018) 'Get an elevator pitch that sounds like you AND gets you the job', *Skill Crush* [Online]."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand8-33",
+   "title": "Acknowledgements and licence",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "This free course, *Personal branding for career success*, was written by Liz Smith. It was first published in May 2019 by The Open University on OpenLearn."
+    },
+    {
+     "t": "p",
+     "text": "Except for third party materials and otherwise stated (see the OU terms and conditions), this content is made available under a **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Licence** (CC BY-NC-SA 4.0)."
+    },
+    {
+     "t": "p",
+     "text": "Material acknowledged as proprietary is used under licence and is not subject to the Creative Commons Licence. Course image: skynesher, iStockphoto.com. Week 7 figures: MangoStar_Studio, Melpomenem, djiledesign (iStockphoto.com); video 'How Not to Network', www.gothinkbig.co.uk. Week 8 figures: DGLimages, Sean824, Cn0ra, Warchi (iStockphoto.com). Earlier weeks use images from iStockphoto.com and other credited sources, and TED Talk videos by Simon Sinek."
+    },
+    {
+     "t": "p",
+     "text": "Every effort has been made to contact copyright owners. If any have been inadvertently overlooked, the publishers will be pleased to make the necessary arrangements at the first opportunity."
+    }
+   ]
+  }
+ ]
+}

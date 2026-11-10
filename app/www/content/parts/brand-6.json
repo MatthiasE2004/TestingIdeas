@@ -1,0 +1,664 @@
+{
+ "id": "brand6",
+ "title": "Week 6: Promoting my brand online",
+ "summary": "Check and tidy your digital footprint, then promote your brand through LinkedIn, Facebook, Twitter, Instagram, blogging and at work.",
+ "minutes": 80,
+ "pages": [
+  {
+   "id": "brand6-01",
+   "title": "Promoting my brand online",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Last week you considered how the needs of employers, now and in the future, might affect your personal brand. This week you focus on promoting your brand online: social media and the platforms you could join if you haven't already, e.g. LinkedIn. Most commentators advise focusing on **one platform** to start with, as maintaining a profile across several networks takes a lot of time."
+    },
+    {
+     "t": "video",
+     "title": "Video 1 Introduction to Week 6 (no spoken audio)",
+     "url": null,
+     "note": "This week you'll investigate your current online brand and how to tidy up your digital footprint; promote your brand through popular social media platforms including LinkedIn and Facebook; explore raising the profile of your online brand at work; and look briefly at how an online profile can boost your business if you're self-employed."
+    },
+    {
+     "t": "h",
+     "text": "By the end of this week you will be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "identify any issues with your current online brand",
+      "recognise how to promote your brand online",
+      "describe how you might use various social media platforms to promote your brand."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand6-02",
+   "title": "What is my current online brand?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A useful place to start is to assess what is currently out there. For example, you may have images on your Facebook page that are less than professional! Would you want a potential employer or professional contact to see them?"
+    },
+    {
+     "t": "img",
+     "src": "img/brand_41.jpg",
+     "alt": "A smartphone on a blue wooden surface showing a Social Media folder of app icons including Facebook, Snapchat and Instagram",
+     "caption": "Figure 1 My online brand"
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "If you want to step back and build your skills and confidence about life online first, the OpenLearn course *Digital literacy: succeeding in a digital world* is a great starting point."
+    }
+   ]
+  },
+  {
+   "id": "brand6-03",
+   "title": "Activity 1 Google it!",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Allow about 10 minutes. Googling you is what an employer or networking contact will often do."
+    },
+    {
+     "t": "activity",
+     "id": "brand6-a1",
+     "title": "Activity 1 Google it!",
+     "prompt": "Enter your name into a search engine and see what comes up. Make sure you also check 'Images', where photos might appear. Note anything that surprises you, or that you want to delete or make private.",
+     "model": "Did you find anything that surprised you? Sometimes we can be tagged in other people's photos unexpectedly. If unwanted content did come up, it might be a good idea to try other search engines too, e.g. Bing.",
+     "points": [
+      "Searches your own name, including image results",
+      "Notes anything surprising or unwanted",
+      "Identifies content to delete or make private",
+      "Considers tags in other people's photos and other search engines"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand6-04",
+   "title": "Tidying your digital footprint",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "When you post something on a social media platform you are actually **publishing** it - and it can't always be retracted."
+    },
+    {
+     "t": "p",
+     "text": "Grothaus (2018) offers these tips for tidying your digital footprint:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Make your social media accounts private**",
+      "**Review your timelines** - remove photos or comments that could cast you in a negative light",
+      "**Control tagging** - tags with your name can appear in Google searches. Untag yourself, ask friends to untag you, or find out how to stop others tagging you",
+      "**Find and close old accounts** - Google your name or try a service like Deseat.me, which aims to find your forgotten online accounts."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "If you can't delete everything, Majeed (2016) suggests frequently posting more positive material to drive out negative results, and using **Google Alerts** to tell you whenever you are mentioned online."
+    }
+   ]
+  },
+  {
+   "id": "brand6-05",
+   "title": "Ten top tips for your digital footprint",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Video 2 Ten top tips to improve your digital footprint",
+     "url": null,
+     "note": "From the OpenLearn course Digital Literacy: Succeeding in a Digital World. Delete or deactivate accounts you no longer use (tools online can help). For accounts you keep, filter out people you don't know or no longer keep in touch with - Facebook tends to be personal, while LinkedIn needs a professional network and more public settings if you want to be noticed. Delete unflattering photos and posts you're not proud of. Build your LinkedIn profile like an online CV with achievements, skills, qualifications and knowledge, using the words employers might search for. Be active on Twitter with professional content; start or comment on professional blogs; join discussion forums to learn and share good practice."
+    },
+    {
+     "t": "tf",
+     "id": "brand6-q1",
+     "q": "The video advises using the words employers might search for when writing your LinkedIn profile.",
+     "answer": true,
+     "explain": "Employers and agencies frequently search LinkedIn for specific skills, so think about the words they would search for."
+    }
+   ]
+  },
+  {
+   "id": "brand6-06",
+   "title": "Promoting your new brand",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Once you've cleaned up your existing brand, you can start promoting your new one."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Think back to your personal brand story from Week 4, Activity 6, and keep that content in mind throughout this week. If you downloaded or printed your activity answers, refer to them."
+    }
+   ]
+  },
+  {
+   "id": "brand6-07",
+   "title": "Using LinkedIn to promote my brand",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "LinkedIn is a social networking platform for professionals, with more than 562 million users in over 200 countries and territories. Its stated vision is to 'Create economic opportunity for every member of the global workforce.'"
+    },
+    {
+     "t": "img",
+     "src": "img/brand_43.jpg",
+     "alt": "A laptop on a table showing the LinkedIn sign-up page: 'Join the world's largest professional network'",
+     "caption": "Figure 2 Using LinkedIn"
+    },
+    {
+     "t": "p",
+     "text": "Social media isn't for everyone, but of all the platforms discussed this week, LinkedIn is the one professionals should seriously consider engaging with."
+    }
+   ]
+  },
+  {
+   "id": "brand6-08",
+   "title": "LinkedIn for beginners",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Nations (2018) recommends these uses for beginners:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Get back in touch with old colleagues",
+      "Use your profile as your CV or resume",
+      "Find and apply for jobs",
+      "Find and connect with new professionals",
+      "Participate in relevant groups",
+      "Blog about what you know."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "One of the most valuable ways to build your brand on LinkedIn is to **join relevant groups and contribute regularly** to their conversations. LinkedIn Help (n.d.): 'You can find groups to join by using the search feature at the top of your homepage or viewing groups you've already joined. You can also create a new group focused on a specific topic or industry.'"
+    }
+   ]
+  },
+  {
+   "id": "brand6-09",
+   "title": "Activity 2 My LinkedIn profile",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Allow about 10 minutes. The **summary section** appears at the top of your profile and is the first thing people read. It's usually no more than two or three paragraphs - a chance to grab attention and encourage people to read on. Treat it like a personal profile on a CV. If you have a profile, update your summary; if not, consider setting one up."
+    },
+    {
+     "t": "activity",
+     "id": "brand6-a2",
+     "title": "Activity 2 My LinkedIn profile",
+     "prompt": "Using your personal brand story for ideas, compose your LinkedIn summary (two or three paragraphs).",
+     "hint": "Try one of Frost's templates: mission-based, personality, short and sweet, blended or accomplishments.",
+     "model": "Frost (n.d.) suggests templates: the mission-based summary (broad description of what you do, then more specific); the personality summary (opens with an anecdote showing one or two key traits); the short and sweet summary (current role, previous positions and skills - good for technical or conservative industries); the blended summary (personality plus mission, light, fun and professional); and the accomplishments summary (why you deserve the job).",
+     "points": [
+      "Two or three short paragraphs that grab attention",
+      "Draws on your values, strengths and brand story",
+      "Reads like a personal profile on a CV",
+      "Follows a clear structure, e.g. one of Frost's templates"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand6-10",
+   "title": "Five styles of LinkedIn summary",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "brand6-m1",
+     "title": "Match each description to the summary style (Frost, n.d.)",
+     "pairs": [
+      {
+       "term": "Mission-based summary",
+       "def": "Opens with a broad description of what you do, then gets more and more specific"
+      },
+      {
+       "term": "Personality summary",
+       "def": "Begins with an anecdote that demonstrates one or two key personality traits"
+      },
+      {
+       "term": "Short and sweet summary",
+       "def": "Shares current role, previous positions and skills; useful for technical or conservative industries"
+      },
+      {
+       "term": "Blended summary",
+       "def": "Combines personality and mission to create something light, fun and professional"
+      },
+      {
+       "term": "Accomplishments summary",
+       "def": "Tells potential employers why you deserve the job"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand6-11",
+   "title": "Using Facebook to promote my brand",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Facebook is a social networking website and service where users can post comments, share photographs and links to news or other content, play games, chat live and stream live video (Nations, 2018). It has over 2 billion active users and, after LinkedIn, is the second most likely platform recruiters use to evaluate your brand."
+    },
+    {
+     "t": "img",
+     "src": "img/brand_44.jpg",
+     "alt": "A hand holds a smartphone showing the Facebook log-in page, with a laptop in the background",
+     "caption": "Figure 3 Using Facebook"
+    }
+   ]
+  },
+  {
+   "id": "brand6-12",
+   "title": "Facebook for professionals",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Facebook traditionally connects family and friends, but professionals increasingly use it to promote what they do - building communities of like-minded people to share content with and advertise services to. Like LinkedIn, it offers lots of groups to join and contribute to, and you could even start one yourself."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "The key to success on any platform is to post comments, ideas and content **regularly**. This is time-consuming and can slip when life is busy - so make sure you have time to commit."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "Caution: remember Week 5 on the negative impact of saying the wrong things. If you voice opinions on controversial subjects such as politics or religion, think carefully about whether they align with the brand you want to promote.",
+     "title": "Caution"
+    }
+   ]
+  },
+  {
+   "id": "brand6-13",
+   "title": "Activity 3 What could I post about?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Allow about 20 minutes. Even if you won't use Facebook, generating post ideas is useful - they can also feed blogs or workplace discussions. For example, with knitting as a theme you could: suggest designs for a coming special day (Mother's Day, Christmas); offer advice on a tricky technique; say what you most enjoy about it; or address an issue other knitters feel strongly about."
+    },
+    {
+     "t": "activity",
+     "id": "brand6-a3",
+     "title": "Activity 3 What could I post about?",
+     "prompt": "1. Pick a theme you know about, enjoy or feel strongly about (work-related or a hobby). 2. List as many different ways as you can to talk about that theme - keep going until you run out of ideas. 3. Look back through your ideas and list any connections with your personal brand, e.g. your values, strengths or experience.",
+     "model": "You might not want to post about your hobbies, but sharing something about yourself gives others a sense of what you stand for and have to offer. Sharing views can be daunting given possible negative feedback, so choosing the right groups and finding the right, 'authentic' voice is important. What you share needn't be personal: you can curate content from other experts or organisations so others are informed and inspired without searching for it themselves.",
+     "points": [
+      "Chooses a clear theme",
+      "Generates several varied post ideas",
+      "Links ideas to your values, strengths or experience",
+      "Considers an authentic voice and the right groups",
+      "Recognises curating others' content as an option"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand6-14",
+   "title": "Other platforms: Twitter",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/brand_45.jpg",
+     "alt": "Seven people sitting in a row on a bench, seen from the neck down, each using a tablet, laptop or phone",
+     "caption": "Figure 4 Lots of ways to get online"
+    },
+    {
+     "t": "p",
+     "text": "**Twitter** is an online news and social networking site where people communicate in short messages called tweets (280 characters or less). It has 330 million active users. Gil (2018): most tweet recreationally, but a growing number send really useful content - 'a stream of quick updates from friends, family, scholars, news journalists, and experts.'"
+    },
+    {
+     "t": "p",
+     "text": "For your brand, share news and views, follow others in your industry and 'retweet' their messages with your own comments. Etiquette suggests you follow people who follow you (unless you're a public figure), which helps you get noticed by key people. Tweet regularly to maintain your profile."
+    }
+   ]
+  },
+  {
+   "id": "brand6-15",
+   "title": "Other platforms: Instagram",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "**Instagram** is a social networking app for sharing photos and videos, with 800 million users."
+    },
+    {
+     "t": "p",
+     "text": "Professionally, sharing images works well if you are in a creative industry or have a visual brand to promote, and it lets you show what you do visually. The most popular users often mix personal and professional life - pictures of their working day alongside holiday shots or cakes they've made."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Think again about your personal brand story: can you encapsulate it visually? Would that be a useful approach?"
+    }
+   ]
+  },
+  {
+   "id": "brand6-16",
+   "title": "Other platforms: blogging",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Video 3 What is a blog?",
+     "url": "https://www.youtube.com/watch?v=NjwUHXoi8lM",
+     "note": "A short video explaining what blogging is."
+    },
+    {
+     "t": "p",
+     "text": "Blogging professionally, Johnson (2018) suggests four reasons to blog:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "To increase your audience - invite them to connect",
+      "To connect more deeply with prospective clients - sharing the real you",
+      "To position yourself as an expert - show what you know",
+      "To reach more people with your message - invite guest bloggers and you'll reach their audience too."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Make sure your blog reaches your target audience: link to posts in email, on LinkedIn, Facebook, Twitter, etc., or invite people you admire to write guest posts."
+    }
+   ]
+  },
+  {
+   "id": "brand6-17",
+   "title": "Check: which platform?",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "brand6-m2",
+     "title": "Match each description to the platform",
+     "pairs": [
+      {
+       "term": "LinkedIn",
+       "def": "Professional network whose vision is to 'create economic opportunity for every member of the global workforce'"
+      },
+      {
+       "term": "Facebook",
+       "def": "Over 2 billion users; traditionally for family and friends, the second platform recruiters check"
+      },
+      {
+       "term": "Twitter",
+       "def": "Short messages of 280 characters or less; retweet others' messages and add your comments"
+      },
+      {
+       "term": "Instagram",
+       "def": "Photo and video sharing; works well for creative industries or a visual brand"
+      },
+      {
+       "term": "Blogging",
+       "def": "Position yourself as an expert and reach more people through guest posts"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand6-18",
+   "title": "Activity 4 Choose a platform",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Allow about 20 minutes. Review the platforms discussed this week - LinkedIn, Facebook, Twitter, Instagram and blogging. Consider how others use them professionally and ask colleagues, friends or family what they use and why."
+    },
+    {
+     "t": "activity",
+     "id": "brand6-a4",
+     "title": "Activity 4 Choose a platform",
+     "prompt": "Choose the one platform you are most likely to use to promote your personal brand, and note your reasons.",
+     "model": "Depending on your circumstances, you may decide that promoting your personal brand online is not a priority now. But as the digital world continues to grow and extend its influence over our professional lives, you may need to reconsider in the future.",
+     "points": [
+      "Names one platform to focus on",
+      "Gives reasons linked to your goals and target audience",
+      "Draws on how others use it professionally",
+      "Recognises that priorities may change as the digital world grows"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand6-19",
+   "title": "Raising your online profile at work",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/brand_46.jpg",
+     "alt": "The words 'Boost your brand' spelled out in old wooden printing blocks beside a mug of coffee",
+     "caption": "Figure 5 Boosting your brand"
+    },
+    {
+     "t": "p",
+     "text": "At work your brand is often communicated face to face (Week 7 covers this), but an online profile with colleagues can share elements of your brand they might not see day to day."
+    },
+    {
+     "t": "p",
+     "text": "Starting a **blog** on topics close to you and your colleagues' hearts raises your profile and lets you share your views differently. If colleagues already blog, or write for a departmental blog, you could share post ideas, offer to guest blog or simply comment - building your voice without running a blog yourself."
+    }
+   ]
+  },
+  {
+   "id": "brand6-20",
+   "title": "Newsletters, emails and LinkedIn at work",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "**Online newsletter** - offer to write short articles for your department's newsletter.",
+      "**Email** - a thought-provoking email to key people suggesting improvements to a project or asking key questions shows you are committed and engaged.",
+      "**LinkedIn** - connecting with colleagues gives access to their connections, some of whom may be interesting contacts."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "When inviting people you don't know, it's better to ask a mutual connection to introduce you - people are more likely to accept via someone they know. Once connected, comment on their posts or message them to introduce yourself."
+    },
+    {
+     "t": "p",
+     "text": "Likewise, don't accept every invitation: some people just want access to your contacts, and your network is more useful if connections are relevant and add value."
+    },
+    {
+     "t": "tf",
+     "id": "brand6-q2",
+     "q": "To build a useful LinkedIn network you should accept invitations from everyone who invites you.",
+     "answer": false,
+     "explain": "Some may just want access to your contact list; relevant connections that add value make your network more useful."
+    }
+   ]
+  },
+  {
+   "id": "brand6-21",
+   "title": "Self-employment and Gayle's story",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "If you're self-employed, raising your profile online has a double advantage: people understand your personal brand, and you can leverage that awareness to sell products or services. Once you have an engaged audience, devise your **'call to action'** - inviting them to buy your products or expertise."
+    },
+    {
+     "t": "video",
+     "title": "Video 4 Gayle Johnson - Profile",
+     "url": null,
+     "note": "Copywriter Gayle Johnson (Red Tree Writing) chose to do one platform well - Facebook - rather than spread herself thinly. Setting up her page felt daunting and at first little happened. She uses it to start conversations and build relationships, sharing snippets of her work, behind the scenes and clients' good news, with only occasional offers. Letting people into her world builds trust. Even more powerful is her active Facebook group: members share tips and questions about writing and build friendships, and it is where most of her business comes from - when people need a writer she's the first person who comes to mind, and evidence of client successes builds trust."
+    }
+   ]
+  },
+  {
+   "id": "brand6-22",
+   "title": "Activity 5 Engaging your target audience",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Allow about 10 minutes. Although Gayle speaks from a small business perspective, what she says about relationship building applies in many contexts."
+    },
+    {
+     "t": "activity",
+     "id": "brand6-a5",
+     "title": "Activity 5 Engaging your target audience",
+     "prompt": "Consider the platform you chose in Activity 4. What can you take from Gayle's experience to develop your approach? Who might you want to build a relationship with to enhance your career?",
+     "model": "Rather than using social media simply to sell what you have to offer, Gayle talks about starting a conversation and building relationships. These connections can grow into opportunities or provide evidence of your commitment to, or knowledge and expertise in, a particular subject.",
+     "points": [
+      "Applies Gayle's ideas to your chosen platform",
+      "Focuses on conversation and relationships rather than selling",
+      "Names specific people or groups to build relationships with",
+      "Sees connections as a route to opportunities and evidence of expertise"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand6-23",
+   "title": "Gayle's advice on content",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Video 5 Gayle Johnson - Profile Advice",
+     "url": null,
+     "note": "Choose one or two platforms and do a few things well rather than juggle many. Let people into your world - it can be curated: your audience only needs the bits that help them connect with you, and that is still authentic. Be human online and don't use it purely as a selling machine; sales happen organically. Don't be afraid to share opinions and expertise - share tips, ask questions and invite interaction, because social media works best as a conversation, not a stream of adverts."
+    },
+    {
+     "t": "flash",
+     "cards": [
+      {
+       "front": "Digital footprint",
+       "back": "The information about you that exists because of your online activity"
+      },
+      {
+       "front": "Call to action",
+       "back": "Inviting an engaged audience to buy your products or expertise"
+      },
+      {
+       "front": "Curating content",
+       "back": "Pulling together and posting other experts' or organisations' content so others are informed without searching"
+      },
+      {
+       "front": "Google Alerts",
+       "back": "A tool that tells you whenever you are mentioned online"
+      },
+      {
+       "front": "Guest blogging",
+       "back": "Writing posts for someone else's blog, or inviting others to write for yours, to reach a wider audience"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brand6-24",
+   "title": "Week 6 quiz (1)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "brand6-q3",
+     "q": "Why do most commentators advise focusing on one social media platform to start with?",
+     "options": [
+      "Employers only check one platform",
+      "Maintaining profiles across several networks takes a lot of time",
+      "Platforms forbid multiple accounts",
+      "It hides your digital footprint"
+     ],
+     "answer": 1,
+     "explain": "Maintaining several profiles is time-consuming; Gayle Johnson likewise recommends doing one or two well."
+    },
+    {
+     "t": "quiz",
+     "id": "brand6-q4",
+     "q": "Which of these is one of Grothaus's (2018) tips for tidying your digital footprint?",
+     "options": [
+      "Post more about controversial subjects",
+      "Accept every friend request",
+      "Find and close old social media accounts",
+      "Make all your accounts public"
+     ],
+     "answer": 2,
+     "explain": "Grothaus suggests making accounts private, reviewing timelines, controlling tagging and closing old accounts."
+    },
+    {
+     "t": "tf",
+     "id": "brand6-q5",
+     "q": "If you can't delete negative content about you, Majeed suggests posting positive material frequently to drive it out of search results.",
+     "answer": true,
+     "explain": "Frequent positive posts push negative results down; Google Alerts can tell you when you are mentioned."
+    }
+   ]
+  },
+  {
+   "id": "brand6-25",
+   "title": "Week 6 quiz (2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "brand6-q6",
+     "q": "When inviting someone you don't know to connect on LinkedIn, what is the best approach?",
+     "options": [
+      "Send many invitations at once",
+      "Ask a mutual connection to make an introduction",
+      "Message them only about job vacancies",
+      "Wait for them to find you"
+     ],
+     "answer": 1,
+     "explain": "People are more likely to accept an invitation that comes via someone they know."
+    },
+    {
+     "t": "quiz",
+     "id": "brand6-q7",
+     "q": "Which is one of Johnson's (2018) four reasons to blog professionally?",
+     "options": [
+      "To avoid using social media",
+      "To position yourself as an expert",
+      "To replace your CV entirely",
+      "To post anonymously"
+     ],
+     "answer": 1,
+     "explain": "The four reasons: increase your audience, connect more deeply with prospective clients, position yourself as an expert, reach more people with your message."
+    },
+    {
+     "t": "quiz",
+     "id": "brand6-q8",
+     "q": "According to Gayle Johnson, where does most of her business come from?",
+     "options": [
+      "Paid adverts",
+      "Her active Facebook group community",
+      "Cold emails",
+      "Twitter retweets"
+     ],
+     "answer": 1,
+     "explain": "Her group built a community; when people need a writer she is the first person who comes to mind."
+    }
+   ]
+  },
+  {
+   "id": "brand6-26",
+   "title": "Summary of Week 6",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "You now have a greater awareness of ways to boost your personal brand online - checking and tidying your digital footprint, then using LinkedIn, Facebook, Twitter, Instagram or blogging - and how to use these tools to raise your profile in your current workplace or your own business."
+    },
+    {
+     "t": "h",
+     "text": "You should now be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "identify any issues with your current online brand",
+      "recognise how to promote your brand online",
+      "describe how you might use various social media platforms to promote your brand."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Next week you'll look at promoting your personal brand in person and on paper."
+    }
+   ]
+  }
+ ]
+}
