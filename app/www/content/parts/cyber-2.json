@@ -486,6 +486,18 @@
    ]
   },
   {
+   "id": "cyber2-19t",
+   "title": "Try it: Password lab",
+   "blocks": [
+    {
+     "t": "tool",
+     "tool": "password-lab",
+     "title": "Try it: Password lab",
+     "intro": "Test made-up passwords (never real ones) against the Good password checklist, see how a dictionary or brute force attack would crack them, generate a passphrase, and practise decisions about password managers and two-factor authentication. Nothing you type is saved."
+    }
+   ]
+  },
+  {
    "id": "cyber2-20",
    "title": "Reflect: what makes a strong password?",
    "blocks": [

@@ -107,16 +107,16 @@ const results=[];const ok=(n,c,d)=>{results.push(c);console.log((c?'PASS ':'FAIL
   ok('moved tool page only shows the Pareto and Cause & effect tabs',await p.evaluate(()=>[...document.querySelectorAll('.sp-tabs .chip')].map(c=>c.innerText.replace(/ ✓/,'')).join()==='Pareto,Cause & effect'));
   // ---------- reminders + widget feed
   await p.evaluate(()=>location.hash='#/settings');await p.waitForSelector('.set-cat');
-  ok('widget data contains all 4 courses with percentage + resume link',await p.evaluate(()=>window.__widget&&window.__widget.courses.length===4&&window.__widget.courses.every(c=>c.hash.startsWith('#/p/')&&typeof c.pct==='number')),await p.evaluate(()=>JSON.stringify(window.__widget&&window.__widget.courses.map(c=>c.id+':'+c.pct))));
+  ok('widget data contains all 6 courses with percentage + resume link',await p.evaluate(()=>window.__widget&&window.__widget.courses.length===6&&window.__widget.courses.every(c=>c.hash.startsWith('#/p/')&&typeof c.pct==='number')),await p.evaluate(()=>JSON.stringify(window.__widget&&window.__widget.courses.map(c=>c.id+':'+c.pct))));
   await p.click('.card:has-text("Goal and reminders") .sw');await sleep(800);
   ok('turning the reminder on schedules it natively',await p.evaluate(()=>window.__sched&&window.__sched[0]===true));
   ok('reminder messages are AI-written about the last course (mock model)',await p.evaluate(()=>window.__msgs&&window.__msgs.msgs.length>=3&&/Project management|MOCK/.test(JSON.stringify(window.__msgs))&&window.__ai.some(a=>/push-notification/.test(a.prompt))));
   await p.fill('.card:has-text("Goal and reminders") input[type=time]','08:15');await p.dispatchEvent('.card:has-text("Goal and reminders") input[type=time]','change');await sleep(200);
   ok('reminder time can be changed',await p.evaluate(()=>window.__sched[1]===8&&window.__sched[2]===15));
   // ---------- new courses
-  ok('home lists the 2 new courses',await p.evaluate(async()=>{location.hash='#/';await new Promise(r=>setTimeout(r,500));return [...document.querySelectorAll('.course h2')].map(e=>e.innerText).join('|')}).then(t=>/Leadership/.test(t)&&/Personal branding/.test(t)));
+  ok('home lists the 2 new courses',await p.evaluate(async()=>{location.hash='#/';await new Promise(r=>setTimeout(r,500));return [...document.querySelectorAll('.course h2')].map(e=>e.innerText).join('|')}).then(t=>/Leadership/.test(t)&&/Personal branding/.test(t)&&/Hybrid working/.test(t)&&/Cyber security/.test(t)));
   if(vp.n==='tablet'){
-   const bad=await p.evaluate(async()=>{const out=[];for(const id of ['lead','brand']){const c=await __app.loadCourse(id);for(let ci=0;ci<c.chapters.length;ci++)for(let pi=0;pi<c.chapters[ci].pages.length;pi++){location.hash=`#/p/${id}/${ci}/${pi}`;await new Promise(r=>setTimeout(r,20));if(!document.querySelector('.pbody')||document.body.innerText.includes('Could not display'))out.push(id+ci+'/'+pi)}}return out});
+   const bad=await p.evaluate(async()=>{const out=[];for(const id of ['lead','brand','hybrid','cyber']){const c=await __app.loadCourse(id);for(let ci=0;ci<c.chapters.length;ci++)for(let pi=0;pi<c.chapters[ci].pages.length;pi++){location.hash=`#/p/${id}/${ci}/${pi}`;await new Promise(r=>setTimeout(r,20));if(!document.querySelector('.pbody')||document.body.innerText.includes('Could not display'))out.push(id+ci+'/'+pi)}}return out});
    ok('every page of the new courses renders',bad.length===0,bad.slice(0,5).join(','));
   }
   ok('no page errors',errs.length===0,errs.slice(0,3).join(' | '));await ctx.close()}

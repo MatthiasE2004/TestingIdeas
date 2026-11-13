@@ -14,7 +14,7 @@
 var h=H.h, KEY='password-lab';
 var css=
 '.pl-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}.pl-tabs .chip{min-height:44px}'+
-'.pl-wrap{display:grid;grid-template-columns:1fr;gap:14px;align-items:start}'+
+'.pl-wrap{display:grid;grid-template-columns:1fr;gap:14px;align-items:start}.pl-wrap>*{min-width:0}.pl-wrap p{overflow-wrap:anywhere}'+
 '.pl-w .pl-wrap{grid-template-columns:minmax(330px,1fr) 1fr}.pl-w .pl-sticky{position:sticky;top:8px}'+
 '.pl-in{display:flex;gap:8px;align-items:stretch}.pl-in .input{font-family:var(--mono);font-size:1.05rem;min-height:48px;flex:1;min-width:0}'+
 '.pl-in .btn{flex:none}'+
@@ -43,14 +43,15 @@ var css=
 '.pl-seg{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 10px}.pl-seg .chip{min-height:44px}'+
 '.pl-range{width:100%;height:44px;accent-color:#0B0B0B;margin:0}'+
 '.pl-phrase{font-family:var(--mono);font-size:1.25rem;line-height:1.35;background:var(--surface2);border-radius:var(--r-sm);padding:14px;word-break:break-word;margin:8px 0}'+
-'.pl-sc{border:1.5px solid var(--line);border-radius:var(--r-md);padding:16px;background:var(--surface)}.pl-sc.ok{border-color:var(--green)}.pl-sc.bad{border-color:var(--red)}'+
+'.pl-sc{border:1.5px solid var(--line);border-radius:var(--r-md);padding:16px;background:var(--surface)}.pl-sc.isok{border-color:var(--green)}.pl-sc.isbad{border-color:var(--red)}'+
 '.pl-opts{display:flex;flex-direction:column;gap:8px;margin-top:12px}.pl-opts button{text-align:left;border:1.5px solid var(--line);background:var(--surface);border-radius:var(--r-sm);padding:11px 14px;min-height:44px;cursor:pointer;font:inherit;color:inherit}'+
 '.pl-opts button.sel{border-color:var(--ink);border-width:2px}.pl-opts button.right{border-color:var(--green);background:rgba(62,142,82,.1)}.pl-opts button.wrong{border-color:var(--red);background:rgba(215,25,33,.07)}'+
 '.pl-opts button[disabled]{cursor:default;opacity:1}'+
 '.pl-pill{display:inline-block;border-radius:99px;padding:2px 12px;font-family:var(--mono);font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;background:var(--surface2);border:1px solid var(--line)}'+
 '.pl-pill.r{background:var(--red);color:#fff;border-color:var(--red)}.pl-pill.g{background:var(--green);color:#fff;border-color:var(--green)}.pl-pill.a{background:var(--amber);color:#fff;border-color:var(--amber)}'+
 '.pl-note{font-size:.8rem;color:var(--ink2);margin:8px 0 0}'+
-'@media(max-width:480px){.pl-pin{grid-template-columns:1fr}.pl-tbl .hide-s{display:none}.pl-big{font-size:1.35rem}}';
+'.pl-wrap .card.flat .chip:not(.on){background:var(--surface)}'+
+'@media(max-width:480px){.pl-sp{grid-template-columns:1fr}.pl-sp b{text-align:left}.pl-pin{grid-template-columns:1fr}.pl-tbl .hide-s{display:none}.pl-big{font-size:1.35rem}}';
 if(!document.getElementById('pl-css')){var st=document.createElement('style');st.id='pl-css';st.textContent=css;document.head.appendChild(st)}
 
 /* ---------- word lists (local only) ---------- */
@@ -146,7 +147,7 @@ function analyse(pw){
   }
   var toks=[],j=n;while(j>0&&bp[j]){toks.unshift(bp[j].tok);j=bp[j].i}
   /* merge consecutive random chars for display */
-  var mt=[];toks.forEach(function(t){var last=mt[mt.length-1];if(last&&last.t===t.t&&(t.t==='rand'||t.t==='sep')){last.s+=t.s;last.c++}else{var o={};for(var k2 in t)o[k2]=t[k2];o.c=1;mt.push(o)}});
+  var mt=[];toks.forEach(function(t){var last=mt[mt.length-1];if(last&&last.t===t.t&&(t.t==='rand'||t.t==='sep'||t.t==='digits')){last.s+=t.s;last.c++}else{var o={};for(var k2 in t)o[k2]=t[k2];o.c=1;mt.push(o)}});
   var dp=best[n],brute=n*Math.log2(pool),bits=Math.min(dp,brute),whole=null;
   var cw=DICT[low]||DICT[ul];if(cw&&cw.k==='common'){whole=cw;bits=Math.min(bits,cw.b)}
   var words=mt.filter(function(t){return t.t==='word'||t.t==='name'||t.t==='common'});
@@ -228,8 +229,8 @@ function candidates(){if(CAND)return CAND;var out=[],seen={};function add(x){if(
   base.forEach(function(w){add(w[0].toUpperCase()+w.slice(1))});
   ['1','12','123','1234','!','2024'].forEach(function(sfx){base.forEach(function(w){add(w+sfx)})});
   var rev={a:'4',e:'3',i:'1',o:'0',s:'2',t:'7'};
-  base.forEach(function(w){var l=w.replace(/[aeiost]/g,function(c){return rev[c]});if(l!==w){add(l);add(l[0].toUpperCase()+l.slice(1))}
-    var l2=w.replace(/[aeiost]/g,function(c){return c==='s'?'5':rev[c]});if(l2!==w)add(l2[0].toUpperCase()+l2.slice(1))});
+  var maps=[rev,{o:'0'},{s:'2',o:'0'},{s:'5',o:'0'},{a:'@',s:'$',o:'0'},{e:'3',o:'0'},{i:'1',o:'0'}];
+  maps.forEach(function(mp){base.forEach(function(w){var l=w.replace(/[a-z]/g,function(c){return mp[c]||c});if(l!==w){add(l);add(l[0].toUpperCase()+l.slice(1))}})});
   NAMES.concat(COMMON.slice(0,40)).forEach(function(w){for(var y=1950;y<=2025;y++)add(w+y)});
   CAND=out;return out}
 
@@ -337,7 +338,7 @@ mount:function(el,ctx){
       it(r.tail?0:1,'No digits just tacked on the end',r.tail?'Easy passwords don\'t get harder if all you do is add digits on the end. Cracking programs do that too.':'OK.');
       it(r.seq?0:1,'No keyboard patterns or repeats',r.seq?'Sequences like qwerty, 12345 or aaaa are in every cracking list.':'OK.');
       it(r.n>=14?1:r.n>=8?0.5:0,'Long: aim for 14 characters or more ('+r.n+' now)','Go as long as you can. Every extra character multiplies the work for a brute force attack.');
-      it(r.c.n===4?1:r.c.n>=2?0.5:0,'A random mix of upper case, lower case, numbers and other characters ('+r.c.n+'/4 types)','Like giYT%$54vcD3W. A bigger set of characters means more possibilities per position.');
+      it(r.passphrase&&r.c.n<4?-1:r.c.n===4?1:r.c.n>=2?0.5:0,'A random mix of upper case, lower case, numbers and other characters ('+r.c.n+'/4 types)','Like giYT%$54vcD3W. A bigger set of characters means more possibilities per position.');
       it(r.passphrase?1:r.nwords>=2?0.5:(r.c.n===4&&r.n>=14?-1:0),'Or: at least five unrelated words ('+r.nwords+' found)','For memorable passwords, use a string of at least five unrelated dictionary words, e.g. bamboo glasses book engine red. They need to be unusual, not words that relate to you.');
       it(M.self.reuse==null?null:M.self.reuse==='y'?0:1,'One account, one password',M.self.reuse==='y'?'Most compromises happen when a password cracked on a low-value site is tried on a higher-value one. Once your password is in a breached list, its strength no longer matters.':M.self.reuse==='n'?'Good: a different password for every account.':'Answer the question on the left.');
       it(M.self.personal==null?null:M.self.personal==='y'?0:1,'Nothing personal',M.self.personal==='y'?'The crooks have Facebook, Twitter and more. Personal details can be guessed, so this lab caps the rating at Weak.':M.self.personal==='n'?'Good.':'Answer the question on the left.');
@@ -456,6 +457,8 @@ mount:function(el,ctx){
       info.appendChild(h('div',{class:'pl-sp'},h('span',null,S.nw+' words from a list of '+N),h('b',null,Math.round(bits)+' bits')));
       info.appendChild(h('div',{class:'pl-sp'},h('span',null,'Combinations ('+N+'^'+S.nw+')'),h('b',null,fmtBig(g))));
       info.appendChild(h('div',{class:'pl-sp'},h('span',null,'Even if the attacker knows this exact list, at 100 billion/s'),h('b',{style:{color:g/SP_RIG<86400?'var(--red)':''}},fmtTime(g/SP_RIG))));
+      var g2=Math.pow(7776,S.nw);
+      info.appendChild(h('div',{class:'pl-sp'},h('span',null,'Same number of words from a full-size list of 7,776 words'),h('b',null,fmtTime(g2/SP_RIG)),h('small',null,'This built-in list is deliberately small so it fits in the app. Bigger lists and more words multiply the work: every extra word multiplies it by the size of the list.')));
       if(S.nw<5)info.appendChild(h('p',{class:'pl-note',style:{color:'var(--red)'}},'The course checklist asks for at least five unrelated words.'));}
     var nlab=h('b',{style:{fontFamily:'var(--mono)'}},String(S.nw));
     var rng=h('input',{type:'range',class:'pl-range',min:'3',max:'8',value:String(S.nw),'aria-label':'Number of words',oninput:function(){S.nw=+rng.value;nlab.textContent=S.nw;save();if(M.phrase)gen();else inf()}});
@@ -508,7 +511,7 @@ mount:function(el,ctx){
           if(s.multi){var k=sel.indexOf(i);if(k>=0)sel.splice(k,1);else sel.push(i);M['sel'+s.id]=sel;render()}
           else{S.sc[s.id]=i;fin();save();render()}}},(s.multi?(done?'':(sel.indexOf(i)>=0?'\u2611 ':'\u2610 ')):'')+o)}));
       var ok=done&&correct(s,a);
-      var card=h('div',{class:'pl-sc'+(done?(ok?' ok':' bad'):'')},h('div',{class:'row between'},h('span',{class:'label'},'Scenario '+(S.si+1)+' of '+SC.length+' \u2022 '+s.topic),done?h('span',{class:'pl-pill '+(ok?'g':'r')},ok?'Good call':'Not quite'):null),
+      var card=h('div',{class:'pl-sc'+(done?(ok?' isok':' isbad'):'')},h('div',{class:'row between'},h('span',{class:'label'},'Scenario '+(S.si+1)+' of '+SC.length+' \u2022 '+s.topic),done?h('span',{class:'pl-pill '+(ok?'g':'r')},ok?'Good call':'Not quite'):null),
         h('p',{style:{margin:'8px 0 0',fontSize:'1.03rem'}},s.q),opts,
         s.multi&&!done?h('div',{class:'row',style:{marginTop:'10px'}},h('button',{class:'btn primary',disabled:!sel.length,onclick:function(){S.sc[s.id]=sel.slice().sort();fin();save();render()}},'Check')):null,
         done?h('div',{class:'callout '+(ok?'tip':''),style:{margin:'12px 0 0'}},s.w):null);

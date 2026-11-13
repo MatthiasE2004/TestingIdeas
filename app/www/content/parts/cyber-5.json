@@ -373,6 +373,7 @@
     {"t": "quiz", "id": "cyber5-q12", "q": "According to the course, what is about the only way for a business to avoid this kind of payment scam?", "options": ["Only accept payment requests by email", "Have managers sign non-routine payment instructions with keys whose public keys are held locally and checked", "Use a faster bank transfer service", "Encrypt the email subject line"], "answer": 1, "explain": "Signing and validating all non-routine payment instructions with known, locally stored public keys lets staff detect impersonation."}
    ]
   },
+  {"id": "cyber5-34t", "title": "Try it: Cryptography lab", "blocks": [{"t": "tool", "tool": "crypto-lab", "title": "Try it: Cryptography lab", "intro": "Predict first, then check: encrypt and crack a Caesar cipher, see why key length and key distribution matter, follow Alice, Bob and Eve through public key encryption, watch a tiny change transform a SHA-256 hash, and verify digital signatures."}]},
   {
    "id": "cyber5-35",
    "title": "3.3 Encrypted network connections",

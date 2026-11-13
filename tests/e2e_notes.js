@@ -88,7 +88,7 @@ const sleep=ms=>new Promise(r=>setTimeout(r,ms));
   await p.click('.phead .round[aria-label="Home"]');await sleep(300);ok('top-left Home button goes to the home page',await p.evaluate(()=>location.hash==='#/'||location.hash===''));
   // ---------- notes home
   await p.click('.home-actions .big-btn >> nth=0');await p.waitForSelector('.card .btn');
-  ok('Notes page lists all courses with Notes viewer + General document',await p.evaluate(()=>document.querySelectorAll('.card h2').length===4&&[...document.querySelectorAll('.card .btn')].some(b=>/Notes viewer/.test(b.innerText))&&[...document.querySelectorAll('.card .btn')].some(b=>/General document/.test(b.innerText))));
+  ok('Notes page lists all courses with Notes viewer + General document',await p.evaluate(()=>document.querySelectorAll('.card h2').length===6&&[...document.querySelectorAll('.card .btn')].some(b=>/Notes viewer/.test(b.innerText))&&[...document.querySelectorAll('.card .btn')].some(b=>/General document/.test(b.innerText))));
   await shot('noteshome');
   // ---------- document editor
   await p.click('.card .btn:has-text("General document") >> nth=0');await p.waitForSelector('.doc-ed');
