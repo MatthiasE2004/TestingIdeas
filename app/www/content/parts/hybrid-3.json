@@ -1,0 +1,246 @@
+{
+ "id": "hybrid3",
+ "title": "Everyday digital skills",
+ "summary": "Mapping the technology in your everyday life and comparing your digital skills at home and at work.",
+ "minutes": 35,
+ "pages": [
+  {
+   "id": "hybrid3-01",
+   "title": "Everyday digital skills",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Think about the digital skills you use in everyday life, from when you get up to when you go to bed - outside your work environment and the support you have there for using the required technology."
+    },
+    {
+     "t": "h",
+     "text": "In this section you will:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "map the ways technology is part of your everyday life",
+      "identify the digital skills you use in those activities",
+      "compare how you use digital skills at home and in the workplace."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid3-02",
+   "title": "Learning on your own",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "At work, there is usually support for the technology you use. At home, the chances are you figured out how to use a piece of technology or software yourself, or asked a partner, friend or child to tell you how to do something."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "Thinking about your digital life: what do you actively engage with digitally because it provides a benefit to you?",
+     "title": "Ask yourself"
+    }
+   ]
+  },
+  {
+   "id": "hybrid3-03",
+   "title": "Activity 8 What activities in your digital life rely on technology?",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "hybrid3-a8",
+     "title": "Activity 8 What activities in your digital life rely on technology?",
+     "prompt": "Draw a mind map of your digital life: put technology in the middle, then surround it with examples of the ways you use technology in everyday life - for example, ordering shopping online, using the sat nav in your car or setting up a new smartphone. What digital skills do you need to use in relation to these activities? List your ideas.",
+     "model": "Technology impacts almost every aspect of our lives: banking, education, communication, food, social media and networking, healthcare, entertainment, productivity, shopping, online/mobile services, automation and robotics, and transportation. Each relies on digital skills such as communicating online, finding and managing information, making transactions and payments safely, solving problems such as setting up a new device, and keeping safe and secure online.",
+     "points": [
+      "Technology is at the centre of almost every aspect of daily life.",
+      "Examples: banking, shopping, healthcare, communication, entertainment, transport.",
+      "Skills include communicating, handling information and transacting online.",
+      "Problem solving, e.g. setting up a new device, and staying safe online."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid3-04",
+   "title": "Technology in everyday life",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/hybrid_26.jpg",
+     "alt": "Diagram with 'Technology' in a central circle and arrows out to twelve boxes: Transportation, Banking, Education, Communication, Food, Social media and networking, Healthcare, Entertainment, Productivity, Shopping, Online/Mobile, Automation and robotics.",
+     "caption": "Figure 2 Some of the ways in which technology is used"
+    },
+    {
+     "t": "p",
+     "text": "Figure 2 shows just some of the areas of daily life where technology is used. As you can see, it impacts almost every aspect of our lives."
+    }
+   ]
+  },
+  {
+   "id": "hybrid3-05",
+   "title": "Check: everyday tasks and areas of life",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Link each everyday task to the area of life in Figure 2 that it belongs to."
+    },
+    {
+     "t": "match",
+     "id": "hybrid3-m1",
+     "title": "Match each everyday task to its area of life",
+     "pairs": [
+      {
+       "term": "Shopping",
+       "def": "Ordering your weekly groceries online"
+      },
+      {
+       "term": "Transportation",
+       "def": "Using the sat nav in your car"
+      },
+      {
+       "term": "Banking",
+       "def": "Checking your balance in a mobile app"
+      },
+      {
+       "term": "Healthcare",
+       "def": "Booking a doctor's appointment online"
+      },
+      {
+       "term": "Communication",
+       "def": "Video-calling family and friends"
+      },
+      {
+       "term": "Entertainment",
+       "def": "Streaming a film or music"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid3-06",
+   "title": "Home and workplace skills",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Many of the technologies you use at home - and the digital skills you have built for them - also appear in the workplace. As you think about them, consider your approach to **online safety and security** and your **personal digital wellbeing**."
+    },
+    {
+     "t": "p",
+     "text": "The course suggests some articles to explore: *Top 11 Essential Uses of Technology in Everyday Life* (javaassignmenthelp.com), *The 7 Main Ways Technology Impacts Your Daily Life* (Tech.co) and *20 internet safety tips and checklist to help families stay safer online* (Norton)."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Online safety and security, and personal digital wellbeing, are covered later in the course, but it is useful to start thinking about them as you work through each section."
+    }
+   ]
+  },
+  {
+   "id": "hybrid3-07",
+   "title": "Activity 9 Understanding skills for the workplace",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "hybrid3-a9",
+     "title": "Activity 9 Understanding skills for the workplace",
+     "prompt": "Think about how you use everyday technologies and the digital skills you have in relation to them, considering your approach to online safety and security, and personal digital wellbeing. Which of these skills are ones you also use in the workplace? Why do you use them? How does this differ in the workplace and your personal life?",
+     "model": "Many everyday skills transfer to work: communicating by message and video call, searching for and managing information, completing online forms and payments, and solving problems with new devices or apps. We use them because they save time, keep us connected and give access to services. The difference is often support and responsibility: at work there is usually IT support, set tools, policies and security rules (for example on data and passwords), whereas at home you often figure things out yourself or ask family and friends, and you are responsible for your own safety, security and wellbeing.",
+     "points": [
+      "Many everyday digital skills are also used at work, e.g. communication, information and transactions.",
+      "We use them for convenience, connection and access to services.",
+      "At work there is support, set tools and policies; at home you often teach yourself.",
+      "Online safety, security and digital wellbeing apply in both settings."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid3-08",
+   "title": "Everyday tasks and the framework",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Your everyday activities map onto the Essential Digital Skills Framework from Section 1: communicating, handling information and content, transacting, problem solving - and being safe, legal and confident online throughout."
+    },
+    {
+     "t": "quiz",
+     "id": "hybrid3-q1",
+     "q": "Paying for your shopping online belongs to which category of the Essential Digital Skills Framework?",
+     "options": [
+      "Communicating",
+      "Transacting",
+      "Handling information and content",
+      "Problem solving"
+     ],
+     "answer": 1,
+     "explain": "Transacting means applying for services, buying and selling, and managing transactions online."
+    }
+   ]
+  },
+  {
+   "id": "hybrid3-09",
+   "title": "Summary",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Technology touches almost every part of daily life, from banking, shopping and healthcare to entertainment and transport. Outside work you often learn new technology on your own or with help from family and friends."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Mapping your digital life helps you see the skills you already have.",
+      "Many everyday digital skills transfer to the workplace.",
+      "At work there is usually support, policies and security rules; at home you are often on your own.",
+      "Keep online safety, security and digital wellbeing in mind in both settings."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid3-10",
+   "title": "Section quiz",
+   "blocks": [
+    {
+     "t": "tf",
+     "id": "hybrid3-q2",
+     "q": "According to the course, technology impacts almost every aspect of our lives.",
+     "answer": true,
+     "explain": "Figure 2 shows just some of the many areas of daily life where technology is used."
+    },
+    {
+     "t": "quiz",
+     "id": "hybrid3-q3",
+     "q": "Outside work, how does the course suggest most people learn to use new technology?",
+     "options": [
+      "Through formal IT training courses",
+      "They figure it out themselves or ask a partner, friend or child",
+      "They avoid using new technology",
+      "Through their employer's IT helpdesk"
+     ],
+     "answer": 1,
+     "explain": "The course notes that you probably figured it out yourself, or asked a partner/friend/child to show you."
+    },
+    {
+     "t": "quiz",
+     "id": "hybrid3-q4",
+     "q": "Which of these areas of life appear in Figure 2? (Choose all that apply.)",
+     "options": [
+      "Healthcare",
+      "Automation and robotics",
+      "Food",
+      "Gardening"
+     ],
+     "answer": [
+      0,
+      1,
+      2
+     ],
+     "explain": "Healthcare, automation and robotics, and food all appear in Figure 2; gardening does not.",
+     "multi": true
+    }
+   ]
+  }
+ ]
+}

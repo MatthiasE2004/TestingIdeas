@@ -1,0 +1,678 @@
+{
+ "id": "hybrid1",
+ "title": "Why digital skills matter",
+ "summary": "Why digital skills matter, the Essential Digital Skills Framework, and the behaviours and skills needed for hybrid working.",
+ "minutes": 90,
+ "pages": [
+  {
+   "id": "hybrid1-01",
+   "title": "Welcome to the course",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "This course aims to develop the digital transformation skills for **hybrid working** as an individual or a team, rather than focusing on how digital capabilities relate to organisations. For organisations to build digital capabilities, it starts with their people having the confidence and competence to develop their skills and behaviours, so that they can make an effective contribution to the organisation."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Digital capabilities are the skills, behaviours and understanding to enable you to thrive in a digital world.",
+     "title": "Digital capabilities"
+    },
+    {
+     "t": "p",
+     "text": "Nearly every aspect of your life relies on technology. You need the digital capabilities to use these technologies appropriately and effectively, across a range of platforms, environments and situations, in your personal life and in the workplace."
+    }
+   ]
+  },
+  {
+   "id": "hybrid1-02",
+   "title": "Hybrid working and the skills employers expect",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "As the digital transformation of the workplace continues to accelerate and organisations adopt hybrid working practices, employers are focusing on the digital capabilities employees are expected to have. Key skills include:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "communicating via email and online meeting platforms",
+      "creating documents, presentations and spreadsheets",
+      "understanding file and data management",
+      "an awareness of online security."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Hybrid working is where workers spend some of their time working remotely and some in the employer's workspace.",
+     "title": "Hybrid working"
+    },
+    {
+     "t": "p",
+     "text": "This free course is part of The Open University's *Supporting hybrid working and digital transformation* collection."
+    }
+   ]
+  },
+  {
+   "id": "hybrid1-03",
+   "title": "Learning outcomes",
+   "blocks": [
+    {
+     "t": "h",
+     "text": "After studying this course, you should be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "examine your organisation's current practices and norms around working digitally in hybrid environments (e.g. remote and onsite)",
+      "describe digital responsibility and behaviours, including GDPR, data, network security and digital wellbeing and inclusion",
+      "explore frameworks, tools and technologies for building digital capabilities",
+      "examine how organisations can take responsibility for digital sustainability",
+      "recognise that digital transformation is continuing and consider approaches for planning for digital change."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "This first section looks at why digital skills matter, the essential skills every adult needs, and the behaviours and skills that support hybrid working.",
+     "title": "In this section"
+    }
+   ]
+  },
+  {
+   "id": "hybrid1-04",
+   "title": "Why digital skills matter",
+   "blocks": [
+    {
+     "t": "quote",
+     "text": "Essential digital skills are a step towards learning lots of other new things. They can improve your confidence to use technology for work, learning and daily life. Many jobs today require digital skills. You need them even for jobs that do not ask for high levels of qualifications or experience. For example, if you work in a warehouse or a shop you may need to keep digital records of stock. You also need digital skills every day for shopping, banking, learning, and keeping in touch with family and friends.",
+     "by": "National Careers Service (n.d.)"
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "Digital skills are not only for 'tech' jobs: they underpin everyday work and daily life."
+    }
+   ]
+  },
+  {
+   "id": "hybrid1-05",
+   "title": "Video: why digital skills and capabilities matter",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Why digital skills matter",
+     "url": null,
+     "note": "Contributors share why digital skills and capabilities matter, the impact of the digital skills shortage and the digital skills organisations require. Matt Wintle (insurance business), Gemma Hallett (Fintech Wales), data specialist Nicola Askham, Dr Nick Barrett (The Open University), Sarah Jones (University of Wales Trinity Saint David) and Dr Becki Vickerstaff (Jisc) take part."
+    },
+    {
+     "t": "h",
+     "text": "Key points from the video"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Digital and data skills will be needed right across a business, but it is not 'one size fits all': understand the roles you have and what knowledge each one needs (a call-centre worker needs to understand AI and data, not build it).",
+      "Wales has acute skills shortages: around 90% of Fintech jobs are tech jobs (coders, engineers, testers), and the talent pipeline is not there yet.",
+      "The skills needed depend on the destination: a fast-growing start-up and a local authority office use very different technology; even care workers have moved from pen and paper to recording everything on an iPad."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid1-06",
+   "title": "More from the video: data, the pandemic and everyone's role",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "**Data literacy** means reaching the same confidence with data that we have when reading words. Nearly everyone in an organisation produces or uses data, so they should recognise it as an asset and manage it as one (Nicola Askham).",
+      "When the pandemic struck, everyone discovered overnight that they needed new digital skills: running meetings in Teams, working paperless, storing and sharing content, and a new online etiquette. These are life skills that employers look for (Dr Nick Barrett).",
+      "Students must be prepared for a very digital workforce, so staff need the same levels of digital skill to teach and support them (Sarah Jones).",
+      "Almost everything, even paying car tax, is done online. Students are often assumed to be naturally digitally literate, but what matters is the *correct* use of technology. Every role, from senior leader to administrator, needs digital capability (Dr Becki Vickerstaff)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid1-07",
+   "title": "Activity 1 Why digital skills matter",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "hybrid1-a1",
+     "title": "Activity 1 Why digital skills matter",
+     "prompt": "Think about the video in which contributors share why digital skills and capabilities matter. Then note your thoughts: What were the skills they highlighted as being most important? How has the digital world evolved? What skills do you feel need to be developed by your organisation and yourself?",
+     "model": "The contributors highlighted data and digital skills as needed across every part of a business, data literacy (understanding data as an asset), and the everyday skills of online meetings, paperless working, storing and sharing content and online etiquette. The digital world evolved rapidly during the pandemic, when people had to adopt new tools almost overnight, and sectors such as care moved from paper to digital records. Skills needs depend on the role and destination, so organisations should identify what each role needs and offer opportunities to develop, while individuals should reflect on their own gaps.",
+     "points": [
+      "Data and digital skills are needed across the whole business, not only in IT.",
+      "Data literacy: understanding and managing data as an asset.",
+      "The pandemic accelerated change: online meetings, paperless work and new etiquette.",
+      "Skills needed depend on the role, sector and workplace - not one size fits all.",
+      "Identify the skills you and your organisation need to develop."
+     ],
+     "hint": "Pick out two or three skills from the video, one way the digital world has changed, and one skill gap for you and one for your organisation."
+    }
+   ]
+  },
+  {
+   "id": "hybrid1-08",
+   "title": "Skills for the future",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Digital skills for the future are essential not only to ensure organisations thrive, but also for communities and nations to protect future generations."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "The Well-being of Future Generations (Wales) Act 2015 'A Prosperous Wales' wellbeing goal specifically focuses on the skills for the future: 'Encouraging organisations to develop a skilled population, fit for future technological change'.",
+     "title": "A Prosperous Wales"
+    },
+    {
+     "t": "video",
+     "title": "Skills for the future",
+     "url": null,
+     "note": "Sophie Howe, the Future Generations Commissioner for Wales, explains the skills that will be required. Work is changing exponentially; automation and AI already outperform humans at knowledge recall, so we need the human skills robots can't do - cooperation, collaboration, teamwork, empathy and critical thinking - and lifelong learning must become the new normal. There are big skills gaps in the jobs needed to meet climate targets (around 26,000 possible new green jobs in Wales in two years), and underrepresented groups must be targeted so existing inequality is not made worse."
+    }
+   ]
+  },
+  {
+   "id": "hybrid1-09",
+   "title": "Activity 2 Skills for the future",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "hybrid1-a2",
+     "title": "Activity 2 Skills for the future",
+     "prompt": "Read Section 5 of the Future Generations Commissioner's report 'A journey to a prosperous Wales' (if you can access it) and think about Sophie Howe's video on the skills that will be required for the future. How might your organisation contribute to raising the digital skills of those within it and for future generations?",
+     "model": "Organisations can help by developing a skilled population that is fit for future technological change: offering digital skills training and lifelong learning opportunities to staff, building human skills such as collaboration, teamwork, empathy and critical thinking alongside technical skills, and targeting underrepresented groups so that new digital and green jobs reduce rather than widen inequality. They can also work with schools, colleges and communities to build the future talent pipeline.",
+     "points": [
+      "Offer digital skills training and make lifelong learning normal.",
+      "Develop human skills such as collaboration, empathy and critical thinking.",
+      "Target underrepresented groups to avoid widening inequality.",
+      "Work with schools and communities to build skills for future generations."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid1-10",
+   "title": "1.1 The Essential Digital Skills Framework",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The **Essential Digital Skills Framework** for the United Kingdom (Gov.uk, 2018) sets out the digital skills and understanding all adults require to interact in a digital world. There are five categories: communicating; handling information and content; transacting; problem solving; and being safe and legal online."
+    },
+    {
+     "t": "img",
+     "src": "img/hybrid_4.jpg",
+     "alt": "Circular diagram: 'Foundation skills' at the centre, surrounded by four quarters - Communicating, Handling information and content, Transacting and Problem solving - all inside an outer ring reading 'Be safe, legal and confident online'.",
+     "caption": "Figure 1 Essential Digital Skills - Framework Diagram (Crown Copyright, Gov.uk, 2018)"
+    },
+    {
+     "t": "p",
+     "text": "Foundation skills sit at the centre. Around them: **communicating** (communicate, collaborate and share online); **handling information and content** (find, manage and store digital information and content securely); **transacting** (apply for services, buy and sell, and manage transactions online); **problem solving** (find solutions using digital tools and online services). The outer ring surrounds them all: *be safe, legal and confident online*."
+    }
+   ]
+  },
+  {
+   "id": "hybrid1-11",
+   "title": "Digital skills categories in more detail",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Table 1 breaks the categories down further and provides more detailed definitions."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Category",
+      "What it covers"
+     ],
+     "rows": [
+      [
+       "Being safe and responsible online and offline",
+       "Digital wellbeing, responsibilities when working online - security, privacy and data protection, accessibility, understanding processes and policies, behaviour, and non-digital considerations, e.g. your desk set-up, not writing down your password."
+      ],
+      [
+       "Using devices and handling information",
+       "Understanding hardware, software, operating systems and applications, and how to manage and store digital information and assets."
+      ],
+      [
+       "Communicating",
+       "How to communicate effectively digitally depending on the 'tools' and 'context'."
+      ],
+      [
+       "Creating and editing",
+       "Developing the skills to create and edit using digital tools, and reflect best practice and guidelines for the creation of digital content and products."
+      ],
+      [
+       "Transacting",
+       "The ability to interact with digital forms, systems and payments."
+      ],
+      [
+       "Problem solving",
+       "The ability to find solutions and approaches, and use digital tools to assist with this."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid1-12",
+   "title": "Check: match the skill categories",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Test yourself on Table 1 before moving on."
+    },
+    {
+     "t": "match",
+     "id": "hybrid1-m1",
+     "title": "Match each description to its skill category",
+     "pairs": [
+      {
+       "term": "Being safe and responsible",
+       "def": "Security, privacy, data protection, accessibility - and not writing down your password"
+      },
+      {
+       "term": "Using devices and handling information",
+       "def": "Understanding hardware, software and operating systems, and storing digital assets"
+      },
+      {
+       "term": "Communicating",
+       "def": "Communicating effectively depending on the 'tools' and 'context'"
+      },
+      {
+       "term": "Creating and editing",
+       "def": "Making digital content and products that reflect best practice and guidelines"
+      },
+      {
+       "term": "Transacting",
+       "def": "Interacting with digital forms, systems and payments"
+      },
+      {
+       "term": "Problem solving",
+       "def": "Finding solutions and approaches, using digital tools to help"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid1-13",
+   "title": "Basic and advanced digital skills at work",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Table 2 gives some examples of the digital skills and capabilities required in the workplace."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Essential basic skills all individuals require",
+      "Advanced/specialist skills"
+     ],
+     "rows": [
+      [
+       "Behaving safely and legally online",
+       "User experience design, and digital design"
+      ],
+      [
+       "Email, instant messaging and virtual meetings",
+       "Coding"
+      ],
+      [
+       "Word processing",
+       "Programming, web, and app development"
+      ],
+      [
+       "Web-based research",
+       "SEO, SEM, and content creation"
+      ],
+      [
+       "Data entry and handling",
+       "Data science, analysis, and visualisation"
+      ],
+      [
+       "Using social media/networking",
+       "Digital learning and development"
+      ],
+      [
+       "Problem solving",
+       "Digital project and product management"
+      ],
+      [
+       "Understanding your digital carbon footprint",
+       "Digital marketing and social media"
+      ],
+      [
+       "",
+       "Digital leadership capabilities"
+      ],
+      [
+       "",
+       "Digital transformation decision making"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid1-14",
+   "title": "Check: basic or specialist?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Use Table 2 to decide which skills everyone needs."
+    },
+    {
+     "t": "quiz",
+     "id": "hybrid1-q1",
+     "q": "According to Table 2, which of these are essential basic skills that all individuals require? (Choose all that apply.)",
+     "options": [
+      "Understanding your digital carbon footprint",
+      "Coding",
+      "Data entry and handling",
+      "Digital leadership capabilities",
+      "Email, instant messaging and virtual meetings"
+     ],
+     "answer": [
+      0,
+      2,
+      4
+     ],
+     "explain": "Digital carbon footprint, data entry and handling, and email/messaging/virtual meetings are listed as essential basic skills. Coding and digital leadership capabilities are advanced/specialist skills.",
+     "multi": true
+    }
+   ]
+  },
+  {
+   "id": "hybrid1-15",
+   "title": "Activity 3 How digitally confident are you?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Read the descriptions of the skills and examples in the Essential Digital Skills Framework (on the gov.uk website - recommended if you use a screen reader - or as an interactive PDF). Then rate yourself in each area."
+    },
+    {
+     "t": "activity",
+     "id": "hybrid1-a3",
+     "title": "Activity 3 How digitally confident are you?",
+     "prompt": "For each area of the Essential Digital Skills Framework, rate how confident you feel (for example: not confident, quite confident, very confident) and give an example: digital foundation skills; communicating; handling information and content; transacting; problem solving; being safe and legal online. Which areas would you like to develop?",
+     "model": "For those in the workplace most of these skills may be familiar; they draw on the UK Government's Essential Digital Skills Framework, which this activity is based on. Consider how confident you feel about the essential foundation skills it describes. If there are areas you would like to develop, the HM Government Skills Toolkit provides resources to help you develop specific skills, and within it the Learn My Way resources provide basic computer skills training.",
+     "points": [
+      "Rate your confidence in each of the framework's areas.",
+      "Foundation skills, communicating, handling information, transacting, problem solving, being safe and legal online.",
+      "Identify the areas you would like to develop.",
+      "Use resources such as the Skills Toolkit or Learn My Way to build skills."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid1-16",
+   "title": "1.2 The pandemic and digital transformation",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The COVID-19 pandemic accelerated the need for both digital transformation and the ability to develop digital skills and capabilities, as individuals and organisations rapidly moved to new ways of working."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Reports suggest digital transformation accelerated by **about seven years** during the height of the pandemic in 2020-21.",
+      "At the first lockdowns, digital adaption (implementing remote-working solutions) was achieved in an average of **11 days** - something that pre-COVID may have taken years (McKinsey & Company, 2020)."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "This changed our ways of working and the digital capabilities we need in an unprecedented way. But the pandemic also widened the digital divide."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "The digital divide is 'the gap between people who have easy access to the benefits of digital technology and those who don't' (Centre for Digital Public Services, 2022).",
+     "title": "Digital divide"
+    }
+   ]
+  },
+  {
+   "id": "hybrid1-17",
+   "title": "Planning for hybrid working",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "As organisations adapt to new ways of working post-pandemic, many are permanently adopting a hybrid approach, with **more than 80%** of workers suggesting they planned to work in this way (ONS, 2022)."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Organisations need to plan for the long term and involve both their staff and external organisations to build digital skills and integrate preventive measures to reduce the digital divide.",
+      "Leaders need to develop their confidence and curiosity, and understand government and 'industry' strategies, in order to build digital capabilities that lead to effective digital transformation."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "For higher education institutions (HEIs), it is also useful to consider students' heightened digital capabilities and expectations. Their experience has been shaped by technology use during the pandemic and by the government focus on digital skills in the curriculum. The Welsh Government's *Digital Competence Framework* for schools shows what digital skills are expected to be developed within schools."
+    }
+   ]
+  },
+  {
+   "id": "hybrid1-18",
+   "title": "Behaviours and skills for hybrid working",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Focusing on the **employee experience**, from both an organisational and an individual point of view, helps ensure that behaviour and the skills to use technology effectively are considered together, to build the digital capabilities you need. Some key behaviours and skills to consider developing are:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Behaviours",
+      "Skills"
+     ],
+     "rows": [
+      [
+       "Empathy",
+       "Tools and systems"
+      ],
+      [
+       "Communication",
+       "Collaborating online"
+      ],
+      [
+       "Psychological safety and trust",
+       "Policies and processes"
+      ],
+      [
+       "Collaboration",
+       "Data governance"
+      ],
+      [
+       "Resilience",
+       "Online and offline security"
+      ],
+      [
+       "Transparency",
+       "Managing information"
+      ],
+      [
+       "Curiosity",
+       "Writing for digital platforms"
+      ],
+      [
+       "Problem solving",
+       "Copyright"
+      ],
+      [
+       "Team building",
+       "Equity, diversity, accessibility and inclusion"
+      ],
+      [
+       "Sustainability",
+       "Digital sustainability"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid1-19",
+   "title": "Applying a digital lens",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "It is useful to apply a **digital lens** to these behaviours, as a way to think about how digital capabilities should look for you as an individual and for your organisation as a whole. This course explores these skills further, and The Skills Toolkit created by the National Careers Service is a useful additional resource."
+    },
+    {
+     "t": "video",
+     "title": "Skills for content creation",
+     "url": null,
+     "note": "Sas Amoah, a Digital Media Producer at The Open University, talks about the importance of digital skills and responsibilities. During the pandemic his team started using Teams, Zoom and online-only podcasts to capture academics and discussions for web content, and he wants to translate his skills to capturing media online effectively. Working with the public online, they follow cyber security and GDPR rules and are mindful of accessibility guidance. The digital space evolves so quickly that skills learned last year may already need updating, so he suggests organisations make digital skills training mandatory, because it is such an integral part of how people work."
+    }
+   ]
+  },
+  {
+   "id": "hybrid1-20",
+   "title": "Activity 4 Skills for content creation",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "hybrid1-a4",
+     "title": "Activity 4 Skills for content creation",
+     "prompt": "Drawing on the behaviours and skills in Table 3 and the notes you made while thinking about Sas Amoah's video, which areas do you feel your organisation might wish to focus on?",
+     "model": "Answers will depend on your organisation. Sas Amoah's experience suggests focusing on the skills for new online tools (online meetings, podcasts and capturing media online), on responsibilities such as cyber security, GDPR and accessibility, and on keeping training up to date because the digital landscape changes quickly - possibly by making digital skills training mandatory. From Table 3, behaviours such as communication, collaboration and curiosity, and skills such as collaborating online, online and offline security, and equity, diversity, accessibility and inclusion are common priorities.",
+     "points": [
+      "Choose behaviours from Table 3 such as communication, collaboration or curiosity.",
+      "Choose skills from Table 3 such as collaborating online, security or accessibility and inclusion.",
+      "Responsibilities matter: GDPR, cyber security and accessibility.",
+      "Keep skills refreshed - training could be made mandatory."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid1-21",
+   "title": "Summary",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "In this section you saw why digital skills matter for work, learning and daily life, and how the pandemic accelerated digital transformation by about seven years while widening the digital divide."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "The Essential Digital Skills Framework: foundation skills, communicating, handling information and content, transacting, problem solving - all within being safe, legal and confident online.",
+      "Workplace skills range from essential basics (email, word processing, data handling, your digital carbon footprint) to specialist skills (coding, data science, digital leadership).",
+      "Hybrid working needs behaviours (empathy, trust, curiosity, resilience...) and skills (tools, data governance, security, copyright, inclusion...) developed together, with a focus on the employee experience."
+     ]
+    },
+    {
+     "t": "flash",
+     "cards": [
+      {
+       "front": "Digital capabilities",
+       "back": "The skills, behaviours and understanding to enable you to thrive in a digital world"
+      },
+      {
+       "front": "Hybrid working",
+       "back": "Workers spend some of their time working remotely and some in the employer's workspace"
+      },
+      {
+       "front": "Digital divide",
+       "back": "The gap between people who have easy access to the benefits of digital technology and those who don't"
+      },
+      {
+       "front": "Data literacy",
+       "back": "Reaching the same degree of confidence with data as we have reading words"
+      },
+      {
+       "front": "Transacting",
+       "back": "Applying for services, buying and selling, and managing transactions online"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid1-22",
+   "title": "Section quiz (1 of 2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "hybrid1-q2",
+     "q": "Which statement best describes 'digital capabilities'?",
+     "options": [
+      "Advanced specialist skills such as coding and data science",
+      "The skills, behaviours and understanding to enable you to thrive in a digital world",
+      "The hardware and software an organisation owns",
+      "Owning a smartphone and a broadband connection"
+     ],
+     "answer": 1,
+     "explain": "The course defines digital capabilities as the skills, behaviours and understanding to enable you to thrive in a digital world."
+    },
+    {
+     "t": "quiz",
+     "id": "hybrid1-q3",
+     "q": "Which of these is NOT one of the categories of the Essential Digital Skills Framework (Gov.uk, 2018)?",
+     "options": [
+      "Transacting",
+      "Handling information and content",
+      "Coding",
+      "Being safe and legal online"
+     ],
+     "answer": 2,
+     "explain": "The five categories are communicating, handling information and content, transacting, problem solving, and being safe and legal online. Coding is an advanced/specialist skill."
+    },
+    {
+     "t": "tf",
+     "id": "hybrid1-q4",
+     "q": "Reports suggest the pandemic accelerated digital transformation by about seven years.",
+     "answer": true,
+     "explain": "McKinsey & Company (2020) suggested about seven years of acceleration, with remote working set up in an average of 11 days."
+    }
+   ]
+  },
+  {
+   "id": "hybrid1-23",
+   "title": "Section quiz (2 of 2)",
+   "blocks": [
+    {
+     "t": "tf",
+     "id": "hybrid1-q5",
+     "q": "Digital skills are only needed for jobs that ask for high levels of qualifications or experience.",
+     "answer": false,
+     "explain": "The National Careers Service notes you need digital skills even for jobs that don't ask for high qualifications - e.g. keeping digital records of stock in a warehouse or shop."
+    },
+    {
+     "t": "quiz",
+     "id": "hybrid1-q6",
+     "q": "In Table 3, which of these is listed as a behaviour (rather than a skill) for hybrid working?",
+     "options": [
+      "Data governance",
+      "Psychological safety and trust",
+      "Copyright",
+      "Writing for digital platforms"
+     ],
+     "answer": 1,
+     "explain": "Psychological safety and trust is a behaviour. Data governance, copyright and writing for digital platforms are listed as skills."
+    },
+    {
+     "t": "quiz",
+     "id": "hybrid1-q7",
+     "q": "What percentage of workers suggested they planned to work in a hybrid way post-pandemic (ONS, 2022)?",
+     "options": [
+      "About 30%",
+      "About 50%",
+      "More than 80%",
+      "100%"
+     ],
+     "answer": 2,
+     "explain": "More than 80% of workers suggested they planned to work in a hybrid way, so organisations need to plan for the long term."
+    }
+   ]
+  }
+ ]
+}

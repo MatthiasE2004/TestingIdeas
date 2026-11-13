@@ -1,0 +1,486 @@
+{
+ "id": "cyber5",
+ "title": "Week 5: Cryptography",
+ "summary": "Plaintext, ciphertext and keys, symmetric and public key cryptography, encrypted email, common ciphers, hashing, digital signatures and certificates, and TLS/SSL for secure browsing.",
+ "minutes": 120,
+ "pages": [
+  {
+   "id": "cyber5-01",
+   "title": "Week 5: Cryptography",
+   "blocks": [
+    {"t": "video", "title": "Introduction to Week 5", "url": null, "note": "Cory Doctorow reminds you that early in the course you looked at keeping digital information secret and untampered - confidentiality and integrity. This week focuses on cryptography, which secures information so it can be transmitted safely even over unsecured networks. You'll learn the basic terminology, how cryptography achieves different security goals (including securing your email and protecting your digital life), and how it is used in common applications such as the world wide web."},
+    {"t": "callout", "kind": "key", "title": "Cryptography", "text": "A specialised area of mathematics concerned with protecting information so that it can be transmitted and received securely even when there is a risk that a hostile third party might intercept or modify the data."},
+    {"t": "p", "text": "You have met cryptography earlier in the course as a technique that can help protect information. This week looks at this important aspect of cyber security in a little more detail."}
+   ]
+  },
+  {
+   "id": "cyber5-02",
+   "title": "This week's learning outcomes",
+   "blocks": [
+    {"t": "h", "text": "By the end of this week you should be able to:"},
+    {"t": "ul", "items": [
+      "use the basic terminology of cryptography: plaintext, ciphertext, cipher, key, encryption and decryption",
+      "explain the difference between symmetric and public key (asymmetric) cryptography and the key distribution problem",
+      "describe how cryptography tools can be used to secure your email",
+      "explain how hashing, digital signatures and certificates help prove that data is genuine",
+      "explain the use of cryptography in common applications such as the world wide web (TLS/SSL)",
+      "identify where you could use cryptography to improve the protection of your digital life"
+    ]}
+   ]
+  },
+  {
+   "id": "cyber5-03",
+   "title": "1 The secret of keeping secrets",
+   "blocks": [
+    {"t": "p", "text": "Cryptography has a long history: from simple ciphers used by Julius Caesar to send military orders to his generals, to more sophisticated medieval ciphers that withstood most attacks until the late nineteenth century, to the famous Enigma codes of the Second World War."},
+    {"t": "img", "src": "img/cyber_72.jpg", "alt": "Black-and-white photograph of a number of women working at machines in an office", "caption": "Figure 1 Before computers, cryptography relied on people and machines"},
+    {"t": "p", "text": "The development of computers in the twentieth century allowed far more complex means of encryption. Computers could perform:"},
+    {"t": "ul", "items": [
+      "the mathematical operations that underpin all cryptography",
+      "much more complex mathematics than could reasonably be expected of a human",
+      "much faster than a human",
+      "on much more data than a human could handle."
+    ]}
+   ]
+  },
+  {
+   "id": "cyber5-04",
+   "title": "Cryptography makes the modern world possible",
+   "blocks": [
+    {"t": "p", "text": "Any data that can be represented in binary format (using 0s and 1s) can be encrypted by a computer. It is not an exaggeration to say that encryption makes much of the modern world possible. Commonplace applications include:"},
+    {"t": "ul", "items": [
+      "secure banking and payments systems - keeping your money safe when it is transferred between accounts, issued at ATMs or used to shop online",
+      "protecting conversations made over mobile telephones",
+      "safeguarding wireless networks that give access to the internet",
+      "securing files on hard disks and memory sticks",
+      "authenticating electronic documents",
+      "electronic voting",
+      "securing media files such as music or movies from piracy - known as Digital Rights Management (DRM)"
+    ]},
+    {"t": "tf", "id": "cyber5-q1", "q": "Only text documents can be encrypted by a computer.", "answer": false, "explain": "Any data that can be represented in binary (0s and 1s) can be encrypted - music, movies, programs, files on disks and more."}
+   ]
+  },
+  {
+   "id": "cyber5-05",
+   "title": "1.1 Plaintext and ciphertext",
+   "blocks": [
+    {"t": "img", "src": "img/cyber_73.jpg", "alt": "Close-up of an Enigma cipher machine showing its keyboard and lamp board", "caption": "Figure 2 An Enigma cipher machine"},
+    {"t": "ul", "items": [
+      "**Plaintext** - information that can be directly read by humans or a machine. A historic term from when encryption was used only for hardcopy text; nowadays it covers many formats including music, movies and computer programs.",
+      "**Ciphertext** - the encrypted data.",
+      "**Cipher** - the mathematics (or algorithm) responsible for turning plaintext into ciphertext and reverting ciphertext to plaintext. (You may see 'code' used - there is a technical difference, but it need not concern us now.)",
+      "**Encryption** - converting plaintext to ciphertext (occasionally called 'encipherment').",
+      "**Decryption** - reverting ciphertext to plaintext (occasionally 'decipherment')."
+    ]}
+   ]
+  },
+  {
+   "id": "cyber5-06",
+   "title": "Check: the language of cryptography",
+   "blocks": [
+    {"t": "p", "text": "Match each description to the correct cryptography term."},
+    {"t": "match", "id": "cyber5-m1", "title": "Match each description to its term", "pairs": [
+      {"term": "Plaintext", "def": "Information that can be directly read by humans or a machine"},
+      {"term": "Ciphertext", "def": "The encrypted data"},
+      {"term": "Cipher", "def": "The algorithm that turns plaintext into ciphertext and back again"},
+      {"term": "Encryption", "def": "The process of converting plaintext to ciphertext"},
+      {"term": "Decryption", "def": "The process of reverting ciphertext to plaintext"},
+      {"term": "Key", "def": "A piece of information that determines the output of an encryption or decryption process"}
+    ]}
+   ]
+  },
+  {
+   "id": "cyber5-07",
+   "title": "1.2 Encryption keys",
+   "blocks": [
+    {"t": "callout", "kind": "key", "title": "Keys", "text": "Pieces of information that determine the output from an encryption (or decryption) process."},
+    {"t": "p", "text": "A single cipher can produce an almost limitless number of different outputs with different key values. This allows secure communication even if the cipher itself is known to hostile third parties."},
+    {"t": "p", "text": "In fact, almost all ciphers are published in the scientific press or in standards documents. Making them available for widespread scrutiny lets many people check that they are secure and contain no weaknesses that could be exploited to compromise data encrypted with them."},
+    {"t": "img", "src": "img/cyber_74.jpg", "alt": "Abstract image of coloured numbers and patterns", "caption": "Figure 3 A key is just a string of bits"}
+   ]
+  },
+  {
+   "id": "cyber5-08",
+   "title": "How long is a key?",
+   "blocks": [
+    {"t": "p", "text": "A computer encryption key is nothing more than a string of bits, each with a value of 0 or 1. A one-bit key has only two possible values: 0 and 1. A two-bit key has four: 00, 01, 10 and 11. Every extra bit **doubles** the number of possible keys, so a three-bit key has eight values (000 to 111)."},
+    {"t": "callout", "kind": "tip", "text": "The total number of keys is 2 to the power of the key length. An eight-bit key has 2^8 = 256 possible values."},
+    {"t": "quiz", "id": "cyber5-q2", "q": "How many possible values does a 10-bit key have?", "options": ["20", "100", "1,024", "10,000"], "answer": 2, "explain": "2 to the power 10 = 1,024. Each extra bit doubles the number of keys."}
+   ]
+  },
+  {
+   "id": "cyber5-09",
+   "title": "The problem with short keys",
+   "blocks": [
+    {"t": "p", "text": "Short keys are vulnerable to a **brute force attack** - just as you learned in Week 2 about passwords. A computer, or a number of computers, tries every possible key value until one produces recognisable plaintext."},
+    {"t": "p", "text": "Since computers can work through key values extremely rapidly, keys must be long enough to offer a very large number of possible values."},
+    {"t": "h", "text": "Where do keys live?"},
+    {"t": "ul", "items": [
+      "known to the user in the form of passwords",
+      "stored in a computer's hardware - such as the decryption keys in a DVD player that let it play encrypted movie disks",
+      "generated by a computer as and when needed - such as during a secure transaction on a shopping site"
+    ]},
+    {"t": "tf", "id": "cyber5-q3", "q": "Keeping a cipher secret is the main thing that makes modern encryption secure.", "answer": false, "explain": "Almost all ciphers are published for scrutiny. Security comes from the key - which must be long enough to resist brute force - not from hiding the cipher."}
+   ]
+  },
+  {
+   "id": "cyber5-10",
+   "title": "1.3 The key distribution problem: Alice, Bob and Eve",
+   "blocks": [
+    {"t": "video", "title": "The key distribution problem", "url": null, "note": "Alice and Bob want a confidential relationship; Eve is an eavesdropper. Messages across the internet pass through many computers belonging to ISPs, employers or telecom companies - some in other countries, some untrustworthy. Eve can compromise one of them with a packet sniffer that copies every message to her without Alice or Bob knowing. Symmetric encryption (a single key to encrypt and decrypt - used today in DES, triple DES and AES for banking) protects them, but they must share the key: meeting in person isn't always possible, the post can be lost or intercepted, and armed couriers are so expensive that historically only governments and the largest companies could afford them. If Alice sends the key over the internet, Eve can copy it and read every message. Until the early 1970s this was thought to have no solution; the answer is asymmetric encryption, with a public key to encrypt and a private key to decrypt."},
+    {"t": "callout", "kind": "key", "title": "Symmetric encryption", "text": "Uses a single key both to encrypt plaintext to ciphertext and to decrypt ciphertext back to plaintext."}
+   ]
+  },
+  {
+   "id": "cyber5-11",
+   "title": "Why sharing keys is hard",
+   "blocks": [
+    {"t": "p", "text": "Traditionally, symmetric encryption suffered one enormous shortcoming: the sender or recipient had to create a key and send it to the other party. While in transit it could be stolen or copied by a third party, who could then decrypt anything encrypted with it."},
+    {"t": "p", "text": "Also, many key pairs are needed between communicating parties: **n(n-1)/2**, where n is the number of parties. Ten parties need 10(10-1)/2 = 45 key pairs; 100 parties would need 4,950."},
+    {"t": "p", "text": "This **key distribution problem** affected anyone wishing to use encryption until the 1970s, when a way of distributing keys without sending the keys themselves was developed independently by GCHQ in the UK and by Whitfield Diffie and Martin Hellman in the US. The British discovery was kept secret for years, so it is known as the **Diffie-Hellman key exchange**."},
+    {"t": "p", "text": "Symmetric methods remain very useful: encryption and decryption are extremely fast, ideal for large amounts of data."},
+    {"t": "quiz", "id": "cyber5-q4", "q": "Using n(n-1)/2, how many key pairs do 20 parties need to all communicate securely with each other?", "options": ["40", "190", "380", "400"], "answer": 1, "explain": "20 x 19 / 2 = 190. The number of keys grows rapidly as more parties join."}
+   ]
+  },
+  {
+   "id": "cyber5-12",
+   "title": "1.4 Public key cryptography: the padlock analogy",
+   "blocks": [
+    {"t": "video", "title": "Asymmetric cryptography", "url": null, "note": "A thought experiment: Bob orders many identical padlocks and a single key that opens them all. He posts a padlock to anyone who asks but never gives away the key. Alice puts her document in a box and snaps Bob's padlock shut - now even she can't open it, so it is safe in the post. Only Bob's key opens it. The padlocks are the public key; Bob's key is the private key. Together they form a key pair, held on a computer's key chain. Key pairs are generated from information such as name and email plus random input (typing, network traffic, waggling the mouse). Alice and Bob exchange public keys; Alice encrypts with Bob's public key and only Bob's private key can decrypt. If Eve intercepts the ciphertext and tries Bob's public key, she gets rubbish - she would need to steal Bob's private key or brute force it, which could take billions of years."},
+    {"t": "callout", "kind": "key", "title": "Key pair", "text": "The **private key**, which the owner keeps safe and never distributes, and the **public key**, which can be sent to anyone they want to exchange encrypted information with."}
+   ]
+  },
+  {
+   "id": "cyber5-13",
+   "title": "How public key cryptography works",
+   "blocks": [
+    {"t": "p", "text": "Asymmetric (public key) cryptography side-steps the key distribution problem because each user creates their own keys. Unlike symmetric encryption, the two keys behave differently: only the public key can decrypt what the matching private key encrypted, and only the private key can decrypt what the matching public key encrypted. Crucially, one key cannot easily be worked out from the other."},
+    {"t": "p", "text": "Public keys can be sent as email attachments or uploaded to **public key chain servers**, which distribute large numbers of public keys freely."},
+    {"t": "p", "text": "To send a message, the sender gets the recipient's public key, encrypts the message with it and sends the ciphertext. The recipient uses their private key to restore the plaintext."},
+    {"t": "quiz", "id": "cyber5-q5", "q": "Alice wants to send Bob a secret document using public key cryptography. Which key does she encrypt it with?", "options": ["Alice's private key", "Alice's public key", "Bob's public key", "Bob's private key"], "answer": 2, "explain": "She uses Bob's public key, so that only Bob's private key - which never leaves Bob - can decrypt it."}
+   ]
+  },
+  {
+   "id": "cyber5-14",
+   "title": "Symmetric vs public key: trade-offs",
+   "blocks": [
+    {"t": "p", "text": "Public key cryptography is popular because no initial secure exchange of secret keys is needed - users only ever exchange public keys. However, it is generally far slower than symmetric encryption, and because of a quirk in the underlying mathematics traditional public key techniques need far longer keys for the same level of protection."},
+    {"t": "table", "head": ["", "Symmetric", "Public key"], "rows": [
+      ["Keys", "One shared secret key", "Key pair: public + private"],
+      ["Key sharing", "Key must reach the other party safely", "Only public keys are exchanged"],
+      ["Speed", "Extremely fast; good for large data", "Generally far slower"],
+      ["Key length", "Shorter for same security", "Traditionally far longer"]
+    ]},
+    {"t": "p", "text": "A newer type, **elliptic curve cryptography**, can be just as secure as symmetric encryption using similar key lengths."}
+   ]
+  },
+  {
+   "id": "cyber5-15",
+   "title": "1.5 Why isn't the internet encrypted?",
+   "blocks": [
+    {"t": "img", "src": "img/cyber_77.jpg", "alt": "Browser address bar with a green padlock and a web address beginning https", "caption": "Figure 4 'https' at the start of a web address"},
+    {"t": "p", "text": "One part of everyday life that is not routinely protected by cryptography is the internet itself. Most emails and web pages are sent in plain view and can be intercepted and read by a malicious third party."},
+    {"t": "p", "text": "Encrypting the whole internet is unlikely: encryption and decryption take computer power, so there would be significant costs, and many applications - reading news, browsing shops - involve no sensitive information. Instead, applications selectively use cryptography for key tasks (such as payments), and users may choose it for extra purposes (such as securing email). Many websites encrypt data in transit, sometimes shown by a padlock in the address bar."}
+   ]
+  },
+  {
+   "id": "cyber5-16",
+   "title": "Activity: where could cryptography help you?",
+   "blocks": [
+    {"t": "activity", "id": "cyber5-a1", "title": "Using cryptography to improve your security", "prompt": "Review the list of digital information and online services you compiled in Week 1. Based on the threats you associated with each item, give some examples of how you could use cryptography to improve your security.", "hint": "Think about files on your devices, email, online banking/shopping and wireless networks.", "model": "Examples include encrypting files on laptops, hard disks and memory sticks so a lost device does not expose data; using end-to-end encrypted email (e.g. PGP tools or a secure mail service) for sensitive messages; checking for https and the padlock before entering payment or login details; and making sure home wi-fi is protected by encryption. Each choice should match a threat - theft, interception or tampering.", "points": ["Encrypt files on disks, laptops or memory sticks in case they are lost or stolen", "Use encrypted email for sensitive messages", "Check for https/padlock before sending payment or login details", "Protect wireless networks with encryption", "Link each use of cryptography to a specific threat from the Week 1 list"]}
+   ]
+  },
+  {
+   "id": "cyber5-17",
+   "title": "2 Putting cryptography to use",
+   "blocks": [
+    {"t": "p", "text": "So far you have studied basic techniques that protect the confidentiality and integrity of information. How are they used in practice, for example for email?"},
+    {"t": "ul", "items": [
+      "**Transport-level encryption** encrypts the message between your device and the server that receives it. One of the most common is STARTTLS. However, messages may not be encrypted while sitting on a mail server.",
+      "**End-to-end encryption** keeps the message fully encrypted all the way from sender to recipient."
+    ]},
+    {"t": "p", "text": "Internet banking and shopping sites routinely use encryption, but the tools to protect email are harder to install and configure. Most end-to-end tools depend on a collection of techniques called **Pretty Good Privacy (PGP)**, which includes symmetric and asymmetric algorithms. The **OpenPGP** standard, agreed by the Internet Engineering Task Force (IETF), helps vendors build systems that exchange encrypted information."},
+    {"t": "tf", "id": "cyber5-q6", "q": "With transport-level encryption such as STARTTLS, your email is guaranteed to stay encrypted while stored on the mail server.", "answer": false, "explain": "Transport-level encryption protects the message between your device and the server; it may not be encrypted while sitting on a mail server. End-to-end encryption keeps it encrypted all the way."}
+   ]
+  },
+  {
+   "id": "cyber5-18",
+   "title": "Tools for encrypting email",
+   "blocks": [
+    {"t": "table", "head": ["Tool", "What it does", "Points to note"], "rows": [
+      ["GPG4Win", "Standalone tools to encrypt and digitally sign emails, documents and files", "Plug-ins for Outlook and Thunderbird"],
+      ["GPGMail", "Integrates with Apple Mail to encrypt and sign", "Easier than the Windows tools, but OSX only"],
+      ["Enigmail", "Thunderbird plug-in, all operating systems", "Needs manual install of GNUPG (open source OpenPGP)"],
+      ["Mailvelope", "Browser plug-in using OpenPGP for webmail such as Gmail or Yahoo", "Metadata can still be logged"]
+    ]},
+    {"t": "callout", "kind": "note", "title": "The metadata problem", "text": "Even when a webmail message is encrypted end to end, who it was sent to, who it was from and when it was sent can be logged - and this metadata may compromise your security and that of the recipient."}
+   ]
+  },
+  {
+   "id": "cyber5-19",
+   "title": "Secure email services",
+   "blocks": [
+    {"t": "p", "text": "A secure email service such as **ProtonMail** or **Tutanota** can hide the metadata linking sender and recipient."},
+    {"t": "ul", "items": [
+      "Most secure: one ProtonMail user leaves a message for another ProtonMail user to collect. Metadata is never revealed and the message is encrypted end to end.",
+      "To an external address: the sender's metadata stays secure. ProtonMail invites the recipient to view the encrypted message on its server, but the recipient's mail service may record that ProtonMail sent a message.",
+      "Free service to an outside address: the sender must give the recipient a key by other means (text, phone call), which may reveal a link between them.",
+      "Paid service: allows PGP, so a message can be encrypted with the recipient's public key with no link created - but the subject line isn't encrypted."
+    ]},
+    {"t": "quiz", "id": "cyber5-q7", "q": "Which part of an email sent with ProtonMail's paid PGP option to an external address is NOT encrypted?", "options": ["The message body", "The attachments", "The subject line", "Nothing - everything is encrypted"], "answer": 2, "explain": "The source notes that with this option the subject line isn't encrypted."}
+   ]
+  },
+  {
+   "id": "cyber5-20",
+   "title": "2.1 Setting up a PGP email client (optional)",
+   "blocks": [
+    {"t": "p", "text": "This section is optional and needs software installed on your computer. If you can't, read through the steps so you understand the process."},
+    {"t": "ol", "items": [
+      "Choose one of the PGP email clients and explore how to set it up and send PGP-encrypted mail - e.g. Enigmail if you use Thunderbird, Gpg4win if you use Outlook, or the Mailvelope browser plug-in (mailvelope.com) for browser-based email.",
+      "Test with two separate free web-based email accounts, each open in a different browser (e.g. Firefox and Brave). Install Mailvelope in both and set up one account in each.",
+      "Follow the Mailvelope instructions to create and send an encrypted email from one account to the other."
+    ]},
+    {"t": "img", "src": "img/cyber_79.jpg", "alt": "Screen showing a block of encrypted-looking text beginning 'BEGIN PGP PUBLIC KEY BLOCK', from Mailvelope", "caption": "Figure 6 A PGP public key block"},
+    {"t": "callout", "kind": "note", "title": "Disclaimer", "text": "The Open University and partners found this software robust when checked, but installing software is at your own risk."}
+   ]
+  },
+  {
+   "id": "cyber5-21",
+   "title": "2.2 Sending signed and encrypted email",
+   "blocks": [
+    {"t": "activity", "id": "cyber5-a2", "title": "Activity 1 Optional activities", "prompt": "If you have set up Mailvelope or another PGP client, send an encrypted email to the OU's automated mailbox: (1) email 'public key' to cybersecurity-mooc@open.ac.uk; (2) the server replies with its current PGP public key; (3) use that key (including the whole BEGIN/END PGP PUBLIC KEY BLOCK lines) to encrypt a message 'testing encrypted content'; (4) send it to the same address - you should get a reply saying it was decrypted (try again if nothing arrives within 2 hours). Describe what you did and what happened.", "hint": "Mailvelope help is at mailvelope.com/help. You need all the characters of the key block.", "model": "First I requested the mailbox's public key, then imported the full key block - including the BEGIN and END lines - into my PGP tool. I used it to encrypt my test message and sent it. Because it was encrypted with the mailbox's public key, only the matching private key on the OU server could decrypt it, and the server confirmed it had done so.", "points": ["Request the recipient's public key first", "Import the complete key block including BEGIN and END lines", "Encrypt the message with the recipient's public key", "Only the recipient's private key can decrypt it", "A reply confirms successful decryption"]}
+   ]
+  },
+  {
+   "id": "cyber5-22",
+   "title": "End-to-end encryption as a service",
+   "blocks": [
+    {"t": "p", "text": "Setting up encrypted-email software on every device can be a problem for organisations and individuals. End-to-end encryption can instead be provided as a service. At the time of writing, ProtonMail and Tutanota both have a good reputation and offer a free service."},
+    {"t": "p", "text": "Try it: set up two free accounts with the same service (protonmail.com or tutanota.com) in two separate browsers, then send a message from one to the other."},
+    {"t": "activity", "id": "cyber5-a3", "title": "Reflect on encrypting email", "prompt": "Think about using cryptography to encrypt and sign email. What seemed to be the hardest parts of the process? What would you want to improve to make it easier? How does using ProtonMail or Tutanota compare with Mailvelope or other secure email software?", "model": "The hardest parts of PGP tools are usually installing plug-ins, generating keys and exchanging and importing public keys correctly - one missing character breaks a key block. Easier key exchange and built-in support in mail software would help. Services like ProtonMail or Tutanota are much simpler because encryption happens automatically and can hide metadata, though sending to outside addresses needs an extra step and you must trust the provider.", "points": ["Key generation and exchange are the fiddly parts of PGP", "Installing and configuring plug-ins is difficult", "Encryption built into the service is easier to use", "Secure mail services can also hide metadata", "Sending to external addresses still needs extra steps"]}
+   ]
+  },
+  {
+   "id": "cyber5-23",
+   "title": "3 Comparing cryptographic techniques: DES",
+   "blocks": [
+    {"t": "p", "text": "Modern cryptography is growing steadily with its everyday use - surfing the internet, using a cash machine and so on. There are hundreds of schemes; some of the most notable follow."},
+    {"t": "h", "text": "DES (Data Encryption Standard)"},
+    {"t": "p", "text": "Developed in the 1970s and adopted by the US National Bureau of Standards as the government standard for sensitive information. A symmetric cipher using **56-bit keys**. Because of its small key size, DES can now be brute forced in less than a day - the weakness that led to the adoption of other standards such as AES."},
+    {"t": "h", "text": "Triple DES"},
+    {"t": "p", "text": "A variant giving extra security while staying compatible: three rounds of DES with three separate 56-bit keys. Widely used in e-commerce, online payments and Microsoft Outlook until 2018. Once expected to be secure until at least 2030, it is now considered insecure and was deprecated by NIST in 2017."}
+   ]
+  },
+  {
+   "id": "cyber5-24",
+   "title": "AES (Advanced Encryption Standard)",
+   "blocks": [
+    {"t": "p", "text": "When DES was no longer adequate, the US government ran an open competition lasting five years. AES was adopted as a US government standard in 2001. It uses a combination of symmetric ciphers and **128, 192 or 256-bit keys**."},
+    {"t": "p", "text": "Some potential weaknesses have been identified, but most are theoretical: AES is easiest to break when it has not been implemented correctly, rather than by brute force."},
+    {"t": "p", "text": "Its specification is freely available, so AES is widely used commercially: protecting archive files, encrypting file systems (Windows 2000 onwards) and hard disks, and secure file transmission. Many microprocessors now include AES in their instruction sets to speed it up."}
+   ]
+  },
+  {
+   "id": "cyber5-25",
+   "title": "Blowfish",
+   "blocks": [
+    {"t": "img", "src": "img/cyber_80.jpg", "alt": "A spiky, inflated blowfish (pufferfish)", "caption": "Figure 7 Blowfish"},
+    {"t": "p", "text": "Developed in the early 1990s as a potential replacement for DES (AES became the agreed standard). Blowfish supports variable key lengths from **1 to 448 bits**. No successful attack on its full implementation is known, but weaknesses appear with relatively weak keys. The related twofish and threefish ciphers were designed to overcome these, although most users have switched to AES."}
+   ]
+  },
+  {
+   "id": "cyber5-26",
+   "title": "Check: comparing ciphers",
+   "blocks": [
+    {"t": "match", "id": "cyber5-m2", "title": "Match each description to the cipher", "pairs": [
+      {"term": "DES", "def": "1970s US standard using 56-bit keys; can now be brute forced in under a day"},
+      {"term": "Triple DES", "def": "Three rounds with three separate 56-bit keys; deprecated by NIST in 2017"},
+      {"term": "AES", "def": "Chosen after a five-year open competition; 128, 192 or 256-bit keys"},
+      {"term": "Blowfish", "def": "Early 1990s cipher with variable key lengths from 1 to 448 bits"}
+    ]}
+   ]
+  },
+  {
+   "id": "cyber5-27",
+   "title": "3.1 Using cryptography to prove identity: hashing",
+   "blocks": [
+    {"t": "p", "text": "Cryptography isn't just for hiding secrets: it can also authenticate data sent over an insecure network such as the internet. The process begins by checking that your copy of some data exactly matches the one you requested."},
+    {"t": "callout", "kind": "key", "title": "Hashing", "text": "The mathematical process of converting data of any size into data of fixed length known as the 'hash' (also called message digest, hash code, hash sum or hash value)."},
+    {"t": "p", "text": "Hashing works in one direction only - you cannot deduce the original data from the hash. Its aim is not to preserve the data but to create a unique identifier for every piece of data. Authors may publish the hash of a file alongside it."},
+    {"t": "img", "src": "img/cyber_82.jpg", "alt": "List of long hexadecimal SHA-1 hash values beside GnuPG file names such as gnupg-2.0.22.tar.bz2", "caption": "Figure 9 SHA-1 hashes published by the GnuPG authors next to each file name"}
+   ]
+  },
+  {
+   "id": "cyber5-28",
+   "title": "Checking a hash, and broken algorithms",
+   "blocks": [
+    {"t": "p", "text": "After downloading a file you can run your own copy of the hashing program (e.g. SHA-1). If your file exactly matches the original, the two hashes are identical. A change of a single bit gives a vastly different hash, revealing tampering - so the data should not be trusted."},
+    {"t": "p", "text": "The most widespread algorithms are **MD5, SHA-1 and SHA-2**. MD5 and SHA-1 are in common use but flawed: under specially controlled conditions 'collisions' occur, where two different pieces of data give the same hash. The MD5 weakness has been used in malware targeting Windows. Both can be considered 'broken'; the US government requires the newer **SHA-2**, which has shown no such weaknesses."},
+    {"t": "quiz", "id": "cyber5-q8", "q": "You download a program and your SHA-2 hash differs from the one the author published. What should you conclude?", "options": ["The hash program is broken - use the file anyway", "The file has been changed since it was hashed and should not be trusted", "Hashes always differ slightly, so this is normal", "The file is encrypted"], "answer": 1, "explain": "Even a one-bit change gives a vastly different hash, so a mismatch means the data has been altered (or corrupted) and should not be trusted."}
+   ]
+  },
+  {
+   "id": "cyber5-29",
+   "title": "3.2 Digital signatures and certificates",
+   "blocks": [
+    {"t": "video", "title": "Signatures and certificates", "url": null, "note": "Encrypting with your private key doesn't hide secrets - anyone with the public key can decrypt it - but it proves the data could only have come from the holder of the private key, so it authenticates data. However, a public key is only tied to an email address: if Eve steals Bob's email address she can make keys in his name and send false documents or malware. Bob can prevent this by having a trusted third party (an individual, government or company) certify his key after he proves his identity with documents such as a passport. A certificate contains the public key, a unique serial number, the owner's name, the issuing agency's name and digital signature, issue and expiry dates, and a hash to check it hasn't been altered. Certificates authenticate software downloads such as app stores, and websites present them to browsers, which warn users if a certificate is invalid. Holders must renew before expiry - in November 2015 millions of Mac users could not update apps until Apple issued a new certificate."},
+    {"t": "p", "text": "Hashing shows data hasn't changed, but not who it came from. For that you need a **digital signature**: the sender's private key is used to encrypt the hash. Anyone with the matching public key can decrypt and compare it, and since it must have been produced by the private key holder, it provides authenticity."}
+   ]
+  },
+  {
+   "id": "cyber5-30",
+   "title": "Case study 1: Alice signs her profit statement",
+   "blocks": [
+    {"t": "p", "text": "Alice wants to send her company's quarterly profit statement to Bob, who works in the financial markets, for public announcement. Both want confidence that Eve has not intercepted and altered it."},
+    {"t": "img", "src": "img/cyber_84.jpg", "alt": "Diagram: Alice hashes the profit statement, encrypts the hash with her private key to make a digital signature and sends both to Bob. Bob decrypts the signature with Alice's public key, hashes the statement himself and compares the two hashes: equal means not modified, different means modified.", "caption": "Figure 10 How Alice signs the statement and Bob verifies it"},
+    {"t": "p", "text": "Alice hashes the statement and encrypts the hash with her private key - the digital signature - and sends it with the statement (she may also encrypt both with Bob's public key to keep them secret). Bob decrypts with his private key if needed, decrypts the signature with Alice's public key to reveal the hash, hashes the statement himself and compares. If the hashes match, it wasn't altered en route."}
+   ]
+  },
+  {
+   "id": "cyber5-31",
+   "title": "Check: verifying a signature",
+   "blocks": [
+    {"t": "quiz", "id": "cyber5-q9", "q": "In case study 1, which key does Bob use to decrypt Alice's digital signature?", "options": ["Bob's private key", "Bob's public key", "Alice's private key", "Alice's public key"], "answer": 3, "explain": "The signature was made with Alice's private key, so only her matching public key can decrypt it - which is what proves it came from her."},
+    {"t": "quiz", "id": "cyber5-q10", "q": "Which statements about a digital signature are correct?", "options": ["It is a hash encrypted with the sender's private key", "It keeps the message contents secret", "It shows the message hasn't changed in transit", "It proves the key really belongs to the named person"], "answer": [0, 2], "multi": true, "explain": "A signature is an encrypted hash that reveals tampering and links data to a private key. It doesn't hide contents, and on its own it can't prove who owns the key - that needs a certificate (see case study 2)."}
+   ]
+  },
+  {
+   "id": "cyber5-32",
+   "title": "Case study 2: the fake invoice",
+   "blocks": [
+    {"t": "p", "text": "Digital signatures don't give complete confidence about the author: someone could masquerade as the sender by producing their own key pair."},
+    {"t": "p", "text": "A digitally signed invoice arrives for Alice from 'Bob'. She uses Bob's public key from a public key server to check the signature; the hashes match, so she pays the account on the invoice. Weeks later, an angry Bob says he hasn't been paid - the money went to Eve."},
+    {"t": "p", "text": "What went wrong? Eve used Bob's personal information to create a new key pair in Bob's name and put the public key on a public key server. She signed the invoice with her matching private key. Alice trusted what she believed was Bob's signature."},
+    {"t": "tf", "id": "cyber5-q11", "q": "If a signature checks out using a public key from a public key server, you can be sure the document came from the person named on the key.", "answer": false, "explain": "Anyone can create a key pair in someone else's name and upload the public key, as Eve did. A certificate from a Certificate Authority is needed to bind a key to its real owner."}
+   ]
+  },
+  {
+   "id": "cyber5-33",
+   "title": "Digital certificates and the chain of trust",
+   "blocks": [
+    {"t": "callout", "kind": "key", "title": "Digital certificate", "text": "A means of binding public keys to their owner, issued by a Certificate Authority (CA) that validates the owner's identity, binds the public key to the certificate and signs it with the CA's private key. The CA's public key is available to anyone who needs to check it."},
+    {"t": "p", "text": "Certificates still need a **chain of trust** to confirm they belong to who you think and haven't been compromised. Criminals have obtained certificates to sign software containing malware, and stolen certificates have been used too - Stuxnet was signed with certificates belonging to Realtek Semiconductor and JMicron Technology Corp."},
+    {"t": "h", "text": "Case study 3"},
+    {"t": "p", "text": "With a CA, Eve can't simply create a key pair and claim it is Bob's. If she sends an invoice appearing to be signed by Bob, Alice's check with Bob's validated public key will fail, so she'd know something was wrong - and (hopefully) not pay Eve."}
+   ]
+  },
+  {
+   "id": "cyber5-34",
+   "title": "Invoice and impersonation scams",
+   "blocks": [
+    {"t": "p", "text": "Scams increasingly involve fake invoices sent to businesses, or a senior manager being impersonated to persuade staff to pay the scammer. All businesses should ensure managers and directors have private and public keys, with public keys stored and displayed locally for everyone to use - and must use them to sign and validate all non-routine payment instructions. This is about the only way to avoid the scam reported by the BBC:"},
+    {"t": "quote", "text": "'Hey, the deal is done. Please wire $8m to this account to finalise the acquisition ASAP. Needs to be done before the end of the day. Thanks.' The employee thought nothing of it and sent the funds over... But alarm bells started to ring when the company that was being acquired called to ask why it had not received the money.", "by": "BBC News (bbc.co.uk/news/technology-49857948)"},
+    {"t": "quiz", "id": "cyber5-q12", "q": "According to the course, what is about the only way for a business to avoid this kind of payment scam?", "options": ["Only accept payment requests by email", "Have managers sign non-routine payment instructions with keys whose public keys are held locally and checked", "Use a faster bank transfer service", "Encrypt the email subject line"], "answer": 1, "explain": "Signing and validating all non-routine payment instructions with known, locally stored public keys lets staff detect impersonation."}
+   ]
+  },
+  {
+   "id": "cyber5-35",
+   "title": "3.3 Encrypted network connections",
+   "blocks": [
+    {"t": "img", "src": "img/cyber_85.jpg", "alt": "Two hands shaking, surrounded by symbols such as @, an envelope, a speech bubble and a padlock", "caption": "Figure 11 A secure 'handshake'"},
+    {"t": "p", "text": "Web traffic is not encrypted by default: pages pass as plaintext and can be intercepted. When online shopping began, companies had customers browse online and then phone in their credit card details."},
+    {"t": "p", "text": "The solution came in 1995 when Netscape announced the **Secure Socket Layer (SSL)** protocol, now replaced by **Transport Layer Security (TLS)**. Supported by all modern browsers, it allows confidential information to be exchanged over an insecure link."}
+   ]
+  },
+  {
+   "id": "cyber5-36",
+   "title": "How TLS/SSL works",
+   "blocks": [
+    {"t": "p", "text": "TLS/SSL combines asymmetric and symmetric encryption:"},
+    {"t": "ol", "items": [
+      "**Handshake**: browser and server agree how to communicate, including the type of cryptography.",
+      "The server sends its public key and a digital certificate; the user's computer checks it is genuine and not expired.",
+      "The computer generates a **master secret**, encrypts it with the server's public key and sends it.",
+      "The server decrypts it with its private key. Both now use the secret to generate identical symmetric keys - the key itself never crosses the network.",
+      "Each sends a 'finished' message using the **session key**; the transaction (bank details, card numbers, addresses) then uses fast symmetric encryption.",
+      "At the end, both delete the session key. A new session uses a completely new key."
+    ]},
+    {"t": "quiz", "id": "cyber5-q13", "q": "Why does TLS switch to a symmetric session key after the handshake?", "options": ["Symmetric encryption is much faster for the actual data", "Public key encryption can't encrypt credit card numbers", "The certificate expires after the handshake", "Symmetric keys are sent openly across the network"], "answer": 0, "explain": "Public key cryptography solves key exchange, but symmetric encryption is far faster for the transaction itself. The session key is never transmitted."}
+   ]
+  },
+  {
+   "id": "cyber5-37",
+   "title": "What TLS/SSL does - and doesn't - tell you",
+   "blocks": [
+    {"t": "p", "text": "TLS/SSL is now used by most websites. It is an automatic process between browser and server that keeps data safe in transit, giving users confidentiality and integrity without having to configure software or manage keys."},
+    {"t": "callout", "kind": "note", "title": "Not a seal of approval", "text": "TLS/SSL doesn't mean a site is genuine. Any website, including criminal ones, can now implement TLS/SSL for free."},
+    {"t": "tf", "id": "cyber5-q14", "q": "A padlock and 'https' prove that a website is run by a legitimate organisation.", "answer": false, "explain": "They show the connection is encrypted. Criminal sites can use TLS/SSL for free too."}
+   ]
+  },
+  {
+   "id": "cyber5-38",
+   "title": "3.4 How secure is your browsing?",
+   "blocks": [
+    {"t": "img", "src": "img/cyber_86.jpg", "alt": "A combination padlock and chain lying on a circuit board", "caption": "Figure 12 Locking down your connection"},
+    {"t": "p", "text": "Browsers make it easy to see whether a site uses TLS/SSL by:"},
+    {"t": "ul", "items": [
+      "making secure addresses begin **https://** rather than http:// - the s stands for 'secure' (e.g. Gmail at https://mail.google.com; Google search at https://www.google.com, so your searches and results can't be seen by others)",
+      "showing a closed **padlock** symbol in or near the top of the browser window"
+    ]}
+   ]
+  },
+  {
+   "id": "cyber5-39",
+   "title": "Activity 2 Your own browsing security",
+   "blocks": [
+    {"t": "activity", "id": "cyber5-a4", "title": "Activity 2 Your own browsing security (about 15 minutes)", "prompt": "Visit a website you use regularly and find a page you would expect to use a secure connection, such as webmail or online banking. Use your browser's help and click the padlock icon to find out what it means. Research browsing security online: what different versions of the padlock might your browser show, and what do they tell you?", "model": "On my bank's login page the address starts with https and a closed padlock is shown. Clicking it shows the connection is secure and gives details of the site's certificate - who it was issued to and by which Certificate Authority, and when it expires. Browsers show warnings or a crossed-out or open padlock when there's a problem, such as an invalid or expired certificate or a page mixing secure and insecure content. The padlock means encryption, not that the site is honest.", "points": ["Secure pages start with https and show a closed padlock", "Clicking the padlock shows connection and certificate details", "Certificates are issued by a Certificate Authority and expire", "Different padlock icons or warnings signal problems with the connection", "A padlock shows encryption, not that the site is genuine"]}
+   ]
+  },
+  {
+   "id": "cyber5-40",
+   "title": "Encrypted DNS",
+   "blocks": [
+    {"t": "p", "text": "Until 2019, DNS requests were sent as plain text and could be intercepted even when the data being sent or requested was encrypted. Since 2019 DNS requests can be encrypted."},
+    {"t": "ul", "items": [
+      "**Firefox**: go to settings, then network settings, and select the 'enable DNS over HTTPS' checkbox.",
+      "**Chrome** (78 was experimenting with this, as mentioned in Week 4): browse to chrome://flags/, search for 'dns-over-https', enable it and restart the browser."
+    ]},
+    {"t": "tf", "id": "cyber5-q15", "q": "Before 2019, the websites you looked up could be seen from your DNS requests even if the page content itself was encrypted.", "answer": true, "explain": "DNS requests were sent as plain text until 2019, so they could be intercepted even when the data was encrypted."}
+   ]
+  },
+  {
+   "id": "cyber5-41",
+   "title": "Key terms of Week 5",
+   "blocks": [
+    {"t": "flash", "cards": [
+      {"front": "Key distribution problem", "back": "The difficulty of getting a symmetric key to the other party without it being stolen or copied in transit"},
+      {"front": "Public key cryptography", "back": "Asymmetric encryption using a key pair: a public key anyone may have and a private key the owner never shares"},
+      {"front": "Brute force attack", "back": "Trying every possible key value until recognisable plaintext is produced"},
+      {"front": "Hash", "back": "A fixed-length value computed one-way from data of any size; any change to the data changes the hash"},
+      {"front": "Digital signature", "back": "A hash encrypted with the sender's private key, proving origin and integrity"},
+      {"front": "Certificate Authority (CA)", "back": "A trusted body that validates a key owner's identity and signs a certificate binding the public key to them"},
+      {"front": "TLS/SSL", "back": "Protocol that secures web connections using a handshake, public keys and a symmetric session key"},
+      {"front": "End-to-end encryption", "back": "The message stays encrypted all the way from sender to recipient"}
+    ]}
+   ]
+  },
+  {
+   "id": "cyber5-42",
+   "title": "Week 5 quiz (1 of 2)",
+   "blocks": [
+    {"t": "quiz", "id": "cyber5-q16", "q": "Which term describes the encrypted data?", "options": ["Plaintext", "Ciphertext", "Cipher", "Key"], "answer": 1, "explain": "Ciphertext is the encrypted data; the cipher is the algorithm that produces it."},
+    {"t": "quiz", "id": "cyber5-q17", "q": "Who independently solved the key distribution problem in the 1970s?", "options": ["Netscape and Microsoft", "GCHQ in the UK, and Diffie and Hellman in the US", "NIST and the IETF", "Julius Caesar's generals"], "answer": 1, "explain": "GCHQ's discovery was kept secret, so the method is known as Diffie-Hellman key exchange."},
+    {"t": "quiz", "id": "cyber5-q18", "q": "Why was DES replaced as a US government standard?", "options": ["Its cipher was kept secret", "Its 56-bit key is short enough to be brute forced", "It could only encrypt text", "It used public keys"], "answer": 1, "explain": "With modern computing power DES can be brute forced in less than a day, so AES was adopted."}
+   ]
+  },
+  {
+   "id": "cyber5-43",
+   "title": "Week 5 quiz (2 of 2)",
+   "blocks": [
+    {"t": "quiz", "id": "cyber5-q19", "q": "Which hashing algorithm does the US government require because it has shown no collision weaknesses?", "options": ["MD5", "SHA-1", "SHA-2", "Blowfish"], "answer": 2, "explain": "MD5 and SHA-1 can produce collisions and are considered broken; SHA-2 is required."},
+    {"t": "quiz", "id": "cyber5-q20", "q": "What does a Certificate Authority do?", "options": ["Encrypts all web traffic", "Validates who owns a public key and signs a certificate binding the key to them", "Stores everyone's private keys", "Generates session keys for TLS"], "answer": 1, "explain": "The CA validates the owner's identity and signs the certificate with its own private key."},
+    {"t": "quiz", "id": "cyber5-q21", "q": "Why isn't the whole internet routinely encrypted?", "options": ["Encryption is illegal for ordinary users", "It would cost computing power and much traffic isn't sensitive", "Ciphers are kept secret", "Encryption only works on text"], "answer": 1, "explain": "Encrypting everything has significant computing costs and many uses, like reading news, don't involve sensitive information - so cryptography is used selectively."}
+   ]
+  },
+  {
+   "id": "cyber5-44",
+   "title": "Summary of Week 5",
+   "blocks": [
+    {"t": "img", "src": "img/cyber_87.jpg", "alt": "Coloured blocks marked 0 or 1 hovering above a laptop", "caption": "Figure 13 Cryptography protects your data"},
+    {"t": "p", "text": "This week focused on cryptography - a key security technique that lets you ensure the confidentiality and integrity of your data."},
+    {"t": "p", "text": "You have learned how cryptography tools can secure your email and can explain its use in common applications such as the world wide web. You should now be able to identify where you could use cryptography to improve the protection of your digital life."},
+    {"t": "p", "text": "One example - using cryptography to protect computer networks - is the topic of Week 6: Network security."}
+   ]
+  }
+ ]
+}

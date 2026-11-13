@@ -1,0 +1,1279 @@
+{
+ "id": "cyber1",
+ "title": "Week 1: Threat landscape",
+ "summary": "Course guidance, then the basics of cyber security: CIA, malware, phishing, high-profile breaches, your information assets and how to keep up with current threats.",
+ "minutes": 75,
+ "pages": [
+  {
+   "id": "cyber1-01",
+   "title": "Introduction and guidance",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_1.jpg",
+     "alt": "Course cover: 'Introduction to cyber security: stay safe online' showing a person lit by a laptop screen in the dark",
+     "caption": "Introduction to cyber security: stay safe online"
+    },
+    {
+     "t": "p",
+     "text": "*Introduction to cyber security: stay safe online* is an informal, introductory course for people who want to feel more confident about their online safety. It will help you understand online security and start to protect your 'digital life', whether at home or work."
+    },
+    {
+     "t": "p",
+     "text": "You will learn how to recognise the threats that could harm you online and the steps you can take to reduce the chances that they will happen to you. Weekly interactive quizzes help you practise; on OpenLearn the Week 4 and Week 8 quizzes can earn you a badge."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-02",
+   "title": "What you will learn",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Learning outcomes are simply what we hope you will achieve by the end of the course. After completing it, you should have a better understanding of:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "implementing a plan to protect your digital life",
+      "recognising threats to online safety",
+      "taking steps to reduce the risk of online threats",
+      "concepts including malware, viruses and Trojans",
+      "network security, cryptography and identity theft."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Work through the weeks in order. If a page links to an outside resource, open it in a new window or tab so you can easily return to where you came from. The course is also included in the National Careers Service skills toolkit to help you develop new skills.",
+     "title": "Moving around the course"
+    }
+   ]
+  },
+  {
+   "id": "cyber1-03",
+   "title": "Badged course and how to get a badge",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "On OpenLearn this is a badged course: free to study, about 24 hours of study over about 8 weeks, at a pace to suit you. There is no tutor, but you get useful feedback from the interactive quizzes. Badged courses are part of The Open University's mission *to promote the educational well-being of the community*."
+    },
+    {
+     "t": "p",
+     "text": "Digital badges demonstrate online that you have gained a skill - you can share them with friends, family, employers and on social media, and they help motivation and confidence."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "read each week of the course",
+      "score 50% or more in the two badge quizzes in Week 4 and Week 8."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "Most quiz questions allow three attempts (true/false usually one), and right-first-time answers earn more marks - so you could get every question right and still score under 50%. You can retry a badge quiz after 24 hours, as often as you like. See it as a chance to reflect rather than a test."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-04",
+   "title": "Week 1: Threat landscape",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Welcome to *Introduction to cyber security: stay safe online*. Cory Doctorow is your guide through this course. He is a visiting professor at The Open University and will meet you at the start of each week to say what's coming up and remind you of what you've learned so far."
+    },
+    {
+     "t": "video",
+     "title": "Welcome from Cory Doctorow",
+     "url": null,
+     "note": "Cory Doctorow - former European director of the Electronic Frontier Foundation (a San Francisco civil liberties group that, among other things, helped legalise strong cryptography around the world), OU visiting professor with an honorary doctorate in Computer Science - introduces the course. You'll start with the basics of information security and easy steps to secure your digital life, then look 'under the hood' at how data moves between computers over the internet, how it can be attacked and kept secure, and how to deal with the aftermath of an attack and prevent future ones. This week: basic terminology and the different threats you'll face online."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-05",
+   "title": "About the course",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Your journey has been organised into eight weeks of study:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Weeks 1-3:** the basics of cyber security - the security threat landscape and basic techniques for protecting your computers and online information.",
+      "**Middle weeks:** 'under the hood' - the technologies that underpin the internet and cyber security, how computers are connected in a network and how data sent across it is kept secure.",
+      "**Final two weeks:** what to do if you suffer a successful attack and how to develop an action plan, including the legal and technical aspects of recovery."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "As well as practical steps such as creating a strong password, the course gives an overview from the threat landscape to how the internet works, and a foundation for further study. End-of-week practice quizzes let you test your knowledge."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-06",
+   "title": "Online, the new frontline",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Online, the new frontline",
+     "url": null,
+     "note": "An estimated 1.6 billion people regularly access the web. Most log in, log out and harm no one, but some are criminals, malicious hackers and terrorists. The threats they pose are huge and multiplying: today, online is the new frontline."
+    },
+    {
+     "t": "p",
+     "text": "We shop, work, play and live online. Almost everything - from shopping and banking to socialising - can be done online, and this makes the internet, also known as **cyberspace**, an attractive target for criminals."
+    },
+    {
+     "t": "p",
+     "text": "Large breaches make the headlines, but about 70% of organisations keep their worst security incidents under wraps, so the news shows only a small proportion. Computers and users in Britain are targeted by many thousands of cyber attacks every hour."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-07",
+   "title": "What is cyber security?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "We all have a responsibility to protect services from being maliciously disrupted or misused - through our vigilance, our own security measures and by reporting events when they arise."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "The knowledge, tools and best practices relating to protecting the computers, communications networks, programs and data that make our digital lives possible are collectively referred to as **cyber security**, or **information security**. This course uses the two terms interchangeably.",
+     "title": "Definition"
+    },
+    {
+     "t": "tf",
+     "id": "cyber1-q1",
+     "q": "Most organisations publicly report their worst security incidents, so news coverage gives an accurate picture of how many breaches happen.",
+     "answer": false,
+     "explain": "About 70% of organisations keep their worst incidents under wraps, so what makes the news is only a small proportion of the breaches actually taking place."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-08",
+   "title": "Behind the numbers",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Cyber security is an area where you need to evaluate the validity of information you find online before accepting it. Some published figures:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "UK government survey (DCMS, 2019): 32% of businesses identified breaches or attacks in the previous 12 months; 60% of medium (over 50 employees) and large (over 250) businesses did. Attacks may be under-reported, costs undervalued, and some businesses may not know they were attacked.",
+      "By far the most reported attacks are fraudulent emails or websites; phishing caused the most disruptive and expensive breaches.",
+      "TrendMicro blocked 26,804,076,261 threats in the first half of 2019, the largest proportion in emails.",
+      "Sophos reports spam email as the biggest source of attacks and warns that ransomware is increasing and can be the most destructive.",
+      "Statista: over 446.5 million records exposed by data breaches in the US in 2018."
+     ]
+    },
+    {
+     "t": "quiz",
+     "id": "cyber1-q2",
+     "q": "According to the reports quoted, what is by far the largest source of reported attacks?",
+     "options": [
+      "Attacks on industrial control systems",
+      "Fraudulent emails and websites",
+      "Stolen laptops",
+      "Insider attacks by staff"
+     ],
+     "answer": 1,
+     "explain": "The UK survey, TrendMicro and Sophos all point to emails (phishing, spam, fraudulent websites) as the largest source of attacks."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-09",
+   "title": "Talking security: CIA",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_5.jpg",
+     "alt": "A woman's head and shoulders surrounded by floating square images linked with security",
+     "caption": "Figure 1"
+    },
+    {
+     "t": "p",
+     "text": "The guiding principles behind information security are summed up in the acronym **CIA** - confidentiality, integrity and availability. We want our information to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "be read by only the right people (**confidentiality**)",
+      "only be changed by authorised people or processes (**integrity**)",
+      "be available to read and use whenever we want (**availability**)."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "It is important to be able to distinguish between these three aspects of security, so let's look at an example."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-10",
+   "title": "Case study: Equifax",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "In September 2017 the credit reporting company Equifax reported a breach exposing the records of 147 million people - mostly in the US, but 693,665 in the UK, who later received letters. The data included names, dates of birth, Social Security numbers, addresses and other personal information that could lead to identity theft and fraud.",
+     "title": "Case study"
+    },
+    {
+     "t": "p",
+     "text": "Equifax's network-traffic monitoring hadn't worked for 19 months because a security certificate hadn't been renewed. In March 2017 it was alerted to a critical vulnerability in an Apache Struts web server giving access to its ACIS database. A patch had been issued but was not installed, and hackers exploited the hole until the missing certificate was installed at the end of July 2017."
+    },
+    {
+     "t": "p",
+     "text": "By May 2019 the breach was thought to have cost Equifax $1.4 billion. In July 2019 it agreed a settlement with the US Federal Trade Commission of over $575 million (perhaps up to $700 million), including free monitoring and identity theft services for up to 10 years."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-11",
+   "title": "Applying CIA to Equifax",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "How do the principles of CIA apply to the Equifax case? Confidentiality was obviously violated: unauthorised people could read the data. However, authorised users still had full access, so the data remained **available**; and the data was not changed, so its **integrity** was preserved."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber1-q3",
+     "q": "Which CIA principle was violated in the Equifax breach?",
+     "options": [
+      "Confidentiality only",
+      "Integrity only",
+      "Availability only",
+      "All three"
+     ],
+     "answer": 0,
+     "explain": "Unauthorised people could read the data (confidentiality), but authorised users could still use it (availability) and it was not altered (integrity)."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-12",
+   "title": "Information assets, authentication and non-repudiation",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "When talking about valuable data we use the term **information assets**. In the Equifax case, the information assets were the data about people and their financial records.",
+     "title": "Information assets"
+    },
+    {
+     "t": "p",
+     "text": "Security of online communications and services needs two more concepts:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Authentication** - being confident a message really came from the person we think it came from, and verifying a user's identity before an online service lets them access their data.",
+      "**Non-repudiation** - ensuring users cannot later deny sending a message or performing some online activity. For example, an online banking user cannot claim they didn't send a payment after the bank has transferred the funds."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber1-13",
+   "title": "Malware",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Software that attempts to harm computers in different ways is collectively known as **malware** (a contraction of *malicious software*). Different terms are used depending on what it does:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**ransomware** demands payment in order to refrain from some harmful action or to undo its effects",
+      "**spyware** records the user's activities, such as passwords they type, and sends them to the malware's author",
+      "**botnets** are created using malware that lets an attacker control a group of computers to gather personal information or launch attacks on others - such as sending spam or a **denial-of-service attack**, flooding a website with so many requests the server cannot cope."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "You'll learn more about malware in Week 3."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-14",
+   "title": "Match the security terms",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Check you can tell the basic terms apart before studying real breaches."
+    },
+    {
+     "t": "match",
+     "id": "cyber1-m1",
+     "title": "Match each description to its term",
+     "pairs": [
+      {
+       "term": "Confidentiality",
+       "def": "Information is read only by the right people"
+      },
+      {
+       "term": "Integrity",
+       "def": "Information is changed only by authorised people or processes"
+      },
+      {
+       "term": "Availability",
+       "def": "Information can be read and used whenever we want"
+      },
+      {
+       "term": "Authentication",
+       "def": "Verifying the identity of a user or the sender of a message"
+      },
+      {
+       "term": "Non-repudiation",
+       "def": "Users cannot later deny having sent a message or made a payment"
+      },
+      {
+       "term": "Ransomware",
+       "def": "Malware that demands payment to stop or undo harmful action"
+      },
+      {
+       "term": "Spyware",
+       "def": "Malware that records what the user does and sends it to its author"
+      },
+      {
+       "term": "Botnet",
+       "def": "A group of computers controlled by an attacker through malware"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber1-15",
+   "title": "Obtaining Sophos Threatsaurus",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_6.jpg",
+     "alt": "Close-up of the pages of a dictionary being flicked through",
+     "caption": "Figure 2"
+    },
+    {
+     "t": "p",
+     "text": "There are lots of technical terms and it can be hard to keep track. Sophos, one of the major anti-malware companies, publishes the **Threatsaurus**, a plain-English guide for IT managers and end users. It includes an A-Z glossary of computer and data security threats, practical tips to stay safe from email scams, identity theft and malware, and a guide to Sophos's products. The course asks you to save a copy (the OpenLearn version links to a PDF hosted on futurelearn.com) - you'll use it again in Week 3."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Before clicking any link, develop the habit of checking the address it points to: hover the mouse pointer over it and look at the browser's status bar, or on a phone or tablet touch and hold the link to see the complete address.",
+     "title": "Check links first"
+    }
+   ]
+  },
+  {
+   "id": "cyber1-16",
+   "title": "Cyber security attacks",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "When has information security failed for you?",
+     "url": null,
+     "note": "Cory Doctorow explains how he was once phished. He had reinstalled his phone's operating system the night before, so every service was asking him to re-enter passwords, and his new browser hid part of the web address. In a coffee-shop queue he got a Twitter direct message from a friend - 'was this you?' plus a link - which seemed plausible after he'd published editorials the day before. The link showed what looked like a normal Twitter login and he entered his password. Then more 'is this you?' messages arrived. Because he acted immediately and didn't reuse passwords across services, he changed the password, checked everything and reinstalled the phone's OS - the cost was a lost morning. Lesson: security depends on never making a mistake; attacking depends on finding one person who makes one."
+    },
+    {
+     "t": "p",
+     "text": "For small organisations the worst breaches cost between £65,000 and £115,000 on average; for large ones they may run to many millions of pounds. Costs come from direct financial losses due to fraud or theft, lost productivity while recovering from an attack, and the loss of trust and reputation."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-17",
+   "title": "Phishing and social engineering",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Many breaches do not result from technical failures. Attackers commonly exploit people's goodwill and trust to gain access to systems - **social engineering**. Pretending to be technical support staff, or crafting emails that ask for usernames and passwords, are common forms. **Phishing** emails are a form of social engineering."
+    },
+    {
+     "t": "p",
+     "text": "Phishing emails can use your real details and passwords - taken from breaches of many online databases - to make you think the attacker is a real contact, or that they know more than they do, to panic you into clicking. In October 2019 over 30,000 aggressive phishing emails an hour were being sent to addresses whose password was known. In January 2019 security professional Troy Hunt published details of a criminal database of 773 million records and over 21 million unique passwords."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber1-q4",
+     "q": "Pretending to be technical support staff to get someone's password is an example of:",
+     "options": [
+      "A brute force attack",
+      "Social engineering",
+      "A denial-of-service attack",
+      "Ransomware"
+     ],
+     "answer": 1,
+     "explain": "Social engineering exploits people's goodwill and trust rather than a technical failure; phishing is one form of it."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-18",
+   "title": "Have you been pwned?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "To check whether an account with your email address has been part of a data breach, visit **haveibeenpwned.com**. To check whether a password you use has appeared in a breach, use **haveibeenpwned.com/Passwords**."
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Don't type in a complete password to start with - type the first few characters and click 'pwned?'.",
+      "If it doesn't come up, your password is safe.",
+      "If it matches, add the next character and check again.",
+      "If the complete password gets a match, it is time to change your password!"
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Out of interest, check the password 123456789 and see how many times it has been seen. Later in the course you'll study how to create secure passwords."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-19",
+   "title": "High-profile breaches: attacking online identities",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_8.jpg",
+     "alt": "A dark, grungy wall with yellow and black hazard stripes and a radiation symbol with the word DANGER",
+     "caption": "Figure 3"
+    },
+    {
+     "t": "p",
+     "text": "Attacks range from obtaining users' personal information to attacking critical national infrastructure and stealing companies' proprietary data. Here are high-profile breaches that caused major financial losses and reputational damage."
+    },
+    {
+     "t": "p",
+     "text": "**Adobe**, whose software lays out much of the world's published material, stored names, addresses and credit card details of tens of millions of users. In October 2013 it admitted data from 2.9 million accounts had been stolen; this was revised to 38 million, but the file found online held 153 million accounts, much of it readable. The attackers had also reached Adobe's development servers and stolen program code potentially worth billions. Adobe had to reset every user's login details and greatly improve its security - and users sued."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-20",
+   "title": "Fast forward to 2019",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Is Adobe alone, or are other companies holding valuable data but not protecting it properly? In 2019:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "a huge database of 49 million Instagram accounts was exposed online without any password protection (TechCrunch, 2019a)",
+      "a database containing hundreds of millions of phone numbers linked to Facebook accounts was left exposed online (TechCrunch, 2019b)",
+      "personal data of the entire population of Ecuador - 20.8 million records, some including bank balances - was available online (ZDNet, 2019)."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "You can check whether your email address was in the stolen Adobe data by entering it at haveibeenpwned.com."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-21",
+   "title": "Attacking industrial systems: Stuxnet",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Centrifuges enrich uranium for nuclear power or, at high enrichment, for nuclear weapons, so the technology is tightly controlled. Iran developed centrifuges, ostensibly for its legal civil nuclear programme, though it is sometimes suspected they might be for a bomb."
+    },
+    {
+     "t": "p",
+     "text": "In summer 2010 an antivirus company in Belarus discovered new Windows malware, dubbed **Stuxnet**, that attacked a very specific set of computer-controlled high-speed Siemens motors. It rapidly sped them up and slowed them down, causing irreparable damage to whatever was connected - among other things, uranium centrifuges."
+    },
+    {
+     "t": "p",
+     "text": "Its very specific targets make many believe it was built to disrupt Iran's enrichment programme. By autumn 2010 the Israeli paper Haaretz reported that Iran's centrifuges had produced less uranium and the programme had repeatedly stopped and started; others reported large numbers of damaged centrifuges being removed."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-22",
+   "title": "More attacks on industry",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "**Ukraine, 2016:** a serious attack on the power grid apparently aimed to disable safety monitoring so operators wouldn't know safety equipment was off - risking catastrophic damage when restoring power. It targeted a known vulnerability in a Siemens Siprotec protective relay; a patch was available but may not have been installed.",
+      "**Petro Rabigh, Saudi Arabia, 2017:** malware shut down the oil refinery. Dragos suggested it was probing the plant's industrial control systems and accidentally triggered the shutdown. The same group, named **XENOTIME**, was later found probing electricity transmission control systems in the US and Europe.",
+      "**Norsk Hydro, 2019:** a week after a crippling LockerGoga ransomware infection, the Norwegian aluminium producer estimated losses of $40 million. Whether targeted or random, it shows the risk to industrial operations from attacks on IT infrastructure."
+     ]
+    },
+    {
+     "t": "quiz",
+     "id": "cyber1-q5",
+     "q": "What did the Equifax and Ukrainian power grid attacks have in common?",
+     "options": [
+      "Both used ransomware",
+      "Both exploited a known vulnerability for which a patch was available",
+      "Both were carried out by insiders",
+      "Both stole credit card numbers"
+     ],
+     "answer": 1,
+     "explain": "Equifax failed to install an issued Apache Struts patch; the Siemens Siprotec relay attacked in Ukraine also had a patch available that may not have been installed."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-23",
+   "title": "Attacking specific targets: Target",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "In December 2013 the US retailer **Target** announced that hackers had stolen data belonging to 40 million customers. The attack began in late November and ran for weeks before detection; by then over 110 million accounts were compromised, including unencrypted card data and encrypted PIN data. By February 2014 US banks had replaced more than 17 million cards at a cost of over $172 million."
+    },
+    {
+     "t": "p",
+     "text": "The weakness lay outside the company. Target let other firms access its internal networks to submit bills and contracts. An employee of its heating, ventilation and air conditioning (HVAC) contractor received an email apparently from a trusted partner; it was fake and carried malware. Targeted at a very specific audience, this is called **spear phishing**. The malware retrieved the contractor's Target network credentials - and because Target used a single network for all its data, the attackers could eventually find and steal customer data."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-24",
+   "title": "Advanced persistent threats",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "The Target attack is an example of an **advanced persistent threat**: rather than attacking the retailer directly, the hackers chose an external company far less likely to detect and defend against an attack, used a spear-phishing email to lull it into a false sense of security, and used the stolen credentials to attack Target itself.",
+     "title": "Key idea"
+    },
+    {
+     "t": "p",
+     "text": "In 2017 Target paid an $18.5 million settlement and agreed to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "develop and maintain a comprehensive information security program",
+      "maintain software and encryption to safeguard personal information",
+      "separate cardholder data from the rest of its network",
+      "rigorously control who has access to the network",
+      "bring in an independent, well-qualified third party for regular, comprehensive security assessments",
+      "hire an executive to run the security program and advise the CEO and board."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber1-25",
+   "title": "You don't need to be huge to be targeted",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "An employee handling company finances knew a meeting to finalise an acquisition was in progress. He received an email: 'Hey, the deal is done. Please wire $8m to this account to finalise the acquisition ASAP.' He sent the money - and alarm bells rang only when the company being acquired asked why it hadn't been paid. The criminal clearly knew of the meeting, most likely by intercepting emails over days or weeks."
+    },
+    {
+     "t": "p",
+     "text": "Private individuals are attacked this way too - for example by someone outside a home snooping on a WiFi network that isn't password protected, or on a local tradesman's or estate agent's WiFi, waiting for an email showing an invoice is due. The hacker then sends an identical invoice with a different account for payment."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber1-q6",
+     "q": "Which attack technique was used against Target's HVAC contractor?",
+     "options": [
+      "Brute force password guessing",
+      "Spear phishing",
+      "A denial-of-service attack",
+      "Stealing a laptop"
+     ],
+     "answer": 1,
+     "explain": "A fake email, targeted at that specific company and appearing to come from a trusted partner, carried the malware - spear phishing."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-26",
+   "title": "Activity 1: Describing cyber security breaches",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "*Allow about 10 minutes.*"
+    },
+    {
+     "t": "activity",
+     "id": "cyber1-a1",
+     "title": "Activity 1 Describing cyber security breaches",
+     "prompt": "Choose one of the example attacks: Adobe, Stuxnet or Target. Using the terminology you've learned so far, write a brief description of the attack that might explain it to other learners. Include the CIA concepts that are relevant, whether malware was involved and what type it was, and the asset that was affected.",
+     "model": "Target: attackers sent a spear-phishing email to Target's HVAC contractor; malware in it stole the contractor's network credentials. Because Target used one network for everything, the attackers reached and stole data on over 110 million customer accounts, including card details. The information assets were customers' card and personal data; confidentiality was breached, while availability and integrity were largely unaffected. (Stuxnet, by contrast, was malware that attacked the integrity and availability of industrial systems by altering motor speeds; Adobe was a confidentiality breach of user accounts and source code.)",
+     "points": [
+      "Names the attack and briefly explains how the attackers got in",
+      "Identifies which CIA principle(s) were violated and which were not",
+      "States whether malware was involved and what kind",
+      "Identifies the information asset that was affected"
+     ],
+     "hint": "Think about confidentiality, integrity and availability separately."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-27",
+   "title": "Taking stock of your information assets",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_9.jpg",
+     "alt": "Screenshot of a computer's file browser showing folders such as books_music, family_stuff, household_documents, shopping and work_email",
+     "caption": "Figure 5"
+    },
+    {
+     "t": "p",
+     "text": "Before you can protect your corner of cyberspace, you need to know what information you have that needs protection: your information assets. Personal correspondence, photographs, work documents, your National Insurance number, insurance details and passwords for online services are all examples."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Value can mean the cost to replace information, in time or money, or the impact of its loss on your reputation - for example, if all your emails or photographs were published online."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-28",
+   "title": "Activity 2: Your information assets",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "*Allow about 15 minutes.* Keep this list (e.g. in a spreadsheet) - you'll use it later in the course. You won't be asked to share its details."
+    },
+    {
+     "t": "activity",
+     "id": "cyber1-a2",
+     "title": "Activity 2 Your information assets",
+     "prompt": "Compile a list of the different types of information you store on your computer or online. For each, label its value to you as High, Medium or Low. Then do the same for the online activities you engage in (e.g. online banking, shopping, social networking), labelling each by the potential cost of an unauthorised person gaining access to it. Summarise your main items and ratings here.",
+     "model": "Example: High - online banking login, scans of passport and National Insurance number, irreplaceable family photographs, work documents. Medium - email archive, shopping accounts with stored card details, social networking. Low - music collection that can be re-downloaded, newspaper subscription. Ratings reflect the time or money needed to replace each item and the damage to reputation or finances if it were exposed or misused.",
+     "points": [
+      "Lists several different types of stored information",
+      "Rates each item as High, Medium or Low value",
+      "Bases value on replacement cost or impact of loss or exposure",
+      "Also lists and rates online activities such as banking, shopping or social networking"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber1-29",
+   "title": "What are your own safeguards?",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_10.jpg",
+     "alt": "Abstract image of a person's face in profile, repeated several times, glowing with light and data",
+     "caption": "Figure 6"
+    },
+    {
+     "t": "p",
+     "text": "Take stock of your own safeguards against data loss, unwarranted access or malicious software. On OpenLearn this is an anonymous multiple-choice survey about your current habits - there are no right or wrong answers; you pick the option closest to how you use your computer."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "Filling in online surveys is not something to do without considering the risk. Many are designed to capture saleable information, or information for phishing or identity theft, often with a small prize as bait. Your online security is worth far more than any possible prize.",
+     "title": "Think before you fill in surveys"
+    },
+    {
+     "t": "tf",
+     "id": "cyber1-q7",
+     "q": "A survey offering a prize is a safe way to share personal details, as long as the prize is small.",
+     "answer": false,
+     "explain": "Surveys can be designed to harvest information for phishing or identity theft; the prize is bait. Your security is worth more than any prize."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-30",
+   "title": "Understanding current threats",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_11.jpg",
+     "alt": "Dark storm clouds gathering above a green field",
+     "caption": "Figure 7"
+    },
+    {
+     "t": "p",
+     "text": "Now you know what information assets you have, you'll look at how they can be compromised. Three terms are used throughout:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**vulnerability** - a point at which there is potential for a security breach",
+      "**threat** - some danger that can exploit a vulnerability",
+      "**countermeasure** - action you take to protect your information against threats and vulnerabilities."
+     ]
+    },
+    {
+     "t": "quiz",
+     "id": "cyber1-q8",
+     "q": "An unpatched web server that attackers could break into is best described as a:",
+     "options": [
+      "Threat",
+      "Vulnerability",
+      "Countermeasure",
+      "Information asset"
+     ],
+     "answer": 1,
+     "explain": "A vulnerability is a point where there is potential for a breach; the attacker exploiting it is the threat, and installing the patch would be a countermeasure."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-31",
+   "title": "The growing threat",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Threats include unauthorised access to data to commit fraud against individuals or businesses. At the extreme, systematic disruption of networks and services puts cyber threats on a par with terrorism. The UK government set up the **National Cyber Security Centre (NCSC)** as its single authority on cyber security - improving understanding of the threat, reducing harm from attacks and providing a unified source of advice and support."
+    },
+    {
+     "t": "p",
+     "text": "A 2018 NCSC report highlighted that threats to UK businesses continue to grow, especially ransomware and distributed denial of service (DDoS) attacks. New threats are found all the time and can affect any operating system - Windows, Mac OS, Linux, Android and iOS - and the growing number of Internet of Things devices on our networks adds more. So keep up to date with the latest cyber security news."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-32",
+   "title": "Identifying vulnerable systems",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The first step in protecting systems is to identify whether there are any vulnerabilities. Networked devices embedded in everyday things - the **Internet of Things (IoT)** - pose a significant challenge: Smart TVs and internet-connected security cameras already have vulnerabilities, from out-of-date software to no cryptography at all."
+    },
+    {
+     "t": "video",
+     "title": "Shodan: finding vulnerable devices",
+     "url": null,
+     "note": "Shodan is a search engine that stores information about devices connected to the internet - servers, routers, switches and IoT devices. It scans network ports and retrieves 'banners': text showing the services a device offers, its software, when it was updated and sometimes default usernames and passwords (e.g. 'admin' / '1234'). Many devices never have their defaults changed. The narrator searches for Siemens PLCs running the same System 7 software as the Natanz enrichment plant (port 102), finds one released in 2012 whose production ended in 2014, and a 2014 US Department of Homeland Security advisory listing six vulnerabilities in that PLC family, used in critical sectors. Siemens advised updating to firmware version 4, but the PLC still runs vulnerable version 3. Trying to log in would be a crime under the Computer Misuse Act 1990 - so think carefully about how you use such tools."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-33",
+   "title": "Shodan and the law",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Shodan catalogues millions of internet-connected devices, collecting their operating systems, configurations and sometimes default usernames and passwords. Using Shodan to find computers is legal - but it is an offence under the **Computer Misuse Act 1990** to try to gain access to a computer without authorisation, and you could be found guilty even if you failed to get in. It is incredibly easy to break the law if you misuse information from Shodan, so don't do it!"
+    },
+    {
+     "t": "p",
+     "text": "Securing IoT is a multi-pronged effort: researchers in academia and industry are developing new technology, and engineers must be trained to make security and privacy a core part of designing every computer system."
+    },
+    {
+     "t": "tf",
+     "id": "cyber1-q9",
+     "q": "Under the Computer Misuse Act 1990 you only commit an offence if you actually succeed in getting into a computer without authorisation.",
+     "answer": false,
+     "explain": "Trying to gain unauthorised access is itself an offence - you could be found guilty even if you failed to get in."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-34",
+   "title": "How to keep up to date",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_13.jpg",
+     "alt": "Silhouette of a person holding a laptop, overlaid on a city skyline",
+     "caption": "Figure 8"
+    },
+    {
+     "t": "p",
+     "text": "Attackers constantly find new vulnerabilities, so stay informed about threats relevant to you. Many sources are highly technical, but there are plenty of free resources for newcomers. You don't need to read them all:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Government:** National Cyber Security Centre",
+      "**News sites:** BBC News Technology, Guardian Online Technology, The Telegraph Internet security, Bloomberg Cyber security - readable and frequently updated, but only cover 'newsworthy' events and may focus on one country",
+      "**Technology sites:** Wired - Threat level, Computer Weekly, The Hacker News, Info-Security magazine - use their search to find security topics"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber1-35",
+   "title": "Security companies and blogs",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "**Information security companies** such as Sophos labs (Naked Security), Microsoft and Apple keep websites on new and emerging threats. Much is technical, but the introductory material is often easy to follow, and they can be the best sources when a new issue is identified."
+    },
+    {
+     "t": "h",
+     "text": "Blogs"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Krebs On Security** - Brian Krebs, US investigative journalist covering profit-seeking cybercriminals; his interest grew after a worm locked him out of his computer in 2001.",
+      "**Graham Cluley** - award-winning security blogger and speaker, in the industry since the early 1990s (Sophos, McAfee, Dr Solomon's).",
+      "**Bruce Schneier** - renowned security technologist; monthly newsletter 'Crypto-gram', also as a podcast.",
+      "**Troy Hunt** - analyses system breaches with hints on avoiding attack."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber1-36",
+   "title": "Who can you trust?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Before you can identify your enemies you need to know who you can trust. You can't check every contact or piece of software yourself, so you build a network of trusted contacts and sources - and constantly evaluate how far you trust each. What is their expertise? Is one source simply copying another? You need sources with expertise that independently evaluate information."
+    },
+    {
+     "t": "p",
+     "text": "For example, you trust a bank because it has many high-street branches, is regulated by the Financial Conduct Authority in the UK, and deposits are legally protected (up to EUR100,000 in a regulated bank). Based on that, you may use its website or app."
+    },
+    {
+     "t": "p",
+     "text": "Even with trusted organisations, consider what information they need and what they might do with it. And you throw that security away if you post information about yourself where strangers - or friends of friends - can see it, including in web pages, photos or videos."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-37",
+   "title": "Information you shouldn't trust",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "**Profiles on dating websites:** there may be a genuine person, or a criminal. Scammers may keep exchanging messages for a year or more, using fake information and images taken from someone else's blog, even exchanging intimate pictures - until a plausible request for money for a plane fare, or blackmail. You have no basis for trust - only what they've told you.",
+      "**Bargain anti-malware adverts:** the link leads to a site full of glowing reviews claiming 'ranked number 1'. A criminal can easily build such a site with a payment cart. At best the software is useless; at worst it installs malware and takes repeated payments from your account."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "When searching for information on keeping yourself secure, evaluate your trust in the sources - and start from highly trusted ones."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber1-q10",
+     "q": "Why should you not trust a bargain anti-malware website full of excellent reviews?",
+     "options": [
+      "Reviews are always paid for",
+      "The site itself is the only evidence - a criminal can easily create the site, reviews and payment system",
+      "Anti-malware software is never needed",
+      "Cheap software is always out of date"
+     ],
+     "answer": 1,
+     "explain": "You have no independent basis for trust: everything you know comes from the site, which a criminal could have created to take payments and install malware."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-38",
+   "title": "Types of attacker",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Threats come from different kinds of individuals and organisations. Learn these four types before you research them in Activity 3."
+    },
+    {
+     "t": "match",
+     "id": "cyber1-m2",
+     "title": "Match each description to the type of attacker",
+     "pairs": [
+      {
+       "term": "Cybercriminal",
+       "def": "Carries out cyber attacks for personal financial gain"
+      },
+      {
+       "term": "Spy",
+       "def": "Carries out espionage for commercial organisations or national governments"
+      },
+      {
+       "term": "Hacktivist",
+       "def": "Attacks organisations or governments as a form of protest"
+      },
+      {
+       "term": "Insider attacker",
+       "def": "Disgruntled or dishonest staff attacking their own organisation's systems"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber1-39",
+   "title": "Activity 3: Knowing your enemies",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "*Allow about 20 minutes:* 10-15 minutes researching using the sources above, then five minutes noting your findings."
+    },
+    {
+     "t": "activity",
+     "id": "cyber1-a3",
+     "title": "Activity 3 Knowing your enemies",
+     "prompt": "Research (1) a threat to your information, computers and other devices that arises from malware, and (2) a threat to your communications, such as spam or denial of service (DoS) / distributed denial of service (DDoS) attacks, often launched using botnets. For each threat, identify who poses it: cybercriminals, spies, hacktivists or insider attackers. If you find a different type of attacker, how would you describe it?",
+     "model": "Example: ransomware such as LockerGoga encrypts files and demands payment - typically cybercriminals seeking financial gain. DDoS attacks launched from botnets flood websites with requests so they cannot cope; they may be run by cybercriminals (e.g. for extortion) or by hacktivists protesting against an organisation. Other attackers might include state-sponsored groups probing infrastructure, such as XENOTIME.",
+     "points": [
+      "Describes a malware-based threat to information or devices",
+      "Describes a threat to communications such as spam or DoS/DDoS via botnets",
+      "Identifies the type of attacker behind each threat",
+      "Uses trusted, up-to-date information sources"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber1-40",
+   "title": "Staying informed",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_14.jpg",
+     "alt": "A hand holding a tablet, with a finger of the other hand touching its screen",
+     "caption": "Figure 9"
+    },
+    {
+     "t": "p",
+     "text": "You now have ideas for staying up to date with developments in cyber security. Before continuing, plan some concrete steps - for example, subscribe to a blog by email or a feed reader such as Feedly, or follow updates on social media."
+    },
+    {
+     "t": "activity",
+     "id": "cyber1-a6",
+     "title": "Plan: staying informed",
+     "prompt": "Write down two or three concrete steps you will take to keep yourself informed about cyber security threats, naming the sources you will use and how often.",
+     "model": "I will subscribe to the NCSC's news and Troy Hunt's blog by email, add Naked Security and BBC News Technology to a feed reader such as Feedly, and spend ten minutes a week skimming them. When a big breach hits the news, I'll check a trusted source and haveibeenpwned.com.",
+     "points": [
+      "Names specific, trusted sources",
+      "Says how the updates will reach them (email, feed reader, social media)",
+      "Commits to a realistic routine or frequency"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber1-41",
+   "title": "Securing my digital information",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_15.jpg",
+     "alt": "Three photos: online banking card readers on a keyboard, a man photographing a plate of food with a phone, and people using a keyboard and a phone",
+     "caption": "Figure 10"
+    },
+    {
+     "t": "p",
+     "text": "Most of us rely on the internet for everyday tasks such as shopping, working, banking or social networking - often without stopping to think about the security issues involved."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Remember the three headings. We want our information to be read only by the right people (**confidentiality**), changed only by authorised people or processes (**integrity**), and available whenever we want (**availability**).",
+     "title": "Questions to consider"
+    }
+   ]
+  },
+  {
+   "id": "cyber1-42",
+   "title": "Activity 4: Securing your information",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "*Allow about 15 minutes.*"
+    },
+    {
+     "t": "activity",
+     "id": "cyber1-a4",
+     "title": "Activity 4 Securing your information",
+     "prompt": "Choose one activity and think about the main security issues that might threaten it: online banking (checking a balance or making a payment); online shopping (especially from a new store you don't recognise); social networking (would you add someone as a 'friend' you hadn't met?); or working from home (transferring confidential documents between team members). Use confidentiality, integrity and availability to organise your answer.",
+     "model": "Working from home: emailing a confidential file is insecure - email is easily intercepted and you might send it to the wrong person. Cloud services (Dropbox, Google Drive, OneDrive) need careful sharing settings and you may worry about hackers. Posting a USB drive risks loss, theft or an attacker adding malware to infect your organisation. Encrypting the file protects it in transit, but your colleague must know how to decrypt it.",
+     "points": [
+      "Picks one activity and identifies specific threats to it",
+      "Considers confidentiality: who could read or intercept the information",
+      "Considers integrity and availability, e.g. tampering, malware or losing access",
+      "Suggests countermeasures such as encryption or checking a site before trusting it"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber1-43",
+   "title": "Case study: working from home",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "When working from home you may need to share a confidential file with a colleague elsewhere.",
+     "title": "Model answer to Activity 4"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Email it:** not secure - email is easily intercepted en route, and you might send it to the wrong person.",
+      "**Cloud storage** (Dropbox, Google Drive, Microsoft OneDrive): you must make sure your colleague can access the file, and you may worry about the cloud service's security against hackers.",
+      "**Post a USB flash drive:** it could be lost, stolen or intercepted by an attacker who adds malware to infect your organisation's computers.",
+      "**Encrypt the file:** you can email it knowing no one else can read it - but your colleague must know how to use the encryption software to decrypt it."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber1-44",
+   "title": "Threats to your assets",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_16.jpg",
+     "alt": "A digital handprint surrounded by a fingerprint, a person outline, and a 'Personal Data' list with name, home address and passport number",
+     "caption": "Figure 11"
+    },
+    {
+     "t": "p",
+     "text": "For many people threats most likely arrive as emails or attachments. Another significant threat is mobile apps that are not what they seem. In 2019 Sophos reported apps that hide their icons and use other tricks to stop users uninstalling them while aggressively showing adverts. Other examples:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "utility apps that initially contain no malware but include code to download it later - e.g. to collect banking details or lock you out of your phone until you pay",
+      "a VPN client that installs a trojan designed to capture banking details",
+      "**fleeceware** - apps offering a 'free trial' that ask for banking details first; users are still charged a large amount after uninstalling unless they explicitly cancel the trial."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber1-45",
+   "title": "Activity 5: Your threats",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "*Allow about 5 minutes.* Sophos publishes up-to-date reports on Android malware if you want more examples."
+    },
+    {
+     "t": "activity",
+     "id": "cyber1-a5",
+     "title": "Activity 5 Your threats",
+     "prompt": "Update the list of information assets and online activities you compiled in Activity 2. Add any threats that are relevant to each asset, and save the list to use later in the course. Note the main asset-threat pairs here.",
+     "model": "Online banking (High): phishing emails and fake banking apps or trojans capturing login details. Family photos (High): ransomware encrypting files, loss of the device. Email account (Medium): password reuse after a breach, phishing. Social networking (Medium): fake profiles and oversharing personal details useful for identity theft.",
+     "points": [
+      "Links each important asset or activity to specific threats",
+      "Includes email-borne threats such as phishing",
+      "Includes malware threats such as ransomware, spyware or malicious apps",
+      "Keeps the list for later in the course"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber1-46",
+   "title": "Key terms of Week 1",
+   "blocks": [
+    {
+     "t": "flash",
+     "cards": [
+      {
+       "front": "CIA",
+       "back": "Confidentiality, integrity and availability - the guiding principles of information security"
+      },
+      {
+       "front": "Information assets",
+       "back": "Valuable data that needs protection"
+      },
+      {
+       "front": "Malware",
+       "back": "Malicious software that attempts to harm computers"
+      },
+      {
+       "front": "Phishing",
+       "back": "A form of social engineering - fraudulent emails or messages that trick people into giving away details"
+      },
+      {
+       "front": "Spear phishing",
+       "back": "Phishing targeted at a very specific person or organisation"
+      },
+      {
+       "front": "Vulnerability",
+       "back": "A point at which there is potential for a security breach"
+      },
+      {
+       "front": "Threat",
+       "back": "Some danger that can exploit a vulnerability"
+      },
+      {
+       "front": "Countermeasure",
+       "back": "Action you take to protect information against threats and vulnerabilities"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber1-47",
+   "title": "Summary of Week 1",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_17.jpg",
+     "alt": "A padlock with a key inserted, resting on a circuit board",
+     "caption": "Figure 12"
+    },
+    {
+     "t": "p",
+     "text": "This week you explored the security threats that could affect your digital information and use of online services. You learned how to keep your knowledge of these threats up to date and started relating them to your own information assets and online activities. In the coming weeks you'll explore the ways these threats can become attacks."
+    },
+    {
+     "t": "p",
+     "text": "You also saw how attacks can affect a wide variety of systems. As most everyday devices become connected to the internet - the 'Internet of Things' - we'll face a growing range of threats and cyber security will become increasingly important."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Optional further reading: Microsoft Security Response Centre; Microsoft guidance on turning automatic updates on or off; Apple Product Security; the UK Cyber Governance Health Check of FTSE 350 firms; NCSC threat listing and its report on the cyber threat to UK business 2017-2018.",
+     "title": "Further reading"
+    }
+   ]
+  },
+  {
+   "id": "cyber1-48",
+   "title": "Week 1 quiz (1 of 3)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "cyber1-q11",
+     "q": "In the CIA principles, what does 'integrity' mean?",
+     "options": [
+      "Information can be read only by the right people",
+      "Information can only be changed by authorised people or processes",
+      "Information is available whenever we want it",
+      "Users cannot deny sending a message"
+     ],
+     "answer": 1,
+     "explain": "Integrity is about information being changed only by authorised people or processes."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber1-q12",
+     "q": "Which type of malware records what you type, such as passwords, and sends it to the malware's author?",
+     "options": [
+      "Ransomware",
+      "Spyware",
+      "A botnet",
+      "Fleeceware"
+     ],
+     "answer": 1,
+     "explain": "Spyware records the user's activities and transmits them to the person who wrote the malware."
+    },
+    {
+     "t": "tf",
+     "id": "cyber1-q13",
+     "q": "Non-repudiation means a user cannot later deny having sent a message or carried out an online transaction.",
+     "answer": true,
+     "explain": "Non-repudiation stops a user claiming, for example, that they didn't send a payment after the bank has transferred it."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-49",
+   "title": "Week 1 quiz (2 of 3)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "cyber1-q14",
+     "q": "How did the attackers first get into Target's network?",
+     "options": [
+      "By guessing an administrator's password",
+      "Through a heating, ventilation and air conditioning contractor whose credentials were stolen via spear phishing",
+      "By breaking into a store's tills",
+      "Through an unpatched Apache Struts server"
+     ],
+     "answer": 1,
+     "explain": "Malware in a spear-phishing email to the HVAC contractor stole its Target network credentials; Target's single network then let the attackers reach customer data."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber1-q15",
+     "q": "Which of these are lessons from the breaches studied this week? Select all that apply.",
+     "options": [
+      "Install security patches promptly",
+      "Separate sensitive data from the rest of the network",
+      "Third-party contractors can be a route into an organisation",
+      "Only large companies are ever targeted"
+     ],
+     "answer": [
+      0,
+      1,
+      2
+     ],
+     "explain": "Equifax and the Ukrainian grid involved unpatched systems; Target needed to separate cardholder data and was entered via a contractor. Small companies and individuals are targeted too.",
+     "multi": true
+    },
+    {
+     "t": "quiz",
+     "id": "cyber1-q16",
+     "q": "What did the Stuxnet malware do?",
+     "options": [
+      "Encrypted files and demanded a ransom",
+      "Rapidly changed the speed of specific Siemens-controlled motors, damaging equipment such as uranium centrifuges",
+      "Stole credit card data from a retailer",
+      "Sent spam emails from infected computers"
+     ],
+     "answer": 1,
+     "explain": "Stuxnet targeted computer-controlled Siemens high-speed motors, damaging what was connected to them - among other things, centrifuges."
+    }
+   ]
+  },
+  {
+   "id": "cyber1-50",
+   "title": "Week 1 quiz (3 of 3)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "cyber1-q17",
+     "q": "When checking a password at haveibeenpwned.com/Passwords, what does the course advise?",
+     "options": [
+      "Type the complete password straight away",
+      "Start with the first few characters and add one character at a time while it keeps matching",
+      "Never check passwords there",
+      "Email the password to the site"
+     ],
+     "answer": 1,
+     "explain": "Start with the first few characters; if there's no match it's safe; if there's a match, add a character and check again - a full match means change your password."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber1-q18",
+     "q": "Which UK body acts as the government's single authority on cyber security?",
+     "options": [
+      "The Financial Conduct Authority",
+      "The National Cyber Security Centre",
+      "The Department for Digital, Culture, Media and Sport",
+      "Sophos"
+     ],
+     "answer": 1,
+     "explain": "The National Cyber Security Centre improves understanding of the threat, reduces harm from attacks and provides unified advice and support."
+    },
+    {
+     "t": "tf",
+     "id": "cyber1-q19",
+     "q": "Using the Shodan search engine to find computers connected to the internet is itself illegal.",
+     "answer": false,
+     "explain": "Using Shodan to find computers is legal; trying to gain access to a computer without authorisation is an offence under the Computer Misuse Act 1990."
+    }
+   ]
+  }
+ ]
+}

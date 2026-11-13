@@ -1,0 +1,611 @@
+{
+ "id": "hybrid2",
+ "title": "The digital divide and inclusion",
+ "summary": "The digital divide, digital inclusion for hybrid workers, and using the Jisc digital capabilities framework.",
+ "minutes": 80,
+ "pages": [
+  {
+   "id": "hybrid2-01",
+   "title": "The digital divide and inclusion",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "The digital divide is the gap between people in society who have full access to digital technologies (such as the internet and computers) and those who do not (UK Parliament, 2020).",
+     "title": "Digital divide"
+    },
+    {
+     "t": "h",
+     "text": "In this section you will:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "explore how the digital divide affects people's lives and work",
+      "look at the scale of digital exclusion in Wales and how organisations can support digital inclusion for hybrid workers",
+      "explore the Jisc digital capabilities framework and how institutions use it to build digital capabilities."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid2-02",
+   "title": "Why the divide matters",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The pandemic highlighted the digital divide. During home-schooling there were frequent media reports of children without the technology to join remote lessons. Many people could not shop online due to lack of access to technology, digital capabilities or poor infrastructure - often lack of internet access."
+    },
+    {
+     "t": "quote",
+     "text": "A lack of digital skills and access can have a huge negative impact on a person's life, leading to poorer health outcomes and a lower life expectancy, increased loneliness and social isolation, less access to jobs and education. It can mean paying more for essentials, financial exclusion, an increased risk of experiencing poverty. People who are digitally excluded also lack a voice and visibility in the modern world, as government services and democracy increasingly move online. What's more, it's those already at a disadvantage - through age, education, income, disability, or unemployment - who are most likely to be missing out, further widening the social inequality gap.",
+     "by": "Good Things Foundation (2021)"
+    }
+   ]
+  },
+  {
+   "id": "hybrid2-03",
+   "title": "Digital exclusion in Wales",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The Welsh Government's report on digital inclusion and basic digital skills (gov.wales, 2020) indicates that:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "60,000 personal internet users (aged 16 or over) can't demonstrate the skill of using a search engine",
+      "730,000 personal internet users can't demonstrate the skills of managing privacy settings",
+      "19% of disabled people do not personally use the internet and are therefore deemed digitally excluded",
+      "76% of social housing tenants have internet access, compared to 90% of owner occupiers."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "The *Digital inclusion and basic digital skills in Wales: 2019-2020* infographic, which summarises the Welsh Government's strategy *Digital inclusion forward look: towards a digitally confident Wales*, captures the scale of the divide. Some numbers may seem low, but those in the digital divide are often the most vulnerable, excluded from basic inclusion in society, or in areas where digital infrastructure is limited."
+    }
+   ]
+  },
+  {
+   "id": "hybrid2-04",
+   "title": "Check: the scale of the divide",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "hybrid2-q1",
+     "q": "According to the Welsh Government (2020), what percentage of disabled people do not personally use the internet and are deemed digitally excluded?",
+     "options": [
+      "9%",
+      "19%",
+      "76%",
+      "90%"
+     ],
+     "answer": 1,
+     "explain": "19% of disabled people do not personally use the internet. 76% and 90% are the internet-access figures for social housing tenants and owner occupiers."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "The people most likely to be excluded are often those who are already most vulnerable."
+    }
+   ]
+  },
+  {
+   "id": "hybrid2-05",
+   "title": "Video: digital inclusion and the digital divide (1)",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Digital inclusion and the digital divide",
+     "url": null,
+     "note": "Contributors share their insights about digital inclusion and how to narrow the digital divide: Jessica Leigh Jones, Gemma Hallett, Matt Wintle, Michael Woods, Natasha Davies and Jo Parker."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Jessica Leigh Jones:** digital is a key enabler of the Well-being of Future Generations Act's goals, but it can be a double-edged sword. An SMS-based adult social care process cut waiting times, yet 12% of households in Wales lack proper broadband or mobile signal and would be excluded. Living rurally, she can't use two-factor authentication by text. Developers must think beyond what the majority can access, and FE/HE can offer short, sharp upskilling.",
+      "**Gemma Hallett:** we can't assume everyone arrives with digital skills, especially in rural Wales and areas of generational poverty. Hybrid models let Cardiff companies employ people from the valleys without travel - but if skills are missing, jobs go remote elsewhere. 99.7% of Welsh businesses are SMEs, with few resources to upskill staff."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid2-06",
+   "title": "Video: digital inclusion and the digital divide (2)",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "**Matt Wintle:** equality for people working from home means the same opportunities and an equal working environment - through financial and technical support - rather than a two-tier system. Leave even a few people behind and a positive culture starts to break down.",
+      "**Michael Woods:** working from home needs reliable broadband, so growth may be geographically uneven. Organisations could support staff in areas with weak infrastructure, e.g. through remote hubs or communal workspaces in small towns, perhaps joined to libraries.",
+      "**Natasha Davies:** without action on different levels of digital skill we risk excluding people. Invest in basic digital skills for a good baseline, help staff and leaders to embrace new technology, and think about equality when designing meetings, collaborative spaces and socials. The Welsh Government aims for 30% of the workforce to work away from the office."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Jo Parker: for digital inclusion, there are three key things to think about - have you got the **kit**, have you got the **space**, have you got the **skills**? You can't make one size fit all.",
+     "title": "Kit, space, skills"
+    }
+   ]
+  },
+  {
+   "id": "hybrid2-07",
+   "title": "Check: who said what?",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "hybrid2-m1",
+     "title": "Match each point from the video to the contributor",
+     "pairs": [
+      {
+       "term": "Jessica Leigh Jones",
+       "def": "12% of households in Wales lack proper broadband or mobile signal, so they can be excluded from SMS-based services"
+      },
+      {
+       "term": "Gemma Hallett",
+       "def": "Hybrid models let Cardiff companies employ people from the valleys without them having to travel"
+      },
+      {
+       "term": "Matt Wintle",
+       "def": "Give home workers financial and technical support so there is no two-tier system"
+      },
+      {
+       "term": "Michael Woods",
+       "def": "Communal workspaces and hubs in small towns could give access to fast broadband"
+      },
+      {
+       "term": "Natasha Davies",
+       "def": "The Welsh Government aims for 30% of the workforce to work away from the office"
+      },
+      {
+       "term": "Jo Parker",
+       "def": "Have you got the kit, the space and the skills?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid2-08",
+   "title": "Activity 5 Research the digital divide and inclusion",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Understanding the digital divide and approaches to closing the gap within your organisation and local community is essential. It can be overlooked when thinking about inclusion, because of an assumption that if you are working you already have the basic skills and access to infrastructure. As more people work in a hybrid way, the digital inclusion needs of remote workers may go unnoticed."
+    },
+    {
+     "t": "activity",
+     "id": "hybrid2-a5",
+     "title": "Activity 5 Research the digital divide and inclusion",
+     "prompt": "Reflect on the video, then do your own research into the digital divide and inclusion (useful sources: the Welsh Government's 'Digital inclusion forward look: towards a digitally confident Wales', the Good Things Foundation's 'The digital divide', Digital Communities Wales, and OpenLearn's 'Inclusive education: knowing what we mean (Wales)'). Do you recognise any of the challenges raised in relation to your own personal circumstances? What do you feel organisations should focus on, and how might they do this?",
+     "model": "Challenges you may recognise include poor broadband or mobile signal (especially in rural areas), lack of a suitable space to work at home, lack of equipment, and gaps in digital skills or confidence. Organisations should not assume that everyone who works already has the skills and access they need. They could focus on providing kit, space and skills: financial and technical support for home workers, investment in basic digital skills for everyone, access to hubs or communal workspaces, and considering equality and inclusion in how they choose technology and structure meetings and collaboration.",
+     "points": [
+      "Don't assume workers already have the skills and access they need.",
+      "Access: broadband, mobile signal and equipment (kit).",
+      "A suitable space to work at home, or hubs and communal workspaces.",
+      "Invest in basic digital skills and confidence for everyone.",
+      "Consider equality and inclusion when choosing tools and designing meetings."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid2-09",
+   "title": "2.1 A framework for building digital capabilities",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Many higher education and further education institutions have adopted the **Jisc digital capabilities framework**. It expresses the essential digital skills every adult should have in the context of the workplace, and provides a means of articulating and understanding digital capabilities in an FE/HE setting. The framework states that:"
+    },
+    {
+     "t": "quote",
+     "text": "At an individual level we define digital capabilities as those which equip someone to live, learn and work in a digital society. At an organisational level we need to look beyond the capabilities of individuals and consider the extent to which the culture and infrastructure of an institution enables and motivates digital practices.",
+     "by": "Jisc (n.d.)"
+    }
+   ]
+  },
+  {
+   "id": "hybrid2-10",
+   "title": "The individual and organisational elements",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The framework defines six elements at each level (Table 4)."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Individual digital capability",
+      "Organisational digital capability"
+     ],
+     "rows": [
+      [
+       "Digital proficiency and productivity (functional skills)",
+       "Organisational digital culture"
+      ],
+      [
+       "Information, data and media literacies (critical use)",
+       "Content and information"
+      ],
+      [
+       "Digital creation, problem solving and innovation (creative production)",
+       "Research and innovation"
+      ],
+      [
+       "Digital communication, collaboration and participation (participation)",
+       "Communication"
+      ],
+      [
+       "Digital learning and development (development)",
+       "Learning, teaching and assessment"
+      ],
+      [
+       "Digital identity and wellbeing (self-actualising)",
+       "ICT infrastructure"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid2-11",
+   "title": "Video: the Jisc framework explained",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "A framework for building digital capabilities",
+     "url": null,
+     "note": "Dr Becki Vickerstaff, Higher Education Senior Consultant at Jisc, explains the framework. It looks at digital capability from a higher level, was developed in collaboration with the sector, and is used by many institutions nationally and internationally. Its six main areas stem off into a further 15 areas."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**ICT proficiency** - digital proficiency and productivity: using technologies and methods effectively.",
+      "**Information, data and media literacies** - retrieving information and knowing what to do with it.",
+      "**Digital creation, problem solving and innovation** - including digital research.",
+      "**Digital communication, collaboration and participation** - choosing the right platform to work together online, safely.",
+      "**Digital learning and development** - digital learning and digital teaching.",
+      "**Digital identity and wellbeing** - runs across the whole framework: your digital footprint, time online, staying safe, online bullying."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid2-12",
+   "title": "Check: the six individual elements",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "hybrid2-m2",
+     "title": "Match each description to the Jisc framework element",
+     "pairs": [
+      {
+       "term": "Digital proficiency and productivity",
+       "def": "Using ICT tools, devices and software confidently, choosing the right tool for the job"
+      },
+      {
+       "term": "Information, data and media literacies",
+       "def": "Finding, evaluating and managing information, and using data to inform decisions"
+      },
+      {
+       "term": "Digital creation, problem solving and innovation",
+       "def": "Designing new digital materials and adopting new digital practices"
+      },
+      {
+       "term": "Digital communication, collaboration and participation",
+       "def": "Working effectively in digital teams and building digital networks"
+      },
+      {
+       "term": "Digital learning and development",
+       "def": "Taking part in digital learning and supporting others to teach in digital settings"
+      },
+      {
+       "term": "Digital identity and wellbeing",
+       "def": "Managing your digital reputation and looking after your health and work-life balance online"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid2-13",
+   "title": "One size does not fit all",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "When thinking about a digital capabilities framework, define the following so that you understand the digital skills and behaviours needed for different contexts within your HEI - one size does not fit all!"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "**People:** the group of people who need the skills",
+      "**Places:** the context in which they need to use the skills",
+      "**Technology:** the tools and systems that they need the skills to use",
+      "**Period:** the time frame in which these skills are relevant (Orlik, 2018)."
+     ]
+    },
+    {
+     "t": "quiz",
+     "id": "hybrid2-q2",
+     "q": "In Orlik's (2018) four steps, what does 'Places' refer to?",
+     "options": [
+      "The buildings where staff work",
+      "The context in which people need to use the skills",
+      "The tools and systems people need to use",
+      "The time frame in which skills are relevant"
+     ],
+     "answer": 1,
+     "explain": "Places means the context in which the skills are used. Technology is the tools and systems; Period is the time frame."
+    }
+   ]
+  },
+  {
+   "id": "hybrid2-14",
+   "title": "Activity 6 Jisc's framework: how digitally confident are you?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Research the Jisc Digital Capabilities Framework in more detail. To assess yourself you could use the **Jisc Discovery Tool** (a self-assessment tool, if your HEI is a Jisc member) or **The Digital Competence Wheel** (if your organisation is not a member)."
+    },
+    {
+     "t": "activity",
+     "id": "hybrid2-a6",
+     "title": "Activity 6 Jisc's framework: how digitally confident are you?",
+     "prompt": "Consider what the Jisc framework means to you as an individual. Write a summary of how digitally confident and capable you are and identify the areas you would like to develop. Think about which digital skills and behaviours are important in your personal life and in your role. If you work in an HEI, also consider the digital skills and tools you use to operate effectively as an organisation, and the skills to provide the best outcomes for your students.",
+     "model": "A good summary works through the framework's areas - ICT proficiency; information, data and media literacy; digital creation, problem solving and innovation; communication, collaboration and participation; learning and development; and identity and wellbeing - and rates your confidence in each, with examples from home and work. The Open University, for example, has set Jisc's capabilities into its own context (see the next page) and added digital sustainability as an extra capability. Finish by naming the areas you want to develop and how.",
+     "points": [
+      "Rate your confidence across the framework's six areas.",
+      "Give examples from both your personal life and your role.",
+      "Identify specific areas you would like to develop.",
+      "Consider the skills needed for your organisation and, in an HEI, for students' outcomes."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid2-15",
+   "title": "How the OU applies the framework",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The Open University set Jisc's capabilities into its own context: subject experts from across the University collaborated to build and support digital capabilities through guidance, training, support and processes. 'This means that we...':"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Capability",
+      "This means that we..."
+     ],
+     "rows": [
+      [
+       "Using technology (ICT proficiency)",
+       "use ICT tools, devices, software and services confidently, choosing the right tool for the job"
+      ],
+      [
+       "Communication, collaboration and participation",
+       "communicate respectfully in digital spaces; collaborate in digital teams; build digital networks and behave safely and ethically"
+      ],
+      [
+       "Creation, problem solving and innovation",
+       "create new digital materials; use digital evidence to solve problems; adopt new digital practices"
+      ],
+      [
+       "Information, data and media literacy",
+       "find, evaluate, curate and ethically share information; use and protect data; evaluate and repurpose media, crediting creators"
+      ],
+      [
+       "Learning and teaching",
+       "benefit from digital learning; support others to teach in digital settings"
+      ],
+      [
+       "Identity, wellbeing and sustainability",
+       "manage our digital reputation; look after health, safety and work-life balance; work in a more digitally sustainable way to help meet net zero targets"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "Digital sustainability is an additional capability the OU has added; it is not part of the Jisc framework."
+    }
+   ]
+  },
+  {
+   "id": "hybrid2-16",
+   "title": "Using the Jisc framework",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Using the Jisc framework",
+     "url": null,
+     "note": "Becki Vickerstaff recaps what the framework is, then contributors discuss how it has been used in their organisations and areas to consider for the future."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Jo Parker (OU):** it lets you think about capability from an individual and an organisational perspective. The OU used it to shape its own digital and information literacy framework for students, and, for staff, to audit existing resources and build a hub that brings them together with a shared language.",
+      "**Sarah Jones (UWTSD):** the mapping 'has been done for us' - and resources such as LinkedIn Learning are already mapped to it.",
+      "**Becki Vickerstaff:** it builds consensus on what digital capability is and why it matters; institutions break it down and align it to their own provision. The pandemic accelerated digital tools and showed the need for a lifelong-learning attitude and transferable digital skills for graduates."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid2-17",
+   "title": "Creating digital resource areas",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Creating the DigiCentre: how institutions use the framework",
+     "url": null,
+     "note": "Becki Vickerstaff explains how the Jisc framework has been used to create digital resource areas that build the capabilities of staff and students."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**University of Wales Trinity Saint David:** a clear digital strategy and a dedicated hub aligned to the framework; the Discovery Tool lets individuals reflect safely on strengths and needs; embedded in induction and appraisals, with sessions for leaders, bespoke role profiles, workshops, and the LinkedIn Learning mapping.",
+      "**Edinburgh University:** mapped its own services to the framework and created a University Resource Finder to signpost staff; **student champions** acted as digital advocates training their peers; new bespoke programmes and a redesigned management and leadership course built senior buy-in."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Creating resources takes time - reuse good content that is already mapped to the framework."
+    }
+   ]
+  },
+  {
+   "id": "hybrid2-18",
+   "title": "The DigiCentre",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The University of Wales Trinity Saint David worked with Jisc to create the **DigiCentre**, its one-stop shop for digital skills needs."
+    },
+    {
+     "t": "video",
+     "title": "Creating the DigiCentre",
+     "url": null,
+     "note": "Sarah Jones, Head of Academic Services, Library and Learning Resources, University of Wales Trinity Saint David, discusses how the DigiCentre can be used and areas to consider."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Staff and students assess their skills with the Jisc Discovery Tool, which gives a private, personalised report; the institution sees only anonymised dashboard data to spot trends and needs.",
+      "Resources fill training gaps, with structured learning routes that earn a digital badge; as much as possible is freely available, not behind a login.",
+      "The main challenge is buy-in: listen to users and respond to their particular barriers. Top-level support is crucial."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Digital skills and capabilities are not so much about the technology - they are about people: their fears, their willingness to engage, and things working for them.",
+     "title": "Key learning"
+    }
+   ]
+  },
+  {
+   "id": "hybrid2-19",
+   "title": "Activity 7 Explore the DigiCentre",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "hybrid2-a7",
+     "title": "Activity 7 Explore the DigiCentre",
+     "prompt": "Take some time to explore the DigiCentre (digitalskills.uwtsd.ac.uk) and, if you wish, the Jisc case study 'University of Wales Trinity St David, Building digital capability'. Consider how you might approach developing resources to raise digital capabilities in your own organisation.",
+     "model": "A strong approach starts with people rather than technology: listen to users and find out their particular barriers, secure top-level support, time and investment, and offer a self-assessment (such as the Jisc Discovery Tool) so people can see their strengths and gaps privately. Then signpost existing resources mapped to a framework (for example LinkedIn Learning), provide structured learning routes such as short courses with digital badges, embed digital skills in induction and appraisals, roll out gradually to different groups, and make resources as open as possible.",
+     "points": [
+      "Start with people: listen to users and address their barriers.",
+      "Secure top-level support and investment.",
+      "Use a self-assessment tool and a framework to identify gaps.",
+      "Reuse and signpost existing mapped resources; offer structured routes or badges.",
+      "Embed it (induction, appraisals) and roll out gradually."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid2-20",
+   "title": "Summary",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "In this section you explored the digital divide - the gap between those who have full access to digital technologies and those who do not - and frameworks for building digital capabilities."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Digital exclusion can mean poorer health, isolation, financial exclusion and less access to jobs and education, and hits those already disadvantaged hardest.",
+      "In hybrid working, inclusion means thinking about kit, space and skills - don't assume every worker has access.",
+      "The Jisc framework has six individual and six organisational elements; define people, places, technology and period, because one size does not fit all.",
+      "Institutions such as UWTSD (DigiCentre) and Edinburgh adapted the framework, using the Discovery Tool, mapped resources and champions."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid2-21",
+   "title": "Section quiz (1 of 2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "hybrid2-q3",
+     "q": "Which of these is identified by the Good Things Foundation as a possible impact of lacking digital skills and access? (Choose all that apply.)",
+     "options": [
+      "Poorer health outcomes",
+      "Paying more for essentials",
+      "Increased loneliness and social isolation",
+      "Higher income"
+     ],
+     "answer": [
+      0,
+      1,
+      2
+     ],
+     "explain": "The Good Things Foundation lists poorer health outcomes, paying more for essentials and increased isolation, among others. Digital exclusion increases the risk of poverty, not income.",
+     "multi": true
+    },
+    {
+     "t": "tf",
+     "id": "hybrid2-q4",
+     "q": "When organisations move to hybrid working, it is safe to assume that everyone in work already has basic digital skills and access to infrastructure.",
+     "answer": false,
+     "explain": "The course warns that this assumption is why digital inclusion of remote workers may go unnoticed."
+    },
+    {
+     "t": "quiz",
+     "id": "hybrid2-q5",
+     "q": "Which of these is one of the six elements of the ORGANISATIONAL Jisc digital capability framework?",
+     "options": [
+      "Digital identity and wellbeing",
+      "ICT infrastructure",
+      "Digital learning and development",
+      "Digital proficiency and productivity"
+     ],
+     "answer": 1,
+     "explain": "ICT infrastructure is an organisational element. The other three are individual elements."
+    }
+   ]
+  },
+  {
+   "id": "hybrid2-22",
+   "title": "Section quiz (2 of 2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "hybrid2-q6",
+     "q": "What are Jo Parker's three key questions for being digitally inclusive?",
+     "options": [
+      "Budget, time and training",
+      "Kit, space and skills",
+      "People, places and period",
+      "Security, safety and wellbeing"
+     ],
+     "answer": 1,
+     "explain": "Have you got the kit, have you got the space, have you got the skills?"
+    },
+    {
+     "t": "tf",
+     "id": "hybrid2-q7",
+     "q": "Digital sustainability is one of the original six elements of the Jisc individual digital capability framework.",
+     "answer": false,
+     "explain": "The Open University added digital sustainability as an extra capability; it is not part of the Jisc framework."
+    },
+    {
+     "t": "quiz",
+     "id": "hybrid2-q8",
+     "q": "According to Sarah Jones, what was the key learning from developing the DigiCentre?",
+     "options": [
+      "Digital skills are mainly about buying the latest technology",
+      "Digital skills are about people - their fears, willingness to engage and things working for them",
+      "Resources should always be kept behind a login",
+      "Only teaching staff need digital skills"
+     ],
+     "answer": 1,
+     "explain": "She concluded that digital capabilities are not so much about the technology; they are about people."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1316 @@
+{
+ "id": "cyber3",
+ "title": "Week 3: Malware",
+ "summary": "Viruses, worms and Trojans, how malware and phishing get into your computer, botnets and click fraud, and how to protect yourself with antivirus, updates, sandboxes and code signing.",
+ "minutes": 60,
+ "pages": [
+  {
+   "id": "cyber3-01",
+   "title": "Week 3: Malware",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The two biggest threats to consumers online are **malware** and **phishing**. This week focuses on malware."
+    },
+    {
+     "t": "video",
+     "title": "Cory Doctorow introduces Week 3",
+     "url": null,
+     "note": "Cory recaps Week 2: you are now armed with ways of improving password security, including password managers and two-factor authentication. This week looks at another common way computer systems are compromised - malicious software, or malware. By the end of the week you'll be able to describe the different types of malware and their key characteristics, how malware gains access to computer systems, and which steps you can take to prevent your own computer from being infected."
+    },
+    {
+     "t": "img",
+     "src": "img/cyber_33.jpg",
+     "alt": "Cory Doctorow speaking in front of shelves of books",
+     "caption": "Cory Doctorow introduces malware."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-02",
+   "title": "What is malware?",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Malware is the collective name for software that has been designed to disrupt or damage data, software or hardware.",
+     "title": "Malware"
+    },
+    {
+     "t": "p",
+     "text": "There are several types of malware, such as **viruses**, **worms** and **Trojans**, which you'll learn about in the next few sections."
+    },
+    {
+     "t": "p",
+     "text": "As malware has evolved from its beginnings as demonstrations of prowess by individual programmers to sophisticated technologies developed by organised crime, the boundaries between the different categories are beginning to blur."
+    },
+    {
+     "t": "h",
+     "text": "This week you will learn to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "describe the different types of malware and their key characteristics",
+      "explain how malware gains access to computer systems",
+      "take steps to prevent your own computer from being infected"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber3-03",
+   "title": "1 Viruses",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_34.jpg",
+     "alt": "Magnified spiky virus particles floating in blue",
+     "caption": "Figure 1"
+    },
+    {
+     "t": "p",
+     "text": "The best-known type of malware is probably the virus; although many pieces of malware are called viruses, they are nothing of the sort."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "A virus is a piece of software that has been written to insert copies of itself into applications and data and onto crucial parts of a computer's data storage systems (e.g. hard disks, memory sticks, etc.).",
+     "title": "Virus"
+    },
+    {
+     "t": "p",
+     "text": "Viruses are said to be **self-replicating** programs. They date back as far as the early 1970s, but only became well known with the advent of microcomputers and, later, the internet."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-04",
+   "title": "How viruses spread and do harm",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Viruses attach themselves to specific applications on a computer and are activated when the program is first run. At that point the virus may make a copy of itself on the hard disk and continue to run, or it may only run each time the application is used."
+    },
+    {
+     "t": "p",
+     "text": "Early viruses relied on floppy disks, spreading quickly as infected disks were shared around an office or pirated software was passed around a playground. Nowadays viruses rely on devices such as flash memory cards or are transmitted through internet connections."
+    },
+    {
+     "t": "p",
+     "text": "Most viruses are designed to harm users - by corrupting their data, attacking the operating system itself, or providing an exploitable **'back door'** that gives attackers access to the computer. Even where no harm is intended, viruses consume memory, disk space and processing power."
+    },
+    {
+     "t": "tf",
+     "id": "cyber3-q1",
+     "q": "A virus that was written without any intention to cause harm has no effect on the computer it infects.",
+     "answer": false,
+     "explain": "Even where no harm is intended, viruses consume memory, disk space and processing power."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-05",
+   "title": "1.1 Worms",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_35.jpg",
+     "alt": "A small worm emerging from a red apple",
+     "caption": "Figure 2"
+    },
+    {
+     "t": "p",
+     "text": "Another type of self-replicating malware is the **worm**. Like a virus it is designed to make copies of itself, but unlike a virus, a worm is a **standalone application**."
+    },
+    {
+     "t": "p",
+     "text": "Worms spread through network connections, accessing uninfected machines and then hijacking their resources to transmit yet more copies across the network."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-06",
+   "title": "The four stages of a worm attack",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "**Probe** - the worm probes other machines looking for a vulnerability that can be exploited to copy itself to.",
+      "**Penetrate** - it performs the operations that exploit the vulnerability; for example, it might detect an open network connection through which it can get the remote machine to execute arbitrary instructions.",
+      "**Persist** - the worm downloads itself to the remote machine and stores itself there.",
+      "**Propagate** - it picks new machines to attempt to probe."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Worms were invented as a curiosity and have even been suggested as ways of testing networks or distributing software patches, but their drawbacks far outweigh their benefits. Even the most 'benign' worm consumes resources and can affect the performance of a computer system."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber3-q2",
+     "q": "In which stage of a worm attack does the worm download itself to the remote machine and store itself there?",
+     "options": [
+      "Probe",
+      "Penetrate",
+      "Persist",
+      "Propagate"
+     ],
+     "answer": 2,
+     "explain": "Storing itself on the remote machine is often called the 'persist' stage; propagating comes next, when it picks new machines to probe."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-07",
+   "title": "1.2 Trojans",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_36.jpg",
+     "alt": "A wooden Trojan horse being pulled along on a cart",
+     "caption": "Figure 3"
+    },
+    {
+     "t": "p",
+     "text": "The final major type of malware is the **Trojan** (or Trojan horse), named after the wooden horse that supposedly smuggled Greek soldiers into the ancient city of Troy."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "A Trojan disguises itself as an entirely legitimate program (such as a screensaver), but behind the scenes it is causing damage - perhaps allowing someone else to gain control of the computer, copying personal information, deleting information, monitoring keystrokes, or using email software to pass itself on to other computers.",
+     "title": "Trojan"
+    }
+   ]
+  },
+  {
+   "id": "cyber3-08",
+   "title": "How Trojans spread",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Unlike viruses and worms, Trojans are **not self-replicating** - they rely on their apparent usefulness to spread between computers."
+    },
+    {
+     "t": "p",
+     "text": "Some Trojans work in isolation. Others rely on networks, either to transmit stolen information - such as passwords, bank account details or credit card numbers - or to act as **back doors** to compromised computers. They allow attackers to bypass the operating system's security features and gain access to data or even control the machine over a network."
+    },
+    {
+     "t": "p",
+     "text": "Trojans have become a serious problem with Android apps."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber3-q3",
+     "q": "What mainly distinguishes a Trojan from viruses and worms?",
+     "options": [
+      "It only attacks Android phones",
+      "It is not self-replicating and spreads by appearing useful",
+      "It spreads only over network connections",
+      "It never damages data"
+     ],
+     "answer": 1,
+     "explain": "Viruses and worms copy themselves; a Trojan relies on its apparent usefulness to persuade people to install and pass it on."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-09",
+   "title": "1.3 Defining terms",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_37.jpg",
+     "alt": "A person typing on a laptop resting on a pile of books",
+     "caption": "Figure 4"
+    },
+    {
+     "t": "p",
+     "text": "Besides viruses, worms and Trojans, you may have heard of other kinds of malware:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Adware** - forces users to view advertising.",
+      "**Spyware** - malware that attempts to access personal information and user passwords."
+     ]
+    },
+    {
+     "t": "match",
+     "id": "cyber3-m1",
+     "title": "Match each type of malware to its description",
+     "pairs": [
+      {
+       "term": "Virus",
+       "def": "Inserts copies of itself into applications and data; activated when the infected program runs"
+      },
+      {
+       "term": "Worm",
+       "def": "A standalone self-replicating program that spreads through network connections"
+      },
+      {
+       "term": "Trojan",
+       "def": "Disguises itself as a legitimate program and is not self-replicating"
+      },
+      {
+       "term": "Adware",
+       "def": "Forces users to view advertising"
+      },
+      {
+       "term": "Spyware",
+       "def": "Attempts to access personal information and user passwords"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber3-10",
+   "title": "Activity: define a new term",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "cyber3-a1",
+     "title": "Define a malware term in your own words",
+     "prompt": "Look through the Sophos Threatsaurus A-Z (downloaded in Week 1) for a term that you have not come across before. Write a definition of the term in your own words. You could also look at examples or information from the sources recommended in Week 1, Section 2.2 'How to keep up to date'.",
+     "model": "Answers will vary with the term chosen. A good definition says what kind of threat it is (e.g. a type of malware or an attack technique), how it gets onto or affects a system, and what harm it can cause - for example, 'Ransomware is malware that locks or encrypts your files and demands payment to release them.' Checking the term against a second source helps confirm your understanding.",
+     "points": [
+      "Names the type of threat or malware",
+      "Explains how it works or spreads",
+      "Describes the harm or purpose",
+      "Uses your own words, checked against a reliable source"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber3-11",
+   "title": "2 How malware gets into your computer",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_38.jpg",
+     "alt": "Abstract image of a laptop surrounded by floating spheres of numbers",
+     "caption": "Figure 5"
+    },
+    {
+     "t": "p",
+     "text": "Malware can get into a computer through a variety of mechanisms, most of which involve exploiting a combination of **human and technical factors**."
+    },
+    {
+     "t": "p",
+     "text": "For example, a malware creator might get you to download their malware by putting a link in an email, or by attaching the malware to an email. Alternatively, malware might be packaged with **illegal copies of standard software**, so that it gets into the machines of people who use these copies rather than paying for genuine versions."
+    },
+    {
+     "t": "p",
+     "text": "Before looking at how malware gets in, it's worth asking why it does: what is malware for?"
+    }
+   ]
+  },
+  {
+   "id": "cyber3-12",
+   "title": "2.1 What is malware for?",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_39.jpg",
+     "alt": "A city at night with curved lines connecting different parts",
+     "caption": "Figure 6"
+    },
+    {
+     "t": "p",
+     "text": "There are many reasons why malware is created, including **intellectual curiosity**, **financial gain** or **corporate espionage**."
+    },
+    {
+     "t": "p",
+     "text": "Many programmers thrive on the challenge of seeing what is possible, and create malware even if they do not intend harm. Perhaps the most famous of these experiments was the **1988 Morris Worm** - the first worm to spread over the internet. Its supposed intent was to gauge the number of machines connected to the network, but it slowed infected machines to the point of being unusable."
+    },
+    {
+     "t": "p",
+     "text": "Worms continue to represent a major threat, as the Conficker Worm of 2008 showed."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-13",
+   "title": "Case study: Conficker",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "In 2008, Microsoft Windows computers began being infected by an advanced worm called **Conficker**, which spread when users shared files, either over networks or via USB flash memory drives."
+    },
+    {
+     "t": "p",
+     "text": "The malware disabled important security features, such as antivirus software and automated update systems, and blocked users from downloading fixes. At the same time it exploited a weakness in Microsoft's server software to infect computers on the same network."
+    },
+    {
+     "t": "p",
+     "text": "Conficker became the fastest-spreading malware known then, eventually found in almost every country. Outbreaks were reported from the armed forces of the UK, France and Germany, the British House of Commons and UK police forces. In the US, the Department of Homeland Security set up a Conficker Working Group of security experts to create strategies against similar outbreaks."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-14",
+   "title": "Conficker: a sign of things to come",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Conficker's authors were clearly not amateurs. They released new variants regularly to overcome weaknesses in the original malware, and took steps (including using **digital signatures**) to ensure that no one else could hijack their program."
+    },
+    {
+     "t": "p",
+     "text": "Although Conficker caused a great deal of nuisance, it did not appear to do any actual harm to data - but it could have delivered other malware that would have attacked users. In many ways it was a harbinger of advanced criminal malware, such as **Cryptolocker**, that is a major threat to today's users."
+    },
+    {
+     "t": "p",
+     "text": "A detailed analysis of Conficker's development and how its source was identified was published by Mark Bowden in the *New York Times* in June 2019."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber3-q4",
+     "q": "Which of these did Conficker do? (Choose all that apply.)",
+     "options": [
+      "Disabled antivirus software and automated updates",
+      "Blocked users from downloading fixes",
+      "Encrypted users' files and demanded a ransom",
+      "Used digital signatures so others could not hijack it"
+     ],
+     "answer": [
+      0,
+      1,
+      3
+     ],
+     "explain": "Conficker disabled security features, blocked fixes and was protected by digital signatures. It did not appear to harm data - ransom-style attacks are associated with later malware such as Cryptolocker.",
+     "multi": true
+    }
+   ]
+  },
+  {
+   "id": "cyber3-15",
+   "title": "2.2 Phishing",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_40.jpg",
+     "alt": "A fisherman figurine on a keyboard with the word 'Password' on his fishing line",
+     "caption": "Figure 7"
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Phishing is any attempt by attackers to steal valuable information by pretending to be a trustworthy party - a form of social engineering attack.",
+     "title": "Phishing"
+    },
+    {
+     "t": "p",
+     "text": "An attacker might impersonate a bank to obtain credit card numbers or bank account details. The name comes from 'fishing' - as in fishing for information, luring people to disclose confidential information."
+    },
+    {
+     "t": "p",
+     "text": "Phishing relies on people trusting official-looking messages, or conversations with apparently authoritative individuals. It is widespread and can be enormously costly: bank accounts emptied, credit references destroyed, personal or sensitive information lost."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-16",
+   "title": "Email phishing",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Electronic phishing was described in the late 1980s, but the term became commonplace in the mid 1990s, when a program called **AOHell** allowed AOL users to impersonate other people (including the founder of AOL itself)."
+    },
+    {
+     "t": "p",
+     "text": "As more people connected, they received messages that looked very much like those from genuine banks, stores and government departments. Many did not realise that email addresses can be faked and electronic data easily copied - an email with your bank's logo is not necessarily from your bank."
+    },
+    {
+     "t": "p",
+     "text": "Phishing emails may be indiscriminate. The phisher claims there is a problem with an account, adds plausible details such as the bank's logo and address, and sends it to millions of people. A few recipients will bank there, click the link or phone the number, and begin giving away further personal information."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-17",
+   "title": "What to do if an email worries you",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "If you receive a worrying email from an organisation such as a bank or shop that you use, **do not click on or follow the links in the message**. Instead:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "get in touch with their customer services department, or",
+      "log in to your account through their website - type in their web address or use your list of favourite sites, or",
+      "use their published phone number."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Most organisations have a published policy of not asking for sensitive information such as your password by email or phone, so be suspicious of anything that contravenes this policy."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber3-q5",
+     "q": "An email that appears to be from your bank asks you to confirm your details via a link. What is the safest response?",
+     "options": [
+      "Click the link but check the page looks genuine before typing anything",
+      "Reply to the email asking if it is real",
+      "Ignore the link and contact the bank via its own website address or published phone number",
+      "Forward it to friends to see if they got it too"
+     ],
+     "answer": 2,
+     "explain": "Never follow links in a suspicious message; contact the organisation through a route you already trust."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-18",
+   "title": "Social media and spear phishing",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Email still accounts for most phishing, but the technique is also used on **social media sites** and in **text messages**. The same rules apply: if in doubt, go to the official site and contact the company through its published links."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "A spear phishing attack is phishing targeted at individuals or specific parts of an organisation. It depends on detailed information about the target - for example, using recent emails to craft a plausible reply that appears to come from the target's colleagues.",
+     "title": "Spear phishing"
+    },
+    {
+     "t": "p",
+     "text": "Attackers may also post links to malware-infected software in personal messages on social media. This is especially common after major disasters or during fast-breaking news, when people click interesting-looking links without thinking."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-19",
+   "title": "2.3 Spam and email protocols",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_41.jpg",
+     "alt": "Cartoon of a fishing boat whose net has caught letters and papers",
+     "caption": "Figure 8"
+    },
+    {
+     "t": "p",
+     "text": "Phishing is just one type of **spam** email, which clutters mailboxes and often delivers unsuitable or even illegal content. Spam is another consequence of the early internet being developed by people who trusted one another."
+    },
+    {
+     "t": "p",
+     "text": "Most email is moved around the world using the **Simple Mail Transfer Protocol (SMTP)**, a standard template of commands and formatting that lets different mail programs understand one another. Protocols specify a set of special messages that computers exchange to achieve a particular function - here, delivering email."
+    },
+    {
+     "t": "p",
+     "text": "SMTP was defined when the internet had very few users, so it included no way for computers to **authenticate** one another. A later extension, **SMTP-AUTH**, addressed this - but it was not required, so almost all mail servers still accept unauthenticated messages."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-20",
+   "title": "Spoofing",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Spoofing is changing the information stored in email 'envelopes' so a spammer can disguise their actual address - for example, replacing their own sender address with that of TrustedBank.",
+     "title": "Spoofing"
+    },
+    {
+     "t": "p",
+     "text": "Since SMTP servers perform no authentication, they simply pass on the email without checking that it really came from TrustedBank. Newer technologies let genuine senders authenticate messages so the recipient's mail server can check them, but only about half of all mailboxes have any protection against spoofing."
+    },
+    {
+     "t": "p",
+     "text": "With a fast network (or, increasingly, a botnet) spam costs the sender almost nothing. Only a tiny fraction of people respond, but the volume makes it pay. An estimated seven trillion spam messages - over 85% of all email - were sent in 2011; by 2018 spam was estimated at 55% of messages. ISPs and companies must buy far more bandwidth and storage than legitimate use needs."
+    },
+    {
+     "t": "tf",
+     "id": "cyber3-q6",
+     "q": "Because SMTP-AUTH exists, almost all mail servers now refuse unauthenticated email.",
+     "answer": false,
+     "explain": "SMTP-AUTH was never required, so almost all mail servers still accept unauthenticated messages - which is what makes spoofing possible."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-21",
+   "title": "2.4 Spotting a phishing email",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_42.jpg",
+     "alt": "Example phishing email from 'TrustedBank' addressed to 'Dear valued customer', asking the reader to verify personal information via a link",
+     "caption": "Figure 9 - an example of what could be a phishing email"
+    },
+    {
+     "t": "p",
+     "text": "A phishing attack may look plausible at first glance, but some tell-tale signs should make you very cautious:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Spelling mistakes** - many phishing emails are sent from countries where English is not the main language, and give themselves away with imprecise English and spelling errors. But many use excellent English.",
+      "**Who is it to?** Many use 'Dear valued customer' or 'Dear user' because they cannot personalise. Your bank should use your name - although data breaches mean a phisher may know your personal details too."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber3-22",
+   "title": "More warning signs",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "**Poor quality images** - fuzzy images, or your information shown as an image rather than text, suggest copying from screens. But high-quality images are easy to obtain, so a good image proves nothing.",
+      "**Content of the email** - in almost all countries banks will not email you about problems with your account, because email is fundamentally insecure. Watch for a false sense of urgency claiming your account is at risk if you don't act quickly.",
+      "**Links** - the text of a link is not the same as its destination. Hover over the link (don't click) and the real address appears at the bottom of the window or in a small pop-up. Some fake links even show a genuine address on hover but use code in the page to send your click elsewhere."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber3-23",
+   "title": "Example: the ePay message",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_43.jpg",
+     "alt": "Email from 'ePay' reporting an unauthorised transaction; the link reads www.epay.com/confirm but hovering shows www.epay-secure-check.com/en/login.php",
+     "caption": "Figure 10 - a phishing email claiming to come from the fictional ePay site"
+    },
+    {
+     "t": "p",
+     "text": "This message claims to come from a fictional site, ePay, about unauthorised activity on your account. The link says it goes to ePay's site, but the real address is slightly different and unlikely to be owned by ePay."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber3-q7",
+     "q": "Hovering over the 'www.epay.com/confirm' link shows 'www.epay-secure-check.com/en/login.php'. What does this tell you?",
+     "options": [
+      "Nothing - big companies often use several web addresses",
+      "The link destination differs from its text, a strong sign of phishing",
+      "The email must be genuine because it shows a secure address",
+      "Only that the link is broken"
+     ],
+     "answer": 1,
+     "explain": "The text of a link and its destination can differ. An unfamiliar destination address is a classic sign of a phishing email."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-24",
+   "title": "Be suspicious - and check your address",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The rules: be suspicious, and look at the details of the message - the language, the quality of the images and where the links actually take you. Banks and shops will always prefer you to call and check rather than risk your security."
+    },
+    {
+     "t": "p",
+     "text": "Check your email address on **haveibeenpwned.com**. Addresses on a breached list are much more likely to receive spam. If yours is listed, assess what related data may have been revealed. You may need to change passwords that use that address - especially if you reused passwords - or even stop using it."
+    },
+    {
+     "t": "activity",
+     "id": "cyber3-a2",
+     "title": "Check your email address",
+     "prompt": "Check your email address on haveibeenpwned.com. Was it found in any breaches? What data was revealed, and what will you do about it?",
+     "model": "If your address appears in a breach, find out what data (passwords, names, phone numbers) was exposed. Change the password for that service and for any other account where you reused it, and consider two-factor authentication. Expect more spam and phishing at that address, and in serious cases consider stopping using it.",
+     "points": [
+      "Check whether the address appears in a breach",
+      "Identify what related data was revealed",
+      "Change passwords that use that address, especially reused ones",
+      "Expect more spam/phishing and consider retiring the address"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber3-25",
+   "title": "2.5 Emails are not the only phish",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_44.jpg",
+     "alt": "A keyboard whose keys show emojis instead of letters",
+     "caption": "Figure 11"
+    },
+    {
+     "t": "p",
+     "text": "Malware is not spread solely through email - it will be spread through any means possible:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "with **pirated material** such as illegal copies of software, video games and movies",
+      "by clicking links on websites - especially sites distributing illegal software, videos and pornography",
+      "through annoying **pop-up windows** claiming to have found problems with your computer (they probably haven't - but it's a great prompt to run your antivirus software and remind yourself what a genuine alert looks like)"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber3-26",
+   "title": "Malware on social networks",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A recent trend is malware spread through social networking services - like Cory's experience of the direct message on Twitter in Week 1. Once on a machine running social networking software, the malware **masquerades as the real user** and posts messages containing links to sites that distribute more malware."
+    },
+    {
+     "t": "p",
+     "text": "This relies on social engineering: people are highly likely to click links they think come from friends. Most of these infections exploit weaknesses in **client software** rather than the web versions of the networks, so keep social networking apps (such as the Facebook app for mobile devices) up to date."
+    },
+    {
+     "t": "tf",
+     "id": "cyber3-q8",
+     "q": "Most social networking malware infections have exploited weaknesses in client software, such as mobile apps, rather than the web versions of the networks.",
+     "answer": true,
+     "explain": "That is why it is important to keep social networking client software up to date."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-27",
+   "title": "2.6 The role of malware in click fraud",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_45.jpg",
+     "alt": "A pile of banknotes in different currencies",
+     "caption": "Figure 12"
+    },
+    {
+     "t": "p",
+     "text": "Most modern malware has malicious intent: to damage a computer's operating system or data, to steal information from a user - or, increasingly, from **online advertisers**."
+    },
+    {
+     "t": "p",
+     "text": "Online advertising is big business: more than £16 billion was spent in the UK in 2011, expected to exceed £26 billion in 2020. It is cheap compared with print and lets advertisers target individuals."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "The most common advertising model is 'pay per click', where advertisers pay site owners only when a user clicks an advert. Click fraud subverts this by generating clicks that don't come from genuine customers, or by hijacking clicks meant for a genuine advertiser. It accounts for more than 20% of all clicks.",
+     "title": "Click fraud"
+    }
+   ]
+  },
+  {
+   "id": "cyber3-28",
+   "title": "How click fraud works",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Botnets of computers around the world can generate false clicks, siphoning money through layers of publishers and redistributors to hide its destination. Two common modes:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Clicking on a targeted company's ads on genuine sites to waste its advertising budget - the perpetrator collects no income.",
+      "Setting up hundreds or thousands of websites (often copied content), signing up for advertising such as Google AdSense, then paying a bot network to click the ads and collecting a share of the revenue."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "One click raises very little, but millions add up. In 2011 the FBI broke an Estonia-based operation that had infected more than four million computers in 100 countries and stolen over $14 million. In 2016 a Russian group created 6,000 websites whose bots 'watched' over 300 million video ads a day, defrauding advertisers of close to four million dollars a day."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber3-q9",
+     "q": "In the second mode of click fraud, how does the criminal make money?",
+     "options": [
+      "By selling stolen advertising budgets",
+      "By having bots click ads on their own websites and collecting a share of the ad revenue",
+      "By charging victims to remove adware",
+      "By clicking competitors' ads on genuine sites"
+     ],
+     "answer": 1,
+     "explain": "The criminal builds many sites, signs up for advertising and uses a botnet to click the ads, collecting the publisher's share."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-29",
+   "title": "2.7 Botnets",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_46.jpg",
+     "alt": "Cartoon of angry computer characters with a frightened user",
+     "caption": "From the botnet animation"
+    },
+    {
+     "t": "video",
+     "title": "Botnets: an animation",
+     "url": null,
+     "note": "A talking computer warns that clicking an unsafe link lets an attacker drop a Trojan, a drive-by download or other malware and turn your computer into a 'zombie' - controlled without your knowledge to steal your identity or send spyware and spam. Many zombies form a botnet or 'zombie army'. Warning signs: the computer runs slower than normal, behaves erratically, or shows unexpected internet activity; check Task Manager, or disconnect from the network and see if it behaves differently. Prevention: don't click unsafe links or open attachments you're unsure of; keep antivirus and anti-spyware software up to date, from a reputable source (rogue antivirus can be malware in disguise); run a full scan; turn your firewall on; and if all else fails, ask an expert."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-30",
+   "title": "What is a botnet?",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "A botnet is a group of computers that coordinate their activity over the internet. Botnets are created using malware that gives an attacker control over the computers.",
+     "title": "Botnet"
+    },
+    {
+     "t": "p",
+     "text": "Botnets are commonly used to gather information from the computers (e.g. usernames and passwords) and to launch attacks on others - sending spam, or flooding a website with so many requests that the server cannot cope, known as a **denial-of-service attack**."
+    },
+    {
+     "t": "p",
+     "text": "A single piece of malware can do enormous damage, but when thousands or millions of computers run the same program the effects can be devastating. There are harmless botnets (for example for Internet Relay Chat, IRC), but the vast majority are created by malware."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-31",
+   "title": "How botnets grow and attack",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Botnets spread through viruses and worms. Once installed, the malware contacts a **control computer**. The infected computer - a **zombie** - then does nothing except periodically check for instructions, so it raises no suspicion while the botnet grows to tens of thousands of zombies."
+    },
+    {
+     "t": "p",
+     "text": "Later the control computer orders the botnet to wake up. Often the creators have sold or rented the botnet to another group."
+    },
+    {
+     "t": "p",
+     "text": "Botnets have flooded the internet with spam, committed fraud against advertisers and carried out **distributed denial-of-service (DDoS)** attacks on companies and governments. Being so large and widely distributed, they are very hard to tackle."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber3-q10",
+     "q": "Why do zombie computers in a growing botnet usually go unnoticed?",
+     "options": [
+      "They only infect computers that are switched off",
+      "They do nothing except periodically check for instructions from the control computer",
+      "Antivirus software cannot scan them",
+      "They delete themselves after each attack"
+     ],
+     "answer": 1,
+     "explain": "Until the control computer wakes them, zombies appear to be doing nothing, so they don't raise suspicion."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-32",
+   "title": "2.8 Confessional",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_47.jpg",
+     "alt": "Illustration of two laptops facing each other with robots firing lasers",
+     "caption": "Figure 13"
+    },
+    {
+     "t": "activity",
+     "id": "cyber3-a3",
+     "title": "Confessional: have you been infected?",
+     "prompt": "It's time to confess! Has your computer ever been infected with malware? Do you know the name of the malware? Was it a virus, worm or Trojan? What happened, and what were the consequences?",
+     "model": "Answers are personal. A useful reflection names the malware if known, classifies it (virus - attached to a program; worm - standalone and spread over the network; Trojan - disguised as legitimate software), explains how it probably got in (attachment, link, pirated software, pop-up) and what it did. Finish by noting what you'd do differently now.",
+     "points": [
+      "Describes what happened and its consequences",
+      "Classifies the malware as virus, worm or Trojan",
+      "Identifies how it probably got in",
+      "Notes what you would do differently"
+     ],
+     "hint": "If you discuss this with others, don't share personal information, including the name of the company you work for."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-33",
+   "title": "3 Keeping yourself protected",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_48.jpg",
+     "alt": "A syringe needle inserted into a vaccine bottle",
+     "caption": "Figure 14"
+    },
+    {
+     "t": "p",
+     "text": "The growth in malware has been matched by explosive growth in software to stop it. So-called **antivirus software** (which actually targets a range of malware) is a multi-billion pound business, with many commercial and free packages."
+    },
+    {
+     "t": "p",
+     "text": "Operating system developers are also building in security features that try to stop malware running at all. And you can do a lot yourself: install antivirus software, keep software up to date, watch for the signs of phishing and adopt new security developments."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Before installing or changing anti-malware software, check reviews - of free and paid packages - from reputable, independent organisations: av-test.org, selabs.uk and av-comparatives.org."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-34",
+   "title": "3.1 Antivirus software: signatures",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_49.jpg",
+     "alt": "Toy soldiers surrounding and guarding a laptop",
+     "caption": "Figure 15"
+    },
+    {
+     "t": "p",
+     "text": "Antivirus software aims to detect, isolate and if necessary delete malware before it can harm data. The two most common techniques are **signatures** and **heuristics**."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "A malware's signature is a distinctive pattern of data either in memory or in a file.",
+     "title": "Signature"
+    },
+    {
+     "t": "p",
+     "text": "Antivirus can only detect malware whose signature has been identified and published. Between release 'into the wild' and the signature update, malware can exploit so-called **'zero day'** vulnerabilities. Authors often release variants with different signatures, and sophisticated malware can change its own program (it is **polymorphic** or **metamorphic**) without affecting how it works."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-35",
+   "title": "Heuristics",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Heuristics use rules to identify viruses based on previous experience of the behaviour of known viruses. Heuristic detection may run suspicious programs in a **virtual machine** (a software recreation of a physical computer) and look for typical malware operations, such as replicating itself or overwriting key operating system files - or it may revert the program to source code and look for malware-like instructions."
+    },
+    {
+     "t": "p",
+     "text": "Unlike signatures, heuristics can detect **new** malware just from its behaviour. Their drawback is that they draw conclusions only from past experience, so radically new malware can pass unnoticed."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber3-q11",
+     "q": "What is the main advantage of heuristic detection over signature detection?",
+     "options": [
+      "It never produces false alarms",
+      "It can detect new malware for which no signature exists, from its behaviour",
+      "It does not need to run any code",
+      "It catches every radically new piece of malware"
+     ],
+     "answer": 1,
+     "explain": "Heuristics need no specific knowledge of individual malware - but radically new behaviour can still slip through."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-36",
+   "title": "Issues with antivirus software",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Antivirus software is essential, but it is not a complete solution. It has occasionally contained bugs - being inaccurate, failing to update or consuming huge amounts of computer power. These problems are rare, easily fixed and much less serious than the risk from malware."
+    },
+    {
+     "t": "p",
+     "text": "Not all anti-malware software is equally good, and there is even **fake anti-malware** for sale, especially for mobile devices. Check reviews from av-test.org, selabs.uk or av-comparatives.org."
+    },
+    {
+     "t": "p",
+     "text": "In October 2019 the BBC reported that British police, Indian police and Microsoft had shut down two Indian call centres using web pages and phone calls to sell fake computer security services. Victims lost thousands of pounds; the City of London Police say over 2,000 such cases are reported to Action Fraud every month."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-37",
+   "title": "Avoiding fake security scams",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The police offered these tips (BBC, 2019):"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Always check out callers, especially cold callers claiming to be Microsoft, your telephony provider or internet service provider.",
+      "Legitimate organisations will encourage you to call back via a number you've obtained from a trustworthy source.",
+      "Don't assume the number displayed on your phone is accurate - it can be spoofed to look like a UK or trusted caller.",
+      "Don't call phone numbers on pop-up messages saying there is a problem with your computer."
+     ]
+    },
+    {
+     "t": "tf",
+     "id": "cyber3-q12",
+     "q": "If your phone shows a UK number for a caller claiming to be from Microsoft, you can trust that the call is genuine.",
+     "answer": false,
+     "explain": "Caller numbers can be spoofed. Call back on a number you obtained from a trustworthy source."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-38",
+   "title": "3.2 Installing antivirus software",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_50.jpg",
+     "alt": "Six computer screens showing padlocks and words such as privacy, password and protection",
+     "caption": "Figure 16"
+    },
+    {
+     "t": "p",
+     "text": "If you don't have antivirus software, installing some should be a high priority. Windows 10 has **Windows Defender** built in, which got a top rating from AV-Test in June 2019. There are good free packages too, but check one meets your needs:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Is it compatible with your computer?** - right for your operating system and computer.",
+      "**Does it come from a reputable source?** - e.g. a major security company such as Norton, Kaspersky, Sophos or AVG, or provided/recommended by your bank or ISP.",
+      "**Does it provide updates** to protect you against the latest malware?",
+      "**Have you checked the reviews?** - av-test.org, selabs.uk, av-comparatives.org."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber3-39",
+   "title": "Activity: choose your antivirus",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "cyber3-a4",
+     "title": "Choosing antivirus software",
+     "prompt": "Use the four criteria (compatibility, reputable source, updates, independent reviews) to research antivirus products and choose the best one for you. If you already have antivirus software, answer the questions for the program you have.",
+     "model": "A good answer names a product and checks each criterion: it runs on your operating system and device; it comes from a recognised security company or is recommended by your bank or ISP (or is built in, like Windows Defender); it updates itself automatically against new malware; and it scores well in independent tests such as AV-Test, SE Labs or AV-Comparatives.",
+     "points": [
+      "Compatible with your operating system and device",
+      "From a reputable source",
+      "Updates itself against the latest malware",
+      "Checked against independent reviews"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber3-40",
+   "title": "3.3 Keeping your software up to date",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_51.jpg",
+     "alt": "A smartphone lock screen showing a 'Software update' reminder",
+     "caption": "Figure 17"
+    },
+    {
+     "t": "p",
+     "text": "Operating systems and applications are so large that they inevitably contain bugs, some of which could compromise your security."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Most companies issue regular updates to fix known problems. Major operating systems and some applications (such as Microsoft Office and the Adobe suite) automatically check for updates, prompt you to install them and perform the update. This process is sometimes called 'patching'.",
+     "title": "Patching"
+    },
+    {
+     "t": "activity",
+     "id": "cyber3-a5",
+     "title": "Activity 1 Keeping your software up to date",
+     "prompt": "How do you go about keeping one of the software applications on your computer or device up to date? Research the application online to find out if there is any additional information about keeping it up to date. (Allow about 15 minutes.)",
+     "model": "Answers depend on the application. Typically you would check its settings for automatic updates and switch them on, know where to check manually (e.g. an 'About' or 'Check for updates' menu, or the app store), install security updates promptly, and look at the developer's support pages for how long the version will be supported.",
+     "points": [
+      "Names the application and how it is updated",
+      "Turns on or checks automatic updates",
+      "Installs security patches promptly",
+      "Checks the developer's own guidance or support status"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber3-41",
+   "title": "3.4 End-of-life software",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_52.jpg",
+     "alt": "An old typewriter with a DVD drive and a computer mouse attached",
+     "caption": "Figure 18"
+    },
+    {
+     "t": "p",
+     "text": "Software's lifespan begins when it is released and ends when it is no longer supported and updated. It doesn't become completely unsafe at that point - you can often keep using it - but security risks may not be addressed. Employers may require you to move to an updated version."
+    },
+    {
+     "t": "p",
+     "text": "The first effects you'll notice: telephone and internet support stops, bug reporting may be withdrawn, and cheap upgrades to later paid versions may no longer be available."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-42",
+   "title": "Why old software is riskier",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Most large software companies continue critical support for obsolete products for a time, but don't prioritise them: they fix and patch current software first, then test older products. Users of older products may be exposed to vulnerabilities for longer - and malware developers who know about unpatched bugs prefer to attack these weaker programs."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Windows version (2019)",
+      "Share of Windows PCs"
+     ],
+     "rows": [
+      [
+       "Windows 10",
+       "55.77%"
+      ],
+      [
+       "Windows 7 (extended support ended 14 Jan 2020)",
+       "33.42%"
+      ],
+      [
+       "Windows 8, XP and older",
+       "10%"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Windows 8.1 loses extended support on 10 January 2023. Windows XP has been unsupported since April 2014 despite wide use; XP and Vista have much higher infection rates than newer, more secure systems."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-43",
+   "title": "Living with end-of-life software",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "If you use end-of-life software, up-to-date **firewalls and antivirus** are essential, as is keeping key applications such as web browsers and email programs current. Even so, plan a move to more modern software: upgrades are relatively cheap (or free), and any cost should be weighed against what you could lose."
+    },
+    {
+     "t": "p",
+     "text": "Even supported software is vulnerable if not updated. In 2017 the **WannaCry** ransomware infected thousands of computers globally; most were running Windows 7, which was still supported. An update fixing the vulnerability had been released months earlier, but many systems had not installed it."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber3-q13",
+     "q": "What does the WannaCry case show?",
+     "options": [
+      "Only end-of-life software can be attacked",
+      "Supported software is still vulnerable if updates are not installed",
+      "Antivirus software is unnecessary on supported systems",
+      "Windows 7 was never supported by Microsoft"
+     ],
+     "answer": 1,
+     "explain": "A fix had been released months before, but many still-supported Windows 7 systems had not been updated."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-44",
+   "title": "3.5 Sandboxes",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_53.jpg",
+     "alt": "An elaborate sandcastle",
+     "caption": "Figure 19"
+    },
+    {
+     "t": "p",
+     "text": "Besides updates and antivirus, developers are building technologies such as **sandboxes** and **code signing** into everyday software to help mitigate malware."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "A software sandbox is a way for computers to run programs in a controlled environment, with a constrained amount of memory and very limited access to resources such as operating system files, disks and the network.",
+     "title": "Sandbox"
+    },
+    {
+     "t": "p",
+     "text": "In theory, software cannot break out of the sandbox, so even if malware tries to overwrite parts of the disk, the sandbox prevents it. Sandboxing is widely used in modern web browsers (Internet Explorer 10 onwards, Chrome) to stop internet content damaging files, and similar sandboxes exist for most browser plugins and Adobe Acrobat PDF viewer."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-45",
+   "title": "Code signing",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Code signing is a use of cryptography where software companies issue digitally signed copies of their programs that recipients can check for authenticity.",
+     "title": "Code signing"
+    },
+    {
+     "t": "p",
+     "text": "The designers of all three major operating systems (Microsoft Windows, Mac OS and Linux) use code signing to guarantee that updates are genuine, even if distributed on flash memory cards rather than directly from the publisher. You'll learn more about digital signatures later in the course."
+    },
+    {
+     "t": "p",
+     "text": "Windows uses code signing for components such as hardware drivers, which have direct access to the heart of the operating system. Apple goes further: Mac OS 10.8 onwards can restrict users to running only programs certified by the Apple App Store - more secure against malware, but it may restrict choice and block some unsigned third-party apps."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-46",
+   "title": "Check: protection techniques",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "cyber3-m2",
+     "title": "Match each protection term to its description",
+     "pairs": [
+      {
+       "term": "Signature",
+       "def": "A distinctive pattern of data in memory or in a file that identifies known malware"
+      },
+      {
+       "term": "Heuristics",
+       "def": "Rules that identify malware from the typical behaviour of known malware"
+      },
+      {
+       "term": "Zero day",
+       "def": "A vulnerability exploited before fixes and antivirus updates are available"
+      },
+      {
+       "term": "Polymorphic malware",
+       "def": "Malware that changes its own program to disguise itself"
+      },
+      {
+       "term": "Patching",
+       "def": "Installing updates that fix known problems in software"
+      },
+      {
+       "term": "Sandbox",
+       "def": "A controlled environment with limited access to files, disks and the network"
+      },
+      {
+       "term": "Code signing",
+       "def": "Digitally signing programs so recipients can check they are authentic"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber3-47",
+   "title": "Week 3 quiz (1)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "cyber3-q14",
+     "q": "Which type of malware is a standalone application that copies itself across network connections?",
+     "options": [
+      "Virus",
+      "Worm",
+      "Trojan",
+      "Adware"
+     ],
+     "answer": 1,
+     "explain": "A worm is self-replicating like a virus, but unlike a virus it is a standalone application."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber3-q15",
+     "q": "Phishing is best described as...",
+     "options": [
+      "software that forces you to view adverts",
+      "an attempt to steal valuable information by pretending to be a trustworthy party",
+      "flooding a website with requests",
+      "a program that copies itself into applications"
+     ],
+     "answer": 1,
+     "explain": "Phishing is a social engineering attack in which attackers impersonate a trustworthy party."
+    },
+    {
+     "t": "tf",
+     "id": "cyber3-q16",
+     "q": "A link that displays a genuine-looking address is always safe to click.",
+     "answer": false,
+     "explain": "Link text can differ from its destination, and some fake links even show a genuine address on hover while code sends your click elsewhere."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-48",
+   "title": "Week 3 quiz (2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "cyber3-q17",
+     "q": "What is a distributed denial-of-service attack?",
+     "options": [
+      "A botnet flooding a target with so many requests that its servers cannot cope",
+      "An email pretending to come from a bank",
+      "Malware that encrypts files",
+      "Changing the sender address in an email envelope"
+     ],
+     "answer": 0,
+     "explain": "Botnets are used to swamp websites of companies and governments with requests."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber3-q18",
+     "q": "Which of these are recommended when choosing antivirus software? (Choose all that apply.)",
+     "options": [
+      "Check it is compatible with your computer",
+      "Check it comes from a reputable source",
+      "Choose one that never updates so it stays stable",
+      "Check independent reviews"
+     ],
+     "answer": [
+      0,
+      1,
+      3
+     ],
+     "explain": "Good antivirus updates itself regularly to protect you against the latest malware.",
+     "multi": true
+    },
+    {
+     "t": "quiz",
+     "id": "cyber3-q19",
+     "q": "Why do attackers prefer to target end-of-life software?",
+     "options": [
+      "It is always more popular",
+      "Known bugs may remain unpatched for longer",
+      "It has no network access",
+      "It cannot run antivirus software"
+     ],
+     "answer": 1,
+     "explain": "Older products are fixed last, if at all, so their users stay exposed to known vulnerabilities for longer."
+    }
+   ]
+  },
+  {
+   "id": "cyber3-49",
+   "title": "Summary of Week 3",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_54.jpg",
+     "alt": "Silver spider-like robots on a red circuit-board pattern",
+     "caption": "Figure 20"
+    },
+    {
+     "t": "p",
+     "text": "This week you took a closer look at malware - viruses, worms and Trojans - how it gets into computers through phishing, spam, pirated software and social networks, and why it is created, from curiosity to click fraud and botnets. You also saw ways of keeping attackers from infecting your devices: antivirus software, updates, sandboxes and code signing."
+    },
+    {
+     "t": "p",
+     "text": "Next week you'll delve deeper into the technologies that underpin information security, starting with how to protect the networks we depend on for transmitting digital information and accessing online services."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "Optional further reading: 'Keep a clean machine' (StaySafeOnline) - basic precautions to take before you go online."
+    }
+   ]
+  }
+ ]
+}
