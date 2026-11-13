@@ -1,0 +1,1643 @@
+{
+ "id": "cyber7",
+ "title": "Week 7: When your defences fail",
+ "summary": "Recognise identity theft and data loss, learn the UK laws that protect you, know who to contact, and recover - with backups - when an attack succeeds.",
+ "minutes": 180,
+ "pages": [
+  {
+   "id": "cyber7-01",
+   "title": "Week 7: When your defences fail",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Cory Doctorow introduces Week 7",
+     "url": null,
+     "note": "Cory: over the past few weeks we've looked at threats to your digital information and the technologies that protect it - how cryptography keeps your secrets and how to protect your network. But what if you are attacked? This week uses case studies of individuals and organisations that have been hit to show what can go wrong and the impact it had. You'll learn to recognise the signs of an attack, how to recover from a security breach and how to stop it happening again - and, just as importantly, how to back up your data and the pros and cons of different approaches."
+    },
+    {
+     "t": "p",
+     "text": "You now understand how cryptography keeps information private and stops it being modified, and how to protect networks from attack. But information cannot be protected by technology alone: you also need to know what can go wrong when an attack *succeeds*."
+    },
+    {
+     "t": "h",
+     "text": "This week will help you to"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "recognise the signs of an attack",
+      "know how and where to report the problem",
+      "consider how to recover from a security breach and stop it happening again."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber7-02",
+   "title": "1 Identity theft",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Inside Out: the Facebook fraudster (BBC)",
+     "url": null,
+     "note": "A BBC 'Inside Out' report (6/2/12). From a block of flats, hacker Ian Wood made tens of thousands of pounds in fraud. He posed on Facebook as someone else - often an attractive woman - to befriend men, who let him into their lives. He noticed people often use the same username for different accounts: he typed those usernames into banking websites and, once he saw 'username correct, password incorrect', used information from social networking sites to answer the security questions. He stole 35,000 pounds from online accounts and moved it to bogus accounts, until he got cocky and transferred money into an account in his own name - which led police (DC Billy Johnson) to arrest him and uncover all his activity."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Identity theft is a type of fraud in which an attacker uses stolen personal information to impersonate another person.",
+     "title": "Identity theft"
+    },
+    {
+     "t": "p",
+     "text": "Traditionally, fraudsters intercepted post containing names, addresses and bank details, then opened credit card accounts and took out loans in the victim's name. Victims have had their financial security and lives ruined."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-03",
+   "title": "Identity theft goes online",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The online world has opened up a new, lucrative source of information for fraudsters. Many users are relaxed about sharing information with online services and other users - but even security-conscious people are threatened by:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "malware designed to sniff out personal information on a computer",
+      "phishing attacks that persuade users to divulge personal information",
+      "hacking attacks on big retailers that make millions of personal records available for abuse."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Online identity theft is a growing threat: in 2018 it was reported by 23% of internet users in the US (Statista, 2018)."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "You can greatly limit your risk of online identity theft with simple procedures: run an antivirus program, keep it up to date, and don't respond to phishing emails.",
+     "title": "Preventing identity theft"
+    }
+   ]
+  },
+  {
+   "id": "cyber7-04",
+   "title": "Detecting identity theft",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Online identity theft may go unnoticed for some time, while great damage is done to your finances. Signs a victim might notice:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "unexplained bank withdrawals or credit card charges",
+      "bills and other expected official letters don't arrive",
+      "cards or cheques are declined",
+      "debt collectors make contact about debts the victim knows nothing about",
+      "notice that their information was compromised in a data breach at a company they deal with",
+      "their bank or card provider contacts them about suspicious behaviour on their account."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "You can't do much to stop *other organisations* losing your details. In 2017 Equifax, one of the three major US credit reporting agencies, announced a breach affecting 143 million consumers - social security numbers, birthdates, addresses and driver's licence numbers. It's worth checking your own free credit reports for anything unexpected."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-05",
+   "title": "Check: spotting identity theft",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "cyber7-q1",
+     "q": "Which of these could be a sign that your identity has been stolen? Select all that apply.",
+     "options": [
+      "Debt collectors contact you about debts you know nothing about",
+      "Bills and official letters you expect stop arriving",
+      "Your card is declined even though your account is in order",
+      "Your antivirus software installs an update"
+     ],
+     "answer": [
+      0,
+      1,
+      2
+     ],
+     "explain": "The first three are all listed warning signs. A routine antivirus update is normal - and keeping it up to date is one of the ways to *prevent* identity theft.",
+     "multi": true
+    }
+   ]
+  },
+  {
+   "id": "cyber7-06",
+   "title": "1.1 Loss of data",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_103.jpg",
+     "alt": "Portrait of a young US Army soldier in uniform and beret, wearing glasses",
+     "caption": "Figure 1 US Army Private Chelsea (then Bradley) Manning, at the centre of a controversial data leak to the Wikileaks website in 2009"
+    },
+    {
+     "t": "p",
+     "text": "Data loss can mean several things, from the destruction and deletion of data to making unauthorised copies that are no longer under your control."
+    },
+    {
+     "t": "p",
+     "text": "Data can be stolen by people with direct access to a computer - for example by copying it to a flash memory drive - and by attackers gaining access over a network connection."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-07",
+   "title": "Insider attacks",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Security risks posed by employees (or ex-employees) of an organisation to their employers are known as insider threats.",
+     "title": "Insider threats"
+    },
+    {
+     "t": "p",
+     "text": "The hardest attack to defend against is when the attacker has direct access to a computer - especially where many people share access and one or more of them may not have the organisation's best interests at heart."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "A 2013 Forrester survey (UK, US, Canada, France, Germany) found 36% of information security breaches were caused by insiders - the leading threat.",
+      "At Infosecurity Europe, 37% said 'rogue employees' were their biggest threat - ahead of cyber attacks (19%) and device security (15%).",
+      "Patterns change: Statista said that in 2018, 56% of breaches were by malicious outsiders, 7% by insiders and 34% accidental loss; but Verizon suggested 34% of all 2018 breaches were caused by insiders (Verizon, 2019)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber7-08",
+   "title": "Case study: stealing data (1)",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "**2012 - Federal Reserve Bank of New York.** Programmer Bo Zhang, a third-party contractor with privileged access to software under development, was sentenced for copying the bank's source code to personal computers in violation of his contract - though there was no evidence he meant to share it."
+    },
+    {
+     "t": "p",
+     "text": "**2013 - Zynga.** The social game developer settled a lawsuit with ex-employee Alan Patmore, who copied hundreds of files, including unreleased game designs, to a Dropbox folder before joining a rival. He expressed deep regret and agreed to destroy all copies in exchange for charges being dropped."
+    },
+    {
+     "t": "p",
+     "text": "**2014 - Anthem.** The health insurer was breached and details of 80 million people extracted, putting them at risk of targeted phishing, identity theft or extortion."
+    },
+    {
+     "t": "p",
+     "text": "**2017 - BUPA.** The private healthcare provider reported that 547,000 customer details were stolen by an insider and offered for sale online."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-09",
+   "title": "Case study: stealing data (2)",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "**2019 - Tesla.** An employee stole extensive details of Tesla's manufacturing systems."
+    },
+    {
+     "t": "p",
+     "text": "**Punjab National Bank (India)** discovered $1.8 billion in fraudulent transactions after an employee obtained a high-security password."
+    },
+    {
+     "t": "p",
+     "text": "**November 2019 - Trend Micro.** The global security company (over 12,000,000 customers) reported that details of 68,000 customers had been copied by an employee and sold to criminals, who immediately used them in phishing attacks. The employee seems to have known the controls protecting the data in detail."
+    },
+    {
+     "t": "p",
+     "text": "Trend Micro didn't know about the theft until customers reported phishing. The information in the phishing pinpointed the data's source, but it took a lot of time and effort to check all security systems and confirm it was an internal theft."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-10",
+   "title": "Case study: Chelsea Manning",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Chelsea Manning (then Bradley Manning), a US Army soldier, leaked confidential information - including 250,000 US diplomatic messages, 500,000 US Army reports and videos of military action in Iraq - to the WikiLeaks website. The attacker simply copied the data and shared it, depriving the owners of control over its confidentiality."
+    },
+    {
+     "t": "p",
+     "text": "During service in Iraq in 2009, Manning copied classified material to a data CD disguised as a music disc, then transferred it to a laptop and on to WikiLeaks' servers. The reports were published worldwide and caused enormous diplomatic embarrassment."
+    },
+    {
+     "t": "p",
+     "text": "Manning was identified after confessing in an online chat to Adrian Lamo, who informed the Army. Charged with 22 offences, including aiding the enemy, Manning pleaded guilty to 10, was found guilty in 2013 and sentenced to 35 years in military prison. WikiLeaks still publishes millions of documents their owners meant to keep secret."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "The site ';--have i been pwned?' (haveibeenpwned.com) lists the largest and most recent breaches on its home page."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-11",
+   "title": "1.2 Risks of data loss",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_104.jpg",
+     "alt": "An abandoned office with rubble on the floor and on the desk",
+     "caption": "Figure 2"
+    },
+    {
+     "t": "p",
+     "text": "As the case studies showed, losing data has serious consequences. They can be expressed as a series of costs:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "the cost of **recreating** the lost data - buying new hardware and software or re-entering the data (which may not always be possible)",
+      "the cost of **continuing without** that data (availability)",
+      "the cost of **informing others** about the loss."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Costs aren't just money. Informing others isn't only postage and email: a company that loses data can also lose its reputation as a professional organisation - and this is greatly magnified if other people's personal data has been lost."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-12",
+   "title": "Case study: Norsk Hydro",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "In March 2019, Norsk Hydro, one of the world's biggest aluminium producers, was hit by a ransomware attack using **LockerGoga**, which encrypted a wide range of files."
+    },
+    {
+     "t": "p",
+     "text": "Norsk Hydro had detailed plans in place: it limited the spread of the attack, reverted to manual operation, and had secure backups of critical files. Even so, estimates in May 2019 put the cost at between $45.6m and $51.3m."
+    },
+    {
+     "t": "p",
+     "text": "While recovering, it saw phishing attempts on its trading partners that tried to spread the malware and divert payments to criminal accounts. Norsk Hydro did not pay any ransom and gave detailed updates on its response."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-13",
+   "title": "Case study: AMCA and Quest Diagnostics",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The American Medical Collection Agency (AMCA) ran billing and payment services in the US. In August 2018 hackers got into its servers and stayed undetected until March 2019, obtaining social security numbers, some credit card and banking details, and medical data."
+    },
+    {
+     "t": "p",
+     "text": "Quest Diagnostics used Optum360 to collect payments, and Optum360 had outsourced this to AMCA. Quest was first to report the breach, after customer details were used in many fraudulent transactions. LabCorp, BioReference and Opko Health also used AMCA. AMCA filed for bankruptcy; the financial impact on the medical companies is not yet clear."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "Your data can be lost through a supplier of a supplier - a breach anywhere in the chain affects everyone who relied on it."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-14",
+   "title": "Minimising the risk",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The risk of data loss can't be eliminated, but it can be minimised. In 2019 Verizon reported that 34% of breaches involved people inside the business and 15% were misuse by authorised users - but **errors** caused 21% of all breaches."
+    },
+    {
+     "t": "p",
+     "text": "Many threats are caused inadvertently by employees unaware of the risks: copying data to external devices or websites, opening infected emails, clicking malicious links, installing software. Better staff training could reduce accidental data loss."
+    },
+    {
+     "t": "p",
+     "text": "The Infosecurity Europe survey found a slight majority of companies had an internal information security policy, but only a minority had trained staff to raise awareness of risks."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Another important way to minimise the effect of any loss is **backing up** - making secure copies of data on a separate device, a separate disk, or even in a different location."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-15",
+   "title": "Reflect: have you been affected?",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "cyber7-a1",
+     "title": "Reflection: identity theft and data loss",
+     "prompt": "Think about identity theft and loss of data. Have you ever been affected by these issues? How would you know? Have you checked your email address on haveibeenpwned.com? How would you recover if your live data was encrypted by ransomware, or simply destroyed?",
+     "model": "Many people only find out they were affected when a service notifies them of a breach, their bank queries a transaction, or a check on haveibeenpwned.com shows their address in a breach. Warning signs include unexplained charges, missing post or declined cards. To recover from ransomware or destruction you need recent, secure backups kept separately from your live data, plus a note of your software and licence keys.",
+     "points": [
+      "Describes whether they have been affected or how they would find out",
+      "Mentions checking breach lists such as haveibeenpwned.com or watching for warning signs",
+      "Recognises that recovering from ransomware or destruction depends on separate, secure backups",
+      "Considers what they would need to restore (software, keys, data)"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber7-16",
+   "title": "2 Laws and computers",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_105.jpg",
+     "alt": "The Houses of Parliament and Big Ben in London, lit up at dusk",
+     "caption": "Figure 3"
+    },
+    {
+     "t": "p",
+     "text": "Now you'll look at some of the most important UK laws that help protect us against cyber security threats: the **Data Protection Act 2018**, the **Investigatory Powers Act 2016** (which replaced the Regulation of Investigatory Powers Act), the **Computer Misuse Act 1990** and the **Fraud Act 2006**."
+    },
+    {
+     "t": "p",
+     "text": "First, a brief introduction to the UK legal system. If you live outside the UK or work for a multinational, you'll also research the legal frameworks in your own country - learning about the UK laws helps you look for the equivalents."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-17",
+   "title": "Criminal and civil law",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Law in Britain can be broadly divided into two categories:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "",
+      "Criminal law",
+      "Civil law"
+     ],
+     "rows": [
+      [
+       "Concerned with",
+       "Punishing unacceptable behaviour (murder, serious injury, fraud...)",
+       "Disputes - e.g. property law, contracts, noise"
+      ],
+      [
+       "Brought by",
+       "Mostly the State, against individuals and companies",
+       "Usually individuals"
+      ],
+      [
+       "Standard of proof",
+       "High: 'beyond reasonable doubt'",
+       "Lower: 'on the balance of probabilities'"
+      ],
+      [
+       "Punishment",
+       "Fines or imprisonment, depending on the offence",
+       "Usually financial"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber7-18",
+   "title": "Bills, Acts and laws",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "An **Act of Parliament** is a law approved by the British Parliament. (Britain also has **Common Law**, which has not been passed through Parliament.)"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "An Act starts as a draft called a **Bill**, debated in the elected House of Commons.",
+      "If approved, a specialist committee of Parliamentarians revises it; changes are discussed further in the Commons.",
+      "After a formal vote it passes to the House of Lords for scrutiny and possible amendments; the Lords vote and return it to the Commons to consider their amendments.",
+      "If the two houses agree (sometimes they do not), the Bill is given **Royal Assent** and becomes an **Act**."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Some Acts take effect immediately, but often there is a delay so that processes for compliance can be put in place. So a Bill does not become law until it becomes an Act."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-19",
+   "title": "Keeping up with threats",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Cyber security moves fast, so legislation is constantly revised in response to new threats and court cases. Trial outcomes can change how existing laws are interpreted and prompt new laws. And because cyber threats are global, they can be affected by legislation in other jurisdictions."
+    },
+    {
+     "t": "h",
+     "text": "Case study: Gary McKinnon"
+    },
+    {
+     "t": "p",
+     "text": "In 2002 British hacker Gary McKinnon was accused of 'the biggest military computer hack of all time' against US Department of Defence and NASA systems, and the US demanded his extradition."
+    },
+    {
+     "t": "p",
+     "text": "He fought extradition for 10 years - including appeals to the House of Lords and the European Court of Human Rights - until the British Government blocked it in late 2012. He was not prosecuted in the UK because of the logistics of moving evidence and witnesses from the US, the passage of time and the difficulty of bringing a case in England and Wales."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-20",
+   "title": "2.1 Data protection",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_106.jpg",
+     "alt": "A judge's wooden gavel resting on a laptop keyboard",
+     "caption": "Figure 4"
+    },
+    {
+     "t": "p",
+     "text": "The original **Data Protection Act** (DPA) became law in 1984, establishing legal obligations for organisations to act responsibly with personal information. The UK's **Data Protection Act 2018** (DPA 2018) replaces earlier legislation to align UK law with the EU's **General Data Protection Regulation** (GDPR)."
+    },
+    {
+     "t": "p",
+     "text": "GDPR replaces national data protection laws and the earlier EU Data Protection Directive 95/46/EC with a single set of regulations across all EU member states. That matters for anyone operating across borders: otherwise a data processing operation legal in one country could be illegal in another."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-21",
+   "title": "What GDPR and the DPA 2018 require",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "GDPR protects EU citizens from abuses of data privacy by companies in their own country and in other member states - and **any** company, anywhere in the world, that processes EU citizens' personal data must obey it.",
+      "In the UK the **Information Commissioner's Office (ICO)** is the **Statutory Authority (SA)** that enforces GDPR.",
+      "Organisations employing more than 250 people must have at least one **Data Protection Officer (DPO)** to develop data protection policies and ensure compliance - the old DPA required no DPOs.",
+      "Under the old DPA, reporting breaches was encouraged but optional. The DPA 2018 forces companies to report breaches to the SA **within 72 hours** of discovering the incident (the breach itself may have happened long before)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber7-22",
+   "title": "Penalties and pseudonymisation",
+   "blocks": [
+    {
+     "t": "h",
+     "text": "Escalating penalties"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "a written warning for relatively minor breaches, first offences or unintentional non-compliance",
+      "regular data protection audits to ensure a business that had a breach comes into compliance",
+      "a fine of up to EUR 20 million or 4% of annual global turnover - whichever is *greater* (the old DPA's maximum fine was just GBP 500,000)."
+     ]
+    },
+    {
+     "t": "h",
+     "text": "Pseudonymisation"
+    },
+    {
+     "t": "p",
+     "text": "**Pseudonymisation** replaces personal identifiers (name, address, social security number) with a new tag to protect privacy. For example, a hospital patient's doctors use the record with their real name, but medical researchers get a copy with a random name."
+    },
+    {
+     "t": "p",
+     "text": "It isn't perfect: it can be defeated if the original records are poorly secured or the algorithm that creates the pseudonyms is unsecured. The DPA 2018 makes organisations responsible for ensuring attackers can't easily de-anonymise data."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-23",
+   "title": "Right to erasure; privacy by design",
+   "blocks": [
+    {
+     "t": "h",
+     "text": "The right to erasure"
+    },
+    {
+     "t": "p",
+     "text": "Past embarrassments that once faded - say, a petty crime as a child reported in a local paper - can now come back to haunt people, for example when they stand for public office. In 2012 the European Commission drafted 'the right to be forgotten' (removing untrue or no-longer-relevant data from search engines and websites)."
+    },
+    {
+     "t": "p",
+     "text": "GDPR adopted a more limited **right to erasure**: personal data can be removed if it was acquired illegally (e.g. hacking or unauthorised disclosure), or if the person's privacy outweighs the interests of the organisation storing it."
+    },
+    {
+     "t": "h",
+     "text": "Data protection by design and by default"
+    },
+    {
+     "t": "p",
+     "text": "Developers must consider privacy at the outset, not once a system is complete. Processors must use as little personal information as possible, delete data no longer needed for its original purpose, and not pass data to other organisations without permission. The DPA 2018 also covers UK-only areas such as immigration and law enforcement, and applies irrespective of the UK's EU membership."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-24",
+   "title": "2.2 The Investigatory Powers Act 2016",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_107.jpg",
+     "alt": "A security camera against blurred city lights at night",
+     "caption": "Figure 5"
+    },
+    {
+     "t": "p",
+     "text": "The **Investigatory Powers Act 2016 (IPA)** governs the use of surveillance technologies by public bodies such as the police, intelligence services and local authorities. It updates the Regulation of Investigatory Powers Act 2000 (**RIPA**)."
+    },
+    {
+     "t": "p",
+     "text": "Like RIPA, it subjects intrusive covert powers - intercepting communications, bugs, covert CCTV and undercover agents - to strict safeguards. Its use is overseen by the Interception of Communications Commissioner and judicial commissioners; the **Investigatory Powers Tribunal** (independent senior lawyers and judges) hears complaints."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-25",
+   "title": "What the IPA allows",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Certain public bodies can access communications records from providers such as phone companies and ISPs when necessary and proportionate for a specific investigation: names, addresses and phone numbers, time and duration of calls, the source and destination of emails, and the location of mobile devices."
+    },
+    {
+     "t": "p",
+     "text": "The IPA extended RIPA by requiring communications companies to keep up to **12 months** of data on the websites (but not specific webpages) their customers visit."
+    },
+    {
+     "t": "p",
+     "text": "More intrusive techniques need higher authorisation. Intercepting the *content* of communications (calls, emails, specific webpages) needs a warrant from the Secretary of State - including 'equipment interference' warrants that let police and intelligence officials change how targeted computers operate to collect data, effectively 'hacking' them to support investigations."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-26",
+   "title": "2.3 The Computer Misuse Act 1990",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_108.jpg",
+     "alt": "Hands in handcuffs, fists clenched, resting on a computer keyboard",
+     "caption": "Figure 6"
+    },
+    {
+     "t": "p",
+     "text": "The **Computer Misuse Act 1990 (CMA)** is one of the most influential computer laws, and inspired similar laws in other countries. It has been amended by the Criminal Justice and Public Order Act 1994, the Criminal Justice (Terrorism and Conspiracy) Act 1998, the Police and Justice Act 2006 and the Serious Crime Act 2015."
+    },
+    {
+     "t": "p",
+     "text": "It came about partly because of a 1988 case in which two hackers broke into British Telecom's **Prestel** network - a text-based interactive information system viewed on a TV - and accessed accounts including Prince Philip's. They were convicted under the Forgery and Counterfeiting Act 1981, but higher courts overturned this because that Act was never meant for such cases. Most legal experts concluded hacking was not actually illegal in Britain at the time."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-27",
+   "title": "What the CMA makes illegal",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The CMA was drawn up hurriedly and criticised for lack of scrutiny, but its central aims have stood the test of time. The original Act created three criminal offences:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "unauthorised access to computer materials",
+      "unauthorised access with intent to commit or aid further offences",
+      "unauthorised modification of computer material."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "'Unauthorised' means the attacker must be aware they are not intended to use the computer. Using another person's account details, or breaking in with a password attack, is clearly unauthorised."
+    },
+    {
+     "t": "p",
+     "text": "Amendments added denial-of-access/denial-of-service offences and criminalised creating and supplying software or hardware that might aid an attack - which could even catch forensic tools that attackers can abuse. The CMA has been used in cases including denial-of-service attacks on Kent Police, Oxford University, the US Air Force, the CIA, Sony and Nintendo; fraud in online games; theft from online banks; stalking; hoax emergency calls and piracy."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-28",
+   "title": "2.4 The Fraud Act 2006",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_109.jpg",
+     "alt": "A person in handcuffs, hands behind their back, standing in front of a laptop showing graphs",
+     "caption": "Figure 7"
+    },
+    {
+     "t": "p",
+     "text": "The **Fraud Act 2006** simplified the notoriously complex Theft Act, which defined many types of fraud tied to specific circumstances - hard to prosecute and for juries to understand. (Obtaining money by a fraudulent bank transfer wasn't specifically illegal in the UK until 1996!)"
+    },
+    {
+     "t": "p",
+     "text": "The Act defines fraud in three ways: **false representation**, **failing to disclose information**, and **abusing power**. The conduct must be dishonest, intended to make a gain or cause a loss (or risk of loss) to another. Crucially, no actual gain or loss needs to be proved."
+    },
+    {
+     "t": "p",
+     "text": "**Section 11** refers specifically to electronic fraud: dishonestly obtaining communications services (phone, ISP, satellite TV); cloning mobile phones so calls are billed to another handset; reprogramming phones or changing their unique identifiers; and breaking encryption on services such as subscription TV or phone calls."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-29",
+   "title": "2.5 Lawful Business Practice Regulations",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_110.jpg",
+     "alt": "Black-and-white photo of a man working at a laptop in an office cubicle",
+     "caption": "Figure 8"
+    },
+    {
+     "t": "p",
+     "text": "UK employers may monitor their employees' communications under the **Telecommunications (Lawful Business Practice) (Interception of Communications) Regulations 2000** (the 'IC Regs'). Monitoring can include recording calls, storing phone numbers, email and website addresses, storing email and inspecting attachments."
+    },
+    {
+     "t": "p",
+     "text": "This lets employers make sure networks aren't used in ways that bring the company into disrepute (e.g. offensive emails), for illegal activities (e.g. sending copyright material without licence), or for personal reasons. Some must monitor to meet regulation - e.g. financial 'health warnings' to customers - and in extreme cases for national security."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-30",
+   "title": "Monitoring with consent and care",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The IC Regs are an exception to the general rule - codified in RIPA, now the Investigatory Powers Act 2016 - that intercepting communications is unlawful unless specifically authorised. They allow interception under specific conditions, but only if **both parties consent**. Consent may be a condition of employment or a separate agreement."
+    },
+    {
+     "t": "p",
+     "text": "Monitoring must be done with care: it can erode trust between management and workers and be intrusive. Employers must also abide by the **Human Rights Act** and the **Data Protection Act**, so that interception is proportionate, intercepted data is used for the correct purposes, and personal information is stored and processed appropriately."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-31",
+   "title": "2.6 Activity 1 The law",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A hacker steals an organisation's customer database by exploiting a well-known vulnerability. The organisation hadn't fixed it, even though the IT department knew a patch was available."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber7-q2",
+     "q": "In the UK, under which law would the **organisation** have committed an offence?",
+     "options": [
+      "Computer Misuse Act",
+      "Data Protection Act",
+      "RIPA",
+      "Fraud Act"
+     ],
+     "answer": 1,
+     "explain": "By failing to patch a known vulnerability, the organisation did not take adequate measures to secure customers' personal data, so it failed its obligations under the DPA. It made no unauthorised use of computers (CMA), there's no cause to use RIPA, and it committed no fraud."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber7-q3",
+     "q": "Under which law would the **hacker** have committed an offence?",
+     "options": [
+      "Computer Misuse Act",
+      "Data Protection Act",
+      "RIPA",
+      "Fraud Act"
+     ],
+     "answer": 0,
+     "explain": "Gaining unauthorised access to a computer system is an offence under the CMA. The hacker isn't bound by the DPA; RIPA gives authorities powers to intercept communications; and unauthorised access to records is not, in itself, fraud."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-32",
+   "title": "Check: which law does what?",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "cyber7-m1",
+     "title": "Match each description to the law or rule",
+     "pairs": [
+      {
+       "term": "Data Protection Act 2018",
+       "def": "UK law aligning with GDPR: protect personal data and report breaches within 72 hours"
+      },
+      {
+       "term": "Investigatory Powers Act 2016",
+       "def": "Governs surveillance by public bodies such as police and intelligence services"
+      },
+      {
+       "term": "Computer Misuse Act 1990",
+       "def": "Makes unauthorised access to, or modification of, computer material a crime"
+      },
+      {
+       "term": "Fraud Act 2006",
+       "def": "Defines fraud as false representation, failing to disclose information or abusing power"
+      },
+      {
+       "term": "Lawful Business Practice Regulations (IC Regs)",
+       "def": "Let employers monitor employees' communications, with consent"
+      },
+      {
+       "term": "EU Cybersecurity Act",
+       "def": "Strengthens ENISA and sets up an EU cybersecurity certification framework"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber7-33",
+   "title": "2.7 Cyber security in the EU",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_111.jpg",
+     "alt": "The Earth seen from space, surrounded by a layer of padlocks linked by dashed lines",
+     "caption": "Figure 9"
+    },
+    {
+     "t": "p",
+     "text": "In 2017 the EU introduced a new cyber security framework, including an EU Cybersecurity Agency to share threat intelligence, run pan-European cyber security exercises and ensure all serious incidents are reported; an EU-wide certification framework so products and services are secure from attack; and measures against fraud and counterfeiting of non-cash payments."
+    },
+    {
+     "t": "p",
+     "text": "On 10 December 2018 the European Parliament, Council and Commission agreed the **Cybersecurity Act**. It reinforces the mandate of the EU Agency for Cybersecurity (**ENISA**, the European Union Agency for Network and Information Security) to help Member States tackle threats, and establishes an EU certification framework that boosts the security of online services and consumer devices. The text is at eur-lex.europa.eu/eli/reg/2019/881/oj."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-34",
+   "title": "2.8 What laws apply in your country?",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_112.jpg",
+     "alt": "Gary McKinnon smiling outside the gothic Royal Courts of Justice",
+     "caption": "Figure 10 British hacker Gary McKinnon outside the Royal Courts of Justice in January 2009, while fighting extradition"
+    },
+    {
+     "t": "activity",
+     "id": "cyber7-a2",
+     "title": "Activity 2 Laws in other countries (about 20 minutes)",
+     "prompt": "If you live or work outside the UK, or have links with another country, research similar laws there. Look for laws on one of: data protection relating to living individuals; misuse of computers; investigatory powers; fraud. Find out whether equivalent laws exist, what they are called and how they differ. Overall, are the laws in other countries similar, different or non-existent?",
+     "model": "A good answer names a specific country and at least one law covering data protection, computer misuse, investigatory powers or fraud, gives its name, and compares it with the UK equivalent (e.g. scope, penalties, who enforces it). Many countries have laws modelled on GDPR or on the Computer Misuse Act, but coverage and penalties vary, and some areas may have no equivalent.",
+     "points": [
+      "Names a country and at least one relevant law",
+      "Links it to an aspect: data protection, computer misuse, investigatory powers or fraud",
+      "Identifies differences or similarities with the UK law",
+      "Concludes whether laws are similar, different or missing"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber7-35",
+   "title": "3 Who should you contact?",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_113.jpg",
+     "alt": "Close-up of several credit cards in warm, blurred light",
+     "caption": "Figure 11"
+    },
+    {
+     "t": "p",
+     "text": "You've looked at how to recognise a successful attack and at the laws that protect you. The rest of this week is about recovering from an attack and preventing a repeat. First: who do you need to tell, and what do they need to know?"
+    },
+    {
+     "t": "h",
+     "text": "Responding to identity theft"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Lost important documents (passport, driving licence, credit cards, cheque books)? Report them **immediately** to the issuer so they can be blocked and replaced. Also report the loss to the police and ask for a **crime reference number**.",
+      "Report any unexplained transactions to your bank or card issuer for their fraud team. You may not be liable for losses if you acted responsibly and without fraudulent intent."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber7-36",
+   "title": "Check your credit report",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Almost everyone in the UK has a credit report with credit reference companies. Financial agencies use it to decide whether to offer you a credit card, loan or mortgage. Every time you - or an impersonator - request a new financial product, a credit search is recorded."
+    },
+    {
+     "t": "p",
+     "text": "You can ask a credit reference agency (in the UK: Callcredit, Equifax and Experian) for a copy of your report. It lists every search on your account: who authorised it, what type it was and when it was made."
+    },
+    {
+     "t": "p",
+     "text": "Agencies also offer a credit report checking service (which may be charged for) that tracks any changes to your report. For more information see ActionFraud (actionfraud.police.uk)."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-37",
+   "title": "Suspicious emails and bank card fraud",
+   "blocks": [
+    {
+     "t": "h",
+     "text": "If you accidentally opened a suspicious email"
+    },
+    {
+     "t": "p",
+     "text": "Don't click any links or open attachments, and don't use links in an email to log in. Run a scan with your anti-malware software. Visit sites you need to check through bookmarks you saved earlier. Don't be shocked into immediate action by anything you read."
+    },
+    {
+     "t": "h",
+     "text": "Bank card fraud"
+    },
+    {
+     "t": "p",
+     "text": "If you see an unauthorised charge, contact your card issuer as soon as possible with as much information as you can: the website, how much, when. The issuer will investigate - follow its guidance exactly. You may have legal protection if you took reasonable care and did not act fraudulently. Note that PayPal does not give the same legal protection as a credit card."
+    },
+    {
+     "t": "p",
+     "text": "Also contact the police and complete a crime report - in the UK, via ActionFraud."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-38",
+   "title": "Beware the 'bank' that calls you",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Don't respond to an email or phone call claiming to be from your bank saying it has detected fraud on your account."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Don't confirm anything and don't press any phone keys - just end the call.",
+      "Don't call any number they give you.",
+      "Put the phone down, then dial your message service or another free number to make sure the caller has released the line.",
+      "Look up your card issuer's contact details yourself, check your own account, and if there is a problem call the safe number you already have."
+     ]
+    },
+    {
+     "t": "tf",
+     "id": "cyber7-q4",
+     "q": "If a caller says they are from your bank's fraud team, it is safe to call back on the number they give you.",
+     "answer": false,
+     "explain": "Never use a number the caller supplies. Hang up, check the line is clear, and use the contact details you already have for your card issuer."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-39",
+   "title": "3.1 Getting your computer working again",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_114.jpg",
+     "alt": "Toy figurines dressed as builders, with traffic cones, working on an open hard disk",
+     "caption": "Figure 12"
+    },
+    {
+     "t": "p",
+     "text": "You've realised you were attacked and reported it - now how do you get your computer working again? If you wait until you've been attacked, it may be too late. **Before** you are attacked:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "make a note of all the software you use and all licence keys, and store them separately from your computer",
+      "keep all your data backed up on a write-only system",
+      "check that you can install all your software and data onto a new system."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber7-40",
+   "title": "Recovering from malware",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Your aim is to update your antivirus software, then isolate your computer so the malware doesn't spread. On Windows 10, run Microsoft's Malicious Software Removal Tool."
+    },
+    {
+     "t": "p",
+     "text": "After a **ransomware** attack you may be able to recover your data with help from **nomoreransom.org** - a scheme set up by Europol, the Netherlands Police, McAfee and Kaspersky that analyses ransomware and identifies decryption keys."
+    },
+    {
+     "t": "p",
+     "text": "In the worst case you may need to reformat the hard drive, reinstall the operating system and your keys, then your programs, then your data from secure backups. (You have got them all safe, haven't you?)"
+    },
+    {
+     "t": "p",
+     "text": "Then think about how the malware got in - a suspicious website, a suspicious download, an email attachment? - and what you'll do differently."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "A slow, old computer may simply have dust built up in vents, fans and internal surfaces, so the processor slows down to avoid overheating."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-41",
+   "title": "Recovering a deleted file",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Deleting a file isn't necessarily permanent. If it's only in the trash (Recycle Bin on Windows), drag it back out. If you've emptied the trash, the data is still on the disk but the operating system can't find it - you need special file recovery software (About Technology lists '19 Free Data Recovery Software Tools')."
+    },
+    {
+     "t": "ol",
+     "items": [
+      "**Stop using the computer** as soon as you realise - the sooner you try, the better your chance of recovering the whole file; after a long time only partial recovery, or none, may be possible.",
+      "Install a file recovery program (some run from an optical disc or flash drive).",
+      "Run the recovery application."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Because Windows and Mac OS store files differently, recovery is much easier on Windows; there's less choice of recovery tools for the Mac. Once you have the file back, review your backup strategy."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-42",
+   "title": "Lost a device with confidential data?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "First ask: was the data encrypted with strong encryption? Does it need a strong password to decrypt? Is that password known only to you?"
+    },
+    {
+     "t": "p",
+     "text": "If any answer is 'no', the data is potentially vulnerable. If it holds **personal information** you have an obligation to act under the Data Protection Act: contact your organisation's data protection staff as soon as possible, or the Information Commissioner's Office for guidance."
+    },
+    {
+     "t": "p",
+     "text": "If it holds confidential or sensitive information about a company or other organisation, contact the organisation that owns the data so it can act - in some circumstances this may involve the police or security services."
+    },
+    {
+     "t": "p",
+     "text": "If the data was securely encrypted it is almost certainly safe - but still inform the relevant authorities of the loss."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-43",
+   "title": "Recovering from an operating system failure",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "**Windows (XP or later):** use the **Restore Point** feature to revert your computer to a previous working state. Windows saves its configuration automatically every day, when it updates, and at certain events such as installing an unsigned driver for a peripheral."
+    },
+    {
+     "t": "p",
+     "text": "**Mac OS (10.5 or later):** **Time Machine** backs up files and system configurations. If it's enabled you can restore your Mac to a previous state - hourly backups for the past day, daily backups for the past month, and weekly backups for anything older."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber7-q5",
+     "q": "You have just emptied the trash and realise an important file was in it. What should you do first?",
+     "options": [
+      "Keep working normally and look for recovery software next week",
+      "Stop using the computer immediately, then install and run a file recovery program",
+      "Reformat the hard drive and reinstall the operating system"
+     ],
+     "answer": 1,
+     "explain": "The data is still on the disk, but continued use may overwrite it. The sooner you try to recover it, the greater the chance of getting the whole file back."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-44",
+   "title": "3.2 Making your information less vulnerable",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_115.jpg",
+     "alt": "A smartphone showing a login screen with username and password fields, resting on a laptop keyboard",
+     "caption": "Figure 13"
+    },
+    {
+     "t": "p",
+     "text": "User accounts and passwords mean data can only be seen and used by authenticated users; without them an attacker must use much more time-consuming techniques, increasing their risk of being caught."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Set your computer and mobile devices to require a login or passcode when switched on, and to lock after a period of inactivity - so no one can tamper with them or impersonate you on social media.",
+      "Change the default password on your router (and note it down).",
+      "Use a network firewall on the router and a personal firewall on the computer to keep hackers out; up-to-date antivirus stops malware deleting, encrypting or transmitting your files.",
+      "Encrypt very important files when you're not editing them - for example with VeraCrypt (veracrypt.fr)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber7-45",
+   "title": "User accounts and file permissions",
+   "blocks": [
+    {
+     "t": "h",
+     "text": "User accounts"
+    },
+    {
+     "t": "p",
+     "text": "Operating systems allow accounts with different levels of access, from a **guest** (few tasks, can't change important settings) to an **administrator** (installs applications, sees all data, changes major settings). Limited user accounts in between usually can't install software - helping to prevent malware infections."
+    },
+    {
+     "t": "p",
+     "text": "Even if you're the only user, use a standard account day to day and the administrator account only to install software or update the system. **Never** browse the web or open emails as administrator. Accounts can also restrict access to files, printers and other network resources."
+    },
+    {
+     "t": "h",
+     "text": "File permissions"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**write** - the file can be edited",
+      "**read** - it can be read and copied",
+      "**execute** - it can be run as a program (if applicable)."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "You might have read and write access while others get read only, and outsiders none. But read permission still lets an attacker copy and paste content or edit a copy."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-46",
+   "title": "Disabling ports and using locks",
+   "blocks": [
+    {
+     "t": "h",
+     "text": "Disabling ports"
+    },
+    {
+     "t": "p",
+     "text": "USB ports let data be stolen with flash drives, plug-in hard disks, smartphones or media players, so it may be necessary to disable them. **Data Loss Prevention (DLP)** software can temporarily disable USB ports, or monitor or restrict copying to USB devices."
+    },
+    {
+     "t": "h",
+     "text": "Locks"
+    },
+    {
+     "t": "p",
+     "text": "The easiest way to steal a lot of data is to steal the computer or server itself. Most computers have a socket for a lock on a metal chain secured to a wall or desk. Check that a locked computer can't simply be opened and its drives removed. Keep networked storage in a locked room or a locked cage fixed to the wall or floor."
+    },
+    {
+     "t": "p",
+     "text": "In shared spaces, lock doors and windows and challenge unknown people wandering around."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-47",
+   "title": "Check: who can do what?",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "cyber7-m2",
+     "title": "Match each security measure to what it does",
+     "pairs": [
+      {
+       "term": "Standard (limited) user account",
+       "def": "Usually cannot install new software, helping to prevent malware infections"
+      },
+      {
+       "term": "Administrator account",
+       "def": "Can install applications, see any data and change major settings"
+      },
+      {
+       "term": "Read permission",
+       "def": "Lets a user open and copy a file, but not edit it"
+      },
+      {
+       "term": "Write permission",
+       "def": "Lets a user edit the file"
+      },
+      {
+       "term": "Data Loss Prevention software",
+       "def": "Disables USB ports or restricts copying files to USB devices"
+      },
+      {
+       "term": "Restore Point / Time Machine",
+       "def": "Reverts the computer to a previous working state"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber7-48",
+   "title": "3.3 Protecting your data for the future",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_116.jpg",
+     "alt": "A rusty, battered laptop lying on rocks near water",
+     "caption": "Figure 14"
+    },
+    {
+     "t": "p",
+     "text": "If you haven't already, now is the time to make computer backups. Backups protect us from:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "accidentally deleting a file or program",
+      "losing disks, computers or memory cards",
+      "hardware failures such as a hard disk crash",
+      "software bugs that stop data being written, or corrupt it as it is written",
+      "disasters such as fire or flooding",
+      "crimes including terrorism, theft and sabotage such as hacking."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber7-49",
+   "title": "Activity 3 Protection for the future",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "cyber7-a3",
+     "title": "Activity 3 Protection for the future (about 30 minutes)",
+     "prompt": "Evaluate the list of digital information you compiled in Week 1. Decide which data and software is essential and should be safely and securely backed up, and how often each type should be backed up.",
+     "model": "You don't need to back up software like Windows 10, because you can download it again - but you do need to back up the licence keys to reinstall it. Bespoke business software might need one securely stored backup if it doesn't change. Long documents or many daily transactions may need a protected backup every time data changes, such as logging all database changes to a separate system. A home user might back up all photos at full resolution to a separate hard drive and at reduced resolution to a cloud store.",
+     "points": [
+      "Identifies which data and software are essential to back up",
+      "Distinguishes replaceable software from irreplaceable data and licence keys",
+      "Sets a backup frequency that matches how often each item changes",
+      "Chooses where backups are kept (separate drive, cloud, offsite)"
+     ],
+     "hint": "Example: Windows can be re-downloaded, but its licence key can't - back up the key."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-50",
+   "title": "3.4 Backup media",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_117.jpg",
+     "alt": "Hundreds of optical discs stacked around a glowing computer screen",
+     "caption": "Figure 15"
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Keep three copies of any important data: one for use, one as a backup, and one stored in a different building.",
+     "title": "Three copies"
+    },
+    {
+     "t": "h",
+     "text": "Optical storage"
+    },
+    {
+     "t": "p",
+     "text": "The same technology as CDs, DVDs and Blu-Ray. Writeable DVD standards include DVD-R, DVD+R, DVD-RW, DVD+RW and DVD-RAM; most store 4.7 GB, and dual-layer discs twice that. Blu-Ray offers 25 GB and dual-layer 50 GB, with expensive three-layer 100 GB discs. Optical storage is bulkier and more expensive per GB than the largest hard drives, but comparable to smaller ones."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-51",
+   "title": "Optical storage: pros and cons",
+   "blocks": [
+    {
+     "t": "h",
+     "text": "Advantages"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Write-once optical storage protects data against malware that encrypts data.",
+      "Some gold discs have a very long life for archives if stored upright in cases, in the dark, at 50% humidity and a stable room temperature.",
+      "Drives and media are extremely cheap and widespread; many manufacturers, so future supply is secure.",
+      "Newer formats such as Blu-Ray also read older DVDs and CDs.",
+      "Robust: discs can be posted, survive regular use or being dropped, and are immune to strong magnetic fields."
+     ]
+    },
+    {
+     "t": "h",
+     "text": "Disadvantages"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Relatively slow, especially when writing.",
+      "Many disc types, some not widely supported.",
+      "Low capacity: backing up a common 1 TB disk would take more than 200 DVDs - so DVDs suit backups of key data."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber7-52",
+   "title": "Magnetic disks (hard drives)",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Hard drives store 4 TB or more and offer the lowest cost per GB. The best have a failure risk of about 0.33% a year (but not when moved around). Don't rely on them to archive much beyond 5 years - copy to new drives every five years."
+    },
+    {
+     "t": "p",
+     "text": "You can add a second internal disk for backups, or plug in a cheap external disk via USB or Firewire. Disks connected directly to a network by Ethernet or wi-fi are **Network-Attached Storage (NAS)**. Combining disks so data is copied across several - most commonly a **Redundant Array of Independent Disks (RAID)** - means one damaged copy or failed disk doesn't lose data forever."
+    },
+    {
+     "t": "h",
+     "text": "Advantages"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Relatively cheap, capacities growing rapidly; external disks move easily between computers.",
+      "Many manufacturers, usable in almost any computer; many backup programs, often 'one touch' backup.",
+      "Cost effective for archiving data for a few years."
+     ]
+    },
+    {
+     "t": "h",
+     "text": "Disadvantages"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Fragile: damaged if dropped or exposed to very high temperatures or magnetic fields.",
+      "Using small disks once for a backup and archiving them costs far more than tape or optical media."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber7-53",
+   "title": "Solid State Disks and memory cards",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "**Solid State Disks (SSDs)** and memory cards store data in memory chips that need no power source - despite the name there are no physical disks. They're in USB memory sticks and increasingly replace magnetic disks in laptops and mobile devices. Capacities up to 1 TB are available."
+    },
+    {
+     "t": "h",
+     "text": "Advantages (in addition to those of magnetic disks)"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "More robust - unlikely to be damaged if dropped or exposed to magnetic fields.",
+      "Much faster to read and write.",
+      "Silent - no moving parts."
+     ]
+    },
+    {
+     "t": "h",
+     "text": "Disadvantages"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "More expensive than magnetic disks of the same capacity.",
+      "Maximum capacity currently 1 TB (this will increase).",
+      "Can't be rewritten as often as magnetic disks.",
+      "Only useful for short-term storage of up to 5 years."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Memory cards are available up to 128 GB, but they also wear out if constantly rewritten."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-54",
+   "title": "Check: choosing backup media",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "cyber7-m3",
+     "title": "Match each feature to the backup medium",
+     "pairs": [
+      {
+       "term": "Write-once DVD",
+       "def": "Can't be altered later, so protects backups against malware that encrypts data"
+      },
+      {
+       "term": "Gold optical disc",
+       "def": "Very long archive life if stored upright in the dark at 50% humidity"
+      },
+      {
+       "term": "Magnetic hard disk",
+       "def": "Lowest cost per GB, but copy to new drives every five years"
+      },
+      {
+       "term": "RAID",
+       "def": "Several disks holding copies of the data, so one failure doesn't lose it"
+      },
+      {
+       "term": "Solid State Disk",
+       "def": "Fast, silent and robust, but costlier and limited rewrites"
+      },
+      {
+       "term": "Network-Attached Storage (NAS)",
+       "def": "Disks connected directly to a network by Ethernet or wi-fi"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber7-55",
+   "title": "3.5 Remote backups",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_118.jpg",
+     "alt": "White clouds in a deep blue sky",
+     "caption": "Figure 16"
+    },
+    {
+     "t": "p",
+     "text": "Large organisations insure themselves further by storing backups away from their centre of operation. Individuals can use remote hosting or services such as Dropbox, GDrive and OneDrive. After a disaster you are far more likely to get back to normal quickly - it's much easier to buy new computers than recreate all your records."
+    },
+    {
+     "t": "h",
+     "text": "Offsite backups"
+    },
+    {
+     "t": "p",
+     "text": "Specialised companies hire out storage space or machinery for backups - from a secure vault for tapes or disks to large server farms on very fast networks, used as if part of your own network. With fibre and high-speed internet, security and reliability matter more than distance. The largest suppliers include Amazon Web Services (AWS), Microsoft Azure and Google Cloud Platform."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-56",
+   "title": "Backing up to the cloud",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Offsite backup used to need large monthly fees; the cloud gives anyone offsite storage, often some for free. Most cloud services are designed for convenience - sharing files between devices and people - rather than as backup, but they add security if your computer is stolen or fails (especially if you encrypt files first)."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "Most cloud services are **synchronised**: when you delete a file on your computer, the cloud copy is deleted too, immediately or soon after. So with few exceptions they won't protect you from deletion - though some keep previous versions of files.",
+     "title": "Warning"
+    },
+    {
+     "t": "p",
+     "text": "Cloud backups are limited by your internet bandwidth. With a slow uplink you may need to prioritise what goes to the cloud and keep the rest locally. With a fast connection you can set a folder to be copied to the cloud every time a file changes and synced between devices."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-57",
+   "title": "Cloud security",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Once data is in the cloud you can't be sure it's safe from prying eyes. Suppliers promise security but can't guarantee it - as some celebrity users of Apple's iCloud found in 2014 (see Further reading). Some businesses forbid staff from using the cloud, because it may be insecure or outside the legal protection of the company's country."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Encrypting the contents is the only way you can guarantee your data is safe in the cloud."
+    },
+    {
+     "t": "p",
+     "text": "A good approach: keep files in **encrypted folders inside** the folder you back up to the cloud. You'll need your key to open them - good practice on your own computer anyway. Note that encrypting the whole drive doesn't encrypt the files you back up from it."
+    },
+    {
+     "t": "tf",
+     "id": "cyber7-q6",
+     "q": "Encrypting your whole hard drive also encrypts the copies of your files backed up to the cloud.",
+     "answer": false,
+     "explain": "Whole-drive encryption doesn't encrypt files backed up from within the drive. Keep files in encrypted folders inside your cloud backup folder instead."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-58",
+   "title": "3.6 Activity 4 Do you backup?",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_119.jpg",
+     "alt": "A USB memory stick and a memory card on top of a pile of discs",
+     "caption": "Figure 17"
+    },
+    {
+     "t": "activity",
+     "id": "cyber7-a4",
+     "title": "Activity 4 Do you backup? (about 15 minutes)",
+     "prompt": "Write a short description of how you back up data: the technologies you use, how often you back up and what risks remain. If you don't back up but your organisation does, briefly explain its procedure. If neither applies, explain what backup procedures would give you a reasonable amount of security. (Don't identify your company or organisation if you discuss this with others.)",
+     "model": "A reasonable procedure keeps three copies of important data - the working copy, a local backup (e.g. an external hard drive or NAS) and an offsite or encrypted cloud copy - made automatically and often enough to match how fast the data changes. Remaining risks include synchronised cloud copies being deleted along with the original, backups being encrypted by ransomware if left connected, media wearing out, and unencrypted backups being stolen.",
+     "points": [
+      "Names the backup technologies used or proposed",
+      "States how often backups are made",
+      "Includes a copy kept in a different location (offsite or cloud)",
+      "Identifies remaining risks such as sync deletion, ransomware or media failure"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber7-59",
+   "title": "3.7 Archiving data",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_120.jpg",
+     "alt": "A pile of data storage devices: USB sticks, memory cards and an open hard disk",
+     "caption": "Figure 18"
+    },
+    {
+     "t": "p",
+     "text": "Ideally we'd keep a backup of every piece of data we ever use, but buying that much media is impractical. Instead most media are reused after a while, with old backups overwritten. Businesses must keep backups for a number of years (for legal and tax purposes) before recycling media."
+    },
+    {
+     "t": "p",
+     "text": "Important files - especially those of historic or legal interest - should be **archived** so they are never overwritten. In many countries companies are legally obliged to archive data for auditing."
+    },
+    {
+     "t": "p",
+     "text": "Governments are recognising the importance of archiving and authorising national bodies to store important digital records. In Britain this is managed by the **National Archives** and the **British Library**."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-60",
+   "title": "Week 7 quiz (1 of 2)",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Test and apply your knowledge of this week's material."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber7-q7",
+     "q": "Which term describes security risks posed by employees or ex-employees to their employer?",
+     "options": [
+      "Insider threats",
+      "Phishing",
+      "Pseudonymisation",
+      "Click fraud"
+     ],
+     "answer": 0,
+     "explain": "Insider threats come from people inside the organisation, such as the cases of Bo Zhang, BUPA and Trend Micro."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber7-q8",
+     "q": "Under the Data Protection Act 2018, how quickly must an organisation report a breach to the Statutory Authority once it is discovered?",
+     "options": [
+      "Within 24 hours",
+      "Within 72 hours",
+      "Within 30 days",
+      "Reporting is optional"
+     ],
+     "answer": 1,
+     "explain": "The DPA 2018 makes reporting compulsory within 72 hours of discovery; under the old DPA it was only encouraged."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber7-q9",
+     "q": "What is the maximum GDPR fine?",
+     "options": [
+      "GBP 500,000",
+      "EUR 20 million or 4% of annual global turnover, whichever is greater",
+      "EUR 20 million or 4% of annual global turnover, whichever is smaller"
+     ],
+     "answer": 1,
+     "explain": "GDPR's maximum is EUR 20 million or 4% of global turnover, whichever is greater. GBP 500,000 was the maximum under the old DPA."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-61",
+   "title": "Week 7 quiz (2 of 2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "cyber7-q10",
+     "q": "Which three ways of committing fraud does the Fraud Act 2006 define?",
+     "options": [
+      "False representation, failing to disclose information, abusing power",
+      "Unauthorised access, unauthorised modification, denial of service",
+      "Phishing, identity theft, ransomware"
+     ],
+     "answer": 0,
+     "explain": "The second option lists Computer Misuse Act offences. Under the Fraud Act, no actual gain or loss needs to be proved."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber7-q11",
+     "q": "How many copies of important data does the course recommend keeping?",
+     "options": [
+      "One, kept in the cloud",
+      "Two: the original and a backup on the same disk",
+      "Three: one for use, one as backup and one stored in a different building"
+     ],
+     "answer": 2,
+     "explain": "A third copy in a different building protects you against disasters such as fire, flood or theft at your main site."
+    },
+    {
+     "t": "tf",
+     "id": "cyber7-q12",
+     "q": "Under GDPR, the 'right to erasure' allows anyone to have any information about them removed from any website on request.",
+     "answer": false,
+     "explain": "It is more limited than the proposed 'right to be forgotten': data can be erased if it was acquired illegally, or if the person's privacy outweighs the interests of the organisation storing it."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-62",
+   "title": "Summary of Week 7",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_121.jpg",
+     "alt": "A closed padlock on a blue circuit board",
+     "caption": "Figure 19"
+    },
+    {
+     "t": "p",
+     "text": "Most of this week was about recovering from a disaster - but it's worth reminding yourself how to minimise the risk of a breach. These relatively easy measures greatly increase your computer and mobile device security:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "each user has their own personal, non-administrative account",
+      "strong passwords (perhaps with a password manager)",
+      "a login or passcode when devices start up and when they lock after a period",
+      "operating system and key applications kept up to date",
+      "antivirus software installed and up to date",
+      "wireless networks protected with modern (e.g. WPA2) encryption",
+      "a personal firewall on your PC and a router firewall."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Measures that might need some help, or a system administrator's approval at work: encrypting your hard disk; encrypting folders with confidential files or files backed up to the cloud; using encrypted flash memory drives."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-63",
+   "title": "Reflect: your security measures",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "cyber7-a5",
+     "title": "Which measures apply to you?",
+     "prompt": "Look at the list of security measures in the Week 7 summary. Which apply to you and your computer and mobile devices? Note the measures that apply to your situation and how you could implement them.",
+     "model": "A good response picks the measures that are missing in your own setup - for instance switching to a non-admin account for daily use, turning on a screen lock, enabling automatic updates, installing antivirus, changing the router's default password and enabling its firewall, or encrypting folders backed up to the cloud - and gives a concrete step and timescale for each.",
+     "points": [
+      "Identifies which listed measures already apply and which are missing",
+      "Gives concrete steps to implement at least one missing measure",
+      "Mentions accounts, passwords or screen locks",
+      "Mentions updates, antivirus, firewall or encryption"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Next week: Managing security risks."
+    }
+   ]
+  },
+  {
+   "id": "cyber7-64",
+   "title": "Further reading",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "Apple toughens iCloud security after celebrity breach - BBC News (bbc.co.uk/news/technology-29237469)",
+      "Current iCloud security overview - Apple Support (support.apple.com/en-us/HT202303)",
+      "'; --have i been pwned? - haveibeenpwned.com",
+      "No More Ransom - nomoreransom.org",
+      "ActionFraud - actionfraud.police.uk"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,958 @@
+{
+ "id": "hybrid5",
+ "title": "Understanding your responsibilities",
+ "summary": "Your responsibilities when working digitally: wellbeing and security, governance, GDPR, IP and copyright, information security and data management.",
+ "minutes": 120,
+ "pages": [
+  {
+   "id": "hybrid5-01",
+   "title": "Understanding your responsibilities",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "When working digitally you need to understand your responsibilities and behaviours in line with your organisation's requirements and expectations. This has become more important with hybrid working: organisations now rely on trusting those working remotely to respect their requirements and to have the capability, tools and environment to do so."
+    },
+    {
+     "t": "h",
+     "text": "In this section you will explore:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "digital wellbeing, safety and security",
+      "digital governance and information security",
+      "the General Data Protection Regulations (GDPR)",
+      "intellectual property (IP) and copyright",
+      "information security and cyber security",
+      "data, information and digital knowledge management"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-02",
+   "title": "Formal and informal guidelines",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Most HEIs have guidance and policies so staff understand the requirements for safety and security, digital governance, accessibility, inclusion and intellectual property. However, working responsibly is more wide-reaching."
+    },
+    {
+     "t": "p",
+     "text": "Depending on your role and the products and services you deliver, there is often a set of formal and informal guidelines to consider too. These range from organisational brand guidelines and the use of systems and tools to - importantly - your **digital behaviour**: how you manage your devices and how you communicate with others."
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-03",
+   "title": "5.1 Wellbeing, safety and security",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Many organisations treat digital wellbeing, safety and security as separate, but it is useful to consider them together because they overlap: safety is inherently linked to wellbeing and security. If you do not feel 'safe' because your digital security is not sufficient, this can affect your wellbeing."
+    },
+    {
+     "t": "img",
+     "src": "img/hybrid_12.jpg",
+     "alt": "Triangle diagram with 'Being digitally safe' in the centre and Wellbeing, Safety and Security at the three corners.",
+     "caption": "Figure 4 Being digitally safe"
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-04",
+   "title": "Digital life as a basic need",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "In a more digitally driven world, our reliance on technology means our digital life merits consideration as a basic need. Maslow's Hierarchy of Needs, adapted for digital life, is a useful framework for organisational and individual needs."
+    },
+    {
+     "t": "img",
+     "src": "img/hybrid_13.jpg",
+     "alt": "Pyramid of Maslow 2.0 digital needs. From bottom: physiological needs (signal, phone, wifi, laptop, battery), safety needs (maps, Google, lock, email), belonging and love (Skype, Facebook, WhatsApp, Tinder), esteem (Snapchat, Twitter, Instagram), self-actualisation (Pinterest, YouTube, LinkedIn).",
+     "caption": "Figure 5 Maslow 2.0: digital needs. Source: Chando (2019)"
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-05",
+   "title": "Holistic models of wellbeing",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Similarly, the **Well-being of Future Generations (Wales) Act 2015** - with its seven wellbeing goals and five ways of working - and the **Jisc Digital Wellbeing** model take a holistic approach to building digital capabilities and skills, with an emphasis on wellbeing."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "This course does not cover digital wellbeing in detail. The 'Hybrid working: wellbeing and inclusion' course in the same OpenLearn collection has more on digital wellbeing and safety, and the Jisc model for digital wellbeing for individuals is also a useful resource."
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-06",
+   "title": "Activity 14: Your security responsibilities",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "hybrid5-a14",
+     "title": "Activity 14 What are your digital security responsibilities in the workplace? (20 minutes)",
+     "prompt": "Your responsibilities for digital security vary with your role and your organisation's policies, processes and guidance. Explore these in your organisation. What are you required to do - and what do you actually do? List your key responsibilities.",
+     "model": "Digital wellbeing, safety and security refer to both online and offline environments. Online: protect devices (e.g. BitLocker keys), use a strong password that complies with guidance, set up multi-factor authentication, think about how sensitive information is before sharing it, password-protect sensitive documents and know what to do with spam. Offline: secure devices when not in use, lock your computer when you leave, know who to contact if you can't get online, watch who can see your screen, what you discuss and how you store physical documents.",
+     "points": [
+      "Security covers both online and offline behaviour.",
+      "Use strong passwords and multi-factor authentication.",
+      "Think about how sensitive information is before sharing it.",
+      "Lock and secure devices and control who can see or use them.",
+      "Know who to contact and what to do with spam."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-07",
+   "title": "Online and offline security tips",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Table 7 (from the answer to Activity 14) gives simple questions to check yourself against."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Online",
+      "Offline"
+     ],
+     "rows": [
+      [
+       "Do you have BitLocker keys for your devices?",
+       "Where do you secure your devices when not in use?"
+      ],
+      [
+       "How secure is your password? Do you change it regularly? Does it comply with your organisation's guidance?",
+       "Do you lock your computer if you leave your work area?"
+      ],
+      [
+       "Does your organisation use Multi-Factor Authentication (MFA), and have you set yours up correctly?",
+       "Who can see your screen when working?"
+      ],
+      [
+       "How do you share information internally and externally? How sensitive is it?",
+       "What work matters do you discuss with others?"
+      ],
+      [
+       "Do you password-protect sensitive documents when necessary?",
+       "How do you store physical documents?"
+      ],
+      [
+       "Do you know what to do if you receive spam emails?",
+       "Who do you let use your devices? Do you know who to contact if you cannot get online?"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "You can test a password at 'How Secure Is My Password?'. The National Cyber Security Centre has top tips for staying secure online, and Learn My Way has a basic introduction to online safety."
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-08",
+   "title": "5.2 Digital governance and information security",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Some organisations have separate departments leading digital governance and information security. They ensure legal responsibilities, professional and internal standards, processes and strategies are in place, so organisations and individuals develop behaviours that give a consistent approach to operating in a digital environment."
+    },
+    {
+     "t": "p",
+     "text": "Digital governance and information security can include:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "GDPR (General Data Protection Regulations)",
+      "information security",
+      "data, information and digital knowledge management",
+      "intellectual property and copyright",
+      "accessibility and inclusion",
+      "digital brands",
+      "communication and content"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-09",
+   "title": "The DAMA-DMBOK wheel",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Many organisations use the Data Management Association (DAMA) international framework as an approach to data governance and to understanding what needs to be considered."
+    },
+    {
+     "t": "img",
+     "src": "img/hybrid_14.jpg",
+     "alt": "Wheel with Data Governance at the centre surrounded by ten segments: Data Architecture, Data Modeling & Design, Data Storage & Operations, Data Security, Data Integration & Interoperability, Document & Content Management, Reference & Master Data, Data Warehousing & Business Intelligence, Metadata, Data Quality.",
+     "caption": "Figure 6 The DAMA-DMBOK data governance wheel"
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-10",
+   "title": "Video: data governance and the wheel",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Data governance and the DMBOK wheel - Nicola Askham, The Data Governance Coach",
+     "url": null,
+     "note": "Data governance sits at the centre of the DAMA-DMBOK wheel because it provides the foundation for all other data management disciplines: roles, responsibilities, authority and processes so people make consistent decisions about data (rather than, say, starting a data-quality clean-up without understanding its impact). DAMA International publishes the DMBOK (body of knowledge) with a chapter for each discipline; each wheel segment represents one chapter and may need its own experts. Compare your organisation against the wheel: most do data security, fewer do master or reference data management - are you doing enough?"
+    },
+    {
+     "t": "p",
+     "text": "The wheel summarises all the data management disciplines; it helps people understand what data they have and manage it so it is good enough quality to support good decisions."
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-11",
+   "title": "Data, information and data roles",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Data vs information",
+     "text": "Data is the building blocks. A date on its own tells you nothing; in context - as part of a record showing it is someone's date of birth - it becomes **information**, and becomes valuable. People often confuse the two terms."
+    },
+    {
+     "t": "p",
+     "text": "Data governance names roles such as a **data owner** and **data steward**, but these are few. Nicola Askham adds two roles for everyone else: a **data producer**, responsible for capturing data correctly in accordance with requirements, and a **data consumer**. Because producers and consumers are often different people, these roles help break down silos and get them talking."
+    },
+    {
+     "t": "p",
+     "text": "AI and machine learning can give amazing insights, but they are only as good as the underlying data - so a good data governance foundation matters more than ever."
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-12",
+   "title": "Activity 15: A digital governance framework",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Not all organisations have a detailed digital governance framework; some have frameworks and strategy elements for 'digital activity'. A **digital governance framework** is different from a **data governance framework**, which focuses on the management of data."
+    },
+    {
+     "t": "video",
+     "title": "OECD Digital Government Policy Framework",
+     "url": "https://www.youtube.com/watch?v=3Gj8cvrrTsg",
+     "note": "An OECD video giving insights into what an organisation may wish to consider when developing a digital governance framework."
+    },
+    {
+     "t": "activity",
+     "id": "hybrid5-a15",
+     "title": "Activity 15 Think about what should be within a digital governance framework (15 minutes)",
+     "prompt": "Watch the OECD video, then consider which policies, processes and compliance training you are required to do in your HEI or workplace. Make notes on what a digital governance framework for your organisation should include.",
+     "model": "Responsibilities vary between organisations, so start by finding the policies, processes and compliance training that apply to you. A digital governance framework should go wider than data governance: it can cover GDPR, information security, data and knowledge management, IP and copyright, accessibility and inclusion, digital brands, and communication and content, supported by legal, professional and internal standards and a strategy.",
+     "points": [
+      "Identify the policies, processes and compliance training you must follow.",
+      "Digital governance is broader than data governance.",
+      "Include areas such as GDPR, security, IP, accessibility and brand.",
+      "Standards and strategy create consistent behaviour."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-13",
+   "title": "5.3 GDPR",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "General Data Protection Regulations",
+     "text": "GDPR is a European data protection law that gives individuals more control over their personal information. For organisations, this means robust data privacy policies and processes that limit how personal data is accessed and what an organisation can do with it."
+    },
+    {
+     "t": "p",
+     "text": "Data and information are not restricted to documents: they are content used in any system, asset or communication, digital or physical. They can exist in:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "documents, spreadsheets, presentations",
+      "database systems",
+      "content on online learning platforms",
+      "video, audio, image assets",
+      "websites",
+      "emails",
+      "reports",
+      "staff records"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-14",
+   "title": "The seven GDPR principles (1)",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The UK GDPR sets out seven key principles (Article 5(1); source: Information Commissioner's Office):"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Principle",
+      "Requirement"
+     ],
+     "rows": [
+      [
+       "Lawfulness, fairness and transparency",
+       "Personal data shall be processed lawfully, fairly and in a transparent manner in relation to individuals."
+      ],
+      [
+       "Purpose limitation",
+       "Collected for specified, explicit and legitimate purposes and not further processed in a manner incompatible with those purposes (archiving in the public interest, scientific or historical research or statistics are not considered incompatible)."
+      ],
+      [
+       "Data minimisation",
+       "Adequate, relevant and limited to what is necessary for the purposes for which they are processed."
+      ],
+      [
+       "Accuracy",
+       "Accurate and, where necessary, kept up to date; every reasonable step must be taken to erase or rectify inaccurate data without delay."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-15",
+   "title": "The seven GDPR principles (2)",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "Principle",
+      "Requirement"
+     ],
+     "rows": [
+      [
+       "Storage limitation",
+       "Kept in a form which permits identification of data subjects for no longer than necessary; longer storage only for archiving in the public interest, research or statistics, with appropriate safeguards."
+      ],
+      [
+       "Integrity and confidentiality (security)",
+       "Processed with appropriate security, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures."
+      ],
+      [
+       "Accountability",
+       "The controller shall be responsible for, and be able to demonstrate compliance with, these principles (Article 5(2))."
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "There may be a nominated 'controller' with oversight of GDPR, but **anyone who handles personal data** must adhere to the seven principles through the relevant organisational policies and processes. Most HEIs require annual GDPR training. Check what is in place in your organisation."
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-16",
+   "title": "Check: GDPR principles",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "hybrid5-m1",
+     "title": "Match each GDPR principle to its meaning",
+     "pairs": [
+      {
+       "term": "Purpose limitation",
+       "def": "Only use personal data for the specified, legitimate purposes it was collected for"
+      },
+      {
+       "term": "Data minimisation",
+       "def": "Collect only what is adequate, relevant and necessary"
+      },
+      {
+       "term": "Accuracy",
+       "def": "Keep data correct and up to date; fix or erase errors without delay"
+      },
+      {
+       "term": "Storage limitation",
+       "def": "Keep identifiable data no longer than necessary"
+      },
+      {
+       "term": "Integrity and confidentiality",
+       "def": "Protect data against unauthorised processing, loss or damage"
+      },
+      {
+       "term": "Accountability",
+       "def": "The controller must be able to demonstrate compliance"
+      },
+      {
+       "term": "Lawfulness, fairness and transparency",
+       "def": "Process data lawfully, fairly and openly towards individuals"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-17",
+   "title": "The GitLab SAFE framework",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The GitLab open-source handbook offers a simple approach to help you make informed choices about sharing information - the **SAFE** framework. If any answer flags a risk, do not share without proper approvals; otherwise it is safe to share."
+    },
+    {
+     "t": "img",
+     "src": "img/hybrid_16.jpg",
+     "alt": "SAFE flowchart. S: does the material include sensitive or material non-public information? Yes - stop. A: is it accurate and verifiable? No - stop. F: does it include financial data, metrics or predictions? Yes - stop. E: could sharing it have a harmful effect on team members or the business? Yes - stop; No - safe to share. Stop means do not share without proper approvals.",
+     "caption": "Figure 7 GitLab SAFE framework"
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-18",
+   "title": "Activity 16: The information you handle",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "hybrid5-a16",
+     "title": "Activity 16 Think about the information and data you handle (15 minutes)",
+     "prompt": "How often do you consider GDPR when you handle information and data? Are you confident your behaviour would meet the requirements of your organisation's policies and processes? Using the SAFE framework as a guide, make notes: what action, if any, do you need to take now?",
+     "model": "Many people rarely think about GDPR in day-to-day work, even though data is in emails, spreadsheets, platforms and records. Checking information against SAFE - Sensitive? Accurate? Financial? Effect if shared? - before sharing helps you make informed choices. Actions might include completing GDPR training, reviewing your organisation's policies, and deleting or securing personal data you no longer need.",
+     "points": [
+      "Personal data appears in many places, not just documents.",
+      "Everyone handling personal data must follow the seven principles.",
+      "Check Sensitive, Accurate, Financial and Effect before sharing.",
+      "Identify a concrete action such as training or reviewing policies."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-19",
+   "title": "5.4 Intellectual property and copyright",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "When handling information and data, you also need to think about IP and copyright. It is a broad topic, but be aware of your responsibilities and your organisation's expectations."
+    },
+    {
+     "t": "h",
+     "text": "Intellectual property normally covers:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "the names of your products or brands",
+      "your inventions",
+      "the design or look of your products",
+      "things you write, make or produce"
+     ]
+    },
+    {
+     "t": "h",
+     "text": "Copyright normally covers:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "literary, dramatic, musical and artistic work",
+      "software, web content and databases",
+      "sound and music recordings",
+      "film, television and online broadcasting",
+      "published editions"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Sources: gov.uk 'Intellectual property and your work'; adapted from the Copyright, Designs and Patents Act 1988."
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-20",
+   "title": "IP from two angles",
+   "blocks": [
+    {
+     "t": "ol",
+     "items": [
+      "**Use and sharing of your organisation's information, products, services and content** - your organisation owns the IP and copyright, so be aware of what you can share in the public domain. It may be inadvisable to share details of a commercially sensitive innovation project, or an extract from a course you authored - you may not own the rights.",
+      "**Use of others' materials (third-party content)** - check the conditions of use. Some organisations, such as NASA, state them clearly; others are complicated, as the 'author' is often not the 'owner'."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Deeplinking",
+     "text": "Deeplinking means sending users to a specific page on a website rather than its homepage. Even if articles are freely accessible, many organisations charge for deeplinking, partly because it can mean a loss of income for the site owner."
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-21",
+   "title": "Activity 17: IP and copyright further",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "A basic rule for IP and copyright: if you are unsure, always seek advice and permission."
+    },
+    {
+     "t": "activity",
+     "id": "hybrid5-a17",
+     "title": "Activity 17 Explore intellectual property and copyright further (10 minutes)",
+     "prompt": "Check what guidance and requirements your organisation has (for example, a Copyright Hub page like the University of Wales Trinity Saint David's). If interested, also look at gov.uk 'Patents, trade marks, copyright and designs' and the UK Copyright Service fact sheet. Note where your guidance is and one thing you learned.",
+     "model": "Most HEIs provide a dedicated copyright page or library service. Find out who to ask, what you may share of your organisation's content, and how to clear third-party content before using it. When in doubt, seek advice and permission.",
+     "points": [
+      "Find your organisation's copyright guidance and contact.",
+      "Your organisation usually owns IP you create at work.",
+      "Third-party content needs its conditions of use checked.",
+      "If unsure, seek advice and permission."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-22",
+   "title": "5.5 What is information security?",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Information security",
+     "text": "Information security protects the **confidentiality**, **integrity** and **availability** - the 'CIA triad' - of all assets, information and systems, whether digital or physical."
+    },
+    {
+     "t": "img",
+     "src": "img/hybrid_17.jpg",
+     "alt": "Triangle with Information Security in the centre, Integrity at the top, Confidentiality bottom left and Availability bottom right.",
+     "caption": "Figure 8 The CIA triad. Source: Preferred IT Group (2019)"
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-23",
+   "title": "The CIA triad",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Definitions based on the National Cyber Security Centre (2021b):"
+    },
+    {
+     "t": "flash",
+     "cards": [
+      {
+       "front": "Confidentiality",
+       "back": "Only authorised personnel, in relation to their role, should have access to information - so it is not shared or accessed without permission."
+      },
+      {
+       "front": "Integrity",
+       "back": "Information and data are accurate, consistent and used for their intended purpose; strong non-repudiation and authenticity controls stop data being modified or destroyed."
+      },
+      {
+       "front": "Availability",
+       "back": "Information and data are readily available, with reliable access to and use of information."
+      },
+      {
+       "front": "CIA triad",
+       "back": "Confidentiality, integrity and availability - what information security protects."
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "The primary focus is that organisations and individuals operate securely with minimal disruption, by reducing the risk of security incidents - theft of, tampering with, or deletion of information and data. Most organisations have an information security policy on using IT and digital assets safely."
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-24",
+   "title": "Common security threats (1)",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Common threats (Imperva, n.d.):"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Poorly secured systems** - increase the risk of attacks from third parties, or misuse (intentional or unintentional) by people within the organisation.",
+      "**Social media and email attacks** - accounts are hacked, or emails trick users into an action that compromises security.",
+      "**Malware** - software that disrupts, damages, or gains unauthorised access to a computer system."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-25",
+   "title": "Common security threats (2)",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "**Malware on endpoints** - the devices you use (laptops, tablets, phones) can be threatened in various ways and traditional antivirus is often not enough. Organisations can reduce risks on their own devices, but have limited control when people use their own devices for work.",
+      "**Lack of encryption** - using encryption to access devices can help prevent loss of data or corruption of equipment.",
+      "**Security misconfiguration** - all platforms and tools, including web-based tools, must be configured and updated correctly. Many updates are automatic, but some rely on individuals, who need to understand how to do them."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-26",
+   "title": "Check: name the threat",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "hybrid5-m2",
+     "title": "Match each security threat to its description",
+     "pairs": [
+      {
+       "term": "Poorly secured systems",
+       "def": "Raise the risk of third-party attacks or misuse by insiders"
+      },
+      {
+       "term": "Social media and email attacks",
+       "def": "Hacked accounts or emails that trick users into compromising actions"
+      },
+      {
+       "term": "Malware",
+       "def": "Software that disrupts, damages or gains unauthorised access to a system"
+      },
+      {
+       "term": "Malware on endpoints",
+       "def": "Threats to laptops, tablets and phones, especially personal devices"
+      },
+      {
+       "term": "Lack of encryption",
+       "def": "Devices accessed without protection that could prevent data loss"
+      },
+      {
+       "term": "Security misconfiguration",
+       "def": "Tools not set up or updated correctly"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-27",
+   "title": "Cyber security",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Cyber security",
+     "text": "Cyber security is how individuals and organisations reduce the risk of a cyber attack; its main focus is protecting devices and services from theft or damage. Information security protects both digital and physical information, whereas cyber security focuses only on digital protection (NCSC, n.d.)."
+    },
+    {
+     "t": "activity",
+     "id": "hybrid5-a18",
+     "title": "Activity 18 Find out more about information security and cyber security (as long as you've got)",
+     "prompt": "Investigate your organisation's approach and policy on information and cyber security. Good starting points: the ICO's information security guidance, the NCSC's 'What is Cyber Security', or the OpenLearn course 'Introduction to cyber security'. Note the key points of your organisation's policy.",
+     "model": "These are complex areas. Your organisation's information security policy should explain how to use IT and digital assets safely, how confidentiality, integrity and availability are protected, and what you must do - such as keeping devices updated, using encryption and reporting incidents.",
+     "points": [
+      "Find and read your organisation's information security policy.",
+      "Information security covers digital and physical; cyber security digital only.",
+      "Note your own duties, e.g. updates, encryption, reporting.",
+      "Use trusted sources such as the ICO and NCSC."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-28",
+   "title": "5.6 Data, information and classification",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "As well as securing systems, we must think about the security of the information we hold, how we protect it and how we share it. Information is normally classified as **unclassified**, **internal** or **confidential** (part of Information Classification Software for ISO 27001). Understand your responsibilities for each."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Class",
+      "Description and examples"
+     ],
+     "rows": [
+      [
+       "Unclassified",
+       "Not particularly valuable; no requirement to protect it. Anyone can access it for any purpose, including release to the public or clients - e.g. press releases, job vacancies."
+      ],
+      [
+       "Internal only",
+       "Has value internally and may have some value to competitors. May be distributed freely within the organisation - e.g. internal memos, employment data, contract information."
+      ],
+      [
+       "Confidential",
+       "Significant value; there may be legal requirements to protect it. Access limited to designated roles or tiers - e.g. intellectual property, customer payment details, long-term strategic planning."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Source: IT Governance (n.d.)"
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-29",
+   "title": "Check: classify the information",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "hybrid5-q1",
+     "q": "How should a set of customer payment details be classified?",
+     "options": [
+      "Unclassified",
+      "Internal only",
+      "Confidential"
+     ],
+     "answer": 2,
+     "explain": "Customer payment details have significant value and legal protection requirements, so access is limited to designated roles: confidential."
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-30",
+   "title": "Digital knowledge management",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Information has value, so you need to understand digital knowledge management."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Digital knowledge management",
+     "text": "Digital knowledge management is the process for identifying, capturing, organising, storing and sharing digital information effectively so that it is easily accessible for all those who require access. The right **metadata** (data about the data) lets computer-automated tools access - or search - the assets."
+    },
+    {
+     "t": "video",
+     "title": "Managing data - Nicola Askham, The Data Governance Coach",
+     "url": null,
+     "note": "Data is the lifeblood of every organisation. Poorly managed data leads to bad decisions: clients made catastrophic decisions because they trusted reports with incorrect data. COVID made organisations raise their data management game and showed the need to document your understanding of data, since remote workers can no longer just ask a neighbour. Building a data culture remotely is harder, so a formal communications and training plan is needed, with different messages for senior leaders and for junior staff entering data. Bad data harms customer and student experience (e.g. poor timetabling data), and digital transformation always requires well-managed data - ideally with data governance in place before it starts."
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-31",
+   "title": "Why managing data well matters",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "Decisions based on poorly managed data can be to the detriment of the organisation, even when people act in good faith.",
+      "Hybrid working makes documenting what data means, and whether you may use it, more important.",
+      "Data governance is largely a culture and mindset change: data is an asset - so plan communication and training rather than leaving it to chance.",
+      "Digital transformation programmes automate and speed up processes - and they always require data that is managed well."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "In an ideal world you would start data governance before a digital transformation programme; if not, do it as part of the programme, because it won't succeed without it (Nicola Askham)."
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-32",
+   "title": "DKM: everyone's responsibility",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Digital Knowledge Management (DKM) is a key digital capability integrated throughout the Jisc Digital Capabilities framework. Increasingly it covers how your organisation's digital tools and systems are connected and 'talk' to each other, and how they are used."
+    },
+    {
+     "t": "p",
+     "text": "Specialists design workflows, develop technology and produce policies, but **everyone** needs to understand the behaviour required to manage knowledge effectively. At a basic level:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "save files to the correct location",
+      "don't keep files on your own hard drives",
+      "back up files regularly",
+      "don't duplicate copies of files or save them in more than one place",
+      "add correct file names and metadata"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Managing your digital world effectively is probably the most useful digital capability you can learn: growing collaboration tools and machine learning demand better DKM."
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-33",
+   "title": "Activity 19: Managing digital media assets",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Managing media data - Jonathan Morgan, CEO, Object Matrix Ltd",
+     "url": null,
+     "note": "Object Matrix (Cardiff) makes data storage for the media industry. Asset management is, at its core, search - finding the right video among thousands of hours, possibly helped by AI. The cloud is 'someone else's computer': public, private, on-premises or hybrid. Key concerns when managing data: reduce time spent managing it, security (hacks, hardware failure), and usability with other applications. Governance means rules on who can access, read, change or delete data, and auditing. Remote working raises new risks: who in the household can see the material, is it left lying around? Media has leaked through home working and hacks, including ransomware."
+    },
+    {
+     "t": "activity",
+     "id": "hybrid5-a19",
+     "title": "Activity 19 How do you manage digital media assets? (20 minutes)",
+     "prompt": "Many HEIs now create more audio and video. Consider how your organisation manages digital media assets, then familiarise yourself with its policies and guidance for managing data. Make notes.",
+     "model": "Good practice includes storing assets in a managed, secure, searchable place with good metadata; clear governance on who can access, change or delete them, with auditing; and extra care when working from home - who can see the material and where it is kept.",
+     "points": [
+      "Assets should be stored centrally and be searchable with metadata.",
+      "Governance sets who can access, change or delete assets.",
+      "Security protects against hacks, leaks and hardware failure.",
+      "Remote working needs extra care with who can see material."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-34",
+   "title": "Zero trust",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Zero trust",
+     "text": "A zero-trust approach assumes the environments data is accessed from (e.g. home Wi-Fi and devices) cannot be fully trusted. Instead of trying to secure everything, you firewall and sandbox where the data is kept and control very tightly, at a granular level, what can access it."
+    },
+    {
+     "t": "p",
+     "text": "Jonathan Morgan describes a multinational post-production house that was badly hacked: once through the firewall, attackers reached every system, even planting hacks in firmware. The only systems not compromised were those with zero trust, which had their own firewall and didn't trust other computers on the same network."
+    },
+    {
+     "t": "p",
+     "text": "He also notes that the pandemic transferred a huge amount of trust from management to the workforce - and in the main, staff responded by delivering the same quality and quantity of work as in the office."
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-35",
+   "title": "Summary of Section 5",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Working digitally and hybrid means understanding and acting on your responsibilities:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Wellbeing, safety and security overlap - consider them together, online and offline.",
+      "Digital governance covers GDPR, security, data and knowledge management, IP, accessibility, brand and content; data governance sits at the centre of the DAMA wheel.",
+      "Anyone handling personal data must follow the seven GDPR principles.",
+      "If unsure about IP or copyright, seek advice and permission.",
+      "Information security protects confidentiality, integrity and availability; cyber security focuses on digital protection.",
+      "Classify information and manage files well - DKM is everyone's job."
+     ]
+    },
+    {
+     "t": "tf",
+     "id": "hybrid5-q2",
+     "q": "Only the nominated GDPR controller has a responsibility to follow the seven GDPR principles.",
+     "answer": false,
+     "explain": "Anyone who handles personal data must adhere to the seven principles through organisational policies and processes."
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-36",
+   "title": "Section 5 quiz (1)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "hybrid5-q3",
+     "q": "What does the 'I' in the CIA triad stand for?",
+     "options": [
+      "Information",
+      "Integrity",
+      "Inclusion",
+      "Identity"
+     ],
+     "answer": 1,
+     "explain": "The CIA triad is confidentiality, integrity and availability."
+    },
+    {
+     "t": "quiz",
+     "id": "hybrid5-q4",
+     "q": "What is the key difference between information security and cyber security?",
+     "options": [
+      "Cyber security protects physical documents only",
+      "Information security protects digital and physical information; cyber security only digital",
+      "They mean exactly the same",
+      "Information security is only about passwords"
+     ],
+     "answer": 1,
+     "explain": "Information security covers both digital and physical information, whereas cyber security focuses only on digital protection."
+    },
+    {
+     "t": "quiz",
+     "id": "hybrid5-q5",
+     "q": "Which of these is NOT one of the basic DKM behaviours listed in the course?",
+     "options": [
+      "Saving files to the correct location",
+      "Keeping copies of files on your own hard drive",
+      "Backing up files regularly",
+      "Adding correct file names and metadata"
+     ],
+     "answer": 1,
+     "explain": "You should not keep files on your own hard drives or duplicate them in more than one place."
+    }
+   ]
+  },
+  {
+   "id": "hybrid5-37",
+   "title": "Section 5 quiz (2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "hybrid5-q6",
+     "q": "In the SAFE framework, which answer means you should NOT share without approvals?",
+     "options": [
+      "The information is accurate and verifiable",
+      "The material contains no sensitive information",
+      "The information includes financial data, metrics or predictions",
+      "Sharing it would have no harmful effect"
+     ],
+     "answer": 2,
+     "explain": "Financial data, metrics or predictions (F) mean stop: do not share without proper approvals."
+    },
+    {
+     "t": "quiz",
+     "id": "hybrid5-q7",
+     "q": "Why do many site owners charge for deeplinking?",
+     "options": [
+      "It slows down their servers",
+      "It can lead to a loss of income for the site owner",
+      "It breaks copyright law in all cases",
+      "It exposes personal data"
+     ],
+     "answer": 1,
+     "explain": "Deeplinking sends users to a specific page rather than the homepage, which can lead to a loss of income for the site owner."
+    },
+    {
+     "t": "quiz",
+     "id": "hybrid5-q8",
+     "q": "Which item sits at the centre of the DAMA-DMBOK wheel?",
+     "options": [
+      "Data Security",
+      "Data Quality",
+      "Data Governance",
+      "Metadata"
+     ],
+     "answer": 2,
+     "explain": "Data governance is at the centre because it provides the foundation for all other data management disciplines."
+    }
+   ]
+  }
+ ]
+}

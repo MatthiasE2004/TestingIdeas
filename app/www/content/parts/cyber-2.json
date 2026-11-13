@@ -1,0 +1,1052 @@
+{
+ "id": "cyber2",
+ "title": "Week 2: Authentication",
+ "summary": "How passwords are sent and stored, how attackers break them, how to choose strong passwords, password managers, OAuth and two-factor authentication.",
+ "minutes": 70,
+ "pages": [
+  {
+   "id": "cyber2-01",
+   "title": "Week 2: Authentication",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Welcome to Week 2",
+     "url": null,
+     "note": "Cory Doctorow: last week looked at online activities and security threats, many of which depend on attackers being able to impersonate us online by accessing our online identities. This week is about passwords - from social networks to payment systems they are how we identify ourselves. You'll learn how attackers try to discover your password so they can impersonate you, and how to improve the security of your passwords and online identification, including password managers. A note of caution: just as you should never disclose your PIN, never share any of your passwords in discussions - if you need an example, make one up."
+    },
+    {
+     "t": "p",
+     "text": "Last week you explored the security threats that could affect your ability to stay secure online and how to keep your knowledge of them up to date. This week you'll learn the purpose of passwords and where they are used, the ways attackers try to learn your password to impersonate you, and ways of improving the security of your passwords and online identification methods."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "Never share your actual passwords, even when discussing password security. Only discuss general principles, and if you need an example, make one up.",
+     "title": "Important warning"
+    }
+   ]
+  },
+  {
+   "id": "cyber2-02",
+   "title": "Passwords: what are they for?",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_19.jpg",
+     "alt": "Outline of a person's head in profile with a glowing brain, with numbers streaming from it",
+     "caption": "Figure 1"
+    },
+    {
+     "t": "p",
+     "text": "Millions of people use online services every day, and these systems must stop users accessing each other's information. To do this they need a way of uniquely identifying each user that prevents users impersonating each other: **identification and authentication**."
+    },
+    {
+     "t": "p",
+     "text": "Passwords and passcodes are the most common way of authenticating users - from the PIN (Personal Identification Number) for your bank card to the many passwords for computer-based services. An ideal password must satisfy two conflicting aims. It should be:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "memorable enough that the user can recall it without writing it down",
+      "long enough and unique enough that no one else can guess it."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Remembering passwords is hard, and thinking of secure ones is harder - so many services are thinking about replacing passwords. You'll return to this later."
+    }
+   ]
+  },
+  {
+   "id": "cyber2-03",
+   "title": "What happens when you enter a password?",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "How passwords are sent and stored",
+     "url": null,
+     "note": "A user creating an account types a (very bad) password, 'apple'. It is sent over the network and stored in the server's database; at the next login the typed password is sent again and compared with the stored one. Two problems: data crossing a network can be copied, so an attacker could intercept the password and masquerade as the user; and the database itself could be stolen by hackers or a disgruntled employee, exposing everyone's password. A secure, encrypted link such as SSL stops interception in transit. For the database, the server stores a hash of the password instead: at login it hashes what you type and compares hashes. Hashing only works one way, so attackers who steal the database would have to hash every possible password and compare - an enormously time-consuming process."
+    },
+    {
+     "t": "p",
+     "text": "If a password is *transmitted* from user to server as **plaintext** (what you see is exactly what you get; it isn't hidden in any way), it could be intercepted on its way across the network."
+    }
+   ]
+  },
+  {
+   "id": "cyber2-04",
+   "title": "Protecting passwords in transit",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Interception is usually overcome by encrypting communication between user and server. The most common form is the **Transport Layer Security (TLS)** standard, or the older **SSL** (Secure Socket Layer). You'll recognise that TLS or SSL is being used when you see 'https' rather than 'http' at the start of a web address, and a padlock symbol in your browser. (You'll look at encryption, TLS and SSL more fully in Week 4.)"
+    },
+    {
+     "t": "quiz",
+     "id": "cyber2-q1",
+     "q": "Which sign tells you that your connection to a website is encrypted with TLS/SSL?",
+     "options": [
+      "The page loads quickly",
+      "The address starts with 'https' and the browser shows a padlock",
+      "The site asks for a password",
+      "The address ends in '.com'"
+     ],
+     "answer": 1,
+     "explain": "'https' instead of 'http', plus a padlock symbol, shows the connection is protected by TLS or SSL so passwords can't simply be intercepted."
+    }
+   ]
+  },
+  {
+   "id": "cyber2-05",
+   "title": "Protecting stored passwords: hashing",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "If a server stores passwords as plaintext, a successful attack on it would reveal every user's password. Yet the server must still check that a password is correct before granting access. The solution is **hashing**."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "A hash (with salt) is the result of processing plaintext to create a unique, fixed-length identifier. It cannot be used to reconstruct the original data - even if the hash falls into hostile hands. (More in Week 5.)",
+     "title": "Hash"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "A hashing function creates a hash of the password; the hash is stored on the server and the password itself is discarded.",
+      "At login, the entered password is sent over the network and hashed on the server with a copy of the same function.",
+      "The new hash is compared with the stored hash - only if they match is access granted."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Some implementations hash the password before sending it across the network to be compared with the stored hash."
+    }
+   ]
+  },
+  {
+   "id": "cyber2-06",
+   "title": "Case study: RockYou",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "In 2009 the game and advertising company RockYou suffered a major breach: 32 million user accounts were compromised. It turned out the company stored passwords in plaintext and encouraged insecure passwords by requiring only five alphanumeric characters. It had known its database was vulnerable for more than ten years, and had earlier been criticised for emailing complete lists of its advertising partners and for issuing passwords through insecure email.",
+     "title": "Case study"
+    },
+    {
+     "t": "p",
+     "text": "Almost all online services store passwords as hashes, but errors still happen - RockYou's problems could have been avoided with hashing."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber2-q2",
+     "q": "What was RockYou's most serious password mistake?",
+     "options": [
+      "It hashed passwords with an old algorithm",
+      "It stored passwords in plaintext",
+      "It used two-factor authentication badly",
+      "It forced users to change passwords too often"
+     ],
+     "answer": 1,
+     "explain": "RockYou stored passwords in plaintext (and allowed short five-character passwords), so the breach exposed them directly. Hashing would have avoided this."
+    }
+   ]
+  },
+  {
+   "id": "cyber2-07",
+   "title": "Password reuse and breached lists",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Over the years many billions of accounts have been breached and the data collected by criminals. They then try the same username and password on other accounts - if you have reused a password, they may take over your account."
+    },
+    {
+     "t": "p",
+     "text": "In 2016 a list of 593 million unique email addresses, with multiple passwords for each, was circulated by criminals. It was known as **'Exploit.In'**."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Check whether your email address has been part of a breach at haveibeenpwned.com. Later this week you'll see how to improve your password security."
+    },
+    {
+     "t": "p",
+     "text": "Even with hashing and encrypted communications, there are still ways attackers can learn your password."
+    }
+   ]
+  },
+  {
+   "id": "cyber2-08",
+   "title": "Attacking passwords: dictionary attacks",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_21.jpg",
+     "alt": "Two bookcase shelves full of reference books on subjects from Latin to human biology and modern politics",
+     "caption": "Figure 2"
+    },
+    {
+     "t": "p",
+     "text": "Some attacks are obvious - looking over your shoulder at an ATM, or trying passwords like 'abc123' and 'password'. One of the oldest automated methods is the **dictionary attack**: a computer tries to log in using each entry in one or more dictionaries as a possible password, moving on when one fails."
+    },
+    {
+     "t": "p",
+     "text": "A concerted attack uses more than A-Z dictionaries: atlases, lists of astronomical bodies, characters from literature, lists of the most commonly used passwords and lists of stolen passwords in circulation. Dictionary attacks also work on hashed values - they just take a little longer. Some system administrators run dictionary attacks on their own users' passwords to find weak ones that should be changed."
+    }
+   ]
+  },
+  {
+   "id": "cyber2-09",
+   "title": "Brute force attacks and lockouts",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A **brute force attack** methodically works through all possible passwords - 'A', then 'AA', 'AB' and so on - trying each in turn until it stumbles on the right one."
+    },
+    {
+     "t": "p",
+     "text": "Dictionary and brute force attacks can be foiled by having computers watch for unsuccessful logins. Almost all systems lock an account after a limited number of failed attempts, after which only an administrator can unlock it."
+    },
+    {
+     "t": "p",
+     "text": "Another type of attack exploits incorrect configuration of the hashing used to store passwords on the server - see the next page."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber2-q3",
+     "q": "What is the main difference between a dictionary attack and a brute force attack?",
+     "options": [
+      "A dictionary attack tries entries from word lists and lists of known passwords; brute force tries every possible combination in turn",
+      "Brute force only works on hashed passwords",
+      "A dictionary attack needs physical access to the computer",
+      "There is no difference"
+     ],
+     "answer": 0,
+     "explain": "Dictionary attacks work through lists of likely passwords; brute force methodically tries all possible passwords ('A', 'AA', 'AB'...)."
+    }
+   ]
+  },
+  {
+   "id": "cyber2-10",
+   "title": "Salt to protect",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_22.jpg",
+     "alt": "Close-up of a wooden spoon full of coarse salt crystals",
+     "caption": "Figure 3"
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "**Salting** adds a random value (the **salt**) to the plaintext password before hashing. This greatly increases the number of possible hash values, and means that even if two people choose identical passwords, their hashed passwords are completely different.",
+     "title": "Salting"
+    },
+    {
+     "t": "p",
+     "text": "The password server stores the hashed password and its salt. At login, the entered password and the salt are added together, hashed and compared with the stored hash."
+    }
+   ]
+  },
+  {
+   "id": "cyber2-11",
+   "title": "When does salting work?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Salting is only effective if:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**truly random salts are used for each password** - some systems have used a single salt for all passwords, or only changed it when the computer restarted",
+      "**the salt is long enough** that an attacker cannot generate a table of all possible hashes from a salted dictionary."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "UNIX passwords in the early 1970s were limited to eight characters with a 12-bit salt. That was secure at the time - hashing every password with all 4,096 salts wasn't feasible - but rapid advances in computer power and storage mean longer salts are now needed. Typical advice: make the salt the same length as the hash output, so a 256-bit hash needs a different, unique 256-bit salt for each password."
+    },
+    {
+     "t": "tf",
+     "id": "cyber2-q4",
+     "q": "If two users choose the same password, a properly salted system stores the same hash for both of them.",
+     "answer": false,
+     "explain": "Each password gets its own random salt, so identical passwords produce completely different hashes."
+    }
+   ]
+  },
+  {
+   "id": "cyber2-12",
+   "title": "Case study: LinkedIn",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "In mid-2012 the social networking site LinkedIn was attacked by Russian hackers and the passwords of some 6.5 million accounts stolen. They were hashed but **not salted**, using the relatively old SHA-1 algorithm, which is very fast (a desktop computer can calculate several tens of millions of SHA-1 hashes per second). Within a day, decrypted passwords were published online and LinkedIn had to ask all users to change their passwords.",
+     "title": "Case study"
+    },
+    {
+     "t": "p",
+     "text": "Preventing these attacks depends on the online service encrypting the transmission and storage of passwords. As users, we can help by choosing passwords that are difficult to attack."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber2-q5",
+     "q": "Why were LinkedIn's stolen passwords cracked so quickly?",
+     "options": [
+      "They were stored in plaintext",
+      "They were hashed without salt using fast SHA-1",
+      "Users had two-factor authentication turned off",
+      "The hackers had physical access to the servers"
+     ],
+     "answer": 1,
+     "explain": "Unsalted SHA-1 hashes can be computed at tens of millions per second, so attackers could quickly match common passwords to the stolen hashes."
+    }
+   ]
+  },
+  {
+   "id": "cyber2-13",
+   "title": "Match the password terms",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "cyber2-m1",
+     "title": "Match each description to its term",
+     "pairs": [
+      {
+       "term": "Plaintext",
+       "def": "Data exactly as you typed it, not hidden in any way"
+      },
+      {
+       "term": "Hash",
+       "def": "A fixed-length identifier made from data that cannot be used to reconstruct the original"
+      },
+      {
+       "term": "Salt",
+       "def": "A random value added to a password before hashing"
+      },
+      {
+       "term": "Dictionary attack",
+       "def": "Trying entries from word lists and lists of common or stolen passwords"
+      },
+      {
+       "term": "Brute force attack",
+       "def": "Methodically trying every possible password in turn"
+      },
+      {
+       "term": "TLS / SSL",
+       "def": "Encryption of the link between user and server, shown by https and a padlock"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber2-14",
+   "title": "Improving password security",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_23.jpg",
+     "alt": "A man wearing sunglasses in which the words 'Enter password' and six asterisks are reflected",
+     "caption": "Figure 4"
+    },
+    {
+     "t": "p",
+     "text": "Just about every website requires a password. If yours are easily guessable - 'password', '123' or 'letmein' - attackers won't even need automatic password-breaking tools. This is especially true when people don't change the **default passwords** that control access to the settings of equipment such as broadband routers."
+    },
+    {
+     "t": "activity",
+     "id": "cyber2-a7",
+     "title": "Your password strategies",
+     "prompt": "Think about your strategies for picking memorable passwords (don't write down any real password). Roughly how many passwords do you use? How long are they? Do you use upper and lower case letters, numbers and other symbols? Do you reuse any?",
+     "model": "A typical honest answer: I use only four or five passwords across dozens of sites, most are 8-10 characters, based on words or names with a number on the end, and I reuse my email password elsewhere. That makes them guessable by dictionary attacks and means one breach could expose several accounts.",
+     "points": [
+      "Considers how many different passwords are used and whether any are reused",
+      "Considers password length",
+      "Considers the range of characters used",
+      "Reflects on whether the passwords would be easy to guess"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber2-15",
+   "title": "How to pick a proper password",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "How to pick a proper password",
+     "url": null,
+     "note": "Paul Ducklin (Sophos) gives a two-minute tutorial. 1: Make passwords hard to guess - crooks have dictionaries, books, film scripts, song lyrics, Facebook and Twitter, so avoid nicknames, birthdays, quotations or pets, and adding digits on the end doesn't help. 2: Go as long and complex as you can - random eight-letter passwords have 26 to the power 8 (about 200 billion) possibilities, but a cracking service costing under $20,000 can try over 100 billion a second. Mix upper case, lower case, digits and punctuation and aim for 14+ characters, using a little saying to help you remember - or combine several unusual words into a meaningless phrase like XKCD's 'correct horse battery staple', avoiding words obviously related to you. 3: Consider a password manager (e.g. LastPass, KeePass, 1Password) - it makes up random passwords and remembers which goes with which site, which also helps against phishing, but needs a really good master password. 4: One account, one password - don't reuse."
+    },
+    {
+     "t": "p",
+     "text": "Your pet's name, your street or a random word may be easy to remember, but they are also easy to guess. Even if a site uses hashing, attackers can hash lots of dictionary words and variations and look for matches - and they always start there, because most passwords are normal words."
+    }
+   ]
+  },
+  {
+   "id": "cyber2-16",
+   "title": "Strong passwords and reuse",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "**Strong passwords** are long strings of characters that don't appear in any dictionary, or at least five separate unrelated words that are not easily guessable. One way to make one is to choose a memorable phrase and convert it, as shown in the video. And use a **different password for every account**.",
+     "title": "Key idea"
+    },
+    {
+     "t": "p",
+     "text": "Most compromised passwords were cracked on a low-value, low-security site and then reused on a higher-value site. The attacker knows or guesses the target's username on the more valuable site and simply tries the cracked password."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber2-q6",
+     "q": "Why is reusing the same password on several sites so dangerous?",
+     "options": [
+      "Sites share passwords with each other",
+      "A password cracked on a low-security site can then be tried on your higher-value accounts",
+      "Reused passwords expire faster",
+      "It makes two-factor authentication stop working"
+     ],
+     "answer": 1,
+     "explain": "Most compromises happen when a password cracked on a low-value site is tried on a higher-value site where the user reused it."
+    }
+   ]
+  },
+  {
+   "id": "cyber2-17",
+   "title": "Good password checklist (1)",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "**Don't** use simple, short, easy-to-guess passwords such as names of friends, family and pets, dictionary words or common passwords such as 12345 or QWERTY.",
+      "**Don't** use substitute characters such as pa22w0rd.",
+      "**Don't** use the same password on more than one website.",
+      "**Do** use long passwords that are a random mix of upper case, lower case, numbers and other characters, such as giYT%$54vcD3W.",
+      "**For memorable passwords, do** use a string of at least five unrelated dictionary words, such as bamboo glasses book engine red.",
+      "**Don't** share passwords. If others need access to data, they should be given their own login.",
+      "**Don't** leave passwords in notebooks, on sticky notes near your computer, or in easily read files on your computer."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber2-18",
+   "title": "Good password checklist (2)",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "Before entering a password into a website, make sure the connection is secure - beginning with https:// and perhaps showing a small padlock - so it cannot be intercepted.",
+      "If a service sends you a password when you register, change it when you first log in (many sites force you to).",
+      "If possible, change the default password on devices such as your internet router. It is set at the factory, some companies use one password for all their devices, and an attacker only needs to know the make of your router.",
+      "If you have trouble remembering passwords, try a password manager - it stores passwords and can generate new, highly complex ones.",
+      "Two-factor authentication requires two pieces of information (such as a password and a random number sent by SMS). If a company offers it, use it."
+     ]
+    },
+    {
+     "t": "tf",
+     "id": "cyber2-q8",
+     "q": "Replacing letters with similar-looking characters, as in pa22w0rd, makes a password strong.",
+     "answer": false,
+     "explain": "The checklist says not to use substitute characters: cracking tools try such variations of dictionary words."
+    }
+   ]
+  },
+  {
+   "id": "cyber2-19",
+   "title": "Checking the strength of a password",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_25.jpg",
+     "alt": "Black and white photo of two young men arm wrestling, depicting strength",
+     "caption": "Figure 5"
+    },
+    {
+     "t": "p",
+     "text": "When you create a password you'll sometimes see an indication of how weak or strong it is. Try this experiment (the OpenLearn course links to its own online password strength checker - open it in a new window):"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Make an example password from the name of the place where you live, all lower case - no capitals, spaces or dashes. (Repeat a short name such as Ayr until it meets the minimum length.) Test it and note the score.",
+      "Turn it into a very strong password using the phrase-conversion technique you learned earlier, and test it again."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Think about why the two scores differ. Consider password length, the range of characters used, whether any personal information is recognisable (and could be guessed), and how easy the new password is to remember."
+    }
+   ]
+  },
+  {
+   "id": "cyber2-20",
+   "title": "Reflect: what makes a strong password?",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "cyber2-a9",
+     "title": "Comparing password strength",
+     "prompt": "After trying the experiment (or imagining it), explain why your lower-case place-name password scored so differently from the converted one. What makes a very strong password, and how easy was the new one to remember?",
+     "model": "The place name was short-ish, used only lower-case letters and is a dictionary/atlas word linked to me, so a dictionary attack would find it quickly and it scored poorly. The converted phrase was longer, mixed upper and lower case, digits and symbols, and contained nothing recognisably personal, so it scored very strongly. It took a little practice to remember, but the phrase behind it helps.",
+     "points": [
+      "Longer passwords are much stronger",
+      "Using a wider range of characters (upper, lower, digits, symbols) increases strength",
+      "Recognisable personal information such as where you live can be guessed",
+      "A strong password should still be memorable, e.g. via a phrase"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber2-21",
+   "title": "Password managers",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_26.jpg",
+     "alt": "A jumble of brightly coloured plastic letters and numbers",
+     "caption": "Figure 6"
+    },
+    {
+     "t": "p",
+     "text": "A **password manager** is an application that stores passwords for you. Simple ones let you copy and paste stored passwords; more sophisticated ones log you in by clicking an entry, or use browser plug-ins to complete a login with one button. Most also generate passwords - arbitrarily long nonsense such as MHpKQCvpYoouTAaPiiWuFKjpNe7qnsbwkrvq3s3cX, highly resistant to brute force and dictionary attacks."
+    },
+    {
+     "t": "p",
+     "text": "Because it holds extremely valuable information, a password manager is an attractive target. Before choosing one, check that:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "it requires a password to use it, so an attacker can't simply open it",
+      "it locks itself after a period of inactivity, in case you leave your machine unattended",
+      "the passwords are encrypted on your computer, so they can't be read without opening the manager."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber2-22",
+   "title": "Passwords saved in your browser",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Most modern browsers offer to remember passwords you enter into web forms. This is convenient, and the storage is strong and not visible to casual inspection - but be **extremely** careful on any computer you don't own or solely control, since the data is stored on that machine and could be misused by another user or an administrator."
+    },
+    {
+     "t": "p",
+     "text": "Only use browser password storage on a machine you alone use, or where you entirely trust the other users. **Never** store passwords in browsers on public machines in cafes, libraries and workplaces."
+    },
+    {
+     "t": "p",
+     "text": "Whatever manager you use, check its security has been evaluated by a reputable independent organisation (such as AV-Test), choose a very strong password for the password store, and always keep the software up to date - password managers are a prime target and hackers occasionally find ways to attack them."
+    },
+    {
+     "t": "tf",
+     "id": "cyber2-q10",
+     "q": "It is fine to let a library or cafe computer's browser remember your passwords, because browser password storage is strongly protected.",
+     "answer": false,
+     "explain": "Under no circumstances should you store passwords in the browsers of public machines - the data stays on that machine and could be misused by other users or administrators."
+    }
+   ]
+  },
+  {
+   "id": "cyber2-23",
+   "title": "Choosing a password manager",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_27.jpg",
+     "alt": "A large wooden filing cabinet with several card-index drawers open",
+     "caption": "Figure 7"
+    },
+    {
+     "t": "p",
+     "text": "Dedicated password management applications are an alternative to a browser's password storage. Before choosing one, make sure it meets your requirements:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Is the software available for your computer?",
+      "Does it manage passwords on one machine or more than one?",
+      "Can it synchronise passwords between multiple machines?",
+      "Does it have a good reputation? Check it has been evaluated by a reputable organisation such as av-test.org - don't depend on anecdotal evidence."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Consider the balance of risk: you memorise one secure password, and all the others can be long random strings such as dyet%eb5YT%^ahyrp)(nd. That is much more secure than a paper notebook - burglars look for password notebooks, and notebooks get dropped or left on the train!"
+    }
+   ]
+  },
+  {
+   "id": "cyber2-24",
+   "title": "Examples and the master password",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "**LastPass** - for a range of operating systems including mobile; generates, stores and manages passwords across multiple devices.",
+      "**1Password** - Windows, Mac, iOS, Android and Windows Phone; can also hold other confidential documents; synchronises encrypted data between your machines via Dropbox.",
+      "**KeePass** - Windows, Mac and Linux; open source, which makes it easier for security experts to check its code for problems."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "A password manager is only as good as its **master password**. Choose a long, hard-to-guess one - ideally a phrase or combination of random words - so attackers can't open your store even if they steal it.",
+     "title": "Master password"
+    },
+    {
+     "t": "p",
+     "text": "In June 2015 attackers stole a large number of password stores from LastPass, putting users with weak master passwords at risk. In September 2019 a Google Project Zero researcher found another LastPass vulnerability, fixed almost immediately in an update."
+    }
+   ]
+  },
+  {
+   "id": "cyber2-25",
+   "title": "Alternatives: signing in with OAuth",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_28.jpg",
+     "alt": "A large rock with a crack through which blue sky can be seen",
+     "caption": "Figure 8"
+    },
+    {
+     "t": "p",
+     "text": "A password manager means remembering just one password - but if you forget it, all your passwords are unavailable, and if its data file falls into the wrong hands, you'd better hope the password is strong."
+    },
+    {
+     "t": "p",
+     "text": "Many websites let you register and log in using existing accounts such as Google or Facebook. This relies on **OAuth** (Open Authentication). Your computer first contacts the OAuth provider (e.g. Google), where you enter your username and password. The provider issues a **digitally signed token** confirming your identity, which cannot be created or modified by anyone else. The website just checks the token's signature is valid. (Digital signatures are covered in Week 5.)"
+    }
+   ]
+  },
+  {
+   "id": "cyber2-26",
+   "title": "Limits of OAuth and security questions",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "OAuth means remembering only your provider's username and password - but, as with password managers, forget it and you lose access to all those accounts, and an attacker who gets it can access every system you use through that account. So password managers and OAuth simplify things but are not complete solutions."
+    },
+    {
+     "t": "p",
+     "text": "Sites often ask for date of birth, memorable information or answers to security questions. Official sites (government, banking, airlines) need an accurate date of birth, but elsewhere you can make up answers that can't be worked out from your social media - and make them different for each site (mother's name, first school, favourite pet). Track them in a spreadsheet stored inside an encrypted folder, e.g. using VeraCrypt, so you only need one very strong password."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber2-q7",
+     "q": "What is a key risk of using your Google or Facebook account (OAuth) to log in to many sites?",
+     "options": [
+      "The sites can read your Google password",
+      "If an attacker gets that one password, they can access all the systems you use through that account",
+      "OAuth tokens can be modified by anyone",
+      "It only works over plain http"
+     ],
+     "answer": 1,
+     "explain": "All access depends on one account: forget its password and you lose access; leak it and an attacker can reach every linked system."
+    }
+   ]
+  },
+  {
+   "id": "cyber2-27",
+   "title": "Two-factor authentication",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_29.jpg",
+     "alt": "A laptop keyboard with a small handheld device used for internet banking",
+     "caption": "Figure 9"
+    },
+    {
+     "t": "p",
+     "text": "If a password isn't secure enough, perhaps two pieces of information are more secure? This is **two-factor authentication**, and you've almost certainly used it. At an ATM you give the bank two things: the data stored on your card and your PIN. Neither alone can access your account; together they let you withdraw money."
+    },
+    {
+     "t": "p",
+     "text": "Some banks give online customers a similar scheme: the account is unlocked by a password plus a four- or six-digit number generated on a hardware **banking card reader**. If your bank doesn't offer one, consider switching to a more secure service."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "The card reader reads your account details and a hash of your PIN from your debit card. You enter your PIN; if it matches the hashed PIN, the reader generates passcodes for logging in and authorising certain transactions. It confirms you both have the card and know the PIN - without typing your PIN into a web page.",
+     "title": "Banking card reader"
+    }
+   ]
+  },
+  {
+   "id": "cyber2-28",
+   "title": "Two-factor authentication on the web",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Apple, eBay, Google, Microsoft and others support two-factor authentication (2FA): as well as a password, you enter a changing value either sent to your mobile phone by the website or generated by a companion app on your own computer."
+    },
+    {
+     "t": "p",
+     "text": "Depending on the site, you may need both values every time (inconvenient), only after a period of inactivity, or you can mark an authenticated computer as trusted so a password alone is enough - although that is a weakness if the machine is stolen."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber2-q8",
+     "q": "In two-factor authentication on the web, what is typically required besides your password?",
+     "options": [
+      "Your date of birth",
+      "A changing value sent to your phone or generated by a companion app",
+      "The answer to a security question",
+      "Your username a second time"
+     ],
+     "answer": 1,
+     "explain": "2FA combines the password with a changing value from your phone or an app - two different pieces of information."
+    }
+   ]
+  },
+  {
+   "id": "cyber2-29",
+   "title": "When phone-based 2FA is attacked",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "SMS-based 2FA protects well against random attacks. But if you are specifically targeted, attackers have found it quite easy to take over your phone number and intercept authentication messages - without stealing the phone. They find your number and date of birth on social media and ask for the number to be transferred to a new SIM with a new provider."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Use a dual-SIM phone with a pay-as-you-go number whose balance doesn't expire (usually one call every 6 months keeps it working). Use it only for 2FA and never publish it.",
+      "Or use a separate basic or old phone with a new pay-as-you-go SIM purely for authentication; switch it on only when needed, don't make calls with it, don't publish the number.",
+      "If your phone number stops working, contact your provider immediately - it might have been diverted."
+     ]
+    },
+    {
+     "t": "tf",
+     "id": "cyber2-q11",
+     "q": "To take over your phone number for 2FA codes, an attacker must first steal your phone.",
+     "answer": false,
+     "explain": "Attackers can find your number and date of birth on social media and ask for the number to be moved to a new SIM with another provider."
+    }
+   ]
+  },
+  {
+   "id": "cyber2-30",
+   "title": "Hardware keys and VPN tokens",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A much more secure method of 2FA is a special **hardware security key** used with the computer instead of the phone. This restricts authentication to the computer with that unique key."
+    },
+    {
+     "t": "p",
+     "text": "You may also meet 2FA when connecting to a **virtual private network (VPN)**, a type of encrypted network connection (covered in Week 5). The organisation gives you a card or device - a **VPN token** - that generates a sequence of random characters. You give your password (a secret based on *something you know*) and then information from the token (a secret based on *something you have*)."
+    },
+    {
+     "t": "match",
+     "id": "cyber2-m2",
+     "title": "Match each example to the method it belongs to",
+     "pairs": [
+      {
+       "term": "ATM withdrawal",
+       "def": "Data on your bank card plus your PIN"
+      },
+      {
+       "term": "Banking card reader",
+       "def": "A passcode generated after the reader checks your PIN against your card"
+      },
+      {
+       "term": "SMS two-factor authentication",
+       "def": "Password plus a code sent to your mobile phone"
+      },
+      {
+       "term": "VPN token",
+       "def": "Password plus random characters from a device your organisation gave you"
+      },
+      {
+       "term": "Hardware security key",
+       "def": "A unique physical key used with the computer instead of a phone"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber2-31",
+   "title": "Setting up two-factor authentication",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_30.jpg",
+     "alt": "A hand holding a mobile phone showing an 'Internet Banking One-Time Security Code', with the other hand over a keyboard",
+     "caption": "Figure 10"
+    },
+    {
+     "t": "p",
+     "text": "2FA is available on many sites and is easy to set up. First check how you would log in without your phone or a signal, or if your phone were lost or stolen."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Google:** sends authentication codes to your mobile phone. You need a phone only you can access - otherwise someone who has stolen your details could use it. Set it up via Google's 2-Step Verification page.",
+      "**Facebook:** calls it Log in Approvals. When you log in from a new computer, an SMS with a unique security code is sent to your phone, which you must enter before logging in. Set it up via Facebook's help pages."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber2-32",
+   "title": "Other services with two-factor authentication",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "As well as many online banking systems, other websites support 2FA, mostly using SMS messages. They include:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Apple**",
+      "**Dropbox** - cloud file sharing",
+      "**Evernote** - cloud-based documents and notes",
+      "**Microsoft Accounts** - used by the Microsoft App Store and OneDrive cloud storage",
+      "**PayPal** - online payments used by many small web retailers and eBay",
+      "**Steam** - online game delivery",
+      "**Twitter**"
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Look out for two-factor authentication on other websites, and set it up to better secure access to your data."
+    }
+   ]
+  },
+  {
+   "id": "cyber2-33",
+   "title": "Activity 1: Two-factor authentication",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_31.jpg",
+     "alt": "A network cable lying on top of a credit card",
+     "caption": "Figure 11"
+    },
+    {
+     "t": "p",
+     "text": "*Allow about 15 minutes.* You may be surprised at the range of services and products that provide two-factor authentication."
+    },
+    {
+     "t": "activity",
+     "id": "cyber2-a1",
+     "title": "Activity 1 Two-factor authentication",
+     "prompt": "Find out: Does your bank or credit card company use two-factor authentication, online or via telephone banking - and what form does it take? What kind of 2FA is used by shops you use, online or in the high street? Can you find examples connected with your work, such as accessing the company VPN or different areas of a building? Write a short comment about the methods and devices you found.",
+     "model": "My bank uses a card reader (or app) that generates a code after I enter my PIN, and telephone banking asks for selected digits of a passcode plus a code sent by SMS. In shops, chip-and-PIN combines my card with my PIN, and online purchases often trigger a one-time code by text or in the banking app. At work, the VPN needs my password plus a code from an authenticator token, and building areas need an ID card plus a PIN.",
+     "points": [
+      "Identifies a banking or credit card example and the form it takes",
+      "Identifies a shopping example, online or in store, such as chip and PIN or one-time codes",
+      "Identifies a workplace example such as a VPN token or building access",
+      "Recognises that each combines something you know with something you have"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber2-34",
+   "title": "Key terms of Week 2",
+   "blocks": [
+    {
+     "t": "flash",
+     "cards": [
+      {
+       "front": "Authentication",
+       "back": "Verifying a user's identity so users can't impersonate each other"
+      },
+      {
+       "front": "Hashing",
+       "back": "One-way processing of a password into a fixed-length value that is stored instead of the password"
+      },
+      {
+       "front": "Salting",
+       "back": "Adding a random value to a password before hashing so identical passwords give different hashes"
+      },
+      {
+       "front": "Dictionary attack",
+       "back": "Trying words and lists of common or stolen passwords as possible passwords"
+      },
+      {
+       "front": "Password manager",
+       "back": "An application that stores and generates passwords, protected by one master password"
+      },
+      {
+       "front": "OAuth",
+       "back": "Logging in with an existing account provider that issues a digitally signed token confirming your identity"
+      },
+      {
+       "front": "Two-factor authentication",
+       "back": "Requiring two pieces of information, such as a password plus a code from your phone"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber2-35",
+   "title": "Summary of Week 2",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_32.jpg",
+     "alt": "The palm of a hand made up of words such as 'password', 'lifehack', 'QWERTY' and '123456'",
+     "caption": "Figure 12"
+    },
+    {
+     "t": "p",
+     "text": "This week you explored how authentication works and the role of passwords in authentication mechanisms. You learned how weak passwords threaten your digital information and online identity, and ways of improving password security: techniques for strong passwords, password managers and two-factor authentication."
+    },
+    {
+     "t": "p",
+     "text": "Attacking passwords isn't the only way in: attackers can exploit vulnerabilities in software - so keep systems up to date with the latest security fixes/patches - or try to run malicious software ('malware') on your systems. These topics come next week."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "An article by The Verge on hardware security keys, and the FIDO Alliance, which administers and develops standards for hardware security keys.",
+     "title": "Further reading"
+    }
+   ]
+  },
+  {
+   "id": "cyber2-36",
+   "title": "Week 2 quiz (1 of 3)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "cyber2-q12",
+     "q": "What are the two conflicting aims of an ideal password?",
+     "options": [
+      "Short and easy to type / changed every week",
+      "Memorable enough not to write down / long and unique enough that no one can guess it",
+      "Containing your name / containing your birthday",
+      "Stored in plaintext / sent over https"
+     ],
+     "answer": 1,
+     "explain": "An ideal password should be memorable enough to recall without writing down, yet long and unique enough that no one else can guess it."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber2-q13",
+     "q": "Why do servers store a hash of your password rather than the password itself?",
+     "options": [
+      "Hashes are shorter, saving disk space",
+      "If the database is stolen, attackers get only hashes, which cannot be turned back into the passwords",
+      "Hashes can be emailed to users who forget their password",
+      "It makes logging in faster"
+     ],
+     "answer": 1,
+     "explain": "Hashing is one-way: attackers who steal the database would have to hash huge numbers of guesses to find matches."
+    },
+    {
+     "t": "tf",
+     "id": "cyber2-q14",
+     "q": "Most systems defend against dictionary and brute force attacks by locking an account after a number of unsuccessful login attempts.",
+     "answer": true,
+     "explain": "Almost all computer systems restrict unsuccessful logins; after that the account can only be unlocked by an administrator."
+    }
+   ]
+  },
+  {
+   "id": "cyber2-37",
+   "title": "Week 2 quiz (2 of 3)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "cyber2-q15",
+     "q": "Which of these are recommended in the good password checklist? Select all that apply.",
+     "options": [
+      "At least five unrelated dictionary words for a memorable password",
+      "Changing the default password on your router",
+      "Using substitute characters such as pa22w0rd",
+      "A different password for every website"
+     ],
+     "answer": [
+      0,
+      1,
+      3
+     ],
+     "explain": "Substitute characters are explicitly discouraged; the others are all on the checklist.",
+     "multi": true
+    },
+    {
+     "t": "quiz",
+     "id": "cyber2-q16",
+     "q": "Which feature should a good password manager have?",
+     "options": [
+      "It opens without a password so it's quick to use",
+      "It locks itself after a period of inactivity",
+      "It stores passwords unencrypted for speed",
+      "It shares your passwords with other users"
+     ],
+     "answer": 1,
+     "explain": "A manager should require a password, lock after inactivity and encrypt stored passwords on your computer."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber2-q17",
+     "q": "For salting to be effective, salts should be:",
+     "options": [
+      "The same for every password, so they're easy to manage",
+      "Random for each password and long enough, e.g. the same length as the hash output",
+      "Changed only when the computer restarts",
+      "Exactly 12 bits long, as in early UNIX"
+     ],
+     "answer": 1,
+     "explain": "Truly random, per-password salts of sufficient length stop attackers precomputing tables of salted hashes; 12-bit salts are no longer enough."
+    }
+   ]
+  },
+  {
+   "id": "cyber2-38",
+   "title": "Week 2 quiz (3 of 3)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "cyber2-q18",
+     "q": "Which is described as a much more secure method of two-factor authentication than codes sent to a phone?",
+     "options": [
+      "Security questions",
+      "A hardware security key used with the computer",
+      "Remembering the computer as trusted",
+      "A longer username"
+     ],
+     "answer": 1,
+     "explain": "A hardware security key restricts authentication to the computer with that unique key, avoiding SIM-takeover attacks on phone numbers."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber2-q19",
+     "q": "How can you reduce the risk of attackers taking over the phone number you use for 2FA?",
+     "options": [
+      "Post the number on social media so friends can warn you",
+      "Use a separate pay-as-you-go number only for 2FA and never publish it",
+      "Use the same number for everything",
+      "Turn off 2FA completely"
+     ],
+     "answer": 1,
+     "explain": "A dedicated, unpublished number (dual-SIM or a separate basic phone) is much harder for attackers to find and transfer."
+    },
+    {
+     "t": "tf",
+     "id": "cyber2-q20",
+     "q": "In a VPN login, your password is something you know and the VPN token is something you have.",
+     "answer": true,
+     "explain": "VPN two-factor authentication combines a secret you know (password) with information from a device you have (the token)."
+    }
+   ]
+  }
+ ]
+}

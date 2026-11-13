@@ -1,0 +1,523 @@
+{
+ "id": "hybrid4",
+ "title": "Developing your digital confidence and curiosity",
+ "summary": "Building digital confidence through play, learning from others, a digital-first culture and curiosity.",
+ "minutes": 45,
+ "pages": [
+  {
+   "id": "hybrid4-01",
+   "title": "Developing your digital confidence and curiosity",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Higher education institutions (HEIs) by their nature encourage continuous learning and being curious. They tend to have informal and formal approaches to this, often with opportunities to 'play'."
+    },
+    {
+     "t": "p",
+     "text": "In this section you will think about how confident and curious you are with digital tools, see how one team fosters a healthy digital culture, and try two deliberately open-ended 'play' activities."
+    },
+    {
+     "t": "h",
+     "text": "By the end of this section you should be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "explain why informal learning, play and learning from failure build digital capability",
+      "describe what a digital-first culture looks like and how reciprocal mentoring helps",
+      "reflect on how you approach an unfamiliar digital task and where you look for help"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid4-02",
+   "title": "More than formal training",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Building digital capabilities is not just about formal training courses on how to use the tools. It also includes **informal learning from others**, **playing with digital tools** and being **comfortable with learning from failure**."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Digital-first culture",
+     "text": "Building a digital-first culture - where organisational leaders lead by example by focusing on people, embracing technology and having a shared vision that is communicated - encourages digital confidence and curiosity (Slack, 2022)."
+    }
+   ]
+  },
+  {
+   "id": "hybrid4-03",
+   "title": "Activity 10: How digitally confident are you?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "In the original course this was a quick poll (5 minutes). Reflect on how strongly you agree with each statement:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "*I am happy to try new things.*",
+      "*I will work out solutions.*",
+      "*I don't mind not knowing how to do something.*"
+     ]
+    },
+    {
+     "t": "activity",
+     "id": "hybrid4-a10",
+     "title": "Activity 10 How digitally confident are you?",
+     "prompt": "For each of the three statements, say how much you agree and give a short example from your own digital work.",
+     "model": "There is no right answer. Your responses show how comfortable you are with ambiguity. If you agree with all three, developing your digital capabilities is likely to feel like an opportunity to have fun and push limits; if you disagree, it may feel bewildering or scary - which is normal, and something you can build on by trying things out and asking for help.",
+     "points": [
+      "Willingness to try new things shows digital curiosity.",
+      "Working out solutions yourself builds confidence.",
+      "Being comfortable with not knowing is part of learning.",
+      "Your comfort with ambiguity shapes how you experience digital change."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid4-04",
+   "title": "Fear of breaking something",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Depending on how comfortable you are with ambiguity and your own confidence, developing your digital capabilities (and transformation) will either be an opportunity to have fun and push the limits of what can be done, or may be bewildering and scary."
+    },
+    {
+     "t": "p",
+     "text": "People may be afraid they will break something, do something wrong, or lose something. The latter is unlikely these days, as most organisations now use **cloud-based services**. As long as you save your work in the correct place (for example, not on your computer desktop) most things are retrievable and you can usually access previous versions."
+    }
+   ]
+  },
+  {
+   "id": "hybrid4-05",
+   "title": "When things really do go wrong",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Occasionally things do go wrong that are not fixable - and usually this is not your fault! The author's laptop simply stopped working due to a total hardware failure. However, no work or files were lost, because everything was on the servers - in the cloud - and accessible after logging onto a new laptop."
+    },
+    {
+     "t": "img",
+     "src": "img/hybrid_11.jpg",
+     "alt": "A broken laptop on a glass desk: the keyboard section is separated from the screen, with a second, intact laptop beside it.",
+     "caption": "Figure 3 A photograph of a broken laptop"
+    }
+   ]
+  },
+  {
+   "id": "hybrid4-06",
+   "title": "Learning from others",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Learning from others is an essential part of developing your own digital capabilities. Often someone can help you use a digital tool, give you insights into the way you approach a task, or encourage you to do your own research."
+    },
+    {
+     "t": "p",
+     "text": "If you are reimagining products, processes and systems you may have no idea what will and won't succeed. You need the confidence to develop the mindsets and expectations of stakeholders while being comfortable with stopping or adapting developments. You may need to draw on available data and input from subject matter experts to make decisions."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Reciprocal mentoring",
+     "text": "More leaders are taking part in reciprocal mentoring - normally a junior employee mentoring someone more senior. People in the same roles can also use this approach to consider different ways of doing digital tasks and learn from each other."
+    }
+   ]
+  },
+  {
+   "id": "hybrid4-07",
+   "title": "Don't assume - ask and share",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Capabilities and skills vary between individuals. Don't assume that younger people are automatically experts in all types of technology: they might be competent with mobile devices and apps, but not with work tools such as Microsoft Office 365 or Google Drive. They may also lack the behavioural experience of working online in the workplace."
+    },
+    {
+     "t": "p",
+     "text": "Have the confidence to ask questions and share your experiences within your team, or with those with specialist skills, to build collaboration and confidence."
+    },
+    {
+     "t": "p",
+     "text": "As you become more competent and confident, share your knowledge and support others. If you are curious and not afraid to admit you don't know how to do something, most people are happy to show you. This fosters a culture of sharing and trust, and encourages people who are junior or new to contribute."
+    }
+   ]
+  },
+  {
+   "id": "hybrid4-08",
+   "title": "4.1 Case study: a healthy digital culture",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "One of the short course production teams at The Open University is an example of how to foster a healthy digital culture. Regardless of role, each member brings a different digital skill set that is of **equal importance** to delivering the product."
+    },
+    {
+     "t": "p",
+     "text": "There is a high level of trust. Asking questions, showing others in the team how to approach tasks, and proactive behaviour are a fundamental way of working, so products can be developed quickly. Nobody assumes someone knows how to do something, and there is no mindset of 'that is someone else's job'. Everyone is flexible and helps out when required."
+    }
+   ]
+  },
+  {
+   "id": "hybrid4-09",
+   "title": "Guidance for course authors (1)",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Authors often have never used the online platform the team delivers to. The production guidance (Table 6) focuses on the skills they already have, to build confidence, set expectations and create a safe, open environment that builds trust quickly. People are encouraged to ask for help while having access to the digital guidance and tools they need."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Tip",
+      "What it means"
+     ],
+     "rows": [
+      [
+       "Get to know the platform",
+       "Sign up for a short course and look around to see how the platform works."
+      ],
+      [
+       "Write conversationally",
+       "Write as though talking to someone directly, not an academic paper or textbook."
+      ],
+      [
+       "Tell stories and take the learner on a journey",
+       "What is the key thing you want the learner to take away and talk about?"
+      ],
+      [
+       "Focus on skills",
+       "Build content around skills that improve learners' employability."
+      ],
+      [
+       "Have a big question and know who your learner is",
+       "This helps shape the course in the right direction."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid4-10",
+   "title": "Guidance for course authors (2)",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "Tip",
+      "What it means"
+     ],
+     "rows": [
+      [
+       "Flag third-party content early",
+       "Identify third-party content you'd like to use as soon as possible. Don't assume that if it is in an OU course it can be used without clearance."
+      ],
+      [
+       "Plan media early",
+       "Decide what video, audio, graphics and interactives you want, to allow time for production."
+      ],
+      [
+       "Vary content and learning types",
+       "Use different step types and media to give variety and keep learners engaged."
+      ],
+      [
+       "Think big",
+       "Big ideas are welcome - where possible the team will find a way to achieve them."
+      ],
+      [
+       "Ask for help",
+       "The team is here to help; there are no stupid questions."
+      ],
+      [
+       "Be prepared to hear No",
+       "The platform differs from the OU's own, so the team often says 'No' - but will work with you to find a way round it. They are also strict on word count!"
+      ]
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "The aim is to ensure authors have fun and deliver the best course possible - and develop the capability to deliver it well once work begins on the platform."
+    }
+   ]
+  },
+  {
+   "id": "hybrid4-11",
+   "title": "Check: match the guidance",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "hybrid4-m1",
+     "title": "Match each piece of author guidance to what it asks you to do",
+     "pairs": [
+      {
+       "term": "Get to know the platform",
+       "def": "Sign up for a short course and look around"
+      },
+      {
+       "term": "Write conversationally",
+       "def": "Write as if talking to someone directly"
+      },
+      {
+       "term": "Flag third-party content early",
+       "def": "Identify content you don't own as soon as possible"
+      },
+      {
+       "term": "Plan media early",
+       "def": "Allow time to produce video, audio and graphics"
+      },
+      {
+       "term": "Focus on skills",
+       "def": "Build content around employability"
+      },
+      {
+       "term": "Ask for help",
+       "def": "There are no stupid questions"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid4-12",
+   "title": "4.2 How digitally curious are you?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The next activities give you an opportunity to be curious with a range of tools and to think about how you approach digital tasks. There are no detailed instructions - this is deliberate."
+    },
+    {
+     "t": "activity",
+     "id": "hybrid4-a11",
+     "title": "Activity 11 Explore Freerice (10 minutes)",
+     "prompt": "The only instruction: visit the Freerice site (freerice.com/categories/english-vocabulary) and explore it. You do not need to create an account unless you wish. Afterwards, note what you discovered and how you found your way around.",
+     "model": "Freerice is designed to be so easy to use that it gives no guidance. Exploring the menu shows you can change the difficulty level, see information on challenges and choose different types of questions. Playing also develops skills - for example learning alternative meanings of words.",
+     "points": [
+      "There was no right or wrong way to do it.",
+      "Exploring the menu reveals difficulty levels, challenges and question types.",
+      "Playing can develop new skills.",
+      "Notice how you found your way without instructions."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid4-13",
+   "title": "Activity 12: Draw a person",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "15 minutes. Again, there are no further instructions."
+    },
+    {
+     "t": "activity",
+     "id": "hybrid4-a12",
+     "title": "Activity 12 Draw a person",
+     "prompt": "Create a new document in a word processing program (e.g. Microsoft Word, Google Docs, Apple Pages), draw a person, and save the document. Then describe which program you chose and how you did it.",
+     "model": "You first had to decide which program to use. Even if you use its word-processing features regularly, drawing with it may have been unfamiliar. Knowing how to insert shapes and text boxes is useful for adding visual representations of information and data to documents, so it is a capability worth developing.",
+     "points": [
+      "You had to choose a program first.",
+      "Drawing with a word processor is often unfamiliar.",
+      "Inserting shapes and text boxes is a useful skill.",
+      "Visuals help represent information and data in documents."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid4-14",
+   "title": "Activity 13: How did you feel?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "10 minutes. Which statement best describes how you felt doing Activities 11 and 12?"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "I wasn't sure how to do this, and didn't do it",
+      "I wasn't sure how to do this, so I searched/asked for help",
+      "I wasn't sure what I needed to do, but just played till I worked it out",
+      "Fine, I worked out what I needed to do",
+      "Fine, I knew what I needed to do"
+     ]
+    },
+    {
+     "t": "activity",
+     "id": "hybrid4-a13",
+     "title": "Activity 13 How did you feel?",
+     "prompt": "Pick the statement that fits you and capture your thoughts on doing these activities. What support did you need?",
+     "model": "You may have been very wary of attempting these activities with minimal instructions, and even uncomfortable. Or you may have been very willing to explore. What support did you require? Did you look for guidance? Each of us has different levels of curiosity and confidence when faced with digital tasks.",
+     "points": [
+      "Name which statement fits you.",
+      "Describe how comfortable you were with minimal instructions.",
+      "Say what support or guidance you looked for.",
+      "Recognise that curiosity and confidence vary between people."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid4-15",
+   "title": "Developing your confidence: Freerice",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Activities 11 and 12 were designed to let you play - there was no right or wrong way of doing them."
+    },
+    {
+     "t": "p",
+     "text": "Freerice combines play, learning and sustainability. The game the author played was about the meaning of words, which developed skills in using different words to describe something - a skill you could use by deliberately choosing the alternative meaning you learned."
+    },
+    {
+     "t": "quote",
+     "text": "Freerice is an educational trivia game that helps you get smarter while making a difference for people around the world. Every question you answer correctly raises 10 grains of rice for the World Food Programme (WFP) to support its work saving and changing lives around the world.",
+     "by": "United Nations World Food Programme (n.d.)"
+    }
+   ]
+  },
+  {
+   "id": "hybrid4-16",
+   "title": "Play with a wider purpose",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A motivating factor is that the game supports the United Nations World Food Programme (WFP) and the UN Sustainable Development Goals (SDGs). Being involved in this wider purpose may help boost your own wellbeing."
+    },
+    {
+     "t": "p",
+     "text": "If you signed up, you can create a group and invite your team or organisation to join - or join the Digital Skills group and use Freerice as part of your wellbeing toolkit for taking a break, while still contributing to the UN SDGs."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "title": "Join the Digital Skills group",
+     "text": "Once logged in, open the menu, select Groups, and enter this code under 'Join existing group': **R5V4ABYR**"
+    }
+   ]
+  },
+  {
+   "id": "hybrid4-17",
+   "title": "Learning by trying things out",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Drawing a person may have been more challenging: you first had to decide which program to use, and drawing may have been unfamiliar even in a program you use every day. Yet knowing how to insert shapes and text boxes helps you add visual representations of information and data to documents."
+    },
+    {
+     "t": "p",
+     "text": "Activities 11 and 12 gave you a chance to play, test your confidence and perhaps learn a new digital skill. **Trying things out** is often the best way to understand how you learn, and to develop the capability to search for help and support - so you can find answers efficiently when you can't reach out to others."
+    }
+   ]
+  },
+  {
+   "id": "hybrid4-18",
+   "title": "Summary of Section 4",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Digital confidence and curiosity grow through informal learning, play, learning from others and being comfortable with failure - not only through formal training. Saving work in the right place (the cloud) means mistakes are rarely disastrous."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "A digital-first culture is led by example, people-focused and built on a shared vision.",
+      "Reciprocal mentoring lets people at any level learn from each other.",
+      "Never assume someone's skills - ask questions and share what you know.",
+      "Healthy digital teams value every skill set equally and help each other."
+     ]
+    },
+    {
+     "t": "quiz",
+     "id": "hybrid4-q1",
+     "q": "According to the course, what is the main reason losing your work is unlikely these days?",
+     "options": [
+      "Laptops rarely fail any more",
+      "Most organisations use cloud-based services, so saved work is retrievable",
+      "IT departments print backups of all files",
+      "Files on your desktop are automatically protected"
+     ],
+     "answer": 1,
+     "explain": "If you save work in the correct place (not your desktop), cloud services mean most things are retrievable and previous versions are available."
+    }
+   ]
+  },
+  {
+   "id": "hybrid4-19",
+   "title": "Section 4 quiz (1)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "hybrid4-q2",
+     "q": "What does reciprocal mentoring normally involve?",
+     "options": [
+      "A senior leader mentoring a new starter",
+      "A junior employee mentoring someone more senior",
+      "An external coach mentoring a whole team",
+      "Peers rating each other's digital skills"
+     ],
+     "answer": 1,
+     "explain": "Reciprocal mentoring normally involves a junior employee mentoring someone more senior, though people in the same roles can also benefit."
+    },
+    {
+     "t": "tf",
+     "id": "hybrid4-q3",
+     "q": "Younger people can be assumed to be experts in workplace tools such as Microsoft Office 365 or Google Drive.",
+     "answer": false,
+     "explain": "They may be competent with mobile devices and apps but not with work tools, and may lack the behavioural experience of working online in the workplace."
+    },
+    {
+     "t": "quiz",
+     "id": "hybrid4-q4",
+     "q": "Which of these are part of building digital capabilities according to Section 4? (Select all that apply.)",
+     "options": [
+      "Informal learning from others",
+      "Playing with digital tools",
+      "Avoiding any tool you have not been trained on",
+      "Being comfortable with learning from failure"
+     ],
+     "answer": [
+      0,
+      1,
+      3
+     ],
+     "explain": "Digital capability is not only formal training; it includes informal learning, play and being comfortable learning from failure.",
+     "multi": true
+    }
+   ]
+  },
+  {
+   "id": "hybrid4-20",
+   "title": "Section 4 quiz (2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "hybrid4-q5",
+     "q": "In the OU production team case study, which attitude is explicitly avoided?",
+     "options": [
+      "Asking questions",
+      "Showing others how to approach tasks",
+      "'That is someone else's job'",
+      "Being flexible and helping out"
+     ],
+     "answer": 2,
+     "explain": "There is never an assumption that someone knows how to do something, or a mindset of 'that is someone else's job'."
+    },
+    {
+     "t": "quiz",
+     "id": "hybrid4-q6",
+     "q": "Why were Activities 11 and 12 given without detailed instructions?",
+     "options": [
+      "The instructions were lost",
+      "To let you play, test your confidence and see how you look for help",
+      "To test speed",
+      "Because the tasks had only one correct method"
+     ],
+     "answer": 1,
+     "explain": "They were designed to let you play - there was no right or wrong way - and to show how you learn and search for help."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,355 @@
+{
+ "id": "cyber6",
+ "title": "Week 6: Network security",
+ "summary": "Firewalls and how to configure your personal firewall, virtual private networks and their risks, the TOR browser, intrusion detection systems and honeypots.",
+ "minutes": 100,
+ "pages": [
+  {
+   "id": "cyber6-01",
+   "title": "Week 6: Network security",
+   "blocks": [
+    {"t": "video", "title": "Introduction to Week 6", "url": null, "note": "Cory Doctorow notes that you are six weeks into the course. Computer networks provide the basic infrastructure for the internet and the web, so it's important to understand how they can be protected from attack. Building on networking and cryptography, this week shows how to protect the underlying networks and computers you use. Just as locking your front door protects your valuables and personal space in the real world, you'll see how to do the same for your digital life."},
+    {"t": "p", "text": "Earlier in the course you looked at a range of security techniques and technologies aimed at protecting your online identity, and your digital information, from malware."},
+    {"t": "p", "text": "This week explores different ways of protecting the underlying communication networks and computers we use from attack - and you'll configure a firewall for the computers you use."}
+   ]
+  },
+  {
+   "id": "cyber6-02",
+   "title": "This week's learning outcomes",
+   "blocks": [
+    {"t": "h", "text": "By the end of this week you should be able to:"},
+    {"t": "ul", "items": [
+      "understand the role of firewalls in protecting networks",
+      "configure your own personal firewall on your computer",
+      "explain how cryptography enables virtual private networks (VPNs) to maintain your confidentiality, and the risks VPNs bring",
+      "describe how networks can be automatically monitored to detect attacks as they occur"
+    ]}
+   ]
+  },
+  {
+   "id": "cyber6-03",
+   "title": "1 Firewall basics",
+   "blocks": [
+    {"t": "img", "src": "img/cyber_89.jpg", "alt": "A building on fire with a firefighter looking on", "caption": "Figure 1 A firewall stops a fire - or an attack - from spreading"},
+    {"t": "p", "text": "In a building, a firewall is a reinforced masonry wall designed to stop a fire spreading through the structure, giving people time to escape."},
+    {"t": "callout", "kind": "key", "title": "Firewall", "text": "In a computer network, a barrier that blocks dangerous communications from spreading across a network - either from the outside world into a local network, or from one part of a local network to another."},
+    {"t": "p", "text": "Firewalls can be dedicated network devices, part of a network router, or included in a computer's operating system."}
+   ]
+  },
+  {
+   "id": "cyber6-04",
+   "title": "How a firewall filters traffic",
+   "blocks": [
+    {"t": "p", "text": "The internet existed long before firewalls. The technologies were first discussed in late 1988, after several attacks by organised groups of hackers and the very first malicious software."},
+    {"t": "p", "text": "At their simplest, firewalls look at the addressing (usually IP) and protocol (usually TCP or UDP) information in each data packet's (datagram's) header and compare it with **rules** in the firewall's software. Rules may come from the manufacturer, but more often are created by an administrator or sometimes the user."},
+    {"t": "p", "text": "So if a packet from a hacker scanning your network arrives, the firewall checks it against its rules. If the rules say packets from an unknown address are blocked, the firewall either discards the packet 'silently' or 'closes' the connection with the hacker."}
+   ]
+  },
+  {
+   "id": "cyber6-05",
+   "title": "Smarter firewalls",
+   "blocks": [
+    {"t": "p", "text": "Most firewalls store the **state** of connections to tell whether packets belong to new or existing connections. They only let through packets belonging to a known, active connection (if the rules allow it)."},
+    {"t": "p", "text": "More advanced firewalls can identify the **applications** sending and receiving packets. Network managers can then block applications that use excessive bandwidth (such as media players) or are widely used for distributing copyright-infringing content (such as BitTorrent), as well as protect against application attacks."},
+    {"t": "quiz", "id": "cyber6-q1", "q": "What does a simple firewall examine to decide whether to block a packet?", "options": ["The text of the message inside the packet", "The addressing and protocol information in the packet's header", "The user's password", "The size of the user's hard disk"], "answer": 1, "explain": "Simple firewalls compare the header's addressing (IP) and protocol (TCP/UDP) information against their rules."}
+   ]
+  },
+  {
+   "id": "cyber6-06",
+   "title": "1.1 Personal firewalls",
+   "blocks": [
+    {"t": "img", "src": "img/cyber_90.jpg", "alt": "A hand with a trowel laying bricks to start building a wall", "caption": "Figure 2 Building your own wall"},
+    {"t": "p", "text": "Most operating systems include a firewall. It protects only the computer it is installed on (and devices attached to it), so it is called a **personal firewall**. It does not replace a network firewall, which prevents attacks from outside the network (such as the internet)."},
+    {"t": "p", "text": "Personal firewalls are especially useful on portable computers that connect to many networks. We hope those networks are safely run, but can't be sure they aren't compromised - a personal firewall adds a layer of protection between our data and a potentially untrustworthy (but useful) network."},
+    {"t": "p", "text": "They are the responsibility of individual users: with full access to your settings you can turn the firewall off and leave your computer vulnerable."}
+   ]
+  },
+  {
+   "id": "cyber6-07",
+   "title": "How well protected are you now?",
+   "blocks": [
+    {"t": "p", "text": "You can check your computer by visiting a site that probes it to see what it can access and what is blocked: **grc.com/shieldsup**. Read the information on that page first. The results you want to see:"},
+    {"t": "ul", "items": [
+      "**Instant UPnP Exposure test**: 'The equipment at the target IP address did not respond to our UPnP probes!'",
+      "**File sharing probe**: 'Your Internet port 139 does not appear to exist! One or more ports on this system are operating in FULL STEALTH MODE! Unable to connect with NetBIOS to your computer.'",
+      "**Common ports**: a green 'Stealth' status for all ports.",
+      "**All service ports**: a complete green 'Stealth' grid.",
+      "**Messenger spam**: the course author has it turned off."
+    ]},
+    {"t": "activity", "id": "cyber6-a1", "title": "Probe your own computer", "prompt": "Run the ShieldsUP tests on a computer you use. Note which results matched the 'good' responses and which did not. What do the results tell you about your firewall? (After updating your firewall in the next sections, run the probes again.)", "hint": "Look for 'Stealth' results and for ports reported as open or closed rather than stealthed.", "model": "Most of my common ports showed green 'Stealth', meaning my firewall did not respond to the probes so my computer is hard to find. The UPnP probe got no response, which is good. One port showed as 'closed' rather than stealth, so my computer revealed it exists - I'll check my firewall settings and re-run the test afterwards.", "points": ["Stealth means the computer does not respond to probes", "Open ports are possible routes in for attackers", "UPnP and file sharing (port 139) should not respond", "Re-test after changing firewall settings"]}
+   ]
+  },
+  {
+   "id": "cyber6-08",
+   "title": "1.2 Configuring your own firewall",
+   "blocks": [
+    {"t": "p", "text": "Now locate the personal firewall on your computer and, if necessary, change its settings to give the best possible protection."},
+    {"t": "callout", "kind": "note", "title": "Before you start", "text": "You need Administrator access because you'll change important parts of the operating system - ask the owner for temporary rights if needed. On an office or employer-supplied computer, check you are allowed to change firewall settings: many employers have preferred settings maintained by specialist staff."},
+    {"t": "ul", "items": [
+      "**Windows 10**: the firewall should be on by default; Microsoft's support page explains how to check it is turned on.",
+      "**Apple**: Apple takes responsibility for the security functions of its devices and publishes security guidance.",
+      "**Linux**: you have a lot of choice about which firewall to run (e.g. iptables, firewalld)."
+    ]}
+   ]
+  },
+  {
+   "id": "cyber6-09",
+   "title": "Configuring a Windows firewall (older versions)",
+   "blocks": [
+    {"t": "video", "title": "Configuring your own firewall (PC)", "url": null, "note": "On Windows 7: Start menu > Control Panel > System and Security > Windows Firewall > Turn Windows Firewall On or Off (you may need an administrator password). If it isn't active, turn it on for each network type your computer supports. Most applications are blocked when it is first activated; tick 'Notify me when Windows Firewall blocks a new app' so Windows asks permission whenever an app first tries to connect - only allow apps you're sure are safe; your choice is remembered. For maximum protection choose 'Block all incoming connections, including those in the list of allowed apps', which stops other computers connecting unless your computer requested the data - very useful when travelling and using public wi-fi."},
+    {"t": "p", "text": "A downloadable PDF of these instructions (Windows 7) was provided by the course to keep as a reference. You can skip the Mac part unless you also own a Mac."}
+   ]
+  },
+  {
+   "id": "cyber6-10",
+   "title": "Configuring a Mac firewall",
+   "blocks": [
+    {"t": "video", "title": "Configuring your own firewall (Mac)", "url": null, "note": "Open System Preferences > Security and Privacy > Firewall tab. If needed, click the padlock icon, enter your password and click Turn On Firewall. Firewall Options: 'Block all incoming connections' stops traffic from external computers other than some basic network services. The list shows programs allowed to send and receive data; add software with the + button. 'Automatically allow signed software to receive incoming connections' lets digitally signed applications communicate. 'Stealth Mode' stops your computer responding to ping messages that attackers sometimes use to find targets. Confirm changes with OK."},
+    {"t": "p", "text": "Apple's support pages explain the application firewall and how to change Firewall preferences on a Mac; the course also provided a PDF of these instructions."},
+    {"t": "tf", "id": "cyber6-q2", "q": "Stealth Mode stops your computer replying to ping messages that attackers use to identify potential targets.", "answer": true, "explain": "That is exactly what the Mac's Stealth Mode option does."}
+   ]
+  },
+  {
+   "id": "cyber6-11",
+   "title": "Other firewalls",
+   "blocks": [
+    {"t": "p", "text": "Other firewalls can be downloaded or bought. Make sure any software you download has been fully evaluated by organisations with the expertise to do so - apps found via a search engine or an Android app store may contain malware. If you use one, remember:"},
+    {"t": "ul", "items": [
+      "keep only **one** firewall running at a time - several don't offer significantly better protection and can interfere with one another",
+      "you must keep one firewall running **at all times**"
+    ]},
+    {"t": "activity", "id": "cyber6-a2", "title": "Allow or deny?", "prompt": "Once you've set up your personal firewall, identify a type of traffic that you might want to allow (or deny) on your computer, and explain why.", "model": "I would deny all incoming connections when using public wi-fi in a cafe, so other computers on that network can't connect to my laptop unless I requested the data. At home I might allow a specific trusted application, such as my video-call software, to receive incoming connections, because I know where it came from and need it to work.", "points": ["Name a specific type of traffic or application", "Say whether to allow or deny it", "Justify the choice by risk, e.g. untrusted public networks", "Only allow applications you are sure are safe"]}
+   ]
+  },
+  {
+   "id": "cyber6-12",
+   "title": "2 VPN basics",
+   "blocks": [
+    {"t": "img", "src": "img/cyber_93.jpg", "alt": "Black-and-white Wild West film scene of two gunmen shooting at each other in a street", "caption": "Figure 3 The lawless frontier"},
+    {"t": "p", "text": "Our local networks resemble forts in a Hollywood Wild West: inside strong walls data is exchanged freely between trusted machines; beyond the firewall lies the lawless frontier of the internet, where traffic makes a risky, largely unprotected journey."},
+    {"t": "p", "text": "This is especially acute for organisations on several sites, those working with sub-contractors, and those with dispersed workforces such as sales teams or home workers. Traditionally they used private **leased lines** costing thousands of pounds a month - too expensive for most, and no use for a mobile workforce. So the internet is our only choice - and this is where VPNs come to the rescue."}
+   ]
+  },
+  {
+   "id": "cyber6-13",
+   "title": "What is a VPN?",
+   "blocks": [
+    {"t": "callout", "kind": "key", "title": "Virtual private network (VPN)", "text": "A means of creating a private network across an untrusted network such as the internet."},
+    {"t": "p", "text": "VPNs can be used:"},
+    {"t": "ul", "items": [
+      "to securely connect isolated local area networks (LANs) across the internet",
+      "to allow mobile users remote access to a corporate network using the internet",
+      "to control access within an intranet environment"
+    ]},
+    {"t": "tf", "id": "cyber6-q3", "q": "Leased lines are the cheaper alternative to VPNs for a mobile, dispersed workforce.", "answer": false, "explain": "Leased lines can cost thousands of pounds a month and cannot serve a mobile or highly dispersed workforce - VPNs use the internet instead."}
+   ]
+  },
+  {
+   "id": "cyber6-14",
+   "title": "VPNs for a corporate network",
+   "blocks": [
+    {"t": "p", "text": "VPNs typically use dedicated network devices (sometimes a firewall) and software in two parts:"},
+    {"t": "ul", "items": [
+      "**VPN client** - installed on the computer of anyone who wants to join the VPN; it connects the user so they can send and receive information securely with, for example, the corporate network.",
+      "**VPN server** - part of a dedicated device, usually on the perimeter of the organisation's network; it typically authenticates users and routes traffic to the corporate network."
+    ]},
+    {"t": "p", "text": "The software creates a path called a **tunnel** between client and server across any untrusted network such as the internet. Information in the tunnel can be encrypted to protect it from inspection or modification - protecting our data as it crosses the lawless frontier back to the safety of our forts."}
+   ]
+  },
+  {
+   "id": "cyber6-15",
+   "title": "VPNs on open networks and at home",
+   "blocks": [
+    {"t": "h", "text": "VPN for an open network"},
+    {"t": "p", "text": "Public wi-fi in cafes, hotels and airports can let your data be intercepted and your movements tracked, and some countries monitor all internet traffic. A VPN service provides a client for your computer and servers at safe locations worldwide acting as gateways onto the internet. An encrypted tunnel connects you to the remote server, so to the outside world your computer appears to be at the VPN exit point, perhaps in another country."},
+    {"t": "p", "text": "Free VPN services exist but tend to be slow. If personal security matters, use a service that doesn't log user data in any way - ProtonVPN is an example."},
+    {"t": "h", "text": "VPN for a personal private network"},
+    {"t": "p", "text": "You can run VPN server software on your home computer. A VPN client on your mobile device connects to it through an encrypted tunnel, giving you secure access to your home computer from anywhere. To the outside internet you appear to be browsing from home."}
+   ]
+  },
+  {
+   "id": "cyber6-16",
+   "title": "2.1 Securing the tunnels",
+   "blocks": [
+    {"t": "img", "src": "img/cyber_94.jpg", "alt": "Abstract image of a bright pink tunnel lined with photographs", "caption": "Figure 4 The VPN tunnel"},
+    {"t": "p", "text": "**Encryption**: the tunnel relies on encryption to protect data from interception or modification. It is usually done by the client and server software. Early VPNs used proprietary encryption, but shortcomings forced a switch to public encryption standards."},
+    {"t": "p", "text": "**Authenticity and integrity**: information must come from an authenticated user and not be altered in transit. VPNs use **hashes** and **digital signatures** (Week 5) and **message authentication codes (MACs)**. MACs are appended to messages as an authenticator - similar to digital signatures, but the hash is encrypted and decrypted with the same secret key (symmetric encryption)."},
+    {"t": "quiz", "id": "cyber6-q4", "q": "How does a message authentication code (MAC) differ from a digital signature?", "options": ["A MAC hides the message contents", "A MAC encrypts and decrypts the hash with the same secret key", "A MAC needs a Certificate Authority", "A MAC uses no hash at all"], "answer": 1, "explain": "A MAC works like a signature but uses symmetric encryption - one shared secret key - rather than a private/public key pair."}
+   ]
+  },
+  {
+   "id": "cyber6-17",
+   "title": "VPN protocols",
+   "blocks": [
+    {"t": "ul", "items": [
+      "**PPTP (Point to Point Tunnelling Protocol)** - designed by a Microsoft-led consortium; standard in Windows NT 4 and a free add-on for Windows 95/98. Unsuited to large companies (255 connections per server) and, worse, it didn't settle on one form of authentication or encryption, so different PPTP products could be incompatible. Replaced by L2TP from Windows 2000.",
+      "**L2TP (Layer 2 Tunnelling Protocol)** - an adaptation of Cisco's L2F (built to compete with PPTP), devised by the PPTP Forum, Cisco and the IETF; combines features of PPTP and L2F.",
+      "**IPSec (Internet Protocol Security)** - designed by the IETF from 1992 (draft 1995, revised 1998). Now the most widely supported, backed by Intel, IBM, HP/Compaq and Microsoft. Trusted because it builds on existing, intensely scrutinised encryption technologies rather than inventing new ones.",
+      "**OpenVPN** - an open source VPN developed in 2004, based on SSL/TLS, designed to be simpler to set up and operate."
+    ]}
+   ]
+  },
+  {
+   "id": "cyber6-18",
+   "title": "Check: VPN protocols",
+   "blocks": [
+    {"t": "match", "id": "cyber6-m1", "title": "Match each description to the VPN protocol", "pairs": [
+      {"term": "PPTP", "def": "Microsoft-led design limited to 255 connections per server, with no single agreed authentication or encryption"},
+      {"term": "L2TP", "def": "Combines features of PPTP and Cisco's L2F; replaced PPTP from Windows 2000"},
+      {"term": "IPSec", "def": "IETF design, now the most widely supported, built on well-scrutinised existing encryption"},
+      {"term": "OpenVPN", "def": "Open source VPN from 2004 based on SSL/TLS, designed to be simpler to set up"}
+    ]}
+   ]
+  },
+  {
+   "id": "cyber6-19",
+   "title": "2.2 Security risks of VPN: remote machines",
+   "blocks": [
+    {"t": "img", "src": "img/cyber_95.jpg", "alt": "An open laptop on a beach with the sea and mountains behind", "caption": "Figure 5 Working from anywhere extends the network"},
+    {"t": "p", "text": "VPNs may sound like a panacea, extending a corporate network across a wide area via the internet - but they raise new problems."},
+    {"t": "p", "text": "A remote machine on a VPN creates a new frontier between the 'secure' corporate network and the internet - a direct route in. The remote user may use their own computer, connection, operating system and software, none controlled by the organisation, and may share the machine with others - perhaps managing corporate documents, downloading pirated music and playing games on the same PC!"},
+    {"t": "p", "text": "Remote machines must be secured: enforce minimum standards for operating system, antivirus and firewalls, require up-to-date antivirus and all patches, and consider severely limiting what remote users can access."}
+   ]
+  },
+  {
+   "id": "cyber6-20",
+   "title": "More VPN risks",
+   "blocks": [
+    {"t": "ul", "items": [
+      "**Implementation** - a well-designed protocol can be undermined by programmers' shortcuts or 'additional convenience'. There were no major problems with the PPTP protocol, but Microsoft's 1996 implementation had serious defects; hacker tools exploited them the next year, papers appeared in 1998, and only then did Microsoft patch the worst (DUN 1.3) - some issues remained. Poor design or configuration of the overall VPN can also introduce vulnerabilities.",
+      "**Interoperation** - competing standards from different vendors; mixing hardware and software may cause problems, so until the technology matures a single provider may be needed.",
+      "**Network availability** - VPNs rely on the internet, which cannot guarantee delivery, so reliability isn't guaranteed."
+    ]},
+    {"t": "quiz", "id": "cyber6-q5", "q": "The PPTP example shows that a VPN can be insecure even when...", "options": ["the remote user's computer is fully patched", "the protocol itself is well designed, because the implementation is flawed", "the internet is reliable", "only one vendor is used"], "answer": 1, "explain": "The PPTP protocol had no major problems, but Microsoft's implementation of it had serious defects."}
+   ]
+  },
+  {
+   "id": "cyber6-21",
+   "title": "2.3 Putting VPN to work",
+   "blocks": [
+    {"t": "img", "src": "img/cyber_96.jpg", "alt": "A smiling man working on a laptop at a desk", "caption": "Figure 6 VPNs have many real-world applications"},
+    {"t": "activity", "id": "cyber6-a3", "title": "Activity 1 VPN applications (about 30 minutes)", "prompt": "Find out about some VPN applications (services and software). What are the potential security problems associated with some of them? Note down your thoughts.", "hint": "Starting points suggested by the course: reviews of the best and most secure VPN services (PCMag, TechRadar), reasons to use OpenVPN, and the 'Five Eyes' intelligence-sharing concept (vpnmentor), plus the OpenVPN overview.", "model": "VPN services differ greatly. Some free services are slow or may log and sell user data, which defeats the purpose; a provider that keeps no logs is safer. Where the provider is based matters, because some countries (such as those in the 'Five Eyes' alliance) may require providers to share data. Older protocols like PPTP are weak, so services using OpenVPN or IPSec are preferable. Remember the VPN provider can see your traffic, so you must trust it.", "points": ["Some VPN providers log user data", "Free services may be slow or less trustworthy", "Provider's country and laws (e.g. Five Eyes) matter", "Protocol choice matters: PPTP weak, OpenVPN/IPSec stronger", "You must trust the VPN provider with your traffic"]}
+   ]
+  },
+  {
+   "id": "cyber6-22",
+   "title": "The TOR browser",
+   "blocks": [
+    {"t": "p", "text": "The TOR Browser is designed to maximise security against attacks on communications between the user and the wider internet. TOR stands for **The Onion Router**: the user's traffic is encrypted and routed through three random TOR relays anywhere in the world, changed every few minutes. The third relay sends the traffic on as normal HTTPS without revealing the original source."},
+    {"t": "p", "text": "Over public wi-fi, an attacker can detect that you're using TOR - but that is all. Random public wi-fi plus the TOR browser is one of the safest ways for a journalist to communicate in a hostile environment. Using TOR to access ProtonMail hides even the fact that you use ProtonMail."},
+    {"t": "ul", "items": [
+      "only download the TOR browser from torproject.org",
+      "don't add any 'addons' - they may break the security",
+      "don't use a VPN as well as TOR - this may also break some aspects of security"
+    ]},
+    {"t": "tf", "id": "cyber6-q6", "q": "For extra safety you should run a VPN at the same time as the TOR browser.", "answer": false, "explain": "The course advises not to use a VPN as well as TOR, as this may break some aspects of security."}
+   ]
+  },
+  {
+   "id": "cyber6-23",
+   "title": "3 Intrusion detection systems (IDS)",
+   "blocks": [
+    {"t": "img", "src": "img/cyber_97.jpg", "alt": "Close-up of green plastic toy soldiers", "caption": "Figure 7 Defending against attack"},
+    {"t": "p", "text": "In films, a network attack means frantic typing, flashing lights and sirens. In real life networks are regularly attacked, but the response is rarely that exciting."},
+    {"t": "p", "text": "Intrusion detection systems may be a dedicated device or software, of two types:"},
+    {"t": "ul", "items": [
+      "**Network Intrusion Detection System (NIDS)** - monitors data passing over a network.",
+      "**Host Intrusion Detection System (HIDS)** - monitors data to and from a computer."
+    ]},
+    {"t": "p", "text": "An IDS supports a network firewall. Ideally the firewall is closed to all traffic except what the organisation needs (such as web, email and FTP). A NIDS scans traffic passing through the firewall for attacks, and a HIDS detects attacks from within - such as a PC infected with malware."}
+   ]
+  },
+  {
+   "id": "cyber6-24",
+   "title": "Passive, reactive - and weaknesses",
+   "blocks": [
+    {"t": "p", "text": "Intrusion detection can be **passive**: it identifies an intrusion and informs an administrator, who must act. It can also be **reactive**: it informs the administrator and actively tries to stop the intrusion, usually by blocking further packets from the source IP address. These are also called an **Intrusion Prevention (or Protection) System (IPS)**."},
+    {"t": "h", "text": "Weaknesses"},
+    {"t": "ul", "items": [
+      "too sensitive - falsely reporting an intrusion, e.g. if a network is misconfigured or a buggy program issues large numbers of packets",
+      "not sensitive enough - to attacks that proceed very slowly and generate too little traffic to raise the alarm",
+      "signature IDS depends on suppliers issuing regular updates; until the update arrives, it is effectively blind to the attack"
+    ]},
+    {"t": "quiz", "id": "cyber6-q7", "q": "An IDS that automatically blocks further packets from an attacker's IP address is known as...", "options": ["a honeypot", "an Intrusion Prevention System (IPS)", "a passive IDS", "a VPN server"], "answer": 1, "explain": "A reactive IDS that actively tries to stop intrusions is also called an Intrusion Prevention or Protection System."}
+   ]
+  },
+  {
+   "id": "cyber6-25",
+   "title": "3.1 IDS techniques: anomaly detection",
+   "blocks": [
+    {"t": "img", "src": "img/cyber_98.jpg", "alt": "Close-up of four warning lights in red and blue", "caption": "Figure 8 Raising the alarm"},
+    {"t": "p", "text": "Intrusion detection typically uses **anomaly detection** or **misuse detection**."},
+    {"t": "p", "text": "Anomaly detection depends on a model of expected 'normal' behaviour of users and applications, assuming attacks differ from normal behaviour. Its advantage: it can detect previously unknown attacks by spotting deviations."},
+    {"t": "p", "text": "Example: a user normally logs on at 9am each weekday, uses an order processing application in the morning, visits supplier websites in the afternoon and logs off at 5pm. If the system logs him accessing it at 3am and installing new software, this is flagged as suspicious. The disadvantage: some legitimate activities may be wrongly flagged."}
+   ]
+  },
+  {
+   "id": "cyber6-26",
+   "title": "Misuse detection",
+   "blocks": [
+    {"t": "p", "text": "Misuse detection depends on a set of attack patterns, or **signatures**, configured by an administrator together with patterns of normal behaviour. When users' activity matches an attack signature, or mis-matches a configured normal-use pattern, the system flags an attack."},
+    {"t": "table", "head": ["", "Anomaly detection", "Misuse detection"], "rows": [
+      ["Based on", "Model of normal behaviour", "Known attack signatures"],
+      ["Strength", "Can detect new, unknown attacks", "Few legitimate activities flagged"],
+      ["Weakness", "Legitimate activity may be flagged", "New attack patterns easily missed"]
+    ]},
+    {"t": "quiz", "id": "cyber6-q8", "q": "A brand-new attack with no known pattern is most likely to be caught by which technique?", "options": ["Misuse detection", "Anomaly detection", "Neither can ever detect it", "A personal firewall's Stealth Mode"], "answer": 1, "explain": "Anomaly detection looks for deviations from normal behaviour, so it can detect previously unknown attacks; misuse detection only recognises known signatures."}
+   ]
+  },
+  {
+   "id": "cyber6-27",
+   "title": "3.2 Honeypots",
+   "blocks": [
+    {"t": "img", "src": "img/cyber_99.jpg", "alt": "An old desktop computer sitting on a mousetrap", "caption": "Figure 9 A honeypot is a trap"},
+    {"t": "p", "text": "Network administrators sometimes want to study attacks - to understand attackers' methods and prepare countermeasures, or as part of an investigation that might lead to civil or criminal prosecution."},
+    {"t": "callout", "kind": "key", "title": "Honeypot", "text": "An isolated computer or network that appears completely legitimate but is in fact a closely monitored trap. Attackers are deflected towards it, and every action they perform can be recorded and analysed without risking important data."},
+    {"t": "p", "text": "Honeypots are also used by researchers to identify new attacks circulating in the hacking community, and by anti-spam organisations to identify the location and identities of spam senders."},
+    {"t": "tf", "id": "cyber6-q9", "q": "A honeypot holds an organisation's most important data to lure attackers.", "answer": false, "explain": "A honeypot is isolated and only appears legitimate, so attackers can be studied without risking important data."}
+   ]
+  },
+  {
+   "id": "cyber6-28",
+   "title": "Key terms of Week 6",
+   "blocks": [
+    {"t": "flash", "cards": [
+      {"front": "Firewall", "back": "A barrier that blocks dangerous communications from spreading across a network"},
+      {"front": "Personal firewall", "back": "A firewall in the operating system that protects only the computer it is installed on"},
+      {"front": "VPN", "back": "A means of creating a private network across an untrusted network such as the internet"},
+      {"front": "Tunnel", "back": "The (usually encrypted) path a VPN creates between the VPN client and VPN server"},
+      {"front": "MAC", "back": "Message authentication code: a hash encrypted with a shared secret key, appended to a message as an authenticator"},
+      {"front": "NIDS / HIDS", "back": "Network IDS monitors data on a network; Host IDS monitors data to and from a computer"},
+      {"front": "IPS", "back": "Intrusion Prevention System: a reactive IDS that also tries to stop the intrusion"},
+      {"front": "Honeypot", "back": "A closely monitored trap system that looks legitimate, used to study attackers"}
+    ]}
+   ]
+  },
+  {
+   "id": "cyber6-29",
+   "title": "Week 6 quiz (1 of 2)",
+   "blocks": [
+    {"t": "quiz", "id": "cyber6-q10", "q": "Why are personal firewalls especially useful on portable computers?", "options": ["They make the computer faster", "Laptops connect to many networks that may be compromised", "They replace the need for a network firewall", "They encrypt all web traffic"], "answer": 1, "explain": "A personal firewall adds a layer of protection between your data and potentially untrustworthy networks; it does not replace a network firewall."},
+    {"t": "quiz", "id": "cyber6-q11", "q": "Which is the course's advice on running firewalls?", "options": ["Run as many firewalls as possible", "Run one firewall at all times - no more, no fewer", "Turn the firewall off on public wi-fi", "Firewalls are only needed on desktop PCs"], "answer": 1, "explain": "Multiple firewalls don't add much and can interfere with each other, but one must be running at all times."},
+    {"t": "quiz", "id": "cyber6-q12", "q": "Which VPN protocol is now the most widely supported?", "options": ["PPTP", "L2F", "IPSec", "DES"], "answer": 2, "explain": "IPSec, designed by the IETF, is the most widely supported, backed by Intel, IBM, HP/Compaq and Microsoft."}
+   ]
+  },
+  {
+   "id": "cyber6-30",
+   "title": "Week 6 quiz (2 of 2)",
+   "blocks": [
+    {"t": "quiz", "id": "cyber6-q13", "q": "Which of these are security risks introduced by VPNs?", "options": ["Remote machines the organisation doesn't control", "Flawed implementations of protocols", "Guaranteed delivery over the internet", "Incompatibility between vendors' products"], "answer": [0, 1, 3], "multi": true, "explain": "Remote machines, implementation flaws and interoperation problems are all risks. The internet cannot guarantee delivery - availability is another risk."},
+    {"t": "quiz", "id": "cyber6-q14", "q": "How does TOR hide where your traffic comes from?", "options": ["It routes encrypted traffic through three random relays that change every few minutes", "It uses a leased line", "It turns off your firewall", "It deletes your DNS records"], "answer": 0, "explain": "The Onion Router encrypts traffic and passes it through three random relays; the last sends it on as normal HTTPS without revealing the source."},
+    {"t": "quiz", "id": "cyber6-q15", "q": "Which weakness applies to a signature-based IDS?", "options": ["It can only monitor one computer", "It is blind to attacks until it receives updated signatures", "It needs a honeypot to work", "It cannot be used with a firewall"], "answer": 1, "explain": "Signature IDS relies on suppliers issuing regular updates; until then it is effectively blind to the new attack."}
+   ]
+  },
+  {
+   "id": "cyber6-31",
+   "title": "Summary of Week 6",
+   "blocks": [
+    {"t": "img", "src": "img/cyber_100.jpg", "alt": "A security guard seen from behind holding a walkie-talkie, 'SECURITY' printed on his jumper", "caption": "Figure 10 Network-level protection for your digital life"},
+    {"t": "p", "text": "This week focused on techniques for network-level protection of your digital life. You learned the role of firewalls in protecting networks and configured a personal firewall for the computers you use. You also learned how cryptography maintains the confidentiality, integrity and authenticity of network traffic in VPNs, and how networks can be automatically monitored to detect potential attacks."},
+    {"t": "p", "text": "Next: Week 7: When your defences fail."},
+    {"t": "callout", "kind": "tip", "title": "Further reading", "text": "Vendors explain firewalls: Cisco, Fortinet, Checkpoint and Palo Alto Networks all publish introductions to what a firewall is and how firewalls have evolved."}
+   ]
+  }
+ ]
+}

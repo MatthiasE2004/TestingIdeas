@@ -1,0 +1,753 @@
+{
+ "id": "hybrid6",
+ "title": "Digital futures: digital transformation",
+ "summary": "What digital transformation means, what drives it, the three Ds, and reducing your digital carbon footprint - plus the course conclusion.",
+ "minutes": 75,
+ "pages": [
+  {
+   "id": "hybrid6-01",
+   "title": "Digital futures: digital transformation",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Digital transformation accelerated during the pandemic, and it will keep going. In this final section you look at what digital transformation means, what is driving it, how higher education institutions (HEIs) might approach it, and how to reduce your digital carbon footprint."
+    },
+    {
+     "t": "h",
+     "text": "By the end of this section you should be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "define digital transformation and name key themes organisations are considering",
+      "explain what 'Industry 4.0' means today",
+      "distinguish digitization, digitalization and digital transformation",
+      "describe the causes of digital carbon emissions and actions you can take to reduce them"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-02",
+   "title": "A sudden acceleration",
+   "blocks": [
+    {
+     "t": "quote",
+     "text": "According to a new McKinsey Global Survey of executives, their companies have accelerated the digitization of their customer and supply-chain interactions and of their internal operations by three to four years. And the share of digital or digitally enabled products in their portfolios has accelerated by a shocking seven years.",
+     "by": "McKinsey & Company (2020), COVID-19 digital transformation & technology"
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Digital transformation",
+     "text": "Digital transformation is how organisations implement business models that consider and leverage the development of technology. It aims to enhance the capability of its people and develop processes to ensure it can succeed in the future."
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-03",
+   "title": "Key themes for the future",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The rapid acceleration saw companies introduce temporary solutions that are now embedded and evolving to meet new ways of working. Organisations and individuals will need the resilience to keep working with uncertainty and learn new skills as new technology is adopted."
+    },
+    {
+     "t": "p",
+     "text": "Key themes organisations are considering:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "automation of business processes - machine learning and artificial intelligence (AI)",
+      "cloud computing",
+      "use of data to drive decision making",
+      "attracting talent with the right digital capabilities",
+      "zero-trust approach to security",
+      "how the metaverse will develop",
+      "sustainability - reaching net-zero, and carbon footprints"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-04",
+   "title": "Video: digital transformation and skills",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Digital transformation and the capabilities needed for the future",
+     "url": null,
+     "note": "Contributors explain what organisations need to consider for digital transformation. Jessica Leigh Jones: 'digital' now means workflow, leadership and agile ways of working; don't mandate tools - the tool is part of the workflow, not a substitute for it. Gemma Hallett: workplaces differ hugely, from start-ups to councils and the care sector, where moving from pen and paper to iPads has exposed big skill gaps. Jonathan Morgan: customers want rounded, fully working, documented products. Becki Vickerstaff: everything is online now; don't assume students are naturally digitally literate - embed lifelong learning. Myles Ogilvie: every organisation is enabled by software. Natasha Davies: invest in basic skills and a culture of constant learning. Elise Lockyer: the best skill is the desire to keep learning and stay curious."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Three digital roles",
+     "text": "Jessica Leigh Jones describes three types of digital role: **digital architects/leaders**, who understand digital workflows and facilitate collaboration; **digital developers** - coders and programmers who build the tools; and **digital consumers** - everybody else, who all need basic-level digital consumer skills."
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-05",
+   "title": "Voices on the future (1)",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "**Gemma Hallett:** technology varies enormously - from fast-growing start-ups to councils using big desktop monitors. In domestic care, workers moved from pen and paper to tablet apps, and the digital skills shortage there is huge.",
+      "**Jonathan Morgan:** in education it's easy to play with a concept, but in the real world customers want a 100% working product, with documentation. New tools - such as searching video by faces, text or type of scene - will transform how media data is used.",
+      "**Becki Vickerstaff:** even paying car tax is online. There's a belief that students arrive naturally digitally literate, but that isn't necessarily true; they need transferable digital skills, and we need to embed lifelong learning."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-06",
+   "title": "Voices on the future (2)",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "**Myles Ogilvie:** the pandemic showed every organisation is enabled by software - 'software is eating the world'. Unlike mass production, users don't know what they need until they see it. Leaders should get clarity on purpose, organise for the flow of value rather than role-based silos, and keep re-prioritising based on lessons learned. There is no finite end point.",
+      "**Natasha Davies:** invest in basic digital skills for everyone, then support people to embrace new technology through a culture where constant learning is the norm. Leaders must understand how tools support agile, inclusive working and lead by example.",
+      "**Elise Lockyer:** nobody can predict the next 5-10 years; the best skill is the desire to constantly learn, ask questions, stay curious and evolve."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-07",
+   "title": "Check: who said what?",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "hybrid6-m1",
+     "title": "Match each contributor to their key point",
+     "pairs": [
+      {
+       "term": "Jessica Leigh Jones",
+       "def": "The tool doesn't compensate for the workflow - it is part of it"
+      },
+      {
+       "term": "Gemma Hallett",
+       "def": "Care workers moving from pen and paper to tablets face a big skills gap"
+      },
+      {
+       "term": "Jonathan Morgan",
+       "def": "Customers want a rounded, fully working, documented product"
+      },
+      {
+       "term": "Becki Vickerstaff",
+       "def": "Don't assume students arrive naturally digitally literate"
+      },
+      {
+       "term": "Myles Ogilvie",
+       "def": "Every organisation is enabled by software"
+      },
+      {
+       "term": "Elise Lockyer",
+       "def": "The best skill is the desire to keep learning and stay curious"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-08",
+   "title": "The 4th Industrial Revolution",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "We frequently hear the term 'the 4th Industrial Revolution'. Jessica Leigh Jones MBE, CEO of iungo Solutions, briefly explains what it means."
+    },
+    {
+     "t": "video",
+     "title": "Industry 4.0 - Jessica Leigh Jones MBE",
+     "url": null,
+     "note": "Industry 4.0 originated in German manufacturing and describes the fourth industrial revolution: bringing technologies together to increase productivity, efficiency and quality. Its meaning has broadened across almost every industry to mean digital transformation - less about technology (though robots and process automation are part of it) and more about an evolution in human behaviour, such as consumers' expectation of immediate service."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Industry 4.0",
+     "text": "Today Industry 4.0 means: which techniques, technologies, tools and ways of working can we adopt to meet the needs of the modern consumer?"
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-09",
+   "title": "Activity 20: What drives transformation?",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/hybrid_22.jpg",
+     "alt": "Poster titled '20 ways to achieve digital transformation': 20 numbered boxes in four rows labelled Mindset, People, Process and Tools.",
+     "caption": "Figure 9 20 ways to achieve digital transformation. Source: The New Reality (n.d.)"
+    },
+    {
+     "t": "activity",
+     "id": "hybrid6-a20",
+     "title": "Activity 20 What is driving digital transformation? (15 minutes)",
+     "prompt": "Read 'The 5 great shifts driving digital transformation' (digileaders.com) and The New Reality group's research themes. Then use the '20 ways' infographic to think about what is needed to enable digital transformation in your organisation. Which steps seem most appropriate or relevant in your context, and why?",
+     "model": "Answers will vary. Many HEIs might pick mindset steps such as starting with the core mission and being transparent; people steps such as breaking down silos and getting good data people; process steps such as co-designing with your audience and stopping what isn't working; and tool steps such as going cloud-based and making sure it is sustainable.",
+     "points": [
+      "Choose specific steps from the 20 ways.",
+      "Cover mindset, people, process and tools.",
+      "Relate the steps to your own organisation's context.",
+      "Explain why those steps matter most."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-10",
+   "title": "20 ways to achieve digital transformation",
+   "blocks": [
+    {
+     "t": "table",
+     "head": [
+      "Row",
+      "Steps"
+     ],
+     "rows": [
+      [
+       "Mindset",
+       "1 Start with the core mission; 2 Fully commit and accept the pain; 3 Show don't tell; 4 Be transparent; 5 Think broader than web and social"
+      ],
+      [
+       "People",
+       "6 Find someone to guide you; 7 Sack the 'no' person; 8 Replace trustees; 9 Break down silos; 10 Get some good data people"
+      ],
+      [
+       "Process",
+       "11 Keep your horizons short; 12 Find ways to innovate; 13 Co-design with your audience; 14 Collaborate and partner; 15 If it isn't working stop doing it"
+      ],
+      [
+       "Tools",
+       "16 Assume it already exists; 17 Go cloud-based; 18 Modular not one size fits all; 19 Track live performance; 20 Make sure it's sustainable"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-11",
+   "title": "The three Ds",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "EDUCAUSE suggests three Ds (Reinitz, 2020) as stages on the journey:"
+    },
+    {
+     "t": "img",
+     "src": "img/hybrid_23.jpg",
+     "alt": "Rising arrow with five stages: 1 Digitize information and 2 Organize information (Digitization); 3 Automate processes and 4 Streamline processes (Digitalization); 5 Transform the institution (Digital transformation).",
+     "caption": "Figure 10 Digital transformation"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Stage",
+      "Meaning"
+     ],
+     "rows": [
+      [
+       "Digitization (1-2)",
+       "Changing from analogue or physical to digital form: digitize and organize information."
+      ],
+      [
+       "Digitalization (3-4)",
+       "Using digital technologies and information to transform individual institutional operations: automate and streamline processes."
+      ],
+      [
+       "Digital transformation (5)",
+       "A series of deep and coordinated culture, workforce and technology shifts that enable new educational and operating models and transform an institution's operations, strategic directions and value proposition."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-12",
+   "title": "Activity 21: Transformation in HEIs",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "hybrid6-a21",
+     "title": "Activity 21 Explore what digital transformation for HEIs might involve (15 minutes)",
+     "prompt": "Explore 'Leading the digital transformation of higher education' (Times Higher Education), 'Dx: Digital Transformation of Higher Education' and 'Consider the Three Ds When Talking about Digital Transformation' (EDUCAUSE). Using the three Ds, where do you feel your HEI is in its journey to digital transformation? Give examples.",
+     "model": "Many HEIs have largely digitized information and are digitalizing - automating and streamlining individual processes such as enrolment or assessment. Full digital transformation requires deep, coordinated culture, workforce and technology shifts that change the institution's operating model, strategy and value proposition.",
+     "points": [
+      "Place your HEI at digitization, digitalization or transformation.",
+      "Give an example as evidence.",
+      "Transformation needs coordinated culture, workforce and technology shifts.",
+      "Note what would move your HEI to the next stage."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Digital transformation must be considered in the wider context of organisational development and your operating environment - including reducing carbon emissions to reach net-zero by 2050."
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-13",
+   "title": "Check: the three Ds",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "hybrid6-q1",
+     "q": "An HEI automates and streamlines its assessment process using digital tools. Which of the three Ds is this?",
+     "options": [
+      "Digitization",
+      "Digitalization",
+      "Digital transformation"
+     ],
+     "answer": 1,
+     "explain": "Using digital technologies to transform individual institutional operations (automating and streamlining processes) is digitalization."
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-14",
+   "title": "6.1 Your digital carbon footprint",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Sustainability is now essential and part of the digital transformation organisations must consider. This section looks at what HEIs can do to manage their carbon footprint."
+    },
+    {
+     "t": "quote",
+     "text": "IT is often one of the biggest contributors to an education institution's own carbon footprint, with one UK college attributing 20% of its emissions to IT alone.",
+     "by": "Jisc (2022), Exploring digital carbon footprints"
+    },
+    {
+     "t": "p",
+     "text": "Reducing digital carbon footprints, of organisations and individuals, will become a priority as HEIs have committed to net zero by 2050 or before. Jisc's report focuses on the source and impact of four key areas: **procurement**, **on-premises IT**, **cloud technologies** and **remote working**."
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-15",
+   "title": "Video: the Jisc report",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Exploring digital carbon footprints - Scott Stonham, report author",
+     "url": null,
+     "note": "Scott outlines the report's four areas. Procurement: about 80% of IT's carbon emissions are 'embodied' - generated manufacturing, building and distributing equipment - plus e-waste; only around 20% comes from use. So buy wisely, extend equipment life (refurbished and remanufactured IT) and avoid landfill. Scope 3 emissions (15 categories) are the lion's share for all organisations, and purchased goods and services are 70-90% of most scope 3. On-premises IT now stretches into smart buildings. Cloud is 'out of sight, out of mind', but storing, accessing and processing data has a carbon cost; switch off unneeded cloud apps and use providers' carbon dashboards. Remote working: understand staff energy use and avoid unnecessary travel, e.g. for replacement equipment."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "title": "Embodied carbon",
+     "text": "Most of IT's carbon footprint (around 80%) is embodied in manufacturing and distributing equipment, so the biggest lever is wiser, longer-term purchasing and longer product lifetimes."
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-16",
+   "title": "Further reading",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Articles on OpenLearn by Scott Stonham:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Reducing the digital carbon footprint of the cloud",
+      "Reducing the carbon footprint of on-premises IT",
+      "How we can all tackle our digital carbon footprints",
+      "Reducing digital carbon footprint through responsible procurement",
+      "Digital carbon footprints and remote working",
+      "How can corporations reduce digital carbon footprints",
+      "What is a digital carbon footprint?"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Strategy for reducing your digital carbon footprint must be considered alongside all elements of organisational development - see the 'Hybrid working: Organisational development' course in this collection. As organisations adopt more sustainable practices, you need to be open to new ways of working and commit to changes in your professional and personal life."
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-17",
+   "title": "Why is digital carbon rising?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Digital carbon emissions are hard to visualise - how often do you think about what is involved for technology to exist? When you talk about cloud computing, what image comes to mind?"
+    },
+    {
+     "t": "p",
+     "text": "At a basic level, the rising digital carbon footprint is caused by:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "manufacturing and shipping of parts and products",
+      "powering and cooling of technology infrastructures",
+      "disposal of electronic waste (e-waste)",
+      "behaviour of consumers"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Manufacturing is not always sustainable; data centres - the cloud, the physical servers that store and process data - consume energy continually and need cooling ventilation; devices need energy to run; and e-waste is hard to recycle because of the non-renewable resources in products."
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-18",
+   "title": "Activity 22: Your data carbon footprint",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Digital data and carbon - Scott Stonham",
+     "url": null,
+     "note": "To change behaviour we must measure, communicate and reward. First set a baseline, then reward improvement against it. Digital is not carbon-free: Stanford University estimated storing 100 GB of data generates about 0.2 tons of carbon emissions a year, and Jisc research suggests 90% of data is generated, stored and never used again. Measure how much unused data people hold and make deleting it easy - more than two or three steps and people won't do it. Other targets: sending huge documents and emails, reply-all, and video calls - turning video off for even five minutes of a one-hour call makes a difference."
+    },
+    {
+     "t": "activity",
+     "id": "hybrid6-a22",
+     "title": "Activity 22 Reducing your digital data carbon footprint (10 minutes)",
+     "prompt": "Organisations' digital data grows daily; policies and automated systems help, but some reduction depends on individuals. As you watch, note areas that could easily be adopted, and commit to changes you can make as an individual.",
+     "model": "Easy wins include deleting data and emails you no longer need, avoiding sending large attachments and reply-all, and turning video off for part of long calls. Organisations can measure data use, set a baseline, communicate simple steps and reward improvement.",
+     "points": [
+      "Digital is not carbon-free - stored data has a footprint.",
+      "Much stored data is never used again, so delete what you don't need.",
+      "Make changes simple: two or three steps.",
+      "Measure, communicate and reward against a baseline.",
+      "Commit to specific personal changes."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-19",
+   "title": "Simple tips to cut your footprint",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Tips from the Exploring Digital Carbon report:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Consider how much you use your smartphone (average usage is 2.5 hours a day).",
+      "Reduce the brightness of your monitor.",
+      "Turn off devices, even in 'stand-by mode'.",
+      "Reduce the use of email - see 'The hidden cost of your emails on the planet'.",
+      "Simplify email signatures - remove unnecessary images.",
+      "Delete electronic files and emails you no longer need and empty your deleted items folders.",
+      "Download instead of stream audio and video.",
+      "Unsubscribe from e-newsletters you no longer want.",
+      "Extend the life of your products - think of the four Rs: reduce, repair, reuse, recycle."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-20",
+   "title": "Video: turn off, turn down",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Tips for reducing your digital carbon footprint - Scott Stonham",
+     "url": null,
+     "note": "Standby still draws power: a large TV about 0.7 watts and a smart speaker up to 3.8 watts, 24 hours a day - so turn off rather than standby. Turn things down: reducing a 4K monitor from its default 95% to 55% brightness saves about 10 watts every hour with no difference in use. Dark mode on OLED screens switches black pixels off, giving almost 30% more phone battery life. Even though 80% of emissions come from what we buy, these habits matter preventatively: as our digital use accelerates, energy in use could become the biggest factor."
+    },
+    {
+     "t": "tf",
+     "id": "hybrid6-q2",
+     "q": "Because most IT emissions come from manufacturing, individual habits like lowering screen brightness make no meaningful difference.",
+     "answer": false,
+     "explain": "Scott argues small changes multiplied across thousands of people add up, and building awareness now prevents a 'runaway scenario' as digital use grows."
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-21",
+   "title": "Conclusion",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Developing digital skills, capabilities and behaviours, as an individual and as an organisation, is a continual process as technology and ways of working evolve. Our reliance on technology is essential to live and work."
+    },
+    {
+     "t": "p",
+     "text": "As your confidence and competence grow you will be able to make more informed decisions and use technology responsibly and sustainably to your advantage - so that your organisation's needs, and those of your employees, students and the wider community, can be met in a digital world."
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-22",
+   "title": "Digital in Wales: an opportunity",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "At the start of the course you were asked to read 'A journey to a prosperous Wales' - Section 5, Skills for the future. Wales is considered one of the most advanced countries in the world for its innovative approach to sustainability through the Well-being of Future Generations (Wales) Act 2015, and its digital strategy sets out what is needed to develop skills and infrastructure for the future."
+    },
+    {
+     "t": "activity",
+     "id": "hybrid6-a23",
+     "title": "Final reflection: digital in Wales",
+     "prompt": "Drawing on your notes from the course and the Digital Strategy for Wales, reflect: what do HEIs need to focus on for the future to build digital capabilities and ensure their digital transformation supports the wellbeing of future generations?",
+     "model": "HEIs could focus on basic and advanced digital skills for all staff and students, a culture of confidence, curiosity and continuous learning, responsible behaviour (security, GDPR, data and knowledge management), inclusion so nobody is left behind, and sustainable digital practice that reduces carbon footprints - all aligned with wellbeing goals.",
+     "points": [
+      "Build digital capabilities and skills for everyone.",
+      "Foster confidence, curiosity and lifelong learning.",
+      "Work responsibly: security, data protection and governance.",
+      "Make digital transformation inclusive and sustainable.",
+      "Link transformation to the wellbeing of future generations."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "This course is part of the 'Supporting hybrid working and digital transformation' collection on OpenLearn, which you may wish to explore further."
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-23",
+   "title": "Summary of Section 6",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "Digital transformation means implementing business models that leverage technology, building people's capability and processes for the future.",
+      "Key themes include AI and automation, cloud, data-driven decisions, digital talent, zero trust, the metaverse and sustainability.",
+      "Industry 4.0 is now less about technology and more about changing human and consumer behaviour.",
+      "The three Ds: digitization, digitalization, digital transformation.",
+      "About 80% of IT emissions are embodied; buy wisely, extend product life, and cut data, standby and brightness."
+     ]
+    },
+    {
+     "t": "quiz",
+     "id": "hybrid6-q3",
+     "q": "According to McKinsey, by how much did the share of digital or digitally enabled products accelerate during the pandemic?",
+     "options": [
+      "One year",
+      "Three to four years",
+      "Seven years",
+      "Ten years"
+     ],
+     "answer": 2,
+     "explain": "Digitisation of interactions and operations accelerated by three to four years; the share of digital products by a 'shocking seven years'."
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-24",
+   "title": "Section 6 quiz (1)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "hybrid6-q4",
+     "q": "Which of the following are key future themes organisations are considering? (Select all that apply.)",
+     "options": [
+      "Zero-trust approach to security",
+      "Returning to paper-based processes",
+      "Use of data to drive decision making",
+      "Sustainability and net-zero"
+     ],
+     "answer": [
+      0,
+      2,
+      3
+     ],
+     "explain": "Paper-based processes are not a theme; zero trust, data-driven decisions and sustainability are.",
+     "multi": true
+    },
+    {
+     "t": "quiz",
+     "id": "hybrid6-q5",
+     "q": "Roughly what share of IT's carbon emissions is 'embodied' in manufacturing, building and distributing equipment?",
+     "options": [
+      "20%",
+      "50%",
+      "80%",
+      "100%"
+     ],
+     "answer": 2,
+     "explain": "Scott Stonham explains about 80% is embodied carbon, and around 20% comes from use."
+    },
+    {
+     "t": "quiz",
+     "id": "hybrid6-q6",
+     "q": "In Jessica Leigh Jones's three digital roles, who are 'digital consumers'?",
+     "options": [
+      "Only customers outside the organisation",
+      "Coders and programmers",
+      "Everybody else, who all need basic digital consumer skills",
+      "Senior leaders only"
+     ],
+     "answer": 2,
+     "explain": "Architects/leaders and developers are specialist roles; everyone else is a digital consumer needing basic-level skills."
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-25",
+   "title": "Section 6 quiz (2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "hybrid6-q7",
+     "q": "Which tip is recommended to reduce your digital carbon footprint?",
+     "options": [
+      "Stream audio and video instead of downloading",
+      "Leave devices on stand-by",
+      "Simplify email signatures by removing unnecessary images",
+      "Always buy the latest model"
+     ],
+     "answer": 2,
+     "explain": "The report recommends downloading rather than streaming, turning devices off, simplifying signatures and extending product life."
+    },
+    {
+     "t": "tf",
+     "id": "hybrid6-q8",
+     "q": "Storing data in the cloud has no carbon footprint because it is 'out of sight'.",
+     "answer": false,
+     "explain": "Storing, accessing and processing data in the cloud has a carbon cost - digital is not carbon-free."
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-26",
+   "title": "References (1 of 3)",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "Askham, N. (2019) 'Why You Need Data Governance', Nicola Askham The Data Governance Coach, 7 June [Blog]. Available at: https://www.nicolaaskham.com/blog/tag/DMBOK (Accessed: 1 September 2022).",
+      "Brown, A. (2022) 'The 5 great shifts driving digital transformation', Digital Leaders, 19 May [Blog]. Available at: https://digileaders.com/the-5-great-shifts-driving-digital-transformation/ (Accessed: 1 September 2022).",
+      "Center for Digital Dannelse (n.d.) The Digital Competence Wheel [Online]. Available at: https://digital-competence.eu/dc/ (Accessed: 1 September 2022).",
+      "Centre for Digital Public Services (2022) 'Bridging the digital divide in Wales', Welsh Government, Centre for Digital Public Services, 7 April [Blog]. Available at: https://digitalpublicservices.gov.wales/bridging-the-digital-divide-in-wales/?_ac=true&confirm=77ffd48435 (Accessed: 1 September 2022).",
+      "Chando, L. (2019) Maslow hierarchy of digital needs to youth: digital needs in business contexts [Online]. Available at: https://www.linkedin.com/pulse/maslow-hierarchy-digital-needs-youth-business-contexts-laston-chando/ (Accessed: 1 September 2022).",
+      "CWJobs (n.d.) The hidden cost of your emails on the planet [Online]. Available at: https://www.cwjobs.co.uk/insights/environmental-impact-of-emails/ (Accessed: 1 September 2022).",
+      "Future Generations Commissioner for Wales (2019) A journey to a prosperous Wales [Online]. Available at: https://www.futuregenerations.wales/wp-content/uploads/2019/09/FINAL-Prosperous-Wales-Topic-5-1.pdf (Accessed: 1 September 2022).",
+      "Future Generations Commissioner for Wales (2022) Well-being of Future Generations (Wales) Act 2015 [Online]. Available at: https://www.futuregenerations.wales/about-us/future-generations-act/ (Accessed: 1 September 2022).",
+      "GitLab (n.d.) GitLab SAFE Framework [Online]. Available at: https://about.gitlab.com/handbook/legal/safe-framework/ (Accessed: 1 September 2022).",
+      "Good Things Foundation (2021) The digital divide [Online]. Available at: https://www.goodthingsfoundation.org/the-digital-divide/ (Accessed: 1 September 2022).",
+      "Gov.uk (2018) Essential digital skills framework [Online]. Available at: https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/738922/Essential_digital_skills_framework.pdf (Accessed: 1 September 2022).",
+      "Gov.uk (2019) Essential digital skills framework [Online]. Available at: https://www.gov.uk/government/publications/essential-digital-skills-framework (Accessed: 1 September 2022).",
+      "Gov.uk (n.d) The Skills Toolkit [Online]. Available at: https://theskillstoolkit.campaign.gov.uk/ (Accessed: 1 September 2022).",
+      "Gov.uk (n.d) Learn how to use the internet [Online]. Available at: https://www.learnmyway.com/ (Accessed: 23 August 2022).",
+      "Gov.uk (n.d) Intellectual property and your work [Online]. Available at: https://www.gov.uk/intellectual-property-an-overview (Accessed: 1 September 2022).",
+      "Gov.uk (n.d) Patents, trade marks, copyright and designs [Online]. Available at: https://www.gov.uk/browse/business/intellectual-property (Accessed: 1 September 2022).",
+      "Gov.wales (2020) Digital inclusion and basic digital skills [Online]. Available at: https://gov.wales/sites/default/files/publications/2020-12/digital-inclusion-and-basic-digital-skills-in-wales-2019-to-2020.pdf (Accessed: 1 September 2022).",
+      "Gov.wales (n.d) Digital competence framework [Online]. Available at: https://hwb.gov.wales/curriculum-for-wales/cross-curricular-skills-frameworks/digital-competence-framework (Accessed: 1 September 2022).",
+      "Gov.wales (n.d) Digital inclusion forward look: towards a digitally confident Wales [Online]. Available at: https://gov.wales/digital-inclusion-forward-look-towards-digitally-confident-wales-html (Accessed: 1 September 2022)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-27",
+   "title": "References (2 of 3)",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "Gov.wales (n.d) Digital communities Wales [Online]. Available at: https://www.digitalcommunities.gov.wales/ (Accessed: 1 September 2022).",
+      "Imperva (n.d) What is Information Security (InfoSec)? [Online]. Available at: https://www.imperva.com/learn/data-security/information-security-infosec (Accessed: 1 September 2022).",
+      "Information Commissioner's Office (n.d) Guide to the UK General Data Protection Regulation (UK GDPR): Principles [Online]. Available at: https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/principles/ (Accessed: 1 September 2022).",
+      "Information Commissioner's Office (n.d) Guide to the UK General Data Protection Regulation (UK GDPR): Security [Online]. Available at: https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/security/ (Accessed: 1 September 2022).",
+      "Intellectual Property Office (1988) Copyright, Designs and Patents Act 1988 [Online]. Available at: https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/957583/Copyright-designs-and-patents-act-1988.pdf (Accessed: 1 September 2022).",
+      "IT Governance (n.d.) Information Classification Software for ISO 27001 [Online]. Available at: https://www.itgovernance.co.uk/data-classification-software (Accessed: 1 September 2022).",
+      "Java Assignment Help (2021) 'Top 11 essential uses of technology in everyday life', Java Assignment Help, 14 September [Blog]. Available at: https://www.javaassignmenthelp.com/blog/uses-of-technology/ (Accessed: 1 September 2022).",
+      "Jisc (2022) Exploring digital carbon footprints, 10 June [Online]. Available at: https://www.jisc.ac.uk/reports/exploring-digital-carbon-footprints (Accessed: 1 September 2022).",
+      "Jisc (n.d) What is digital capability [Online]. Available at: https://digitalcapability.jisc.ac.uk/what-is-digital-capability/ (Accessed: 1 September 2022).",
+      "Jisc (n.d) Discovery tool [Online]. Available at: https://www.digitalcapability.jisc.ac.uk/our-service/discovery-tool/ (Accessed: 1 September 2022).",
+      "Jisc (n.d) Individual digital capabilities [Online]. Available at: https://www.digitalcapability.jisc.ac.uk/what-is-digital-capability/individual-digital-capabilities/ (Accessed: 1 September 2022).",
+      "Jisc (n.d) Digital wellbeing [Online]. Available at: https://digitalcapability.jisc.ac.uk/what-is-digital-capability/digital-wellbeing/ (Accessed: 1 September 2022).",
+      "Learn My Way (n.d.) Online safety [Online]. Available at: https://www.learnmyway.com/subjects/online-safety/ (Accessed: 1 September 2022).",
+      "McKinsey & Company (2020) How COVID-19 has pushed companies over the technology tipping point---and transformed business forever, 5 October [Online]. Available at: https://www.mckinsey.com/business-functions/strategy-and-corporate-finance/our-insights/how-covid-19-has-pushed-companies-over-the-technology-tipping-point-and-transformed-business-forever (Accessed: 1 September 2022).",
+      "National Careers Service (n.d.) Careers advice [Online] Available at: https://nationalcareers.service.gov.uk/careers-advice (Accessed: 1 September 2022).",
+      "National Cyber Security Centre (2021a) Top tips for staying secure online [Online]. Available at: https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online (Accessed: 1 September 2022).",
+      "National Cyber Security Centre (2021b) Connected places cyber security principles [Online]. Available at: https://www.ncsc.gov.uk/collection/connected-places-security-principles/understanding-your-connected-place/understanding-the-risks-to-your-connected-place (Accessed: 1 September 2022).",
+      "National Cyber Security Centre (n.d.) What is cyber security? [Online]. Available at: https://www.ncsc.gov.uk/section/about-ncsc/what-is-cyber-security (Accessed: 1 September 2022).",
+      "Norton (2021) 20 internet safety tips and checklist to help families stay safer online, 13 August [Online]. Available at: https://us.norton.com/internetsecurity-kids-safety-stop-stressing-10-internet-safety-rules-to-help-keep-your-family-safe-online.html# (Accessed: 1 September 2022)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-28",
+   "title": "References (3 of 3)",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "OECD Digital Government Policy Framework (31 March 2021) YouTube video, Added by OECD KPC Public Governance Programme [Online]. Available at: https://www.youtube.com/watch?v=3Gj8cvrrTsg (Accessed: 1 September 2022).",
+      "Office for National Statistics (ONS) (2022a) Is hybrid working here to stay? 23 May [Online]. Available at: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/ishybridworkingheretostay/2022-05-23 (Accessed: 1 September 2022).",
+      "Office for National Statistics (ONS) (2022b) Business insights and impact on the UK economy, 10 March 2022 [Online]. Available at: https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/10march2022 (Accessed: 1 September 2022).",
+      "Orlik, J. (2018) Four steps to define digital skills, 13 February [Online]. Available at: https://www.nesta.org.uk/blog/four-steps-to-define-digital-skills/ (Accessed: 1 September 2022).",
+      "Preferred IT Group (2019) 'The three goals of cyber security-CIA Triad defined', Preferred IT Group, 27 August [Blog]. Available at: https://www.preferreditgroup.com/2019/08/27/the-three-goals-of-cyber-security-cia-triad-defined/ (Accessed: 1 September 2022).",
+      "Reinitz, B. (2020) Consider the Three Ds When Talking about Digital Transformation, 1 June [Online]. Available at: https://er.educause.edu/blogs/2020/6/consider-the-three-ds-when-talking-about-digital-transformation (Accessed: 1 September 2022).",
+      "The New Reality (n.d) Key themes from the research [Online]. Available at: https://thenewreality.info/all-themes (Accessed: 1 September 2022).",
+      "The New Reality (n.d) 20 Ways to achieve digital transformation [Online]. Available at: https://thenewreality.info/poster (Accessed: 1 September 2022).",
+      "The Open University (2019) Introduction to cyber security: stay safe online [Online]. Available at: https://www.open.edu/openlearn/science-maths-technology/introduction-cyber-security-stay-safe-online?active-tab=description-tab (Accessed: 1 September 2022).",
+      "The Open University (2020) Inclusive education: knowing what we mean (Wales) [Online]. Available at: https://www.open.edu/openlearn/education-development/education-careers/inclusive-education-knowing-what-we-mean-wales/content-section-overview?active-tab=description-tab (Accessed: 1 September 2022).",
+      "Times Higher Education (n.d) Leading the digital transformation of higher education [Online]. Available at: https://www.timeshighereducation.com/campus/spotlight/leading-digital-transformation-higher-education (Accessed: 1 September 2022).",
+      "Turner, J. (2022) The 7 Main Ways Technology Impacts Your Daily Life, 20 August [Online]. Available at: https://tech.co/vpn/main-ways-technology-impacts-daily-life (Accessed: 1 September 2022).",
+      "UK Copyright Service (2022) UK Copyright Law: Fact sheet P-01 [Online]. Available at: https://copyrightservice.co.uk/copyright/p01_uk_copyright_law (Accessed: 1 September 2022).",
+      "UK Parliament (2020) COVID-19 and the digital divide, 17 December [Online]. Available at: https://post.parliament.uk/covid-19-and-the-digital-divide/ (Accessed: 1 September 2022).",
+      "United Nations World Food Programme (n.d.) Freerice [Online]. Available at: https://freerice.com/categories/english-vocabulary (Accessed: 1 September 2022).",
+      "University of Wales Trinity Saint David (2022) Copyright Hub [Online]. Available at: https://www.uwtsd.ac.uk/library/help-and-support/support-for-staff/copyright-hub/ (Accessed: 1 September 2022).",
+      "World Food Programme (n.d) WFP and the Sustainable Development Goals [Online]. Available at: https://www.wfp.org/sdgs (Accessed: 1 September 2022)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid6-29",
+   "title": "Acknowledgements and licence",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "This free course was written by Esther Spring, with support from Jo Parker."
+    },
+    {
+     "t": "p",
+     "text": "Except for third party materials and otherwise stated (see terms and conditions at open.ac.uk/conditions), this content is made available under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Licence (CC BY-NC-SA 4.0)."
+    },
+    {
+     "t": "p",
+     "text": "The material acknowledged below is Proprietary and used under licence (not subject to Creative Commons Licence). Grateful acknowledgement is made to the following sources for permission to reproduce material in this free course:"
+    },
+    {
+     "t": "h",
+     "text": "Images"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Course image: Chris Canon; Alamy Stock Photo",
+      "Figure 1: Crown Copyright 2018; from the Essential digital skills framework (assets.publishing.service.gov.uk)",
+      "Figure 2: The Open University; source javaassignmenthelp.com/blog/uses-of-technology/",
+      "Figure 3: courtesy of Esther Spring",
+      "Figure 5: Akbayrak Emre; bluesyemre.com/2019/08/19/digital-needs-pyramid-of-maslow-2-0/",
+      "Figure 6: Dama International (2017)",
+      "Figure 7: 2022 Gitlab B.V.",
+      "Figure 9: Julie Dodd; CC BY-NC-SA",
+      "Figure 10: 2020 Betsy Tippens Reinitz, taken from Consider the Three Ds When Talking about Digital Transformation"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Every effort has been made to contact copyright owners. If any have been inadvertently overlooked, the publishers will be pleased to make the necessary arrangements at the first opportunity."
+    },
+    {
+     "t": "callout",
+     "kind": "note",
+     "title": "Don't miss out",
+     "text": "If this course has inspired you to learn more, you can discover free learning resources and qualifications from The Open University at www.open.edu/openlearn/free-courses."
+    }
+   ]
+  }
+ ]
+}

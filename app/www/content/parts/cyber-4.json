@@ -1,0 +1,1134 @@
+{
+ "id": "cyber4",
+ "title": "Week 4: Networking and communications",
+ "summary": "How data moves across the internet in datagrams, wireless networks and their security, TCP/IP, IP addresses and DNS, and why the internet is not the world wide web.",
+ "minutes": 60,
+ "pages": [
+  {
+   "id": "cyber4-01",
+   "title": "Week 4: Networking and communications",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Over the past three weeks you've explored many potential threats to your digital life, and ways of keeping attackers from impersonating you or infecting your devices with malware. Now you'll delve deeper into the technology that underpins information security, starting with how to protect the internet itself."
+    },
+    {
+     "t": "video",
+     "title": "Cory Doctorow introduces Week 4",
+     "url": null,
+     "note": "Cory explains that this week focuses on the network security problems that can affect the internet. By the end of the week you'll be aware of some of the networking standards that allow different devices to connect to the internet and exchange information, be able to explain how data is transmitted across networks, and understand the difference between the internet and the world wide web."
+    },
+    {
+     "t": "img",
+     "src": "img/cyber_55.jpg",
+     "alt": "Cory Doctorow speaking in front of a wall of books and pictures",
+     "caption": "Cory introduces networking and communications."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-02",
+   "title": "This week's learning outcomes",
+   "blocks": [
+    {
+     "t": "h",
+     "text": "By the end of this week you will be able to:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "explain how data is transmitted across networks, including wireless networks",
+      "describe some of the networking standards (protocols) that let devices connect and exchange information",
+      "describe some security problems that affect networks, and how encryption helps",
+      "explain the difference between the internet and the world wide web"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber4-03",
+   "title": "1 What is the internet?",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_56.jpg",
+     "alt": "Photograph of Vinton Cerf",
+     "caption": "Figure 1 - Vinton Cerf"
+    },
+    {
+     "t": "p",
+     "text": "The internet is not a single entity with a single owner. It comprises a **hierarchy of individual networks** connected to one another - from local area networks (LANs) in businesses and universities to the telephone and data networks linking cities and countries by fibre optic cables and satellite links."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "A definition often used is that the internet is a network of networks.",
+     "title": "The internet"
+    }
+   ]
+  },
+  {
+   "id": "cyber4-04",
+   "title": "Vinton Cerf on the birth of the internet",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Audio: Vinton Cerf, a pioneer of the internet",
+     "url": null,
+     "note": "Vint Cerf (Google's chief internet evangelist, often called a 'father of the internet' - a title he resists, saying there are many fathers) recalls working as a UCLA graduate student to put the first computer on the ARPANET, a 1969 network linking US university research departments. He explains that 'protocol' is borrowed from diplomacy: computer protocols are simply conventions for communication between computers. Data was chopped into packets that could travel by different routes and be recombined. When packet radio and satellite networks followed, Bob Kahn and Cerf designed TCP/IP (sketched on the back of an envelope in 1973) so computers on different networks could communicate, via gateways - today's routers. In 1977 three networks first worked together; in January 1983 all ARPANET computers had to switch to the new protocols. His one regret: choosing a 32-bit address space (about four billion addresses) in 1977."
+    },
+    {
+     "t": "quote",
+     "text": "The easiest way to understand how the Internet works is to think of Internet packets as electronic postcards... they don't necessarily arrive in the same order they were sent... Some of them get lost.",
+     "by": "Vinton Cerf"
+    }
+   ]
+  },
+  {
+   "id": "cyber4-05",
+   "title": "Packets as postcards",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Cerf explains TCP with an analogy: imagine sending a novel using only postcards. You cut the pages up, **number** the postcards so they can be put back in order, **keep copies** in case some get lost, ask for **acknowledgements**, and use **time-outs** - if you hear nothing, you resend. That is basically how TCP works, only electronically and much faster."
+    },
+    {
+     "t": "p",
+     "text": "Two key factors shaped the design of the internet:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "**No central controlling computer.** Each computer on the network is assumed to have the same authority as every other.",
+      "**Delivery despite failures.** Information should get between any two computers even if some machines have failed (or, given its Cold War origins, been blown to pieces). With many alternative routes, data need not take the most direct path - it can go round damaged parts of the network."
+     ]
+    },
+    {
+     "t": "quiz",
+     "id": "cyber4-q1",
+     "q": "Which were key design factors of the internet? (Choose all that apply.)",
+     "options": [
+      "A central controlling computer with authority over all others",
+      "Each computer has the same authority as every other",
+      "Information can still be delivered if some machines fail",
+      "Data must always take the most direct route"
+     ],
+     "answer": [
+      1,
+      2
+     ],
+     "explain": "The internet has no central controller, and its many alternative routes let data avoid damaged parts of the network.",
+     "multi": true
+    }
+   ]
+  },
+  {
+   "id": "cyber4-06",
+   "title": "1.1 How data moves around the internet",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_57.jpg",
+     "alt": "Diagram of a hierarchy of routers connecting groups of computers",
+     "caption": "From the video on routing"
+    },
+    {
+     "t": "video",
+     "title": "How data is routed across the internet",
+     "url": null,
+     "note": "The internet is thousands of separate networks owned by governments, corporations and individuals, all understanding a small number of protocols - chiefly IP (to transmit information) and TCP (a structure for sending data). It is a hierarchy: individual users and LANs; then internet service providers or corporate networks; then telecommunication companies that own the cables; the top tier is the 'internet backbone'. TCP breaks data into datagrams carrying sender and recipient addresses and a serial number. A local router looks up the destination in its address table; if unknown, it forwards the datagram to a higher-level router, possibly up to the backbone, then down to more local routers. Routers constantly share their status and reroute around congestion or failures, so parts of one file can take completely different routes. At the destination, TCP uses the serial numbers to reorder the data and requests copies of missing or damaged datagrams. (Note: the video's first example packet is addressed to 6.7.8.104; the two later examples route a packet to a local host, 1.2.3.104, and a remote host, 6.7.8.101.)"
+    }
+   ]
+  },
+  {
+   "id": "cyber4-07",
+   "title": "Nodes, links and hops",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The internet is resilient to failures of individual computers - the **nodes** of the network - and of the connections between them - the **links**."
+    },
+    {
+     "t": "p",
+     "text": "Instead of using a dedicated circuit for all the information, internet traffic is split up and may take any number of routes through the network, moving from origin to destination by a series of **hops**."
+    },
+    {
+     "t": "p",
+     "text": "Routers at higher levels only need to examine the first part of a destination address to know where to forward a datagram. Because routers keep rerouting around congestion, TCP and IP together offer an extremely reliable way of sending data over what might be an unreliable network."
+    },
+    {
+     "t": "tf",
+     "id": "cyber4-q2",
+     "q": "All the datagrams that make up one file must travel by the same route across the internet.",
+     "answer": false,
+     "explain": "Routers constantly reroute traffic, so datagrams from the same file can take completely different routes and are reordered by TCP at the destination."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-08",
+   "title": "1.2 Introducing the datagram",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_58.jpg",
+     "alt": "A pile of colourful envelopes",
+     "caption": "Figure 2"
+    },
+    {
+     "t": "p",
+     "text": "When data such as a picture, movie or document is sent over the internet, it is not sent as a single chunk. It is split into small, uniformly sized blocks called **datagrams**, sometimes called **packets**."
+    },
+    {
+     "t": "p",
+     "text": "Imagine posting a large book to a friend using only small envelopes. You tear the book into pieces, put each in an addressed envelope and number the envelopes. They may travel via the same sorting offices and arrive on the same day, or take different routes and arrive on different days - but your friend can still recreate the book once all have arrived."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-09",
+   "title": "Header and payload",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Different datagrams are used on the internet, but they share a similar structure. One envelope and its contents correspond to a single datagram:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "the **header** (the envelope) holds the sender's and recipient's addresses, a unique number, a date stamp and some error correction information",
+      "the **payload** (the contents) holds the actual information being delivered"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "The address is an IP number. You can look up an address with a **'whois'** service, such as whois.domaintools.com. Searching for open.ac.uk returns the IP address 137.108.200.90, shows the domain belongs to The Open University, located in Milton Keynes, England, hosted on an Apache server."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber4-q3",
+     "q": "Which part of a datagram contains the actual information being delivered?",
+     "options": [
+      "The header",
+      "The payload",
+      "The date stamp",
+      "The error correction information"
+     ],
+     "answer": 1,
+     "explain": "The header is like the envelope (addresses, number, date stamp, error correction); the payload is the contents."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-10",
+   "title": "1.3 Datagrams on the move",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Each datagram passes through a series of computer nodes forming the backbone of the internet. There are many thousands of nodes and often many routes between them. Each node has an IP address; looking it up with 'whois' may give a geographical location, only a country, or nothing at all."
+    },
+    {
+     "t": "p",
+     "text": "Most computer systems can run software that follows the route from your computer to a destination and lists the nodes it passes through - usually called **Traceroute** (see wikihow.com/Traceroute for how to run it)."
+    },
+    {
+     "t": "p",
+     "text": "Rather than looking up each node yourself, you can paste Traceroute's output into an online mapping utility (such as the traceroute mapper at peter-thomson.com) to plot the route on a map."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-11",
+   "title": "Activity 1 Datagrams",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "cyber4-a1",
+     "title": "Activity 1 Datagrams",
+     "prompt": "Spend about 10 minutes using Traceroute (and a traceroute mapper) to explore the routes to some Australian organisations: the University of Sydney (usyd.edu.au) and the Sydney Morning Herald newspaper (smh.com.au). Then use whois.domaintools.com to locate the Sydney Morning Herald. Where did the routes end? How many stages did your information take, and did anything surprise you?",
+     "model": "The route to the Sydney Morning Herald website does not terminate in Australia. A '.au' address is an Australian domain - auDA requires licensees to have some connection with Australia - but where the site is hosted is a different question from who uses the URL (a '.eu' site could be hosted by Google in the USA). Heavily used sites may also be cached on computers closer to the user. Nodes increasingly hide their location for security, or report only a country (sometimes the wrong one, from factory defaults), and routes change over time. usyd.edu.au's whois shows: IP Location - New South Wales - Sydney - University Of Sydney.",
+     "points": [
+      "The SMH route did not end in Australia",
+      "A country domain does not mean the site is hosted in that country",
+      "Sites may be cached or served from several locations",
+      "Nodes often hide or misreport their location, and routes change"
+     ],
+     "hint": "Allow about 15 minutes. Information is not necessarily coming from where you might expect it to."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-12",
+   "title": "1.4 Wireless networks",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_59.jpg",
+     "alt": "A tall mast with satellite dishes and antennas above a city",
+     "caption": "Figure 4"
+    },
+    {
+     "t": "p",
+     "text": "Early networks depended on wires, but engineers soon realised it would be useful to use wireless (radio) connections to create local networks. Wireless local area networks are now commonplace and known as **Wi-Fi**, after the trademark of the Wi-Fi Alliance that certifies compatible products."
+    },
+    {
+     "t": "p",
+     "text": "Wi-fi is in laptops, tablets and smartphones and an ever wider range of goods: eBook readers, smart TVs, burglar and smoke alarms. It lets devices such as computers and printers form a **local area network (LAN)** with signals sent through the air as radio waves instead of through cables."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-13",
+   "title": "Wi-fi standards, stations and SSIDs",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "'Wi-fi' refers to wireless LAN technology compliant with the **802.11** family of standards maintained by the Institute of Electrical and Electronics Engineers (IEEE). Routers show variants such as 802.11b, 802.11g and 802.11n."
+    },
+    {
+     "t": "p",
+     "text": "In wireless LANs, devices (nodes) are called **stations**, since each acts as a radio station with a transmitter and receiver."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "To connect, a station needs the name of the network - its service set identifier (SSID). The 'service set' is the set of wireless devices served by a particular wireless LAN.",
+     "title": "SSID"
+    },
+    {
+     "t": "p",
+     "text": "The SSID lets nodes distinguish their network from others in the same space - for example, phone companies offering free wi-fi in airports use it so customers join the right network. In your list of available SSIDs, some show padlocks; more on that shortly."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber4-q4",
+     "q": "What is the purpose of an SSID?",
+     "options": [
+      "To encrypt data sent over wi-fi",
+      "To name a wireless network so devices can tell it apart from others nearby",
+      "To give each device a unique IP address",
+      "To measure signal strength"
+     ],
+     "answer": 1,
+     "explain": "The SSID is the network's name; it lets nodes distinguish their wireless LAN from others operating in the same physical space."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-14",
+   "title": "2 Is your private information really private?",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_60.jpg",
+     "alt": "Reporter Sarah Smith presenting outside a building",
+     "caption": "From the Channel 4 News report"
+    },
+    {
+     "t": "video",
+     "title": "Channel 4 News: hacking phones over wi-fi",
+     "url": null,
+     "note": "Reporter Sarah Smith invites students to a free lunch. Hidden next door, security experts Glenn Wilkinson and Daniel Cuthbert use a small receiver attached to a laptop to create bogus wi-fi networks that look like familiar trusted ones. The students' phones automatically join, sending all their traffic through the hackers' laptops. The experts see their Facebook pages, read an unencrypted Yahoo email inbox, and identify places the phones had previously connected to wi-fi (one student had been to the States, another to Romania) - effectively tracking them. The students are shocked; one says she will now turn off wi-fi when out. Cuthbert's advice: be more aware of what you're connecting to - smartphones leak a lot of information - and criminals are already abusing this technology with advanced malware to get into people's email and computers."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-15",
+   "title": "Lessons from the wi-fi hack",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "We all hope the information we send wirelessly is private, but is it? Channel 4 News learned personal information about unsuspecting people by intercepting their supposedly private, but in reality completely public, wireless signals."
+    },
+    {
+     "t": "p",
+     "text": "The attack worked because the hackers set up their own wi-fi hotspot that either advertised the name of a common hotspot provider, or that users chose to join as a 'free' network."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "Be careful about the public wi-fi networks you connect to, and the types of information you access using them."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-16",
+   "title": "2.1 Network security challenges",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_61.jpg",
+     "alt": "The back of a wireless router with a cable plugged into the INTERNET port",
+     "caption": "Figure 5"
+    },
+    {
+     "t": "p",
+     "text": "Internet routers move datagrams to their destination and are programmed to overcome congestion or failures by re-routing via any alternative path. So it is impossible to say with certainty which route a datagram will take outside a local network."
+    },
+    {
+     "t": "p",
+     "text": "It will probably pass through several routers anywhere in the world, usually owned by a **third party**, not the sender or recipient. Datagrams can be copied as they pass through a router without alerting either party."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Packet sniffing is copying datagrams as they pass through the network. It has legitimate uses, such as analysing network performance and law enforcement, but the software is readily available to anyone - and with wireless networking, the sniffer no longer needs a wired connection.",
+     "title": "Packet sniffing"
+    }
+   ]
+  },
+  {
+   "id": "cyber4-17",
+   "title": "2.2 Threats to wireless networks",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_62.jpg",
+     "alt": "Three large satellite dishes silhouetted against the sky",
+     "caption": "Figure 6"
+    },
+    {
+     "t": "p",
+     "text": "Wireless networks transmit over a medium shared by everyone, so anyone with a compatible receiver can eavesdrop. The three security essentials are all at risk:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Confidentiality** - stopping an eavesdropper converting the signals back into the original message.",
+      "**Integrity** - a malicious user could sit between sender and receiver and modify or destroy messages: a **man-in-the-middle attack**.",
+      "**Availability** - an attacker could transmit lots of random data on the network's frequency, congesting it so others can't send data: a **denial-of-service (DoS) attack**."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber4-18",
+   "title": "How encryption can help",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A commonly used security mechanism is **encryption**: transforming information into a different form so that only the intended recipients can reverse the transformation and recover it - like a key that unlocks a door. Encryption can help ensure:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Confidentiality** - a message encrypted with a particular key can only be decrypted with the same key, keeping it confidential between sender and receiver.",
+      "**Integrity** - it can prevent messages being modified without the receiver's knowledge.",
+      "**Authentication** - it can help prove the identities of the sender and receiver."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "You'll look at encryption and decryption in more detail next week, when you learn how cryptography works."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber4-q5",
+     "q": "An attacker floods a wireless network's frequency with random data so nobody else can send. Which security property is attacked?",
+     "options": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Authentication"
+     ],
+     "answer": 2,
+     "explain": "This is a denial-of-service attack, which targets the availability of the network."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-19",
+   "title": "Encryption in wi-fi",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Most wi-fi security methods are based on encryption using a key known only to the nodes in the wireless network."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**WEP (Wired Equivalent Privacy)** - the first mechanism, aiming for confidentiality comparable to a wired network. Since 2001 serious flaws have been found that let the key be computed within minutes using readily available software. Switch to more modern encryption wherever possible.",
+      "**WPA2 (Wi-Fi Protected Access 2)** - used by most equipment in 2018, with a more secure key. It is the default configuration and must be supported by all devices compliant with 802.11.",
+      "**WPA3** - from 2019 new devices should start moving to this standard for higher security, though many public networks will keep running WPA2."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "The only way to enhance your security on public wi-fi is a **Virtual Private Network (VPN)**, covered in Week 6."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-20",
+   "title": "Check: wireless network security",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "cyber4-m1",
+     "title": "Match each term to its description",
+     "pairs": [
+      {
+       "term": "Packet sniffing",
+       "def": "Copying datagrams as they pass through the network"
+      },
+      {
+       "term": "Man-in-the-middle attack",
+       "def": "Intercepting and modifying messages between sender and receiver"
+      },
+      {
+       "term": "Denial-of-service attack",
+       "def": "Congesting a network so other users cannot send data"
+      },
+      {
+       "term": "WEP",
+       "def": "Early wi-fi encryption whose key can be computed within minutes"
+      },
+      {
+       "term": "WPA2",
+       "def": "The default wi-fi encryption that all 802.11-compliant devices must support"
+      },
+      {
+       "term": "WPA3",
+       "def": "Newer wi-fi standard adding higher levels of security from 2019"
+      },
+      {
+       "term": "VPN",
+       "def": "The only way to enhance your security on public wi-fi"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber4-21",
+   "title": "2.3 Using wireless networking securely",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_63.jpg",
+     "alt": "Three network cable plugs lying on a laptop keyboard",
+     "caption": "Figure 7"
+    },
+    {
+     "t": "activity",
+     "id": "cyber4-a2",
+     "title": "Check your wireless networks",
+     "prompt": "Use the network connection tool on your computer to see how many wireless networks are in range. How many use secure connections? Is your home network using WPA2 or WPA3? How do you connect when you're on the move (home wi-fi, mobile provider, coffee-shop wi-fi)? Going through the online services you identified in Week 1, which would you choose not to access on public wireless networks?",
+     "model": "Networks shown with a padlock use encryption. If your home network isn't using WPA2 or WPA3, use your router's manual or your ISP's website to set it up (and move away from WEP). On the move, mobile data or a trusted network is safer than open public wi-fi, where traffic can be intercepted or a hotspot may be fake. Sensitive services - banking, email, shopping, work systems - are best avoided on public wi-fi unless you use a VPN.",
+     "points": [
+      "Count networks in range and which are secured (padlock)",
+      "Make sure your home network uses WPA2 or WPA3",
+      "Treat public/free wi-fi with caution",
+      "Avoid sensitive services such as banking or email on public wi-fi (or use a VPN)"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber4-22",
+   "title": "3 Why we need standards on the internet",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_64.jpg",
+     "alt": "Aerial photograph of a complicated motorway junction",
+     "caption": "Figure 8"
+    },
+    {
+     "t": "p",
+     "text": "Data sent over the internet crosses several hierarchies of networks, using different technologies from many providers and organisations. These networks must use a **standard form of communication** so information can pass from one to another."
+    },
+    {
+     "t": "p",
+     "text": "How a network works internally is largely the business of its owner and users. But where it joins other networks and becomes part of the internet, it must conform to the internet's standards."
+    },
+    {
+     "t": "p",
+     "text": "No single organisation owns the internet or dictates how it works - yet everyone with a network that forms part of it has to work to common standards, or data could not move between networks."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-23",
+   "title": "3.1 Introducing the TCP/IP protocols",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_65.jpg",
+     "alt": "The back of a computer with many cables plugged in",
+     "caption": "Figure 9"
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "The standards that allow different networks and communications equipment to talk to one another are formalised in digital rules known as communications protocols.",
+     "title": "Communications protocols"
+    },
+    {
+     "t": "p",
+     "text": "For the internet the two most important are the **Transmission Control Protocol (TCP)** and the **Internet Protocol (IP)** - so inextricably linked they are often written together as **TCP/IP**."
+    },
+    {
+     "t": "p",
+     "text": "TCP is responsible for ensuring data can be sent **reliably** over the internet. It uses software **ports** to keep data separate on the same computer - so you can browse a web page, collect email and stream music at the same time."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-24",
+   "title": "TCP ports",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A 'port' can be a physical socket, like a USB port. For TCP, a port is a **number** indicating how data is handled when it reaches its destination. Many ports represent specific protocols. Common TCP ports:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**20 and 21** - File Transfer Protocol (FTP): sending and receiving files (20) and control (21)",
+      "**22** - Secure Shell (SSH): secure logins to computers",
+      "**25** - Simple Mail Transfer Protocol (SMTP): sending email",
+      "**80** - HyperText Transfer Protocol (HTTP): browsing web pages"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Data from an application is divided into TCP datagrams, each containing the port number. TCP on the recipient's computer examines the port number to decide which application receives the data."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-25",
+   "title": "Inside a datagram header",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_66.jpg",
+     "alt": "Diagram: a request 'GET /pages/content/en/index.html' from a computer at 192.168.2.4 is split into three datagrams; each header holds destination IP/port 192.168.0.1 port 80 and source IP/port 192.168.2.4 port 3745, and the receiving computer reassembles the request",
+     "caption": "Figure 10 - a web request split into datagrams, each carrying source and destination IP addresses and ports"
+    },
+    {
+     "t": "match",
+     "id": "cyber4-m2",
+     "title": "Match each TCP port to its use",
+     "pairs": [
+      {
+       "term": "Port 21",
+       "def": "FTP control"
+      },
+      {
+       "term": "Port 20",
+       "def": "FTP sending and receiving files"
+      },
+      {
+       "term": "Port 22",
+       "def": "Secure Shell (SSH) for secure logins"
+      },
+      {
+       "term": "Port 25",
+       "def": "SMTP for sending email"
+      },
+      {
+       "term": "Port 80",
+       "def": "HTTP for browsing web pages"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber4-26",
+   "title": "Reliable TCP versus fast UDP",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "TCP's second major task is ensuring that all data sent is received. It waits for **acknowledgements** from the remote computer, and resends any datagram lost or damaged in transit. So TCP is **reliable - but relatively slow**."
+    },
+    {
+     "t": "p",
+     "text": "Applications where timeliness matters more than absolute accuracy - streaming media, video games, video conferencing - use less reliable but faster protocols such as **UDP (User Datagram Protocol)**. You want an email to arrive with no gaps, but if you're streaming a TV programme it doesn't greatly matter if a few datagrams are lost."
+    },
+    {
+     "t": "p",
+     "text": "TCP doesn't actually send and receive the information - that is done by a second protocol, most commonly IP."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber4-q6",
+     "q": "Why would a video-conferencing app use UDP rather than TCP?",
+     "options": [
+      "UDP is more reliable",
+      "Timeliness matters more than receiving every datagram, and UDP is faster",
+      "UDP encrypts all data",
+      "TCP cannot carry video"
+     ],
+     "answer": 1,
+     "explain": "TCP waits for acknowledgements and resends lost data, making it reliable but slower; UDP trades reliability for speed."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-27",
+   "title": "3.2 The internet protocol",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_67.jpg",
+     "alt": "A lorry driving along an empty road",
+     "caption": "Figure 11"
+    },
+    {
+     "t": "p",
+     "text": "The **Internet Protocol (IP)** does the hard work of actually moving data across the internet. It is only concerned with moving data - it doesn't check that the data arrives; that is handled by TCP."
+    },
+    {
+     "t": "p",
+     "text": "When IP receives data from TCP to send, it wraps the TCP datagram in its own IP datagram containing the sender's and receiver's addresses and some other information."
+    },
+    {
+     "t": "p",
+     "text": "When IP receives data from the internet, it removes the IP datagram information and passes the contents to TCP, which checks and reorders them before passing them through the appropriate port to an application."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-28",
+   "title": "IP addresses: IPv4 and IPv6",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Addresses such as www.open.edu are for human convenience. Computers communicate using numeric **IP addresses** (or IP numbers). Every computer directly connected to the internet has a unique IP address. There are two major forms:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "",
+      "IPv4",
+      "IPv6"
+     ],
+     "rows": [
+      [
+       "Form",
+       "Four numbers 0-255 separated by full stops, e.g. 192.168.0.1",
+       "A newer, much larger format, first outlined in 1998"
+      ],
+      [
+       "Capacity",
+       "Nearly exhausted by the number of connected devices",
+       "A theoretical 3.4 x 10^38 devices - any conceivable demand"
+      ],
+      [
+       "Status",
+       "Has long underpinned the internet; urgently needs replacing",
+       "Intended to replace IPv4; the transition is complex and far from complete"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Some compatibility exists through **IPv4-mapped IPv6 addresses**, where IPv4 addresses are stored in IPv6 format."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-29",
+   "title": "Reserved IP numbers",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Not all IPv4 numbers are available. As well as large blocks reserved for specific users in the early days, some are used for **private** networks outside the internet:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "10.0.0.0 to 10.255.255.255",
+      "169.254.0.0 to 169.254.255.255",
+      "172.16.0.0 to 172.31.255.255",
+      "192.168.0.0 to 192.168.255.255"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Your computer allocates itself an address beginning **169.254...** if it can't connect to a local network. On a home internet connection it will almost certainly have an address beginning **192.168...**: your network hub has a genuine IP address, your devices have private addresses, and your modem alters the addresses on packets passing between your home network and the internet."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber4-q7",
+     "q": "Your laptop shows the IP address 169.254.10.7. What does this most likely mean?",
+     "options": [
+      "It is connected directly to the internet backbone",
+      "It could not connect to a local network and allocated itself an address",
+      "It is using IPv6",
+      "It is a public web server"
+     ],
+     "answer": 1,
+     "explain": "A computer allocates itself a 169.254... address when it is unable to connect to a local network."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-30",
+   "title": "3.3 From numbers to names",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_68.jpg",
+     "alt": "Close-up of '.uk' displayed on a screen",
+     "caption": "Figure 12"
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "When you type an address such as www.open.edu into a browser, it is translated into a unique IP address by a name server, called a Domain Name Server (DNS), located somewhere on the internet.",
+     "title": "DNS"
+    },
+    {
+     "t": "p",
+     "text": "That IP address is then attached to every IP datagram destined for the Open University server."
+    },
+    {
+     "t": "p",
+     "text": "Addresses are resolved from the **most general part to the most specific**, as the next example shows."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-31",
+   "title": "Example: finding Bob at Big University",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "An email is being sent to Bob, who works in the coffee bar at Big University in America: **bob@coffee.big.edu**."
+    },
+    {
+     "t": "ol",
+     "items": [
+      "The sender's name server asks a computer that holds the addresses of American universities (most use **.edu**) for the IP number of **big.edu**.",
+      "The .edu name server replies with the IP number of the name server at Big University.",
+      "The sender's machine contacts the big.edu name server and asks for the IP number of the coffee shop computer used by Bob.",
+      "The big.edu name server replies with that address, so the IP datagrams can be correctly addressed and sent into the network."
+     ]
+    },
+    {
+     "t": "tf",
+     "id": "cyber4-q8",
+     "q": "DNS resolves an address starting with the most specific part (e.g. 'coffee') and working out to the most general (e.g. '.edu').",
+     "answer": false,
+     "explain": "The address is sorted from the most general part (.edu) to the most specific."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-32",
+   "title": "Encrypting DNS requests",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Until 2019, DNS requests were sent as **plain text** and could be intercepted even when the data being sent or requested was encrypted."
+    },
+    {
+     "t": "p",
+     "text": "From 2019 DNS requests can be encrypted (**DNS over HTTPS**). In Firefox: Settings, then Network settings, and select the enable DNS over HTTPS checkbox. Chrome 78 was experimenting with the feature: browse to chrome://flags/, search for 'dns-over-https', enable it and restart the browser."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber4-q9",
+     "q": "Why was DNS over HTTPS introduced?",
+     "options": [
+      "To make websites load images faster",
+      "Because DNS requests were sent as plain text and could be intercepted",
+      "To replace IP addresses with names",
+      "To block all advertising"
+     ],
+     "answer": 1,
+     "explain": "Even when page data was encrypted, plain-text DNS requests revealed which sites were being looked up."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-33",
+   "title": "3.4 The internet is not the world wide web",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_69.jpg",
+     "alt": "Tim Berners-Lee holding a glowing plasma ball",
+     "caption": "Figure 13 - Tim Berners-Lee devised the specifications for URIs, HTTP and HTML"
+    },
+    {
+     "t": "p",
+     "text": "Saying 'I'm on the internet' while browsing is true but misleading. The internet dates from **1982** (with roots back to **1969**), but the world wide web only came into being in **1990**, thanks to Sir Tim Berners-Lee."
+    },
+    {
+     "t": "p",
+     "text": "Before the web, fewer people used the internet (it took until 1998 for 100 million people to log on), commands had to be typed in, often cryptically, and what came back was plain text. The web made the internet usable without learning a new language, delivering rich text, graphics, animation and sound at the click of a button."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-34",
+   "title": "The web is part of the internet",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "At its simplest, the world wide web is the part of the internet that can be accessed through the HyperText Transfer Protocol (HTTP).",
+     "title": "World wide web"
+    },
+    {
+     "t": "p",
+     "text": "HTTP lets two computers exchange information as a series of **requests** (e.g. your computer asking for a course web page) and **responses** (the server delivering it). HTTP relies on TCP to set up the connection, and TCP uses IP to send and receive data. Web browsers are the most common applications that understand HTTP."
+    },
+    {
+     "t": "p",
+     "text": "The web is an example of **hypertext** - documents joined by links. Each click uses HTTP to request a page from a web server via TCP **port 80**; the content comes back through port 80 and the browser formats it for you to read."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-35",
+   "title": "Designed to be open",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The web was designed from the start to be **open**, encouraging people to set up their own servers and write pages. All documentation for HTTP and related standards is publicly available, and the **HyperText Mark-up Language (HTML)** used to format web documents is fully documented online and easy to use."
+    },
+    {
+     "t": "p",
+     "text": "Beyond the web, the internet carries many other services, including **email, instant messaging and file transfers**. Its flexibility comes from its underlying protocols: as long as information can be stored in IP datagrams - and just about anything can - it can be moved around the internet."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber4-q10",
+     "q": "Which statement correctly describes the relationship between the internet and the web?",
+     "options": [
+      "They are two names for the same thing",
+      "The web is one service running over the internet, accessed through HTTP",
+      "The internet runs on top of the web",
+      "The web is older than the internet"
+     ],
+     "answer": 1,
+     "explain": "The internet (from 1982) carries many services; the web (from 1990) is the part accessed through HTTP."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-36",
+   "title": "Interview with Tim Berners-Lee",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Audio: Tim Berners-Lee on the world wide web",
+     "url": null,
+     "note": "In 1980 Berners-Lee wrote ENQUIRE, a hypertext program. In 1989 at CERN, frustrated by incompatible documentation systems, he realised a global hypertext system could represent any of them without forcing a particular machine or format - give every document an identifier in one universal space. His boss, Mike Sendall, let him write the program; with Robert Cailliau he spent two years refining the protocols. He explains a link: the identifier starts http:// (how to fetch it), then a computer name such as www.acme.com, which another computer translates into a number; your computer connects and sends a simple 'get' command, and the page comes back. The first public website launched in August 1991; the web did not suddenly explode - load on the first server, info.cern.ch, grew tenfold every year. Part two of his dream - machine-understandable information - still needed more technology: digital signatures, a web of trust and logical reasoning on the web."
+    },
+    {
+     "t": "p",
+     "text": "Towards the end, Tim Berners-Lee mentions things the web needs to reach its full potential. One is **digital signatures**, which can be achieved using cryptography - the topic for next week."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-37",
+   "title": "Check: internet building blocks",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "cyber4-m3",
+     "title": "Match each term to its description",
+     "pairs": [
+      {
+       "term": "Internet",
+       "def": "A network of networks, dating from 1982"
+      },
+      {
+       "term": "World wide web",
+       "def": "The part of the internet accessed through HTTP, created in 1990"
+      },
+      {
+       "term": "HTTP",
+       "def": "Protocol for exchanging web requests and responses"
+      },
+      {
+       "term": "HTML",
+       "def": "Language used to format web documents"
+      },
+      {
+       "term": "TCP",
+       "def": "Ensures data is sent reliably, using ports and acknowledgements"
+      },
+      {
+       "term": "IP",
+       "def": "Moves datagrams across the internet using numeric addresses"
+      },
+      {
+       "term": "DNS",
+       "def": "Translates names like www.open.edu into IP addresses"
+      },
+      {
+       "term": "Traceroute",
+       "def": "Lists the nodes a datagram passes through to its destination"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber4-38",
+   "title": "Week 4 badge quiz (1)",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "note",
+     "text": "In the original course this is the compulsory Week 4 badge quiz. These questions test the same material."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber4-q11",
+     "q": "The internet is best described as...",
+     "options": [
+      "a single network owned by one organisation",
+      "a network of networks",
+      "the same thing as the world wide web",
+      "a central computer that controls all others"
+     ],
+     "answer": 1,
+     "explain": "The internet is a hierarchy of individual networks connected to one another."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber4-q12",
+     "q": "What are datagrams?",
+     "options": [
+      "Small, uniformly sized blocks of data with a header and payload",
+      "Diagrams of network routes",
+      "Encrypted passwords",
+      "Web pages written in HTML"
+     ],
+     "answer": 0,
+     "explain": "Data is split into datagrams (packets); each has a header with addresses and a payload with the content."
+    },
+    {
+     "t": "tf",
+     "id": "cyber4-q13",
+     "q": "A website with a '.au' address must be hosted on a computer in Australia.",
+     "answer": false,
+     "explain": "The domain says who licensed the name; the site can be hosted, or cached, anywhere."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-39",
+   "title": "Week 4 badge quiz (2)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "cyber4-q14",
+     "q": "Which wi-fi security mechanism should be avoided because its key can be computed within minutes?",
+     "options": [
+      "WPA2",
+      "WPA3",
+      "WEP",
+      "VPN"
+     ],
+     "answer": 2,
+     "explain": "Serious flaws found in WEP since 2001 mean it should be replaced with more modern encryption."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber4-q15",
+     "q": "Which of these can encryption help to ensure? (Choose all that apply.)",
+     "options": [
+      "Confidentiality",
+      "Integrity",
+      "Authentication",
+      "Unlimited bandwidth"
+     ],
+     "answer": [
+      0,
+      1,
+      2
+     ],
+     "explain": "Encryption helps keep messages confidential, unmodified and can contribute to proving identities.",
+     "multi": true
+    },
+    {
+     "t": "quiz",
+     "id": "cyber4-q16",
+     "q": "Which TCP port is the well-known port for HTTP?",
+     "options": [
+      "21",
+      "22",
+      "25",
+      "80"
+     ],
+     "answer": 3,
+     "explain": "Port 80 is used for browsing web pages with HTTP."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-40",
+   "title": "Week 4 badge quiz (3)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "cyber4-q17",
+     "q": "What is the job of IP, as opposed to TCP?",
+     "options": [
+      "Checking that all data arrives and reordering it",
+      "Actually moving data across the internet using addresses",
+      "Formatting web pages",
+      "Naming wireless networks"
+     ],
+     "answer": 1,
+     "explain": "IP moves the data; TCP checks it arrives and puts it back in order."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber4-q18",
+     "q": "Why is IPv6 replacing IPv4?",
+     "options": [
+      "IPv4 addresses are nearly exhausted",
+      "IPv4 cannot carry email",
+      "IPv6 is required for wi-fi",
+      "IPv4 is not used by home routers"
+     ],
+     "answer": 0,
+     "explain": "The number of connected devices has nearly exhausted IPv4's addresses; IPv6 supports about 3.4 x 10^38."
+    },
+    {
+     "t": "tf",
+     "id": "cyber4-q19",
+     "q": "Packet sniffing always requires a computer that is physically wired to the network.",
+     "answer": false,
+     "explain": "In the past it did, but wireless networking means this is no longer the case."
+    }
+   ]
+  },
+  {
+   "id": "cyber4-41",
+   "title": "Summary of Week 4",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_70.jpg",
+     "alt": "City skyline with streaks of light representing data",
+     "caption": "Figure 14"
+    },
+    {
+     "t": "p",
+     "text": "This week you learned the basics of computer networking and communications: how data is transmitted across networks as datagrams, including over wireless networks, and some of the networking standards - TCP/IP, IP addresses and DNS - that let devices connect and exchange information."
+    },
+    {
+     "t": "p",
+     "text": "You also learned the difference between the internet and the world wide web, and can describe security problems that affect networks, such as packet sniffing, man-in-the-middle and denial-of-service attacks, and how encryption helps."
+    },
+    {
+     "t": "p",
+     "text": "You are now halfway through the course. Next week: **Cryptography**."
+    }
+   ]
+  }
+ ]
+}
