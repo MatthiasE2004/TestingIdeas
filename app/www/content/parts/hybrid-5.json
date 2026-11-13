@@ -837,6 +837,18 @@
    ]
   },
   {
+   "id": "hybrid5-34t",
+   "title": "Try it: Data Guard",
+   "blocks": [
+    {
+     "t": "tool",
+     "tool": "data-guard",
+     "title": "Try it: protect information at work",
+     "intro": "Classify workplace information, decide what to do in realistic scenarios (CIA triad, GDPR, threats, IP, SAFE, zero trust, wellbeing) and build your own security checklist from Table 7."
+    }
+   ]
+  },
+  {
    "id": "hybrid5-35",
    "title": "Summary of Section 5",
    "blocks": [

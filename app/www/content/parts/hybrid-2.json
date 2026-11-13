@@ -364,6 +364,18 @@
    ]
   },
   {
+   "id": "hybrid2-14t",
+   "title": "Try it: your digital capability profile",
+   "blocks": [
+    {
+     "t": "tool",
+     "tool": "digital-skills",
+     "title": "Try it: digital capability self-assessment",
+     "intro": "Rate yourself against the Essential Digital Skills Framework (Section 1.1) and the six Jisc elements, compare your level with what your role needs, then plan your development using People, Places, Technology and Period."
+    }
+   ]
+  },
+  {
    "id": "hybrid2-15",
    "title": "How the OU applies the framework",
    "blocks": [
