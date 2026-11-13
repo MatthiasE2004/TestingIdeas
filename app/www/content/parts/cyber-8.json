@@ -1,0 +1,1345 @@
+{
+ "id": "cyber8",
+ "title": "Week 8: Managing security risks",
+ "summary": "Treat information as an asset, analyse risks with a likelihood-impact grid, choose countermeasures and build an action plan - then review your progress and take the badge quiz.",
+ "minutes": 180,
+ "pages": [
+  {
+   "id": "cyber8-01",
+   "title": "Week 8: Managing security risks",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Cory Doctorow introduces the final week",
+     "url": null,
+     "note": "Cory: welcome to the final week. Over the past seven weeks we've explored information security threats and the actions you can take to stop them harming your digital life, looked at key technologies such as networking and cryptography that underpin what we do online, and seen what can be done after an attack from both a technological and a legal standpoint. Now we focus on assessing the security risks in your digital life so you can plan to protect yourself, and you'll review how your information security practices have changed as a result of the course."
+    },
+    {
+     "t": "p",
+     "text": "Over the past seven weeks you have explored different cyber security threats and the actions you can take to prevent them causing harm to your digital life."
+    },
+    {
+     "t": "p",
+     "text": "This final week focuses on how to **assess the security risks** associated with your digital life, so that you can plan effectively to protect yourself from attacks."
+    },
+    {
+     "t": "h",
+     "text": "This week you will"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "treat your information as an asset and analyse the risks to it",
+      "decide on countermeasures and build an information security action plan",
+      "review how your security practices have changed - and take the end-of-course badge quiz."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber8-02",
+   "title": "1 Information as an asset",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_123.jpg",
+     "alt": "Close-up of rows of colour-coded paper file folders",
+     "caption": "Figure 1"
+    },
+    {
+     "t": "p",
+     "text": "Remember from Week 1: it helps to think of information as an **asset**. Like money in the bank it is valuable, possibly irreplaceable, and it can be lost or stolen."
+    },
+    {
+     "t": "p",
+     "text": "Traditionally, assets meant tangible things such as money, property and machinery. Increasingly, information itself is recognised as an asset crucial to adding value - in today's digital world, often the most important asset for businesses and individuals. Think of the value of music to a media company, or a games program to a video game company."
+    },
+    {
+     "t": "p",
+     "text": "Thinking of information as an asset lets us create strategies to protect it and minimise the consequences of any disaster. Digital information covers everything that can be stored, processed or transmitted through digital systems. Since 1990 the world has moved from mostly paper to transacting its business predominantly digitally."
+    }
+   ]
+  },
+  {
+   "id": "cyber8-03",
+   "title": "Risk management",
+   "blocks": [
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Information security risk management assesses the value of information assets belonging to an individual or an organisation and, if appropriate, protects them on an ongoing basis.",
+     "title": "Information security risk management"
+    },
+    {
+     "t": "p",
+     "text": "Some information is **tangible** - paper, for example - and relatively easy to protect: lock the filing cabinets, restrict access to archives."
+    },
+    {
+     "t": "p",
+     "text": "Some is **intangible**, such as the ideas in employees' minds, and much harder to protect. Companies may try to keep employees happy, or use contracts preventing them from leaving to work for a rival. Yet some industries have blossomed precisely because people could move easily and spread new ideas rapidly through many start-ups."
+    }
+   ]
+  },
+  {
+   "id": "cyber8-04",
+   "title": "Imperatives and incentives",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Risk management considers two factors:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Imperatives** - pressures that force you to act. For information security they come from **legislation** (e.g. the Computer Misuse Act and the Data Protection Act 2018, the UK's implementation of GDPR) and **regulation** (e.g. the Payment Card Industry Data Security Standard, **PCI-DSS**, which specifies how merchants secure card transactions).",
+      "**Incentives** - rewards and opportunities from acting. The most important is **trust**: people and organisations prefer to work with those who have secured their information."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Building trust means examining each other's security practices to check safeguards are adequate - for example by showing an organisation meets standards such as PCI-DSS or the **ISO27000** family of standards for information security management systems."
+    },
+    {
+     "t": "p",
+     "text": "Over the course you've covered all of this: the threats facing internet users, the laws regulating information, and how the internet relies on trust supported by technologies such as encryption and signatures."
+    }
+   ]
+  },
+  {
+   "id": "cyber8-05",
+   "title": "Check: imperative or incentive?",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "cyber8-m1",
+     "title": "Match each example to the right description",
+     "pairs": [
+      {
+       "term": "Data Protection Act 2018",
+       "def": "A legislative imperative to protect personal data"
+      },
+      {
+       "term": "PCI-DSS",
+       "def": "A regulatory standard for securing card transactions"
+      },
+      {
+       "term": "Trust",
+       "def": "The most important incentive for securing information"
+      },
+      {
+       "term": "ISO27000 family",
+       "def": "Standards for designing and implementing information security management systems"
+      },
+      {
+       "term": "Intangible information",
+       "def": "Ideas in employees' minds - hard to protect"
+      },
+      {
+       "term": "Tangible information",
+       "def": "Paper records you can protect with locked filing cabinets"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber8-06",
+   "title": "1.1 Your own information assets",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_9.jpg",
+     "alt": "Screenshot of a computer desktop file browser showing folders such as books_music, business_documents, family_stuff, treasured_photos and work_email",
+     "caption": "Figure 2"
+    },
+    {
+     "t": "p",
+     "text": "In Week 1 you listed your information assets: any information stored on a computer system you use that would be expensive, inconvenient or impossible to replace if lost, damaged or stolen. Review your list and think about what to add after eight weeks of learning."
+    },
+    {
+     "t": "p",
+     "text": "Lewis, an Open University student, did the same for his computers:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "study materials - documents and data for his postgraduate studies",
+      "digital photographs - about 20,000 images from the last ten years",
+      "music - about 10,000 tracks ripped from CD or bought online",
+      "movies - about 200 films and TV programmes",
+      "email - about ten years of correspondence",
+      "banking and other financial records",
+      "passwords and account details."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber8-07",
+   "title": "How replaceable are Lewis's assets?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Some could be replaced: iTunes would let him download lost music again - though rebuilding the whole library would take a very long time. Emails and financial records could be recreated, but only by spending a lot of time asking other people for information."
+    },
+    {
+     "t": "p",
+     "text": "Passwords could be changed and authentication information recovered, but at great time and inconvenience - and if they were stolen, an attacker could misuse those assets. The photos would almost certainly be lost forever."
+    },
+    {
+     "t": "activity",
+     "id": "cyber8-a1",
+     "title": "Review your information assets",
+     "prompt": "Look back at your own list of information assets from Week 1. Does Lewis's list prompt you to add any items? Note anything new and how easy or hard each item would be to replace.",
+     "model": "Lewis's list often prompts people to add email archives, financial records, passwords and account details, photos and media libraries. For each, consider whether it could be re-downloaded (music), recreated with effort (emails, records), changed (passwords) or is irreplaceable (photos) - and whether a thief could misuse it.",
+     "points": [
+      "Adds any new information assets to their list",
+      "Considers how replaceable each asset is",
+      "Identifies irreplaceable items such as photos",
+      "Notes assets an attacker could misuse, such as passwords or financial records"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber8-08",
+   "title": "1.2 Risk analysis",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_124.jpg",
+     "alt": "A climber hanging from an overhanging rock face above the sea",
+     "caption": "Figure 3"
+    },
+    {
+     "t": "p",
+     "text": "A whole science has grown up around identifying, analysing and managing risks. You'll now apply some of its ideas to the security of your information."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Risk can be thought of as the chance of adverse consequences or loss occurring. Generally, risks can be identified and the likelihood of them occurring assessed.",
+     "title": "Risk"
+    },
+    {
+     "t": "p",
+     "text": "The main technique for **qualitative** risk analysis is a **likelihood-impact matrix**: assess each risk's likelihood and impact on a defined scale and plot it on a grid. Its position shows its relative significance. The simplest classifies each as high or low - a 2 by 2 grid - giving this order for tackling risks:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "high-impact, high-likelihood",
+      "high-impact, low-likelihood",
+      "low-impact, high-likelihood",
+      "low-impact, low-likelihood."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber8-09",
+   "title": "The risk analysis grid",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_125.jpg",
+     "alt": "An empty 2 by 2 grid: impact from low to high on the vertical axis, likelihood from low to high on the horizontal axis",
+     "caption": "Figure 4 Risk analysis grid"
+    },
+    {
+     "t": "p",
+     "text": "Low-impact, low-likelihood risks are probably not worth much effort (but see risk acceptance later this week). Take the high-impact or high-likelihood risks one by one and look for ways to reduce the impact, the likelihood, or both."
+    },
+    {
+     "t": "p",
+     "text": "Next, **quantitative** techniques use a financial assessment of each risk's impact to rank them, greatest first - beyond the scope of this course. Because it can be hard to judge a risk until you've identified a response (and how risks and responses interact), risk management is usually **iterative** in practice."
+    }
+   ]
+  },
+  {
+   "id": "cyber8-10",
+   "title": "Check: which risk first?",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "cyber8-q1",
+     "q": "Using the simple 2 by 2 grid, which risk should you tackle immediately after high-impact, high-likelihood risks?",
+     "options": [
+      "Low-impact, high-likelihood",
+      "High-impact, low-likelihood",
+      "Low-impact, low-likelihood"
+     ],
+     "answer": 1,
+     "explain": "The rank order is: high-impact/high-likelihood, then high-impact/low-likelihood, then low-impact/high-likelihood, and finally low-impact/low-likelihood."
+    },
+    {
+     "t": "tf",
+     "id": "cyber8-q2",
+     "q": "Risk management is usually a one-off exercise: once risks are ranked, the list never needs revisiting.",
+     "answer": false,
+     "explain": "It is usually iterative - you may not be able to judge a risk until you have identified a response and its interactions, and you should periodically review your analysis."
+    }
+   ]
+  },
+  {
+   "id": "cyber8-11",
+   "title": "1.3 Risk analysis in practice: high-high",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Here's how a qualitative risk analysis could work for Lewis's information assets."
+    },
+    {
+     "t": "p",
+     "text": "A successful attack on **email, banking details and passwords** would have high impact, and these are likely to be targeted because of their high value. So they go in the **high-impact, high-likelihood** box."
+    },
+    {
+     "t": "img",
+     "src": "img/cyber_126.jpg",
+     "alt": "Risk grid with email, banking details and password in the high-impact, high-likelihood box",
+     "caption": "Figure 5"
+    }
+   ]
+  },
+  {
+   "id": "cyber8-12",
+   "title": "High impact, low likelihood",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "An attack on the **study materials or digital photographs** would have high impact, but is unlikely because these assets have minimal financial value to an attacker. They go in the **high-impact, low-likelihood** box."
+    },
+    {
+     "t": "img",
+     "src": "img/cyber_127.jpg",
+     "alt": "Risk grid adding study materials and digital photographs to the high-impact, low-likelihood box",
+     "caption": "Figure 6"
+    }
+   ]
+  },
+  {
+   "id": "cyber8-13",
+   "title": "Low impact, high likelihood",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "An attack on the **digital music or videos** would have low impact, since they can easily be downloaded again. But it is highly likely, because they can be easily copied and sold - attractive to an attacker. They go in the **low-impact, high-likelihood** box."
+    },
+    {
+     "t": "img",
+     "src": "img/cyber_128.jpg",
+     "alt": "Completed risk grid with digital music and digital videos in the low-impact, high-likelihood box",
+     "caption": "Figure 7"
+    }
+   ]
+  },
+  {
+   "id": "cyber8-14",
+   "title": "Check: place Lewis's assets",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "cyber8-m2",
+     "title": "Match each of Lewis's assets to its place on the risk grid",
+     "pairs": [
+      {
+       "term": "Banking details",
+       "def": "High impact, high likelihood: high value to an attacker"
+      },
+      {
+       "term": "Digital photographs",
+       "def": "High impact, low likelihood: irreplaceable but of little value to an attacker"
+      },
+      {
+       "term": "Digital music",
+       "def": "Low impact, high likelihood: easy to re-download but easy to copy and sell"
+      },
+      {
+       "term": "Passwords",
+       "def": "High impact, high likelihood: stolen ones let an attacker misuse other assets"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber8-15",
+   "title": "Your own risk analysis",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "cyber8-a2",
+     "title": "Analyse your information assets",
+     "prompt": "Following Lewis's example, take your own list of information assets and carry out a similar risk analysis: for each type of information decide whether the impact of an attack would be high or low, and whether the likelihood of attack is high or low. Place each in one of the four boxes.",
+     "model": "Assets with financial value to an attacker - email, banking details, passwords - are usually high impact and high likelihood. Irreplaceable personal material such as photos or study work is high impact but lower likelihood. Easily replaced but easily sold items such as music or films are low impact but higher likelihood. Tackle high-impact, high-likelihood items first.",
+     "points": [
+      "Rates each asset's impact as high or low",
+      "Rates each asset's likelihood of attack as high or low",
+      "Places assets in the four boxes of the grid",
+      "Prioritises high-impact, high-likelihood assets first"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber8-16",
+   "title": "2 Staying safe online",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_129.jpg",
+     "alt": "A man in a protective suit, face shield and gloves using a laptop",
+     "caption": "Figure 8"
+    },
+    {
+     "t": "p",
+     "text": "Although you hear terrible stories, most people never have serious problems online. A few simple steps make you and your computer much more secure."
+    },
+    {
+     "t": "h",
+     "text": "Stay up to date"
+    },
+    {
+     "t": "p",
+     "text": "Out-of-date software is one of the biggest problems. Bugs fixed in newer versions may remain in older ones, leaving you vulnerable - especially in operating systems, which manage files and internet connections. Check your OS still gets regular updates (for Microsoft software, search the Microsoft lifecycle policy pages). Applications such as Microsoft Office, Java (used by many websites) and web browsers also need regular updates."
+    },
+    {
+     "t": "p",
+     "text": "If your OS is unsupported or an application is out of date, it's worth investing in updated software - first checking your computer can run it. If not, it may be time for a new computer, or a free Linux OS on older equipment. Back up all your data and passwords first."
+    }
+   ]
+  },
+  {
+   "id": "cyber8-17",
+   "title": "Do the basics",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The basic checklist:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "set up a personal firewall",
+      "install an antivirus program (Macs do need antivirus protection)",
+      "get used to making backups",
+      "require passwords to log in and to unlock the screen",
+      "set up two-factor authentication for all important financial and social media sites",
+      "use a unique strong password for each website",
+      "use a password manager or encrypt your password folder",
+      "use hard disk encryption if you have it - especially on laptops."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "It takes a couple of hours, but your computer will be significantly more secure."
+    },
+    {
+     "t": "h",
+     "text": "Fix your email"
+    },
+    {
+     "t": "p",
+     "text": "Most email applications have **junk mail screening** - if it's not on, turn it on! It scans incoming mail for scams and spam and moves suspects to a junk folder you can check in case genuine messages were misfiled. You can usually train it to treat missed messages as junk in future."
+    }
+   ]
+  },
+  {
+   "id": "cyber8-18",
+   "title": "2.1 Fix your browser",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_130.jpg",
+     "alt": "A pile of chocolate chip cookies",
+     "caption": "Figure 9"
+    },
+    {
+     "t": "p",
+     "text": "Browsers are steadily improving their security, so use the latest version. Simple ways to improve your browser's security:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "use a browser designed to put your security first, such as Brave (brave.com)",
+      "use a search engine that doesn't track you, such as DuckDuckGo (duckduckgo.com)",
+      "use a secure VPN or the TOR browser on public wi-fi."
+     ]
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "**Cookies** are small pieces of data that can track your use of the web. Some websites host cookies belonging to organisations you know nothing about - **third party cookies** - which are no use to you whatsoever. Block them in your browser's tools/preferences menu."
+    }
+   ]
+  },
+  {
+   "id": "cyber8-19",
+   "title": "Can your browser be identified?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "After checking your settings, you can test whether your browser can be identified at panopticlick.eff.org ('Test Me'). Results for a secure browser:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Test",
+      "Result"
+     ],
+     "rows": [
+      [
+       "Is your browser blocking tracking ads?",
+       "Yes"
+      ],
+      [
+       "Is your browser blocking invisible trackers?",
+       "Yes"
+      ],
+      [
+       "Does your blocker stop trackers in the so-called 'acceptable ad' whitelist?",
+       "Yes"
+      ],
+      [
+       "Does your browser unblock 3rd parties that promise to honour 'Do not track'?",
+       "No"
+      ],
+      [
+       "Does your browser protect from fingerprinting?",
+       "Your browser has a unique fingerprint"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Even this secure browser was 'unique among the 224,169 tested in the past 45 days', with a fingerprint conveying at least 17.77 bits of identifying information."
+    }
+   ]
+  },
+  {
+   "id": "cyber8-20",
+   "title": "Your browser's fingerprint",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A web server can detect many attributes of your browser and computer (selected results from the test):"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Characteristic",
+      "Bits of info",
+      "1 in x browsers share it"
+     ],
+     "rows": [
+      [
+       "User agent (browser and OS version)",
+       "7.89",
+       "237.97"
+      ],
+      [
+       "HTTP_ACCEPT headers",
+       "5.77",
+       "54.74"
+      ],
+      [
+       "Browser plugin details",
+       "5.25",
+       "38.01"
+      ],
+      [
+       "Time zone",
+       "2.57",
+       "5.95"
+      ],
+      [
+       "Screen size and colour depth",
+       "5.77",
+       "54.44"
+      ],
+      [
+       "System fonts",
+       "10.32",
+       "1280.97"
+      ],
+      [
+       "Cookies enabled?",
+       "0.24",
+       "1.18"
+      ],
+      [
+       "Limited supercookie test",
+       "0.36",
+       "1.28"
+      ],
+      [
+       "Hash of canvas fingerprint",
+       "17.77",
+       "224169.0"
+      ],
+      [
+       "Hash of WebGL fingerprint",
+       "13.45",
+       "11208.45"
+      ],
+      [
+       "DNT header enabled?",
+       "1.05",
+       "2.07"
+      ],
+      [
+       "Language",
+       "3.94",
+       "15.39"
+      ],
+      [
+       "Platform",
+       "3.06",
+       "8.35"
+      ],
+      [
+       "Touch support",
+       "0.69",
+       "1.61"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Each result alone gives little away (screen size suggests a desktop; platform says Linux). But **combined** they form a digital fingerprint that might identify you wherever you browse - even if you block cookies or pretend to be someone else. For most people that may not matter, but a whistleblower or journalist should know how hard it is to stay hidden."
+    }
+   ]
+  },
+  {
+   "id": "cyber8-21",
+   "title": "Activity 1 Improving your browser security",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "cyber8-a3",
+     "title": "Activity 1 Improving your browser security (about 10 minutes)",
+     "prompt": "Note down how you can further improve your browser security.",
+     "model": "Use the latest version of a browser that puts security first (such as Brave); switch to a search engine that doesn't track you (such as DuckDuckGo); block third party cookies in the browser settings; use a secure VPN or the TOR browser on public wi-fi; and test your browser at panopticlick.eff.org to see how much fingerprinting information it gives away.",
+     "points": [
+      "Keep the browser updated or choose a security-focused browser",
+      "Block third party cookies",
+      "Use a search engine that doesn't track you",
+      "Use a VPN or TOR on public wi-fi, and test fingerprinting"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber8-22",
+   "title": "2.2 Risk management in practice",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_131.jpg",
+     "alt": "Three skydivers under colourful parachutes against a blue sky",
+     "caption": "Figure 10"
+    },
+    {
+     "t": "p",
+     "text": "Having analysed the risks, decide what to do about them. For each risk, identify cost-effective countermeasures:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Avoiding the risk** - stop the activity causing it. E.g. delete all banking information and unsubscribe from internet banking.",
+      "**Modifying the risk (likelihood and/or impact)** - implement a security mechanism that reduces the likelihood or impact of a successful attack. E.g. install up-to-date antivirus so malware can't reach the computer holding your banking information.",
+      "**Transferring the risk to others** - typically taking out insurance to cover losses.",
+      "**Accepting the risk** - implement none of these countermeasures, and instead monitor the asset for attacks."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber8-23",
+   "title": "Check: name that countermeasure",
+   "blocks": [
+    {
+     "t": "match",
+     "id": "cyber8-m3",
+     "title": "Match each action to the type of countermeasure",
+     "pairs": [
+      {
+       "term": "Avoiding the risk",
+       "def": "Unsubscribing from internet banking and deleting all banking information"
+      },
+      {
+       "term": "Modifying the risk",
+       "def": "Installing up-to-date antivirus to make a successful attack less likely"
+      },
+      {
+       "term": "Transferring the risk",
+       "def": "Taking out insurance to cover any losses"
+      },
+      {
+       "term": "Accepting the risk",
+       "def": "Doing nothing except monitoring the asset for attacks"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber8-24",
+   "title": "Choose your countermeasures",
+   "blocks": [
+    {
+     "t": "activity",
+     "id": "cyber8-a4",
+     "title": "Countermeasures for one asset",
+     "prompt": "Consider the risks identified in your qualitative risk analysis. Choose one of your information assets and decide which countermeasures - avoiding, modifying, transferring or accepting the risk - you would apply, and why.",
+     "model": "For example, for online banking details (high impact, high likelihood) avoiding the risk would mean giving up internet banking, so most people modify it instead: up-to-date antivirus, a unique strong password in a password manager, two-factor authentication and checking statements. Some risk is transferred because banks may cover fraud losses if you took reasonable care. For low-impact, low-likelihood assets, accepting and monitoring may be enough.",
+     "points": [
+      "Names a specific information asset",
+      "Chooses one or more of avoid, modify, transfer or accept",
+      "Gives concrete mechanisms (e.g. antivirus, 2FA, backups, insurance)",
+      "Justifies the choice by impact, likelihood or cost"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber8-25",
+   "title": "2.3 Protecting your information assets",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_132.jpg",
+     "alt": "A young woman sitting on a wooden floor with a laptop, surrounded by printed photos",
+     "caption": "Figure 11"
+    },
+    {
+     "t": "p",
+     "text": "You've thought about backups and encryption - but have you put them into practice? Go back to the asset list from your risk analysis and ask:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Have you set up firewalls to protect your networked computers from external attack?",
+      "Are you protected by up-to-date antivirus software?",
+      "Are your operating system and key applications up to date?",
+      "Is important information protected by encryption?"
+     ]
+    },
+    {
+     "t": "activity",
+     "id": "cyber8-a5",
+     "title": "Note your protective measures",
+     "prompt": "Next to each item on your list of information assets, note the measure you have taken to protect it. If you haven't implemented it yet, mark it in a way that will remind you to action it.",
+     "model": "Each asset should have at least one measure noted - e.g. photos: backed up to an external drive and an encrypted cloud folder; banking: antivirus, unique password, two-factor authentication; laptop: firewall on, automatic updates, disk encryption - with any measure not yet in place clearly flagged as a to-do.",
+     "points": [
+      "Lists a protective measure against each asset",
+      "Covers firewalls, antivirus, updates or encryption",
+      "Includes backups where data is irreplaceable",
+      "Flags measures not yet implemented as actions"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber8-26",
+   "title": "2.4 What should I do next?",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_133.jpg",
+     "alt": "A group of green toy soldiers standing in formation",
+     "caption": "Figure 12"
+    },
+    {
+     "t": "p",
+     "text": "You've taken several simple but important steps. Now review your asset list and work out what else you need to do."
+    },
+    {
+     "t": "activity",
+     "id": "cyber8-a6",
+     "title": "Your information security action plan",
+     "prompt": "Based on your risk analysis, create an information security action plan detailing the countermeasures you could implement to protect each asset. Implement at least one set of countermeasures before moving on.",
+     "model": "A good plan lists each asset with its risk rating, the countermeasures chosen (e.g. backups, encryption, antivirus, firewall, two-factor authentication, unique passwords), who does it and by when - starting with high-impact, high-likelihood assets. At least one set of countermeasures is implemented now, and the plan includes periodic reviews of the risk analysis and countermeasures.",
+     "points": [
+      "Lists each asset with the countermeasures to protect it",
+      "Prioritises by the risk analysis",
+      "Implements at least one set of countermeasures now",
+      "Plans periodic review of the analysis and plan"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber8-27",
+   "title": "Planning for the unexpected",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "In time, implement all your countermeasures, and periodically review your risk analysis and action plan to make sure you are maintaining them."
+    },
+    {
+     "t": "p",
+     "text": "Many of your actions will involve secure encryption and secret passwords. That can cause significant problems for your business or family if you become unable to handle them, or die."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Business users** need to analyse how the business would keep access to documents and systems while staying fully secure.",
+      "**Other users** need to decide which assets should remain inaccessible on their death and which should be available to family or friends - and plan how secure passwords can be passed on."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber8-28",
+   "title": "2.5 Tracking a moving target",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_134.jpg",
+     "alt": "The ornate entrance doors of Atlanta City Hall",
+     "caption": "Figure 13"
+    },
+    {
+     "t": "p",
+     "text": "Security is ever-changing. New technologies bring new risks or let old threats resurface in new forms. Old technologies are retired, leaving users exposed as bugs and weaknesses go unfixed. New threats appear every day - such as the **WannaCry** ransomware attack of 2017, or the **SamSam** ransomware that shut down services across the city of Atlanta."
+    },
+    {
+     "t": "p",
+     "text": "On 22 March 2018, Atlanta, Georgia was hit by SamSam, rendering parts of the city government inoperable. Ransomware stops users accessing their data until they pay a ransom, usually in a cryptocurrency such as Bitcoin, for the unlocking keys. SamSam demanded $51,000, payable in seven days or the data would never be recoverable. Some reports say the payment address soon became unavailable; there is no evidence the city paid."
+    }
+   ]
+  },
+  {
+   "id": "cyber8-29",
+   "title": "Atlanta: the impact",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The attack:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "stopped citizens paying for basic services such as water and parking",
+      "stopped employment applications and the issuing of business licences",
+      "meant court warrants could not be validated",
+      "crippled police computers, so officers had to hand-write crime reports."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Other infrastructure, such as the wireless network at the huge Atlanta International airport, was shut down as a precaution. More than two weeks later the city was still struggling to restore services, and some data was clearly lost for good. Atlanta spent more than **$2.6 million** on emergency recovery - extra staff, extra computer infrastructure from Microsoft, consultancy and emergency communications."
+    }
+   ]
+  },
+  {
+   "id": "cyber8-30",
+   "title": "How SamSam spreads - and the lessons",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "SamSam spreads across networked computers connected to the internet rather than by email. Many victims ran Microsoft's **Remote Desktop Protocol (RDP)**; the most vulnerable were misconfigured or running out-of-date software. Its owners seem to attack computers manually before installing SamSam - parts of Atlanta's systems may have been compromised in 2017. Once activated it spreads rapidly across the network before locking data, crippling hundreds or thousands of computers to make payment more likely."
+    },
+    {
+     "t": "p",
+     "text": "Like many big organisations, Atlanta depends on many systems run by many teams with unclear responsibilities, and had not invested enough in security training and prevention (the same problems were found in the NHS after WannaCry). An earlier audit had warned of the risk, but it wasn't fixed."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "SamSam's developers keep releasing new versions, so there will be more victims. Up-to-date antivirus can identify and destroy most forms of SamSam - make sure yours is running and receiving the latest updates."
+    }
+   ]
+  },
+  {
+   "id": "cyber8-31",
+   "title": "Check: SamSam",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "cyber8-q3",
+     "q": "How does SamSam typically get into an organisation?",
+     "options": [
+      "Through phishing emails with infected attachments",
+      "Through internet-connected computers - often misconfigured or out-of-date ones running Remote Desktop Protocol - attacked manually by its owners",
+      "Through infected USB sticks left in car parks"
+     ],
+     "answer": 1,
+     "explain": "SamSam spreads on networked computers connected to the internet rather than through emails; its owners appear to attack vulnerable machines manually first."
+    },
+    {
+     "t": "tf",
+     "id": "cyber8-q4",
+     "q": "An earlier audit had warned Atlanta that it was at risk from cyber attack, but the problems were not fixed.",
+     "answer": true,
+     "explain": "Like other organisations, Atlanta had not invested enough in security training and preventative measures, despite the audit warning."
+    }
+   ]
+  },
+  {
+   "id": "cyber8-32",
+   "title": "3 What do you do now?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "As the course ends, reflect on what you've learned and how it has improved your ability to protect your digital life."
+    },
+    {
+     "t": "p",
+     "text": "At the start of the course learners took a survey on their information security practices. The original course invites you to retake it now, answering based on your habits **now** - there are no right or wrong answers - and compare with your answers at the start. All data is anonymous."
+    },
+    {
+     "t": "p",
+     "text": "When the course was first run, the author, Arosha Bandara, collated the results on his blog ('Cyber security by the rest of us', academic-marginalia.org)."
+    },
+    {
+     "t": "callout",
+     "kind": "tip",
+     "text": "No survey to hand? Use the checklist in the end-of-course round-up later this week to compare your habits now with when you started."
+    }
+   ]
+  },
+  {
+   "id": "cyber8-33",
+   "title": "3.1 Confessional",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_135.jpg",
+     "alt": "Toy builder figurines with traffic cones working on top of a compact disc",
+     "caption": "Figure 14"
+    },
+    {
+     "t": "p",
+     "text": "In Section 2.4 you were asked to implement at least one of the countermeasures in your security action plan."
+    },
+    {
+     "t": "activity",
+     "id": "cyber8-a7",
+     "title": "Activity 2 A security problem (about 20 minutes)",
+     "prompt": "Note down the details of a security problem that you spotted and the countermeasures you took to address it.",
+     "model": "A good answer describes a specific problem (for example reused passwords, no backups of photos, antivirus out of date, an unsupported operating system, or the router's default password), explains why it was a risk using the impact/likelihood idea, and states exactly what was done - such as setting up a password manager and unique passwords, enabling two-factor authentication, scheduling backups or updating software - and how it will be maintained.",
+     "points": [
+      "Describes a specific security problem",
+      "Explains why it was a risk",
+      "States the countermeasure actually taken",
+      "Mentions how the fix will be maintained or reviewed"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber8-34",
+   "title": "4 End-of-course badge quiz: how it works",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Now take the end-of-course quiz, which consolidates your understanding of everything you've studied. In the original course this is the **Week 8 compulsory badge quiz**."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "To get the badge: read each week of the course and score 50% or more in the two badge quizzes, in Week 4 and Week 8. If you don't reach 50% first time, you can try the whole quiz again after 24 hours, as many times as you like.",
+     "title": "Getting your badge"
+    },
+    {
+     "t": "p",
+     "text": "Answers right first time earn more marks than on a second or third attempt. See the badge as an opportunity to reflect on what you have learned rather than as a test - read each explanation after you answer."
+    }
+   ]
+  },
+  {
+   "id": "cyber8-35",
+   "title": "Badge quiz (1 of 5)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "cyber8-q5",
+     "q": "Under the CIA principles, which was violated when unauthorised people read Equifax's customer records (while the data stayed available and unchanged)?",
+     "options": [
+      "Confidentiality",
+      "Integrity",
+      "Availability"
+     ],
+     "answer": 0,
+     "explain": "Confidentiality means information is read only by the right people. Authorised users still had access (availability) and the data was not changed (integrity)."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber8-q6",
+     "q": "What is 'salting' a password?",
+     "options": [
+      "Storing the password in plaintext on a separate server",
+      "Adding a random value to the plaintext password before it is hashed",
+      "Asking the user to change their password every month"
+     ],
+     "answer": 1,
+     "explain": "Salting means that even identical passwords produce completely different hashes; it only works if salts are truly random and long enough."
+    },
+    {
+     "t": "tf",
+     "id": "cyber8-q7",
+     "q": "Withdrawing cash from an ATM with your bank card and PIN is an example of two-factor authentication.",
+     "answer": true,
+     "explain": "Neither the card data nor the PIN alone can access your account; together they can."
+    }
+   ]
+  },
+  {
+   "id": "cyber8-36",
+   "title": "Badge quiz (2 of 5)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "cyber8-q8",
+     "q": "How does a worm differ from a virus?",
+     "options": [
+      "A worm is a standalone application that spreads itself through network connections",
+      "A worm cannot make copies of itself",
+      "A worm disguises itself as a legitimate program such as a screensaver"
+     ],
+     "answer": 0,
+     "explain": "Both self-replicate, but a worm is standalone and spreads over networks. The third option describes a Trojan."
+    },
+    {
+     "t": "tf",
+     "id": "cyber8-q9",
+     "q": "Trojans are self-replicating: they copy themselves to other computers without any help from users.",
+     "answer": false,
+     "explain": "Unlike viruses and worms, Trojans are not self-replicating - they rely on their apparent usefulness to spread."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber8-q10",
+     "q": "In a botnet, what is a 'zombie'?",
+     "options": [
+      "The control computer that sends instructions",
+      "An infected computer that waits, apparently doing nothing, for instructions from the control computer",
+      "An antivirus program that has stopped updating"
+     ],
+     "answer": 1,
+     "explain": "Zombies periodically check for instructions, so they don't raise suspicion until the botnet is used - e.g. for spam or denial-of-service attacks."
+    }
+   ]
+  },
+  {
+   "id": "cyber8-37",
+   "title": "Badge quiz (3 of 5)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "cyber8-q11",
+     "q": "What is a firewall in a computer network?",
+     "options": [
+      "A barrier that blocks dangerous communications spreading into a local network or between parts of it",
+      "A program that encrypts all files on a disk",
+      "A backup copy stored in a fireproof building"
+     ],
+     "answer": 0,
+     "explain": "Like a building's firewall stops fire spreading, a network firewall blocks dangerous communications. It can be a device, part of a router or part of the operating system."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber8-q12",
+     "q": "Traditionally, what was the 'enormous shortcoming' of symmetric encryption?",
+     "options": [
+      "It could not encrypt long messages",
+      "The key had to be sent to the other party, and could be stolen or copied in transit",
+      "Messages could only be decrypted by the sender"
+     ],
+     "answer": 1,
+     "explain": "Whoever intercepted the key could decrypt any ciphertext encrypted with it - and many key pairs are needed between communicating parties."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber8-q13",
+     "q": "Which intrusion detection technique can spot previously unknown attacks, but may flag some legitimate activity as suspicious?",
+     "options": [
+      "Misuse detection",
+      "Anomaly detection",
+      "A honeypot"
+     ],
+     "answer": 1,
+     "explain": "Anomaly detection compares activity with a model of normal behaviour. Misuse detection uses known attack signatures, so it misses new patterns; a honeypot is a monitored trap for studying attackers."
+    }
+   ]
+  },
+  {
+   "id": "cyber8-38",
+   "title": "Badge quiz (4 of 5)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "cyber8-q14",
+     "q": "A hacker exploits an unpatched vulnerability to steal a customer database. Under which UK law has the hacker committed an offence?",
+     "options": [
+      "Data Protection Act",
+      "Computer Misuse Act",
+      "Fraud Act",
+      "RIPA"
+     ],
+     "answer": 1,
+     "explain": "Gaining unauthorised access to a computer system is a CMA offence. The organisation, for failing to patch, would have breached the DPA."
+    },
+    {
+     "t": "tf",
+     "id": "cyber8-q15",
+     "q": "Most cloud storage services are synchronised, so deleting a file on your computer usually deletes the cloud copy too.",
+     "answer": true,
+     "explain": "That's why cloud sync alone doesn't protect you against deletion - although some services keep previous versions."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber8-q16",
+     "q": "Which is the best way to guarantee your data is safe once it is stored in the cloud?",
+     "options": [
+      "Trust the provider's security policy",
+      "Encrypt the contents, e.g. in encrypted folders inside your cloud folder",
+      "Encrypt your whole hard drive"
+     ],
+     "answer": 1,
+     "explain": "Encryption is the only guarantee. Whole-drive encryption does not encrypt the files you back up from the drive."
+    }
+   ]
+  },
+  {
+   "id": "cyber8-39",
+   "title": "Badge quiz (5 of 5)",
+   "blocks": [
+    {
+     "t": "quiz",
+     "id": "cyber8-q17",
+     "q": "Lewis's study materials and digital photographs belong in which box of the risk grid?",
+     "options": [
+      "High impact, high likelihood",
+      "High impact, low likelihood",
+      "Low impact, high likelihood",
+      "Low impact, low likelihood"
+     ],
+     "answer": 1,
+     "explain": "Losing them would hurt, but they have minimal financial value to an attacker, so an attack is unlikely."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber8-q18",
+     "q": "Taking out insurance to cover losses if a threat materialises is an example of...",
+     "options": [
+      "avoiding the risk",
+      "modifying the risk",
+      "transferring the risk",
+      "accepting the risk"
+     ],
+     "answer": 2,
+     "explain": "Transferring passes the cost of the risk to others, typically an insurer."
+    },
+    {
+     "t": "quiz",
+     "id": "cyber8-q19",
+     "q": "Which of these are on the course's 'do the basics' checklist? Select all that apply.",
+     "options": [
+      "Use a unique strong password for each website",
+      "Set up two-factor authentication for important financial and social media sites",
+      "Use the administrator account for everyday web browsing",
+      "Get used to making backups"
+     ],
+     "answer": [
+      0,
+      1,
+      3
+     ],
+     "explain": "Never browse the web or open emails using an administrator account - use a standard account day to day.",
+     "multi": true
+    }
+   ]
+  },
+  {
+   "id": "cyber8-40",
+   "title": "5 End-of-course guide and round-up",
+   "blocks": [
+    {
+     "t": "video",
+     "title": "Cory Doctorow: that's it for this course",
+     "url": null,
+     "note": "Cory: that's it for the course. I hope you've enjoyed it and now feel more confident about navigating the potential risks to your online security. To find out more, or for other courses, visit The Open University's website, where you'll find modules on computing in general and some focusing on different aspects of information security."
+    },
+    {
+     "t": "p",
+     "text": "Over eight weeks you have learned about different types of cyber security threats and the techniques used to counter them. You should now grasp concepts such as **confidentiality, integrity and availability**, and understand the basics of **cryptography, network security and security risk management**."
+    },
+    {
+     "t": "p",
+     "text": "To explore more, OpenLearn has an area dedicated to cyber security (open.edu/openlearn)."
+    }
+   ]
+  },
+  {
+   "id": "cyber8-41",
+   "title": "How have your practices changed?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Use this checklist to see how your practices have changed since you started the course:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "When you start your computer, do you need a password to log in?",
+      "When you leave your computer for a break, does it require a password before you can start working again?",
+      "Do you keep the passwords for your computer in your head?",
+      "Do you keep banking and social media passwords in an encrypted folder or encrypted password manager?",
+      "Do you use a separate unique strong password on each website?",
+      "Do you use antivirus software?",
+      "Do you regularly update the software you use?",
+      "Do you use a firewall on your router or computer?",
+      "Do you keep backups of important data somewhere other than your computer (another disk, computer or the cloud)?"
+     ]
+    },
+    {
+     "t": "activity",
+     "id": "cyber8-a8",
+     "title": "Your end-of-course check",
+     "prompt": "Go through the checklist. Which can you now answer 'yes' to that you couldn't at the start of the course? Which are still 'no', and what will you do about them?",
+     "model": "Ideally every answer is now 'yes'. Any remaining 'no' should become an action in your security action plan - for example turning on a screen lock, moving passwords into an encrypted password manager, enabling automatic updates and the router firewall, and setting up backups stored away from your computer.",
+     "points": [
+      "Identifies practices that have improved",
+      "Identifies practices still missing",
+      "Gives a concrete action for each missing practice",
+      "Links actions to the security action plan"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber8-42",
+   "title": "Summary of the course",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Week by week you have covered: the threat landscape and your information assets (Week 1); authentication and passwords (Week 2); malware (Week 3); networking and communications (Week 4); cryptography (Week 5); network security - firewalls, VPNs and intrusion detection (Week 6); what to do when your defences fail (Week 7); and managing security risks (Week 8)."
+    },
+    {
+     "t": "callout",
+     "kind": "key",
+     "text": "Security is a moving target: keep your risk analysis and action plan under review, keep software and antivirus up to date, and keep backups of everything you can't afford to lose.",
+     "title": "Well done"
+    }
+   ]
+  },
+  {
+   "id": "cyber8-43",
+   "title": "6 Next steps",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "img/cyber_137.jpg",
+     "alt": "Streaks of colourful light from fibre-optic cables",
+     "caption": "Figure 15"
+    },
+    {
+     "t": "p",
+     "text": "Congratulations, you have completed the course! We hope you enjoyed your journey into the world of cyber security."
+    },
+    {
+     "t": "p",
+     "text": "If you already have a computing qualification or relevant experience and want to specialise, The Open University offers postgraduate modules:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "M811 *Information security*",
+      "M812 *Digital forensics*",
+      "T828 *Network security*"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "No computing background? You might be interested in the OU's **BSc (Honours) in Computing and IT**, starting with TU100 *My digital life*."
+    },
+    {
+     "t": "h",
+     "text": "Get careers guidance"
+    },
+    {
+     "t": "p",
+     "text": "The National Careers Service can help you decide your next steps with your new skills."
+    }
+   ]
+  },
+  {
+   "id": "cyber8-44",
+   "title": "Tell us what you think",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The course team would appreciate a few minutes of your time to complete a short, confidential end-of-course survey (surveymonkey.co.uk/r/cyber_security_stay_safe_end) about your experience and what you plan to do next. (You may already have completed it at the end of Week 4.) The findings are used to provide better online experiences for all learners."
+    },
+    {
+     "t": "p",
+     "text": "If you found the course through the Skills Toolkit launched by the UK government in April 2020 and would be willing to give feedback, you can email openlearn@open.ac.uk."
+    },
+    {
+     "t": "h",
+     "text": "Don't miss out"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Join over 200,000 students currently studying with The Open University (open.ac.uk)",
+      "Find out more about this topic or browse all free course materials on OpenLearn (open.edu/openlearn)",
+      "Outside the UK? The OU has students in over a hundred countries studying online qualifications (openuniversity.edu)"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber8-45",
+   "title": "References",
+   "blocks": [
+    {
+     "t": "ul",
+     "items": [
+      "BBC (2019) 'I lost GBP 4,000 in a call centre scam', *BBC News*, 21 October.",
+      "Department for Digital, Culture, Media and Sport (2019) *Cyber Security Breaches Survey 2019*.",
+      "Dragos (2019) *Threat Proliferation in ICS Cybersecurity: XENOTIME now targeting electric sector, in addition to oil and gas*.",
+      "Microsoft (2019) *Microsoft security intelligence report*.",
+      "Sophos (2019) *SophosLabs 2019 Threat Report*.",
+      "Statista (2018) *Annual number of data breaches and exposed records in the United States from 2005 to 2018*.",
+      "Statista (2018) *Share of internet users in the United States who have been victim of online identity theft as of October 2018*.",
+      "TechCrunch (2019a) *Millions of Instagram influencers had their contact data scraped and exposed*.",
+      "TechCrunch (2019b) *A huge database of Facebook users' phone numbers found online*.",
+      "TrendMicro (2019) *2019 Midyear security roundup: Evasive threats, pervasive effects*.",
+      "Verizon (2019) *Summary of findings* (Data Breach Investigations Report).",
+      "ZDNet (2019) *Database leaks data on most of Ecuador's citizens, including 6.7 million children*."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyber8-46",
+   "title": "Acknowledgements and licence",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "This course was written by Arosha K. Bandara. It was last updated in December 2019."
+    },
+    {
+     "t": "p",
+     "text": "Except for third party materials and otherwise stated, this content is made available under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Licence (creativecommons.org/licenses/by-nc-sa/4.0/deed.en_GB). The material acknowledged below is proprietary and used under licence (not subject to the Creative Commons Licence)."
+    },
+    {
+     "t": "p",
+     "text": "**Course image:** Atomic Taco on Flickr, CC BY-SA 2.0. **Week 7 figures:** Alex Wong, Nico Elnino, Shaun Curry and David Gould (via Getty Images); Herzstaub, zimmytws, peeterv, RapidEye, fstop123, stayorgo, wakila, scanrail, Jeff Nagy, v777999, scyther5, kirillm and Mari (via iStock Photo); Mdbeckwith (CC BY-SA 3.0); Scorpions and Centaurs (via Flickr.com). **Week 8 figures:** 1joe, scotto72, swilmor, DonNichols, ishoot63, btrenkel, mjutabor, wakila and Mordolff (via iStock Photo); Geoffrey Meyer-van Voorthuijsen / flickr (CC BY-NC 2.0). Figures in other weeks are credited to their sources, including Getty Images, iStock Photo, Shutterstock, Fotolia, Flickr and Wikimedia Commons."
+    },
+    {
+     "t": "p",
+     "text": "**Audio visual:** Week 1 'Online, the new frontline' (c) HM Government; Week 2 'How to pick a proper password' (c) Sophos; Week 4 extract from *Datababy: How easy is it to become a phone hacker?* (c) Channel4/ITN; Week 7 extract from 'Inside Out' (6/2/12) (c) BBC; other videos (c) The Open University."
+    },
+    {
+     "t": "p",
+     "text": "Every effort has been made to contact copyright owners. If any have been inadvertently overlooked, the publishers will be pleased to make the necessary arrangements at the first opportunity."
+    }
+   ]
+  }
+ ]
+}

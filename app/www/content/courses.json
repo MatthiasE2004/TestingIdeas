@@ -36,15 +36,15 @@
   "title": "Hybrid working",
   "subtitle": "Skills for digital transformation",
   "accent": "#0B0B0B",
-  "chapters": 0,
-  "pages": 0
+  "chapters": 6,
+  "pages": 141
  },
  {
   "id": "cyber",
   "title": "Cyber security",
   "subtitle": "Introduction: stay safe online",
   "accent": "#0B0B0B",
-  "chapters": 0,
-  "pages": 0
+  "chapters": 8,
+  "pages": 363
  }
 ]
