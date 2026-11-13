@@ -14,6 +14,10 @@ COURSES = [
       source="The Open University, OpenLearn - Leadership and followership (CC BY-NC-SA 4.0)", url="https://www.open.edu/openlearn/"),
  dict(id="brand", title="Personal branding", subtitle="For career success", accent="#0B0B0B",
       source="The Open University, OpenLearn - Personal branding for career success (CC BY-NC-SA 4.0)", url="https://www.open.edu/openlearn/"),
+ dict(id="hybrid", title="Hybrid working", subtitle="Skills for digital transformation", accent="#0B0B0B",
+      source="The Open University, OpenLearn - Hybrid working: skills for digital transformation (CC BY-NC-SA 4.0)", url="https://www.open.edu/openlearn/"),
+ dict(id="cyber", title="Cyber security", subtitle="Introduction: stay safe online", accent="#0B0B0B",
+      source="The Open University, OpenLearn - Introduction to cyber security (CC BY-NC-SA 4.0)", url="https://www.open.edu/openlearn/"),
 ]
 BLOCKS = {"h","p","ul","ol","img","callout","quote","table","video","activity","quiz","tf","flash","tool","match"}
 errors = []; warnings = []

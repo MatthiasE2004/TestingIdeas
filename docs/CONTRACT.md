@@ -95,3 +95,7 @@ Where the source has a weekly quiz/badge quiz without question text, write faith
 New block type `match` (use it whenever the source asks to link/match terms with definitions, or examples with categories):
 `{"t":"match","id":"lead2-m1","title":"Match each definition to its term","pairs":[{"term":"Transactional leadership","def":"Leadership based on exchanges and rewards"}, ...]}`
 4-8 pairs; the app shows every definition as a row and pops up a list of all terms to choose from, then checks.
+
+## ADDENDUM 2 (Nov 13): two more courses - same rules as ADDENDUM 1 (ids prefixed with chapter id, no tool blocks, match blocks where fitting, write faithful quiz questions when the source only links to quizzes)
+- Hybrid working course: `.../scratchpad/src/hybrid.md` - "Hybrid working: skills for digital transformation". Sections `## 1 ...` to `## 6 ...` (plus Introduction/Learning outcomes before section 1 and conclusion/references after section 6). Figures and "Uncaptioned interactive content" are collected after line ~3090 - put each where it belongs. Course id `hybrid`; files `hybrid-<n>.json`, n = section 1..6, chapter ids `hybrid1`..`hybrid6`. Images `app/www/img/hybrid_<N>.jpg`.
+- Cyber security course: `.../scratchpad/src/cyber.md` - "Introduction to cyber security: stay safe online", Weeks 1-8 (`[]{#UnitN .anchor}**Week N: ...**`). Course id `cyber`; files `cyber-<n>.json`, chapter ids `cyber1`..`cyber8`. Images `app/www/img/cyber_<N>.jpg`.
