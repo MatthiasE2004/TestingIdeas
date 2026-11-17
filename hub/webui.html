@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1a1915">
+<title>Agent Hub</title>
+<style>
+  :root{--bg:#1a1915;--panel:#24231e;--line:#36342c;--text:#ece9e1;--dim:#9b978b;--accent:#d97757;--ok:#7fb069;--warn:#e0b04a;--err:#e06c5a}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;height:100dvh;display:flex;flex-direction:column}
+  header{display:flex;align-items:center;gap:10px;padding:12px 16px;border-bottom:1px solid var(--line);padding-top:max(12px,env(safe-area-inset-top))}
+  header h1{font-size:17px;margin:0;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  button{background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:9px 14px;font:inherit;cursor:pointer}
+  button.primary{background:var(--accent);border-color:var(--accent);color:#1a1915;font-weight:600}
+  button:disabled{opacity:.45}
+  main{flex:1;overflow:auto}
+  .agent{display:block;width:100%;text-align:left;border:0;border-bottom:1px solid var(--line);border-radius:0;background:none;padding:14px 16px}
+  .agent .t{font-weight:600;display:flex;gap:8px;align-items:center}
+  .agent .p{color:var(--dim);font-size:13px;margin-top:3px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .dot{width:9px;height:9px;border-radius:50%;flex:none;background:var(--dim)}
+  .working .dot{background:var(--warn);animation:pulse 1.2s infinite}
+  .waiting .dot{background:var(--ok)} .busy .dot{background:#6a9fd8} .error .dot{background:var(--err)}
+  @keyframes pulse{50%{opacity:.3}}
+  .proj{font-size:12px;color:var(--dim);font-weight:400;margin-left:auto}
+  .msgs{padding:12px 14px;display:flex;flex-direction:column;gap:10px}
+  .m{max-width:88%;padding:10px 13px;border-radius:14px;white-space:pre-wrap;word-wrap:break-word}
+  .m.user{align-self:flex-end;background:#3b2f27}
+  .m.assistant{align-self:flex-start;background:var(--panel)}
+  .tools{font-size:12px;color:var(--dim);margin-top:6px}
+  .live{align-self:flex-start;color:var(--warn);font-size:13px}
+  footer{display:flex;gap:8px;padding:10px 12px;border-top:1px solid var(--line);padding-bottom:max(10px,env(safe-area-inset-bottom))}
+  textarea,input{flex:1;background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:10px;font:inherit;resize:none}
+  .quick{display:flex;gap:6px;padding:8px 12px 0;overflow-x:auto}
+  .quick button{white-space:nowrap;font-size:13px;padding:6px 10px}
+  .center{padding:24px 16px;display:flex;flex-direction:column;gap:12px;max-width:520px;margin:auto}
+  .dim{color:var(--dim)} .hidden{display:none!important}
+  label{font-size:13px;color:var(--dim)}
+  select{background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:10px;font:inherit}
+</style>
+</head>
+<body>
+<header>
+  <button id="back" class="hidden" aria-label="Back">←</button>
+  <h1 id="title">Agent Hub</h1>
+  <button id="speak" class="hidden" title="Read last reply aloud">🔊</button>
+  <button id="stop" class="hidden">Stop</button>
+  <button id="newBtn" class="hidden">+ New</button>
+</header>
+<main id="main"></main>
+<div id="quick" class="quick hidden"></div>
+<footer id="composer" class="hidden">
+  <button id="mic" title="Dictate">🎤</button>
+  <textarea id="input" rows="1" placeholder="Message this agent…"></textarea>
+  <button id="send" class="primary">Send</button>
+</footer>
+<script>
+const $ = s => document.querySelector(s);
+const store = { get(k){ try{return localStorage.getItem(k)}catch(e){return null} }, set(k,v){ try{localStorage.setItem(k,v)}catch(e){} } };
+let token = new URLSearchParams(location.search).get('token') || store.get('hubToken') || '';
+if (new URLSearchParams(location.search).get('token')) { store.set('hubToken', token); history.replaceState(null,'','/'); }
+let view = 'list', current = null, timer = null, lastReply = '';
+const QUICK = ['Status update?', 'Continue', 'Looks good, go ahead', 'Run the tests', 'Summarize what you did', 'Stop and wait for me'];
+
+async function api(path, opts={}) {
+  const r = await fetch(path, {...opts, headers:{'Content-Type':'application/json', Authorization:'Bearer '+token}});
+  const j = await r.json().catch(()=>({error:r.statusText}));
+  if (r.status === 401) { showLogin('That token was not accepted.'); throw new Error('auth'); }
+  if (!r.ok) throw new Error(j.error || r.statusText);
+  return j;
+}
+function esc(s){ return (s||'').replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function ago(t){ if(!t) return ''; const s=(Date.now()/1000-t)|0; return s<60?'now':s<3600?(s/60|0)+'m':s<86400?(s/3600|0)+'h':(s/86400|0)+'d'; }
+function chrome(){
+  const inChat = view==='chat';
+  $('#back').classList.toggle('hidden', view==='list' || view==='login');
+  $('#newBtn').classList.toggle('hidden', view!=='list');
+  $('#composer').classList.toggle('hidden', !inChat && view!=='new');
+  $('#quick').classList.toggle('hidden', !inChat);
+  $('#speak').classList.toggle('hidden', !inChat);
+}
+
+function showLogin(msg){
+  view='login'; clearInterval(timer); chrome(); $('#title').textContent='Connect';
+  $('#main').innerHTML = `<div class="center"><p>Paste the access token printed by <b>hub.py</b> when it started.</p>
+    ${msg?`<p style="color:var(--err)">${esc(msg)}</p>`:''}
+    <input id="tok" placeholder="Access token" value="${esc(token)}"><button class="primary" id="go">Connect</button></div>`;
+  $('#go').onclick = () => { token = $('#tok').value.trim(); store.set('hubToken', token); showList(); };
+}
+
+async function showList(){
+  view='list'; current=null; chrome(); $('#title').textContent='Agent Hub';
+  clearInterval(timer); await renderList(); timer=setInterval(renderList, 5000);
+}
+async function renderList(){
+  if (view!=='list') return;
+  let j; try { j = await api('/api/agents'); } catch(e){ if(e.message!=='auth') $('#main').innerHTML=`<div class="center dim">${esc(e.message)}</div>`; return; }
+  if (!j.agents.length) { $('#main').innerHTML = '<div class="center dim">No Claude Code sessions found yet. Start one with “+ New”.</div>'; return; }
+  $('#main').innerHTML = j.agents.map(a => `<button class="agent ${a.last_error?'error':a.status}" data-id="${a.id}">
+    <div class="t"><span class="dot"></span><span>${esc(a.title)}</span><span class="proj">${esc(a.project)} · ${ago(a.updated)}</span></div>
+    <div class="p">${esc(a.status==='working'?'⏳ '+a.preview:a.preview)}</div></button>`).join('');
+  document.querySelectorAll('.agent').forEach(b => b.onclick = () => showChat(b.dataset.id));
+}
+
+async function showChat(id){
+  view='chat'; current=id; chrome(); clearInterval(timer);
+  $('#quick').innerHTML = QUICK.map(q=>`<button>${esc(q)}</button>`).join('');
+  $('#quick').querySelectorAll('button').forEach(b => b.onclick = () => send(b.textContent));
+  $('#input').placeholder = 'Message this agent…';
+  await renderChat(true); timer=setInterval(()=>renderChat(false), 3000);
+}
+async function renderChat(scroll){
+  if (view!=='chat') return;
+  let a; try { a = await api('/api/agents/'+current+'?limit=60'); } catch(e){ return; }
+  $('#title').textContent = a.title;
+  const working = a.status==='working';
+  $('#stop').classList.toggle('hidden', !working);
+  $('#send').disabled = working;
+  const lastA = [...a.messages].reverse().find(m=>m.role==='assistant');
+  lastReply = lastA ? lastA.text : '';
+  const main = $('#main'); const atBottom = main.scrollHeight - main.scrollTop - main.clientHeight < 80;
+  main.innerHTML = `<div class="msgs">${a.messages.map(m => `<div class="m ${m.role}">${esc(m.text)}${m.tools&&m.tools.length?`<div class="tools">🔧 ${m.tools.slice(-4).map(esc).join('<br>🔧 ')}${m.tools.length>4?`<br>+${m.tools.length-4} more`:''}</div>`:''}</div>`).join('')}
+    ${working?`<div class="live">⏳ ${esc(a.live&&a.live.activity||'Working…')}</div>`:''}
+    ${a.last_error?`<div class="live" style="color:var(--err)">⚠ ${esc(a.last_error)}</div>`:''}</div>`;
+  if (scroll || atBottom) main.scrollTop = main.scrollHeight;
+}
+
+async function send(text){
+  text = (text ?? $('#input').value).trim(); if (!text) return;
+  try {
+    if (view==='new') {
+      const cwd = $('#cwd').value.trim();
+      const r = await api('/api/agents', {method:'POST', body:JSON.stringify({cwd, text})});
+      $('#input').value=''; showChat(r.agent_id); return;
+    }
+    await api('/api/agents/'+current+'/messages', {method:'POST', body:JSON.stringify({text})});
+    $('#input').value=''; renderChat(true);
+  } catch(e){ if(e.message!=='auth') alert(e.message); }
+}
+
+async function showNew(){
+  view='new'; chrome(); clearInterval(timer); $('#title').textContent='New agent';
+  $('#input').placeholder='What should the new agent do?';
+  let projects=[]; try { projects=(await api('/api/projects')).projects; } catch(e){}
+  $('#main').innerHTML = `<div class="center"><label>Folder on the hub computer</label>
+    <input id="cwd" list="pl" placeholder="/path/to/project" value="${esc(projects[0]?projects[0].cwd:'')}">
+    <datalist id="pl">${projects.map(p=>`<option value="${esc(p.cwd)}">${esc(p.name)}</option>`).join('')}</datalist>
+    <p class="dim">Type the task below and press Send.</p></div>`;
+}
+
+$('#back').onclick = showList;
+$('#newBtn').onclick = showNew;
+$('#send').onclick = () => send();
+$('#input').addEventListener('keydown', e => { if (e.key==='Enter' && !e.shiftKey) { e.preventDefault(); send(); } });
+$('#stop').onclick = async () => { try { await api('/api/agents/'+current+'/stop',{method:'POST'}); renderChat(); } catch(e){ alert(e.message); } };
+$('#speak').onclick = () => { if (!lastReply) return; speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(lastReply.slice(0,3000))); };
+
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+if (!SR) $('#mic').classList.add('hidden');
+$('#mic').onclick = () => {
+  const r = new SR(); r.lang = navigator.language || 'en-US'; r.interimResults = false;
+  $('#mic').textContent='…';
+  r.onresult = e => { $('#input').value = ($('#input').value + ' ' + e.results[0][0].transcript).trim(); };
+  r.onend = () => { $('#mic').textContent='🎤'; };
+  r.start();
+};
+
+token ? showList() : showLogin();
+</script>
+</body>
+</html>
